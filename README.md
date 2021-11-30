@@ -17,3 +17,9 @@ INTERNAL_ID can be left empty in these cases.
 These are in `mappings/outfits/<name>.csv`. <name> should match the INTERNAL_ID associated with the character. 
 
 These are stored in OUTFIT_JP_NAME, DIRECTORY pairs. Outfits appear as CHARACTER_JP_NAME：OUTFIT_JP_NAME in the script, and are stored under `game/characters/sprites`
+
+## mei2rp
+  
+`python mei2rp.py {event,chara} <filename_without_extension>`
+  
+For example: `python mei2rp.py event event01_30_01`
