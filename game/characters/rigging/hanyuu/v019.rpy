@@ -1,8 +1,8 @@
 image hanyuu_v019 fuan_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//fuan_close.png"
 image hanyuu_v019 fuan:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//fuan_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//fuan_open.png"
@@ -15,10 +15,10 @@ image hanyuu_v019 fuan:
   pause 5.0
  repeat
 image hanyuu_v019 fuan_blush_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//fuan_blush_close.png"
 image hanyuu_v019 fuan_blush:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//fuan_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//fuan_blush_open.png"
@@ -31,10 +31,10 @@ image hanyuu_v019 fuan_blush:
   pause 5.0
  repeat
 image hanyuu_v019 futeki_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//futeki_close.png"
 image hanyuu_v019 futeki:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//futeki_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//futeki_open.png"
@@ -47,10 +47,10 @@ image hanyuu_v019 futeki:
   pause 5.0
  repeat
 image hanyuu_v019 futeki_blush_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//futeki_blush_close.png"
 image hanyuu_v019 futeki_blush:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//futeki_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//futeki_blush_open.png"
@@ -63,10 +63,10 @@ image hanyuu_v019 futeki_blush:
   pause 5.0
  repeat
 image hanyuu_v019 normal_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//normal_close.png"
 image hanyuu_v019 normal:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//normal_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//normal_open.png"
@@ -79,10 +79,10 @@ image hanyuu_v019 normal:
   pause 5.0
  repeat
 image hanyuu_v019 normal_blush_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//normal_blush_close.png"
 image hanyuu_v019 normal_blush:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//normal_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//normal_blush_open.png"
@@ -95,10 +95,10 @@ image hanyuu_v019 normal_blush:
   pause 5.0
  repeat
 image hanyuu_v019 odoroki_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//odoroki_close.png"
 image hanyuu_v019 odoroki:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//odoroki_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//odoroki_open.png"
@@ -111,10 +111,10 @@ image hanyuu_v019 odoroki:
   pause 5.0
  repeat
 image hanyuu_v019 odoroki_blush_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//odoroki_blush_close.png"
 image hanyuu_v019 odoroki_blush:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//odoroki_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//odoroki_blush_open.png"
@@ -127,10 +127,10 @@ image hanyuu_v019 odoroki_blush:
   pause 5.0
  repeat
 image hanyuu_v019 sinken_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//sinken_close.png"
 image hanyuu_v019 sinken:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//sinken_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//sinken_open.png"
@@ -143,10 +143,10 @@ image hanyuu_v019 sinken:
   pause 5.0
  repeat
 image hanyuu_v019 sinken_blush_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//sinken_blush_close.png"
 image hanyuu_v019 sinken_blush:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//sinken_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//sinken_blush_open.png"
@@ -159,10 +159,10 @@ image hanyuu_v019 sinken_blush:
   pause 5.0
  repeat
 image hanyuu_v019 smile_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//smile_close.png"
 image hanyuu_v019 smile:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//smile_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//smile_open.png"
@@ -175,10 +175,10 @@ image hanyuu_v019 smile:
   pause 5.0
  repeat
 image hanyuu_v019 smile_blush_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//smile_blush_close.png"
 image hanyuu_v019 smile_blush:
- ypos 900
+ zoom 0.65
  "characters/sprites/hanyuu/v019//smile_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v019//smile_blush_open.png"

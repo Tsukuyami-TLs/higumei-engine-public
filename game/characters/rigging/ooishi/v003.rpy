@@ -1,8 +1,8 @@
 image ooishi_v003 fuan_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//fuan_close.png"
 image ooishi_v003 fuan:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//fuan_close.png"
  pause 0.0667
  "characters/sprites/ooishi/v003//fuan_open.png"
@@ -15,10 +15,10 @@ image ooishi_v003 fuan:
   pause 5.0
  repeat
 image ooishi_v003 futeki_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//futeki_close.png"
 image ooishi_v003 futeki:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//futeki_close.png"
  pause 0.0667
  "characters/sprites/ooishi/v003//futeki_open.png"
@@ -31,10 +31,10 @@ image ooishi_v003 futeki:
   pause 5.0
  repeat
 image ooishi_v003 normal_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//normal_close.png"
 image ooishi_v003 normal:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//normal_close.png"
  pause 0.0667
  "characters/sprites/ooishi/v003//normal_open.png"
@@ -47,10 +47,10 @@ image ooishi_v003 normal:
   pause 5.0
  repeat
 image ooishi_v003 odoroki_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//odoroki_close.png"
 image ooishi_v003 odoroki:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//odoroki_close.png"
  pause 0.0667
  "characters/sprites/ooishi/v003//odoroki_open.png"
@@ -63,10 +63,10 @@ image ooishi_v003 odoroki:
   pause 5.0
  repeat
 image ooishi_v003 sinken_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//sinken_close.png"
 image ooishi_v003 sinken:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//sinken_close.png"
  pause 0.0667
  "characters/sprites/ooishi/v003//sinken_open.png"
@@ -79,10 +79,10 @@ image ooishi_v003 sinken:
   pause 5.0
  repeat
 image ooishi_v003 smile_close:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//smile_close.png"
 image ooishi_v003 smile:
- ypos 900
+ zoom 0.65
  "characters/sprites/ooishi/v003//smile_close.png"
  pause 0.0667
  "characters/sprites/ooishi/v003//smile_open.png"
