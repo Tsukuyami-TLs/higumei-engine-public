@@ -1,0 +1,2 @@
+# You will need to copy the csv package directly into game/python-packages if it does not exist
+unicode-csv

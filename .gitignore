@@ -1,0 +1,16 @@
+
+# Ren'py logging
+errors.txt
+traceback.txt
+log.txt
+
+# Ren'py compiled files
+*.rpyc
+
+# Ren'py runtime
+*.save
+game/saves
+game/cache
+
+# Python objects
+*.py[co]
