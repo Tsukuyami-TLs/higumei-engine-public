@@ -7,7 +7,6 @@ define config.gl2 = True
 
 define rika = Character("Rika")
 
-
 # The game starts here.
 
 label start:

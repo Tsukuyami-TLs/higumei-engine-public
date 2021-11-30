@@ -1,8 +1,8 @@
 image nao_v014 fuan_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//fuan_close.png"
 image nao_v014 fuan:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//fuan_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//fuan_open.png"
@@ -15,10 +15,10 @@ image nao_v014 fuan:
   pause 5.0
  repeat
 image nao_v014 warai_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//warai_close.png"
 image nao_v014 warai:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//warai_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//warai_open.png"
@@ -31,10 +31,10 @@ image nao_v014 warai:
   pause 5.0
  repeat
 image nao_v014 odoroki_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//odoroki_close.png"
 image nao_v014 odoroki:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//odoroki_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//odoroki_open.png"
@@ -47,10 +47,10 @@ image nao_v014 odoroki:
   pause 5.0
  repeat
 image nao_v014 l5_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//l5_close.png"
 image nao_v014 l5:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//l5_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//l5_open.png"
@@ -63,10 +63,10 @@ image nao_v014 l5:
   pause 5.0
  repeat
 image nao_v014 normal_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//normal_close.png"
 image nao_v014 normal:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//normal_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//normal_open.png"
@@ -79,10 +79,10 @@ image nao_v014 normal:
   pause 5.0
  repeat
 image nao_v014 sinken_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//sinken_close.png"
 image nao_v014 sinken:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//sinken_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//sinken_open.png"
@@ -95,10 +95,10 @@ image nao_v014 sinken:
   pause 5.0
  repeat
 image nao_v014 futeki_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//futeki_close.png"
 image nao_v014 futeki:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//futeki_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//futeki_open.png"
@@ -111,10 +111,10 @@ image nao_v014 futeki:
   pause 5.0
  repeat
 image nao_v014 smile_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//smile_close.png"
 image nao_v014 smile:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//smile_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//smile_open.png"
@@ -127,10 +127,10 @@ image nao_v014 smile:
   pause 5.0
  repeat
 image nao_v014 damage_close:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//damage_close.png"
 image nao_v014 damage:
- zoom 0.65
+ 
  "characters/sprites/nao/v014//damage_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//damage_open.png"

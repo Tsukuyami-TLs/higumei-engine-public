@@ -1,8 +1,8 @@
 image hanyuu_v011 fuan_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//fuan_close.png"
 image hanyuu_v011 fuan:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//fuan_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//fuan_open.png"
@@ -15,10 +15,10 @@ image hanyuu_v011 fuan:
   pause 5.0
  repeat
 image hanyuu_v011 fuan_blush_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//fuan_blush_close.png"
 image hanyuu_v011 fuan_blush:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//fuan_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//fuan_blush_open.png"
@@ -31,10 +31,10 @@ image hanyuu_v011 fuan_blush:
   pause 5.0
  repeat
 image hanyuu_v011 futeki_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//futeki_close.png"
 image hanyuu_v011 futeki:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//futeki_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//futeki_open.png"
@@ -47,10 +47,10 @@ image hanyuu_v011 futeki:
   pause 5.0
  repeat
 image hanyuu_v011 futeki_blush_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//futeki_blush_close.png"
 image hanyuu_v011 futeki_blush:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//futeki_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//futeki_blush_open.png"
@@ -63,10 +63,10 @@ image hanyuu_v011 futeki_blush:
   pause 5.0
  repeat
 image hanyuu_v011 normal_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//normal_close.png"
 image hanyuu_v011 normal:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//normal_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//normal_open.png"
@@ -79,10 +79,10 @@ image hanyuu_v011 normal:
   pause 5.0
  repeat
 image hanyuu_v011 normal_blush_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//normal_blush_close.png"
 image hanyuu_v011 normal_blush:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//normal_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//normal_blush_open.png"
@@ -95,10 +95,10 @@ image hanyuu_v011 normal_blush:
   pause 5.0
  repeat
 image hanyuu_v011 odoroki_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//odoroki_close.png"
 image hanyuu_v011 odoroki:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//odoroki_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//odoroki_open.png"
@@ -111,10 +111,10 @@ image hanyuu_v011 odoroki:
   pause 5.0
  repeat
 image hanyuu_v011 odoroki_blush_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//odoroki_blush_close.png"
 image hanyuu_v011 odoroki_blush:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//odoroki_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//odoroki_blush_open.png"
@@ -127,10 +127,10 @@ image hanyuu_v011 odoroki_blush:
   pause 5.0
  repeat
 image hanyuu_v011 sinken_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//sinken_close.png"
 image hanyuu_v011 sinken:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//sinken_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//sinken_open.png"
@@ -143,10 +143,10 @@ image hanyuu_v011 sinken:
   pause 5.0
  repeat
 image hanyuu_v011 sinken_blush_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//sinken_blush_close.png"
 image hanyuu_v011 sinken_blush:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//sinken_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//sinken_blush_open.png"
@@ -159,10 +159,10 @@ image hanyuu_v011 sinken_blush:
   pause 5.0
  repeat
 image hanyuu_v011 smile_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//smile_close.png"
 image hanyuu_v011 smile:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//smile_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//smile_open.png"
@@ -175,10 +175,10 @@ image hanyuu_v011 smile:
   pause 5.0
  repeat
 image hanyuu_v011 smile_blush_close:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//smile_blush_close.png"
 image hanyuu_v011 smile_blush:
- zoom 0.65
+ 
  "characters/sprites/hanyuu/v011//smile_blush_close.png"
  pause 0.0667
  "characters/sprites/hanyuu/v011//smile_blush_open.png"

@@ -127,6 +127,10 @@ default preferences.text_cps = 0
 
 default preferences.afm_time = 15
 
+# Screen resolution
+
+define config.screen_width = 1920
+define config.screen_height = 1080
 
 ## Save directory ##############################################################
 ##

@@ -1,8 +1,8 @@
 image rena_v020 fuan_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//fuan_close.png"
 image rena_v020 fuan:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//fuan_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//fuan_open.png"
@@ -15,10 +15,10 @@ image rena_v020 fuan:
   pause 5.0
  repeat
 image rena_v020 fuan_blush_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//fuan_blush_close.png"
 image rena_v020 fuan_blush:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//fuan_blush_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//fuan_blush_open.png"
@@ -31,10 +31,10 @@ image rena_v020 fuan_blush:
   pause 5.0
  repeat
 image rena_v020 futeki_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//futeki_close.png"
 image rena_v020 futeki:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//futeki_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//futeki_open.png"
@@ -47,10 +47,10 @@ image rena_v020 futeki:
   pause 5.0
  repeat
 image rena_v020 futeki_blush_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//futeki_blush_close.png"
 image rena_v020 futeki_blush:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//futeki_blush_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//futeki_blush_open.png"
@@ -63,10 +63,10 @@ image rena_v020 futeki_blush:
   pause 5.0
  repeat
 image rena_v020 normal_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//normal_close.png"
 image rena_v020 normal:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//normal_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//normal_open.png"
@@ -79,10 +79,10 @@ image rena_v020 normal:
   pause 5.0
  repeat
 image rena_v020 normal_blush_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//normal_blush_close.png"
 image rena_v020 normal_blush:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//normal_blush_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//normal_blush_open.png"
@@ -95,10 +95,10 @@ image rena_v020 normal_blush:
   pause 5.0
  repeat
 image rena_v020 odoroki_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//odoroki_close.png"
 image rena_v020 odoroki:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//odoroki_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//odoroki_open.png"
@@ -111,10 +111,10 @@ image rena_v020 odoroki:
   pause 5.0
  repeat
 image rena_v020 odoroki_blush_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//odoroki_blush_close.png"
 image rena_v020 odoroki_blush:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//odoroki_blush_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//odoroki_blush_open.png"
@@ -127,10 +127,10 @@ image rena_v020 odoroki_blush:
   pause 5.0
  repeat
 image rena_v020 sinken_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//sinken_close.png"
 image rena_v020 sinken:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//sinken_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//sinken_open.png"
@@ -143,10 +143,10 @@ image rena_v020 sinken:
   pause 5.0
  repeat
 image rena_v020 sinken_blush_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//sinken_blush_close.png"
 image rena_v020 sinken_blush:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//sinken_blush_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//sinken_blush_open.png"
@@ -159,10 +159,10 @@ image rena_v020 sinken_blush:
   pause 5.0
  repeat
 image rena_v020 smile_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//smile_close.png"
 image rena_v020 smile:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//smile_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//smile_open.png"
@@ -175,10 +175,10 @@ image rena_v020 smile:
   pause 5.0
  repeat
 image rena_v020 smile_blush_close:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//smile_blush_close.png"
 image rena_v020 smile_blush:
- zoom 0.65
+ 
  "characters/sprites/rena/v020//smile_blush_close.png"
  pause 0.0667
  "characters/sprites/rena/v020//smile_blush_open.png"

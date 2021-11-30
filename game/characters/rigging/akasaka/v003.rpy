@@ -1,8 +1,8 @@
 image akasaka_v003 fuan_close:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//fuan_close.png"
 image akasaka_v003 fuan:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//fuan_close.png"
  pause 0.0667
  "characters/sprites/akasaka/v003//fuan_open.png"
@@ -15,10 +15,10 @@ image akasaka_v003 fuan:
   pause 5.0
  repeat
 image akasaka_v003 futeki_close:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//futeki_close.png"
 image akasaka_v003 futeki:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//futeki_close.png"
  pause 0.0667
  "characters/sprites/akasaka/v003//futeki_open.png"
@@ -31,10 +31,10 @@ image akasaka_v003 futeki:
   pause 5.0
  repeat
 image akasaka_v003 normal_close:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//normal_close.png"
 image akasaka_v003 normal:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//normal_close.png"
  pause 0.0667
  "characters/sprites/akasaka/v003//normal_open.png"
@@ -47,10 +47,10 @@ image akasaka_v003 normal:
   pause 5.0
  repeat
 image akasaka_v003 odoroki_close:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//odoroki_close.png"
 image akasaka_v003 odoroki:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//odoroki_close.png"
  pause 0.0667
  "characters/sprites/akasaka/v003//odoroki_open.png"
@@ -63,10 +63,10 @@ image akasaka_v003 odoroki:
   pause 5.0
  repeat
 image akasaka_v003 sinken_close:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//sinken_close.png"
 image akasaka_v003 sinken:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//sinken_close.png"
  pause 0.0667
  "characters/sprites/akasaka/v003//sinken_open.png"
@@ -79,10 +79,10 @@ image akasaka_v003 sinken:
   pause 5.0
  repeat
 image akasaka_v003 smile_close:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//smile_close.png"
 image akasaka_v003 smile:
- zoom 0.65
+ 
  "characters/sprites/akasaka/v003//smile_close.png"
  pause 0.0667
  "characters/sprites/akasaka/v003//smile_open.png"

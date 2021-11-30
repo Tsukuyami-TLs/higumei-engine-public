@@ -1,8 +1,8 @@
 image shion_v010 fuan_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//fuan_close.png"
 image shion_v010 fuan:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//fuan_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//fuan_open.png"
@@ -15,10 +15,10 @@ image shion_v010 fuan:
   pause 5.0
  repeat
 image shion_v010 fuan_blush_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//fuan_blush_close.png"
 image shion_v010 fuan_blush:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//fuan_blush_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//fuan_blush_open.png"
@@ -31,10 +31,10 @@ image shion_v010 fuan_blush:
   pause 5.0
  repeat
 image shion_v010 futeki_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//futeki_close.png"
 image shion_v010 futeki:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//futeki_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//futeki_open.png"
@@ -47,10 +47,10 @@ image shion_v010 futeki:
   pause 5.0
  repeat
 image shion_v010 futeki_blush_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//futeki_blush_close.png"
 image shion_v010 futeki_blush:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//futeki_blush_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//futeki_blush_open.png"
@@ -63,10 +63,10 @@ image shion_v010 futeki_blush:
   pause 5.0
  repeat
 image shion_v010 normal_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//normal_close.png"
 image shion_v010 normal:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//normal_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//normal_open.png"
@@ -79,10 +79,10 @@ image shion_v010 normal:
   pause 5.0
  repeat
 image shion_v010 normal_blush_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//normal_blush_close.png"
 image shion_v010 normal_blush:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//normal_blush_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//normal_blush_open.png"
@@ -95,10 +95,10 @@ image shion_v010 normal_blush:
   pause 5.0
  repeat
 image shion_v010 odoroki_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//odoroki_close.png"
 image shion_v010 odoroki:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//odoroki_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//odoroki_open.png"
@@ -111,10 +111,10 @@ image shion_v010 odoroki:
   pause 5.0
  repeat
 image shion_v010 odoroki_blush_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//odoroki_blush_close.png"
 image shion_v010 odoroki_blush:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//odoroki_blush_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//odoroki_blush_open.png"
@@ -127,10 +127,10 @@ image shion_v010 odoroki_blush:
   pause 5.0
  repeat
 image shion_v010 sinken_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//sinken_close.png"
 image shion_v010 sinken:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//sinken_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//sinken_open.png"
@@ -143,10 +143,10 @@ image shion_v010 sinken:
   pause 5.0
  repeat
 image shion_v010 sinken_blush_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//sinken_blush_close.png"
 image shion_v010 sinken_blush:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//sinken_blush_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//sinken_blush_open.png"
@@ -159,10 +159,10 @@ image shion_v010 sinken_blush:
   pause 5.0
  repeat
 image shion_v010 smile_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//smile_close.png"
 image shion_v010 smile:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//smile_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//smile_open.png"
@@ -175,10 +175,10 @@ image shion_v010 smile:
   pause 5.0
  repeat
 image shion_v010 smile_blush_close:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//smile_blush_close.png"
 image shion_v010 smile_blush:
- zoom 0.65
+ 
  "characters/sprites/shion/v010//smile_blush_close.png"
  pause 0.0667
  "characters/sprites/shion/v010//smile_blush_open.png"
