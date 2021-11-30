@@ -7,8 +7,36 @@ define config.gl2 = True
 
 define rika = Character("Rika")
 
-# The game starts here.
+init:
+    transform mei_left:
+        xanchor 0.0
+        xpos 0.0
+        xoffset 100
 
+        yanchor 1.0
+        ypos 1.0
+        yoffset 100
+
+    transform mei_right:
+        xanchor 1.0
+        xpos 1.0
+        xoffset -100
+
+        yanchor 1.0
+        ypos 1.0
+        yoffset 100
+    
+    transform mei_center:
+        xanchor 0.5
+        xpos 0.5
+
+        yanchor 1.0
+        ypos 1.0
+        yoffset 100
+    
+
+
+# The game starts here.
 label start:
     jump event01_30_01
     return

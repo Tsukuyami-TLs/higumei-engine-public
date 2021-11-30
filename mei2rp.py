@@ -70,9 +70,9 @@ def get_cmd(command):
     else: return 0, command['cmd0']
 
 def get_pos(p):
-    if p == '左': return 'left'
-    elif p == '右': return 'right'
-    else: return 'center'
+    if p == '左': return 'mei_left'
+    elif p == '右': return 'mei_right'
+    else: return 'mei_center'
 
 def NOP(*args, **kwargs): pass
 '''
