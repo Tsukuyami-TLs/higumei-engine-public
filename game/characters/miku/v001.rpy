@@ -1,0 +1,160 @@
+image miku_v001 fuan_close:
+ ypos 900
+ "images/miku/v001//fuan_close.png"
+image miku_v001 fuan:
+ ypos 900
+ "images/miku/v001//fuan_close.png"
+ pause 0.0667
+ "images/miku/v001//fuan_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 fuan_blush_close:
+ ypos 900
+ "images/miku/v001//fuan_blush_close.png"
+image miku_v001 fuan_blush:
+ ypos 900
+ "images/miku/v001//fuan_blush_close.png"
+ pause 0.0667
+ "images/miku/v001//fuan_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 normal_close:
+ ypos 900
+ "images/miku/v001//normal_close.png"
+image miku_v001 normal:
+ ypos 900
+ "images/miku/v001//normal_close.png"
+ pause 0.0667
+ "images/miku/v001//normal_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 normal_blush_close:
+ ypos 900
+ "images/miku/v001//normal_blush_close.png"
+image miku_v001 normal_blush:
+ ypos 900
+ "images/miku/v001//normal_blush_close.png"
+ pause 0.0667
+ "images/miku/v001//normal_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 odoroki_close:
+ ypos 900
+ "images/miku/v001//odoroki_close.png"
+image miku_v001 odoroki:
+ ypos 900
+ "images/miku/v001//odoroki_close.png"
+ pause 0.0667
+ "images/miku/v001//odoroki_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 odoroki_blush_close:
+ ypos 900
+ "images/miku/v001//odoroki_blush_close.png"
+image miku_v001 odoroki_blush:
+ ypos 900
+ "images/miku/v001//odoroki_blush_close.png"
+ pause 0.0667
+ "images/miku/v001//odoroki_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 sinken_close:
+ ypos 900
+ "images/miku/v001//sinken_close.png"
+image miku_v001 sinken:
+ ypos 900
+ "images/miku/v001//sinken_close.png"
+ pause 0.0667
+ "images/miku/v001//sinken_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 sinken_blush_close:
+ ypos 900
+ "images/miku/v001//sinken_blush_close.png"
+image miku_v001 sinken_blush:
+ ypos 900
+ "images/miku/v001//sinken_blush_close.png"
+ pause 0.0667
+ "images/miku/v001//sinken_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 smile_close:
+ ypos 900
+ "images/miku/v001//smile_close.png"
+image miku_v001 smile:
+ ypos 900
+ "images/miku/v001//smile_close.png"
+ pause 0.0667
+ "images/miku/v001//smile_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image miku_v001 smile_blush_close:
+ ypos 900
+ "images/miku/v001//smile_blush_close.png"
+image miku_v001 smile_blush:
+ ypos 900
+ "images/miku/v001//smile_blush_close.png"
+ pause 0.0667
+ "images/miku/v001//smile_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
