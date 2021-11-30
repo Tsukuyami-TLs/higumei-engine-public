@@ -27,7 +27,7 @@ for outfit in os.listdir(OUTFIT_MAPS):
             OUTFITS[name][line[0]] = line[1]
 
 
-def get_outfit_id(jp):
+def get_outfit(jp):
     if jp == '：': return None
     jp = jp.split('：')
     if len(jp) == 1:
@@ -36,7 +36,8 @@ def get_outfit_id(jp):
     cid, oid = jp
     cid = JP2ID[cid]
     if oid in OUTFITS[cid]:
-        oid = OUTFITS[cid][oid]
+        # NOTE: May want to not have 'v'
+        oid = 'v' + OUTFITS[cid][oid]
     elif oid == '私服':
         oid = 'v002'
     else:
@@ -68,6 +69,42 @@ def get_cmd(command):
     if 'cmd1' in command: return 1, command['cmd1']
     else: return 0, command['cmd0']
 
+def get_pos(p):
+    if p == '左': return 'left'
+    elif p == '右': return 'right'
+    else: return 'center'
+
+def NOP(*args, **kwargs): pass
+'''
+COMMAND_DICT = {
+    'charaload': NOP,
+    '変数': NOP,
+    'shakeset': shakeset,
+    '背景': background,
+    'bgm2': bgm,
+    'bgm': bgm,
+    'fadein': fadein,
+    'motion': motion,
+    'hide': hide,
+    'chara': chara,
+    'fadeout': fadeout,
+    'zoom': zoom,
+    'shakedisp': shakedisp,
+    'shakechara': shakechara,
+    'se2': se2,
+    'wait': wait,
+    'serifclose': serifclose,
+    'move': move,
+    'bgmstop': bgmstop,
+    'wipeout': wipeout,
+    'wipein': wipein,
+    'shader': shader,
+    'setdispname': setdispname,
+    'removedispname': removedispname,
+    'effect': effect,
+    'voice': voice,
+}
+'''
 def compile_commands(commands, translation):
     outlines = []
     local = {}
@@ -83,6 +120,22 @@ def compile_commands(commands, translation):
 
         elif cmd == 'setdispname':
             local[line['arg0']] = line['arg1']
+
+        elif cmd == 'chara':
+            outfit = get_outfit(line['arg0'])
+            expr = line['arg1']
+            pos = get_pos(line['arg2'])
+            outlines.append(f'show {outfit} {expr} at {pos}')
+            if typ == 0 and 'arg4' in line:
+                time = int(line["arg4"]) / 100
+                outlines.append(f'with Dissolve({time})')
+
+        elif cmd == 'hide':
+            outfit = get_outfit(line['arg0'])
+            outlines.append(f'hide {outfit}')
+            if typ == 0 and 'arg1' in line:
+                time = int(line["arg1"]) / 100
+                outlines.append(f'with Dissolve({time})')
 
     return "\n".join(outlines)
 
