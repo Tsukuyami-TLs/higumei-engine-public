@@ -16,4 +16,6 @@ game/cache
 *.py[co]
 
 # Heavy assets
+game/audio/
 game/characters/sprites/
+game/images/
