@@ -76,6 +76,29 @@ style frame:
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
+style button_story:
+    background Frame("gui/button/FrmBlood.png", left=280, top=20, right=240, bottom=None, tile=False)
+    xminimum 1300
+    yminimum 140
+
+style button_story_text:
+    color "#000"
+    align (0.5, 0.5)
+
+
+style button_back:
+    idle_background "gui/button/BtnBackBlank.png"
+    hover_background "gui/button/BtnBackBlankOn.png"
+    xpos 40
+    ypos 30
+
+style button_back_text:
+    size 45
+    xoffset 88
+    yoffset -3
+    outlines [(absolute(4), "#000", absolute(0), absolute(0))]
+
+
 
 ################################################################################
 ## In-game screens
@@ -136,7 +159,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/adv_MsgWindow.png", xalign=0.5, ypos=-62)
 
 style namebox:
     xpos gui.name_xpos
@@ -223,7 +246,7 @@ style choice_button_text is button_text
 
 style choice_vbox:
     xalign 0.5
-    ypos 270
+    ypos 405
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -268,7 +291,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = True
+default quick_menu = False
 
 style quick_button is default
 style quick_button_text is button_text
@@ -301,7 +324,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("Start") action ShowMenu("story_select")
 
         else:
 
@@ -323,12 +346,15 @@ screen navigation():
 
         textbutton _("About") action ShowMenu("about")
 
-        if renpy.variant("pc"):
+        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("Help") action ShowMenu("help")
 
-            ## The quit button is banned on iOS and unnecessary on Android.
+        if renpy.variant("pc"):
+
+            ## The quit button is banned on iOS and unnecessary on Android and
+            ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
 
 
@@ -356,7 +382,7 @@ screen main_menu():
 
     style_prefix "main_menu"
 
-    add gui.main_menu_background
+    add gui.main_menu_background at truecenter
 
     ## This empty frame darkens the main menu.
     frame:
@@ -366,9 +392,16 @@ screen main_menu():
     ## contents of the main menu are in the navigation screen.
     use navigation
 
+    image "gui/higulogo_mei.png":
+        xzoom 0.6
+        yzoom 0.6
+        xalign 0.9
+        yalign -0.3
+
     if gui.show_name:
 
         vbox:
+            
             text "[config.name!t]":
                 style "main_menu_title"
 
@@ -383,17 +416,17 @@ style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
-    xsize 280
+    xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    #background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
-    xoffset -20
-    xmaximum 800
+    xoffset -30
+    xmaximum 1200
     yalign 1.0
-    yoffset -20
+    yoffset -30
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
@@ -403,6 +436,101 @@ style main_menu_title:
 
 style main_menu_version:
     properties gui.text_properties("version")
+
+
+
+
+## Story Select screen ############################################################
+
+screen story_select():
+
+    tag menu
+
+    add "images/menu/PhotoStoryTop.png":
+        xpos 67
+        ypos 24
+        xzoom 0.466
+        yzoom 0.466
+        rotate 10
+
+    add "images/menu/BgStoryTop.png" at center
+
+    textbutton "Title Screen" style "button_back" action ShowMenu("main_menu")
+        
+
+    vbox:
+        xalign 0.9
+        yalign 0.5
+        spacing 18
+
+        imagebutton idle "gui/button/BtnMainStory.png" at grayscale action NullAction()
+
+        hbox:
+            spacing 18
+
+            imagebutton idle "gui/button/BtnCharaStory.png" action ShowMenu("characters")
+            imagebutton idle "gui/button/BtnTips.png" at grayscale action NullAction()          
+            imagebutton idle "gui/button/BtnEventStory.png" action ShowMenu("events")
+
+
+## Character Story Select screen ############################################################
+
+screen characters():
+
+    tag menu
+
+    add "images/menu/CharaStoryBg.png" at center
+
+    textbutton "Back" style "button_back" action ShowMenu("story_select")
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 10
+
+        textbutton "\"Chiester Sister Corps\" Nao Houtani" style "button_story" action NullAction()
+        textbutton "\"The Golden Witch\" Beatrice" style "button_story" action NullAction()
+        textbutton "\"Witch of Truth\" Erika Furudo" style "button_story" action NullAction()
+        textbutton "\"Inquisitor of Heresy\" Dlanor" style "button_story" action NullAction()
+
+
+## TIPS Select screen ############################################################
+
+screen tips():
+
+    tag menu
+
+    add "images/menu/TipsStoryBg.png" at center
+
+    textbutton "Back" style "button_back" action ShowMenu("story_select")
+        
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 10
+
+        textbutton "TIPS" style "button_story" action NullAction()
+
+
+## Event Story Select screen ############################################################
+
+screen events():
+
+    tag menu
+
+    add "images/menu/EventStoryBg.png" at center
+
+    textbutton "Back" style "button_back" action ShowMenu("story_select")
+        
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 10
+
+        textbutton "The Witch's Bloodstained Birthday Banquet" style "button_story" action Start("event01_30_00")
+
 
 
 ## Game Menu screen ############################################################
@@ -495,32 +623,32 @@ style return_button is navigation_button
 style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
-    bottom_padding 30
-    top_padding 120
+    bottom_padding 45
+    top_padding 180
 
     background "gui/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
-    xsize 280
+    xsize 420
     yfill True
 
 style game_menu_content_frame:
-    left_margin 40
-    right_margin 20
-    top_margin 10
+    left_margin 60
+    right_margin 30
+    top_margin 15
 
 style game_menu_viewport:
-    xsize 920
+    xsize 1380
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable
 
 style game_menu_side:
-    spacing 10
+    spacing 15
 
 style game_menu_label:
-    xpos 50
-    ysize 120
+    xpos 75
+    ysize 180
 
 style game_menu_label_text:
     size gui.title_text_size
@@ -530,7 +658,7 @@ style game_menu_label_text:
 style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
-    yoffset -30
+    yoffset -45
 
 
 ## About screen ################################################################
@@ -561,10 +689,6 @@ screen about():
                 text "[gui.about!t]\n"
 
             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
-
-
-## This is redefined in options.rpy to add text to the about screen.
-define gui.about = ""
 
 
 style about_label is gui_label
@@ -685,8 +809,8 @@ style slot_time_text is slot_button_text
 style slot_name_text is slot_button_text
 
 style page_label:
-    xpadding 50
-    ypadding 3
+    xpadding 75
+    ypadding 5
 
 style page_label_text:
     text_align 0.5
@@ -724,7 +848,7 @@ screen preferences():
             hbox:
                 box_wrap True
 
-                if renpy.variant("pc"):
+                if renpy.variant("pc") or renpy.variant("web"):
 
                     vbox:
                         style_prefix "radio"
@@ -829,20 +953,20 @@ style mute_all_button_text is check_button_text
 
 style pref_label:
     top_margin gui.pref_spacing
-    bottom_margin 2
+    bottom_margin 3
 
 style pref_label_text:
     yalign 1.0
 
 style pref_vbox:
-    xsize 225
+    xsize 338
 
 style radio_vbox:
     spacing gui.pref_button_spacing
 
 style radio_button:
     properties gui.button_properties("radio_button")
-    foreground "gui/button/check_[prefix_]foreground.png"
+    foreground "gui/button/radio_[prefix_]foreground.png"
 
 style radio_button_text:
     properties gui.button_text_properties("radio_button")
@@ -858,18 +982,18 @@ style check_button_text:
     properties gui.button_text_properties("check_button")
 
 style slider_slider:
-    xsize 350
+    xsize 525
 
 style slider_button:
     properties gui.button_properties("slider_button")
     yalign 0.5
-    left_margin 10
+    left_margin 15
 
 style slider_button_text:
     properties gui.button_text_properties("slider_button")
 
 style slider_vbox:
-    xsize 450
+    xsize 675
 
 
 ## History screen ##############################################################
@@ -903,6 +1027,7 @@ screen history():
 
                     label h.who:
                         style "history_name"
+                        substitute False
 
                         ## Take the color of the who text from the Character, if
                         ## set.
@@ -910,7 +1035,8 @@ screen history():
                             text_color h.who_args["color"]
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what
+                text what:
+                    substitute False
 
         if not _history_list:
             label _("The dialogue history is empty.")
@@ -918,7 +1044,7 @@ screen history():
 
 ## This determines what tags are allowed to be displayed on the history screen.
 
-define gui.history_allow_tags = set()
+define gui.history_allow_tags = { "alt", "noalt" }
 
 
 style history_window is empty
@@ -979,7 +1105,7 @@ screen help():
         style_prefix "help"
 
         vbox:
-            spacing 15
+            spacing 23
 
             hbox:
 
@@ -1105,14 +1231,14 @@ style help_text is gui_text
 
 style help_button:
     properties gui.button_properties("help_button")
-    xmargin 8
+    xmargin 12
 
 style help_button_text:
     properties gui.button_text_properties("help_button")
 
 style help_label:
-    xsize 250
-    right_padding 20
+    xsize 375
+    right_padding 30
 
 style help_label_text:
     size gui.text_size
@@ -1149,7 +1275,7 @@ screen confirm(message, yes_action, no_action):
         vbox:
             xalign .5
             yalign .5
-            spacing 30
+            spacing 45
 
             label _(message):
                 style "confirm_prompt"
@@ -1157,7 +1283,7 @@ screen confirm(message, yes_action, no_action):
 
             hbox:
                 xalign 0.5
-                spacing 100
+                spacing 150
 
                 textbutton _("Yes") action yes_action
                 textbutton _("No") action no_action
@@ -1204,7 +1330,7 @@ screen skip_indicator():
     frame:
 
         hbox:
-            spacing 6
+            spacing 9
 
             text _("Skipping")
 
@@ -1409,7 +1535,7 @@ style nvl_button_text:
 
 style pref_vbox:
     variant "medium"
-    xsize 450
+    xsize 675
 
 ## Since a mouse may not be present, we replace the quick menu with a version
 ## that uses fewer and bigger buttons that are easier to touch.
@@ -1418,16 +1544,18 @@ screen quick_menu():
 
     zorder 100
 
-    hbox:
-        style_prefix "quick"
+    if quick_menu:
 
-        xalign 0.5
-        yalign 1.0
+        hbox:
+            style_prefix "quick"
 
-        textbutton _("Back") action Rollback()
-        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-        textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Menu") action ShowMenu()
+            xalign 0.5
+            yalign 1.0
+
+            textbutton _("Back") action Rollback()
+            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Auto") action Preference("auto-forward", "toggle")
+            textbutton _("Menu") action ShowMenu()
 
 
 style window:
@@ -1436,7 +1564,7 @@ style window:
 
 style radio_button:
     variant "small"
-    foreground "gui/phone/button/check_[prefix_]foreground.png"
+    foreground "gui/phone/button/radio_[prefix_]foreground.png"
 
 style check_button:
     variant "small"
@@ -1456,7 +1584,7 @@ style game_menu_outer_frame:
 
 style game_menu_navigation_frame:
     variant "small"
-    xsize 340
+    xsize 510
 
 style game_menu_content_frame:
     variant "small"
@@ -1464,7 +1592,7 @@ style game_menu_content_frame:
 
 style pref_vbox:
     variant "small"
-    xsize 400
+    xsize 600
 
 style bar:
     variant "small"
@@ -1508,9 +1636,4 @@ style slider_pref_vbox:
 
 style slider_pref_slider:
     variant "small"
-    xsize 600
-
-
-
-
-
+    xsize 900

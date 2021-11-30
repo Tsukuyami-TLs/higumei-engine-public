@@ -1,58 +1,86 @@
-﻿# The script of the game goes in this file.
+﻿define config.gl2 = True
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+define config.default_transform = truecenter
 
-define config.gl2 = True
+# Custom sprite positions
 
-define rika = Character("Rika")
+transform mei_center:
+    xanchor 0.5
+    xpos 0.5
 
-init:
-    transform mei_left:
-        xanchor 0.0
-        xpos 0.0
-        xoffset 100
+    yalign 1.0
+    yoffset 120
 
-        yanchor 1.0
-        ypos 1.0
-        yoffset 100
+transform mei_left:
+    xanchor 0.5
+    xpos 0.25
 
-    transform mei_right:
-        xanchor 1.0
-        xpos 1.0
-        xoffset -100
+    yalign 1.0
+    yoffset 120
 
-        yanchor 1.0
-        ypos 1.0
-        yoffset 100
-    
-    transform mei_center:
-        xanchor 0.5
-        xpos 0.5
+transform mei_right:
+    xanchor 0.5
+    xpos 0.74
 
-        yanchor 1.0
-        ypos 1.0
-        yoffset 100
-    
+    yalign 1.0
+    yoffset 120
+
+# Declare music files.
+
+define event7 = "audio/bgm/BGM_EVENT7.wav"
+
+# Declare backgrounds
+
+# Color transforms
+
+transform grayscale:
+    matrixcolor SaturationMatrix(0.0)
+
+transform sepia:
+    matrixcolor SepiaMatrix()
+
+transform inverse:
+    matrixcolor InvertMatrix(1.0)
+
+# Click to continue
+
+image Arrow1 = "gui/adv_Arrow1.png"
+image Arrow2 = "gui/adv_Arrow2.png"
+
+image ctcArrow:
+    contains:
+        xpos 1630 ypos 992 xanchor 0.5
+        "Arrow1"
+        parallel:
+            0.1
+            ease 0.1 xzoom 0.0
+            ease 0.1 xzoom 1.0
+        parallel:
+            ease 0.4 yoffset 20
+        0.1
+        ease 0.4 yoffset 0
+        repeat
+    contains:
+        xpos 1630 ypos 984 xanchor 0.5
+        "Arrow2"
+        parallel:
+            ease 0.1 xzoom 0.0
+            ease 0.1 xzoom 1.0
+        parallel:
+            0.1
+            ease 0.4 yoffset 20
+        ease 0.4 yoffset 0
+        repeat
+
+# Declare characters
+
+define narrator = Character(None, ctc="ctcArrow", ctc_position="fixed")
 
 
 # The game starts here.
+
 label start:
-    jump event01_30_01
-    return
 
-
-label rika_test:
-    show rika_v001 smile
-    rika "Nipaah. I am blinking frequently for demonstration purposes"
-    
-    show rika_v001 futeki_close
-    rika "Now I will close my eyes and be smug!"
-
-    show rika_v001 odoroki_blush
-    rika "Surprised blush"
-
-    hide rika_v001 with dissolve
-    rika "Poof"
+    #jump main_prologue
 
     return
