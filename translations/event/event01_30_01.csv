@@ -1,4 +1,4 @@
-event01_30_01.bytes,,hanss,100,,, 
+event01_30_01.bytes,,,hanss,,, 
 index,chara,jp,en,Notes,,
 29,,六軒島へは、新島から別の船に乗り換える。,"To get to Rokkenjima, we transferred onto another boat at Niijima.",,,
 30,,"　フェリーと違い、小型の高速船だったので、かなり揺れたが、ス
@@ -7,7 +7,7 @@ index,chara,jp,en,Notes,,
 35,Mion (Casual),"どうしたの、菜央ちゃん？　ひょっとして、おトイレ、我慢して
 るー？","What wrong, Nao-chan? Do you need to go to the washroom?",,,
 37,Nao (Casual),別に、そういう訳じゃないです……。,It's not that......,,,
-40,,あたしの表情が晴れないのは、……アイツのせいなのだ。,The reason I'm so gloomy is...... because of her.,"lit. ""my expression isn't sunny"". not sure if there's a better tl than anxious",,
+40,,あたしの表情が晴れないのは、……アイツのせいなのだ。,The reason I'm so gloomy is...... because of her.,,,
 44,ヱリカ,"まぁ、本当に偶然なんですけれどね。あの時はもう、溺れて死ぬか
 と思いました。","Well, it really is just a coincidence. At that time, I thought I was going to drown.",,,
 46,詩音 (Casual),"それで流れ着いた先が、洋館の孤島だったなんて、何だか素敵な偶
@@ -25,7 +25,7 @@ index,chara,jp,en,Notes,,
 ささやかな縁があるのだという……。","Then, by coincidence, she washed up on Rokkenjima and was taken care of. And so, she has a small connection with them.",,,
 64,ヱリカ,"こちらの瓜二つな双子姉妹のお二人にはお名前をもううかがいまし
 た。そちらの小さなお嬢さんの、貴女の名前を聞かせて下さいな？","The two twins sisters have already given us their names. Young miss over there, would you please tell us your name?",,,
-66,Nao (Casual),………………。,..................,When the ellipses,,
+66,Nao (Casual),………………。,..................,,,
 68,Nao (Casual),鳳谷菜央よ……。,I'm... Nao Houtani,,,
 70,ヱリカ,"あら、可愛らしい名前ですね。菜央ちゃんって呼ばせてもらっても
 いいですか？","Ah, isn't that a cute name? Would it be alright if I called you Nao-chan?",,,
@@ -43,7 +43,8 @@ index,chara,jp,en,Notes,,
 推理を見せるのに、という反発と。","I admire the splendid logic, but was let down by the fact that I could have shown an even more brilliant deduction. ","unsure about ""let down"", jp is more along the lines of ""repulsed"" I think?",,
 96,,"　園崎姉妹とヱリカ……さんは、何だか意気投合してしまってい
 る。
-　あたしだけが気まずい。……はぁ。",The Sonozaki sisters and Erika......san have somehow hit it off. I'm the only one left out......haa.,,,
+　あたしだけが気まずい。……はぁ。","The Sonozaki sisters and Erika......san have somehow hit it off. 
+I'm the only one left out......haa.",,,
 97,,"　もう、六軒島に辿り着く前に、来なければよかったと感じ始めて
 いるのだった。","We haven't even made it to Rokkenjima, and I'm already getting the feeling that I shouldn't have come.",,,
 100,Nao (Casual),"レナちゃん、……あんなに楽しみにしてたのに、譲ってくれたんだ
@@ -55,7 +56,7 @@ index,chara,jp,en,Notes,,
 116,詩音 (Casual),"……お姉、止めて下さい。海を見るのが初めての田舎者と思われま
 す。",......Sis calm down please. Everyone's going to think you're a hick seeing the ocean for the first time.,,,
 121,ヱリカ,"では問題です。……六軒島という名は、どういう謂れで付けられた
-でしょう？","Now, I have a question. Why do you think the island is called Rokkenjima (Six House Island)?",Oh no I'm going to have to explain japanese,,
+でしょう？","Now, I have a question. Why do you think the island is called Rokkenjima (Six House Island)?",,,
 123,,"　……大昔、家が６軒あったから、何て謂れだったら、簡単過ぎ
 る。","......If it's because there were six houses on the island a long time ago , then it'd be too easy.",,,
 124,,同じことを魅音さんが口にしてくれた。,But it's also that exact answer which comes out of Mion's mouth.,,,
@@ -82,7 +83,8 @@ index,chara,jp,en,Notes,,
 トでもあるんですからね！","We're not just test guests here, we're also resort consultants!","here vs ""this time""",,
 168,,"　……園崎姉妹は本当に強いわ。
 　まぁ、オヤシロさまの#p祟#sたた#rり云々の洗礼を日常的に浴びてるから、
-この程度、へっちゃらなのかも……。",......The Sonozaki sisters really are unfazed. Maybe it's not a big deal when you're constantly living under Oyashiro-sama's curse.,,,
+この程度、へっちゃらなのかも……。","......The Sonozaki sisters really are unfazed. 
+Maybe it's not a big deal when you're constantly living under Oyashiro-sama's curse.",,,
 171,ヱリカ,というのは、私が今、適当に考えた設定ですが。,"Although, that story was something I just made up.",,,
 173,ヱリカ,"……島に近付く者の魂を、悪霊が食い散らかすとのことから、悪食
 島と呼ばれていたのは本当です。",...the truth is that the island used to be called Akujikushima (Evil Appetite Island) because the souls of anyone who came near would be eaten by evil spirits.,,,
@@ -104,7 +106,8 @@ index,chara,jp,en,Notes,,
 高潮のようだった。","The Sonozaki sisters, excited by the talk of the witch, seemed to be in high spirits even before reaching the island.",,,
 198,,"　別にあたしは怖がりとかじゃないけれど……。
 　魔女だの悪霊だのの島を、わざわざバカンスの先に選ぶ趣味は、
-ないんだから。",I'm not afraid but...... I'm not particularly fond of taking a vacation on an island of witches and evil spirits. ,,,
+ないんだから。","I'm not particularly afraid but...... 
+I'm not particularly fond of taking a vacation on an island of witches and evil spirits. ",,,
 207,朱志香,皆様、ようこそ六軒島へ！,Welcome to Rokkenjima everyone!,,,
 209,紗音,長い船旅を、本当にお疲れ様でございました。,You must all be exhausted from the long boat ride.,,,
 212,,"　右代宮家の御令嬢と使用人たちが、わざわざ船着き場で待ってい
@@ -121,7 +124,8 @@ index,chara,jp,en,Notes,,
 241,詩音 (Casual),この島ですべきことの、準備が詰まっていますので。,One should be thoroughly prepared for this island.,,,
 247,,"　ここでは、観光バスの時間とか団体行動とか、そういう制約は何
 もない。
-　それぞれのペースでのんびり楽しめばいいのだ。","Here, there's no restrictions like tour bus times or group activities. Everyone can enjoy things at their own leisurely pace.",,,
+　それぞれのペースでのんびり楽しめばいいのだ。","Here, there's no restrictions like tour bus times or group activities. 
+Everyone can enjoy things at their own leisurely pace.",,,
 248,,"　あたしは、着替えと洗面道具と、読みかけの本と刺繍の道具しか
 持ってきてないので、可愛い大きさのトランクで事足りる。","I only brought a change of clothes, toiletries, a book to read, and an embroidery set, so a cutely sized trunk was enough.",,,
 252,ヱリカ,私は、持ってもらうほどの荷物もありませんので。,I don't have any luggage for you to carry.,,,
@@ -150,19 +154,22 @@ index,chara,jp,en,Notes,,
 299,,"　荷物を運ばせているので身軽な詩音さんは、一足先に長い階段を
 登り切る。","Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.",,,
 300,,"　そして、そこに広がっている光景に、我を失うほどの感動をして
-いた……。","There, the view opened up and I almost lost myself in the scenery......",This one is hard to tl,,
+いた……。","There, the view opened up and I almost lost myself in the scenery......",proofread!,,
 316,Nao (Casual),ほ……ほわぁぁ…………！,H.......Hwaa............!,,,
 318,,"　まさに絶景。まさに絶句。
 　……あぁ、フェリーでの一件から、何だかずっと面白くないよう
-な気持ちに取り憑かれていたけれど。","The spectacular view truly had me lost for words. ......aa, and to think I'd been feeling uneasy over the incident on the ferry.",revisit,,
+な気持ちに取り憑かれていたけれど。","The spectacular view truly had me speechless. 
+......aah, and to think I'd been feeling uneasy over the incident on the ferry.",proofread!,,
 322,Mion (Casual),こ、……これはすごいね…………。,Thi-......this is fantastic......,,,
 324,詩音 (Casual),"ルチーアにも薔薇の庭園はありましたが、……これと比べたら霞み
 ます。",St. Lucia also had a rose garden but...... it's nothing compared to this.,,,
 327,,"　あたしは、これの為に来たのだ。
-　この世のものとは思えない、美しい薔薇の庭園。",This is what I came for. A beautiful rose garden out of this world.,,,
+　この世のものとは思えない、美しい薔薇の庭園。","This is what I came for. 
+A beautiful rose garden out of this world.",,,
 328,,"　もし、死ぬ場所を選べることになったなら、……あたしは、この
 美しい薔薇に囲まれて、うたた寝をするように眠りたい。
-　そう思ってしまうほどの光景だった……。","""If I could choose where I die, ...then I would want to be surrounded by these beautiful roses, and fall asleep as if I were taking a nap."" It was the type of scene that made you think something like that.",,,
+　そう思ってしまうほどの光景だった……。","""If I could choose where I die, ...then I would want to be surrounded by these beautiful roses, and fall asleep as if I were taking a nap."" 
+It was the type of scene that made you think something like that.",,,
 332,紗音,お褒めの言葉をありがとうございます。,Thank you very much for the words of praise.,,,
 334,朱志香,"へへ。嘉音くんの手入れがいいから、今年も最高の薔薇が咲いた
 ぜ！","Hehe. Thanks to Kanon-kun's wonderful care, we've had the best roses ever this year!",,,
@@ -193,12 +200,14 @@ index,chara,jp,en,Notes,,
 スターキーを持っていますので。",Don't worry. If that happens please tell one of the servants. They have master keys.,,,
 411,,"　何れにせよ、大切な鍵だ。ここは年長者に預けておくべきだろ
 う。
-　魅音さんに預けておくことにする。","In any case, it's an important key. I'd better leave it in the hands of my seniors. I'll give it to Mion.",,,
+　魅音さんに預けておくことにする。","In any case, it's an important key. I'd better leave it in the hands of my seniors. 
+I'll give it to Mion.",,,
 415,,"　あたしたちは２階にあがり、それぞれの部屋に入り、
 荷物を置く。","We went up to the second floor, entered our rooms and set down our bags.",,,
 418,,"　あたしたちの部屋は、３つのベッドが並ぶ３人部屋だ。
 　隣のヱリカさんの部屋も同じだろうが、そちらはヱリカさん１人
-で使うのだ。","Our room is a three person room with three beds. Erika-san's room next to ours is the same, although she's the only one using it.",,,
+で使うのだ。","Our room is a three person room with three beds. 
+Erika-san's room next to ours is the same, although she's the only one using it.",,,
 422,Nao (Casual),……これは、いいお部屋ですね。,......it's a nice room isn't it?,,,
 424,詩音 (Casual),"こういう建物って、見学は出来ても、実際に泊まれるのって、なか
 なかないですよね。","You can visit these types of buildings, but it's not often you get to stay in one.",,,
@@ -223,14 +232,14 @@ index,chara,jp,en,Notes,,
 鍵を壊してしまうなんて。","That's Mion-san for you. I can't believe she broke the window's lock almost immediately after entering the room, let alone on the first day.",,,
 472,,"　まぁ、窓自体は閉まるし、２階の窓だから施錠が出来なくても、
 それほど心配はない。","Well, the window closes on its own. Since we're on the second floor I'm not that worried about being unable to lock it.",,,
-476,詩音 (Casual),やれやれ、本当にお姉は……。先が思いやられます。,"Jeez, really sis...... you really make me worry.",I don't know how to word this,,
+476,詩音 (Casual),やれやれ、本当にお姉は……。先が思いやられます。,"Jeez, really sis...... you really make me worry.",,,
 478,Mion (Casual),"まぁまぁ……、それはもう置いといて！　いや～、いい部屋だ
 ねぇ！","Well...... let's just leave it there! Ahh, what a nice room!",,,
 481,,"　置いといてというか、話題をはぐらかしたというべきか。……さ
 すがは魅音さんだ。",As expected of Mion-san to avoid the subject.,,,
 485,Mion (Casual),２部屋が取れれば、圭ちゃんを誘ったんだけどねぇ。,"Man, if we got two rooms, we could have invited Kei-chan.",,,
 487,Nao (Casual),"あぁ、……さすがに嫁入り前の女性が、異性と同じ部屋でお泊りは
-まずいですね。","Aa...... it wouldn't be good for a girl to stay in a room with a boy before she gets married, after all.",,"this is a common saying over there for girls who arent married yet, since they're all about purity, so it's not /about/ to get married, but more like ""before we get married""",
+まずいですね。","Aa...... it wouldn't be good for a girl to stay in a room with a boy before she gets married, after all.",,,
 492,詩音 (Casual),"ホントにお姉は馬鹿ですね。２部屋が取れてるってことにして圭
 ちゃんを呼んで、","Sis you really are an idiot. If you just told him that there were two rooms and called him over,",,,
 494,詩音 (Casual),"いざ来てみたら１部屋しかなくて、仕方なく同じ部屋で泊まるしか
@@ -245,7 +254,7 @@ index,chara,jp,en,Notes,,
 いた。","When we went downstairs, Gohda-san was setting out some drinks to welcome us.",,,
 532,？？？？,さぁさぁ、皆様。どうぞお召し上がり下さい。,"Well then, everyone. Please enjoy these beverages.",,,
 535,？？？？,"お疲れの皆様に、爽やかさと秋の名残をぜひ味わっていただきた
-く、この郷田、腕によりを掛けまして……。","I would like to present the refreshing taste of the remnants of autumn, to you who have travelled so far to arrive here.",Fuck you gohda,,
+く、この郷田、腕によりを掛けまして……。","I would like to present the refreshing taste of the remnants of autumn, to you who have travelled so far to arrive here.",,,
 542,Mion (Casual),くぁーーー！！　美味しいね！　お替り欲しいな！,Wah---!! This is great! I'd like a refill!,,,
 550,？？？？,はいはい、どうぞ。……それで秋の果物と言えば、,"Of course, here you are...... Speaking of the fruits of Autumn,",,,
 557,Mion (Casual),くぁーーー！！　これホント旨いね！　一気に飲めちゃうよ！,Hwaa---!! This really is the stuff! I drank it all in one gulp!,,,
@@ -261,7 +270,8 @@ index,chara,jp,en,Notes,,
 る。","After the refreshments and a break, Jessica comes to get us.",,,
 585,,"　まずは、２泊３日をお世話になる右代宮家の人にご挨拶だ。
 　それから、戦後すぐに建てられたという贅沢な洋館を案内しても
-らうのだ。","First, we'll meet the Ushiromiya family who have invited us to stay.  Then we'll be shown around the western-style mansion built right after the war.",,,
+らうのだ。","First, we'll go meet the Ushiromiya family that invited us.  
+Then we'll be shown around the western-style mansion built right after the war.",,,
 594,Nao (Casual),……朱志香さんは、この島にずっと住んでいるんですか？,"......Jessica-san, have you always been living on this island?",,,
 596,朱志香,"まぁね。生まれた時からそうだったから、初めは気にならなかった
 けど……。",Yeah. It didn't bother me at first because because it's been like that since I was born but......,,,
@@ -287,7 +297,8 @@ index,chara,jp,en,Notes,,
 れた。","The masters of the house, Ushiromiya Krauss-san and Natsuhi-san, came to greet us.",,,
 640,,"　蔵臼さんは、如何にもお金持ちという感じの、恰幅のいい紳士。
 　そして奥方の夏妃さんは、明治や大正の貴族を思わせるような、
-非の打ちどころのない淑女だった。","Krauss-san was a wealthy-looking, well dressed gentleman. His wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.",,,
+非の打ちどころのない淑女だった。","Krauss-san was a wealthy-looking, well dressed gentleman. 
+His wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.",,,
 643,Mion (Casual),"すっごいお屋敷ですね……。一代でこんなお屋敷を建てちゃうなん
 て、本当に尊敬します！","What an amazing mansion...... To build a house like this in one generation, I really admire it!",,,
 647,？？？？,はっはっは。この屋敷を建てたのは父でね。,Hahaha. It was my father who built this mansion.,,,
@@ -323,16 +334,18 @@ index,chara,jp,en,Notes,,
 706,Mion (Casual),誰ですか、……この人……。,Who's that.........,,,
 720,Nao (Casual),……………………。,……………………,,,
 722,,"　別に霊感とかがある訳じゃない。
-　……でも、あたしには何かが感じられた。","I'm not psychic or anything. ......but, I could feel something.",,,
+　……でも、あたしには何かが感じられた。","I'm not psychic or anything. 
+......but, it gave me a feeling.",,,
 723,,"　それは、……肖像画の女性への深い愛と、……それに勝るとも劣
 らないほどの、……狂気だ。","It was...... a feeling of love...... for the woman in the painting...... bordering on, or even exceeding...... that of madness.",,,
 724,,"　美しい肖像画のはずなのに、……そんなことを感じてしまう。
 　あたしも、園崎姉妹のように、孤島の洋館はミステリーの定
-番……、などと毒されてしまっているのだろうか。",It's a beautiful portrait but......that's how it makes me feel. I wonder if I've also...... been poisoned by the cliche of mysteries on isolated islands.,,,
+番……、などと毒されてしまっているのだろうか。","It should be a beautiful portrait but......that's how it makes me feel. 
+I wonder if I've also...... been poisoned by the cliche of mysteries on isolated islands.",,,
 727,朱志香,ウチの顧問錬金術師サマの肖像画だそうだぜ。,It's a portrait of our family alchemist.,,,
 729,朱志香,"祖父さまが言うには、彼女から１００ｔの黄金を借りることが出来
 なければ、右代宮家の隆盛もなかったんだそうだ。","According to grandfather, the Ushiromiya family would not have prospered if she had not lent him ten tons of gold.",,,
-732,Nao (Casual),錬金術って、……オカルトの？,Alchemy...... the occult?,,,
+732,Nao (Casual),錬金術って、……オカルトの？,Alchemy...... occult?,,,
 734,朱志香,"まぁ、ポンと金塊を１００ｔも用意できるんだから、錬金術師と呼
 んでもおかしくねぇんだろうぜ。","Well, if she can produce 10 tons of gold with a poof, then I suppose you could call her an alchemist.",,,
 740,Mion (Casual),つまり、右代宮家の大恩人の肖像画ってこと……？,"So in other words, it's a portrait of the Ushiromiya family's great benefactor......?",,,
@@ -343,6 +356,7 @@ index,chara,jp,en,Notes,,
 754,Nao (Casual),黄金の……魔女……。,The Golden...... Witch......,,,
 759,,それが、あたしと魔女の、初めての出会いだった。,That was the first meeting between me and the witch.,,,
 760,,"　でも、この初めての出会いは、まだマシだったのだ。
-　だって、肖像画の中にいたのだから………。","However, this first meeting was the preferable one. Because she was still in the portrait.........",,,
+　だって、肖像画の中にいたのだから………。","However, this first meeting was preferable to what came next.
+Because she was still in the portrait.........",,,
 766,ベアトリーチェ,"くっくっく、我が六軒島へよくぞ来た！　歓迎しようぞ、ニンゲン
-ども……！！","*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans......!!",,,
+ども……！！","*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, humans......!!",,,
