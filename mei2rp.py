@@ -1,0 +1,118 @@
+import os
+import sys
+import csv
+import json
+
+OUTFIT_MAPS = 'mappings/outfits/'
+
+JP2ID = {}
+ID2NAME = {}
+OUTFITS = {}
+
+with open('mappings/charnames.csv') as cnames:
+    reader = csv.reader(cnames)
+    for line in reader:
+        if len(line) < 3: continue
+        JP2ID[line[0]] = line[1]
+        ID2NAME[line[1]] = line[2]
+
+for outfit in os.listdir(OUTFIT_MAPS):
+    name = outfit.split('.')[0]
+    OUTFITS[name] = {}
+
+    with open(OUTFIT_MAPS + outfit) as cnames:
+        reader = csv.reader(cnames)
+        for line in reader:
+            if len(line) < 2: continue
+            OUTFITS[name][line[0]] = line[1]
+
+
+def get_outfit_id(jp):
+    if jp == '：': return None
+    jp = jp.split('：')
+    if len(jp) == 1:
+        return f'{JP2ID[jp[0]]}_v001'
+
+    cid, oid = jp
+    cid = JP2ID[cid]
+    if oid in OUTFITS[cid]:
+        oid = OUTFITS[cid][oid]
+    elif oid == '私服':
+        oid = 'v002'
+    else:
+        raise KeyError(f'Outfit {oid} not found')
+
+    return f'{cid}_{oid}'
+
+def get_id(jp):
+    if jp == '：': return None
+    jp = jp.split('：')
+    return JP2ID[jp[0]]
+
+def strip_furigana(t):
+    return t.split('#s')[0].lstrip('#p')
+
+def get_name(jp, local=None):
+    if jp == '：': return None
+    jp = jp.split('：')[0]
+    if local is not None and jp in local:
+        jp = strip_furigana(local[jp])
+
+    cid = JP2ID[jp]
+    return ID2NAME[cid]
+
+def indent(text, n):
+    return '\n'.join(map(lambda line: n*' ' + line, text.split('\n')))
+
+def get_cmd(command):
+    if 'cmd1' in command: return 1, command['cmd1']
+    else: return 0, command['cmd0']
+
+def compile_commands(commands, translation):
+    outlines = []
+    local = {}
+    for n, line in enumerate(commands):
+        typ, cmd = get_cmd(line)
+        if 'arg0' not in line and 'arg1' in line:
+            name = get_name(cmd, local)
+            text = translation.get(n, line['arg1'])
+            if name is None:
+                outlines.append(repr(text))
+            else:
+                outlines.append(f'{repr(name)} {repr(text)}')
+
+        elif cmd == 'setdispname':
+            local[line['arg0']] = line['arg1']
+
+    return "\n".join(outlines)
+
+def compile_script(folder, fname):
+    header = f'label {fname}:'
+    
+    with open(f'scripts/{folder}/{fname}.bytes') as jsonfile:
+        og_script = json.load(jsonfile)['scr']
+
+    try:
+        tl_dict = {}
+        with open(f'translations/{folder}/{fname}.csv') as tlfile:
+            reader = csv.reader(tlfile)
+            for line in reader:
+                if len(line) < 4: continue
+                try: tl_dict[int(line[0])] = line[3]
+                except ValueError: pass
+
+    except IOError:
+        tl_dict = {}
+
+    compiled = compile_commands(og_script, tl_dict)
+
+    with open(f'game/scripts/{folder}/{fname}.rpy', 'w') as outfile:
+        outfile.write(header + '\n' + indent(compiled, 1))
+
+
+if __name__ == '__main__':
+    folder = sys.argv[1]
+    fname = sys.argv[2]
+    compile_script(folder,fname)
+
+
