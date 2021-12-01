@@ -8,6 +8,9 @@ OUTFIT_MAPS = 'mappings/outfits/'
 JP2ID = {}
 ID2NAME = {}
 OUTFITS = {}
+BACKGROUND = {}
+BGM = {}
+SFX = {}
 
 with open('mappings/charnames.csv') as cnames:
     reader = csv.reader(cnames)
@@ -15,6 +18,24 @@ with open('mappings/charnames.csv') as cnames:
         if len(line) < 3: continue
         JP2ID[line[0]] = line[1]
         ID2NAME[line[1]] = line[2]
+
+with open('mappings/bg.csv') as cnames:
+    reader = csv.reader(cnames)
+    for line in reader:
+        if len(line) < 2: continue
+        BACKGROUND[line[0]] = line[1]
+
+with open('mappings/bgm.csv') as cnames:
+    reader = csv.reader(cnames)
+    for line in reader:
+        if len(line) < 2: continue
+        BGM[line[0]] = line[1]
+
+with open('mappings/se.csv') as cnames:
+    reader = csv.reader(cnames)
+    for line in reader:
+        if len(line) < 2: continue
+        SFX[line[0]] = line[1]
 
 for outfit in os.listdir(OUTFIT_MAPS):
     name = outfit.split('.')[0]
@@ -136,6 +157,27 @@ def compile_commands(commands, translation):
             if typ == 0 and 'arg1' in line:
                 time = int(line["arg1"]) / 100
                 outlines.append(f'with Dissolve({time})')
+
+        elif cmd == "背景":
+            bgname = line["arg0"]
+            if bgname == "暗幕":
+                outlines.append(f'hide bg')
+            else:
+                bgname = BACKGROUND[bgname]
+                bgname = f"images/bg/{bgname}.png"
+                outlines.append(f'scene expression {repr(bgname)} as bg')
+
+        elif cmd == "bgm2":
+            name = BGM[line["arg0"]]
+            name = f"audio/bgm/{name}.wav"
+            outlines.append(f'play music {repr(name)}')
+
+        elif cmd == "bgmstop":
+            if "arg0" in line:
+                tim = int(line["arg0"])/60
+                outlines.append(f'stop music fadeout {tim}')
+            else:
+                outlines.append(f'stop music')
 
     return "\n".join(outlines)
 
