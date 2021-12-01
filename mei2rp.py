@@ -2,6 +2,7 @@ import os
 import sys
 import csv
 import json
+import wave
 
 OUTFIT_MAPS = 'mappings/outfits/'
 
@@ -178,6 +179,24 @@ def compile_commands(commands, translation):
                 outlines.append(f'stop music fadeout {tim}')
             else:
                 outlines.append(f'stop music')
+
+        elif cmd == "se2":
+            sename = SFX[line['arg0']]
+            sename = f"audio/sfx/{sename}.wav"
+            if 'arg1' not in line:
+                outlines.append(f'play audio {repr(sename)}')
+            else:
+                desired_len = int(line['arg1']) / 30
+                with wave.open(f'game/{sename}', 'rb') as wavfile:
+                    flen = wavfile.getnframes() / wavfile.getframerate()
+
+                count = int(desired_len / flen)
+                #leftover = desired_len % flen
+
+                l = ",".join([repr(sename)]*count)
+                #l += "," + repr(f"<from 0 to {leftover}>{sename}")
+                outlines.append(f'play sound [{l}] fadeout 1.0')
+
 
     return "\n".join(outlines)
 

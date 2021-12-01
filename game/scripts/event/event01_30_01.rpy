@@ -18,6 +18,7 @@ label event01_30_01:
  with Dissolve(0.3)
  'Erika' 'Well, it really is just a coincidence. At that time, I thought I was going to drown.'
  'Shion' 'Then you ended up washing up on an isolated island with a western mansion. What a wonderful coincidence!'
+ play audio 'audio/sfx/SE_215_heartgrow.wav'
  'Shion' "And then the handsome young man living in the mansion fell in love with you! It's just like a romance novel!"
  hide shion_v002
  hide erika_v001
@@ -39,6 +40,7 @@ label event01_30_01:
  'Nao' "I'm... Nao Houtani"
  'Erika' "Ah, isn't that a cute name? Would it be alright if I called you Nao-chan?"
  'Nao' '...do what you want.'
+ play audio 'audio/sfx/SE_530_walk_one.wav'
  hide nao_v002
  with Dissolve(0.6)
  'Erika' "Well, someone's in a foul mood. Fufu"
@@ -68,6 +70,7 @@ label event01_30_01:
  'Nao' 'I need to forget about the trouble and clear my head.'
  hide nao_v002
  with Dissolve(0.2)
+ play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
  stop music fadeout 2.0
  show erika_v001 normal at mei_center
  with Dissolve(0.3)
@@ -116,11 +119,13 @@ label event01_30_01:
  with Dissolve(0.3)
  'Nao' "......what the heck, ...... that's scary......"
  stop music
+ play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
  show mion_v002 smile at mei_right
  with Dissolve(0.3)
+ play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  'Mion' "Well that's most mysterious! This old man's fired up! It's just like an episode of Detective Wanyan!"
  'Shion' "An isolated island with a mysterious western mansion...... I think it'd be popular if you put it that way."
  'Shion' "We're not just test guests here, we're also resort consultants!"
@@ -174,6 +179,7 @@ label event01_30_01:
  hide mion_v002
  with Dissolve(0.2)
  'Gohda' 'Yes. Leave it to me. ......nnn ......guh......'
+ play audio 'audio/sfx/SE_5005_grab.wav'
  show nao_v002 fuan at mei_center
  with Dissolve(0.3)
  'Nao' "I've always thought...... you two have had trunks too heavy for just a two night stay."
@@ -236,6 +242,7 @@ label event01_30_01:
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  show nao_v002 smile_blush at mei_center
  with Dissolve(0.3)
+ play audio 'audio/sfx/SE_215_heartgrow.wav'
  'Nao' 'H.......Hwaa............!'
  hide nao_v002
  with Dissolve(0.2)
@@ -284,6 +291,7 @@ label event01_30_01:
  with Dissolve(0.3)
  'Shannon' 'And this way is the guesthouse everyone will be staying at.'
  'Jessica' 'Think of it as your own home! The rooms are on the second floor by the way.'
+ play audio 'audio/sfx/SE_510_sand_foot.wav'
  'Shannon' 'Please watch your step and come this way.'
  hide jessica_v001
  hide shannon_v001
@@ -299,6 +307,7 @@ label event01_30_01:
  show nao_v002 normal at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.3)
+ play audio 'audio/sfx/SE_5020_key.wav'
  'Erika' "Nao-chama. it looks like that's your room key."
  'Nao' '...please stop calling me "chama", thank you very much.'
  'Nao' 'Only one key?'
@@ -317,6 +326,7 @@ label event01_30_01:
  with Dissolve(0.2)
  "In any case, it's an important key. I'd better leave it in the hands of my seniors. \nI'll give it to Mion."
  hide bg
+ play audio 'audio/sfx/SE_5013_down.wav'
  'We went up to the second floor, entered our rooms and set down our bags.'
  scene expression 'images/bg/AdvBg_2281.png' as bg
  "Our room is a three person room with three beds. \nErika-san's room next to ours is the same, although she's the only one using it."
@@ -331,7 +341,9 @@ label event01_30_01:
  'More than gorgeous, the room was calm, and had a sense of refined, quiet beauty.'
  'It was built right after the war, so some of the facilities are clearly aging, but that gives it an antique taste.'
  show mion_v002 smile at mei_center
+ play audio 'audio/sfx/SE_592_Is_plastic.wav'
  'Mion' 'Hyaaho!! Hoho! These bed springs are the best!'
+ play audio 'audio/sfx/SE_526_door_open.wav'
  'Mion' "I wonder what the view from the window is like! Uwa, you can feel the sea breeze!! Look look, Shion!! It's an ocean vieeeewwww!!"
  hide mion_v002
  show nao_v002 fuan at mei_left
@@ -344,6 +356,7 @@ label event01_30_01:
  with Dissolve(0.2)
  show mion_v002 fuan at mei_center
  with Dissolve(0.3)
+ play audio 'audio/sfx/.wav'
  'Mion' 'Aa, sorry sorry. I got excited! ......huh? ......uh oh......'
  hide mion_v002
  with Dissolve(0.2)
@@ -397,15 +410,18 @@ label event01_30_01:
  hide shion_v002
  with Dissolve(0.2)
  scene expression 'images/bg/AdvBg_2371.png' as bg
+ play audio 'audio/sfx/SE_5007_keyroll.wav'
  'We leave our bags and lock the room.'
  'Erika-san had just come out and had also locked her room.'
  scene expression 'images/bg/AdvBg_2291.png' as bg
+ play audio 'audio/sfx/SE_5049_cup.wav'
  'When we went downstairs, Gohda-san was setting out some drinks to welcome us.'
  'Gohda' 'Well then, everyone. Please enjoy these beverages.'
  'Gohda' 'I would like to present the refreshing taste of the remnants of autumn, to you who have travelled so far to arrive here.'
  show mion_v002 smile at mei_center
  'Mion' "Wah---!! This is great! I'd like a refill!"
  hide mion_v002
+ play audio 'audio/sfx/.wav'
  'Gohda' 'Of course, here you are...... Speaking of the fruits of Autumn,'
  show mion_v002 smile at mei_center
  'Mion' 'Hwaa---!! This really is the stuff! I drank it all in one gulp!'
@@ -540,6 +556,7 @@ label event01_30_01:
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
+ play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  scene expression 'images/bg/AdvBg_2311.png' as bg
  show nao_v002 normal at mei_center
  with Dissolve(0.3)
@@ -584,4 +601,6 @@ label event01_30_01:
  hide bg
  'That was the first meeting between me and the witch.'
  'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait.........'
+ play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
+ play audio 'audio/sfx/.wav'
  'Beatrice' '*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, humans......!!'
