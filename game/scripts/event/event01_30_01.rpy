@@ -1,4 +1,6 @@
 label event01_30_01:
+ scene expression 'images/bg/AdvBg_2101.png' as bg
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  'To get to Rokkenjima, we transferred onto another boat at Niijima.'
  'Unlike the ferry, it was a small, fast, boat, so it shook considerably, but was thrilling and interesting.'
  'However............'
@@ -66,6 +68,7 @@ label event01_30_01:
  'Nao' 'I need to forget about the trouble and clear my head.'
  hide nao_v002
  with Dissolve(0.2)
+ stop music fadeout 2.0
  show erika_v001 normal at mei_center
  with Dissolve(0.3)
  'Erika' "It might be a bit difficult still, but can you see it? That's Rokkenjima over there."
@@ -86,6 +89,7 @@ label event01_30_01:
  with Dissolve(0.2)
  "......If it's because there were six houses on the island a long time ago , then it'd be too easy."
  "But it's also that exact answer which comes out of Mion's mouth."
+ play music 'audio/bgm/BGM_QUEST4_COLLAB2.wav'
  show erika_v001 normal at mei_center
  with Dissolve(0.3)
  'Erika' "That's half right. The name comes from the fact that even in the most prosperous times, there were no more than six houses on the island."
@@ -111,6 +115,7 @@ label event01_30_01:
  show nao_v002 fuan at mei_center
  with Dissolve(0.3)
  'Nao' "......what the heck, ...... that's scary......"
+ stop music
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -147,6 +152,8 @@ label event01_30_01:
  '......I only came to enjoy embroidery in the rose garden rumored for its beauty.'
  'The Sonozaki sisters, excited by the talk of the witch, seemed to be in high spirits even before reaching the island.'
  "I'm not particularly afraid but...... \nI'm not particularly fond of taking a vacation on an island of witches and evil spirits. "
+ scene expression 'images/bg/AdvBg_2251.png' as bg
+ play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
  show shannon_v001 smile at mei_right
  show jessica_v001 smile at mei_left
  with Dissolve(0.3)
@@ -180,6 +187,7 @@ label event01_30_01:
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
+ scene expression 'images/bg/AdvBg_2261.png' as bg
  "Here, there's no restrictions like tour bus times or group activities. \nEveryone can enjoy things at their own leisurely pace."
  'I only brought a change of clothes, toiletries, a book to read, and an embroidery set, so a cutely sized trunk was enough.'
  show shannon_v001 smile at mei_left
@@ -224,6 +232,8 @@ label event01_30_01:
  hide shion_v002
  'Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.'
  'There, the view opened up and I almost lost myself in the scenery......'
+ scene expression 'images/bg/AdvBg_2221.png' as bg
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  show nao_v002 smile_blush at mei_center
  with Dissolve(0.3)
  'Nao' 'H.......Hwaa............!'
@@ -268,6 +278,7 @@ label event01_30_01:
  'Erika' "The Ushiromiya family doesn't get guests like her much. I'm sure Beato won't be bored."
  hide erika_v001
  with Dissolve(0.2)
+ scene expression 'images/bg/AdvBg_2271.png' as bg
  show jessica_v001 smile at mei_left
  show shannon_v001 smile at mei_right
  with Dissolve(0.3)
@@ -305,7 +316,9 @@ label event01_30_01:
  hide erika_v001
  with Dissolve(0.2)
  "In any case, it's an important key. I'd better leave it in the hands of my seniors. \nI'll give it to Mion."
+ hide bg
  'We went up to the second floor, entered our rooms and set down our bags.'
+ scene expression 'images/bg/AdvBg_2281.png' as bg
  "Our room is a three person room with three beds. \nErika-san's room next to ours is the same, although she's the only one using it."
  show shion_v002 smile at mei_right
  show nao_v002 smile at mei_left
@@ -383,8 +396,10 @@ label event01_30_01:
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
+ scene expression 'images/bg/AdvBg_2371.png' as bg
  'We leave our bags and lock the room.'
  'Erika-san had just come out and had also locked her room.'
+ scene expression 'images/bg/AdvBg_2291.png' as bg
  'When we went downstairs, Gohda-san was setting out some drinks to welcome us.'
  'Gohda' 'Well then, everyone. Please enjoy these beverages.'
  'Gohda' 'I would like to present the refreshing taste of the remnants of autumn, to you who have travelled so far to arrive here.'
@@ -417,6 +432,8 @@ label event01_30_01:
  with Dissolve(0.2)
  'After the refreshments and a break, Jessica comes to get us.'
  "First, we'll go meet the Ushiromiya family that invited us.  \nThen we'll be shown around the western-style mansion built right after the war."
+ scene expression 'images/bg/AdvBg_2221.png' as bg
+ play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
  show jessica_v001 smile at mei_right
  show nao_v002 smile at mei_left
  with Dissolve(0.3)
@@ -455,6 +472,8 @@ label event01_30_01:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
+ scene expression 'images/bg/AdvBg_2301.png' as bg
+ play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
  'The masters of the house, Ushiromiya Krauss-san and Natsuhi-san, came to greet us.'
  'Krauss-san was a wealthy-looking, well dressed gentleman. \nHis wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.'
  show mion_v002 smile at mei_center
@@ -507,6 +526,7 @@ label event01_30_01:
  'Jessica' 'I-I know mom......'
  hide jessica_v001
  with Dissolve(0.2)
+ scene expression 'images/bg/AdvBg_2161.png' as bg
  'With that, we were shown around the house.'
  'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how wonderful it would be if some kind of incident occurred here and other such indiscreet topics.  '
  'And then, on the way back to the front door, we walked by a great hall.'
@@ -516,9 +536,11 @@ label event01_30_01:
  with Dissolve(0.3)
  'Shion' '......uwah, what a beautiful woman......'
  'Mion' "Who's that........."
+ stop music fadeout 2.0
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
+ scene expression 'images/bg/AdvBg_2311.png' as bg
  show nao_v002 normal at mei_center
  with Dissolve(0.3)
  'Nao' '……………………'
@@ -559,6 +581,7 @@ label event01_30_01:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
+ hide bg
  'That was the first meeting between me and the witch.'
  'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait.........'
  'Beatrice' '*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, humans......!!'
