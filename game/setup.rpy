@@ -70,7 +70,7 @@ transform inverse:
     matrixcolor InvertMatrix(1.0)
 
 transform inactive:
-    matrixcolor BrightnessMatrix(-0.5)
+    matrixcolor SaturationMatrix(0.65) * BrightnessMatrix(-0.2) 
 
 transform active:
     matrixcolor BrightnessMatrix(0.0)
