@@ -145,8 +145,11 @@ def compile_commands(commands, translation):
 
         typ, cmd = get_cmd(line)
         if 'arg0' not in line and 'arg1' in line:
-            name = get_name(cmd, local)
             cid = get_id(cmd)
+            if cid is None and cmd in local:
+                name = get_name(cmd, local)
+                cid = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
+
             text = translation.get(n, line['arg1'])
             for c, o in shown.items():
                 if c == cid: continue
@@ -154,10 +157,10 @@ def compile_commands(commands, translation):
             if cid in shown:
                 outlines.append(f'{shown[cid]}, active')
 
-            if name is None:
-                outlines.append(repr(text))
+            if cid is None:
+                outlines.append(f'narrator {repr(text)}')
             else:
-                outlines.append(f'{repr(name)} {repr(text)}')
+                outlines.append(f'{cid} {repr(text)}')
 
         elif cmd == 'setdispname':
             local[line['arg0']] = line['arg1']
