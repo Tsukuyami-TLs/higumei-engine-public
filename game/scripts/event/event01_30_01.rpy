@@ -476,7 +476,7 @@ label event01_30_01:
  hide erika_v001
  with Dissolve(0.2)
  narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. \nI'll give it to Mion."
- hide bg
+ scene expression "#000" as bg
  play audio 'audio/sfx/SE_5013_down.wav'
  narrator 'We went up to the second floor, entered our rooms and set down our bags.'
  scene expression 'images/bg/AdvBg_2281.png' as bg
@@ -857,7 +857,7 @@ label event01_30_01:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- hide bg
+ scene expression "#000" as bg
  narrator 'That was the first meeting between me and the witch.'
  narrator 'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait.........'
  pause 4.0

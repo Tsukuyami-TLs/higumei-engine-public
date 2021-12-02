@@ -190,7 +190,7 @@ def compile_commands(commands, translation):
             bgname = line["arg0"]
             shown = {}
             if bgname == "暗幕":
-                outlines.append(f'hide bg')
+                outlines.append(f'scene expression "#000" as bg')
             else:
                 bgname = BACKGROUND[bgname]
                 bgname = f"images/bg/{bgname}.png"
