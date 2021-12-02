@@ -42,6 +42,12 @@ transform sepia:
 transform inverse:
     matrixcolor InvertMatrix(1.0)
 
+transform inactive:
+    matrixcolor BrightnessMatrix(-0.5)
+
+transform active:
+    matrixcolor BrightnessMatrix(0.0)
+
 # Click to continue
 
 image Arrow1 = "gui/adv_Arrow1.png"

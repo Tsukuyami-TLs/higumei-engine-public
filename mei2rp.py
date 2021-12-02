@@ -70,6 +70,7 @@ def get_outfit(jp):
 def get_id(jp):
     if jp == '：': return None
     jp = jp.split('：')
+    if jp[0] not in JP2ID: return None
     return JP2ID[jp[0]]
 
 def strip_furigana(t):
@@ -130,11 +131,29 @@ COMMAND_DICT = {
 def compile_commands(commands, translation):
     outlines = []
     local = {}
+    shown = {}
+
+    wait_to_emit = []
+
     for n, line in enumerate(commands):
+        new_wait = []
+        for f, l in wait_to_emit:
+            if f(n, line): outlines.append(l)
+            else: new_wait.append((f, l))
+
+        wait_to_emit = new_wait
+
         typ, cmd = get_cmd(line)
         if 'arg0' not in line and 'arg1' in line:
             name = get_name(cmd, local)
+            cid = get_id(cmd)
             text = translation.get(n, line['arg1'])
+            for c, o in shown.items():
+                if c == cid: continue
+                outlines.append(f'{o}, inactive')
+            if cid in shown:
+                outlines.append(f'{shown[cid]}, active')
+
             if name is None:
                 outlines.append(repr(text))
             else:
@@ -147,7 +166,8 @@ def compile_commands(commands, translation):
             outfit = get_outfit(line['arg0'])
             expr = line['arg1']
             pos = get_pos(line['arg2'])
-            outlines.append(f'show {outfit} {expr} at {pos}')
+            outlines.append(f'show {outfit} {expr} at {pos}, active')
+            shown[get_id(line['arg0'])] = f'show {outfit} {expr} at {pos}'
             if typ == 0 and 'arg4' in line:
                 time = int(line["arg4"]) / 100
                 outlines.append(f'with Dissolve({time})')
@@ -155,12 +175,17 @@ def compile_commands(commands, translation):
         elif cmd == 'hide':
             outfit = get_outfit(line['arg0'])
             outlines.append(f'hide {outfit}')
+
+            try: del shown[get_id(line['arg0'])]
+            except KeyError: pass
+
             if typ == 0 and 'arg1' in line:
                 time = int(line["arg1"]) / 100
                 outlines.append(f'with Dissolve({time})')
 
         elif cmd == "背景":
             bgname = line["arg0"]
+            shown = {}
             if bgname == "暗幕":
                 outlines.append(f'hide bg')
             else:
@@ -182,9 +207,15 @@ def compile_commands(commands, translation):
 
         elif cmd == "se2":
             sename = SFX[line['arg0']]
+            if not sename: print(line)
             sename = f"audio/sfx/{sename}.wav"
+            # TODO: Figure out what the hell arg1 does
             if 'arg1' not in line:
                 outlines.append(f'play audio {repr(sename)}')
+            elif int(line['arg1']) >= 1500: # Ignore this branch
+                outlines.append(f'play sound {repr(sename)} loop')
+                w = int(line['arg1']) // 100
+                wait_to_emit.append((lambda x, _, n=n: x - n + 2 >= w, 'stop sound fadeout 1.0'))
             else:
                 desired_len = int(line['arg1']) / 30
                 with wave.open(f'game/{sename}', 'rb') as wavfile:
@@ -196,6 +227,9 @@ def compile_commands(commands, translation):
                 l = ",".join([repr(sename)]*count)
                 #l += "," + repr(f"<from 0 to {leftover}>{sename}")
                 outlines.append(f'play sound [{l}] fadeout 1.0')
+
+        elif cmd == 'wait':
+            outlines.append(f'pause {int(line["arg0"])/30}')
 
 
     return "\n".join(outlines)
