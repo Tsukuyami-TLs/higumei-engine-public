@@ -9,7 +9,7 @@ label event01_30_01:
  with Dissolve(0.3)
  show nao_v002 fuan at mei_left, inactive
  show mion_v002 smile at mei_right, active
- mion 'What wrong, Nao-chan? Do you need to go to the washroom?'
+ mion 'What up, Nao-chan? Do you need to go to the washroom?'
  show mion_v002 smile at mei_right, inactive
  show nao_v002 fuan at mei_left, active
  nao "It's not that......"
@@ -29,7 +29,7 @@ label event01_30_01:
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show erika_v001 normal at mei_right, inactive
  show shion_v002 smile at mei_left, active
- shion "And then the handsome young man living in the mansion fell in love with you! It's just like a romance novel!"
+ shion "And then the handsome young man living in the mansion falls in love with you! At that rate it'd be just like a romance novel!"
  hide shion_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -48,16 +48,16 @@ label event01_30_01:
  with Dissolve(0.3)
  show nao_v002 normal at mei_left, inactive
  show erika_v001 normal at mei_right, active
- erika 'The two twins sisters have already given us their names. Young miss over there, would you please tell us your name?'
+ erika 'The two twins sisters have already given me their names. Little girl, if would you allow me to hear your name as well, please?'
  show erika_v001 normal at mei_right, inactive
  show nao_v002 normal at mei_left, active
  nao '..................'
  show erika_v001 normal at mei_right, inactive
  show nao_v002 normal at mei_left, active
- nao "I'm... Nao Houtani"
+ nao "I'm... Nao Houtani..."
  show nao_v002 normal at mei_left, inactive
  show erika_v001 normal at mei_right, active
- erika "Ah, isn't that a cute name? Would it be alright if I called you Nao-chan?"
+ erika "My, isn't that a lovely name? Would it be alright if I called you Nao-chan?"
  show erika_v001 normal at mei_right, inactive
  show nao_v002 normal at mei_left, active
  nao '...do what you want.'
@@ -65,7 +65,7 @@ label event01_30_01:
  hide nao_v002
  with Dissolve(0.6)
  show erika_v001 normal at mei_right, active
- erika "Well, someone's in a foul mood. Fufu"
+ erika "Well, someone's in a foul mood. *giggle*"
  hide erika_v001
  with Dissolve(0.2)
  show shion_v002 fuan at mei_left, active
@@ -79,7 +79,7 @@ label event01_30_01:
  shion "She's not seasick is she? I think it'd be best to leave her alone."
  show mion_v002 fuan at mei_right, inactive
  show shion_v002 fuan at mei_left, active
- shion 'Leaving that aside, Erika! Which Detective Wanyan case is your favorite episode?'
+ shion 'Anyways, Erika! Which Detective Wanyan case is your favorite episode?'
  show shion_v002 fuan at mei_left, inactive
  show mion_v002 fuan at mei_right, active
  mion "A strange turn of fate isn't it! All of our companions to the island are Detective Wanyan fans!"
@@ -91,7 +91,7 @@ label event01_30_01:
  show erika_v001 normal at mei_center, active
  erika 'I suppose I am a fan. Even if it is a work of fiction, I both pity and envy anyone calling themself a detective.'
  show erika_v001 normal at mei_center, active
- erika 'I admire the splendid logic, but was let down by the fact that I could have shown an even more brilliant deduction. '
+ erika 'The reasoning was admirable, but if I was in the show I could have demonstrated a far more lustrous deduction. As a result I am greatly disappointed.'
  hide erika_v001
  with Dissolve(0.2)
  narrator "The Sonozaki sisters and Erika......san have somehow hit it off. \nI'm the only one left out......haa."
@@ -101,7 +101,7 @@ label event01_30_01:
  show nao_v002 fuan at mei_center, active
  nao 'Rena-chan...... she was looking forward to it so much, but she let me go instead, so I have to enjoy myself.'
  show nao_v002 fuan at mei_center, active
- nao 'I need to forget about the trouble and clear my head.'
+ nao 'I need to forget about my troubles and clear my head.'
  hide nao_v002
  with Dissolve(0.2)
  play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
@@ -120,14 +120,14 @@ label event01_30_01:
  mion "Ah! There?! Wow! It's really an island!!"
  show mion_v002 odoroki at mei_right, inactive
  show shion_v002 smile at mei_left, active
- shion "......Sis calm down please. Everyone's going to think you're a hick seeing the ocean for the first time."
+ shion "......Sis, please calm down. Everyone's going to think you're a hick seeing the ocean for the first time."
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center, active
  with Dissolve(0.3)
  show erika_v001 normal at mei_center, active
- erika 'Now, I have a question. Why do you think the island is called Rokkenjima (Six House Island)?'
+ erika 'Now, I have a question. Why do you think the island is called {rb}Rokkenjima{/rb}{rt}Six House Island{/rt}?'
  hide erika_v001
  with Dissolve(0.2)
  narrator "......If it's because there were six houses on the island a long time ago , then it'd be too easy."
@@ -179,13 +179,13 @@ label event01_30_01:
  play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  show shion_v002 smile at mei_left, inactive
  show mion_v002 smile at mei_right, active
- mion "Well that's most mysterious! This old man's fired up! It's just like an episode of Detective Wanyan!"
+ mion "Whoa, that's super mysterious! This ol' man's fired up! It's just like an episode of Detective Wanyan!"
  show mion_v002 smile at mei_right, inactive
  show shion_v002 smile at mei_left, active
  shion "An isolated island with a mysterious western mansion...... I think it'd be popular if you put it that way."
  show mion_v002 smile at mei_right, inactive
  show shion_v002 smile at mei_left, active
- shion "We're not just test guests here, we're also resort consultants!"
+ shion "We're not just surveying guests this time, we're resort consultants too!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -199,7 +199,7 @@ label event01_30_01:
  erika '...the truth is that the island used to be called Akujikushima (Evil Appetite Island) because the souls of anyone who came near would be eaten by evil spirits.'
  hide erika_v001
  with Dissolve(0.2)
- narrator '"You\'re sure know your stuff", interjected the captain.'
+ narrator '"You sure know your stuff", interjected the captain.'
  Character('Captain',ctc="ctcArrow", ctc_position="fixed") "Though, rumor has it, there's a witch living there now instead of the evil spirits......"
  show erika_v001 normal at mei_right, active
  show nao_v002 fuan at mei_left, active
@@ -209,7 +209,7 @@ label event01_30_01:
  nao '.............A witch......?'
  show nao_v002 fuan at mei_left, inactive
  show erika_v001 normal at mei_right, active
- erika 'Fufu......'
+ erika '*giggle*'
  show erika_v001 normal at mei_right, inactive
  show nao_v002 fuan at mei_left, active
  nao "Whatever. I don't care what's living on the island. ......ghosts and spirits, I don't believe in any of that."
@@ -274,7 +274,7 @@ label event01_30_01:
  with Dissolve(0.3)
  show shion_v002 smile at mei_left, inactive
  show mion_v002 futeki at mei_right, active
- mion 'Nfufu. A maiden be suitably prepared when staying elsewhere.'
+ mion 'Heheh. A maiden be suitably prepared when staying elsewhere.'
  show mion_v002 futeki at mei_right, inactive
  show shion_v002 smile at mei_left, active
  shion 'One should be thoroughly prepared for this island.'
@@ -309,7 +309,7 @@ label event01_30_01:
  erika 'Thank you very much. I like them a lot as well.'
  show jessica_v001 smile at mei_right, inactive
  show erika_v001 normal at mei_left, active
- erika 'Last time I was an uninvited guest who had drifted ashore, so I am greatly honored to be welcomed to the front door this time.'
+ erika 'Last time, I was an uninvited guest who had drifted ashore, so I am greatly honored to be welcomed to the front door this time.'
  show erika_v001 normal at mei_left, inactive
  show jessica_v001 smile at mei_right, active
  jessica "Nice to meet you. Um, Nao-san, that's you right?"
@@ -328,24 +328,24 @@ label event01_30_01:
  erika "It's a simple process of elimination. She's and I are acquainted, and two of the three left are twins. The only one left would be Nao-chama, so you'd know who that is."
  hide erika_v001
  with Dissolve(0.2)
- narrator "As before, there was some sharpness to her words. It seems I just can't come to like this person, and I sense they don't like me either."
+ narrator "Just as I thought, there was some sharpness to her words. It seems I just can't come to like this person, and I sense they don't like me either."
  show jessica_v001 smile at mei_right, active
  show mion_v002 smile at mei_left, active
  with Dissolve(0.3)
  show jessica_v001 smile at mei_right, inactive
  show mion_v002 smile at mei_left, active
- mion "Wow! An entire island as your home! Man Jessica, I'm so jealous of you!"
+ mion "Wow! An entire island as your home! Man, Jessica, I'm so jealous of you!"
  show mion_v002 smile at mei_left, inactive
  show jessica_v001 smile at mei_right, active
- jessica "It's not great at all. Personally I wish I could walk to all my friends' houses."
+ jessica "It's not great at all. Personally, I wish I could walk to all my friends' houses."
  hide jessica_v001
  hide mion_v002
  show shion_v002 smile at mei_center, active
  show shion_v002 smile at mei_center, active
- shion "Sis! Nao-san! Quickly! Isn't this amazing?!?!"
+ shion "Sis! Nao-san! Quickly, quickly! Isn't this amazing?!?!"
  hide shion_v002
  narrator 'Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.'
- narrator 'There, the view opened up and I almost lost myself in the scenery......'
+ narrator 'And so, as the scene spread out before me, I became so overcome with emotion that I almost lost myself......'
  scene expression 'images/bg/AdvBg_2221.png' as bg
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  pause 2.0
@@ -357,7 +357,7 @@ label event01_30_01:
  nao 'H.......Hwaa............!'
  hide nao_v002
  with Dissolve(0.2)
- narrator "The spectacular view truly had me speechless. \n......aah, and to think I'd been feeling uneasy over the incident on the ferry."
+ narrator "The spectacular view truly had me speechless. \n......Aah, and to think I'd been so worried about not being able to have fun because of the incident on the ferry."
  show shion_v002 smile at mei_left, active
  show mion_v002 odoroki at mei_right, active
  with Dissolve(0.3)
@@ -436,7 +436,7 @@ label event01_30_01:
  with Dissolve(0.3)
  show shion_v002 smile at mei_left, inactive
  show mion_v002 fuan at mei_right, active
- mion "Aaa, I sure wish they'd renovate the Sonozaki main house into a western mansion like this."
+ mion "......I sure wish they'd renovate the Sonozaki main house into a western mansion like this."
  show mion_v002 fuan at mei_right, inactive
  show shion_v002 smile at mei_left, active
  shion "Do you think the old hag would be fine with that? I can't even see mother letting that happen. "
@@ -449,13 +449,13 @@ label event01_30_01:
  play audio 'audio/sfx/SE_5020_key.wav'
  show nao_v002 normal at mei_left, inactive
  show erika_v001 normal at mei_right, active
- erika "Nao-chama. it looks like that's your room key."
+ erika "Hey, Nao-chama. it looks like that's your room key."
  show erika_v001 normal at mei_right, inactive
  show nao_v002 normal at mei_left, active
  nao '...please stop calling me "chama", thank you very much.'
  show erika_v001 normal at mei_right, inactive
  show nao_v002 normal at mei_left, active
- nao 'Only one key?'
+ nao 'Is there only one key?'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -465,13 +465,13 @@ label event01_30_01:
  with Dissolve(0.3)
  show nao_v002 normal at mei_left, inactive
  show erika_v001 normal_close at mei_right, active
- erika 'What a cheap plot. Well whatever, fewer keys make for a less complicated story, which will be nice.'
+ erika "What a cheap plot. Well, whatever, it'll be nice to have fewer keys so the story won't be so complicated."
  show erika_v001 normal_close at mei_right, inactive
  show nao_v002 normal at mei_left, active
- nao '......if we end up losing this one key......'
+ nao '......if we end up losing the only key......'
  show nao_v002 normal at mei_left, inactive
  show erika_v001 normal_close at mei_right, active
- erika "Don't worry. If that happens please tell one of the servants. They have master keys."
+ erika "Don't worry. Please kindly tell one of the servants if that happens. They have master keys."
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -498,10 +498,10 @@ label event01_30_01:
  show mion_v002 smile at mei_center, active
  play audio 'audio/sfx/SE_592_Is_plastic.wav'
  show mion_v002 smile at mei_center, active
- mion 'Hyaaho!! Hoho! These bed springs are the best!'
+ mion 'Yahoo!! Hoho! These bed springs are the best!'
  play audio 'audio/sfx/SE_526_door_open.wav'
  show mion_v002 smile at mei_center, active
- mion "I wonder what the view from the window is like! Uwa, you can feel the sea breeze!! Look look, Shion!! It's an ocean vieeeewwww!!"
+ mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look look, Shion!! It's an ocean vieeeewwww!!"
  hide mion_v002
  show nao_v002 fuan at mei_left, active
  show shion_v002 fuan at mei_right, active
@@ -511,7 +511,7 @@ label event01_30_01:
  shion "......Sis. You're not an elementary school student on a school trip."
  show shion_v002 fuan at mei_right, inactive
  show nao_v002 fuan at mei_left, active
- nao 'Mion-san, please close the window for now. The strong winds will bring in dust.'
+ nao 'Mion-san, please close the window for now. Strong winds will bring in dust.'
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -530,7 +530,7 @@ label event01_30_01:
  shion 'What is it? ......eeee-, sis, did you break it?!'
  show shion_v002 odoroki at mei_right, inactive
  show nao_v002 odoroki at mei_left, active
- nao '......eh. Just now when you opened the window in excitement, did you break the lock?'
+ nao '......uh. Just now when you opened the window in excitement, did you break the lock?'
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -550,11 +550,11 @@ label event01_30_01:
  shion 'Jeez, really sis...... you really make me worry.'
  show shion_v002 fuan_close at mei_left, inactive
  show mion_v002 fuan at mei_right, active
- mion "Well...... let's just leave it there! Ahh, what a nice room!"
+ mion 'Well...... anyways, moving on! Ahh, what a nice room!'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
- narrator 'As expected of Mion-san to avoid the subject.'
+ narrator 'Skillfully avoiding the subject. ......As expected of Mion-san.'
  show nao_v002 normal at mei_left, active
  show mion_v002 fuan at mei_right, active
  with Dissolve(0.3)
@@ -585,7 +585,7 @@ label event01_30_01:
  with Dissolve(0.3)
  show nao_v002 fuan at mei_left, inactive
  show shion_v002 smile at mei_right, active
- shion 'I never knew you had that little self respect sis.'
+ shion 'I never knew you had that little self respect, sis.'
  show shion_v002 smile at mei_right, inactive
  show nao_v002 fuan at mei_left, active
  nao "I-If he rejected me there I wouldn't know how to respond......"
@@ -595,12 +595,12 @@ label event01_30_01:
  scene expression 'images/bg/AdvBg_2371.png' as bg
  play audio 'audio/sfx/SE_5007_keyroll.wav'
  narrator 'We leave our bags and lock the room.'
- narrator 'Erika-san had just come out and had also locked her room.'
+ narrator 'Erika-san had also just come out and locked her room.'
  scene expression 'images/bg/AdvBg_2291.png' as bg
  play audio 'audio/sfx/SE_5049_cup.wav'
  narrator 'When we went downstairs, Gohda-san was setting out some drinks to welcome us.'
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Well then, everyone. Please enjoy these beverages.'
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'I would like to present the refreshing taste of the remnants of autumn, to you who have travelled so far to arrive here.'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Welcome, everyone. Please enjoy these beverages.'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'I would like to present the refreshing taste of the end of autumn, to you who have travelled so far to arrive here.'
  show mion_v002 smile at mei_center, active
  show mion_v002 smile at mei_center, active
  mion "Wah---!! This is great! I'd like a refill!"
@@ -631,10 +631,10 @@ label event01_30_01:
  with Dissolve(0.3)
  show erika_v001 normal_close at mei_right, inactive
  show nao_v002 normal_close at mei_left, active
- nao "I'm not. Your imagination's too good."
+ nao "I'm not. You're just imagining things."
  show nao_v002 normal_close at mei_left, inactive
  show erika_v001 normal_close at mei_right, active
- erika 'Fufu......'
+ erika '*giggle*......'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -656,7 +656,7 @@ label event01_30_01:
  nao '......Jessica-san, have you always been living on this island?'
  show nao_v002 smile at mei_left, inactive
  show jessica_v001 smile at mei_right, active
- jessica "Yeah. It didn't bother me at first because because it's been like that since I was born but......"
+ jessica "Yeah. I didn't mind at first because that's how it's been since I was born but......"
  show nao_v002 smile at mei_left, inactive
  show jessica_v001 smile at mei_right, active
  jessica "It's really lonely. There's no one on the island but my family, so it gets boring."
@@ -678,7 +678,7 @@ label event01_30_01:
  show erika_v001 normal at mei_center, active
  with Dissolve(0.3)
  show erika_v001 normal at mei_center, active
- erika "It's splendid to spend just a few days here, but anyone would get lonely if they lived their whole life on this island."
+ erika 'Spending only a few days here is wonderful, but anyone would get lonely if they lived their whole life on this island.'
  hide erika_v001
  with Dissolve(0.2)
  show shion_v002 smile at mei_right, active
@@ -686,7 +686,7 @@ label event01_30_01:
  with Dissolve(0.3)
  show shion_v002 smile at mei_right, inactive
  show mion_v002 smile at mei_left, active
- mion 'Just leave that kind of thing to this old man! Especially when it comes to games!'
+ mion "Just leave that kind of thing to this ol' man! Especially when it comes to games!"
  show mion_v002 smile at mei_left, inactive
  show shion_v002 smile at mei_right, active
  shion 'In these few days, you will experience trauma you will never forget for the rest of your life.'
@@ -695,13 +695,13 @@ label event01_30_01:
  with Dissolve(0.3)
  show shion_v002 smile at mei_right, inactive
  show nao_v002 fuan at mei_left, active
- nao "......Mion-san's club activity punishments sure are something."
+ nao "......Mion-san's club activity punishment games sure are brutal."
  hide shion_v002
  show erika_v001 normal_close at mei_right, active
  with Dissolve(0.3)
  show nao_v002 fuan at mei_left, inactive
  show erika_v001 normal_close at mei_right, active
- erika "Even if you aren't punished, it will definitely be an unforgettably traumatic experience."
+ erika 'Even without punishment games, it will definitely be an unforgettably traumatic experience.'
  show nao_v002 fuan at mei_left, inactive
  show erika_v001 normal_close at mei_right, active
  erika "Because, this is the witch's island......"
@@ -762,7 +762,7 @@ label event01_30_01:
  with Dissolve(0.3)
  show erika_v001 normal at mei_left, inactive
  show shion_v002 smile at mei_right, active
- shion "It might be inappropriate to say this about someone's home, but if you just close your eyes all sorts of mysteries and suspenseful things come to mind."
+ shion "It might be inappropriate to say this about someone's home, but if you just close your eyes, all sorts of mysteries and suspenseful things come to mind."
  hide erika_v001
  show nao_v002 smile at mei_left, active
  with Dissolve(0.3)
@@ -781,7 +781,7 @@ label event01_30_01:
  with Dissolve(0.2)
  scene expression 'images/bg/AdvBg_2161.png' as bg
  narrator 'With that, we were shown around the house.'
- narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how wonderful it would be if some kind of incident occurred here and other such indiscreet topics.  '
+ narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here and other such indiscreet topics.  '
  narrator 'And then, on the way back to the front door, we walked by a great hall.'
  narrator 'And there...... I met the true master of this island.'
  show mion_v002 odoroki at mei_right, active
@@ -789,10 +789,10 @@ label event01_30_01:
  with Dissolve(0.3)
  show mion_v002 odoroki at mei_right, inactive
  show shion_v002 odoroki at mei_left, active
- shion '......uwah, what a beautiful woman......'
+ shion '......uwah, what beautiful blonde hair......'
  show shion_v002 odoroki at mei_left, inactive
  show mion_v002 odoroki at mei_right, active
- mion "Who's that........."
+ mion "Who's this......... person......"
  stop music fadeout 2.0
  hide mion_v002
  hide shion_v002
@@ -806,9 +806,9 @@ label event01_30_01:
  nao '……………………'
  hide nao_v002
  with Dissolve(0.2)
- narrator "I'm not psychic or anything. \n......but, it gave me a feeling."
- narrator 'It was...... a feeling of love...... for the woman in the painting...... bordering on, or even exceeding...... that of madness.'
- narrator "It should be a beautiful portrait but......that's how it makes me feel. \nI wonder if I've also...... been poisoned by the cliche of mysteries on isolated islands."
+ narrator "I'm not psychic or anything. \n......but, the painting was giving me a feeling"
+ narrator 'It was...... a feeling of love...... for the woman in the painting...... bordering on...... or even exceeding...... that of madness.'
+ narrator "It should be a beautiful portrait but......that's how it made me feel. \nI wonder if I've also...... been poisoned by the cliche of mysteries on isolated islands."
  show jessica_v001 normal at mei_right, active
  with Dissolve(0.3)
  show jessica_v001 normal at mei_right, active
@@ -864,4 +864,4 @@ label event01_30_01:
  play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
  pause 2.0
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
- beatrice '*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, humans......!!'
+ beatrice '*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans......!!'
