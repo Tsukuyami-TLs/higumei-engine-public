@@ -75,11 +75,3 @@ transform inactive:
 transform active:
     matrixcolor BrightnessMatrix(0.0)
 
-# furigana styles
-style ruby_style is default:
-    size 20
-    yoffset -30
-
-style say_dialogue:
-    line_leading 12
-    ruby_style style.ruby_style
