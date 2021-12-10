@@ -194,6 +194,7 @@ def compile_commands(commands, translation):
             else:
                 bgname = BACKGROUND[bgname]
                 bgname = f"images/bg/{bgname}.png"
+                outlines.append('stop sound')
                 outlines.append(f'scene expression {repr(bgname)} as bg')
 
         elif cmd == "bgm2":
@@ -215,12 +216,8 @@ def compile_commands(commands, translation):
             # TODO: Figure out what the hell arg1 does
             if 'arg1' not in line:
                 outlines.append(f'play audio {repr(sename)}')
-            elif int(line['arg1']) >= 1500: # Ignore this branch
-                outlines.append(f'play sound {repr(sename)} loop')
-                w = int(line['arg1']) // 100
-                wait_to_emit.append((lambda x, _, n=n: x - n + 2 >= w, 'stop sound fadeout 1.0'))
             else:
-                desired_len = int(line['arg1']) / 30
+                desired_len = int(line['arg1']) / 60
                 with wave.open(f'game/{sename}', 'rb') as wavfile:
                     flen = wavfile.getnframes() / wavfile.getframerate()
 
