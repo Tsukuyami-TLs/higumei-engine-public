@@ -97,142 +97,141 @@ def get_pos(p):
     elif p == '右': return 'mei_right'
     else: return 'mei_center'
 
-def NOP(*args, **kwargs): pass
-'''
-COMMAND_DICT = {
-    'charaload': NOP,
-    '変数': NOP,
-    'shakeset': shakeset,
-    '背景': background,
-    'bgm2': bgm,
-    'bgm': bgm,
-    'fadein': fadein,
-    'motion': motion,
-    'hide': hide,
-    'chara': chara,
-    'fadeout': fadeout,
-    'zoom': zoom,
-    'shakedisp': shakedisp,
-    'shakechara': shakechara,
-    'se2': se2,
-    'wait': wait,
-    'serifclose': serifclose,
-    'move': move,
-    'bgmstop': bgmstop,
-    'wipeout': wipeout,
-    'wipein': wipein,
-    'shader': shader,
-    'setdispname': setdispname,
-    'removedispname': removedispname,
-    'effect': effect,
-    'voice': voice,
-}
-'''
-def compile_commands(commands, translation):
-    outlines = []
-    local = {}
-    shown = {}
-
-    wait_to_emit = []
-
-    for n, line in enumerate(commands):
-        new_wait = []
-        for f, l in wait_to_emit:
-            if f(n, line): outlines.append(l)
-            else: new_wait.append((f, l))
-
-        wait_to_emit = new_wait
-
-        typ, cmd = get_cmd(line)
-        if 'arg0' not in line and 'arg1' in line:
-            cid = get_id(cmd)
-            if cid is None and cmd in local:
-                name = get_name(cmd, local)
-                cid = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
-
-            text = translation.get(n, line['arg1'])
-            for c, o in shown.items():
-                if c == cid: continue
-                outlines.append(f'{o}, inactive')
-            if cid in shown:
-                outlines.append(f'{shown[cid]}, active')
-
-            if cid is None:
-                outlines.append(f'narrator {repr(text)}')
-            else:
-                outlines.append(f'{cid} {repr(text)}')
-
-        elif cmd == 'setdispname':
-            local[line['arg0']] = line['arg1']
-
-        elif cmd == 'chara':
-            outfit = get_outfit(line['arg0'])
-            expr = line['arg1']
-            pos = get_pos(line['arg2'])
-            outlines.append(f'show {outfit} {expr} at {pos}, active')
-            shown[get_id(line['arg0'])] = f'show {outfit} {expr} at {pos}'
-            if typ == 0 and 'arg4' in line:
-                time = int(line["arg4"]) / 100
-                outlines.append(f'with Dissolve({time})')
-
-        elif cmd == 'hide':
-            outfit = get_outfit(line['arg0'])
-            outlines.append(f'hide {outfit}')
-
-            try: del shown[get_id(line['arg0'])]
-            except KeyError: pass
-
-            if typ == 0 and 'arg1' in line:
-                time = int(line["arg1"]) / 100
-                outlines.append(f'with Dissolve({time})')
-
-        elif cmd == "背景":
-            bgname = line["arg0"]
-            shown = {}
-            if bgname == "暗幕":
-                outlines.append(f'scene expression "#000" as bg')
-            else:
-                bgname = BACKGROUND[bgname]
-                bgname = f"images/bg/{bgname}.png"
-                outlines.append('stop sound')
-                outlines.append(f'scene expression {repr(bgname)} as bg')
-
-        elif cmd == "bgm2":
-            name = BGM[line["arg0"]]
-            name = f"audio/bgm/{name}.wav"
-            outlines.append(f'play music {repr(name)}')
-
-        elif cmd == "bgmstop":
-            if "arg0" in line:
-                tim = int(line["arg0"])/60
-                outlines.append(f'stop music fadeout {tim}')
-            else:
-                outlines.append(f'stop music')
-
-        elif cmd == "se2":
-            sename = SFX[line['arg0']]
-            if not sename: print(line)
-            sename = f"audio/sfx/{sename}.wav"
-            # TODO: Figure out what the hell arg1 does
-            if 'arg1' not in line:
-                outlines.append(f'play audio {repr(sename)}')
-            else:
-                desired_len = int(line['arg1']) / 60
-                with wave.open(f'game/{sename}', 'rb') as wavfile:
-                    flen = wavfile.getnframes() / wavfile.getframerate()
-
-                count = int(desired_len / flen)
-                #leftover = desired_len % flen
-
-                l = ",".join([repr(sename)]*count)
-                #l += "," + repr(f"<from 0 to {leftover}>{sename}")
-                outlines.append(f'play sound [{l}] fadeout 1.0')
-
-        elif cmd == 'wait':
-            outlines.append(f'pause {int(line["arg0"])/30}')
+class Compiler:
+    def __init__(self, commands, translation):
+        '''
+        self.COMMAND_DICT = {
+            'shakeset': shakeset,
+            'fadein': fadein,
+            'motion': motion,
+            'fadeout': fadeout,
+            'zoom': zoom,
+            'shakedisp': shakedisp,
+            'shakechara': shakechara,
+            'serifclose': serifclose,
+            'move': move,
+            'wipeout': wipeout,
+            'wipein': wipein,
+            'shader': shader,
+            'effect': effect,
+            'voice': voice,
+            '変数': None,
+        }
+        '''
+        self.bgm = self.bgm2
+        self.commands = commands
+        self.translation = translation
+        self.outlines = []
+        self.local = {}
+        self.shown = {}
 
 
-    return "\n".join(outlines)
+    def talk(self, n, line, cmd):
+        cid = get_id(cmd)
+        if cid is None and cmd in self.local:
+            name = get_name(cmd, self.local)
+            cid = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
+    
+        text = self.translation.get(n, line['arg1'])
+        for c, o in self.shown.items():
+            if c == cid: continue
+            self.outlines.append(f'{o}, inactive')
+        if cid in self.shown:
+            self.outlines.append(f'{self.shown[cid]}, active')
+    
+        if cid is None:
+            self.outlines.append(f'narrator {repr(text)}')
+        else:
+            self.outlines.append(f'{cid} {repr(text)}')
+
+    def setdispname(self, typ, line, cmd):
+        self.local[line['arg0']] = line['arg1']
+            
+    def chara(self, typ, line, cmd):
+        outfit = get_outfit(line['arg0'])
+        expr = line['arg1']
+        pos = get_pos(line['arg2'])
+        self.outlines.append(f'show {outfit} {expr} at {pos}, active')
+        self.shown[get_id(line['arg0'])] = f'show {outfit} {expr} at {pos}'
+        if typ == 0 and 'arg4' in line:
+            time = int(line["arg4"]) / 100
+            self.outlines.append(f'with Dissolve({time})')
+    
+    def motion(self, typ, line, cmd):
+        if get_id(line['arg0']) not in self.shown: return
+        oid = get_id(line['arg0'])
+        outfit = get_outfit(line['arg0'])
+        curr_line = self.shown[oid]
+        parts = curr_line.split(' ')
+        expr = line['arg1']
+        parts[2] = expr
+        self.shown[oid] = ' '.join(parts)
+        self.outlines.append(f'show {outfit} {expr}')
+
+    def hide(self, typ, line, cmd):
+        outfit = get_outfit(line['arg0'])
+        self.outlines.append(f'hide {outfit}')
+
+        try: del self.shown[get_id(line['arg0'])]
+        except KeyError: pass
+
+        if typ == 0 and 'arg1' in line:
+            time = int(line["arg1"]) / 100
+            self.outlines.append(f'with Dissolve({time})')
+
+    def 背景(self, typ, line, cmd):
+        bgname = line["arg0"]
+        self.shown.clear()
+        if bgname == "暗幕":
+            self.outlines.append(f'scene expression "#000" as bg')
+        else:
+            bgname = BACKGROUND[bgname]
+            bgname = f"images/{bgname}.png"
+            self.outlines.append('stop sound')
+            self.outlines.append(f'scene expression {repr(bgname)} as bg')
+
+    def bgm2(self, typ, line, cmd):
+        name = BGM[line["arg0"]]
+        name = f"audio/bgm/{name}.wav"
+        self.outlines.append(f'play music {repr(name)}')
+
+    def bgmstop(self, typ, line, cmd):
+        if "arg0" in line:
+            tim = int(line["arg0"])/60
+            self.outlines.append(f'stop music fadeout {tim}')
+        else:
+            self.outlines.append(f'stop music')
+
+    def se2(self, typ, line, cmd):
+        sename = SFX[line['arg0']]
+        if not sename: print(line)
+        sename = f"audio/sfx/{sename}.wav"
+        # TODO: Figure out what the hell arg1 does
+        if 'arg1' not in line:
+            self.outlines.append(f'play audio {repr(sename)}')
+        else:
+            desired_len = int(line['arg1']) / 60
+            with wave.open(f'game/{sename}', 'rb') as wavfile:
+                flen = wavfile.getnframes() / wavfile.getframerate()
+
+            count = int(desired_len / flen)
+
+            l = ",".join([repr(sename)]*count)
+            self.outlines.append(f'play sound [{l}] fadeout 1.0')
+
+    def wait(self, typ, line, cmd):
+        self.outlines.append(f'pause {int(line["arg0"])/30}')
+
+    def compile_commands(self): 
+        for n, line in enumerate(self.commands): 
+            typ, cmd = get_cmd(line)
+
+            if 'arg0' not in line and 'arg1' in line:
+                self.talk(n, line, cmd)
+            elif hasattr(self, cmd):
+                getattr(self, cmd)(typ, line, cmd)
+    
+        return "\n".join(self.outlines)
 
 def compile_script(folder, fname):
     header = f'label {fname}:'
@@ -252,7 +251,7 @@ def compile_script(folder, fname):
     except IOError:
         tl_dict = {}
 
-    compiled = compile_commands(og_script, tl_dict)
+    compiled = Compiler(og_script, tl_dict).compile_commands()
 
     with open(f'game/scripts/{folder}/{fname}.rpy', 'w') as outfile:
         outfile.write(header + '\n' + indent(compiled, 1))
