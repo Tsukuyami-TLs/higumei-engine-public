@@ -263,7 +263,7 @@ label event01_30_04:
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  stop music fadeout 0.5
  pause 2.0
- play music 'audio/bgm/BGM_QUEST12_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show nao_v002 normal at mei_left
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
@@ -493,7 +493,7 @@ label event01_30_04:
  nao '#4169e1 The servant Shannon-san has a master key. Through that, she used the key to unlock the door, enter the room, and perform the prank! #r'
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_5036_glass_break.wav'
- play music 'audio/bgm/BGM_QUEST12_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show beatrice_v001 futeki at active
  show nao_v002 sinken at inactive
  beatrice '#ff0000 Shannon was not involved in performing the act of drawing the magic circle! #r'
@@ -768,7 +768,7 @@ label event01_30_04:
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice '#ff0000 Going upstairs any other way than using the stairs, such as sawing through the walls or gliding in from the sky, is unforgivable. Any other means of reaching the second floor can therefore be denied. #r'
- play music 'audio/bgm/BGM_QUEST12_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
