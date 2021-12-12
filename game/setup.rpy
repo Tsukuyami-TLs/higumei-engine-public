@@ -64,11 +64,14 @@ transform mei_right:
 transform grayscale:
     matrixcolor SaturationMatrix(0.0)
 
-transform sepia:
+transform sepia_shader:
     matrixcolor SepiaMatrix()
 
-transform inverse:
+transform inverse_shader:
     matrixcolor InvertMatrix(1.0)
+
+transform reset_shader:
+    matrixcolor IdentityMatrix()
 
 transform inactive:
     matrixcolor SaturationMatrix(0.65) * BrightnessMatrix(-0.2) 

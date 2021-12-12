@@ -23,6 +23,8 @@ label event01_30_04:
  narrator '...Was it the topic regarding Beatrice?\nWrong... it was the talk about mystery and the occult.'
  stop sound
  scene expression "#000"
+ camera at sepia_shader
+ pause 0.0
  show expression 'images/bg/AdvBg_2291.png' as bg
  show mion_v002 smile at mei_right
  show shion_v002 smile at mei_left
@@ -59,6 +61,8 @@ label event01_30_04:
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
+ camera at reset_shader
+ pause 0.0
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -71,6 +75,7 @@ label event01_30_04:
  show nao_v002 sinken at mei_center
  with Dissolve(1.0)
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  nao 'I\'m Team "The Kaneda Case Files", all the way! In the name of my granny, I won\'t acknowledge any witches!\n'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
@@ -124,6 +129,7 @@ label event01_30_04:
    linear 0.5 zoom 1.3
  pause 0.5
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  nao 'As if things like you "exist", Beatrice!!!\n'
  camera:
@@ -155,6 +161,7 @@ label event01_30_04:
  show beatrice_v001 futeki at active
  beatrice "Let us introduce ourselves once again! I am this island's Master, the Golden Witch, Beatrice!!\n"
  camera at screenshake_transform
+ pause 0.0
  show beatrice_v001 futeki at active
  beatrice 'And tomorrow is my birthday! <Happy Birthday to me>!!!'
  hide beatrice_v001
@@ -843,6 +850,7 @@ label event01_30_04:
    linear 0.5 zoom 1.3
  pause 0.5
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  show beatrice_v001 futeki at inactive
  nao "Your red truths won't shoot through me. I'll launch over this precipice and wedge into the heart of fantasy!!"
