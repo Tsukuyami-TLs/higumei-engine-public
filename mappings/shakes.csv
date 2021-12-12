@@ -1,0 +1,16 @@
+うなづき,nod_transform
+キャラゆれ,chara_shake_transform
+ジャンプ,jump_transform
+上下ゆれ,updown_shake_transform
+左右ゆれ,leftright_shake_transform
+歩き,walk_transform
+歩き上下2,walk_updown2_transform
+歩き上下3,walk_updown3_transform
+歩き上下,walk_updown1_transform
+深呼吸,deepbreath_transform
+画面ゆれ,screenshake_transform
+画面ゆれ大,screenshake_big_transform
+画面ゆれ長,screenshake_long_transform
+走り,run_transform
+跳ねる,jumping_transform
+
