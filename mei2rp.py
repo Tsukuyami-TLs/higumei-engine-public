@@ -14,6 +14,12 @@ BGM = {}
 SFX = {}
 SHAKEMAP = {}
 
+COLORS = {
+    '黒': "#000",
+    '白': "#fff",
+    '赤': "#e11", # TODO tune the red
+}
+
 with open('mappings/charnames.csv') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
@@ -122,10 +128,10 @@ class Compiler:
         self.COMMAND_DICT = {
             'fadein': fadein,
             'fadeout': fadeout,
-            'serifclose': serifclose,
-            'move': move,
             'wipeout': wipeout,
             'wipein': wipein,
+            'move': move,
+            'serifclose': serifclose,
             'shader': shader,
             'effect': effect,
             'voice': voice,
@@ -138,11 +144,15 @@ class Compiler:
         self.local = {}
         self.shown = {}
         self.to_show = {}
+        # TODO: tune 右 and 左 variables
         self.variables = {
             '中': 960,
             '左': 100,
             '右': 1820,
         }
+
+        self.faded = True
+        self.background = None
 
     def talk(self, n, line, cmd):
         cid = get_id(cmd)
@@ -256,13 +266,28 @@ pause {time}
     def 背景(self, typ, line, cmd):
         bgname = line["arg0"]
         self.shown.clear()
+        command = ""
         if bgname == "暗幕":
-            self.outlines.append(f'scene expression "#000" as bg')
+            self.background = f'scene expression "#000" as bg'
         else:
             bgname = BACKGROUND[bgname]
             bgname = f"images/{bgname}.png"
             self.outlines.append('stop sound')
-            self.outlines.append(f'scene expression {repr(bgname)} as bg')
+            self.background = f'scene expression {repr(bgname)} as bg'
+
+        if not self.faded:
+            self.outlines.append(command)
+
+    def fadein(self, typ, line, cmd):
+        time = int(line['arg0']) / 60
+        self.outlines.append(self.background+f'\nwith Dissolve({time})')
+        self.faded = False
+
+    def fadeout(self, typ, line, cmd):
+        color = COLORS[line['arg0']]
+        time = int(line['arg1']) / 60
+        self.outlines.append(f'scene expression "{color}" as bg\nwith Dissolve({time})')
+        self.faded = True
 
     def bgm2(self, typ, line, cmd):
         name = BGM[line["arg0"]]

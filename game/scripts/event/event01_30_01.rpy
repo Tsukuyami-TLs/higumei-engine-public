@@ -1,7 +1,8 @@
 label event01_30_01:
  stop sound
- scene expression 'images/bg/AdvBg_2101.png' as bg
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ scene expression 'images/bg/AdvBg_2101.png' as bg
+ with Dissolve(1.0)
  narrator 'To get to Rokkenjima, we transferred onto another boat at Niijima.'
  narrator 'Unlike the ferry, it was a small, fast, boat, so it shook considerably, but was thrilling and interesting.'
  narrator 'However............'
@@ -231,9 +232,12 @@ label event01_30_01:
  narrator '......I only came to enjoy embroidery in the rose garden rumored for its beauty.'
  narrator 'The Sonozaki sisters, excited by the talk of the witch, seemed to be in high spirits even before reaching the island.'
  narrator "I'm not particularly afraid but...... \nI'm not particularly fond of taking a vacation on an island of witches and evil spirits. "
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  stop sound
- scene expression 'images/bg/AdvBg_2251.png' as bg
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ scene expression 'images/bg/AdvBg_2251.png' as bg
+ with Dissolve(1.0)
  show shannon_v001 smile at mei_right
  show jessica_v001 smile at mei_left
  with Dissolve(0.5)
@@ -280,11 +284,14 @@ label event01_30_01:
  show shion_v002 smile at active
  show mion_v002 futeki at inactive
  shion 'One should be thoroughly prepared for this island.'
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  stop sound
  scene expression 'images/bg/AdvBg_2261.png' as bg
+ with Dissolve(1.0)
  narrator "Here, there's no restrictions like tour bus times or group activities. \nEveryone can enjoy things at their own leisurely pace."
  narrator 'I only brought a change of clothes, toiletries, a book to read, and an embroidery set, so a cutely sized trunk was enough.'
  show shannon_v001 smile at mei_left
@@ -341,25 +348,36 @@ label event01_30_01:
  show jessica_v001 fuan_close at active
  show mion_v002 smile at inactive
  jessica "It's not great at all. Personally, I wish I could walk to all my friends' houses."
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide jessica_v001
  hide mion_v002
+ scene expression 'images/bg/AdvBg_2261.png' as bg
+ with Dissolve(0.08333333333333333)
  show shion_v002 smile at mei_center
  show shion_v002 smile at updown_shake_transform,active
  shion "Sis! Nao-san! Quickly, quickly! Isn't this amazing?!?!"
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide shion_v002
+ scene expression 'images/bg/AdvBg_2261.png' as bg
+ with Dissolve(0.08333333333333333)
  narrator 'Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.'
  narrator 'And so, as the scene spread out before me, I became so overcome with emotion that I almost lost myself......'
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  stop sound
- scene expression 'images/bg/AdvBg_2221.png' as bg
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ scene expression 'images/bg/AdvBg_2221.png' as bg
+ with Dissolve(1.0)
  camera:
   anchor (0.5,0.5)
   parallel:
@@ -435,28 +453,39 @@ label event01_30_01:
  show shion_v002 smile at active
  show nao_v002 normal at inactive
  shion "Absolutely. In a way, it's an offense to the roses."
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
  hide nao_v002
+ scene expression 'images/bg/AdvBg_2221.png' as bg
+ with Dissolve(0.08333333333333333)
  show mion_v002 smile at mei_center
  show mion_v002 smile at jump_transform,active
  mion "Shion~!! Over here!  Wouldn't it be pretty good if I took a picture from this angle?!"
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
+ scene expression 'images/bg/AdvBg_2221.png' as bg
+ with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
  erika "The Ushiromiya family doesn't get guests like her much. I'm sure Beato won't be bored."
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
  scene expression 'images/bg/AdvBg_2271.png' as bg
+ with Dissolve(1.0)
  show jessica_v001 smile at mei_left
  show shannon_v001 smile at mei_right
  with Dissolve(0.5)
@@ -519,10 +548,12 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. \nI'll give it to Mion."
  scene expression "#000" as bg
+ with Dissolve(1.0)
  play audio 'audio/sfx/SE_5013_down.wav'
  narrator 'We went up to the second floor, entered our rooms and set down our bags.'
  stop sound
  scene expression 'images/bg/AdvBg_2281.png' as bg
+ with Dissolve(1.0)
  narrator "Our room is a three person room with three beds. \nErika-san's room next to ours is the same, although she's the only one using it."
  show shion_v002 smile at mei_right
  show nao_v002 smile at mei_left
@@ -538,10 +569,14 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator 'More than gorgeous, the room was calm, and had a sense of refined, quiet beauty.'
  narrator 'It was built right after the war, so some of the facilities are clearly aging, but that gives it an antique taste.'
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
+ scene expression 'images/bg/AdvBg_2281.png' as bg
+ with Dissolve(0.08333333333333333)
  show mion_v002 smile at mei_center
  play audio 'audio/sfx/SE_592_Is_plastic.wav'
  show mion_v002 smile at updown_shake_transform,active
@@ -549,11 +584,15 @@ label event01_30_01:
  play audio 'audio/sfx/SE_526_door_open.wav'
  show mion_v002 smile at jump_transform,active
  mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look look, Shion!! It's an ocean vieeeewwww!!"
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
+ scene expression 'images/bg/AdvBg_2281.png' as bg
+ with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_left
  show shion_v002 fuan at mei_right
  with Dissolve(0.5)
@@ -624,22 +663,30 @@ label event01_30_01:
  shion 'Sis you really are an idiot. If you just told him that there were two rooms and called him over,'
  show shion_v002 smile at active
  shion "and it turns out there's only one room when we arrive, he'd have no choice but to stay in the same room! Wouldn't that be nice?"
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
+ scene expression 'images/bg/AdvBg_2281.png' as bg
+ with Dissolve(0.08333333333333333)
  show mion_v002 odoroki at mei_center
  camera at screenshake_transform
  show mion_v002 odoroki at active
  mion "Aaaaaaaaaargghhh!! I should've done that!! "
  show mion_v002 fuan at active
  mion 'Shion! Go back right now and switch with Kei-chan!'
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
+ scene expression 'images/bg/AdvBg_2281.png' as bg
+ with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_left
  show shion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -649,46 +696,68 @@ label event01_30_01:
  show nao_v002 fuan_close at active
  show shion_v002 smile at inactive
  nao "I-If he rejected me there I wouldn't know how to respond......"
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
  stop sound
  scene expression 'images/bg/AdvBg_2371.png' as bg
+ with Dissolve(1.0)
  play audio 'audio/sfx/SE_5007_keyroll.wav'
  narrator 'We leave our bags and lock the room.'
  narrator 'Erika-san had also just come out and locked her room.'
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  stop sound
  scene expression 'images/bg/AdvBg_2291.png' as bg
+ with Dissolve(1.0)
  play audio 'audio/sfx/SE_5049_cup.wav'
  narrator 'When we went downstairs, Gohda-san was setting out some drinks to welcome us.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Welcome, everyone. Please enjoy these beverages.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'I would like to present the refreshing taste of the end of autumn, to you who have travelled so far to arrive here.'
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
+ scene expression 'images/bg/AdvBg_2291.png' as bg
+ with Dissolve(0.08333333333333333)
  show mion_v002 smile at mei_center
  show mion_v002 smile at chara_shake_transform,active
  mion "Wah---!! This is great! I'd like a refill!"
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
+ scene expression 'images/bg/AdvBg_2291.png' as bg
+ with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_333_ls_ppuringtea.wav'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Of course, here you are...... Speaking of the fruits of Autumn,'
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
+ scene expression 'images/bg/AdvBg_2291.png' as bg
+ with Dissolve(0.08333333333333333)
  show mion_v002 smile at mei_center
  show mion_v002 smile at chara_shake_transform,active
  mion 'Hwaa---!! This really is the stuff! I drank it all in one gulp!'
+ scene expression "#000" as bg
+ with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
+ scene expression 'images/bg/AdvBg_2291.png' as bg
+ with Dissolve(0.08333333333333333)
  show shion_v002 fuan at mei_left
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
@@ -724,9 +793,12 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator 'After the refreshments and a break, Jessica comes to get us.'
  narrator "First, we'll go meet the Ushiromiya family that invited us.  \nThen we'll be shown around the western-style mansion built right after the war."
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  stop sound
- scene expression 'images/bg/AdvBg_2221.png' as bg
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ scene expression 'images/bg/AdvBg_2221.png' as bg
+ with Dissolve(1.0)
  show jessica_v001 smile at mei_right
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
@@ -787,12 +859,15 @@ label event01_30_01:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '......witch.........?'
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression 'images/bg/AdvBg_2301.png' as bg
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
+ scene expression 'images/bg/AdvBg_2301.png' as bg
+ with Dissolve(1.0)
  narrator 'The masters of the house, Ushiromiya Krauss-san and Natsuhi-san, came to greet us.'
  narrator 'Krauss-san was a wealthy-looking, well dressed gentleman. \nHis wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.'
  show mion_v002 smile at mei_center
@@ -857,10 +932,13 @@ label event01_30_01:
  with Dissolve(0.5)
  show jessica_v001 fuan_close at active
  jessica 'I-I know mom......'
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide jessica_v001
  with Dissolve(0.2)
  stop sound
  scene expression 'images/bg/AdvBg_2161.png' as bg
+ with Dissolve(1.0)
  narrator 'With that, we were shown around the house.'
  narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here and other such indiscreet topics.  '
  narrator 'And then, on the way back to the front door, we walked by a great hall.'
@@ -875,12 +953,15 @@ label event01_30_01:
  show shion_v002 odoroki at inactive
  mion "Who's this......... person......"
  stop music fadeout 2.0
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  scene expression 'images/bg/AdvBg_2311.png' as bg
+ with Dissolve(1.0)
  camera:
   anchor (0.5,0.5)
   parallel:
@@ -949,10 +1030,11 @@ label event01_30_01:
  show nao_v002 normal at active
  show erika_v001 normal_close at inactive
  nao 'The Golden...... Witch......'
+ scene expression "#000" as bg
+ with Dissolve(1.0)
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- scene expression "#000" as bg
  narrator 'That was the first meeting between me and the witch.'
  narrator 'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait.........'
  pause 4.0
