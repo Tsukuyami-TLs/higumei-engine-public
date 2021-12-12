@@ -263,6 +263,7 @@ label event01_30_01:
  with Dissolve(0.2)
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Yes. Leave it to me. ......nnn ......guh......'
  play audio 'audio/sfx/SE_5005_grab.wav'
+ camera at screenshake_transform
  pause 2.0
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
@@ -580,6 +581,7 @@ label event01_30_01:
  shion "and it turns out there's only one room when we arrive, he'd have no choice but to stay in the same room! Wouldn't that be nice?"
  hide shion_v002
  show mion_v002 odoroki at mei_center
+ camera at screenshake_transform
  show mion_v002 odoroki at active
  mion "Aaaaaaaaaargghhh!! I should've done that!! "
  show mion_v002 fuan at active
