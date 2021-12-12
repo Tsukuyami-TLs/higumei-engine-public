@@ -12,6 +12,7 @@ OUTFITS = {}
 BACKGROUND = {}
 BGM = {}
 SFX = {}
+SHAKEMAP = {}
 
 with open('mappings/charnames.csv') as cnames:
     reader = csv.reader(cnames)
@@ -37,6 +38,12 @@ with open('mappings/se.csv') as cnames:
     for line in reader:
         if len(line) < 2: continue
         SFX[line[0]] = line[1]
+
+with open('mappings/shakes.csv') as cnames:
+    reader = csv.reader(cnames)
+    for line in reader:
+        if len(line) < 2: continue
+        SHAKEMAP[line[0]] = line[1]
 
 for outfit in os.listdir(OUTFIT_MAPS):
     name = outfit.split('.')[0]
@@ -97,17 +104,26 @@ def get_pos(p):
     elif p == '右': return 'mei_right'
     else: return 'mei_center'
 
+class ShowChara:
+    def __init__(self, outfit, expression="normal"):
+        self.outfit = outfit
+        self.expression = expression
+        self.transforms = []
+        self.transition = None
+
+    def construct(self):
+        if not self.transforms:
+            return f'show {self.outfit} {self.expression}'
+        return f'show {self.outfit} {self.expression} at {",".join(self.transforms)}'
+
 class Compiler:
     def __init__(self, commands, translation):
         '''
         self.COMMAND_DICT = {
-            'shakeset': shakeset,
             'fadein': fadein,
-            'motion': motion,
             'fadeout': fadeout,
             'zoom': zoom,
             'shakedisp': shakedisp,
-            'shakechara': shakechara,
             'serifclose': serifclose,
             'move': move,
             'wipeout': wipeout,
@@ -124,6 +140,8 @@ class Compiler:
         self.outlines = []
         self.local = {}
         self.shown = {}
+        self.to_show = {}
+
 
 
     def talk(self, n, line, cmd):
@@ -133,16 +151,27 @@ class Compiler:
             cid = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
     
         text = self.translation.get(n, line['arg1'])
+        for c, o in self.to_show.items():
+            if c == cid: continue
+            o.transforms.append('inactive')
+
         for c, o in self.shown.items():
             if c == cid: continue
-            self.outlines.append(f'{o}, inactive')
-        if cid in self.shown:
-            self.outlines.append(f'{self.shown[cid]}, active')
+            if c not in self.to_show:
+                self.to_show[c] = ShowChara(o[0], o[1])
+            self.to_show[c].transforms.append('inactive')
+
+            
+        if cid in self.shown or cid in self.to_show:
+            if c not in self.to_show:
+                o = self.to_show[cid]
+                self.to_show[cid] = ShowChara(o[0], o[1])
+            self.to_show[cid].transforms.append('active')
     
         if cid is None:
-            self.outlines.append(f'narrator {repr(text)}')
+            return f'narrator {repr(text)}'
         else:
-            self.outlines.append(f'{cid} {repr(text)}')
+            return f'{cid} {repr(text)}'
 
     def setdispname(self, typ, line, cmd):
         self.local[line['arg0']] = line['arg1']
@@ -151,28 +180,42 @@ class Compiler:
         outfit = get_outfit(line['arg0'])
         expr = line['arg1']
         pos = get_pos(line['arg2'])
-        self.outlines.append(f'show {outfit} {expr} at {pos}, active')
-        self.shown[get_id(line['arg0'])] = f'show {outfit} {expr} at {pos}'
+       
+        showchara = ShowChara(outfit, expr)
+        showchara.transforms.append(pos)
         if typ == 0 and 'arg4' in line:
-            time = int(line["arg4"]) / 100
-            self.outlines.append(f'with Dissolve({time})')
+            time = int(line["arg4"]) / 60
+            showchara.transition = f'Dissolve({time})'
+
+        self.to_show[get_id(line['arg0'])] = showchara
     
-    def motion(self, typ, line, cmd):
-        if get_id(line['arg0']) not in self.shown: return
+    def shakechara(self, typ, line, cmd):
         oid = get_id(line['arg0'])
-        outfit = get_outfit(line['arg0'])
-        curr_line = self.shown[oid]
-        parts = curr_line.split(' ')
-        expr = line['arg1']
-        parts[2] = expr
-        self.shown[oid] = ' '.join(parts)
-        self.outlines.append(f'show {outfit} {expr}')
+        anim = line['arg1']
+        if oid not in self.shown: return
+        if oid not in self.to_show:
+            o = self.shown[oid]
+            self.to_show[oid] = ShowChara(o[0], o[1])
+        self.to_show[oid].transforms.append(SHAKEMAP[anim])
+        
+    def motion(self, typ, line, cmd):
+        oid = get_id(line['arg0'])
+        if oid not in self.shown: return
+        if oid not in self.to_show:
+            o = self.shown[oid]
+            self.to_show[oid] = ShowChara(o[0], o[1])
+        
+        self.to_show[oid].expression = line['arg1']
 
     def hide(self, typ, line, cmd):
+        cid = get_id(line['arg0'])
         outfit = get_outfit(line['arg0'])
         self.outlines.append(f'hide {outfit}')
 
-        try: del self.shown[get_id(line['arg0'])]
+        try: del self.shown[cid]
+        except KeyError: pass
+
+        try: del self.to_show[cid]
         except KeyError: pass
 
         if typ == 0 and 'arg1' in line:
@@ -206,7 +249,6 @@ class Compiler:
         sename = SFX[line['arg0']]
         if not sename: print(line)
         sename = f"audio/sfx/{sename}.wav"
-        # TODO: Figure out what the hell arg1 does
         if 'arg1' not in line:
             self.outlines.append(f'play audio {repr(sename)}')
         else:
@@ -222,14 +264,34 @@ class Compiler:
     def wait(self, typ, line, cmd):
         self.outlines.append(f'pause {int(line["arg0"])/30}')
 
+    def output_shows(self):
+        transition = None
+        for cid, showchara in self.to_show.items():
+            self.shown[cid] = showchara.outfit, showchara.expression
+            if showchara.transition is not None:
+                transition = showchara.transition
+            
+            self.outlines.append(showchara.construct())
+
+        if transition:
+            self.outlines.append(f'with {transition}')
+        self.to_show.clear()
+
     def compile_commands(self): 
         for n, line in enumerate(self.commands): 
             typ, cmd = get_cmd(line)
+            is_talk = 'arg0' not in line and 'arg1' in line
+            text_out = ""
 
-            if 'arg0' not in line and 'arg1' in line:
-                self.talk(n, line, cmd)
+            if is_talk:
+                text_out = self.talk(n, line, cmd)
             elif hasattr(self, cmd):
                 getattr(self, cmd)(typ, line, cmd)
+
+            if is_talk or typ == 0: 
+                self.output_shows()
+            if is_talk:
+                self.outlines.append(text_out)
     
         return "\n".join(self.outlines)
 
