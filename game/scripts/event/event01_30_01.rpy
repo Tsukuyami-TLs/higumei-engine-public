@@ -362,20 +362,26 @@ label event01_30_01:
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  camera:
   anchor (0.5,0.5)
-  linear 0.5 pos (810, 460)
-  linear 0.5 zoom 1.5
+  parallel:
+   linear 0.5 pos (810, 460)
+  parallel:
+   linear 0.5 zoom 1.5
  pause 0.5
  pause 2.0
  camera:
   anchor (0.5,0.5)
-  linear 1.0 pos (960, 460)
-  linear 1.0 zoom 1.5
+  parallel:
+   linear 1.0 pos (960, 460)
+  parallel:
+   linear 1.0 zoom 1.5
  pause 1.0
  pause 2.0
  camera:
   anchor (0.5,0.5)
-  linear 0.5 pos (960, 540)
-  linear 0.5 zoom 1.0
+  parallel:
+   linear 0.5 pos (960, 540)
+  parallel:
+   linear 0.5 zoom 1.0
  pause 0.5
  show nao_v002 smile_blush at mei_center
  with Dissolve(0.5)
@@ -877,14 +883,18 @@ label event01_30_01:
  scene expression 'images/bg/AdvBg_2311.png' as bg
  camera:
   anchor (0.5,0.5)
-  linear 1.0 pos (960, 540)
-  linear 1.0 zoom 1.3
+  parallel:
+   linear 1.0 pos (960, 540)
+  parallel:
+   linear 1.0 zoom 1.3
  pause 1.0
  pause 2.0
  camera:
   anchor (0.5,0.5)
-  linear 0.5 pos (960, 540)
-  linear 0.5 zoom 1.0
+  parallel:
+   linear 0.5 pos (960, 540)
+  parallel:
+   linear 0.5 zoom 1.0
  pause 0.5
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
