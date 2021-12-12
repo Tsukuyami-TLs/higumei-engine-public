@@ -341,19 +341,42 @@ label event01_30_01:
  show jessica_v001 fuan_close at active
  show mion_v002 smile at inactive
  jessica "It's not great at all. Personally, I wish I could walk to all my friends' houses."
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 590)
+  zoom 1.3
  hide jessica_v001
  hide mion_v002
  show shion_v002 smile at mei_center
  show shion_v002 smile at updown_shake_transform,active
  shion "Sis! Nao-san! Quickly, quickly! Isn't this amazing?!?!"
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 540)
+  zoom 1.0
  hide shion_v002
  narrator 'Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.'
  narrator 'And so, as the scene spread out before me, I became so overcome with emotion that I almost lost myself......'
  stop sound
  scene expression 'images/bg/AdvBg_2221.png' as bg
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ camera:
+  anchor (0.5,0.5)
+  linear 0.5 pos (810, 460)
+  linear 0.5 zoom 1.5
+ pause 0.5
  pause 2.0
+ camera:
+  anchor (0.5,0.5)
+  linear 1.0 pos (960, 460)
+  linear 1.0 zoom 1.5
+ pause 1.0
  pause 2.0
+ camera:
+  anchor (0.5,0.5)
+  linear 0.5 pos (960, 540)
+  linear 0.5 zoom 1.0
+ pause 0.5
  show nao_v002 smile_blush at mei_center
  with Dissolve(0.5)
  play audio 'audio/sfx/SE_215_heartgrow.wav'
@@ -406,11 +429,19 @@ label event01_30_01:
  show shion_v002 smile at active
  show nao_v002 normal at inactive
  shion "Absolutely. In a way, it's an offense to the roses."
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 590)
+  zoom 1.3
  hide shion_v002
  hide nao_v002
  show mion_v002 smile at mei_center
  show mion_v002 smile at jump_transform,active
  mion "Shion~!! Over here!  Wouldn't it be pretty good if I took a picture from this angle?!"
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 540)
+  zoom 1.0
  hide mion_v002
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -501,6 +532,10 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator 'More than gorgeous, the room was calm, and had a sense of refined, quiet beauty.'
  narrator 'It was built right after the war, so some of the facilities are clearly aging, but that gives it an antique taste.'
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 590)
+  zoom 1.3
  show mion_v002 smile at mei_center
  play audio 'audio/sfx/SE_592_Is_plastic.wav'
  show mion_v002 smile at updown_shake_transform,active
@@ -508,6 +543,10 @@ label event01_30_01:
  play audio 'audio/sfx/SE_526_door_open.wav'
  show mion_v002 smile at jump_transform,active
  mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look look, Shion!! It's an ocean vieeeewwww!!"
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 540)
+  zoom 1.0
  hide mion_v002
  show nao_v002 fuan at mei_left
  show shion_v002 fuan at mei_right
@@ -579,6 +618,10 @@ label event01_30_01:
  shion 'Sis you really are an idiot. If you just told him that there were two rooms and called him over,'
  show shion_v002 smile at active
  shion "and it turns out there's only one room when we arrive, he'd have no choice but to stay in the same room! Wouldn't that be nice?"
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 590)
+  zoom 1.3
  hide shion_v002
  show mion_v002 odoroki at mei_center
  camera at screenshake_transform
@@ -586,6 +629,10 @@ label event01_30_01:
  mion "Aaaaaaaaaargghhh!! I should've done that!! "
  show mion_v002 fuan at active
  mion 'Shion! Go back right now and switch with Kei-chan!'
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 540)
+  zoom 1.0
  hide mion_v002
  show nao_v002 fuan at mei_left
  show shion_v002 smile at mei_right
@@ -610,15 +657,31 @@ label event01_30_01:
  narrator 'When we went downstairs, Gohda-san was setting out some drinks to welcome us.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Welcome, everyone. Please enjoy these beverages.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'I would like to present the refreshing taste of the end of autumn, to you who have travelled so far to arrive here.'
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 590)
+  zoom 1.3
  show mion_v002 smile at mei_center
  show mion_v002 smile at chara_shake_transform,active
  mion "Wah---!! This is great! I'd like a refill!"
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 540)
+  zoom 1.0
  hide mion_v002
  play audio 'audio/sfx/SE_333_ls_ppuringtea.wav'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Of course, here you are...... Speaking of the fruits of Autumn,'
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 590)
+  zoom 1.3
  show mion_v002 smile at mei_center
  show mion_v002 smile at chara_shake_transform,active
  mion 'Hwaa---!! This really is the stuff! I drank it all in one gulp!'
+ camera:
+  anchor (0.5,0.5)
+  pos (960, 540)
+  zoom 1.0
  hide mion_v002
  show shion_v002 fuan at mei_left
  show erika_v001 normal_close at mei_right
@@ -812,7 +875,17 @@ label event01_30_01:
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  scene expression 'images/bg/AdvBg_2311.png' as bg
+ camera:
+  anchor (0.5,0.5)
+  linear 1.0 pos (960, 540)
+  linear 1.0 zoom 1.3
+ pause 1.0
  pause 2.0
+ camera:
+  anchor (0.5,0.5)
+  linear 0.5 pos (960, 540)
+  linear 0.5 zoom 1.0
+ pause 0.5
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
