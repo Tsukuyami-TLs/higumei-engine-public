@@ -70,7 +70,7 @@ def get_outfit(jp):
 
     cid, oid = jp
     cid = JP2ID[cid]
-    if oid in OUTFITS[cid]:
+    if cid in OUTFITS and oid in OUTFITS[cid]:
         # NOTE: May want to not have 'v'
         oid = 'v' + OUTFITS[cid][oid]
     elif oid == '私服':
@@ -110,6 +110,10 @@ def get_pos(p):
     elif p == '右': return 'mei_right'
     elif p == '中': return 'mei_center'
     else: return None
+
+def get_ypos(p):
+    if p == '下外': return -1080
+    else: return int(p)
 
 class ShowChara:
     def __init__(self, outfit, expression="normal"):
@@ -154,6 +158,8 @@ class Compiler:
             '中': 960,
             '左': 480,
             '右': 1920-480,
+            '右外': 1920+480,
+            '左外': -480,
         }
 
         self.faded = "#000"
@@ -341,7 +347,7 @@ camera:
     def move(self, typ, line, cmd):
         cid = get_id(line['arg0'])
         xpos = self.variables[line['arg1']]
-        ypos = 1200 - int(line['arg2'])
+        ypos = 1200 - get_ypos(line['arg2'])
         time = int(line['arg3'])/60
         outfit, expression = self.shown[cid]
         
@@ -404,6 +410,8 @@ camera:
                 text_out = self.talk(n, line, cmd)
             elif hasattr(self, cmd):
                 getattr(self, cmd)(typ, line, cmd)
+            elif cmd not in ['shakeset', 'charaload']:
+                print(cmd)
 
             if is_talk or typ == 0: 
                 self.output_shows()
