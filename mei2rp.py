@@ -261,7 +261,7 @@ camera:
 
     def shakedisp(self, typ, line, cmd):
         anim = SHAKEMAP[line['arg0']]
-        self.outlines.append(f'camera at {anim}')
+        self.outlines.append(f'camera at {anim}\npause 0.0')
         
     def motion(self, typ, line, cmd):
         oid = get_id(line['arg0'])
@@ -351,6 +351,11 @@ camera:
         self.to_show[cid].atl = f"linear {time} pos ({xpos},{ypos})"
         self.to_show[cid].wait = max(self.to_show[cid].wait, time)
 
+    def shader(self, typ, line, cmd):
+        if line['arg0'] == 'セピア':
+            self.outlines.append(f'camera at sepia_shader\npause 0.0')
+        else:
+            self.outlines.append(f'camera at reset_shader\npause 0.0')
 
     def se2(self, typ, line, cmd):
         sename = SFX[line['arg0']]
