@@ -4,7 +4,8 @@ label event01_30_00:
  nao 'N.....n......'
  nao 'Nooooooooooooooooo!!'
  stop sound
- scene expression 'images/bg/AdvBg_1270.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_1270.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_346_ls_blood.wav'
  narrator 'The poor victims.... were on the bed covered in blood'
@@ -16,8 +17,8 @@ label event01_30_00:
  narrator 'Out of three beds, two beds were covered in blood.... But one bed was still as clean as it was last night. That was.... my bed.'
  narrator "And I was the only one..... who slept soundly in the same room as the girls.... who wasn't covered in a single drop of blood."
  narrator 'I wanted to ask "are you okay?". But the only thing that came out of my mouth was a small, weak and shaky voice that was too weak to be called a scream.'
- scene expression "#000" as bg
- with Dissolve(1.0)
+ show expression "#000" as fade with Dissolve(1.0)
+ scene expression "#000"
  play audio 'audio/sfx/SE_527_door_close.wav'
  narrator 'I dashed out of my room, and relentlessly knocked on the door while trying to turn the doorknob'
  nao 'Erika-san, Erika-san!! S-Something awful happened! H-H-Help....!!'
@@ -30,23 +31,26 @@ label event01_30_00:
  narrator "Extreme fear can kill all of our emotions, and sharpen our senses to the limit. But.... it's an icy knife. ........No matter how sharp it is, it's fragile and easily shattered......."
  nao 'Erika...san...?'
  stop sound
- scene expression 'images/bg/AdvBg_1270.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_1270.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_017_TragedyStart.wav'
  narrator 'It was stained.... Erika-san was also on the bed.... red, and bloody.............'
  camera at screenshake_transform
+ pause 0.0
  nao 'Noooooooooooooooooooooooooooooooo!!!!!!!!!!!'
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  stop music fadeout 0.5
  window hide None
- scene expression "#000" as bg
- with Dissolve(1.0)
+ show expression "#000" as fade with Dissolve(1.0)
  pause 6.0
+ scene expression "#000"
  narrator "I shouldn't have come to this island........ Now that I think about it, the invitation to Rokkenjima island was very abrupt"
  window hide None
  stop sound
+ scene expression "#000"
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
- scene expression 'images/bg/AdvBg_541.png' as bg
+ show expression 'images/bg/AdvBg_541.png' as bg
  with Dissolve(1.0)
  show mion_v002 smile at mei_right
  show nao_v002 normal at mei_left
@@ -136,17 +140,18 @@ label event01_30_00:
  narrator ''
  narrator ''
  stop music fadeout 2.0
- scene expression "#000" as bg
- with Dissolve(1.0)
+ show expression "#000" as fade with Dissolve(1.0)
+ scene expression "#000"
  narrator ''
  narrator 'Definitely... we got jinxed at some point.'
  play audio 'audio/sfx/SE_5053_wind.wav'
  narrator ''
  narrator "It's that unpleasant woman.... Furudo Erika's fault."
  stop sound
+ scene expression "#000"
  play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
- scene expression 'images/bg/AdvBg_2111.png' as bg
+ show expression 'images/bg/AdvBg_2111.png' as bg
  with Dissolve(1.0)
  show nao_v002 smile at mei_left
  show mion_v002 smile at mei_right
@@ -172,6 +177,7 @@ label event01_30_00:
  mion ''
  camera:
   anchor (0.5,0.5)
+  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -181,6 +187,7 @@ label event01_30_00:
  mion ''
  camera:
   anchor (0.5,0.5)
+  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -236,7 +243,7 @@ label event01_30_00:
  with Dissolve(0.2)
  narrator ''
  narrator ''
- play music 'audio/bgm/BGM_QUEST12_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  narrator ''
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -275,6 +282,7 @@ label event01_30_00:
  show nao_v002 sinken at inactive
  erika "On purpose? Please don't say such bad things on people."
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
  nao ''
@@ -315,6 +323,7 @@ label event01_30_00:
  show erika_v001 normal_close at inactive
  nao ''
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  show erika_v001 normal_close at inactive
  nao ''
@@ -347,6 +356,7 @@ label event01_30_00:
  erika ' '
  camera:
   anchor (0.5,0.5)
+  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -356,11 +366,13 @@ label event01_30_00:
  show nao_v002 normal at inactive
  erika ''
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  show erika_v001 futeki at inactive
  nao ''
  camera:
   anchor (0.5,0.5)
+  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -434,20 +446,20 @@ label event01_30_00:
  show nao_v002 odoroki at active
  show erika_v001 normal_close at inactive
  nao '.........huh?....'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide nao_v002
- scene expression 'images/bg/AdvBg_2111.png' as bg
- with Dissolve(0.08333333333333333)
+ hide fade with Dissolve(0.08333333333333333)
  show erika_v001 sinken at mei_center
+ with Dissolve(0.08333333333333333)
  show erika_v001 sinken at active
  erika ''
  camera at screenshake_transform
+ pause 0.0
  show erika_v001 fuan at active
  erika ''
  show erika_v001 futeki at active
@@ -459,20 +471,20 @@ label event01_30_00:
  show erika_v001 futeki at active
  erika ''
  camera at screenshake_transform
+ pause 0.0
  show erika_v001 fuan at active
  erika ''
  show erika_v001 normal_close at active
  erika ''
  show erika_v001 normal at active
  erika ''
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- scene expression 'images/bg/AdvBg_2111.png' as bg
+ hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)

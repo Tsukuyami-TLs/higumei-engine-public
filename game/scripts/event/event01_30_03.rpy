@@ -1,7 +1,8 @@
 label event01_30_03:
  stop sound
+ scene expression "#000"
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
- scene expression 'images/bg/AdvBg_2281.png' as bg
+ show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  narrator '\u3000ほんの１０分くらい目を瞑るだけ……、と思っていたのに、案の\n定、かなり眠ってしまっていたようだ。'
  play audio 'audio/sfx/SE_5037_getup.wav'
@@ -79,12 +80,13 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  nao '…………………。'
- scene expression "#000" as bg
- with Dissolve(1.0)
+ window hide None
+ show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression 'images/bg/AdvBg_2371.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  narrator '\u3000せっかく忘れてたのに。……魔女の怪談を、また思い出してしま\nう。\n\u3000でも、昼寝できて頭もスッキリした。'
  narrator '\u3000自慢のディナーをいただけば、あたしも元気チャージ１２０％\nで、明日からは気分を入れ替えて機嫌よく過ごせそうだ。'
@@ -117,13 +119,14 @@ label event01_30_03:
  show mion_v002 smile at jump_transform,active
  show nao_v002 smile at inactive
  mion 'やっぱり、ご飯は大事だよねぇ！'
- scene expression "#000" as bg
- with Dissolve(1.0)
+ window hide None
+ show expression "#000" as fade with Dissolve(1.0)
  hide mion_v002
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression 'images/bg/AdvBg_2331.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
@@ -174,6 +177,7 @@ label event01_30_03:
  with Dissolve(0.2)
  narrator '\u3000何それ。超見たい。'
  narrator '\u3000ヱリカさんという人は、直接の関わりなく遠くから見ている分に\nは、とても面白い人なのかもしれない。'
+ window hide None
  stop music fadeout 2.0
  pause 6.0
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
@@ -181,26 +185,25 @@ label event01_30_03:
  narrator '\u3000心地よい満腹感は、今日一日、大したことはしていないはずなの\nに、今日もがんばったかのような不思議な気持ちにさせてくれる。'
  narrator '\u3000テレビはもちろん『名探偵ワニャン』。\n\u3000あたしが見てた頃から、ずいぶん登場人物が増えている。'
  narrator '\u3000というか、この世界の警察は、どうして殺人事件の現場に、小学\n生やら巨大ナメクジやらを自由に立ち入らせるのだろう？？'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
- scene expression 'images/bg/AdvBg_2331.png' as bg
- with Dissolve(0.08333333333333333)
+ hide fade with Dissolve(0.08333333333333333)
  show mion_v002 sinken at mei_center
+ with Dissolve(0.08333333333333333)
  camera at screenshake_transform
+ pause 0.0
  show mion_v002 sinken at active
  mion 'いやいやいやいや！\u3000まだ言い逃れは出来たでしょ！\u3000犯人、屈す\nるの早ぁい！'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- scene expression 'images/bg/AdvBg_2331.png' as bg
+ hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -374,26 +377,24 @@ label event01_30_03:
  play audio 'audio/sfx/SE_5029_slap_back.wav'
  pause 1.0
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shannon_v001
- scene expression 'images/bg/AdvBg_2331.png' as bg
- with Dissolve(0.08333333333333333)
+ hide fade with Dissolve(0.08333333333333333)
  show jessica_v001 smile at mei_center
+ with Dissolve(0.08333333333333333)
  show jessica_v001 smile at active
  jessica 'こんばんは～～！！\u3000あっそびに来たぜ～～！！'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide jessica_v001
- scene expression 'images/bg/AdvBg_2331.png' as bg
+ hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  narrator '\u3000元気よく、何かを抱えた朱志香さんがやってきた。'
  narrator '\u3000私たちにとってのバカンスも、朱志香さんには、友達が泊まりに\n来てくれたようなものなのだろう。'
@@ -451,7 +452,7 @@ label event01_30_03:
  show nao_v002 fuan at active
  show jessica_v001 smile at inactive
  nao '……ボドゲに限らず、勝負事となれば、水を得た魚も同然です。'
- play audio 'audio/sfx/SE_226_shine.wav.wav'
+ play audio 'audio/sfx/SE_226_shine.wav'
  show jessica_v001 futeki at jump_transform,active
  show nao_v002 fuan at inactive
  jessica 'そりゃいいぜ！\u3000私も、こう見えても右代宮金蔵の孫だ！\u3000勝負\n事、大いに望むところだぜ！'
@@ -659,11 +660,12 @@ label event01_30_03:
  show jessica_v001 smile at jump_transform,active
  show mion_v002 smile at inactive
  jessica 'さあ！！\u3000始めようぜ！！'
- play audio 'audio/sfx/SE_226_shine.wav.wav'
+ play audio 'audio/sfx/SE_226_shine.wav'
  show mion_v002 futeki at active
  show jessica_v001 smile at inactive
  mion 'いいね、その気合、気に入ったぁ！\u3000私たちと朱志香さんで、\n六軒島出張部活ッ五凶爆闘だぁ！！！'
  stop music fadeout 2.0
+ window hide None
  hide mion_v002
  hide jessica_v001
  with Dissolve(0.2)
@@ -719,28 +721,27 @@ label event01_30_03:
  show shion_v002 fuan at active
  show erika_v001 normal at inactive
  shion 'ゲームは結果じゃなくて、過程を楽しむものですし。今日はこれで\nお開きにしませんか？'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
  hide erika_v001
- scene expression 'images/bg/AdvBg_2331.png' as bg
- with Dissolve(0.08333333333333333)
+ hide fade with Dissolve(0.08333333333333333)
  show mion_v002 sinken at mei_center
+ with Dissolve(0.08333333333333333)
  camera at screenshake_transform
+ pause 0.0
  show mion_v002 sinken at active
  mion 'あーーッ、何それ何それ！！\u3000おじさんが電力を買い占めた途端に\nお開きとか、ずーるーいーッ！！'
- scene expression "#000" as bg
- with Dissolve(0.3333333333333333)
+ show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- scene expression 'images/bg/AdvBg_2331.png' as bg
+ hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  show jessica_v001 smile at mei_right
  show nao_v002 fuan_close at mei_left
@@ -756,10 +757,11 @@ label event01_30_03:
  with Dissolve(0.2)
  narrator '\u3000このまま行くと魅音さんの圧勝になりそうだったので、みんなさ\nりげなくノーゲームにして解散の流れにする。'
  narrator '\u3000何しろ、２位以下に課せられる罰ゲームがあまりに苛烈だったか\nら……。\n\u3000雛見沢っ子でも、……アレは……ちょっと………。'
- scene expression "#000" as bg
- with Dissolve(1.0)
+ window hide None
+ show expression "#000" as fade with Dissolve(1.0)
  stop sound
- scene expression 'images/bg/AdvBg_2371.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  narrator '\u3000朱志香さんは屋敷に帰る。\n\u3000あたしたちは、ぞろぞろと２階へ上がっていく。'
  show erika_v001 normal at mei_right
@@ -851,32 +853,34 @@ label event01_30_03:
  play audio 'audio/sfx/SE_526_door_open.wav'
  narrator '\u3000ヱリカさんは嫌味な笑いを最後まで向けながら、自分の部屋に消\nえる。'
  narrator '\u3000魅音さんは、ようやくどのポケットにしまっていたか思い出し、\n鍵を開けたところだった。'
- scene expression "#000" as bg
- with Dissolve(1.0)
+ show expression "#000" as fade with Dissolve(1.0)
  mion 'シャワー、誰から使う？'
  shion '菜央さんからでいいんじゃないですか？'
  nao '嬉しいですけど、あたし、ちゃんと湯船にお湯を張りたいです。'
  play audio 'audio/sfx/SE_5004_lightoff.wav'
  stop sound
- scene expression 'images/bg/AdvBg_2281.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  narrator '\u3000灯りのスイッチを入れる。\n\u3000洋館らしい雰囲気を壊さない、暗めの証明が部屋を照らした。'
+ window hide None
  
- scene expression "#000" as bg
- with Dissolve(1.0)
+ show expression "#000" as fade with Dissolve(1.0)
  stop sound
+ scene expression "#000"
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
- scene expression 'images/bg/AdvBg_2320.png' as bg
+ show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(2.0)
  pause 2.0
- scene expression "#000" as bg
- with Dissolve(1.0)
+ show expression "#000" as fade with Dissolve(1.0)
  stop sound
- scene expression 'images/bg/AdvBg_2281.png' as bg
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  camera at screenshake_transform
+ pause 0.0
  show nao_v002 sinken at active
  nao 'ッッッ………………………、'
  hide nao_v002
