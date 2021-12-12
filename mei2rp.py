@@ -123,7 +123,6 @@ class Compiler:
             'fadein': fadein,
             'fadeout': fadeout,
             'zoom': zoom,
-            'shakedisp': shakedisp,
             'serifclose': serifclose,
             'move': move,
             'wipeout': wipeout,
@@ -197,6 +196,10 @@ class Compiler:
             o = self.shown[oid]
             self.to_show[oid] = ShowChara(o[0], o[1])
         self.to_show[oid].transforms.append(SHAKEMAP[anim])
+
+    def shakedisp(self, typ, line, cmd):
+        anim = SHAKEMAP[line['arg0']]
+        self.outlines.append(f'camera at {anim}')
         
     def motion(self, typ, line, cmd):
         oid = get_id(line['arg0'])
