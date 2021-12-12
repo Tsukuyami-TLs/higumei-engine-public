@@ -122,7 +122,6 @@ class Compiler:
         self.COMMAND_DICT = {
             'fadein': fadein,
             'fadeout': fadeout,
-            'zoom': zoom,
             'serifclose': serifclose,
             'move': move,
             'wipeout': wipeout,
@@ -130,7 +129,6 @@ class Compiler:
             'shader': shader,
             'effect': effect,
             'voice': voice,
-            '変数': None,
         }
         '''
         self.bgm = self.bgm2
@@ -140,8 +138,11 @@ class Compiler:
         self.local = {}
         self.shown = {}
         self.to_show = {}
-
-
+        self.variables = {
+            '中': 960,
+            '左': 100,
+            '右': 1820,
+        }
 
     def talk(self, n, line, cmd):
         cid = get_id(cmd)
@@ -187,6 +188,25 @@ class Compiler:
             showchara.transition = f'Dissolve({time})'
 
         self.to_show[get_id(line['arg0'])] = showchara
+
+    def 変数(self, typ, line, cmd):
+        dx = int(line.get('arg2', '0'))
+        self.variables[line['arg0']] = self.variables[line['arg1']] + dx
+
+    def zoom(self, typ, line, cmd):
+        mag = line['arg0']
+        xpos = self.variables[line['arg1']]
+        ypos = 540 + int(line['arg2'])
+        time = int(line['arg3']) / 60
+        ease = f'linear {time} ' if time else ''
+        pause= f'pause {time} ' if time else ''
+        self.outlines.append(f"""
+camera:
+ anchor (0.5,0.5)
+ {ease}pos ({xpos}, {ypos})
+ {ease}zoom {mag}
+{pause}
+        """.strip())
     
     def shakechara(self, typ, line, cmd):
         oid = get_id(line['arg0'])
