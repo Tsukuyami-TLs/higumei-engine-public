@@ -108,7 +108,8 @@ def get_cmd(command):
 def get_pos(p):
     if p == '左': return 'mei_left'
     elif p == '右': return 'mei_right'
-    else: return 'mei_center'
+    elif p == '中': return 'mei_center'
+    else: raise ValueError('Yeah ok I have to fix this and make it work properly')
 
 class ShowChara:
     def __init__(self, outfit, expression="normal"):
@@ -116,11 +117,19 @@ class ShowChara:
         self.expression = expression
         self.transforms = []
         self.transition = None
+        self.atl = None
+        self.wait = 0
 
     def construct(self):
+        s = ""
         if not self.transforms:
-            return f'show {self.outfit} {self.expression}'
-        return f'show {self.outfit} {self.expression} at {",".join(self.transforms)}'
+            s =  f'show {self.outfit} {self.expression}'
+        else:
+            s = f'show {self.outfit} {self.expression} at {",".join(self.transforms)}'
+
+        if self.atl: 
+            s += f'\nshow {self.outfit} {self.expression}:\n {self.atl}'
+        return s
 
 class Compiler:
     def __init__(self, commands, translation):
@@ -147,8 +156,8 @@ class Compiler:
         # TODO: tune 右 and 左 variables
         self.variables = {
             '中': 960,
-            '左': 100,
-            '右': 1820,
+            '左': 480,
+            '右': 1920-480,
         }
 
         self.faded = True
@@ -223,8 +232,8 @@ camera:
   linear {time} pos ({xpos}, {ypos})
  parallel:
   linear {time} zoom {mag}
-pause {time}
             """.strip())
+            if typ == 0: self.outlines.append(f'pause {time}')
     
     def shakechara(self, typ, line, cmd):
         oid = get_id(line['arg0'])
@@ -301,6 +310,20 @@ pause {time}
         else:
             self.outlines.append(f'stop music')
 
+    def move(self, typ, line, cmd):
+        cid = get_id(line['arg0'])
+        xpos = self.variables[line['arg1']]
+        ypos = 1200 - int(line['arg2'])
+        time = int(line['arg3'])/60
+        outfit, expression = self.shown[cid]
+        
+        if cid not in self.to_show:
+            self.to_show[cid] = ShowChara(outfit, expression)
+        
+        self.to_show[cid].atl = f"linear {time} pos ({xpos},{ypos})"
+        self.to_show[cid].wait = max(self.to_show[cid].wait, time)
+
+
     def se2(self, typ, line, cmd):
         sename = SFX[line['arg0']]
         if not sename: print(line)
@@ -322,15 +345,19 @@ pause {time}
 
     def output_shows(self):
         transition = None
+        wait = 0
         for cid, showchara in self.to_show.items():
             self.shown[cid] = showchara.outfit, showchara.expression
             if showchara.transition is not None:
                 transition = showchara.transition
-            
+           
             self.outlines.append(showchara.construct())
+            wait = max(wait, showchara.wait)
 
         if transition:
             self.outlines.append(f'with {transition}')
+        if wait:
+            self.outlines.append(f'pause {wait}')
         self.to_show.clear()
 
     def compile_commands(self): 
