@@ -137,7 +137,6 @@ class Compiler:
         self.COMMAND_DICT = {
             'wipeout': wipeout,
             'wipein': wipein,
-            'serifclose': serifclose,
             'shader': shader,
             'effect': effect,
             'voice': voice,
@@ -192,6 +191,9 @@ class Compiler:
     def setdispname(self, typ, line, cmd):
         self.local[line['arg0']] = line['arg1']
             
+    def serifclose(self, typ, line, cmd):
+        self.outlines.append('window hide None')
+
     def chara(self, typ, line, cmd):
         outfit = get_outfit(line['arg0'])
         expr = line['arg1']
@@ -201,7 +203,7 @@ class Compiler:
         if pos is not None:
             showchara.transforms.append(pos)
         else:
-            # CAREFUL Untested. rare codepath
+            # NOTE. be CAREFUL Untested. rare codepath
             xpos = self.variables[line['arg2']]
             ypos = 1200
             showchara.atl = f"pos ({xpos}, 1200)"

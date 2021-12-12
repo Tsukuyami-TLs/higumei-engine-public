@@ -1,5 +1,6 @@
 define config.gl2 = True
 define config.default_transform = truecenter
+define config.window_auto_hide = {}
 
 # Declare music files.
 
