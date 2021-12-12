@@ -198,15 +198,23 @@ class Compiler:
         xpos = self.variables[line['arg1']]
         ypos = 540 + int(line['arg2'])
         time = int(line['arg3']) / 60
-        ease = f'linear {time} ' if time else ''
-        pause= f'pause {time} ' if time else ''
-        self.outlines.append(f"""
+        if time == 0:
+            self.outlines.append(f"""
 camera:
  anchor (0.5,0.5)
- {ease}pos ({xpos}, {ypos})
- {ease}zoom {mag}
-{pause}
-        """.strip())
+ pos ({xpos}, {ypos})
+ zoom {mag}
+            """.strip())
+        else:
+            self.outlines.append(f"""
+camera:
+ anchor (0.5,0.5)
+ parallel:
+  linear {time} pos ({xpos}, {ypos})
+ parallel:
+  linear {time} zoom {mag}
+pause {time}
+            """.strip())
     
     def shakechara(self, typ, line, cmd):
         oid = get_id(line['arg0'])
