@@ -109,7 +109,7 @@ def get_pos(p):
     if p == '左': return 'mei_left'
     elif p == '右': return 'mei_right'
     elif p == '中': return 'mei_center'
-    else: raise ValueError('Yeah ok I have to fix this and make it work properly')
+    else: return None
 
 class ShowChara:
     def __init__(self, outfit, expression="normal"):
@@ -128,18 +128,15 @@ class ShowChara:
             s = f'show {self.outfit} {self.expression} at {",".join(self.transforms)}'
 
         if self.atl: 
-            s += f'\nshow {self.outfit} {self.expression}:\n {self.atl}'
+            s += f'\nshow {self.outfit} {self.expression}:\n{indent(self.atl,1)}'
         return s
 
 class Compiler:
     def __init__(self, commands, translation):
         '''
         self.COMMAND_DICT = {
-            'fadein': fadein,
-            'fadeout': fadeout,
             'wipeout': wipeout,
             'wipein': wipein,
-            'move': move,
             'serifclose': serifclose,
             'shader': shader,
             'effect': effect,
@@ -201,7 +198,14 @@ class Compiler:
         pos = get_pos(line['arg2'])
        
         showchara = ShowChara(outfit, expr)
-        showchara.transforms.append(pos)
+        if pos is not None:
+            showchara.transforms.append(pos)
+        else:
+            # CAREFUL Untested. rare codepath
+            xpos = self.variables[line['arg2']]
+            ypos = 1200
+            showchara.atl = f"pos ({xpos}, 1200)"
+
         if typ == 0 and 'arg4' in line:
             time = int(line["arg4"]) / 60
             showchara.transition = f'Dissolve({time})'
