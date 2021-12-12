@@ -232,6 +232,7 @@ label event01_30_01:
  narrator '......I only came to enjoy embroidery in the rose garden rumored for its beauty.'
  narrator 'The Sonozaki sisters, excited by the talk of the witch, seemed to be in high spirits even before reaching the island.'
  narrator "I'm not particularly afraid but...... \nI'm not particularly fond of taking a vacation on an island of witches and evil spirits. "
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  stop sound
@@ -372,6 +373,7 @@ label event01_30_01:
  with Dissolve(0.08333333333333333)
  narrator 'Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.'
  narrator 'And so, as the scene spread out before me, I became so overcome with emotion that I almost lost myself......'
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  stop sound
@@ -479,6 +481,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal at active
  erika "The Ushiromiya family doesn't get guests like her much. I'm sure Beato won't be bored."
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  hide erika_v001
@@ -696,6 +699,7 @@ label event01_30_01:
  show nao_v002 fuan_close at active
  show shion_v002 smile at inactive
  nao "I-If he rejected me there I wouldn't know how to respond......"
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  hide nao_v002
@@ -707,6 +711,7 @@ label event01_30_01:
  play audio 'audio/sfx/SE_5007_keyroll.wav'
  narrator 'We leave our bags and lock the room.'
  narrator 'Erika-san had also just come out and locked her room.'
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  stop sound
@@ -793,6 +798,7 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator 'After the refreshments and a break, Jessica comes to get us.'
  narrator "First, we'll go meet the Ushiromiya family that invited us.  \nThen we'll be shown around the western-style mansion built right after the war."
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  stop sound
@@ -859,6 +865,7 @@ label event01_30_01:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '......witch.........?'
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  hide nao_v002
@@ -932,6 +939,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show jessica_v001 fuan_close at active
  jessica 'I-I know mom......'
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  hide jessica_v001
@@ -953,6 +961,7 @@ label event01_30_01:
  show shion_v002 odoroki at inactive
  mion "Who's this......... person......"
  stop music fadeout 2.0
+ window hide None
  scene expression "#000" as bg
  with Dissolve(1.0)
  hide mion_v002
@@ -1037,6 +1046,7 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator 'That was the first meeting between me and the witch.'
  narrator 'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait.........'
+ window hide None
  pause 4.0
  play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
  pause 2.0

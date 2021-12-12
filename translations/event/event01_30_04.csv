@@ -1,0 +1,382 @@
+event01_30_04.bytes,,danpmss,,,
+index,chara,jp,en,Notes,
+33,,"　あたしのベッドは毛布が剥ぎ取られ、……剥き出しのシーツに
+は、鮮血のような赤で記された魔法陣があった……。","The blankets in my bed had been stripped... and a blood-red magic circle could be seen painted on its uncovered sheet.",on the sheets underneath.,
+34,,"　ベアトリーチェが、……その存在を信じないあたしのベッド
+に……、描いたんだ……。","Beatrice... that existence in which I don't believe... drawn this in my bed.",Beatrice... an existence I don't believe in... drew this in my bed.,
+38,,"　あぁ、やはり六軒島は、魔女の島だったんだ。
+　島に住まう人たちが恐れていた存在に対し、敬いを持たなかった
+から、……祟られたのだ。","Ah, in the end, Rokkenjima was indeed a witch's island.
+Cursed... by its human inhabitants's lack of respect towards the being they dreaded.",,
+39,,どうしてこんなことに……。どうして…………。,Why such a thing... Why...?,Why does it have to be like this...? Why...?,
+40,,…………………………。,.........,,
+42,,"　……落ち着いて。考えて。
+　ほら。……みんな、話していたじゃないか。","...Now, calm down. Think this over.
+C'mon... we talked about that, right?",...Calm down. Think this over.,
+43,,"　……ベアトリーチェの話？
+　違う。……ミステリーと、オカルトの話だ。","...Was it the topic regarding Beatrice?
+Wrong... it was the talk about mystery and the occult.","NOTE: Flashback sequence ahead, must check coherence with the previously translated lines.",No... it was the
+50,詩音 (Casual),"確かに一理ありますね。解決できればミステリーだけれど、解決で
+きないなら、オカルトになることもありえる。","You do have a point there, huh. While it may be a mystery if it can be explained, if it can't, it might as well become an occult thing. ",Linked these three Shion and Mion lines to exact same ones in part 2 since it's a flashback scene. See D36-38,"a point there, huh? While this may just be a mystery if it can be explained, this might turn into something occult if it can't."
+52,Mion (Casual),"太古の昔から、神の奇跡とされていたものが、次々に科学で解明さ
+れたからね。","Since ancient times, things once assumed to be divine miracles have been successively explained through science.
+","""           """,successfully explained
+54,Mion (Casual),"神の奇跡は解明できない。イコール、解明できなければ神の奇跡と
+も言えちゃう訳だ。","Divine miracles cannot be explained. Meaning, if you can't figure those out, you may, fittingly, just call them as such.
+","""           """,figure them out
+58,,"　……そうだ。魅音さんと詩音さんが話してたじゃないか。
+　解明できなければ、奇跡、……いや、魔女になってしまう。","That's right. Isn't it just like what Mion-san and Shion-san said?
+If something cannot be explained, a miracle... or in this case, a witch, is what ""it"" becomes.",...That's right.,
+60,,"　だが。
+　解明されれば、魔女じゃない。オカルトじゃない。ファンタジー
+じゃない。","However.
+If it could, there would be no witch. No occult thing. No fantasy.","However, if it can be explained, there is no witch. Nor the occult. Nor fantasy.",
+61,,"　そしてあたしは言ったじゃないか。
+　――科学とオカルトの、戦いなんですね。………と。","Wouldn't that also be just like I said so myself?
+""It's like a battle between science and the occult, right?""",NOTE: Quotting a line from a previous chapter.,"Didn't I also say it myself? ""It's the battle between science and the occult, right?"" ... and..."
+62,,あぁ、そしてヱリカさんは言ったんだ。,"Ah, also just like Erika-san said.","NOTE: Flashback sequence ahead, must check coherence with the previously translated lines.","Ah, and Erika-san also said..."
+67,ヱリカ,"そこは優雅に、ミステリー、バーサス、ファンタジーと言って頂き
+たいです。","I would prefer for you to gracefully call it <Mystery versus Fantasy>.
+",Link this to... (etc...),"More gracefully put, it's <Mystery versus Fantasy>."
+70,,"　……まったく。どいつもこいつも『名探偵ワニャン』の話ばっか
+り！","Honestly... all of them, always with that ""Detective Wanyan"" nonsense!","NOTE: I think ""nonsense"" fits the bill well enough, in this context.",...Honestly...
+79,Nao (Casual),"あたしは『カネダ少年の事件簿』派なのよ！　ばっちゃの名にかけ
+て、魔女なんか認めないわッ！！","I'm Team ""The Kaneda Case Files"", all the way! In the name of my granny, I won't acknowledge any witches!
+","NOTE: A funny alteration of one of Kindaichi's catchphrases (「ジッチャンの名にかけて」) from ""The Kindaichi's Case Files"", substituting ""grandpa"" with ""granny"".
+",
+87,,"　その時ようやく、あたしの頭に掛かっていたもやが晴れる。
+　すると、手を叩く音と、笑い声が……。","At that moment, the mental fog inside of my head had finally been cleared.
+And, that's when I've heard clapping, and a laugh...",And that's when I hear the sound of hands clapping... and a laughing voice...,
+90,Nao (Casual),……あたしのベッドのシーツに素敵な落書きをありがとう。,Thanks for the... lovely scribble in my bed's sheet.,...Thanks for the lovely scribble in my bedsheets.,
+92,Nao (Casual),"あんなものを見せつけられたら、並の人なら恐怖して引っ繰り返る
+のかしら？　お生憎だわ。",Perhaps an ordinary person would freak out seeing something like that? Too bad.,"Well, too bad for you.",
+94,Nao (Casual),あたし、まだまだ子供だし、こう見えて反抗期の真っ最中なのよ。,"I may look like I'm still just a kid, but I'll have you know I'm right in the middle of my rebellious phase.
+","know,",
+97,Nao (Casual),部屋は密室だったから、魔女にしか出来ない、不気味な悪戯！！,"Let's see, since my room was locked, this creepy prank could only have been done by a witch!!","Since my room was locked,",
+99,Nao (Casual),"これみよがしな密室トリック！　あたしはむしろ、余計にあなたを
+信じないの！！","What a showy locked-room trick! All you did was make me more skeptical!! 
+",pretentious locked-room trick,
+102,Nao (Casual),あなたが“い”ると主張するなら、あたしは必ず逆を主張する！！,"If you are going to claim that you ""exist"", I'm without fail going to claim the opposite!!",I'm going to claim the opposite without fail!!,
+106,Nao (Casual),お前なんか“い”るものかッ、ベアトリーチェ！！！,"As if things like you ""exist"", Beatrice!!!",,
+113,ベアトリーチェ,ははははは、くっはははひゃひゃっひゃ！！　これはこれは！,"*cackles in witch*!! My, my!","i would def just put the hahaha's and stuff here for effect // Hahahahaha, kkkhhhahahhahaha!!!",
+115,ベアトリーチェ,"今年の誕生日には、何とも骨のありそうな客人が祝いに来てくれた
+ものだ！","What a backboned guest came to celebrate my birthday, this year!",Quite the troublesome guest has come to bring me a present for my birthday this year!,
+117,ベアトリーチェ,"まずは妾からの挨拶、楽しんでもらえて何よりだ！　そして妾に屈
+し、跪かせて靴にキスをすることになろうぞ！","First and most importantly, you get to enjoy my greetings! And then, I'll have you subdued, kneeled before me and kissing my shoes!",kneeling before me,
+120,ベアトリーチェ,"改めて名乗ろうぞ！　妾はこの島の主、黄金の魔女、ベアトリー
+チェよ！！","Let us introduce ourselves once again! I am this island's Master, the Golden Witch, Beatrice!!
+",master,
+123,ベアトリーチェ,"そして明日は、妾の誕生日！　ハッピーバースデー！！　トゥー
+ミー！！！",And tomorrow is my birthday! <Happy Birthday to me>!!!,<Happy Birthday>!! <Tooooo meeeeee>!!!,
+125,,"　肖像画の魔女は、ものすごいハイテンションでご機嫌だ。
+　だからといって、こちらまでテンションを合わせては、相手の思
+う壺。","The witch from the portrait was in a tremendously enthusiastic good mood.
+Nevertheless, corresponding to said high spirits would be just what my opponent wishes for.",matching up to said high spirits,
+128,Nao (Casual),"あたしは鳳谷菜央。薔薇を眺めながら刺繍でもして優雅に過ごし
+て、明後日には帰るの。","I'm Nao Houtani. I'm going to spend my time gracefully admiring the roses while embroidering, and then I'll go back home the day after tomorrow.
+",doing embroidery (-ing isnt a word),
+130,Nao (Casual),"その素敵なバカンスの思い出に、あなたやら、あなたの誕生日が残
+ることはわずかほどもないんだから！！","Neither you, nor your birthday, have absolutely any chance of remaining in the memories of this lovely vacation!",nor your birthday have ,
+132,,"　……ここはどこだろう。あたしはいつの間にこんなところにいる
+のだろう？","Where am I? When did I even end up in a place like this?",...Where am I?,
+133,,"　そして、肖像画の魔女が、こうしてあたしを嘲笑っている。そん
+なことあるものか、ありえない。","Then, there's the witch from the portrait mocking me like this. Not a chance, inconceivable.",,
+134,,"　あるか、ないかは、これからあたしが決める。
+　ベアトリーチェが“い”るか、否か。","Whether she's there or not, from here on, that's something for me to settle.
+Whether Beatrice ""exists"", or not at all.","Whether she's there or not is something for me to settle from here on out. Does Beatrice ""exist, or does she not?",
+135,,"　あたしは、魔女を貫かんばかりに指さして、ありったけの声で吠
+える。","I pointed at the witch as if I was piercing her, and yelled with all there was to my voice.","piercing her, and yelled with all of my strength.",
+142,Nao (Casual),決めるのはあなたの悪戯でも魔法でもないッ！！,It's not your tricks and magic that decides!!,The deciding factors are not your tricks nor your magic!!,
+147,,"　そして、魔女に宣戦を布告するその指を、あたしのこめかみに当
+てる。","Then, I placed the finger that declared a war on the witch on my own forehead","Then, in declaration of war with the witch, I pointed my finger at my temple.",
+151,Nao (Casual),"決めるのは、あたしだわッ！　あたしの頭が、あなたという未解明
+を解明してみせる！！",The one who decides is me!! My mind will unravel the mystery that is you!,The one who decides is me!! I'll take your mystery and unravel it with my very own mind!!,
+153,ベアトリーチェ,"くっくっく！　やはりこの感じはよい！　全身の血が泡立つかのよ
+うな、興奮！　愉悦！　圧倒的高揚！！","*cackle*cackle*cackle*! This feeling is truly spectacular! This gets my blood rushing!! Oh, what excitement! What pleasure! What an upsurge of emotion!!!",,
+156,,"　ここがどこで、どうして魔女とあたしが対峙しているのか、……
+　細かいことなんか気にしない。",The questions of where I am and why I'm faced up against the witch right now... are trivial matters to me.,,
+157,,"　あたしが否定し、こいつは主張する。そして出会ってしまったな
+ら、もう。","I'm on the offensive side, and she's on the defensive. If we ended up this way, it's whatever.",,
+161,Nao (Casual),"あなたを、あなたの下らない悪戯をッ、解明してやる！！　ばっ
+ちゃの名にかけて！！",I'm going to put an end to the mystery of your worthless pranks!! In the name of my granny!!!,,
+163,ベアトリーチェ,"ひゃっひゃひゃひゃひゃひゃ！！　ほざくがよい！
+屈服させてやる！！　ばっちゃの名にかけて！",Hyaaahhhahahahaha!!! Spatter as much as you like! I'll make you surrender!! In the name of my granny!!!,,
+166,,あら。こいつ、カネダ少年の事件簿派だったの？,"Oh. Was she also... Team ""The Kaneda Case Files""?",,
+170,ベアトリーチェ,"おお、そなたもカネダ少年派か！　この島の者はワニャン派が多く
+てなぁ！","Ooh, you're Team Kaneda too?! This island has far too many people on Team Wanyan!",,
+172,Nao (Casual),……同じ派閥同士。正々堂々と戦いましょ。,...Comrade of mine. Let's fight fair and square.,im not sure what the original line translation for this is,
+174,ベアトリーチェ,"うむ！　さぁ、座るがよい、菜央！　久しぶりに楽しませてもらお
+うぞッ！","Mhm! Now, sit where you please, Nao! Shall we have fun again after all of this time?!",,
+179,,あたしと魔女の間に椅子とテーブルが現れる。,"In between the witch and I, a table and chairs appeared.",,
+180,,"　テーブルの上には、チェス盤と駒が並べられているように見えた
+が、どこか普通のチェスとは違うように見えた……。","On top of the table, pieces seemed to have been lined up on a chessboard, but in a way that wasn't like the usual chess setup...",,
+189,ベアトリーチェ,妾の初手は、そなたのベッドシーツに描いた魔法陣だ。,"For my first move, I'll draw a magic circle on your bedsheets.",,
+191,ベアトリーチェ,"鍵の掛かった密室だったであろう？　ならば、魔法陣が描けたのは
+魔女の魔法に他ならぬわ……！","It would have been a locked room? Then, the magic circle could only have been drawn with a witch's magic...!",,
+193,Nao (Casual),"なら、魔法陣は次から山羊の血か何かで描いた方が説得力が増すわ
+よ。","Oh, really? Next time, drawing the circle with goat blood would make it a bit more convincing.",,
+195,Nao (Casual),"あのシーツの魔法陣は、すぐに悪戯だと見破ってくれたわ。魅音さ
+んがね。","This magic circle prank has already been seen through, thanks to Mion-san.",,
+197,ベアトリーチェ,"ほう？　どうしてシーツだけで、妾が魔女であることを否定でき
+る？","Hoh? Why is it that just through the sheets, you can deny my existence as a witch?",,
+199,Nao (Casual),"あれは水彩絵の具で描いたものだと、魅音さんは一瞬で看破した
+わ。",Mion-san realized instantly how it was drawn with watercolor paint.,,
+201,Nao (Casual),"それとも、あなたの魔法はチープで血では描けないから、赤い絵の
+具で魔法陣を描いた、とでもいうのかしら？","Actually, I wonder if you drew the magic circle with red paint because your magic is too cheap to be able to draw in blood?",,
+204,,"　しかも、シーツには描かれていたが、その下のベッドには一切、
+染みていなかった。","What's more, the paint hadn't even permeated past the sheets onto the bed.",,
+208,Nao (Casual),"あなたは屋敷の人に優しいわね。シーツだけ洗えば済むように、上
+手に悪戯をしたのね？","You're pretty nice to the people in the mansion. You pulled this prank knowing the sheets could just be washed and re-set, didn't you?",,
+210,Nao (Casual),"つまり、犯人は予め、絵の具で魔法陣を描いたシーツを用意し、あ
+たしのベッドシーツを剥いで、代わりにそれを敷いたのよ。","Which means that the culprit painted a magic circle onto some sheets beforehand, pulled off the sheets from my bed, then laid out the fake sheets in its place.",,
+213,ベアトリーチェ,"くっひっひっひ！　なるほどなるほど、確かに人間臭い悪戯である
+なぁ。","*cackle*cackle*cackle*!! I see, I see. This prank has human spelled all over it, huh?",,
+215,ベアトリーチェ,"だが、敢えて言おう。妾が魔法陣を絵の具にて描いたのは、妾を敬
+う使用人たちのことを思ってである。","Then, let's say this outright. My magic paint circle was drawn with my faithful servants in mind.",wording,
+217,Nao (Casual),"……なるほど？　あなたのことを信じる紗音さんたち使用人に、あ
+まり迷惑を掛けたくなかったと。",...I see? You didn't want to burden Shannon-san and the rest of the servants who believe in you.,,
+220,,それで、洗えば落とせる絵の具で魔法陣を？,"And just like that, it's just a magic circle that can wash off easily?",,
+224,Nao (Casual),お優しい魔女さまだことね。,What a kind witch you are.,,
+226,ベアトリーチェ,"魔法陣が絵の具で描かれていたとしても、妾が魔法にてそれを描い
+たことを否定は出来ぬぞ？","Even with it drawn with paint, though, can you still deny that I drew it with magic?",,
+228,ベアトリーチェ,"ニンゲンがどのようにして成し遂げたのか。その仮説を青き真実と
+して妾の身に打ち込んで初めて、妾を否定するに至るのだ。",How would a Human be able to accomplish that? Only with you beginning to launch hypotheses as blue truths into my body will you be able to deny me.,wording,
+230,Nao (Casual),…………？？　青き？　え？,.........?? Blue? What?,,
+232,ベアトリーチェ,"……あぁぁぁぁ。……戦人も、この辺りを理解するのに時間を掛け
+たんだよなぁ……。",...Uugggghhhhhh. ...I had to take the time to explain this to Battler around this point too...,,
+234,ベアトリーチェ,"調子に乗って、あまりいじめると、こやつも戦人みたいにいじけて
+塞ぎ込んでしまうからなぁ……？","If I get too carried away bullying her, would she get all depressed just like Battler did when I bullied him...?",,
+241,ドラノール,"その役目。ベアトリーチェ卿さえよければ、私がお引き受けしマ
+ス。","If Lady Beatrice would like, I can take up that ROLE.",,
+246,ベアトリーチェ,"これはこれは……。久しいな、ドラノールよ！　大方、判子押しに
+飽きて逃げ出してきたのであろう。くっくっく。","My, my... long time no see, Dlanor! I suppose you got tired of all of that stamping and fled here. *cackle*cackle*cackle*.",,
+248,Nao (Casual),だ、誰？,"Wh-, who's that?",,
+250,Nao (Casual),"まぁ、あたしは今、魔女と対峙してるのよ。今さら誰が現れたって
+驚かないわ。","Well, I am facing off with Beatrice right now. Whoever else appears shouldn't be a surprise.",,
+254,ドラノール,菜央。私は味方デス。ドラノールと申しマス。,"Nao, I am your ALLY. Dlanor is my NAME.",,
+256,ドラノール,"今、貴女が臨んでいるのは、魔女のゲーム。ルールに則らねば、勝
+つことは出来ないのデス。","What you are looking over right now is the witch's GAME. According to the rules, winning is IMPOSSIBLE.",,
+258,Nao (Casual),"ルール？　罰ゲームをかけた部活ボードゲームの次は、魔女とのゲ
+ームなのね。退屈しないことだわ。","Rules? First it was club activity tabletops with punishment games, and now it's a witch's game. This won't be too boring.",,
+260,ドラノール,菜央。貴女はヱリカの言葉を覚えているはずデス。,"Nao, you should remember Erika's WORDS.",,
+262,Nao (Casual),……ミステリー、バーサス、ファンタジー、だっけ？,"...<Mystery versus Fantasy>, right?",,
+264,ドラノール,"その通りデス。魔女の主張は、貴女のベッドへの魔法陣の悪戯は、
+ニンゲンには不可能であるとしていマス。",EXACTLY. The witch's claim is that it would be impossible for a Human to perform the prank on your BED.,,
+266,Nao (Casual),"なるほど……。ニンゲンに不可能だから、魔法。魔女の仕業だと言
+いたい訳ね。","I see... And since it's impossible for a Human, it's magic. She's trying to say it was done by a witch.",,
+271,ベアトリーチェ,"くっくっく。そなたが妾を魔女と認めず、魔法も認めぬというのな
+らば、示さねばならぬ。","*cackle*cackle*cackle. If you don't acknowledge me as a witch, nor acknowledge magic, I'll just have to show you it myself.",,
+273,ベアトリーチェ,ニンゲンに、どうやってあの魔法陣を描けたのかをなぁ！,Do tell how could a Human could have drawn that magic circle!,,
+277,ドラノール,"菜央。貴女は仮説を立てることが出来マス。ニンゲンが具体的にど
+のようにすれば実行可能かを示すのデス。","Nao, you may set up a HYPOTHESIS. This should demonstrate how a Human could have executed this in a concrete WAY.",,
+282,ベアトリーチェ,"どのような屁理屈でも構わぬ。そしてその仮説が有効であるなら
+ば、それは“青き真実”となる。","It doesn't matter how far-fetched the argument is. And if your hypothesis is valid, it will become a ""blue truth"".",,
+284,Nao (Casual),……青き真実……。,...Blue truth...,,
+288,ドラノール,"青き真実を穿たれた魔女は、それを否定できなければ、敗北しマ
+ス。","As the blue truth drills through the witch, she must disprove it or face DEFEAT.",,
+290,Nao (Casual),"つまりあたしは、あの魔法陣の悪戯を、人間がこれこれこうして実
+行できたと、どんなデタラメでも言えばいい訳ね？","So, this means I can say whatever nonsense I want about how a human could have performed this magic circle prank?",,
+292,ドラノール,そうデス。デタラメで結構デス。真実でなくても構いまセン。,"That is CORRECT. Nonsense is FINE. Even if it's untrue, it does not MATTER.",,
+294,ドラノール,魔女のゲームは、魔女の存在を否定することのみが争点デス。,"In the witch's game, the objective is to deny the existence of the WITCH.",,
+296,ドラノール,"デタラメであっても、人間に可能な犯行であると仮説を立てられれ
+ば、それで貴女の勝ちなのデス。","Even if it is nonsense, if you hypothesize a crime that is possible with human hands, that will end in your WIN.",,
+298,Nao (Casual),"了解したわ。……なるほど。屁理屈でも何でもいいから、人間にも
+出来るわって言えればいい訳ね。","Understood. ...Okay. Since any kind of argument is fine, it is possible that a human did it, somehow.",,
+302,ベアトリーチェ,"そなたは呑み込みが早いなぁ……。後で爪の垢をほじらせてはくれ
+ぬか。戦人用の茶葉に混ぜておくぞ。",You catch on quite fast... Will you let me dig out the dirt from under your nails afterwards? I'll mix it in with Battler's tea leaves!,,why did she say this
+304,Nao (Casual),"あの魔法陣の悪戯は人間に可能よ。あたしたちが不在の間に、部屋
+にこっそり入って悪戯をすればいい。こんな感じ？","The magic circle prank can be performed by a human. While we were absent, someone sneakily entered the room and was able to do the prank. Like that?",,
+306,ベアトリーチェ,"それでは成立せぬな。忘れたか、菜央よ。あの部屋は密室であった
+のだぞ？","That is not a valid argument. Have you forgotten, Nao? That the room was locked.",,
+308,ベアトリーチェ,そなたらが夕食の為に部屋を出る時、施錠したはず。,"As you had went out to have dinner, the room should have been locked.",,
+310,ベアトリーチェ,"それから就寝の為に部屋に戻って魔法陣を見付けるまで、部屋は密
+室だったはずだ。","From the point you came back to the room to retire for the night up until you found the magic circle, the room should have been locked.",,
+312,Nao (Casual),……じゃあ、こんな感じならどう？,"...Then, how's this?",,
+320,Nao (Casual),"#4169e1施錠されていて密室だったけれど、マスターキーを持った人間なら#r
+#4169e1入って悪戯をすることが可能だわ。#r","#4169e1 Although it is a locked room, it is possible for a human with a master key to enter and perform the prank. #r",,
+328,Nao (Casual),どう？！,Did that work?!,,
+330,ベアトリーチェ,もう少し、具体的に言ってもらえると助かるぞ。,I would appreciate it if you were a bit more specific.,,
+332,ベアトリーチェ,マスターキーを持った、誰が可能だったというのか？,"For instance, who could have possibly had the master key?",,
+334,Nao (Casual),じゃあ、もっと踏み込んで言うわ。,Then I'll say something more daring.,,
+337,Nao (Casual),"#4169e1使用人である紗音さんはマスターキーを持ってるわ。それで鍵を開#r
+#4169e1けて部屋に入り、悪戯をしたのよ！#r","#4169e1 The servant Shannon-san has a master key. Through that, she used the key to unlock the door, enter the room, and perform the prank! #r",,
+343,ベアトリーチェ,#ff0000紗音は、魔法陣を描く一切の行為に関わっていない！#r,#ff0000 Shannon was not involved in performing the act of drawing the magic circle! #r,,
+345,Nao (Casual),どうして……？！　その根拠は？！,But how...?! On what grounds?!,,
+349,ドラノール,菜央。これは赤き真実というものデス。,"Nao, this is the red TRUTH.",,
+351,ドラノール,"赤き真実で語られたことは、疑いなく真実なのデス。そして、その
+根拠を示す必要もないのデス。",The red truth speaks of nothing but the undeniable TRUTH. The basis behind it has no need to be EXPLAINED.,,
+356,ベアトリーチェ,"くっくっく！　そういうことよ。赤き真実は、ただそれだけで真
+実！",*cackle*cackle*cackle*! It's just as she says. The red truth is simply the truth!,,
+358,ベアトリーチェ,"どうしてそうなのか、なぜそうなのか。それらの一切を省き、ただ
+ただ真実だけを示すのだ。","Why and how is it so? Looking past all of that, it simply shows the truth.",,
+363,Nao (Casual),……そんな……滅茶苦茶な………。,...That's... so unreasonable...,,
+365,ドラノール,"落ち着いて下サイ、菜央。……赤き真実は容赦のない反撃ではあり
+ますが、同時に手掛かりにもなりマス。","Please calm yourself, NAO. ...The red truth may be a merciless counter attack, but it simultaneously gives clues as WELL.",,
+367,Nao (Casual),"少なくとも、紗音さんは魔法陣を描いていない、という確実なヒン
+トを引き出せた訳ね……。","Like how I was at least given out the hint that Shannon-san didn't draw the magic circle, right...?",,
+369,ドラノール,"そういうことデス。貴女が青き真実を繰り出す度に、魔女は赤き真
+実で反撃しマス。","Just as you SAY. As you send out more blue truths, the witch will retaliate with red TRUTHS.",,
+371,Nao (Casual),"それを積み重ねて……、密室に魔法陣が現れた事件の、真相を引っ
+張り出せばいいのね。",Letting that pile up... the truth behind this magic circle locked-room incident will jut out further and further.,,
+376,ベアトリーチェ,"菜央ぉ、やっぱりお前の爪の垢、全部、ほじらせてくれよォ。戦人
+に飲ませたいよォ。","Naooo, please do let me dig out the dirt from your naaaillss! Battler's going to love drinking iiiit!",,she-
+381,ドラノール,さぁ、菜央。これは貴女のゲームデス。自由に挑んで下サイ。,"Okay, NAO. This is your game NOW. Please challenge it to your LIKING.",,
+383,Nao (Casual),……わかったわ。ありがとう。,...Got it. Thanks.,,
+385,Nao (Casual),まずは状況を、簡単に整理してみるわ。,"First, let's try to get the conditions in order.",,
+388,,"　あたしたちは夕食に呼ばれて部屋を出るまで、ずっと室内で過ご
+していた。
+　当然、その時点ではあたしのベッドに異常はない。","Between me being called out to have dinner and me leaving my room, I hadn't left once until then. Of course, by that time, nothing was wrong with my bed.",,
+389,,そして部屋から出る時に施錠した。,"And when we left the room, we locked it.",,
+390,,"　夕食後、そのまま朱志香さんも加わって、ボードゲームで遊ん
+だ。","After dinner, Jessica-san joined in, and we played a board game.",,
+391,,"　そして就寝する為に部屋に戻り、開錠。……そして、そこには魔
+法陣が。","Then, when we went back to go to sleep, we unlocked the room. ... That's when we saw the magic circle.",,
+395,Nao (Casual),"普通に考えれば、あたしたちが夕食をしている間に行われた犯行だ
+わ。","Thinking about it normally, the crime could have been done while we were having dinner.",,
+397,Nao (Casual),その間に部屋に入ったのは、……紗音さんのみ。,The only person who could have entered at that time... was Shannon-san.,,
+399,ドラノール,"窓の鍵を見て欲しいと貴女たちが頼み、紗音は２階に上がり、
+マスターキーにて開錠して入室しマシタ。","When you requested her to check out the window lock, Shannon-san went up to the second floor and unlocked your room with the master key.",,
+401,Nao (Casual),そこで紗音さんは魔法陣の悪戯をする機会を得られる。,That's when Shannon-san gained the opportunity to perform the magic circle prank.,,
+403,Nao (Casual),ところが、今、ベアトリーチェは赤き真実で言ったわ。,"As a matter of fact, Beatrice had said this in the red truth just earlier.",,
+406,Nao (Casual),#ff0000紗音さんは、魔法陣を描く一切の行為に関わっていない。#r,#ff0000 Shannon was not involved in performing the act of drawing the magic circle. #r,,
+408,Nao (Casual),ってね。,"...is what she said, right?",,
+411,,"　何だか、回りくどい言い方。
+　じゃあ逆に言うなら、魔法陣を描かずに犯行を行なうことは出来
+る……？","What a roundabout way of saying it. Then, another way of saying this is that someone did perform the crime of drawing the magic circle...?",,
+417,Nao (Casual),"#4169e1紗音さんは、魔法陣は描いていないけれど、魔法陣の描いたシーツ#r
+#4169e1を、あたしのベッドに敷くことは出来たわ。#r","#4169e1 Shannon-san didn't draw the magic circle, but she could have laid the sheets with the magic circle on my bed. #r",,
+419,ドラノール,"有効デス。紗音には、予め何者かが用意した魔法陣のシーツを隠し
+持って、入室することが可能デス。","This is VALID. It is possible that someone else could have prepared the magic circle sheets in hiding beforehand, while Shannon could have entered with THEM.",,
+427,ベアトリーチェ,"#ff0000紗音は、魔法陣のシーツを菜央のベッドに敷く行為には、直接的に#r
+#ff0000も間接的にも一切、関わっていない！#r","#ff0000
+Shannon was not involved in any way, directly or indirectly, in the act of laying 'the sheet with a magic circle' on Nao's bed.
+#r","I went with 
+""#ff0000
+Shannon was not involved in any way, directly or indirectly, in the act of laying 'the sheet with a magic circle' on Nao's bed.
+#r""
+at chapter 5, C91 (by Jevil)",
+432,Nao (Casual),間接的というのは？,Too indirect?,,
+434,ベアトリーチェ,"魔法陣のシーツをベッドに敷く直接の行為だけでなく、そうとは知
+らずに結果的にそうなってしまうようなあらゆる行為も含めて、と
+いう意味だ。","This isn't just a matter of directly laying the magic circle sheets on the bed. This means it includes any act that led to this result, even without knowing it.",,
+437,,"　つまり……。紗音さんが、知らず知らずの内に犯人に加担してし
+まったということも、ないということだ。","So, this means... Shannon-san hasn't even cooperated with the culprit even without knowing.",,
+438,,例えばだが、犯人が、特殊なシーツを予め用意したとする。,"For example, though, the culprit could have prepared those sheets in particular beforehand.",,
+439,,"　塗った時には透明だが、時間が経つと色が出てくるという絵の具
+で魔法陣を描いたとする。だからそれは、傍目には普通のシーツ
+だ。","By the time the paint was on, it was transparent, though, so this magic circle could have been drawn with paint that fades over time. In that sense, these sheets are just any old sheets.",,
+440,,"　紗音さんは普通の白いシーツを敷いたつもりでいるが、それが後
+に、色が浮き出て、魔法陣のシーツになる、という善意の第三者の
+形でも、関わっていないということだ。","Shannon-san could have been intending to lay on some normal white sheets, but afterwards, the color set in, and they became the magic circle sheets. In this case, a third party could have done this in good faith, and she wouldn't have been involved at all.",,
+444,ベアトリーチェ,"そもそも、紗音はシーツを換えに部屋に行ったのではなかろう？　
+窓の鍵を見に行っただけのはず。","But Shannon did go to your room to change the sheets in the first place, though? She should have went to check on the window lock.",,
+446,ドラノール,"紗音が２階にあがり、降りてくるまでの時間も、最低限の短いもの
+デシタ。",The timeframe that Shannon went up to the second floor and came back down was as fast as can BE.,,
+451,Nao (Casual),"……そうよね。普通に考えて、いくら彼女がベッドメイキングの達
+人だとしても、あの短時間で行なえるとは思えないわ。","...That's right. Thinking about it normally, no matter how much of an expert she is at bedmaking, it's unthinkable how it could be done in such a short timeframe.",,
+453,Nao (Casual),"それに紗音さんは、あたしが窓の鍵の話を切り出すまでは、屋敷に
+戻るつもりでいた。","Moreover, she even came back from the room as soon as we had broached the topic of the window lock.",,
+455,Nao (Casual),"２階に上がる機会を得たのはたまたまよ。そのたまたまの為に紗音
+さんが、いつも魔法陣のシーツを隠し持っているなんて、現実的
+じゃない。","It just so happened that she gained that chance from going upstairs. But even in that chance, for Shannon-san to have those magic circle sheets hidden on her at all isn't realistic.",,
+457,Nao (Casual),"……ベアトリーチェ。議論が紗音さんだけで迷走してるとつまらな
+いでしょ？　そこをはっきりしてもらうわ。",...Beatrice. Wouldn't this be too boring if this argument was just about Shannon-san straying from us? Make this clear for me.,,
+461,ドラノール,そういう時は、復唱を要求するといいデス。私がやりまショウ。,"At times like this, you can have her repeat what you SAY. Allow me to try IT.",,
+463,ドラノール,"復唱要求。“紗音は、菜央たちが夕食の為に部屋を出てから、就寝
+の為に戻るまでの間、一切のシーツに触れていナイ”。","Repeat it in RED. ""From the point the girls left the room to eat dinner to the point they returned, not once did Shannon touch the SHEETS.""",,
+466,ベアトリーチェ,よかろうぞ。復唱しよう。,Very well. I'll repeat it.,,
+471,ベアトリーチェ,"#ff0000紗音は、菜央たちが夕食の為に部屋を出てから、就寝の為に戻るま#r
+#ff0000での間、一切のシーツに触れていない！#r","#ff0000 From the point the girls left the room to eat dinner to the point they returned, not once did Shannon touch the sheets. #r",,
+476,Nao (Casual),ありがとう。これで推理を、別の方向に向けることが出来るわ。,Thanks. Now I can approach this from a different direction.,,
+478,Nao (Casual),"……紗音さんだけに囚われては駄目だわ。……他にも思考を巡らさ
+なきゃ……。",...I can't just put the blame on Shannon-san. ...I need to think about it differently.,,
+483,ドラノール,……ベアトリーチェ卿もずいぶんと変わられたものデス。,...Lady Beatrice has also changed quite a LOT.,,
+485,ベアトリーチェ,言うな。戦人とのゲームだけは特別だったのだ。,"Oh, hush. Battler's game in particular was an exception.",,
+487,ベアトリーチェ,"あれは互いを苛む永遠の拷問であったが、今宵は違う。ただ、楽し
+みたいのだ。",Tonight is nothing in comparison to the endless torture between him and I back then. I just wanted to have a little fun.,,
+489,ドラノール,"天界に帰る時。貴女も落ち着きある淑女になられたと、報告しま
+ショウ。","When I return to heaven, I must report that you have also been turned into a peaceful LADY.",,
+491,ベアトリーチェ,"くっくっく。我が名は永遠の淑女を意味するものであるぞ？　……
+ただ、永遠は難しい。","*cackle*cackle*cackle*. Doesn't my name mean Eternal Lady? ...Well, ""Eternity"" is unpleasant, though.",,
+493,ベアトリーチェ,"妾も、淑女に疲れると、……まぁた、性質の悪い、地の性格が出て
+しまうかもしれぬぞォ……？","If I get tired of ""Lady"" too... would it give rise to another hideously behaving person...?",$!?!!?!?14,
+497,Nao (Casual),えっと、復唱を要求。,"Umm, repeat this in red.",,
+499,Nao (Casual),"“ゲストハウスの２階へ上がる為には、必ず１階の広間の前を通ら
+なければならない”。","""To get to the second floor of the guesthouse, you must absolutely pass through the front area of the first floor.""",,
+502,ベアトリーチェ,"くっくっく。言いたいことはわかっておるぞ。ならば、妾がより詳
+細に言ってやろう。","*cackle*cackle*cackle*. I know what you're trying to say. Instead, I'll say something more specific.",,
+507,ベアトリーチェ,"#ff0000そなたたちが施錠してから、再び開錠するまでの間、紗音を除い#r
+#ff0000て、ゲストハウス２階に訪れた者はいない。#r","""
+#ff0000 
+No one visited the second floor of the guesthouse from the time you locked the door until you opened it again, except for Shannon.
+#r""",Chapter 5 D111,
+509,Nao (Casual),"……ありがとう。……ますますに人間の仕業とは思えなくなるけれ
+ど、重要なヒントだわ。","...Thanks. ...I'm starting to think a human can do this less and less, but there is an important hint there.",,
+512,,"　マスターキーを持っているのは紗音さんだけではない。使用人な
+らみんな持っているのだ。",Shannon-san is not the only one to have a master key. All servants have a master key.,,
+513,,"　紗音さんが窓の鍵を直してから退出した後、あたしたちは１階広
+間でずっとボードゲームをしていた。","After Shannon-san went to fix the window lock, we had been there on the first floor playing a board game the whole time.",,
+514,,"　その間に、紗音さん以外のマスターキー保持者が、こっそりと２
+階へ上がり、犯行に及んだ可能性だってあったのだ。","In that timeframe, there is a possibility that someone other than Shannon-san who had a master key could have sneakily went up to the second floor and committed the crime.",,
+518,Nao (Casual),"でも、あなたの赤き真実のお陰で、それら一切の可能性を除外でき
+たわ。","But thanks to your red truth, all of those possibilities have been snuffed out.",,
+520,ベアトリーチェ,"夜は短いのでな。気前よく、今の赤き真実に、さらに情報を加えよ
+う。",The night is short. Allow me to tack on some more red truths for you out of generosity.,,
+524,ベアトリーチェ,"#ff0000そなたたちが施錠してから、再び開錠するまでの間、紗音を除い#r
+#ff0000て、ゲストハウス２階に訪れた者はいない。#r","#ff0000 
+No one visited the second floor of the guesthouse from the time you locked the door until you opened it again, except for Shannon.
+#r",,
+530,ベアトリーチェ,"#ff0000これは階段で上がることのみを指さない。壁をよじ登ったり、空か#r
+#ff0000らグライダーで訪れたり。あらゆる手段によるゲストハウス２階へ#r
+#ff0000の到達を否定するものである。#r","#ff0000 Going upstairs any other way than using the stairs, such as sawing through the walls or gliding in from the sky, is unforgivable. Any other means of reaching the second floor can therefore be denied. #r",,
+534,Nao (Casual),え、……それじゃ、窓の意味が………。,"Wha-, ... Then, that means going in from the window is...",,
+536,ベアトリーチェ,"くっくっくっく！　紗音が直すまで、窓の鍵は開いていた。そこよ
+り何者かが侵入して犯行に及んだとするつもりだったのだろう？","*cackle*cackle*cackle*cackle*! Until Shannon fixed it, the window was unlocked. I suppose you thought someone broke into the guesthouse through there?",,
+538,Nao (Casual),図星よ……。犯人は外壁を登って、窓から入ったと思ってた……。,Bullseye... I thought the culprit climbed the wall and came in through the window...,,
+541,,"　最初は、デタラメでもいいから、人間に可能な犯罪であると屁理
+屈を言い切れれば勝ち、くらいに思っていた。","At first, when they said nonsense was fine, I thought just saying any crime that was possible for a human to do would result in me winning.",,
+542,,ところが、……当たり前だが、魔女はこのゲームに#p慣#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r。,But despite that... the witch is used to this game.,idk how to transcribe the furigana,
+545,Nao (Casual),……なるほど。……確かに、ヱリカさんの言う通りですね。,I see... it really is like Erika-san said.,,
+548,ドラノール,何がデスカ……？,What is IT?,IT...?,
+550,Nao (Casual),ミステリーには、肉体的な格闘技の一面もある、ってところです。,Mysteries have offensive and defensive components.,,
+552,Nao (Casual),"この魔女のゲーム。……あたしには勝利条件があるけれど、魔女側
+にはないのが不思議でした。","In this witch's game... I have a winning condition, but the fact witch's side doesn't is strange.",,
+554,Nao (Casual),あたしは、人間に可能な犯行であることを示せれば、アガリ。,"If I demonstrate that the crime is possible for a human, I win.",,
+556,Nao (Casual),"しかし、魔女側には勝利条件がない。あたしがアガリになるまで、
+相手をするだけ……。","However, the witch's side has no winning condition. Until I win, my opponent can only...",,
+559,,"　つまり、魔女が、いつ負けるかだけを競う、知恵の輪みたいな
+ゲームだと思っていた。","Basically, this is a game of back and forth wits, where we just compete until the witch loses.",,
+560,,知恵の輪だって、……敗北はあるのだ。,But with back and forth wits... there are drawbacks.,,
+564,Nao (Casual),"推理を振り回され、混乱させられて、……あたしの頭が疲れ切っ
+て、もうどうでもよくなってしまった時……。あたしは敗北するの
+ね。",Amidst the chaos of throwing logic back and forth at each other... I'll get tired and start feeling like I don't care about the end result... This is a drawback for me.,,
+566,ベアトリーチェ,そうだ。菜央。……そなたは本当に理解が早い。,"That's right, Nao. ...You really do understand fast.",,
+568,ベアトリーチェ,魔女のゲームの勝敗は、妾の側には何もない。,The outcome of this witch game offers nothing for my side.,,
+570,ベアトリーチェ,"勝利も、敗北も、全て、人間側の手の平の上にあるのだ。……くっ
+くっくっく！","Win or lose, the human side has an upper hand. ...*cackle*cackle*cackle*cackle*!",,
+572,Nao (Casual),"……まずいわ。唯一、部屋に入った紗音さんは関わっていなくて、
+その上、他の誰も２階に行っていないと断じられている。","...This is bad. Shannon-san wasn't involved when she entered, and on top of that, absolutely no one else even went up to the second floor.",,
+574,Nao (Casual),"一見、人間には無理な犯行に思えてくる。頭が疲れて、魔女を認め
+たくなってくる。","At a glimpse, it feels like a crime impossible for a human. When I get tired out, I'll start wanting to acknowledge the witch.",,
+576,Nao (Casual),"でもね、あたしは負けず嫌いなのよ！　あたしは追い詰められてな
+んかいない！",But I hate losing! I haven't been cornered at all!,,
+580,Nao (Casual),"あなたの赤き真実は、あたしの胸を貫く楔じゃない。ファンタジー
+を楔為に越える崖に打ち込む、楔なのよ！！",Your red truths won't shoot through me. I'll launch over this precipice and wedge into the heart of fantasy!!,"huge improv, not sure if it works",
+584,,"　あたしが負けを認めない限り絶対に負けない！　つまり、あたし
+は絶対に勝てるんだ！",I absolutely won't lose until I admit my defeat! This means I'm absolutely going to win!,,
+587,ドラノール,これは驚きマシタ。……なかなかの逸材デス。,How SURPRISING. ...You are insanely GIFTED.,,
+591,ベアトリーチェ,"さてと。今宵は永遠の拷問ではなく、余興である。ゆえに、夜は短
+い。","Now, this night isn't meant to be eternal torture, it's meant to be fun. Again, the night is short.",,
+593,ベアトリーチェ,"本来ならば、そなたが自ら屈服するまで、永遠にゲームの相手とさ
+せてやりたいところだが……。","Originally, I would have wanted to force you to eternally play against me until you got bored, however...",,
+595,ベアトリーチェ,妾とのゲームには期限を切ろう。,Let's cut it off here for now.,,
+597,ベアトリーチェ,"そなたの滞在は、２泊３日であったな？　それまでに妾の悪戯を暴
+いて見せよ。","Your stay is only two nights and three days long, isn't it? Until then, let's see if you can expose my pranks!",,
+602,Nao (Casual),"……負けたら罰ゲームでもあるの？　魔女だから、とてつもなくエ
+グいのが。","...If I lose, is there a punishment game? You're a witch, so you can be extraordinarily gruesome with it.",,
+604,ベアトリーチェ,稀な客人との余興であるぞ。罰ゲームなどはない。,I am enjoying myself with a rare visitor. There will be no punishment games.,,
+606,ベアトリーチェ,むしろ逆で、妾を打ち破れたなら、褒美を取らそうではないか。,"Rather, if you can defeat me, why don't I bestow a gift upon you?",,
+608,Nao (Casual),いいわね。……やる気、出て来たわ。,I like that idea. ...That makes me wanna go at it more.,,
+615,Nao (Casual),……え？　何？　暗くなってきた。,...Eh? ....what? It's gotten dark already.,What?,
+620,ドラノール,それでは菜央。……また次の晩にお会いしまショウ。,"In that case, Nao, we shall meet in the next TWILIGHT.","Goodbye, NAO. We shall",
+622,ベアトリーチェ,妾も楽しみにしておるぞ。くっくっくっく…………。,"I'm also looking forward for this, *cackle*cackle*cackle*...",forward to this.,

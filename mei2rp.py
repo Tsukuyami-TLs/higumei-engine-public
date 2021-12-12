@@ -156,7 +156,7 @@ class Compiler:
             '右': 1920-480,
         }
 
-        self.faded = True
+        self.faded = "#000"
         self.background = None
 
     def talk(self, n, line, cmd):
@@ -214,6 +214,14 @@ class Compiler:
 
         self.to_show[get_id(line['arg0'])] = showchara
 
+    def effect(self, typ, line, cmd):
+        eff = line['arg0']
+        if eff != 'flash': raise ValueError('Effect type is not flash')
+
+        self.outlines.append('show expression "#fff" as flash with Dissolve(0.1)')
+        self.outlines.append('pause 0.1')
+        self.outlines.append('hide flash with Dissolve(0.2)')
+
     def 変数(self, typ, line, cmd):
         dx = int(line.get('arg2', '0'))
         self.variables[line['arg0']] = self.variables[line['arg1']] + dx
@@ -234,6 +242,7 @@ camera:
             self.outlines.append(f"""
 camera:
  anchor (0.5,0.5)
+ pos (960,540)
  parallel:
   linear {time} pos ({xpos}, {ypos})
  parallel:
@@ -292,17 +301,30 @@ camera:
 
         if not self.faded:
             self.outlines.append(command)
+        else:
+            self.outlines.append(f'scene expression "{self.faded}"')
+            self.background = self.background.replace('scene', 'show', 1)
 
     def fadein(self, typ, line, cmd):
         time = int(line['arg0']) / 60
-        self.outlines.append(self.background+f'\nwith Dissolve({time})')
+        if self.background:
+            self.outlines.append(f'{self.background}')
+            self.background = None
+        else:
+            self.outlines.append(f'hide fade with Dissolve({time})')
         self.faded = False
+        
+        for showchara in self.to_show.values():
+            showchara.transition = None
+        self.output_shows()
+
+        self.outlines.append(f'with Dissolve({time})')
 
     def fadeout(self, typ, line, cmd):
         color = COLORS[line['arg0']]
         time = int(line['arg1']) / 60
-        self.outlines.append(f'scene expression "{color}" as bg\nwith Dissolve({time})')
-        self.faded = True
+        self.faded = color
+        self.outlines.append(f'show expression "{color}" as fade with Dissolve({time})')
 
     def bgm2(self, typ, line, cmd):
         name = BGM[line["arg0"]]
@@ -350,6 +372,7 @@ camera:
         self.outlines.append(f'pause {int(line["arg0"])/30}')
 
     def output_shows(self):
+        if self.faded: return
         transition = None
         wait = 0
         for cid, showchara in self.to_show.items():
