@@ -4,19 +4,19 @@ label event01_30_08:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
- narrator '\u3000六軒島で過ごす最後の夜……。'
- narrator '\u3000最高のディナーを心から満喫して、胸もお腹も幸せでいっぱいに\nして眠れるはずだったんだ……。'
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") '食後のお飲み物ですが、コーヒー、紅茶、塩昆布茶の用意がござい\nますが、如何なさいますか？'
+ narrator 'That final night on Rokkenjima...'
+ narrator 'I was supposed to sleep soundly with my chest and stomach full of happiness after the most wonderful dinner...'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'What kind of after-dinner beverages would you like? We have coffee, black tea, salted kelp tea...'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
- erika '……………………。'
+ erika '....'
  hide erika_v001
  with Dissolve(0.2)
  show mion_v002 sinken at mei_center
  with Dissolve(0.5)
  show mion_v002 sinken at active
- mion '………………………。'
+ mion '....'
  hide mion_v002
  with Dissolve(0.2)
  show nao_v002 fuan at mei_left
@@ -24,45 +24,45 @@ label event01_30_08:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show nao_v002 fuan at inactive
- shion '……あ、私は紅茶、ホットで。'
+ shion "Um, I'll have hot black tea."
  show nao_v002 smile at active
  show shion_v002 smile at inactive
- nao 'それ以外の人も、みんな温かい紅茶をお願いします。'
+ nao 'Bring some warm black tea for everyone else, please.'
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'か、畏まりました……。'
- narrator '\u3000この重い空気は、魅音さんがヱリカさんの自作自演を疑ったから\nに他ならない。'
- narrator '\u3000少なくとも、昨日の悪戯の犯人は、ほぼ間違いなくヱリカさん\nだ。'
- narrator '\u3000そしてヱリカさんも、自分が一番に疑われていることをすでに\n知っている。'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'A-as you wish...'
+ narrator "The atmosphere was heavy, ever since Mion-san exposed Erika-san's charades."
+ narrator "At the very least, the culprit behind yesterday's prank was definitely Erika-san."
+ narrator 'And Erika-san already knew she was the first to be suspected.'
  show erika_v001 sinken at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
- nao 'だから……、自作自演して、自分は犯人ではないとアピール……す\nるかしら……。'
+ nao "Yet you claim you *weren't* acting?"
  show erika_v001 sinken at active
  show nao_v002 normal at inactive
- erika 'そんなことしないですッ。あの魔法陣は私じゃありませんッ！'
+ erika "I would never do such a thing. I didn't make that magic circle!"
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
- nao 'わかってるわ。……これがあなたの自作自演なのだとしたら、……\nあまりにセンスがないわ。'
+ nao "Okay, let's say you weren't acting...that still wasn't very tasteful."
  show erika_v001 sinken_close at active
  show nao_v002 normal at inactive
- erika '…………ふん。'
+ erika '...Hmph.'
  show expression "#000" as fade with Dissolve(1.0)
  scene expression "#000"
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000……その時、少しだけ辺りが薄暗くなった気がした。'
+ narrator '...At that moment, it seemed like my surroundings grew dim.'
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
- narrator '\u3000え？\u3000……魅音さんと詩音さんが、……すぅっと、蜃気楼か何か\nのように消えていく。'
- narrator '\u3000ヱリカさんとあたしはそのまま。\n\u3000そして、魅音さんと詩音さんが消えた席に、………あの、夢の中\nの魔女たちの姿が……。'
+ narrator 'Huh? Mion.san and Shion-san are disappearing like a mirage...'
+ narrator 'Erika-san and I remained. In place of where Mion-san and Shion-san vanished...wait, those witches appeared in my dreams...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -73,7 +73,7 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_610_ls_plosive.wav'
  show beatrice_v001 futeki at active
- beatrice 'ハァッピーバースデー！！！\u3000おめでとう自分！\u3000ありがとうみん\nな！\u3000妾は幸せ者であるぞー！！'
+ beatrice '<Happy Birthday!!!> Well done! And thank you very much, everyone! I truly am a lucky person!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -84,26 +84,26 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_381_ls_gaya.wav'
  play audio 'audio/sfx/SE_525_applause.wav'
- narrator '\u3000パチパチパチパチ！！！\u3000姿の見えない大観衆が祝福してくれる\nかのような音が響き渡った。'
+ narrator '*clap*clap*clap! I heard the resounding applause and congratulations of an invisible audience.'
  show nao_v002 fuan at mei_left
  show beatrice_v001 futeki at mei_right
  with Dissolve(0.5)
  show beatrice_v001 futeki at active
  show nao_v002 fuan at inactive
- beatrice 'どうだぁ、菜央ォ？！\u3000今夜でお別れだぜぇ？\u3000２つ目の魔法陣も\n楽しんで行ってくれよぉ！'
+ beatrice "How's that, Nao? This is your final night, right? Hope you enjoyed looking at that second magic circle!"
  show nao_v002 fuan at active
  show beatrice_v001 futeki at inactive
- nao '……いつの間にか、あたしは夢の中なの……？'
+ nao '...did I somehow enter a dream?'
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
- nao 'まぁ、そこを悩んでも仕方がないわ。あたしがいて、\nヱリカさんがいてベアトリーチェがいて、ドラノールさんがいる。\nそれが全てだわ。'
+ nao "Well, I guess I shouldn't be worried. I'm here, Erika-san's here, Beatrice is here, and now we're waiting for Dlanor-san. That would make everyone."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'つくづく頭の切り替えの早い方デス。……航海者に必要な、異郷へ\nの適応力に優れていマス。'
+ dlanor 'You are very quick to change your MIND....The ability to adapt to foreign situations is necessary for a VOYAGER.'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -111,26 +111,26 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 smile at active
  show nao_v002 normal at inactive
- erika 'さぁ、菜央ちゃま？\u3000楽しみましょう！\u3000頑張れば、ベアトから\nご褒美が出るそうじゃないですか。'
+ erika "Well, Nao-chama? Are you enjoying yourself? If you keep working hard, Beato will give you a prize, won't she?"
  show nao_v002 fuan at active
  show erika_v001 smile at inactive
- nao 'あたし、昨夜の謎だって解けてないのよ……。今夜のだって……。'
+ nao "I couldn't solve that riddle from last night, and now tonight..."
  hide erika_v001
  show beatrice_v001 smile at mei_right
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice 'まぁまぁ。昨日のは小手調べということでよい。'
+ beatrice "Don't fret. Yesterday was just a test."
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice '今夜の、ヱリカの部屋の魔法陣の謎を解けたなら、それで褒美をく\nれてやろうぞ。'
+ beatrice "But for today's riddle, with the magic circle in Erika's room, I'll give you a reward."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor '頑張ってください、菜央。私も、もっとサポートすることにしマ\nス。'
+ dlanor 'Please do your best, NAO. I will continue to give you my SUPPORT.'
  hide dlanor_v001
  with Dissolve(0.2)
  show beatrice_v001 smile at mei_right
@@ -138,46 +138,46 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 fuan_close at active
  show beatrice_v001 smile at inactive
- nao 'もうごめんよ、こんなゲーム。……と、言いたいところだけれど。'
+ nao "I'm very sorry, but this game...I don't know how to say this..."
  show beatrice_v001 futeki at active
  show nao_v002 fuan_close at inactive
- beatrice 'うむ！\u3000朝が訪れるまで、終わることはないのだぞ。くっくっく！'
+ beatrice "Hmph! Well, this game won't end until the morning comes! *cackle*cackle*cackle*!"
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000はぁ……。\n\u3000覚悟を決めよう。'
- narrator '\u3000少なくとも、昨日のやりとりで、あたしを酷い目に遭わせようと\nいう訳ではないことがわかった。'
- narrator '\u3000魔女とヱリカさんは胡散臭いが、このドラノールさんという人は\n信頼できる気がする……。'
+ narrator "Sigh...Guess I'd better prepare for the worst."
+ narrator "In yesterday's exchange, I don't think they were trying to give me a hard time."
+ narrator 'Erika-san and that witch seem suspicious, but I think I can trust Dlanor-san...'
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'ドラノールさん。……あたしはどうして、魔女とこんなゲームを？'
+ nao 'Dlanor-san. I want to know, what does she mean by "game"?'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'まさか、魔女の誕生日プレゼントの生贄にされる、……とか言わな\nいでよ？'
+ nao "They're not going to sacrifice me as a witch's birthday present, are they?"
  show dlanor_v001 normal_close at active
  show nao_v002 normal at inactive
- dlanor 'この島と黄金郷の主であるベアトリーチェ卿は、魔女であるならば\n逃れ難い、ある病を患っているのデス。'
+ dlanor 'Lady Beatrice, master of this island and the Golden Land, has a particular disease that all witches have difficulty ESCAPING...'
  show nao_v002 normal at active
  show dlanor_v001 normal_close at inactive
- nao '……ある病……？'
+ nao 'Disease...?'
  hide dlanor_v001
  show beatrice_v001 futeki_close at mei_right
  with Dissolve(0.5)
  show beatrice_v001 futeki_close at active
  show nao_v002 normal at inactive
- beatrice '退屈の病だ。くっくっく！\u3000突いても焼いても死なぬ魔女も、退屈\nの海に呑み込まれれば、海の藻屑よ。'
+ beatrice "That disease is boredom! *cackle*cackle*cackle* A witch won't die if you stab or burn them, but they can truly drown in the sea of boredom."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'その為、魔女たちは時折、手紙やカケラを送り合います。互いに新\nしい刺激と、物語を送り合い、互いに病から逃れる為に。'
+ erika "For that reason, witches will sometimes send each other letters and Fragments. They'll share stimulating stories with each other and cure their illnesses."
  show erika_v001 normal_close at active
- erika 'まぁ、今回はそれが、ベアトリーチェの誕生日祝いという形を取っ\nている訳ですが。'
+ erika 'This time, it took the form of a birthday celebration for Beatrice.'
  hide erika_v001
  with Dissolve(0.2)
  show beatrice_v001 smile at mei_right
@@ -185,37 +185,37 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao '……なぜ、魅音さんや詩音さんじゃなくてあたしなの。'
+ nao '...why me and not Mion-san or Shion-san?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'それはほら、アレだ！\u3000そなたが一番、妾と馬が合ったからよ。'
+ beatrice 'That is because, well, um...for one thing, you and I got along well.'
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'それに他意はありマセン。私が保証しマス。'
+ dlanor 'There is no ulterior MOTIVE. I can guarantee THAT.'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'じゃあ、あたしと魔女のゲームとやらで知恵比べをして、退屈を忘\nれる為に遊びたかったという訳？'
+ nao 'So having a battle of wits, a game between me and a witch, will really relieve you of your boredom?'
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'そういうことになりますね。魔女というのは、えてして孤独な生き\n物ですので。'
+ erika 'That is the plan. Even witches are lonely creatures.'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  show beatrice_v001 normal_close at mei_center
  with Dissolve(0.5)
  show beatrice_v001 normal_close at active
- beatrice 'さりとて、慎ましく、遊んで下さいなとも頼めないのが、魔女の不\n器用さというものよ。'
+ beatrice 'However, this witch is so awkward that she cannot modestly ask to play with you.'
  show beatrice_v001 smile at active
- beatrice '妾は、そなたとのゲームを大変に楽しんでいる。それで妾は十分に\n癒され、幸せになれた。'
+ beatrice 'I just want to have a very enjoyable game. It would be enough to cure me and bring me great happiness.'
  hide beatrice_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -223,19 +223,19 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika '寛大なことに。勝敗は特に気にしていないのです。ゲームだけで十\n分に楽しかったのだそうです。'
+ erika 'How generous. Not worrying about the outcome of the game, just letting go and having fun.'
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao 'あたしが負けると魂が取られるとか、何かの企み事を密かに進めて\nいるとか、そういうのじゃないのね……？'
+ nao "This isn't some secret plan to steal my soul or whatever if I lose, is it...?"
  hide erika_v001
  show dlanor_v001 normal at mei_right
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'そのようなことはありマセン。天界大法院の一等大司教、このドラ\nノール・Ａ・ノックスが保証しマス。'
+ dlanor 'That will not HAPPEN. As a first-class archbishop of the Great Court of Heaven, I will guarantee THAT.'
  show nao_v002 normal_close at active
  show dlanor_v001 normal at inactive
- nao '………………………。'
+ nao '...'
  stop music fadeout 2.0
  hide nao_v002
  hide dlanor_v001
@@ -243,7 +243,7 @@ label event01_30_08:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'わかったわ。そういうことならば、'
+ nao "Very well. If that's the case..."
  play music 'audio/bgm/BGM_TITLE_COLLAB2.wav'
  camera:
   anchor (0.5,0.5)
@@ -254,18 +254,18 @@ label event01_30_08:
    linear 0.5 zoom 1.3
  pause 0.5
  show nao_v002 smile at active
- nao 'お誕生日おめでとう。ミズ・ベアトリーチェ。'
+ nao 'Happy birthday, <Miss> Beatrice.'
  show nao_v002 normal at active
- nao 'お相手を謹んで引き受けるわ。……ただね、あたし、'
+ nao "I humbly accept your challenge. If you'll allow me..."
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_5001_sitdown2.wav'
- narrator '\u3000あたしはちょっぴり行儀悪く、座ったまま椅子を引き、大きく足\nを組む。'
- narrator '\u3000ディナーの席では行儀よくだけれど。……退屈凌ぎのゲームとは\nいえ、勝負事だもの。'
+ narrator 'Though it might be ill-mannered of me, I pulled up a chair and crossed my legs.'
+ narrator 'This was no longer a dinner table, so I felt I could ignore a few manners....after all, this was a competition, a game to kill some boredom.'
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  show nao_v002 sinken at active
- nao 'ものすごく負けず嫌いなの。あたしは、勝っても負けても楽しかっ\nたなんて言わないわ。'
+ nao "I'm rather competitive. Win or lose, I won't say I had fun."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -277,9 +277,9 @@ label event01_30_08:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'グッド。やはり貴女は、私の期待を裏切りませんね。'
+ erika "<Good>. You won't betray my expectations, will you?"
  show erika_v001 normal at active
- erika 'フェリーでお見掛けした時に感じた、私の直感は当たっていまし\nた。'
+ erika 'I might look like a fairy, but my intellect is sublime.'
  hide erika_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_left
@@ -287,35 +287,35 @@ label event01_30_08:
  with Dissolve(0.5)
  show beatrice_v001 futeki at active
  show dlanor_v001 normal at inactive
- beatrice '嬉しいぞ、菜央ォ！\u3000お前は本当にいいヤツだなぁ！\u3000さぁ、今宵\nは存分に楽しもう！！'
+ beatrice "Excellent, Nao! You really are an upstanding girl! Now, let us enjoy ourselves to our heart's content on this night!"
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor '菜央。……改めまして、状況を説明いたしマス。'
+ dlanor 'NAO...I will now repeat the SITUATION.'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor 'ヱリカの部屋に現れた、魔法陣の悪戯……。'
+ dlanor "A magic circle prank appeared in Erika's ROOM."
  show beatrice_v001 futeki at active
  show dlanor_v001 normal at inactive
- beatrice '妾はそれを、人間には不可能であるとして、魔女の仕業であると主\n張する！'
+ beatrice 'I claim it was impossible for a human, therefore it is the work of a witch!'
  hide dlanor_v001
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
  show nao_v002 sinken at active
  show beatrice_v001 futeki at inactive
- nao 'あたしは人間に可能な悪戯だと主張するわ。そして、犯人はヱリカ\nさんだと主張するわ！'
+ nao 'I posit that it was possible for a human to pull off this prank. And that human is none other than Erika-san!'
  hide beatrice_v001
  show erika_v001 futeki at mei_right
  with Dissolve(0.5)
  show erika_v001 futeki at active
  show nao_v002 sinken at inactive
- erika 'ふふッ、グッド。存分に掛かってきて下さいな。'
+ erika 'Hehe, <good>. Please come at me with all of your might.'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'そして、ヱリカもまた、プレイヤーデス。'
+ dlanor 'Ah, Erika is also a player once AGAIN.'
  hide dlanor_v001
  with Dissolve(0.2)
  show beatrice_v001 futeki at mei_right
@@ -323,19 +323,19 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  show beatrice_v001 futeki at inactive
- nao 'どういうこと？\u3000あたしと魔女の、二人の戦いじゃないの？'
+ nao 'What do you mean? Me and that witch are the only ones fighting, right?'
  show beatrice_v001 futeki at active
  show nao_v002 odoroki at inactive
- beatrice '今宵はひとつ、三つ巴の戦いと行こうではないか！\u3000妾も楽しみで\nあるぞ！'
+ beatrice "Tonight, we're having a mêlée à trois! This will truly be entertaining!"
  hide beatrice_v001
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
- erika '私も菜央ちゃまと同じく、ニンゲンに可能な悪戯だと主張します。'
+ erika 'Both I and Nao-chama claim that a Human pulled off this prank.'
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao '共闘？'
+ nao "We're working together?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -347,7 +347,7 @@ label event01_30_08:
  show erika_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 futeki at active
- erika '違います。私は犯人を、詩音さんだと主張しますッ。'
+ erika 'Not quite. I believe that the culprit is Shion-san.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -356,16 +356,16 @@ label event01_30_08:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000なるほど。３人が全員、異なる主張をする。'
+ narrator 'I see. Three participants, each one claiming a different side.'
  camera at screenshake_transform
  pause 0.0
- narrator '\u3000今夜の魔法陣は、魔女の仕業か、ヱリカさんの自作自演か、さも\nなくば詩音さんの犯行か！'
+ narrator 'With this magic circle, either a witch did it, Erika-san did it, or Shion-san did it!'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'それでは、今宵の朗読者は私が担当させていただきマス。'
+ dlanor 'For tonight, I have the responsibility of READER.'
  show dlanor_v001 normal at active
- dlanor 'それでは御三方。状況を説明いたしマス。\n御拝聴をよろしくお願い致しマス……。'
+ dlanor 'Now that you three are here, I shall explain the SITUATION. ...Please listen CAREFULLY.'
  stop music fadeout 2.0
  show expression "#000" as fade with Dissolve(1.0)
  hide dlanor_v001
@@ -381,22 +381,22 @@ label event01_30_08:
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor '今回の魔法陣は、ヱリカの客室で見つかりマシタ。'
+ dlanor "This time, a magic circle was discovered inside of Erika's ROOM."
  show dlanor_v001 normal at active
- dlanor '帰ってきたヱリカが、開錠して入室した後に、荒らされたベッドを\n発見。シーツに魔法陣があるのを発見しマシタ。'
+ dlanor 'When Erika returned and unlocked the door, she discovered it on her ransacked BED. A magic circle was found drawn on the SHEETS.'
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000……まず、ここにひとつ、確認したいことがあるけれど、今は大\n人しく耳を傾けよう。'
+ narrator '...Of course, I already knew that, but I decided to listen anyway.'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'ヱリカは本日、昼にゲストハウスに戻るまで、部屋の施錠を忘れて\nおりマシタ。'
+ dlanor 'Earlier today, Erika forgot to lock her room until she returned to the guesthouse at NOON.'
  show dlanor_v001 normal at active
- dlanor 'よって、昼に施錠するまでの間は、誰でも入室が可能デシタ。'
+ dlanor 'Therefore, until the room was locked at noon, anybody could have entered the ROOM.'
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000ここが肝。……ポイントは、昨夜の魔法陣と同じ。\n\u3000ヱリカさんは、室内に異常がないことを確認した上で施錠してい\nる。'
- narrator '\u3000普通に考えれば、犯行はこれ以降となるのだが、……施錠は完全\nな密室になってしまうのだ。'
+ narrator "This was the crux of things, the point being that last night's magic circle was similar. Erika-san confirmed there was nothing weird inside her room when she locked it."
+ narrator 'Normally, the crime would have occurred after this, but it was a perfect locked room.'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
@@ -404,29 +404,29 @@ label event01_30_08:
  scene expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000施錠後は、ヱリカが開錠するまで、室内は完全な密室デス。#r'
+ dlanor '#ff0000When the door is locked, there is no way to enter the room until Erika unlocks IT.#r'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000室内には誰も存在せず、また、仕掛けの類も存在しませんデシタ。#r'
+ dlanor '#ff0000Nobody existed inside the room at that time, and nobody can enter by any other METHOD.#r'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000魔法陣の悪戯は、入室した人物の手によってでしか、行なうことは#r\n#ff0000出来マセン。#r'
+ dlanor '#ff0000The magic circle prank can only be performed while someone is inside the ROOM.#r'
  show dlanor_v001 normal_close at active
- dlanor 'とりあえずは以上になりマス。……皆様、どうぞご考察ヲ……。'
+ dlanor 'For the time being, that is all the INFORMATION....Everyone, please begin your INVESTIGATION.'
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000３人のプレイヤーのそれぞれに相手の表情を伺い合う。'
- narrator '\u3000皆、今さら考えるような段階にはないらしい。\n……ドラノールさんに質問や青き真実を投げ掛けたくて\nうずうずしている……。'
+ narrator 'Us three players looked at each other with inquisitive expressions.'
+ narrator 'It seems everyone is still theorycrafting. I was itching to ask questions and throw blue truths at Dlanor-san...'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'それでは、スタートプレイヤーには、ベアトリーチェ卿の誕生日を\n祝って、ベアトリーチェ卿を指名させていただきマス。'
+ dlanor "Now then, we shall BEGIN. Since it is Lady Beatrice's birthday, she has the privilege of going FIRST."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -437,9 +437,9 @@ label event01_30_08:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at active
- beatrice 'ハピバ！\u3000妾！！\u3000それでは……、参ろうぞっ。'
+ beatrice "Well, happy birthday to me! Let's get started, then."
  show beatrice_v001 normal at active
- beatrice '帰ったヱリカは施錠を開けて入室したが、菜央たちがヱリカの悲鳴\nを聞くには、少しの間があったはず。'
+ beatrice "When Erika returned, she unlocked her room and entered it, so there must have been a short interval before Nao's group heard her scream."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -451,48 +451,48 @@ label event01_30_08:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'そうですね。鍵穴にゴミが詰まってないか、確認してから入室しま\nしたので、多少は。'
+ erika 'That is correct. Before I entered the room, I ensured that there was still garbage packed into the keyhole.'
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000……ベアトリーチェが、どうしてそこに切り込むの？\n\u3000ヱリカさんの自作自演を疑うあたしが、そこを突いて追及しよう\nと思っていたのに……。'
+ narrator "...Why is Beatrice focusing on that? My plan of attack was centered on Erika-san's acting..."
  show dlanor_v001 normal at mei_left
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'まずは菜央の希望を絶とう。ドラノールよ。復唱要求。'
+ beatrice "Let's dash Nao's hopes. Dlanor, please repeat this:"
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice '“ヱリカが入室してから悲鳴を聞いて菜央たちがやってくるまでの\n間に、魔法陣の悪戯をすることは時間的に不可能である”。'
+ beatrice '"From the time Erika entered her room to the time Nao\'s group entered after hearing her scream, it was impossible to place the magic circle."'
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor 'お受けしマス。'
+ dlanor 'Request GRANTED.'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor '#ff0000ヱリカが入室してから悲鳴を聞いて菜央たちがやってくるまでの間#r\n#ff0000に、魔法陣の悪戯をすることは時間的に不可能デス。#r'
+ dlanor "#ff0000From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible to place the magic CIRCLE.#r"
  hide dlanor_v001
  hide beatrice_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'えっと、それって、ヱリカさん以外の人も含めてます？'
+ nao 'Wait, is Erika-san included in that group of people?'
  hide nao_v002
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'ハイ。'
+ dlanor 'YES.'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000ヱリカが入室してからでは、如何なる方法を用いようとも、#r\n#ff0000魔法陣の悪戯をすることは出来マセン。#r'
+ dlanor '#ff0000From the time Erika entered her room, it was impossible for anybody to place the magic circle by any kind of METHOD.#r'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -500,42 +500,42 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika '私の濡れ衣を晴らしてくれてありがとうございます。ね？\u3000自作自\n演ではないでしょう？\u3000時間が足りないんです。'
+ erika "Thank you for proving my innocence. See? See how I wasn't acting? I just needed more time."
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao '……まずいわ。これでまた、あたしのベッドの時と同じに……。'
+ nao 'How terrible. But this was still the same as what happened to my bed...'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000これでヱリカさんの部屋に魔法陣を仕掛けるには、ヱリカさんが\n施錠する以前にしか不可能……。'
- narrator '\u3000昨日と同じだ。紗音さんが窓を施錠する以前にしか、魔法陣を仕\n掛けられないのと同じ。'
- narrator '\u3000しかし、どちらも、入室者が異常がないことを確認してい\nる……。'
+ narrator 'So, the only way to place the magic circle was before Erika-san locked her room...'
+ narrator "It's the same as yesterday. The magic circle then could only be placed before Shannon-san locked the window."
+ narrator 'And in both cases, people confirmed nothing was wrong when they entered the room...'
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.5)
  show beatrice_v001 futeki at active
- beatrice 'これで妾の手番を終わるぞ。くっくっく。'
+ beatrice 'It seems my turn has ended. *cackle*cackle*cackle*'
  hide beatrice_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'それでは、古式に則り時計回りで進行いたしマス。'
+ dlanor 'Now then, like in the olden days, we will go in a clockwise DIRECTION.'
  show dlanor_v001 normal at active
- dlanor '次はヱリカの手番デス。'
+ dlanor "The next turn is ERIKA'S."
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show dlanor_v001 normal at inactive
- erika 'それでは。コホン。'
+ erika 'Well then. *ahem*'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
- erika '争点が３つもあると、ややこしくてかないません。なので、手っ取\nり早く、菜央さんに脱落してもらおうと思います。'
+ erika "I think this will be much too complicated with 3 players, so I'll make this quick. Nao-san, you should drop out."
  hide dlanor_v001
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao '……だろうと思ったわ。あたしがあなたでも、同じことをしたわ。'
+ nao '...Not interested. Maybe I should ask the same of you.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -547,7 +547,7 @@ label event01_30_08:
  show erika_v001 normal at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at active
- erika 'くすくすくす。……それでは私からは、昨日と今日の、２つの魔法\n陣の違いについて話をしようと思います。'
+ erika "Heeheehee. ...Anyway, I'm going to talk about the differences between the two magic circles seen today and yesterday."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -561,10 +561,10 @@ label event01_30_08:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'ほう？\u3000違い、とな？'
+ beatrice 'Hoh? Differences, you say?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao '……２つとも同じ魔法陣を描いたものに思えたけど…………。'
+ nao '...Indeed, the two magic circles appear to be drawn differently.'
  show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
  hide beatrice_v001
@@ -573,8 +573,8 @@ label event01_30_08:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
- dlanor 'こちらが、第一の魔法陣。そして、こちらが第二の魔法陣デス。ご\n確認ヲ。'
- beatrice '………ふーむ……？\u3000何が違うのか？'
+ dlanor 'Over here is the first magic circle, and over here is the SECOND. Please compare THEM.'
+ beatrice '...Hmm? How are they different?'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -585,17 +585,17 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 sinken at jump_transform,active
  show erika_v001 normal at inactive
- nao '………あ、………ここ！'
+ nao '...Ah, there!'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika 'グッド。菜央ちゃまがこれに気付くとは。その上、なかなか素早い\nです。'
+ erika '<Good>. Nao-chama has noticed it, and very quickly at that.'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
  show beatrice_v001 fuan at mei_center
  with Dissolve(0.5)
  show beatrice_v001 fuan at active
- beatrice 'え？\u3000何？\u3000……間違い探し？？？'
+ beatrice 'Eh? What? Is this some kinda Spot the Difference puzzle?'
  hide beatrice_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
@@ -603,35 +603,35 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao 'あたし、見たものを記憶するのは得意なんです。'
+ nao 'I happen to have a photographic memory.'
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika '写真記憶。……探偵には必須の能力です。'
+ erika 'A photographic memory...an invaluable tool for a detective.'
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao '昨日はショックで冷静じゃなかったし、今日も同じ魔法陣と思い込\nんでいたから気付き損ねたけど……。'
+ nao "I was panicking yesterday and was in shock, and I assumed that today's magic circle was the exact same..."
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao 'ほら。魔法陣を丸く囲むように描かれた、……魔法文字？\u3000が、こ\nの１文字だけ違うわ。'
+ nao "There. See this letter in the ring surrounding the magic circle? It's different."
  hide erika_v001
  show beatrice_v001 sinken at mei_right
  with Dissolve(0.5)
  show beatrice_v001 sinken at active
  show nao_v002 normal at inactive
- beatrice 'むむ。確かに。……こっちは渦のような文字だが、こっちでは二重\n丸のような文字になっておるぞ？'
+ beatrice "Hmmm, I see...this letter should be a little swirl, but instead it's two circles."
  show nao_v002 smile at active
  show beatrice_v001 sinken at inactive
- nao 'そういうこと。ここだけなら、書き間違いを疑うところだけれど。\nこの魔法陣に同じ文字は３ヶ所登場するわ。'
+ nao 'Indeed. I doubt this was a simple drawing error. This same symbol appears in 3 other places.'
  show beatrice_v001 sinken at active
  show nao_v002 smile at inactive
- beatrice '３ヶ所とも、こっちは渦、こっちは二重丸になっておるぞ！\u3000……\nこれは一体？！'
+ beatrice 'That there are! There are double circles in 3 spots where there should be swirls!...What the hell?!'
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'より細かく観察すれば、他には小さな差異をいくつも発見すること\nが出来ます。'
+ erika 'If you look closely, you can find many other minute differences.'
  show expression "#000" as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
@@ -644,10 +644,10 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
- erika 'これらの手掛かりを総合した上で、ドラノールに復唱要求を求めま\nす。'
+ erika 'Putting together these clues, I am making a repetition request, Dlanor.'
  show dlanor_v001 normal at active
  show erika_v001 normal at inactive
- dlanor 'どうぞ、ヱリカ。'
+ dlanor 'Go ahead, ERIKA.'
  hide dlanor_v001
  hide erika_v001
  with Dissolve(0.2)
@@ -655,7 +655,7 @@ label event01_30_08:
  show expression "#fff" as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
- narrator '\u3000復唱要求。“２枚のシーツに描かれた魔法陣は、それぞれ違う製\n作者によるものである”'
+ narrator 'That repetition request: "Each magic circle drawn on the two sheets were drawn by different people."'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -667,7 +667,7 @@ label event01_30_08:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao '………？！？！'
+ nao '...?!?!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -681,36 +681,36 @@ label event01_30_08:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show erika_v001 normal at inactive
- beatrice 'なるほど……。自作自演ではないことを完全に証明したい訳か。'
+ beatrice "I see...so you want to prove you didn't draw this."
  show beatrice_v001 normal at active
  show erika_v001 normal at inactive
- beatrice 'しかし、だとすると……、認める必要が生じるぞ……？'
+ beatrice "But if that's the case...you want to admit it?"
  show erika_v001 normal at active
  show beatrice_v001 normal at inactive
- erika 'ふふ。私はそういうのは、何も気にしませんので。'
+ erika "Fufu. I don't mind at all."
  show erika_v001 normal at active
  show beatrice_v001 normal at inactive
- erika 'それで、ドラノール？\u3000復唱要求は応じられるのですか？'
+ erika 'Well, Dlanor? Will you do the honors?'
  hide erika_v001
  hide beatrice_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor '……ハイ。お待たせしマシタ。応じられマス。'
+ dlanor '...YES. Sorry for the WAIT. I shall repeat IT.'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000２枚のシーツに描かれた魔法陣は、それぞれ違う製作者によるもの#r\n#ff0000デス。#r'
+ dlanor '#ff0000Each magic circle drawn on the two sheets were drawn by different PEOPLE.#r'
  hide dlanor_v001
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika 'その上でＣＯします。'
+ erika 'Do a CO as well.'
  hide erika_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_right
@@ -718,17 +718,17 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show dlanor_v001 normal at inactive
- nao 'ＣＯって？'
+ nao 'CO?'
  show dlanor_v001 normal at active
  show nao_v002 fuan at inactive
- dlanor 'カミングアウト。自分しか知り得ない情報の開示、告白デス。'
+ dlanor '"Coming OUT".  The disclosure of information that only you know, or a CONFESSION.'
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '第一の魔法陣の製作者は、私、古戸ヱリカです。'
+ erika 'That first magic circle was drawn by me, Erika-san.'
  hide erika_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
@@ -738,22 +738,22 @@ label event01_30_08:
  pause 0.0
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
- nao 'ほら、やっぱりあなたが犯人だったじゃない！！'
+ nao 'I see, so you really were the culprit after all!'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika 'まぁまぁ。ただの悪戯じゃないですか。それに、今回のゲーム以外\nの私怨を持ち込むのはノーマナーですよ？'
+ erika "Hey, it was just a prank, right? And to bring personal grudges into this game.. you have <no manners>, don't you?"
  hide nao_v002
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show erika_v001 normal at inactive
- beatrice '第一の魔法陣が、ヱリカが犯人なのは百も承知。だが、だとすると\n紗音がどうして魔法陣に気付かなかったのか、謎が残るぞ？'
+ beatrice "We already knew Erika was the perpetrator behind that first magic circle. That said, how Shannon didn't notice the magic circle at all is still a mystery, isn't it?"
  show beatrice_v001 normal at active
  show erika_v001 normal at inactive
- beatrice 'ヱリカが魔女を否定するならば、ヱリカがどのようにして紗音を欺\nいたかの提示が必要であるぞ。'
+ beatrice 'If you want to deny Erika as a witch, you must show how she tricked Shannon.'
  show erika_v001 normal_close at active
  show beatrice_v001 normal at inactive
- erika 'それはいずれ、青き真実の形で提示いたしますので。……私の手番\nは以上です。'
+ erika 'On top of that, you must present it in the form of a blue truth...That does it for my turn.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -765,7 +765,7 @@ label event01_30_08:
  show beatrice_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 sinken at active
- beatrice '……それにしても。……よくわからぬ魔法陣であるなぁ。……一\n体、何に使うのやら。'
+ beatrice "I still don't understand this magic circle...Why was it made that way?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -777,66 +777,66 @@ label event01_30_08:
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '…………………？'
+ nao '...?'
  show dlanor_v001 normal at mei_right
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'それではお待たせしマシタ。菜央の手番デス。'
+ dlanor "...Thank you for WAITING. It is now Nao's TURN."
  stop music fadeout 2.0
  show nao_v002 normal_close at active
  show dlanor_v001 normal at inactive
- nao '………………………。'
+ nao '...'
  hide nao_v002
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000あたしの頭の中で、思考のドロドロスープが掻き回されて渦を作\nる。'
- narrator '\u3000……なかなか火が通らなかった具材が……、ようやく煮え始めて\n来たのを感じる……。\n\u3000ひょっとして…………。'
+ narrator 'Inside my head, many thoughts swirled around like soup.'
+ narrator 'The ingredients were coming together and began to boil...Perhaps...'
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao '……ドラノールさん。確認が。'
+ nao '...Dlanor-san, a question.'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor '伺いマス。'
+ dlanor 'What is IT?'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'さっきヱリカさんがＣＯして、第一の魔法陣の製作者は自分だと告\n白したわ。'
+ nao "In Erika-san's CO, she admitted that she was the culprit behind the first magic circle."
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'あれは赤き真実と同等の告白なのかしら？'
+ nao 'Is that confession as good as red truth?'
  hide dlanor_v001
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'いいえ。赤き真実ではありませんから、偽りが含まれている可能性\nもあります。'
+ erika 'Nope. It is not red, so it may contain some lies.'
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao 'えっと、それをヱリカさんに対し、復唱要求することは出来るの？'
+ nao 'But, Erika-san, can you still repeat it?'
  show erika_v001 normal at nod_transform,active
  show nao_v002 normal at inactive
- erika 'えぇ、可能ですよ？\u3000もちろん、お受けさせていただきます。'
+ erika 'Eh, can I repeat it? Of course I can.'
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao 'ならお願いするわ。復唱を要求。'
+ nao 'Well then, please repeat this:'
  show expression "#fff" as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao '“第一の魔法陣の製作者であり、それを設置したのはヱリカさんで\nある”。'
+ nao '"The one who created the first magic circle and placed it was Erika Furudo."'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000………ヱリカさんの目が、一瞬だけ逡巡した。\n\u3000どう答えれば、よりあたしを煙に巻けるか、思案している……。'
+ narrator "...For a moment, I saw hesitation in Erika-san's eyes. I bet she was thinking about how to answer this in such a way as to confuse me more."
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '応じます。'
+ erika "I'll respond."
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -850,9 +850,9 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
- erika '#ff0000第一の魔法陣の製作者であり、それを設置したのは古戸ヱリカであ#r\n#ff0000る。#r'
+ erika '#ff0000The one who created the first magic circle and placed it was Erika Furudo.#r'
  show erika_v001 normal at active
- erika 'ただし。いつ、どうやって設置し、紗音さんをどうやって欺いたか\nについては、答える気はありませんのでご容赦を。'
+ erika "However, how and when I placed it and how I tricked Shannon-san are things I refuse to answer. I hope you'll forgive me."
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -866,85 +866,85 @@ label event01_30_08:
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor '菜央の手番は以上になりマス。次はベアトリーチェ卿の手番デス。'
+ dlanor "Nao's turn is now OVER. Lady Beatrice may go AGAIN."
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000……貴重な手番を、ほぼほぼ確信している内容を確定させる為だ\nけに使用してしまった。'
- narrator '\u3000あたしの敵は、魔女とヱリカさんの２人なの？\u3000……三つ巴の戦い\nは、相手方に組まれたら勝ち目はない。'
+ narrator '...I used up my precious turn to confirm something I already knew.'
+ narrator "My opponents were seriously Erika-san and that witch? ...I couldn't win this three-way if the other sides united against me."
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao '……ドラノールさん。ルールについて、また教えて下さい。'
+ nao '...Dlanor-san, can you go over the rules once more please?'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao '今回の三つ巴の戦い。……勝者はひとりだけなんですか？'
+ nao 'This three-way can only have one winner, right?'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor '２人が勝者になることもあり得マス。'
+ dlanor 'Two winners are POSSIBLE.'
  show nao_v002 smile at active
  show dlanor_v001 normal at inactive
- nao '…………ありがとう。次はベアトリーチェね。'
+ nao '...Thank you. Beatrice, you may go next.'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'また、あたしを追い詰めてくるのかしら……？'
+ nao "Though, I wonder if you're going to corner me..."
  hide dlanor_v001
  show beatrice_v001 smile at mei_right
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '妾は勝ち負けでなく、ゲームそのものを楽しんでおる。よって、戦\nいは公平に行なうつもりでいる。'
+ beatrice "I don't care about winning or losing, this game is purely for entertainment. I still intend to have a fair fight, however."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'なので、先程は菜央を攻めた。次はヱリカを攻めさせてもらおう\nぞ。'
+ beatrice "I attacked Nao just now, so next I'll attack Erika."
  hide nao_v002
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
- erika 'どうぞ、ご自由に。'
+ erika 'Go ahead. Do your worst.'
  hide beatrice_v001
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000……ヱリカさんは恐らく、確実にあたし狙いだ。\n\u3000自身の勝利は当然として、それ以上に、あたしを負けさせたいの\nだ。'
- narrator '\u3000だが、ベアトリーチェに、そういう悪意はまったくない。\n\u3000公平に戦うと言っている。……もちろんゲームの展開上、勝ちが\n見えたら畳みかけてくることもあるだろう。'
- narrator '\u3000……なら。あたしとヱリカさんがまだ均衡している内に、……ベ\nアトリーチェを、あたし側に引き込みたい……。'
- narrator '\u3000あたしの勝利条件は、ヱリカさんが行なった自作自演であること\nを証明すること。'
- narrator '\u3000ベアトリーチェの勝利条件は、人間には不可能な悪戯であること\nを証明すること。\n\u3000……………………。'
+ narrator '...Erika-san is definitely gunning for me. She wants to claim victory, but she also wants me to lose more than anything.'
+ narrator 'Meanwhile, I sense no ill will from Beatrice. She just wants to have a fair game....Of course, with the way things are playing out, she might press on if victory is in sight.'
+ narrator '...Erika-san and I are maintaining a balance, but maybe I can win Beatrice over to my side...'
+ narrator 'For me to win, I need to prove Erika-san was acting.'
+ narrator 'For Beatrice to win, she must prove the crime was impossible for humans...'
  show dlanor_v001 normal at mei_right
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show dlanor_v001 normal at inactive
- nao '……ドラノールさん、何度もすみません。もうひとつ確認が……。'
+ nao '...Dlanor-san, excuse me again. I would like to confirm something else...'
  show dlanor_v001 normal at active
  show nao_v002 fuan at inactive
- dlanor 'お気になさらズニ。どうぞ何でも聞いて下サイ。'
+ dlanor 'Do not WORRY. I will listen to what you have to SAY.'
  show nao_v002 fuan at active
  show dlanor_v001 normal at inactive
- nao 'あの、……その。'
+ nao 'Ah, um...'
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000あたしが、気まずそうな様子と、内緒話を意味する仕草を見せる\nと、ドラノールさんはすぐに理解してくれた。'
+ narrator 'I gave an awkward look and motioned for Dlanor-san to come over for a private talk, and she understood immediately.'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'ウィスパーですね。問題ありマセン。'
+ dlanor 'Please whisper your question to ME.'
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000どんなゲームでも、時に、あるルールの確認行為そのものが、自\n分の手の内を明かしてしまうことがある。'
- narrator '\u3000特に、ヱリカさんに聞かれる訳にはいかないのだ……。'
+ narrator 'No matter the game, the very act of checking a rule could reveal your hand.'
+ narrator "I especially didn't want Erika-san to hear me..."
  show erika_v001 normal at mei_left
  show beatrice_v001 smile at mei_right
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show erika_v001 normal at inactive
- beatrice 'ふむふむ。何の相談であろうな？'
+ beatrice 'Hmm-hmm, having a private chat, are we?'
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
- erika 'さぁ。……でも、初心者なんですから、私たちも胸を貸してあげな\nいといけません。'
+ erika 'Sigh. Well, she is a novice, so we should give her some support.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -956,7 +956,7 @@ label event01_30_08:
  show dlanor_v001 normal_close at mei_center
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal_close at active
- dlanor '……ふむフム。………なるホド。'
+ dlanor '...Mm-HMM....I SEE.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -965,14 +965,14 @@ label event01_30_08:
  hide dlanor_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000ドラノールさんと顔を寄せ合って、小声で話し合う。'
- narrator '\u3000……いい匂い。今まで嗅いだことのない香りだ。……彼女の髪に\n鼻を押し付けて、スーハーしたくなるわ……。'
+ narrator "My face was pressed against Dlanor-san's as we spoke in hushed tones."
+ narrator '...She smelled nice. This was a fragrance I had never experienced before. ...I wanted to press my nose against her hair and take it all in.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'ドラノールって、生意気にすっごくいい匂いがするんですよねぇ。'
+ erika "Dlanor smells pretty good, doesn't she?"
  show erika_v001 smile at active
- erika '私、鼻がいいんで、ドラノールの気配は匂いでわかります。うふふ\nふ。'
+ erika 'I have a good nose, so I can smell her from a mile away. Ufufufufu.'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -980,35 +980,35 @@ label event01_30_08:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor '……菜央。問題ありマセン。'
+ dlanor '...Nao, I have a QUESTION.'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor '第一の魔法陣がニンゲンの仕業であると証明し、しかし第二の魔法\n陣がニンゲンには不可能であると証明できたナラ……。'
+ dlanor 'The first magic circle was proven to be possible for a human, but if the second magic circle was proven IMPOSSIBLE...'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'あたしとベアトリーチェは、共に勝者になれる……。'
+ nao 'Then Beatrice and I would be the winners...'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'ただ、ウィスパーは朗読者である私にしか出来マセン。'
+ dlanor 'However, as a Reader, this is nothing more than just a whisper to ME.'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'ベアトリーチェ卿に共闘を申し出ることは自由ですが、ヱリカの耳\nにも入ることを忘れないで下サイ。'
+ dlanor 'You are free to tell Lady Beatrice and ally with her, however Erika-san will hear it as WELL.'
  hide nao_v002
  hide dlanor_v001
  with Dissolve(0.2)
- narrator '\u3000よし、グッド。…………でしたっけ？'
- narrator '\u3000ヱリカさん。あたし、負けず嫌いよ。\n\u3000絶対に勝つ。そして、魔法陣の２つの密室も暴いてみせる。'
- narrator '\u3000ヱリカさん。あなたに習ったわ。\n\u3000この、格闘的知恵比べは、……結局は殴り合いも同然。'
- narrator '\u3000あらゆる主張や推理、証拠で、徹底的に相手を打ちのめし\nて、……ダウンさせた方が勝者となる。'
+ narrator 'Alright, <good>...but will this work?'
+ narrator "I don't want to lose to Erika-san. I must win. And I *will* uncover the secrets of these two magic circles."
+ narrator 'I learned this from Erika-san, after all. This battle of wits was more like a fistfight.'
+ narrator 'The victor is the one who analyzes all the theories, pieces through all the reasoning, and compiles all the evidence...to beat the enemy down.'
  camera at screenshake_transform
  pause 0.0
- narrator '\u3000あたしは勝つ。そして、あなたを負かす！'
+ narrator 'I will win, and I WILL defeat her!'
  show erika_v001 normal at mei_right
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
- nao '……………………。'
+ nao '...'
  show erika_v001 futeki at active
  show nao_v002 sinken at inactive
- erika '……グッド。'
+ erika '...<Good>.'

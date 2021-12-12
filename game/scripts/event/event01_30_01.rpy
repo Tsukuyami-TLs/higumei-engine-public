@@ -32,7 +32,7 @@ label event01_30_01:
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show shion_v002 smile_blush at jumping_transform,active
  show erika_v001 normal at inactive
- shion "And then the handsome young man living in the mansion falls in love with you! At that rate it'd be just like a romance novel!"
+ shion "And then the handsome young man living in the mansion would fall in love with you at first sight, and ugh! At that rate it'd be just like a romance novel!"
  hide shion_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -51,7 +51,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'The two twins sisters have already given me their names. Little girl, if would you allow me to hear your name as well, please?'
+ erika 'The twins sisters have already given me their names. Little girl, if would you allow me to hear your name as well, please?'
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '..................'
@@ -94,7 +94,7 @@ label event01_30_01:
  show erika_v001 normal at active
  erika 'I suppose I am a fan. Even if it is a work of fiction, I both pity and envy anyone calling themself a detective.'
  show erika_v001 normal_close at active
- erika 'The reasoning was admirable, but if I was in the show I could have demonstrated a far more lustrous deduction. As a result I am greatly disappointed.'
+ erika 'The reasoning was admirable, but I have a gripe with it, for if I were in the show I could have demonstrated a far more brilliant deduction.'
  hide erika_v001
  with Dissolve(0.2)
  narrator "The Sonozaki sisters and Erika......san have somehow hit it off. \nI'm the only one left out......haa."
@@ -198,7 +198,7 @@ label event01_30_01:
  show erika_v001 normal at active
  erika 'Although, that story was something I just made up.'
  show erika_v001 normal at active
- erika '...the truth is that the island used to be called Akujikushima (Evil Appetite Island) because the souls of anyone who came near would be eaten by evil spirits.'
+ erika '...the truth is that the island used to be called {rb}Akujikushima{/rb}{rt}Evil Appetite Island{/rt} because the souls of anyone who came near would be eaten by evil spirits.'
  hide erika_v001
  with Dissolve(0.2)
  narrator '"You sure know your stuff", interjected the captain.'
@@ -214,7 +214,7 @@ label event01_30_01:
  erika '*giggle*'
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
- nao "Whatever. I don't care what's living on the island. ......ghosts and spirits, I don't believe in any of that."
+ nao "I don't really care what's living on the island. ......ghosts and spirits, I don't believe in any of that."
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
  erika 'Oh?'
@@ -283,7 +283,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show mion_v002 futeki at updown_shake_transform,active
  show shion_v002 smile at inactive
- mion 'Heheh. A maiden be suitably prepared when staying elsewhere.'
+ mion 'Heheh. A maiden must be suitably prepared when staying elsewhere.'
  show shion_v002 smile at active
  show mion_v002 futeki at inactive
  shion 'One should be thoroughly prepared for this island.'
@@ -457,7 +457,7 @@ label event01_30_01:
  nao "Such a beautiful rose garden, and no one outside the household is allowed to see it. I can't believe it......"
  show shion_v002 smile at active
  show nao_v002 normal at inactive
- shion "Absolutely. In a way, it's an offense to the roses."
+ shion "Absolutely. In a way, it's an offense to the roses..."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -524,17 +524,17 @@ label event01_30_01:
  play audio 'audio/sfx/SE_5020_key.wav'
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika "Hey, Nao-chama. it looks like that's your room key."
+ erika "Hey, Nao-chama. It looks like that's your room key."
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao '...please stop calling me "chama", thank you very much.'
+ nao '...Please stop calling me "chama", thank you very much.'
  show nao_v002 odoroki at active
  show erika_v001 normal at inactive
  nao 'Is there only one key?'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator "Normally, there's as many keys as guests staying in the room, but..."
+ narrator 'Normally, there are as many keys as guests staying in the room, but...'
  show nao_v002 normal at mei_left
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
@@ -565,7 +565,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show shion_v002 smile at inactive
- nao "......it's a nice room isn't it?"
+ nao "......This is a nice room, isn't it?"
  show shion_v002 smile at active
  show nao_v002 smile at inactive
  shion "You can visit these types of buildings, but it's not often you get to stay in one."
@@ -620,7 +620,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show shion_v002 odoroki at active
  show nao_v002 odoroki at inactive
- shion 'What is it? ......eeee-, sis, did you break it?!'
+ shion 'What is it? ......eeee-, Sis, did you break it?!'
  show nao_v002 odoroki at active
  show shion_v002 odoroki at inactive
  nao '......uh. Just now when you opened the window in excitement, did you break the lock?'
@@ -640,7 +640,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show shion_v002 fuan_close at active
  show mion_v002 fuan at inactive
- shion 'Jeez, really sis...... you really make me worry.'
+ shion 'Jeez, really, Sis...... you really make me worry.'
  show mion_v002 smile at active
  show shion_v002 fuan_close at inactive
  mion 'Well...... anyways, moving on! Ahh, what a nice room!'
@@ -663,7 +663,7 @@ label event01_30_01:
  show shion_v002 fuan at mei_center
  with Dissolve(0.5)
  show shion_v002 fuan at active
- shion 'Sis you really are an idiot. If you just told him that there were two rooms and called him over,'
+ shion 'Sis, you really are an idiot. If you just told him that there were two rooms and called him over,'
  show shion_v002 smile at active
  shion "and it turns out there's only one room when we arrive, he'd have no choice but to stay in the same room! Wouldn't that be nice?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
@@ -694,7 +694,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show nao_v002 fuan at inactive
- shion 'I never knew you had that little self respect, sis.'
+ shion 'I never knew you had that little self respect, Sis.'
  show nao_v002 fuan_close at active
  show shion_v002 smile at inactive
  nao "I-If he rejected me there I wouldn't know how to respond......"
@@ -781,7 +781,7 @@ label event01_30_01:
  nao "I'm not. You're just imagining things."
  show erika_v001 normal at active
  show nao_v002 normal_close at inactive
- erika '*giggle*......'
+ erika 'Hmm, I see......'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -895,14 +895,14 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 smile at inactive
- erika 'This house was built after the war remember? Conder died in 1920.'
+ erika 'This house built after the war, remember? Conder died in 1920.'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  show jessica_v001 smile at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile at active
- jessica 'Apparently it was designed by the apprentice of some great architect named Conder.'
+ jessica 'Um, apparently it was designed by the apprentice of some great architect named Conder.'
  hide jessica_v001
  with Dissolve(0.2)
  show mion_v002 smile at mei_right
@@ -933,7 +933,7 @@ label event01_30_01:
  show jessica_v001 fuan_close at mei_center
  with Dissolve(0.5)
  show jessica_v001 fuan_close at active
- jessica 'I-I know mom......'
+ jessica 'I-I know, mom......'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide jessica_v001
@@ -989,7 +989,7 @@ label event01_30_01:
  nao '……………………'
  hide nao_v002
  with Dissolve(0.2)
- narrator "I'm not psychic or anything. \n......but, the painting was giving me a feeling"
+ narrator "I'm not psychic or anything. \n......but, the painting was making me feel something"
  narrator 'It was...... a feeling of love...... for the woman in the painting...... bordering on...... or even exceeding...... that of madness.'
  narrator "It should be a beautiful portrait but......that's how it made me feel. \nI wonder if I've also...... been poisoned by the cliche of mysteries on isolated islands."
  show jessica_v001 normal at mei_right
@@ -997,15 +997,15 @@ label event01_30_01:
  show jessica_v001 normal at active
  jessica "It's a portrait of our family alchemist."
  show jessica_v001 normal at active
- jessica 'According to grandfather, the Ushiromiya family would not have prospered if she had not lent him ten tons of gold.'
+ jessica 'According to grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.'
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show jessica_v001 normal at inactive
- nao 'Alchemy...... occult?'
+ nao 'Alchemy...... like the occult?'
  show jessica_v001 smile at active
  show nao_v002 normal at inactive
- jessica 'Well, if she can produce 10 tons of gold with a poof, then I suppose you could call her an alchemist.'
+ jessica 'Well, if she can produce 100 tons of gold with a poof, then I suppose you could call her an alchemist.'
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)

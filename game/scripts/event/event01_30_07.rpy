@@ -4,34 +4,34 @@ label event01_30_07:
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
- narrator '\u3000ゲストハウスに戻ると、広間ではランチのお皿が配膳されてい\nた。'
- narrator '\u3000詩音さんが言うには、ここで使われている食器は、本当にいいも\nのということだった。'
- narrator '\u3000この島の美食に慣れてしまったら、もう島の外には戻れなくなっ\nてしまうかも。……かも。'
+ narrator 'We returned to the guesthouse, where lunch plates were being served in the hall.'
+ narrator 'Shion-san was going on about how amazing the tableware was supposed to be.'
+ narrator 'Once you get used to the cuisine on this island, you never want to go back...probably.'
  show mion_v014 smile at mei_right
  show shion_v008 fuan at mei_left
  with Dissolve(0.5)
  show shion_v008 fuan at active
  show mion_v014 smile at inactive
- shion '早く着替えてきましょ。さすがにこの格好でランチはしたくないで\nす。'
+ shion "Let's get changed quickly. I don't want to be eating lunch like this."
  show mion_v014 smile at active
  show shion_v008 fuan at inactive
- mion 'そーおー？\u3000おじさんは全然、気にしないけどなぁ。'
+ mion "Is that so? Well, this ol' man doesn't mind."
  show shion_v008 sinken at active
  show mion_v014 smile at inactive
- shion 'お姉がよくても、私が落ち着かないんですっ。さ、上に行って、着\n替えますよ。'
+ shion "Sis, you might be okay with it, but I'd prefer to be modest. Anyway, I'm going upstairs to change."
  hide mion_v014
  hide shion_v008
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '私も一度部屋に戻って、手を洗うことにします。'
+ erika 'I would also like to return to my room for a bit to wash my hands.'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '……刺繍、全然、出来なかったけど、置いてこなきゃ。'
+ nao "..I'm not in the mood for embroidery, so I'll set it down."
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
@@ -41,27 +41,27 @@ label event01_30_07:
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
- narrator '\u3000後で畳めばいいと、あたしの目も気にしないで、じゃんじゃん脱\nいで、じゃんじゃん着替える。'
- narrator '\u3000女同士とはいえ、あぁも裸を見せることに抵抗がないのも、スゴ\nイというかカッコイイというか……。'
+ narrator 'After folding my clothes neatly, I glanced around with a carefree look, where the sounds of clothes being shed resounded.'
+ narrator "It's amazing that they're not afraid to put their nakedness on display even though they have a sisterly bond..."
  show mion_v002 smile at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion 'これでエンジェルモートの仕事はおしまいですよね？'
+ shion 'This is the last Angel Mort request, right?'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'もっちろん！\u3000午後はワニャンを！\u3000兎たちの悲恋殺人事件合わ\nせ、やっるよ～！！'
+ mion 'Of course! This is "The Heartbroken Rabbits Murder Case"!'
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion 'ねーねー、菜央さんも加わりません？'
+ shion 'Hey, Nao-san, you wanna join?'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao 'あたし……、恥ずかしいのはちょっと。'
+ nao "Um...I'm a little embarassed."
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -69,17 +69,17 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion '大丈夫大丈夫、イッチバン恥ずかしくないのがあるから！\u3000しかも\n主役！'
+ mion "Don't worry, there's no need to be embarassed! After all, you can be the star!"
  play audio 'audio/sfx/SE_604_Is_status.wav'
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion 'ジャーン！\u3000ワニャンの着ぐるみですよ～！'
+ shion "Ta-da! It's a Wanyan costume!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
- narrator '\u3000……なるほど。巨大ナメクジの中の人ならば、恥ずかしくもな\nい、……かも？'
- narrator '\u3000いやいやいや、それじゃそもそも、あたしが写る意味がないよう\nな……。'
- narrator '\u3000……いやいや、浮気はダメだわ。あたしはカネダ少年派なんだか\nら……。'
+ narrator "...I see. Surely I wouldn't be embarassed wearing a giant slug costume, right?"
+ narrator 'No no no, in the first place, do I even want to be photographed?'
+ narrator '...No, I will NOT be fooling around. I need to be just like Kaneda...'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
@@ -87,58 +87,58 @@ label event01_30_07:
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_526_door_open.wav'
- narrator '\u3000部屋を出て施錠していると、ヱリカさんもちょうど部屋から出て\n来たところだった。'
+ narrator 'We left the room and locked the door just as Erika-san came out of hers and did the same.'
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '今度は、ちゃんと施錠しないといけませんね。'
+ erika "This time, I won't leave the door unlocked."
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion '大丈夫でしたぁ？\u3000泥棒とかに荒らされてませんでした？'
+ shion 'Are you okay? Did a thief break in?'
  show erika_v001 normal_close at active
  show shion_v002 smile at inactive
- erika 'いいえ。ご安心を。'
+ erika 'Nope. You can rest assured.'
  hide shion_v002
  show mion_v002 smile at mei_left
  with Dissolve(0.5)
  show mion_v002 smile at active
  show erika_v001 normal_close at inactive
- mion 'グッド。それはよかった。'
+ mion "<Good>. That's nice to hear."
  hide erika_v001
  hide mion_v002
  with Dissolve(0.2)
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '行きましょう。この素敵な匂いに、お腹がもうペコペコです。'
+ nao "Then let's go. This wonderful smell is making my stomach rumble."
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_5007_keyroll.wav'
- narrator '\u3000ヱリカさんは、しっかりと施錠し、その手応えを確かめる。'
+ narrator 'Erika-san carefully felt the door to ensure it was locked.'
  show mion_v002 smile at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika 'これで私の部屋は密室です。安心ですね。'
+ erika 'With this, my room is definitely a locked room. My mind is at ease.'
  show mion_v002 smile at active
  show erika_v001 normal at inactive
- mion '窓はちゃんと施錠してあるぅ？'
+ mion 'Is the window locked?'
  show erika_v001 normal at nod_transform,active
  show mion_v002 smile at inactive
- erika 'もちろんです。こうでなくては、でしょう？'
+ erika "Indeed it is. Why wouldn't it be?"
  hide mion_v002
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'くす。ヱリカさんって、面白い人ですね。'
+ shion "Hehe. Erika-san, you're quite an interesting person."
  hide erika_v001
  hide shion_v002
  with Dissolve(0.2)
- narrator '\u3000あたしは、面白くない人でいいから、のんびりと刺繍をさせてく\nれる同宿者がよかったわ……。'
+ narrator "I think I would've preferred an uninteresting roommate who would let me relax and embroider instead."
  stop music fadeout 2.0
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -158,126 +158,126 @@ label event01_30_07:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show erika_v001 normal at inactive
- beatrice 'そなたが土産に持ってきた#pコ#s・#r#pレ#s・#rは、なかなかに面白いではないか。'
+ beatrice 'That "thing" you brought as a souvenir is very intriguing, isn\'t it?'
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
- erika '貴女が戦人さんとイチャついてた頃の難易度に比べれば、子供騙し\nではありますが。'
+ erika "It's mere child's play compared to the difficulty you had while flirting with Battler-san."
  hide beatrice_v001
  show dlanor_v001 normal at mei_right
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show erika_v001 normal at inactive
- dlanor '……さすがは名探偵デス。状況を臨機応変に利用し、謎を生み出し\nマス。'
+ dlanor "...you really are a great DETECTIVE. You've used your surroundings and adapted to the situation to produce a great MYSTERY."
  show erika_v001 normal_close at active
  show dlanor_v001 normal at inactive
- erika '謎を解ける者は即ち、謎を作れるものでもあるのだから当然です。'
+ erika 'It is only right that those who can solve mysteries are able to create them as well.'
  hide dlanor_v001
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show erika_v001 normal_close at inactive
- beatrice '#p第#s・#r#p一#s・#r#pの#s・#r魔法陣の謎は、おおよそ見えて来てはいるのだが……。紗音\nがどうしてもわからぬ。'
+ beatrice 'The mystery of the first magic circle is revealing itself, but...Shannon I have yet to understand.'
  show beatrice_v001 normal at active
  show erika_v001 normal_close at inactive
- beatrice 'あやつの性分からして、おぞましい魔法陣がシーツに描かれている\nのを見たら、平然とは出来ぬはずだ……。'
+ beatrice 'To look at a repulsive magic circle drawn on a bedsheet with such a calm demeanor...'
  show beatrice_v001 sinken at active
  show erika_v001 normal_close at inactive
- beatrice 'うむむむむ……。頭の糖分が足りぬ……。ドラノールよ。もう１箱\nだけ頼むぞ……。'
+ beatrice "Hmmmm...there's not enough sugar in my head...Dlanor, another box if you please."
  hide erika_v001
  show dlanor_v001 fuan at mei_left
  with Dissolve(0.5)
  show dlanor_v001 fuan at active
  show beatrice_v001 sinken at inactive
- dlanor 'まさか、お土産に持ってきた、天界名物の天使まんじゅうを、全箱\nあけることになるとは思わなかったデス。'
+ dlanor "I never thought I'd be opening every box of Heaven-specialty angel manjuu that I brought as a GIFT."
  show beatrice_v001 futeki at active
  show dlanor_v001 fuan at inactive
- beatrice 'だって、これウマイんだよぉ。魔女もニッコリ、天使まんじゅう！\u3000\nこれ、キャッチコピーにしてもよいぞ！'
+ beatrice "That's a testament to just how good they are. Angel manjuu really puts a smile on this witch's face! In fact, that should be the catchphrase!"
  hide dlanor_v001
  show erika_v001 normal_close at mei_left
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show beatrice_v001 futeki at inactive
- erika '私には、凶悪な魔女が、可愛い天使の形をしたまんじゅうを、頭か\nらバリバリ食べるのがとてもザンコクに見えますけれど。'
+ erika "Looks to me like a cruel witch eating a little angel's head in the form of a bun."
  play audio 'audio/sfx/SE_374_ls_question.wav'
  show erika_v001 smile at jump_transform,active
  show beatrice_v001 futeki at inactive
- erika '……ボク、天使まんじゅうだよ☆\u3000ボクも、みんなみたいに……食\nべちゃう？\u3000食べちゃうの……？'
+ erika 'But, angel manjuu☆ Everyone else had one, so may I have one too? Pretty please?'
  camera at screenshake_transform
  pause 0.0
  show beatrice_v001 fuan at active
  show erika_v001 smile at inactive
- beatrice 'うがあぁあぁ、そーゆうのやめろぉおォ！！\u3000妾、魂が入っちゃう\nと、食べれなくなっちゃうんだよオ……！！'
+ beatrice "Arghh, stop that! I can't raise my spirits if I don't eat any!"
  hide erika_v001
  show dlanor_v001 fuan_close at mei_left
  with Dissolve(0.5)
  show dlanor_v001 fuan_close at active
  show beatrice_v001 fuan at inactive
- dlanor 'かつて、残酷の象徴とまで言われた魔女が、ずいぶんと愛らしく\nなったものデス……。'
+ dlanor 'In the past, witches embodied cruelty, but now they have become quite LOVABLE.'
  show beatrice_v001 fuan at chara_shake_transform,active
  show dlanor_v001 fuan_close at inactive
- beatrice 'ヱリカぁ！\u3000もう一個、ヒントを頼むよォ。'
+ beatrice 'Erika! If I give you just one, will you give me a hint?'
  hide dlanor_v001
  show erika_v001 fuan at mei_left
  with Dissolve(0.5)
  show erika_v001 fuan at active
  show beatrice_v001 fuan at inactive
- erika 'それを戦人さんが貴女に懇願した時。貴女はどんなことを言って甚\n振ったんでしたっけぇ？'
+ erika 'When Battler-san asked you similar things, in what ways did you torment him?'
  show erika_v001 normal_close at active
  show beatrice_v001 fuan at inactive
- erika '魔女側は負けるのが仕事とはいえ、赤き真実で生殺与奪を握れると\nいうのは、本当にいい気分です。'
+ erika "It really is a great feeling, controlling the red truth like it's life or death, even though the witch side must lose in the end."
  hide beatrice_v001
  show dlanor_v001 fuan at mei_right
  with Dissolve(0.5)
  show dlanor_v001 fuan at active
  show erika_v001 normal_close at inactive
- dlanor '……ベアトリーチェ卿さえ丸くなったというノニ。……ヱリカには\nヤスリ掛けが必要デス。'
+ dlanor '...even Lady Beatrice mellowed out with TIME. Erika, you could stand to do the SAME.'
  show erika_v001 normal at active
  show dlanor_v001 fuan at inactive
- erika 'ハイハイ。意地悪はこれくらいにして、お望みの赤き真実を進呈し\nましょう。'
+ erika "...Very well. So much for being mean. I'll give you the red truth you want."
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show dlanor_v001 fuan at inactive
- erika '#ff0000菜央のベッドに魔法陣の悪戯をしたのは、この私、古戸ヱリカで#r\n#ff0000す。#r'
+ erika "#ff0000It was I, Erika Furudo, who performed the magic circle prank on Nao's bed.#r"
  hide dlanor_v001
  show beatrice_v001 sinken at mei_right
  with Dissolve(0.5)
  show beatrice_v001 sinken at jump_transform,active
  show erika_v001 normal at inactive
- beatrice 'それは最初からわかっている！\u3000もう１つ！\u3000もう１つ！'
+ beatrice 'I knew that since the beginning! One more, one more!'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show beatrice_v001 sinken at inactive
- erika '#ff0000ヱリカは、菜央たちが夕食に向かった直後に、庇を伝い、窓から侵#r\n#ff0000入し、予め用意した魔法陣のシーツを菜央のベッドのシーツと換え#r\n#ff0000ました。#r'
+ erika "#ff0000After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheet with another that had the magic circle drawn on it in advance.#r"
  show beatrice_v001 sinken at nod_transform,active
  show erika_v001 normal at inactive
- beatrice 'それももちろん、わかっている！\u3000菜央とて、そこまではとっくに\n至っているであろう！'
+ beatrice "Of course, I see! Even Nao would've figured that out long ago!"
  hide erika_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show beatrice_v001 sinken at inactive
- dlanor '……その後、入室した紗音が、なぜ魔法陣のシーツを見て、異常な\nしと判断したノカ……。'
+ dlanor '...Then, Shannon entered the ROOM. Why did she look at the sheet and not think anything was WRONG?'
  show beatrice_v001 fuan at active
  show dlanor_v001 normal at inactive
- beatrice 'そこそこそれそれ！！\u3000その一点がわかんねぇんだよなぁ……！！'
+ beatrice "Indeed! That is one detail I still don't understand!"
  show beatrice_v001 fuan_close at active
  show dlanor_v001 normal at inactive
- beatrice '紗音ってさ、たまにすげーおっかねぇんだよ、怖ぇんだよ！\u3000あい\nつの裏モードでも発動しちまったのかなぁ！'
+ beatrice "Shannon is so dedicated sometimes, it's scary! I wonder if she activated some kind of hidden mode?"
  hide dlanor_v001
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
  show erika_v001 normal at active
  show beatrice_v001 fuan_close at inactive
- erika 'それでは、最後の大ヒントですよ？\u3000よぉくお聞きください。'
+ erika "Now then, you want a big hint? You'll want to hear this..."
  show beatrice_v001 fuan at chara_shake_transform,active
  show erika_v001 normal at inactive
- beatrice '頼むよォ、神さま仏さまヱリカさまぁぁあぁ！！'
+ beatrice 'Oh yes, please! My God, my Buddha, my lady Erikaaaaa!'
  hide beatrice_v001
  hide erika_v001
  with Dissolve(0.2)
@@ -285,7 +285,7 @@ label event01_30_07:
  play audio 'audio/sfx/SE_5036_glass_break.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
- narrator '\u3000#ff0000この島には、あの部屋の状況を見て、異常なしと判断してしまう#r\n#ff0000人間が、紗音以外にも存在します。#r'
+ narrator '#ff0000On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.#r'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -297,9 +297,9 @@ label event01_30_07:
  camera at screenshake_transform
  pause 0.0
  show beatrice_v001 odoroki at active
- beatrice 'んええええぇええぇッ？！？！\u3000紗音だけがおかしいんじゃない\nの？！\u3000他にもいるの？！'
+ beatrice "Whaaaaaaaaat?! Shannon isn't the only crazy person? There are more?!"
  show beatrice_v001 sinken at active
- beatrice '嘉音？！\u3000じゃあ源次？！\u3000ここでまさかの南條ォ？！'
+ beatrice 'Kanon? Genji? Even Nanjo?!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -312,15 +312,15 @@ label event01_30_07:
  with Dissolve(0.5)
  play audio 'audio/sfx/SE_5005_grab.wav'
  show dlanor_v001 fuan_close at chara_shake_transform,active
- dlanor 'く、苦しいデス……。私の首を絞めても、ヒントは出ないのデ\nス……。'
+ dlanor '...This is DIFFICULT. This hint has only served to restrain ME.'
  hide dlanor_v001
  with Dissolve(0.2)
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
  show erika_v001 smile at active
- erika 'うっふっふっふ。ベアトリーチェを、謎解きでいじめられるなん\nて、本当に役得です♪'
+ erika 'Uhuhuhuhu. It really is a treat to dangle riddles in front of Beatrice like this♪'
  show erika_v001 futeki at active
- erika 'せいぜい頑張ってくださいね？\u3000#pア#s・#r#pイ#s・#r#pツ#s・#r#pら#s・#rは、初見で謎を全て、見\n抜きやがりましたよ……？'
+ erika 'Keep doing your best, okay? Didn\'t "they" see through everything on their first try?'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -338,50 +338,50 @@ label event01_30_07:
  pause 4.0
  stop sound
  
- narrator '\u3000お昼の後は、ヱリカさんはひとりになりたいと言って、どこかに\n散策に行ってしまった。'
- narrator '\u3000こうして、あたしはついにようやく、\n最高の薔薇に囲まれた東屋で、心穏やかに刺繍に没頭するという、\n当初の目的を達成するのだった……。'
- narrator '\u3000園崎姉妹は、午後は「名探偵ワニャン」のコスプレ撮影を堪能し\nているようだった。'
- narrator '\u3000……それにしても、あんなにもおかしな衣装が次々と登場するの\nだが、一体、どういうミステリーなのだろう……。'
- narrator '\u3000そもそも作者は、どうして主人公のワニャンを、巨大ナメクジと\nいう設定にしたのだろう。その方が、真のミステリーかもしれな\nい……。'
+ narrator 'After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.'
+ narrator "Finally, I had the chance to embroider to my heart's content, surrounded by the wonderful roses in the arbor."
+ narrator 'The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo op that afternoon.'
+ narrator 'There were many ridiculous costumes appearing one after another...just what kind of mystery *was* this?'
+ narrator 'I have no idea why the creator decided to make the protagonist Wanyan a giant slug...Maybe that was the real mystery.'
  show mion_v004 smile at mei_right
  show shion_v012 smile at mei_left
  with Dissolve(0.5)
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion 'だいぶ撮りましたねぇ。現像が楽しみです。'
+ shion 'We just took some underwater photos. This is so fun!'
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion 'そろそろ引き上げるかね。今夜が最後のディナーになるからね。汗\nを流してスッキリしてからいただきたいね！'
+ mion "We'd better go back to the room. Tonight is our last dinner together, and I think it'd taste amazing after a hardworking day!"
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion '菜央さ～ん。私たちはそろそろ引き上げますけど、菜央さんはどう\nしますか？'
+ shion "Nao-saan~. We're heading back, so what will you do?"
  hide mion_v004
  hide shion_v012
  with Dissolve(0.2)
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '……なら、あたしも引き上げようと思います。少し、風も冷えて来\nましたので。'
+ nao "...I guess I'll leave too. The wind was beginning to grow cold anyway."
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000それにしても、冬ももうじきだというのに、よくも園崎姉妹は、\nあんなに露出のあるコスプレで屋外撮影が出来るものだ。'
- narrator '\u3000……コスプレイヤーはレベルＭＡＸに達すると、素肌が剥き出し\nでも冬のイベントに耐えられるようになる、というけど本当なのか\nしら……。'
+ narrator "At any rate, I don't know how the Sonozakis can take pictures outside in such revealing costumes when it's almost winter."
+ narrator "...I wonder if it's true about cosplayers being able to withstand winter events naked if they reach a high enough level..."
  show mion_v004 smile at mei_right
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
  show mion_v004 smile at inactive
- nao 'お二人の衣装は、手作りなんですか？'
+ nao 'Are your costumes handmade?'
  show mion_v004 smile at active
  show nao_v002 smile at inactive
- mion '手作りなんて言えるほどのものかはわかんないけどね～。まぁ、そ\nこそこに～。'
+ mion "You could say they're handmade, I guess. That's just how it is~"
  play audio 'audio/sfx/SE_5037_getup.wav'
  show nao_v002 sinken at active
  show nao_v002 sinken:
   linear 0.5 pos (1110,1200)
  show mion_v004 smile at inactive
  pause 0.5
- nao '……ちょっと失礼。……生地は、……ふむふむ。……ペラリ。……\n裏側の処理はどうでしょう？'
+ nao 'Let me see...this fabric is...mm-hmm, very shoddy. And the back?'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -395,7 +395,7 @@ label event01_30_07:
  camera at screenshake_transform
  pause 0.0
  show shion_v012 odoroki at active
- shion 'コ、コスプレ警察は堪忍して下さぁい！\u3000裏は見ないでぇえぇ！！'
+ shion "What are you, the costume police? You don't need to see the back!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -411,10 +411,10 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 fuan at chara_shake_transform,active
  show nao_v002 smile at inactive
- mion '布の面積が少ない衣装は恥ずかしくなくても、自作衣装の裏側を見\nられるのは耐えられない…！\u3000恐るべし、コスプレ警察！'
+ mion "I'm sorry to say I only used a few pieces of cloth for my costume, and I couldn't bear to look at the back! Good work, Officer!"
  show nao_v002 smile at active
  show mion_v004 fuan at inactive
- nao '服飾、……少しはわかりますので、今度、作る時には声を掛けてく\nれればお手伝いしますよ。'
+ nao 'Well, I happen to know a bit about clothing, so feel free to ask me for help the next time you want to make something.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -428,7 +428,7 @@ label event01_30_07:
  camera at screenshake_transform
  pause 0.0
  show shion_v012 fuan at active
- shion 'お、お手伝いの余地があるって評価されてぁああぁあ、いやあぁ\nあぁん、恥ずかしいぃいいぃ！！'
+ shion "Oh my, the verdict is there's room for help? How embarassing!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -437,12 +437,12 @@ label event01_30_07:
  hide shion_v012
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000屋外でさんざん、セクシーなコスプレ撮影をしておいて、裏側の\n処理を見られたくらいで照れるなんて、よくわからないわ……。'
- narrator '\u3000まぁ、そんな話をしながら、あたしたちはゲストハウスに戻るの\nだった。'
+ narrator "I don't know how you can be embarassed at people looking at your back when you've been doing sexy cosplay photo shoots outdoors..."
+ narrator 'We chatted on as we returned to the guesthouse.'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '２泊３日なんて、あっという間ですね。'
+ nao 'Two days and three nights went by in the blink of an eye, huh?'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v012 smile at mei_left
@@ -450,17 +450,17 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion 'そうだね。中日が１日しかない訳だからね。'
+ mion 'Yup, and we only have less than a day left before it ends.'
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion '明日のお昼前には出発ですね。帰りは新島空港から飛行機でしたっ\nけ。'
+ shion "We'll be leaving tomorrow before noon and fly back from Nijima Airport."
  hide shion_v012
  hide mion_v004
  with Dissolve(0.2)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '……輝くように素敵な薔薇庭園も、これで見納めなんですね。'
+ nao '...This will be the last time I see this wonderful rose garden.'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v012 smile at mei_left
@@ -468,10 +468,10 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion 'ここが、私たちの助言を得て、素晴らしいリゾートになって開業し\nたなら、またいつだって来られるよ。'
+ mion 'If this place takes our advice and opens as a magnificent resort, we can always come back.'
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion 'コスプレＯＫのリゾート地なんて、きっと珍しいから流行ると思う\nんですよね！'
+ shion "I'm sure that resorts where cosplays are allowed are so rare that they'll catch on!"
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -483,31 +483,31 @@ label event01_30_07:
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_536_up_stairs.wav'
- narrator '\u3000あたしたちは２階へ上がる。'
- narrator '\u3000魅音さんが鍵を開けようとしている間、……少しだけ身構えてい\nた。\n\u3000また、……魔法陣の悪戯が、あるかもしれないから。'
+ narrator 'We went to the second floor.'
+ narrator 'While Mion-san opened the door with her key, I braced myself...I was expecting to see another magic circle prank.'
  stop music fadeout 2.0
  show shion_v012 smile at mei_left
  show mion_v004 smile at mei_right
  with Dissolve(0.5)
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion '大丈夫だぁって！\u3000今日は戸締りも完璧だからね。これで魔法陣が\n作れたら、今度こそ密室ミステリーだよ。'
+ mion "Don't worry, everything was locked up tight! If there really were another magic circle, I think we'd have a closed-room mystery on our hands."
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion '安心して。菜央さんが怖がるようなことは、二度とさせませんか\nら。'
+ shion "That's a relief. Nao-san, you have nothing to fear at all."
  hide shion_v012
  hide mion_v004
  with Dissolve(0.2)
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao 'そ、それは頼もしいです……。'
+ nao "Th-that's reassuring..."
  hide nao_v002
  with Dissolve(0.2)
  show mion_v004 smile at mei_center
  with Dissolve(0.5)
  show mion_v004 smile at active
- mion 'これ、わかる？'
+ mion 'See this?'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -517,7 +517,7 @@ label event01_30_07:
    linear 0.5 zoom 1.3
  hide mion_v004
  with Dissolve(0.2)
- narrator '\u3000魅音さんが、鍵穴を指さすのだが、何も不審には見えない。'
+ narrator "Mion-san pointed at the keyhole, but I didn't see what she meant."
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -532,31 +532,31 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 smile at active
  show nao_v002 smile at inactive
- mion '知らないなら、敢えて詳細は伏せるけど。……これ、実はささやか\nな細工がしてあるんだよ。'
+ mion "If you don't understand, you don't need to know the details...but this is a neat little thing."
  show nao_v002 odoroki at active
  show mion_v004 smile at inactive
- nao 'え？\u3000どういうことですか？'
+ nao 'Huh? What do you mean?'
  hide nao_v002
  show shion_v012 smile at mei_left
  with Dissolve(0.5)
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion '詳しくは言えませんけれど。細工を外さないで鍵を挿し込むと、シ\nリンダーが詰まって壊れるんです。'
+ shion "I can't go into specifics, but if you insert the key while something else is inside, the cylinder will jam and break."
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion '傍目にはわからないよ。つまり、細工をした本人が細工を外すま\nで、絶対にこの扉は開かないということ。'
+ mion "You can't really see it. In short, if this trick is used on the the door, then absolutely no one can open it."
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion '仮に、細工に気付いたところで、外そうとすればそれ、形が変わっ\nてしまいますので、入室を許した証拠は残る。'
+ shion 'Even if you notice the trick, if you try to remove it, it will change shape, and there would be evidence you entered the room.'
  hide mion_v004
  hide shion_v012
  with Dissolve(0.2)
- narrator '\u3000園崎姉妹が何の話をしているのかよくわからないが、要はこうい\nうことだ。'
- narrator '\u3000朝、この部屋を出て施錠した時に、鍵穴に妙な細工をしたのだ。\n\u3000それに気付かずに、何者かが鍵を挿し込んで開けようとすると、\n鍵穴が詰まり、壊れて開かなくなるのだ。'
+ narrator "I don't know what the Sonozakis were talking about, but this was the gist:"
+ narrator 'When she left the room this morning and locked the door, she made a strange modification to the keyhole. If someone tries to open the door by inserting the key without realizing it, the keyhole will jam and be unable to open.'
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '……もし仮に、使用人の人が掃除でもしようと思ってマスターキー\nを使ってたら、大変なことに……。'
+ nao '...Although, a servant with a master key who tried to open it for cleaning would be in a lot of trouble.'
  hide nao_v002
  with Dissolve(0.2)
  show mion_v004 smile at mei_right
@@ -564,57 +564,57 @@ label event01_30_07:
  with Dissolve(0.5)
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion 'その為に、これをぶら下げておいたんじゃないですか。'
+ shion "That's why you left this hanging, right?"
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion 'ベッドメイク不要の札。これで、使用人の人も、入る必要がない。'
+ mion 'A "bedmaking not necessary" tag. If a servant saw that, there\'d be no reason for them to enter.'
  hide mion_v004
  hide shion_v012
  with Dissolve(0.2)
- narrator '\u3000もちろん、犯人がこの細工に気付き、取り外そうと試みる可能性\nもゼロではない。'
- narrator '\u3000しかし、園崎姉妹が言うには、そうすれば必ず痕跡が残るという\nのだ。'
- narrator '\u3000だから、この細工の意味を知っている犯人なら、マスターキーは\nもちろんのこと、ピッキングさえも諦めざるを得ないのだ。'
+ narrator 'However, the culprit might notice this trick and remove it, rendering the whole thing moot.'
+ narrator 'But if what the Sonozakis are saying is true, there should be a sign of entry.'
+ narrator 'Even if the culprit noticed this trick, they would either have to have a master key or pick the lock.'
  show nao_v002 normal at mei_left
  show mion_v004 fuan at mei_right
  with Dissolve(0.5)
  show mion_v004 fuan at active
  show nao_v002 normal at inactive
- mion 'この技、ホントに内緒だからね？\u3000下手に真似されると、各方面に\n迷惑が掛かるからね。'
+ mion "This trick is a secret, alright? If anyone else tries to copy it, it'll be bad for all of us."
  show nao_v002 fuan at active
  show mion_v004 fuan at inactive
- nao '真似できないし、したくもありませんのでご安心を……。'
+ nao "Don't worry, I don't intend to."
  show nao_v002 normal at active
  show mion_v004 fuan at inactive
- nao 'それで……、その細工は大丈夫だったんですか？\u3000誰の痕跡も？'
+ nao 'That said...this trick works, right? Any signs of entry?'
  show mion_v004 normal at nod_transform,active
  show nao_v002 normal at inactive
- mion 'うん。私が施錠してから今の瞬間まで、誰も開錠しなかったことを\n証明してるよ。'
+ mion 'Nope. This proves that from when I locked it earlier to unlocking it just now, nobody else opened it.'
  hide nao_v002
  hide mion_v004
  with Dissolve(0.2)
- narrator '\u3000それでも魔法陣があったら………、これはもう本当に……魔女の\n仕業…………。'
+ narrator 'Even so, if a magic circle still appeared...it would be the work of a witch.'
  show mion_v004 smile at mei_right
  show shion_v012 smile at mei_left
  with Dissolve(0.5)
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion 'お姉。カウントダウンでドアを開けて下さいな。'
+ shion 'Sis, please open it on the count of three.'
  show mion_v004 smile at jump_transform,active
  show shion_v012 smile at inactive
- mion 'ＯＫ！\u3000スリー、ツー、ワン！'
+ mion 'Okay!. Three, two, one!'
  hide shion_v012
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show mion_v004 smile at inactive
- nao 'そ、そういうのフラグになるんで、粛々と開けて下さい……。'
+ nao "P-please don't announce it like that, just open the door quietly..."
  hide mion_v004
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '……おや。どうしたんですか？\u3000まさか、#p鍵#s・#r#p穴#s・#r#pに#s・#r#pゴ#s・#r#pミ#s・#r#pで#s・#r#pも#s・#r#p入#s・#r#pれ#s・#r#pて#s・#r壊\nしちゃったんですか？'
+ erika "...Oh my, what's going on here? Don't tell me you *put some garbage in the keyhole* and broke it?"
  hide erika_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_left
@@ -622,39 +622,39 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 smile at active
  show erika_v001 normal at inactive
- mion 'えー？\u3000そんなことしないってぇ。'
+ mion 'Er, we did nothing of the sort.'
  show erika_v001 normal_close at active
  show mion_v004 smile at inactive
- erika 'てっきり、昨日は窓の鍵、今度は扉の鍵を壊してしまったのかと思\nいました。'
+ erika "Yesterday it was the window lock, and now today you're going to break the door lock?"
  show erika_v001 normal at active
  show mion_v004 smile at inactive
- erika 'やっぱり茅葺き屋根の村からいらっしゃった方々には、洋風な扉は\n扱いが慣れていないのかと思いまして。'
+ erika "I knew people from thatched-roof villages weren't used to seeing Western-style doors."
  hide mion_v004
  show shion_v012 smile at mei_right
  with Dissolve(0.5)
  show shion_v012 smile at active
  show erika_v001 normal at inactive
- shion '私たちのことはお構いなく。お帰りなさい、ヱリカさん。'
+ shion "Don't worry about us. Welcome back, Erika-san."
  hide erika_v001
  hide shion_v012
  with Dissolve(0.2)
- narrator '\u3000今回のバカンスは、薔薇庭園にゆったりと過ごす暇はほとんどな\nく、……終始、ヱリカさんとバチバチやりあっている気がする。'
- narrator '\u3000ヱリカさんの挑発的な態度と、園崎姉妹の喧嘩の訪問買取が噛み\n合ってしまったのだ……。'
- narrator '\u3000アンケートには、この島が貸し切りだったなら、もっと最高でし\nたって、書いておこう……。'
+ narrator 'I feel like throughout this entire vacation, even in what was supposed to be a peaceful rose garden, Erika-san has constantly been inciting fights with me.'
+ narrator "Erika-san's provocative attitude combined with the Sonozaki sisters' fighting over their paid visit..."
+ narrator "I think I'll write in the survey that this island would be better off reserved."
  show erika_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao '……ヱリカさんも、自分の部屋の鍵穴、確認するんですね。'
+ nao '...Erika-san, did you also inspect the lock to your room?'
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'お昼まで錠を忘れていた不用心な私が、今頃になって用心深くする\nというのも滑稽な話ですけれどね。'
+ erika "It's funny. I'm cautious now because I carelessly left my door unlocked until noon."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_526_door_open.wav'
- narrator '\u3000いやに慎重なヱリカさんを残して、あたしたちは客室に入る。'
+ narrator 'Leaving behind that terribly cautious Erika-san, the rest of us entered our room.'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -665,22 +665,22 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion 'はーー！\u3000やっとこれ脱げるねぇ！'
+ mion 'Haaaah! Finally, I can take this off!'
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion 'くぅ～疲れました！\u3000これにて撮影旅行も完結です！'
+ shion "Aaahhh, I'm so tired! That does it for our photography trip!"
  play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  show shion_v012 smile at jump_transform,active
  show mion_v004 smile at inactive
- shion '私、シャワー、イッチバン乗り～♪'
+ shion "Hope you don't mind if I shower first♪"
  camera at screenshake_transform
  pause 0.0
  show mion_v004 odoroki at active
  show shion_v012 smile at inactive
- mion 'はああぁ？！\u3000それは一番頑張って汗をかいた私が先でしょう\nが！！'
+ mion 'Huhhhh?! I should go first since I was the one working hard and sweating my ass off!'
  show shion_v012 smile at active
  show mion_v004 odoroki at inactive
- shion '早い者勝ちでーす♪\u3000お姉は汗臭いまま、私のシャワーの水音でも\n聞いてて下さい。'
+ shion 'First come, first served♪ You can sweat there and listen to the running water of my shower.'
  play audio 'audio/sfx/SE_332_ls_fall.wav'
  show shion_v012 smile
  show shion_v012 smile:
@@ -695,30 +695,30 @@ label event01_30_07:
  hide shion_v012
  hide mion_v004
  with Dissolve(0.2)
- narrator '\u3000またしても、小さな子供たちのように服を乱雑に脱ぎ捨てて、園\n崎姉妹は全裸で同時にシャワー室に飛び込んでいく……。'
- narrator '\u3000……異性の目がないところでは、自分の性別を忘れるって話があ\nるけれど。'
- narrator '\u3000あたしは誰の目がなくとも、もう少し気を遣おうと思いま\nす……。'
+ narrator 'Once again, the Sonozakis bicker like little children, throwing off their clothes and entering the bathroom at the same time, completely naked.'
+ narrator "...they say you forget about your gender when in the absence of the opposite's eyes."
+ narrator 'I plan to be a bit more careful, even when nobody is watching.'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '……よかった。あたしのベッド、何もない。'
+ nao "...That's a relief. There's nothing on my bed."
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
- narrator '\u3000念入りに、枕をひっくり返してみたり、ベッドの下を覗きこんだ\nりと調べてみたが、おかしな悪戯はなかった。'
+ narrator 'I carefully turned over my pillow and looked under my bed. No sign of any ridiculous pranks.'
  show nao_v002 smile_close at mei_center
  with Dissolve(0.5)
  show nao_v002 smile_close at active
- nao '………最後の夜くらい、……ゆっくりと眠れそうだわ……。'
+ nao 'I think I can sleep in peace on this final night...'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  scene expression "#000"
- erika 'キャアアアアアアァアァアァァアァァ……！！！'
+ erika 'KYAAAAAAAA!!!'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
- narrator '\u3000それは紛れもなく隣室のヱリカの声だった。\n\u3000あまり厚くないとはいえ、壁越しにもわかるほどの……、悲鳴\nだった。'
+ narrator "That was undoubtedly Erika's voice coming from the next room. That scream could be heard through the walls, thin as they were."
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2281.png' as bg
@@ -728,7 +728,7 @@ label event01_30_07:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 fuan at active
- nao 'みみ、魅音さんッ、詩音さんッ！\u3000隣から悲鳴が……！！'
+ nao 'M-M-Mion-san, Shion-san! That scream came from next door!'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v007 sinken at mei_left
@@ -736,22 +736,22 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 sinken at active
  show shion_v007 sinken at inactive
- mion '何？\u3000どうしたの……？'
+ mion "Huh? What's wrong?"
  show shion_v007 sinken at active
  show mion_v008 sinken at inactive
- shion '隣から悲鳴、って……、まさかヱリカさん？'
+ shion "A scream from next door...that couldn't be Erika-san?!"
  show expression "#000" as fade with Dissolve(1.0)
  hide shion_v007
  hide mion_v008
  with Dissolve(0.2)
  scene expression "#000"
  play audio 'audio/sfx/SE_408_run.wav'
- narrator '\u3000となれば、園崎姉妹の行動は早い。バスタオル姿のまま、廊下に\n飛び出す。'
+ narrator 'The concerned Sonozaki sisters acted fast, putting on bath towels and running into the hallway.'
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
- narrator '\u3000廊下には、ヱリカさんがへたり込んで、開け放たれた自室の中を\n指さしている。'
+ narrator 'There, Erika-san was sunken down on the floor and pointing towards the inside of her wide-open room.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -761,7 +761,7 @@ label event01_30_07:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika '……ぁわ……ぁわわわ………。'
+ erika '....Ahhhh.....uwaaaaaa...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -775,21 +775,21 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 sinken at active
  show nao_v002 fuan at inactive
- mion 'どしたの？！\u3000何があったの？！'
+ mion "Are you alright?! What's going on?!"
  show nao_v002 fuan at active
  show mion_v008 sinken at inactive
- nao 'あのヱリカさんが……、こんなに怯えるなんて……。'
+ nao "Can't believe I'd ever see Erika-san frightened like this..."
  hide nao_v002
  hide mion_v008
  with Dissolve(0.2)
  show shion_v007 sinken at mei_center
  with Dissolve(0.5)
  show shion_v007 sinken at active
- shion '部屋の中に何かあるんですか？！\u3000失礼しますね！'
+ shion 'Is there something wrong inside your room?! Let me through!'
  hide shion_v007
  with Dissolve(0.2)
- narrator '\u3000詩音さんはスタンガンを握り締めながら室内に飛び込む。'
- narrator '\u3000え、ちょっと待って。どうしてシャワー室からタオル姿で飛び出\nしてきたのにスタンガンがあるの……。\n\u3000これは突っ込んだら負けか……。'
+ narrator 'Shion-san gripped her stun gun tightly and leapt into the room.'
+ narrator 'Wait a minute, she just ran out of the bathroom with a towel! Why does she have a stun gun?! I feel like giving up...'
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  window hide None
@@ -807,7 +807,7 @@ label event01_30_07:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika '……わ、私のベッドに……ベッドに…………。'
+ erika 'My bed...my bed has...'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -815,56 +815,56 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 futeki at active
  show nao_v002 normal at inactive
- mion 'くっくっく。……これはこれは、……やられたねぇ？'
+ mion '*cackle*cackle* Well well well, what have we here?'
  show nao_v002 fuan at active
  show mion_v008 futeki at inactive
- nao 'これ……、あたしのと同じ魔法陣……。'
+ nao 'This is...the same magic circle I saw...'
  hide nao_v002
  hide mion_v008
  with Dissolve(0.2)
  show shion_v007 normal at mei_center
  with Dissolve(0.5)
  show shion_v007 normal at active
- shion 'ここにもシャワー室にも、誰もいません。'
+ shion "There's no one in here or in the bathroom."
  hide shion_v007
  with Dissolve(0.2)
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika 'こんな……こんなことって、……ひぃ……ひぃ………。'
+ erika 'This is..this is...hic...hic...'
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000あのヱリカさんが取り乱すなんて……。'
- narrator '\u3000いや、考えてみれば無理もない。……ヱリカさんは、犯人側なの\nだ。\n\u3000それなのに、彼女の部屋に魔法陣が現れてしまった。'
+ narrator 'Erika-san was visibly upset.'
+ narrator "No, thinking about it, this was a reasonable reaction...Erika-san must be on the culprit's side. And yet, a magic circle has mysteriously appeared inside her room."
  show nao_v002 fuan at mei_left
  show erika_v001 odoroki at mei_right
  with Dissolve(0.5)
  show erika_v001 odoroki at active
  show nao_v002 fuan at inactive
- erika 'まさか、そんな……。本当に……魔女の#p祟#sたた#rり………。'
+ erika "Impossible, this couldn't really be...a witch's curse?"
  show nao_v002 fuan at active
  show erika_v001 odoroki at inactive
- nao 'ヱ、……ヱリカさん、……しっかり……。'
+ nao 'E-Erika-san, calm down...'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000あの挑発的なヱリカさんが、これほどに弱々しい姿を見せると\nは……。'
- narrator '\u3000だからむしろ、これほどに……、恐ろしい。あたしまで足が竦ん\nでくる……。'
+ narrator 'The provocative Erika-san now looked so frail and weak...'
+ narrator 'It was terible to look at. Even I was frozen with fear.'
  show erika_v001 sinken at mei_right
  show mion_v008 normal at mei_left
  with Dissolve(0.5)
  show mion_v008 normal at active
  show erika_v001 sinken at inactive
- mion 'えっと………。午前中いっぱいは確か、施錠をし忘れてたんだよ\nね……？'
+ mion "Um...this morning, you said you didn't lock your door?"
  show erika_v001 sinken at active
  show mion_v008 normal at inactive
- erika 'そ、そうですそうですっ。でも、あの後、ちゃんと施錠しまし\nた……ッ。'
+ erika "Yes, that's right...After that, I made very sure to lock my door...uu."
  hide mion_v008
  show shion_v007 normal at mei_left
  with Dissolve(0.5)
  show shion_v007 normal at active
  show erika_v001 sinken at inactive
- shion 'その時。部屋に入ってますよね？\u3000室内に異常はありましたか？'
+ shion "And at that time, you entered your room? You didn't find anything weird inside?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -878,7 +878,7 @@ label event01_30_07:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika 'ないですッ。ある訳がない！！'
+ erika "No, that's impossible!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -892,17 +892,17 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 normal at active
  show shion_v007 normal at inactive
- mion 'だとすると、ヱリカさんは確か、午前中には鍵をし忘れているけれ\nど、その時間には悪戯はされていない。'
+ mion "If that's the case, then when you left your door unlocked, there were no pranks at all."
  show shion_v007 normal at active
  show mion_v008 normal at inactive
- shion '犯行は、施錠してから開けるまで、ってことになりますね？'
+ shion 'The crime was committed between the time the door was locked and the time it was opened, right?'
  hide shion_v007
  hide mion_v008
  with Dissolve(0.2)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '……あたしのシーツに描かれた魔法陣と同じで、絵の具で描かれて\nいるようです。'
+ nao '...it looks just like the magic circle that was on my sheets, and uses the same paint.'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v007 normal at mei_left
@@ -910,20 +910,20 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 normal at active
  show shion_v007 normal at inactive
- mion 'うん。普通の水彩絵の具、だねぇ……。'
+ mion "Yeah. It's no ordinary paint, though..."
  show shion_v007 normal at active
  show mion_v008 normal at inactive
- shion '……最初は透明で、時間の経過で浮き上がってくるような手品染み\nたものじゃない。'
+ shion "...from the start, this wasn't the kind of magic trick that becomes obvious as time goes on."
  show mion_v008 normal_close at active
  show shion_v007 normal at inactive
- mion 'となると、……犯行は、鍵を開けた直後しか考えられない。'
+ mion "It's impossible, but...the crime could only be committed immediately after opening the door."
  hide shion_v007
  hide mion_v008
  with Dissolve(0.2)
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v002 odoroki at active
- nao '……え………？'
+ nao '...Huh...?'
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 odoroki at mei_right
@@ -931,14 +931,14 @@ label event01_30_07:
  with Dissolve(0.5)
  show shion_v007 normal at active
  show erika_v001 odoroki at inactive
- shion '…………ヱリカさん。正直に答えて下さいね。'
+ shion '...Erika-san. Please give us an honest answer.'
  show erika_v001 sinken at active
  show shion_v007 normal at inactive
- erika '何？\u3000話しますよっ。聞かれれば何でも！'
+ erika 'What? What should I say, what do you want to know?!'
  hide erika_v001
  hide shion_v007
  with Dissolve(0.2)
- narrator '\u3000あの賢いヱリカさんが、何を疑われているのか、想像出来ないな\nんて。\n\u3000……あたしでさえ、その疑念が最初に浮かんだのだから……。'
+ narrator "I couldn't think of any reason to suspect the wise Erika-san...even in the beginning, I never doubted her..."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -948,7 +948,7 @@ label event01_30_07:
  show shion_v007 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show shion_v007 sinken at active
- shion '自作自演、……じゃないですよね？'
+ shion "...You're faking this, aren't you?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -957,4 +957,4 @@ label event01_30_07:
  hide shion_v007
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000ヱリカさんは、一度も見せたことのない表情を浮かべる。\n\u3000目を見開き、引きつった表情は……、衝撃と呆然の、双方を同時\nに浮かべたものだった……。'
+ narrator "I had never seen such a look on Erika-san's face. Her eyes widened, and her expression was one of both shock and dumbfoundedness."

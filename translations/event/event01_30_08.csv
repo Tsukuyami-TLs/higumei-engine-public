@@ -1,0 +1,318 @@
+event01_30_08.bytes,,Omega,"I'll try some of this too, why not",NOTES
+index,chara,jp,en,
+29,,六軒島で過ごす最後の夜……。,That final night on Rokkenjima...,
+30,,"　最高のディナーを心から満喫して、胸もお腹も幸せでいっぱいに
+して眠れるはずだったんだ……。",I was supposed to sleep soundly with my chest and stomach full of happiness after the most wonderful dinner...,
+33,？？？？,"食後のお飲み物ですが、コーヒー、紅茶、塩昆布茶の用意がござい
+ますが、如何なさいますか？","What kind of after-dinner beverages would you like? We have coffee, black tea, salted kelp tea...",
+36,ヱリカ,……………………。,....,
+40,Mion (Casual),………………………。,....,
+45,詩音 (Casual),……あ、私は紅茶、ホットで。,"Um, I'll have hot black tea.",
+47,Nao (Casual),それ以外の人も、みんな温かい紅茶をお願いします。,"Bring some warm black tea for everyone else, please.",
+52,？？？？,か、畏まりました……。,A-as you wish...,
+53,,"　この重い空気は、魅音さんがヱリカさんの自作自演を疑ったから
+に他ならない。","The atmosphere was heavy, ever since Mion-san exposed Erika-san's charades.",
+54,,"　少なくとも、昨日の悪戯の犯人は、ほぼ間違いなくヱリカさん
+だ。","At the very least, the culprit behind yesterday's prank was definitely Erika-san.",
+55,,"　そしてヱリカさんも、自分が一番に疑われていることをすでに
+知っている。",And Erika-san already knew she was the first to be suspected.,
+59,Nao (Casual),"だから……、自作自演して、自分は犯人ではないとアピール……す
+るかしら……。",Yet you claim you *weren't* acting?,
+61,ヱリカ,そんなことしないですッ。あの魔法陣は私じゃありませんッ！,I would never do such a thing. I didn't make that magic circle!,
+63,Nao (Casual),"わかってるわ。……これがあなたの自作自演なのだとしたら、……
+あまりにセンスがないわ。","Okay, let's say you weren't acting...that still wasn't very tasteful.",
+65,ヱリカ,…………ふん。,...Hmph.,
+70,,……その時、少しだけ辺りが薄暗くなった気がした。,"...At that moment, it seemed like my surroundings grew dim.",
+74,,"　え？　……魅音さんと詩音さんが、……すぅっと、蜃気楼か何か
+のように消えていく。",Huh? Mion.san and Shion-san are disappearing like a mirage...,
+75,,"　ヱリカさんとあたしはそのまま。
+　そして、魅音さんと詩音さんが消えた席に、………あの、夢の中
+の魔女たちの姿が……。","Erika-san and I remained. In place of where Mion-san and Shion-san vanished...wait, those witches appeared in my dreams...",
+82,ベアトリーチェ,"ハァッピーバースデー！！！　おめでとう自分！　ありがとうみん
+な！　妾は幸せ者であるぞー！！","<Happy Birthday!!!> Well done! And thank you very much, everyone! I truly am a lucky person!",
+89,,"　パチパチパチパチ！！！　姿の見えない大観衆が祝福してくれる
+かのような音が響き渡った。",*clap*clap*clap! I heard the resounding applause and congratulations of an invisible audience.,
+93,ベアトリーチェ,"どうだぁ、菜央ォ？！　今夜でお別れだぜぇ？　２つ目の魔法陣も
+楽しんで行ってくれよぉ！","How's that, Nao? This is your final night, right? Hope you enjoyed looking at that second magic circle!",
+95,Nao (Casual),……いつの間にか、あたしは夢の中なの……？,...did I somehow enter a dream?,
+97,Nao (Casual),"まぁ、そこを悩んでも仕方がないわ。あたしがいて、
+ヱリカさんがいてベアトリーチェがいて、ドラノールさんがいる。
+それが全てだわ。","Well, I guess I shouldn't be worried. I'm here, Erika-san's here, Beatrice is here, and now we're waiting for Dlanor-san. That would make everyone.",
+102,ドラノール,"つくづく頭の切り替えの早い方デス。……航海者に必要な、異郷へ
+の適応力に優れていマス。",You are very quick to change your MIND....The ability to adapt to foreign situations is necessary for a VOYAGER.,
+107,ヱリカ,"さぁ、菜央ちゃま？　楽しみましょう！　頑張れば、ベアトから
+ご褒美が出るそうじゃないですか。","Well, Nao-chama? Are you enjoying yourself? If you keep working hard, Beato will give you a prize, won't she?",
+109,Nao (Casual),あたし、昨夜の謎だって解けてないのよ……。今夜のだって……。,"I couldn't solve that riddle from last night, and now tonight...",
+113,ベアトリーチェ,まぁまぁ。昨日のは小手調べということでよい。,Don't fret. Yesterday was just a test.,
+115,ベアトリーチェ,"今夜の、ヱリカの部屋の魔法陣の謎を解けたなら、それで褒美をく
+れてやろうぞ。","But for today's riddle, with the magic circle in Erika's room, I'll give you a reward.",
+120,ドラノール,"頑張ってください、菜央。私も、もっとサポートすることにしマ
+ス。","Please do your best, NAO. I will continue to give you my SUPPORT.",
+125,Nao (Casual),もうごめんよ、こんなゲーム。……と言いたいところだけれど。,"I'm very sorry, but this game...I don't know how to say this...",I don't actually know how to say this
+127,ベアトリーチェ,うむ！　朝が訪れるまで、終わることはないのだぞ。くっくっく！,"Hmph! Well, this game won't end until the morning comes! *cackle*cackle*cackle*!",
+130,,"　はぁ……。
+　覚悟を決めよう。",Sigh...Guess I'd better prepare for the worst.,
+131,,"　少なくとも、昨日のやりとりで、あたしを酷い目に遭わせようと
+いう訳ではないことがわかった。","In yesterday's exchange, I don't think they were trying to give me a hard time.",
+132,,"　魔女とヱリカさんは胡散臭いが、このドラノールさんという人は
+信頼できる気がする……。","Erika-san and that witch seem suspicious, but I think I can trust Dlanor-san...",
+136,Nao (Casual),ドラノールさん。……あたしはどうして、魔女とこんなゲームを？,"Dlanor-san. I want to know, what does she mean by ""game""?",
+138,Nao (Casual),"まさか、魔女の誕生日プレゼントの生贄にされる、……とか言わな
+いでよ？","They're not going to sacrifice me as a witch's birthday present, are they?",
+140,ドラノール,"この島と黄金郷の主であるベアトリーチェ卿は、魔女であるならば
+逃れ難い、ある病を患っているのデス。","Lady Beatrice, master of this island and the Golden Land, has a particular disease that all witches have difficulty ESCAPING...",
+142,Nao (Casual),……ある病……？,Disease...?,
+146,ベアトリーチェ,"退屈の病だ。くっくっく！　突いても焼いても死なぬ魔女も、退屈
+の海に呑み込まれれば、海の藻屑よ。","That disease is boredom! *cackle*cackle*cackle* A witch won't die if you stab or burn them, but they can truly drown in the sea of boredom.",
+151,ヱリカ,"その為、魔女たちは時折、手紙やカケラを送り合います。互いに新
+しい刺激と、物語を送り合い、互いに病から逃れる為に。","For that reason, witches will sometimes send each other letters and Fragments. They'll share stimulating stories with each other and cure their illnesses.",
+153,ヱリカ,"まぁ、今回はそれが、ベアトリーチェの誕生日祝いという形を取っ
+ている訳ですが。","This time, it took the form of a birthday celebration for Beatrice.",
+158,Nao (Casual),……なぜ、魅音さんや詩音さんじゃなくてあたしなの。,...why me and not Mion-san or Shion-san?,
+160,ベアトリーチェ,それはほら、アレだ！　そなたが一番、妾と馬が合ったからよ。,"That is because, well, um...for one thing, you and I got along well.",check
+165,ドラノール,それに他意はありマセン。私が保証しマス。,There is no ulterior MOTIVE. I can guarantee THAT.,
+169,Nao (Casual),"じゃあ、あたしと魔女のゲームとやらで知恵比べをして、退屈を忘
+れる為に遊びたかったという訳？","So having a battle of wits, a game between me and a witch, will really relieve you of your boredom?",
+172,ヱリカ,"そういうことになりますね。魔女というのは、えてして孤独な生き
+物ですので。",That is the plan. Even witches are lonely creatures.,
+177,ベアトリーチェ,さりとて、慎ましく、遊んで下さいなとも頼めないのが、魔女の不器用さというものよ。,"However, this witch is so awkward that she cannot modestly ask to play with you.",
+179,ベアトリーチェ,"妾は、そなたとのゲームを大変に楽しんでいる。それで妾は十分に
+癒され、幸せになれた。",I just want to have a very enjoyable game. It would be enough to cure me and bring me great happiness.,
+184,ヱリカ,"寛大なことに。勝敗は特に気にしていないのです。ゲームだけで十
+分に楽しかったのだそうです。","How generous. Not worrying about the outcome of the game, just letting go and having fun.",
+186,Nao (Casual),"あたしが負けると魂が取られるとか、何かの企み事を密かに進めて
+いるとか、そういうのじゃないのね……？","This isn't some secret plan to steal my soul or whatever if I lose, is it...?",
+190,ドラノール,"そのようなことはありマセン。天界大法院の一等大司教、このドラ
+ノール・Ａ・ノックスが保証しマス。","That will not HAPPEN. As a first-class archbishop of the Great Court of Heaven, I will guarantee THAT.",
+192,Nao (Casual),………………………。,...,
+198,Nao (Casual),わかったわ。そういうことならば、,Very well. If that's the case...,
+202,Nao (Casual),お誕生日おめでとう。ミズ・ベアトリーチェ。,"Happy birthday, <Miss> Beatrice.",
+204,Nao (Casual),お相手を謹んで引き受けるわ。……ただね、あたし、,I humbly accept your challenge. If you'll allow me...,check this
+207,,　あたしはちょっぴり行儀悪く、座ったまま椅子を引き、大きく足を組む。,"Though it might be ill-mannered of me, I pulled up a chair and crossed my legs.",
+208,,"　ディナーの席では行儀よくだけれど。……退屈凌ぎのゲームとは
+いえ、勝負事だもの。","This was no longer a dinner table, so I felt I could ignore a few manners....after all, this was a competition, a game to kill some boredom.",
+211,Nao (Casual),ものすごく負けず嫌いなの。あたしは、勝っても負けても楽しかったなんて言わないわ。,"I'm rather competitive. Win or lose, I won't say I had fun.",
+218,ヱリカ,グッド。やはり貴女は、私の期待を裏切りませんね。,"<Good>. You won't betray my expectations, will you?",
+220,ヱリカ,"フェリーでお見掛けした時に感じた、私の直感は当たっていまし
+た。","I might look like a fairy, but my intellect is sublime.",
+225,ベアトリーチェ,"嬉しいぞ、菜央ォ！　お前は本当にいいヤツだなぁ！　さぁ、今宵
+は存分に楽しもう！！","Excellent, Nao! You really are an upstanding girl! Now, let us enjoy ourselves to our heart's content on this night!",
+227,ドラノール,菜央。……改めまして、状況を説明いたしマス。,NAO...I will now repeat the SITUATION.,
+229,ドラノール,ヱリカの部屋に現れた、魔法陣の悪戯……。,A magic circle prank appeared in Erika's ROOM.,
+231,ベアトリーチェ,"妾はそれを、人間には不可能であるとして、魔女の仕業であると主
+張する！","I claim it was impossible for a human, therefore it is the work of a witch!",
+235,Nao (Casual),"あたしは人間に可能な悪戯だと主張するわ。そして、犯人はヱリカ
+さんだと主張するわ！",I posit that it was possible for a human to pull off this prank. And that human is none other than Erika-san!,
+239,ヱリカ,ふふッ、グッド。存分に掛かってきて下さいな。,"Hehe, <good>. Please come at me with all of your might.",
+244,ドラノール,そして、ヱリカもまた、プレイヤーデス。,"Ah, Erika is also a player once AGAIN.",
+249,Nao (Casual),どういうこと？　あたしと魔女の、二人の戦いじゃないの？,"What do you mean? Me and that witch are the only ones fighting, right?",
+251,ベアトリーチェ,"今宵はひとつ、三つ巴の戦いと行こうではないか！　妾も楽しみで
+あるぞ！","Tonight, we're having a mêlée à trois! This will truly be entertaining!",Melee a trois sounded like a fancier way to state it's a three-way battle
+255,ヱリカ,私も菜央ちゃまと同じく、ニンゲンに可能な悪戯だと主張します。,Both I and Nao-chama claim that a Human pulled off this prank.,
+257,Nao (Casual),共闘？,We're working together?,
+265,ヱリカ,違います。私は犯人を、詩音さんだと主張しますッ。,Not quite. I believe that the culprit is Shion-san.,
+270,,なるほど。３人が全員、異なる主張をする。,"I see. Three participants, each one claiming a different side.",
+272,,　今夜の魔法陣は、魔女の仕業か、ヱリカさんの自作自演か、さもなくば詩音さんの犯行か！,"With this magic circle, either a witch did it, Erika-san did it, or Shion-san did it!",
+275,ドラノール,それでは、今宵の朗読者は私が担当させていただきマス。,"For tonight, I have the responsibility of READER.",
+277,ドラノール,"それでは御三方。状況を説明いたしマス。
+御拝聴をよろしくお願い致しマス……。","Now that you three are here, I shall explain the SITUATION. ...Please listen CAREFULLY.",
+290,ドラノール,今回の魔法陣は、ヱリカの客室で見つかりマシタ。,"This time, a magic circle was discovered inside of Erika's ROOM.",
+292,ドラノール,"帰ってきたヱリカが、開錠して入室した後に、荒らされたベッドを
+発見。シーツに魔法陣があるのを発見しマシタ。","When Erika returned and unlocked the door, she discovered it on her ransacked BED. A magic circle was found drawn on the SHEETS.",
+294,,"　……まず、ここにひとつ、確認したいことがあるけれど、今は大
+人しく耳を傾けよう。","...Of course, I already knew that, but I decided to listen anyway.",
+297,ドラノール,"ヱリカは本日、昼にゲストハウスに戻るまで、部屋の施錠を忘れて
+おりマシタ。","Earlier today, Erika forgot to lock her room until she returned to the guesthouse at NOON.",
+299,ドラノール,よって、昼に施錠するまでの間は、誰でも入室が可能デシタ。,"Therefore, until the room was locked at noon, anybody could have entered the ROOM.",
+301,,"　ここが肝。……ポイントは、昨夜の魔法陣と同じ。
+　ヱリカさんは、室内に異常がないことを確認した上で施錠してい
+る。","This was the crux of things, the point being that last night's magic circle was similar. Erika-san confirmed there was nothing weird inside her room when she locked it.",
+302,,"　普通に考えれば、犯行はこれ以降となるのだが、……施錠は完全
+な密室になってしまうのだ。","Normally, the crime would have occurred after this, but it was a perfect locked room.",
+308,ドラノール,#ff0000施錠後は、ヱリカが開錠するまで、室内は完全な密室デス。#r,"#ff0000When the door is locked, there is no way to enter the room until Erika unlocks IT.#r",
+313,ドラノール,#ff0000室内には誰も存在せず、また、仕掛けの類も存在しませんデシタ。#r,"#ff0000Nobody existed inside the room at that time, and nobody can enter by any other METHOD.#r",these reds need to be checked
+318,ドラノール,"#ff0000魔法陣の悪戯は、入室した人物の手によってでしか、行なうことは#r
+#ff0000出来マセン。#r",#ff0000The magic circle prank can only be performed while someone is inside the ROOM.#r,
+320,ドラノール,とりあえずは以上になりマス。……皆様、どうぞご考察ヲ……。,"For the time being, that is all the INFORMATION....Everyone, please begin your INVESTIGATION.",
+322,,３人のプレイヤーのそれぞれに相手の表情を伺い合う。,Us three players looked at each other with inquisitive expressions.,
+323,,"　皆、今さら考えるような段階にはないらしい。
+……ドラノールさんに質問や青き真実を投げ掛けたくて
+うずうずしている……。",It seems everyone is still theorycrafting. I was itching to ask questions and throw blue truths at Dlanor-san...,
+326,ドラノール,"それでは、スタートプレイヤーには、ベアトリーチェ卿の誕生日を
+祝って、ベアトリーチェ卿を指名させていただきマス。","Now then, we shall BEGIN. Since it is Lady Beatrice's birthday, she has the privilege of going FIRST.",
+333,ベアトリーチェ,ハピバ！　妾！！　それでは……、参ろうぞっ。,"Well, happy birthday to me! Let's get started, then.",
+335,ベアトリーチェ,"帰ったヱリカは施錠を開けて入室したが、菜央たちがヱリカの悲鳴
+を聞くには、少しの間があったはず。","When Erika returned, she unlocked her room and entered it, so there must have been a short interval before Nao's group heard her scream.",
+342,ヱリカ,"そうですね。鍵穴にゴミが詰まってないか、確認してから入室しま
+したので、多少は。","That is correct. Before I entered the room, I ensured that there was still garbage packed into the keyhole.",
+344,,"　……ベアトリーチェが、どうしてそこに切り込むの？
+　ヱリカさんの自作自演を疑うあたしが、そこを突いて追及しよう
+と思っていたのに……。",...Why is Beatrice focusing on that? My plan of attack was centered on Erika-san's acting...,
+348,ベアトリーチェ,まずは菜央の希望を絶とう。ドラノールよ。復唱要求。,"Let's dash Nao's hopes. Dlanor, please repeat this:",
+350,ベアトリーチェ,"“ヱリカが入室してから悲鳴を聞いて菜央たちがやってくるまでの
+間に、魔法陣の悪戯をすることは時間的に不可能である”。","""From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible to place the magic circle.""",
+352,ドラノール,お受けしマス。,Request GRANTED.,
+357,ドラノール,"#ff0000ヱリカが入室してから悲鳴を聞いて菜央たちがやってくるまでの間#r
+#ff0000に、魔法陣の悪戯をすることは時間的に不可能デス。#r","#ff0000From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible to place the magic CIRCLE.#r",
+362,Nao (Casual),えっと、それって、ヱリカさん以外の人も含めてます？,"Wait, is Erika-san included in that group of people?",
+366,ドラノール,ハイ。,YES.,
+371,ドラノール,"#ff0000ヱリカが入室してからでは、如何なる方法を用いようとも、#r
+#ff0000魔法陣の悪戯をすることは出来マセン。#r","#ff0000From the time Erika entered her room, it was impossible for anybody to place the magic circle by any kind of METHOD.#r",
+376,ヱリカ,"私の濡れ衣を晴らしてくれてありがとうございます。ね？　自作自
+演ではないでしょう？　時間が足りないんです。",Thank you for proving my innocence. See? See how I wasn't acting? I just needed more time.,
+378,Nao (Casual),……まずいわ。これでまた、あたしのベッドの時と同じに……。,How terrible. But this was still the same as what happened to my bed...,
+381,,"　これでヱリカさんの部屋に魔法陣を仕掛けるには、ヱリカさんが
+施錠する以前にしか不可能……。","So, the only way to place the magic circle was before Erika-san locked her room...",
+382,,"　昨日と同じだ。紗音さんが窓を施錠する以前にしか、魔法陣を仕
+掛けられないのと同じ。",It's the same as yesterday. The magic circle then could only be placed before Shannon-san locked the window.,
+383,,"　しかし、どちらも、入室者が異常がないことを確認してい
+る……。","And in both cases, people confirmed nothing was wrong when they entered the room...",
+386,ベアトリーチェ,これで妾の手番を終わるぞ。くっくっく。,It seems my turn has ended. *cackle*cackle*cackle*,
+390,ドラノール,それでは、古式に則り時計回りで進行いたしマス。,"Now then, like in the olden days, we will go in a clockwise DIRECTION.",
+392,ドラノール,次はヱリカの手番デス。,The next turn is ERIKA'S.,
+395,ヱリカ,それでは。コホン。,Well then. *ahem*,
+397,ヱリカ,"争点が３つもあると、ややこしくてかないません。なので、手っ取
+り早く、菜央さんに脱落してもらおうと思います。","I think this will be much too complicated with 3 players, so I'll make this quick. Nao-san, you should drop out.",
+401,Nao (Casual),……だろうと思ったわ。あたしがあなたでも、同じことをしたわ。,...Not interested. Maybe I should ask the same of you.,
+409,ヱリカ,"くすくすくす。……それでは私からは、昨日と今日の、２つの魔法
+陣の違いについて話をしようと思います。","Heeheehee. ...Anyway, I'm going to talk about the differences between the two magic circles seen today and yesterday.",
+417,ベアトリーチェ,ほう？　違い、とな？,"Hoh? Differences, you say?",
+419,Nao (Casual),……２つとも同じ魔法陣を描いたものに思えたけど…………。,"...Indeed, the two magic circles appear to be drawn differently.",
+425,ドラノール,"こちらが、第一の魔法陣。そして、こちらが第二の魔法陣デス。ご
+確認ヲ。","Over here is the first magic circle, and over here is the SECOND. Please compare THEM.",
+426,ベアトリーチェ,………ふーむ……？　何が違うのか？,...Hmm? How are they different?,
+434,Nao (Casual),………あ、………ここ！,"...Ah, there!",
+436,ヱリカ,"グッド。菜央ちゃまがこれに気付くとは。その上、なかなか素早い
+です。","<Good>. Nao-chama has noticed it, and very quickly at that.",
+441,ベアトリーチェ,え？　何？　……間違い探し？？？,Eh? What? Is this some kinda Spot the Difference puzzle?,
+446,Nao (Casual),あたし、見たものを記憶するのは得意なんです。,I happen to have a photographic memory.,
+448,ヱリカ,写真記憶。……探偵には必須の能力です。,A photographic memory...an invaluable tool for a detective.,
+450,Nao (Casual),昨日はショックで冷静じゃなかったし、今日も同じ魔法陣と思い込んでいたから気付き損ねたけど……。,"I was panicking yesterday and was in shock, and I assumed that today's magic circle was the exact same...",
+452,Nao (Casual),"ほら。魔法陣を丸く囲むように描かれた、……魔法文字？　が、こ
+の１文字だけ違うわ。",There. See this letter in the ring surrounding the magic circle? It's different.,
+456,ベアトリーチェ,"むむ。確かに。……こっちは渦のような文字だが、こっちでは二重
+丸のような文字になっておるぞ？","Hmmm, I see...this letter should be a little swirl, but instead it's two circles.",
+458,Nao (Casual),"そういうこと。ここだけなら、書き間違いを疑うところだけれど。
+この魔法陣に同じ文字は３ヶ所登場するわ。",Indeed. I doubt this was a simple drawing error. This same symbol appears in 3 other places.,
+460,ベアトリーチェ,"３ヶ所とも、こっちは渦、こっちは二重丸になっておるぞ！　……
+これは一体？！",That there are! There are double circles in 3 spots where there should be swirls!...What the hell?!,
+465,ヱリカ,"より細かく観察すれば、他には小さな差異をいくつも発見すること
+が出来ます。","If you look closely, you can find many other minute differences.",
+473,ヱリカ,"これらの手掛かりを総合した上で、ドラノールに復唱要求を求めま
+す。","Putting together these clues, I am making a repetition request, Dlanor.",
+475,ドラノール,どうぞ、ヱリカ。,"Go ahead, ERIKA.",
+480,,"　復唱要求。“２枚のシーツに描かれた魔法陣は、それぞれ違う製
+作者によるものである”","That repetition request: ""Each magic circle drawn on the two sheets were drawn by different people.""",
+487,Nao (Casual),………？！？！,...?!?!,
+495,ベアトリーチェ,なるほど……。自作自演ではないことを完全に証明したい訳か。,I see...so you want to prove you didn't draw this.,
+497,ベアトリーチェ,しかし、だとすると……、認める必要が生じるぞ……？,But if that's the case...you want to admit it?,check
+499,ヱリカ,ふふ。私はそういうのは、何も気にしませんので。,Fufu. I don't mind at all.,
+501,ヱリカ,それで、ドラノール？　復唱要求は応じられるのですか？,"Well, Dlanor? Will you do the honors?",
+506,ドラノール,……ハイ。お待たせしマシタ。応じられマス。,...YES. Sorry for the WAIT. I shall repeat IT.,
+512,ドラノール,"#ff0000２枚のシーツに描かれた魔法陣は、それぞれ違う製作者によるもの#r
+#ff0000デス。#r",#ff0000Each magic circle drawn on the two sheets were drawn by different PEOPLE.#r,
+516,ヱリカ,その上でＣＯします。,Do a CO as well.,
+521,Nao (Casual),ＣＯって？,CO?,
+523,ドラノール,カミングアウト。自分しか知り得ない情報の開示、告白デス。,"""Coming OUT"".  The disclosure of information that only you know, or a CONFESSION.",
+528,ヱリカ,第一の魔法陣の製作者は、私、古戸ヱリカです。,"That first magic circle was drawn by me, Erika-san.",
+534,Nao (Casual),ほら、やっぱりあなたが犯人だったじゃない！！,"I see, so you really were the culprit after all!",
+536,ヱリカ,"まぁまぁ。ただの悪戯じゃないですか。それに、今回のゲーム以外
+の私怨を持ち込むのはノーマナーですよ？","Hey, it was just a prank, right? And to bring personal grudges into this game.. you have <no manners>, don't you?",
+540,ベアトリーチェ,"第一の魔法陣が、ヱリカが犯人なのは百も承知。だが、だとすると
+紗音がどうして魔法陣に気付かなかったのか、謎が残るぞ？","We already knew Erika was the perpetrator behind that first magic circle. That said, how Shannon didn't notice the magic circle at all is still a mystery, isn't it?",
+542,ベアトリーチェ,"ヱリカが魔女を否定するならば、ヱリカがどのようにして紗音を欺
+いたかの提示が必要であるぞ。","If you want to deny Erika as a witch, you must show how she tricked Shannon.",
+544,ヱリカ,"それはいずれ、青き真実の形で提示いたしますので。……私の手番
+は以上です。","On top of that, you must present it in the form of a blue truth...That does it for my turn.",
+552,ベアトリーチェ,"……それにしても。……よくわからぬ魔法陣であるなぁ。……一
+体、何に使うのやら。",I still don't understand this magic circle...Why was it made that way?,
+559,Nao (Casual),…………………？,...?,
+562,ドラノール,それではお待たせしマシタ。菜央の手番デス。,...Thank you for WAITING. It is now Nao's TURN.,
+565,Nao (Casual),………………………。,...,
+568,,"　あたしの頭の中で、思考のドロドロスープが掻き回されて渦を作
+る。","Inside my head, many thoughts swirled around like soup.",
+569,,"　……なかなか火が通らなかった具材が……、ようやく煮え始めて
+来たのを感じる……。
+　ひょっとして…………。",The ingredients were coming together and began to boil...Perhaps...,
+573,Nao (Casual),……ドラノールさん。確認が。,"...Dlanor-san, a question.",
+575,ドラノール,伺いマス。,What is IT?,
+578,Nao (Casual),さっきヱリカさんがＣＯして、第一の魔法陣の製作者は自分だと告白したわ。,"In Erika-san's CO, she admitted that she was the culprit behind the first magic circle.",
+580,Nao (Casual),あれは赤き真実と同等の告白なのかしら？,Is that confession as good as red truth?,
+584,ヱリカ,"いいえ。赤き真実ではありませんから、偽りが含まれている可能性
+もあります。","Nope. It is not red, so it may contain some lies.",
+586,Nao (Casual),えっと、それをヱリカさんに対し、復唱要求することは出来るの？,"But, Erika-san, can you still repeat it?",
+589,ヱリカ,えぇ、可能ですよ？　もちろん、お受けさせていただきます。,"Eh, can I repeat it? Of course I can.",
+591,Nao (Casual),ならお願いするわ。復唱を要求。,"Well then, please repeat this:",
+594,Nao (Casual),"“第一の魔法陣の製作者であり、それを設置したのはヱリカさんで
+ある”。","""The one who created the first magic circle and placed it was Erika Furudo.""",
+597,,"　………ヱリカさんの目が、一瞬だけ逡巡した。
+　どう答えれば、よりあたしを煙に巻けるか、思案している……。","...For a moment, I saw hesitation in Erika-san's eyes. I bet she was thinking about how to answer this in such a way as to confuse me more.",
+600,ヱリカ,応じます。,I'll respond.,
+606,ヱリカ,"#ff0000第一の魔法陣の製作者であり、それを設置したのは古戸ヱリカであ#r
+#ff0000る。#r",#ff0000The one who created the first magic circle and placed it was Erika Furudo.#r,
+608,ヱリカ,"ただし。いつ、どうやって設置し、紗音さんをどうやって欺いたか
+については、答える気はありませんのでご容赦を。","However, how and when I placed it and how I tricked Shannon-san are things I refuse to answer. I hope you'll forgive me.",
+613,ドラノール,菜央の手番は以上になりマス。次はベアトリーチェ卿の手番デス。,Nao's turn is now OVER. Lady Beatrice may go AGAIN.,
+615,,"　……貴重な手番を、ほぼほぼ確信している内容を確定させる為だ
+けに使用してしまった。",...I used up my precious turn to confirm something I already knew.,
+616,,"　あたしの敵は、魔女とヱリカさんの２人なの？　……三つ巴の戦い
+は、相手方に組まれたら勝ち目はない。",My opponents were seriously Erika-san and that witch? ...I couldn't win this three-way if the other sides united against me.,
+620,Nao (Casual),……ドラノールさん。ルールについて、また教えて下さい。,"...Dlanor-san, can you go over the rules once more please?",
+622,Nao (Casual),今回の三つ巴の戦い。……勝者はひとりだけなんですか？,"This three-way can only have one winner, right?",
+624,ドラノール,２人が勝者になることもあり得マス。,Two winners are POSSIBLE.,
+626,Nao (Casual),…………ありがとう。次はベアトリーチェね。,"...Thank you. Beatrice, you may go next.",
+628,Nao (Casual),また、あたしを追い詰めてくるのかしら……？,"Though, I wonder if you're going to corner me...",
+632,ベアトリーチェ,"妾は勝ち負けでなく、ゲームそのものを楽しんでおる。よって、戦
+いは公平に行なうつもりでいる。","I don't care about winning or losing, this game is purely for entertainment. I still intend to have a fair fight, however.",
+634,ベアトリーチェ,"なので、先程は菜央を攻めた。次はヱリカを攻めさせてもらおう
+ぞ。","I attacked Nao just now, so next I'll attack Erika.",
+638,ヱリカ,どうぞ、ご自由に。,Go ahead. Do your worst.,
+641,,"　……ヱリカさんは恐らく、確実にあたし狙いだ。
+　自身の勝利は当然として、それ以上に、あたしを負けさせたいの
+だ。","...Erika-san is definitely gunning for me. She wants to claim victory, but she also wants me to lose more than anything.",
+642,,"　だが、ベアトリーチェに、そういう悪意はまったくない。
+　公平に戦うと言っている。……もちろんゲームの展開上、勝ちが
+見えたら畳みかけてくることもあるだろう。","Meanwhile, I sense no ill will from Beatrice. She just wants to have a fair game....Of course, with the way things are playing out, she might press on if victory is in sight.",
+643,,"　……なら。あたしとヱリカさんがまだ均衡している内に、……ベ
+アトリーチェを、あたし側に引き込みたい……。","...Erika-san and I are maintaining a balance, but maybe I can win Beatrice over to my side...",
+644,,"　あたしの勝利条件は、ヱリカさんが行なった自作自演であること
+を証明すること。","For me to win, I need to prove Erika-san was acting.",
+645,,"　ベアトリーチェの勝利条件は、人間には不可能な悪戯であること
+を証明すること。
+　……………………。","For Beatrice to win, she must prove the crime was impossible for humans...",
+649,Nao (Casual),……ドラノールさん、何度もすみません。もうひとつ確認が……。,"...Dlanor-san, excuse me again. I would like to confirm something else...",
+651,ドラノール,お気になさらズニ。どうぞ何でも聞いて下サイ。,Do not WORRY. I will listen to what you have to SAY.,
+653,Nao (Casual),あの、……その。,"Ah, um...",
+656,,"　あたしが、気まずそうな様子と、内緒話を意味する仕草を見せる
+と、ドラノールさんはすぐに理解してくれた。","I gave an awkward look and motioned for Dlanor-san to come over for a private talk, and she understood immediately.",
+659,ドラノール,ウィスパーですね。問題ありマセン。,Please whisper your question to ME.,
+661,,"　どんなゲームでも、時に、あるルールの確認行為そのものが、自
+分の手の内を明かしてしまうことがある。","No matter the game, the very act of checking a rule could reveal your hand.",
+662,,特に、ヱリカさんに聞かれる訳にはいかないのだ……。,I especially didn't want Erika-san to hear me...,
+666,ベアトリーチェ,ふむふむ。何の相談であろうな？,"Hmm-hmm, having a private chat, are we?",
+668,ヱリカ,"さぁ。……でも、初心者なんですから、私たちも胸を貸してあげな
+いといけません。","Sigh. Well, she is a novice, so we should give her some support.",
+676,ドラノール,……ふむフム。………なるホド。,...Mm-HMM....I SEE.,
+681,,ドラノールさんと顔を寄せ合って、小声で話し合う。,My face was pressed against Dlanor-san's as we spoke in hushed tones.,
+682,,"　……いい匂い。今まで嗅いだことのない香りだ。……彼女の髪に
+鼻を押し付けて、スーハーしたくなるわ……。",...She smelled nice. This was a fragrance I had never experienced before. ...I wanted to press my nose against her hair and take it all in.,
+685,ヱリカ,ドラノールって、生意気にすっごくいい匂いがするんですよねぇ。,"Dlanor smells pretty good, doesn't she?",
+687,ヱリカ,"私、鼻がいいんで、ドラノールの気配は匂いでわかります。うふふ
+ふ。","I have a good nose, so I can smell her from a mile away. Ufufufufu.",
+692,ドラノール,……菜央。問題ありマセン。,"...Nao, I have a QUESTION.",
+694,ドラノール,"第一の魔法陣がニンゲンの仕業であると証明し、しかし第二の魔法
+陣がニンゲンには不可能であると証明できたナラ……。","The first magic circle was proven to be possible for a human, but if the second magic circle was proven IMPOSSIBLE...",
+696,Nao (Casual),あたしとベアトリーチェは、共に勝者になれる……。,Then Beatrice and I would be the winners...,
+698,ドラノール,ただ、ウィスパーは朗読者である私にしか出来マセン。,"However, as a Reader, this is nothing more than just a whisper to ME.",
+700,ドラノール,"ベアトリーチェ卿に共闘を申し出ることは自由ですが、ヱリカの耳
+にも入ることを忘れないで下サイ。","You are free to tell Lady Beatrice and ally with her, however Erika-san will hear it as WELL.",
+703,,よし、グッド。…………でしたっけ？,"Alright, <good>...but will this work?",
+704,,"　ヱリカさん。あたし、負けず嫌いよ。
+　絶対に勝つ。そして、魔法陣の２つの密室も暴いてみせる。",I don't want to lose to Erika-san. I must win. And I *will* uncover the secrets of these two magic circles.,
+705,,"　ヱリカさん。あなたに習ったわ。
+　この、格闘的知恵比べは、……結局は殴り合いも同然。","I learned this from Erika-san, after all. This battle of wits was more like a fistfight.",
+706,,"　あらゆる主張や推理、証拠で、徹底的に相手を打ちのめし
+て、……ダウンさせた方が勝者となる。","The victor is the one who analyzes all the theories, pieces through all the reasoning, and compiles all the evidence...to beat the enemy down.",
+708,,あたしは勝つ。そして、あなたを負かす！,"I will win, and I WILL defeat her!",
+712,Nao (Casual),……………………。,...,
+714,ヱリカ,……グッド。,...<Good>.,

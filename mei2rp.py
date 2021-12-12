@@ -411,6 +411,9 @@ camera:
             elif hasattr(self, cmd):
                 getattr(self, cmd)(typ, line, cmd)
             elif cmd not in ['shakeset', 'charaload']:
+                # charaload is not needed for rpy and shakeset is handled elsewhere
+                # any other commands are ones I don't know about and should look at
+                # or I know about them but they are unimplemented
                 print(cmd)
 
             if is_talk or typ == 0: 

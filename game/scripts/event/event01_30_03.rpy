@@ -4,13 +4,13 @@ label event01_30_03:
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
- narrator '\u3000ほんの１０分くらい目を瞑るだけ……、と思っていたのに、案の\n定、かなり眠ってしまっていたようだ。'
+ narrator 'I thought I could just close my eyes for 10 minutes, and sure enough, I fell asleep.'
  play audio 'audio/sfx/SE_5037_getup.wav'
- narrator '\u3000魅音さんと詩音さんも眠っていたが、あたしがもぞもぞと起き上\nがる気配で目が覚めたようだった。'
+ narrator 'Mion-san and Shion-san are asleep too, but I woke up from feeling like I was tossing and turning.'
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '……いっけない。さすがに寝すぎたかも。……かも。'
+ nao '...Oh gosh. As expected, I probably overslept... I guess.'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 fuan_close at mei_left
@@ -18,50 +18,50 @@ label event01_30_03:
  with Dissolve(0.5)
  show mion_v002 smile at deepbreath_transform,active
  show shion_v002 fuan_close at inactive
- mion 'ふぁ～～あぁ！\u3000よっく寝たぁ。おじさん、元気チャージ\n１２０％！'
+ mion "Ha~aah! I slept goood! This ol' man's charged up 120%!"
  show shion_v002 odoroki at active
  show mion_v002 smile at inactive
- shion '今、何時ですか？\u3000え、もう午後６時過ぎなんですか。'
+ shion "What time is it right now? Huh, it's already after 6:00?"
  show mion_v002 smile at active
  show shion_v002 odoroki at inactive
- mion '雨も止んでるね。これは明日は、最高の撮影日和になるよ！'
+ mion "That rain is coming down too. Tomorrow's gonna be big picturesque!"
  hide shion_v002
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao '……窓の鍵。直ったんですか？'
+ nao '... The window lock. Is it fixed?'
  show mion_v002 smile at active
  show nao_v002 normal at inactive
- mion 'ん？\u3000えへへ～………。'
+ mion 'Hm? Ehehe~...'
  hide nao_v002
  show shion_v002 fuan at mei_left
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion '無理でした。後で使用人さんに謝って下さい。'
+ shion 'It was impossible. Please apologize to the servant later.'
  show mion_v002 fuan_close at active
  show mion_v002 fuan_close:
   linear 0.5 pos (1440,1250)
  show shion_v002 fuan at inactive
  pause 0.5
- mion 'はあい……。'
+ mion 'Okayy...'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
- narrator '\u3000その時、部屋に置かれた内線電話が鳴った。'
+ narrator 'At that time, the house phone in the room rang.'
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  play audio 'audio/sfx/SE_521_phone_pickup.wav'
  show nao_v002 normal at active
- nao 'あ、えっと、はい、もしもしっ。'
+ nao 'Ah, umm, yes, hello?'
  hide nao_v002
  with Dissolve(0.2)
- Character('Phone',ctc="ctcArrow", ctc_position="fixed") '『お寛ぎ中、失礼致します。お夕食の準備が整いました。下の広間\nにお越し下さいませ』'
+ Character('Phone',ctc="ctcArrow", ctc_position="fixed") '"I am sorry to intrude on your relaxation time. The preparations for dinner are complete. If you would please come over to the reception room."'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao 'はい。すぐにお伺いします。'
+ nao "Okay. I'll be there soon."
  hide nao_v002
  with Dissolve(0.2)
  show mion_v002 smile at mei_right
@@ -69,17 +69,17 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion '行きますよ、お姉。ディナーは少しは上品にして下さいよ？'
+ shion "I'm going too, Sis. Please be a bit sophisticated at dinner, yeah?"
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'ハイハイ。じゃないと、魔女に祟られちゃうからね～。'
+ mion "Yeah, yeah. If I don't, the witch is gonna curse mee~."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '…………………。'
+ nao '...'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
@@ -88,37 +88,37 @@ label event01_30_03:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
- narrator '\u3000せっかく忘れてたのに。……魔女の怪談を、また思い出してしま\nう。\n\u3000でも、昼寝できて頭もスッキリした。'
- narrator '\u3000自慢のディナーをいただけば、あたしも元気チャージ１２０％\nで、明日からは気分を入れ替えて機嫌よく過ごせそうだ。'
+ narrator 'Even though I tried so hard to forget... I remembered the ghost story of the witch again. But since I had that nap, my face relaxed a bit.'
+ narrator "If I have a boastful dinner, I'll get charged up to 120% too, and from tomorrow, my mood might even get replaced with an even better one on its own."
  play audio 'audio/sfx/SE_5034_knock.wav'
- narrator '\u3000下へ降りる前に、隣のヱリカさんの部屋もノックする。'
+ narrator "Before I go down, I'll knock on the door to Erika's room as well."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'ヱリカさん。お夕食だそうですけど、一緒に降りませんか？'
+ nao 'Erika-san. It seems that dinner is ready, so would you like to go down there together?'
  hide nao_v002
  with Dissolve(0.2)
- erika '……先に行っててください。髪の毛が整わなくって……。'
- narrator '\u3000扉越しに、あの長いツインテールと格闘しているだろう唸り声が\n聞こえる。'
- narrator '\u3000あれだけの長さの髪って、ちょっと憧れるけど、やっぱりお手入\nれは大変ね……。'
+ erika "... Please go without me. My hair isn't set..."
+ narrator 'Through the door, I could hear a grunting voice grappling with those long twintails.'
+ narrator "I've been kind of longing for hair as long as that, but it really is a big handful..."
  show shion_v002 smile at mei_left
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'うわ、もういい匂いがするよ～！'
+ mion 'Waahh, I already smell the deliciousness from here~!'
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion '#p雛見沢#sひなみざわ#rではなかなか嗅げない匂いですねぇ。'
+ shion "This is definitely a smell you wouldn't get in Hinamizawa, huh?"
  hide shion_v002
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
  show mion_v002 smile at inactive
- nao 'ランチの時点で期待値が最高だから、ディナーもすっごく楽しみで\nす。'
+ nao "Lunch earlier was the absolute best it could have been, so I'm super looking forward to dinner!"
  show mion_v002 smile at jump_transform,active
  show nao_v002 smile at inactive
- mion 'やっぱり、ご飯は大事だよねぇ！'
+ mion 'As expected, meals decide everything, huh?!'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide mion_v002
@@ -131,60 +131,60 @@ label event01_30_03:
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
  show shannon_v001 smile at active
- shannon '皆様。お待たせいたしました。お席へご案内致します。'
+ shannon 'I apologize for the wait, everyone. I will gladly guide you to your seats.'
  hide shannon_v001
  with Dissolve(0.2)
- narrator '\u3000純白のテーブルクロスの上には、見るだけでも満たされそうな、\n美しい盛り付けのフランス料理が……。'
+ narrator 'Upon the snow white tablecloth, there was a beautiful arrangement of French cuisine that could probably satisfy your appetite just by looking.'
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
  show shannon_v001 smile at active
- shannon '当家の料理長、郷田が腕によりを掛けました、創作スペイン料理で\nございます。'
+ shannon 'Our family head chef, Gohda, has brought to you today his rendition of Spanish cuisine.'
  hide shannon_v001
  with Dissolve(0.2)
  show nao_v002 fuan_close at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan_close at active
- nao '……スペインはフランスの隣よね。……セーフセーフ……。'
+ nao '...Spanish is close to French. ...Safe, safe...'
  hide nao_v002
  with Dissolve(0.2)
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'はて。……ヱリカさまは、まだお部屋でしょうか？'
- narrator '\u3000郷田さんにとっては、自分の作った料理の紹介をする時が最高の\nひと時なのだろう。'
- narrator '\u3000その最高のひと時には、全員が着席していて欲しい。ヱリカさん\nがまだ来ていないのが気になっているようだった。'
- narrator '\u3000だが、ヱリカさんを待っていたら、料理の一番の食べ頃を逃して\nしまう。'
- narrator '\u3000郷田さんは咳払いをしてから、今夜の料理の説明を始めるのだっ\nた。'
- narrator '\u3000繊細な前菜、そして優しい味のスープを味わい終えた頃、ようや\nくヱリカさんが階段を降りて来た。'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Dear me. ... I do wonder if Erika-sama is still in her room?'
+ narrator 'Gohda-san had appeared at the best possible moment to introduce his own cooking.'
+ narrator 'In that moment, everyone wanted to sit and listen. But he had only come out of worry that Erika was still missing.'
+ narrator 'However, if we were to wait for Erika-san, we would miss our chance to eat while the food was still at its most ideal.'
+ narrator "With a cough to clear his throat, Gohda-san had begun his explanation on tonight's cuisine."
+ narrator 'By the time we had finished a subtle appetizer and even gotten through a deliciously light-flavored soup, Erika had finally gone down the stairs.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'お待たせして申し訳ありません。'
+ erika 'I deeply apologize for the wait.'
  hide erika_v001
  with Dissolve(0.2)
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'いえいえ、とんでもない！\u3000さぁ、どうぞ。御着席を！'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'No, no, it was no problem! Now, please, have your seat!'
  show shannon_v001 smile at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shannon_v001 smile at inactive
- erika 'あ、私、マイ箸があるので、シルバーは下げてもらって結構です。'
+ erika 'Ah, for me, if I would have my own chopsticks. Using silver to eat would be quite fine.'
  show shannon_v001 fuan at active
  show erika_v001 normal at inactive
- shannon 'し、しかし……。スープをお箸では……。'
+ shannon 'B-, but... eating soup with chopsticks is...'
  show erika_v001 smile at active
  show shannon_v001 fuan at inactive
- erika 'ヱリカ流お箸術を見くびっていますね？\u3000箸でスープをいただく秘\n技！\u3000ご披露させていただきますっ。'
+ erika "You're underrating Erika's skill in using chopsticks, aren't you? Allow me to demonstrate my soup eating chopstick technique!"
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000何それ。超見たい。'
- narrator '\u3000ヱリカさんという人は、直接の関わりなく遠くから見ている分に\nは、とても面白い人なのかもしれない。'
+ narrator 'Whaaat, I wanna see this hardcore.'
+ narrator 'For unrelated people looking in from a distance, Erika-san might seem like a really amusing person.'
  window hide None
  stop music fadeout 2.0
  pause 6.0
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
- narrator '\u3000食後は、そのままテレビの前のソファーに移り、みんなでのんび\nりした。'
- narrator '\u3000心地よい満腹感は、今日一日、大したことはしていないはずなの\nに、今日もがんばったかのような不思議な気持ちにさせてくれる。'
- narrator '\u3000テレビはもちろん『名探偵ワニャン』。\n\u3000あたしが見てた頃から、ずいぶん登場人物が増えている。'
- narrator '\u3000というか、この世界の警察は、どうして殺人事件の現場に、小学\n生やら巨大ナメクジやらを自由に立ち入らせるのだろう？？'
+ narrator 'After dinner, we were all sat in front of the TV, relaxing on the sofa.'
+ narrator "While being pleasantly full from all that food, even though I shouldn't have been doing that much these days, I started getting the strange feeling that I had done my best today."
+ narrator 'Of course, "Detective Wanyan" was on TV. The cast on the show has multiplied since the last time I watched it.'
+ narrator 'Speaking of which, why are the police in this show just letting an elementary schooler and that big slug stand there on the scene of a murder incident??'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -196,7 +196,7 @@ label event01_30_03:
  camera at screenshake_transform
  pause 0.0
  show mion_v002 sinken at active
- mion 'いやいやいやいや！\u3000まだ言い逃れは出来たでしょ！\u3000犯人、屈す\nるの早ぁい！'
+ mion 'Nonononono! They should have held back saying thaat! They revealed the culprit too faaast!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -208,172 +208,172 @@ label event01_30_03:
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'ミステリーは、知的パズルではありますが、時に肉体的な格闘技の\n一面もあります。'
+ erika 'Sometimes mysteries have intellectual puzzles, but others will be entirely about hand-to-hand combat.'
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion '確かに。結局のところ、証拠の数々はパンチみたいなもんですし\nね。いくら突きつけられても、堪えることは可能ですし。'
+ shion "Definitely. In the end, the bunches of evidence are just like punches. Like no matter how many they throw at you, it's possible to put up with all of it."
  hide erika_v001
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion '詩音、昔っからそういうのの往生際、悪いもんねぇ。'
+ mion "Shion, you've never learned to give up since back in the day, huh?"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika 'くす。まぁ、往生際の悪い犯人というのは、ミステリー的に、見て\nいて愉快ではありませんが。'
+ erika "*giggle*. Well, seeing a killer that doesn't know when to give up in a mystery is quite pleasant, though."
  show erika_v001 normal at active
- erika '私くらいになると、……多少はタフな方が、打ち込み甲斐があると\nいうものです。くすくす。'
+ erika "If it were me... I would be a pretty tough character; I daresay I'd put my all into it. *giggle*giggle*"
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000ちぇ。……みんなも『カネダ少年の事件簿』、見て欲しいものだ\nわ。すっごい面白いのに。'
- narrator '\u3000疎外感というか、天邪鬼な気分というか。……みんなの輪に入り\n損ねる。'
- narrator '\u3000あたしはソファーを立つ。\n\u3000カウンターテーブルの向こうで、後片付けをしている紗音さんが\nいた。'
+ narrator 'Sheesh. ...Everyone wants to see "The Kaneda Case Files". It\'s suuper interesting, but...'
+ narrator "I'm not sure if this is a feeling of alienation or this is me being a contrarian. ...I feel left out of the circle."
+ narrator 'I stand up on the sofa. Over near the bar table, Shannon was there cleaning up.'
  play audio 'audio/sfx/SE_515_tableware.wav'
  show nao_v002 smile at mei_left
  show shannon_v001 smile at mei_right
  with Dissolve(0.5)
  show shannon_v001 smile at active
  show nao_v002 smile at inactive
- shannon '何か、お飲み物をお作りしましょうか……？'
+ shannon 'I wonder if you would like me to make a drink for you...?'
  show nao_v002 smile at active
  show shannon_v001 smile at inactive
- nao 'あ、いえ。もうたくさんいただきましたので。'
+ nao 'Ah, no. I have had more than enough.'
  show shannon_v001 smile at active
  show nao_v002 smile at inactive
- shannon '名探偵ワニャン、面白いですよね。'
+ shannon 'Detective Wanyan sure is interesting, huh?'
  show shannon_v001 fuan at active
  show nao_v002 smile at inactive
- shannon '私も他の使用人の人にも勧めてるんですけど、みんな読んでくれな\nくて……。'
+ shannon "I've also recommended it to the other servants, but nobody has started reading it..."
  show nao_v002 fuan at active
  show shannon_v001 fuan at inactive
- nao '……あなたもワニャン派ですか。……映画は見ましたか？'
+ nao "... You're also a Wanyan fan? ... Have you seen the movie?"
  show shannon_v001 smile at active
  show nao_v002 fuan at inactive
- shannon 'もちろん！\u3000東京の大きな映画館で観ました♪'
+ shannon 'Of course! I watched it in a huge theater in Tokyo♪'
  show nao_v002 normal at active
  show shannon_v001 smile at inactive
- nao '……カネダ少年の事件簿は読んでる？'
+ nao '... Have you read The Kaneda Case Files?'
  show shannon_v001 smile at nod_transform,active
  show nao_v002 normal at inactive
- shannon 'えぇ、そちらも大好きです。結構、ハードだけど、そこがいいです\nよね。'
+ shannon "Yeah, I love that one too. It's a pretty difficult choice, but I liked it better."
  hide nao_v002
  hide shannon_v001
  with Dissolve(0.2)
- narrator '\u3000しゃ、紗音さん………。'
+ narrator 'Then, Shannon-san...'
  show shannon_v001 smile at mei_right
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
  show shannon_v001 smile at inactive
- nao '……一杯もらえるかしら。赤コーラ、炭酸砂糖マシマシで。'
+ nao '... I believe I would like a glass to drink. A red cola, carbonated, extra sugar, and shaken, please.'
  show shannon_v001 smile_close at active
  show nao_v002 smile at inactive
- shannon 'くす。かしこまりました。'
+ shannon '*giggle*. As you wish.'
  show nao_v002 normal at active
  show shannon_v001 smile_close at inactive
- nao '……………………。'
+ nao '...'
  show nao_v002 normal at active
  show shannon_v001 smile_close at inactive
- nao '……えっと、……紗音さん。ここだけの話なんだけれど、……いい\nですか？'
+ nao '...Um... Shannon-san. This is just between you and I, okay?'
  show shannon_v001 smile at active
  show nao_v002 normal at inactive
- shannon 'はい………？'
+ shannon 'Okay...?'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop music fadeout 2.0
  show nao_v002 fuan at active
  show shannon_v001 smile at inactive
- nao '……朱志香さんたちに、この島には魔女のオバケが出るって脅され\nたんですけど。'
+ nao "...Jessica-san and them have been terrified of this island's ghost story about a witch."
  show shannon_v001 normal at active
  show nao_v002 fuan at inactive
- shannon '魔女の、オバケ……、ですか……？'
+ shannon "Ghost story... about a witch... you're saying...?"
  hide shannon_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000きょとんとした顔。……うん、その反応でいいの。'
- narrator '\u3000ベアトリーチェという魔女は“い”ると、みんなに寄ってたかっ\nて言われた。'
- narrator '\u3000普段なら、あたしだって空気は読む。サンタクロースの存在を、\nむやみやたらに否定したりはしない。'
- narrator '\u3000……でも、天邪鬼な自分の性分というか。\n\u3000寄ってたかって、ベアトリーチェは“い”る、なんて言われる\nと、じゃあ証拠を見せろと言いたくなってしまうのだ。'
- narrator '\u3000……証拠？\u3000………冗談じゃない。\n\u3000あたしはこの島でのんびりしたいだけなのに、……どうしてこん\nなことに。'
+ narrator 'A bewildered expression. ...Yeah, that reaction is good.'
+ narrator 'Everyone has been getting in on saying that the witch Beatrice "exists".'
+ narrator "In a normal situation, even I'd be able to read the mood, like how you don't want to indiscriminately deny the existence of Santa Claus."
+ narrator '...But I\'m a bit more of the contrary type. As they join in and say Beatrice "exists", I more so get the feeling of wanting to be shown proof.'
+ narrator '...Proof? ...This is no joke. I just wanted to relax on this island, so why does it have to come to this?'
  show shannon_v001 smile at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show shannon_v001 smile at inactive
- nao 'やっぱり紗音さんも、……信じてるんですか？\u3000ベアトリーチェ。'
+ nao 'As I thought, Shannon-san... believes in her too? In Beatrice.'
  show shannon_v001 smile_close at active
  show nao_v002 normal at inactive
- shannon 'はい。……“い”ますよ。ベアトリーチェさまは。'
+ shannon 'Yes. She "exists", Beatrice-sama.'
  show nao_v002 normal at active
  show shannon_v001 smile_close at inactive
- nao 'いるって、どこに？'
+ nao 'When you say exists, where could that be?'
  show shannon_v001 smile at active
  show nao_v002 normal at inactive
- shannon '今、ここにも、きっと“い”ますよ。'
+ shannon 'Right here, right now, she surely "exists".'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  hide shannon_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000紗音さんはにっこりと微笑みながら答えるのだが……、むしろ薄\n気味悪く感じられた。'
+ narrator "Shannon-san is sweetly laughing with a smile on her face... but I get the feeling that I've soured her mood instead."
  show shannon_v001 smile at mei_right
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
  show nao_v002 sinken at active
  show shannon_v001 smile at inactive
- nao 'いるなら、堂々と出て来ればいいんだわ。'
+ nao 'If she does exist, I would like for her to impress with her appearance.'
  show nao_v002 normal at active
  show shannon_v001 smile at inactive
- nao '勿体ぶって、姿を見せるのを出し惜しみするから、薄気味悪くなっ\nちゃうんです。'
+ nao "If she shows her form begrudgingly and while putting on airs, she'll make the experience rather uncanny."
  show shannon_v001 normal_close at active
  show nao_v002 normal at inactive
- shannon '……反魔法の毒素、というものがあるそうです。'
+ shannon '... It seems like you are quite poisoned with anti-magic toxin.'
  show nao_v002 odoroki at active
  show shannon_v001 normal_close at inactive
- nao '反魔法の、毒素って……？'
+ nao 'Anti-magic... toxin...?'
  show shannon_v001 normal at active
  show nao_v002 odoroki at inactive
- shannon '何でも、魔法や魔女を信じないニンゲンからは、……魔女にとって\n有害な、毒素が出ているのだとか。'
+ shannon "They say that Humans who don't believe in magic... emit a poisonous gas that is harmful to witches."
  show nao_v002 normal at active
  show shannon_v001 normal at inactive
- nao 'つまり……、ベアトリーチェを信じない人間には、ベアトリーチェ\nは近付けないということ？'
+ nao "So, basically... humans who don't believe in Beatrice will repel her, is what you're saying?"
  show nao_v002 smile at active
  show shannon_v001 normal at inactive
- nao 'それならかえって安心だわ。信じない人の前には現れないんだも\nの。'
+ nao "That's relieving then. She can't appear to people who don't believe in her in the first place."
  hide shannon_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000信じる人の前にしか現れないというなら、サンタと同じだ。会い\nたくない人は、会わずに済む……。'
+ narrator "If she only appears to those who believe, she's no different than Santa Claus. People who don't want to meet her will go on without meeting her..."
  show nao_v002 smile at mei_left
  show shannon_v001 fuan at mei_right
  with Dissolve(0.5)
  show shannon_v001 fuan at active
  show nao_v002 smile at inactive
- shannon 'それが、むしろ逆なんです。'
+ shannon "It's... actually the other way around."
  show nao_v002 fuan at active
  show shannon_v001 fuan at inactive
- nao 'え……？'
+ nao 'Huh...?'
  show shannon_v001 normal_close at active
  show nao_v002 fuan at inactive
- shannon 'ベアトリーチェさまは、自分の存在を信じてくれない人には、敵意\nを持ちます。'
+ shannon "Beatrice-sama holds grudges towards people who don't believe in her existence."
  show shannon_v001 normal at active
  show nao_v002 fuan at inactive
- shannon '自分が確かに存在することを示そうと、不思議な悪戯をしたり、脅\nかせたり……。'
+ shannon "She'll come to you to demonstrate that she really exists, play strange pranks on you, even frighten you..."
  show nao_v002 normal at active
  show shannon_v001 normal at inactive
- nao '嘉音さんに聞いたわ。誰も入れないはずの部屋に、不気味な魔法陣\nを描いたりするんでしょう？'
+ nao 'I heard that from Kanon-san. Like how in rooms that no one should be entering, creepy magic circles were found?'
  hide nao_v002
  hide shannon_v001
  with Dissolve(0.2)
- narrator '\u3000紗音さんの顔が一瞬、曇った。\n\u3000唐突に不謹慎なことを言われて驚いた、というようにも見えた\nし、……口にした私を咎めるというようにも見えた。'
+ narrator "Shannon-san's face clouded over for a split second. She had this look like I had surprised her by suddenly saying something foolish... and was criticizing me for it."
  show shannon_v001 fuan at mei_center
  with Dissolve(0.5)
  show shannon_v001 fuan at active
- shannon '菜央さま……。そのようなことはあまり口に、'
+ shannon 'Nao-sama... Saying things like that can be very-...'
  play audio 'audio/sfx/SE_5029_slap_back.wav'
  pause 1.0
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
@@ -387,7 +387,7 @@ label event01_30_03:
  show jessica_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show jessica_v001 smile at active
- jessica 'こんばんは～～！！\u3000あっそびに来たぜ～～！！'
+ jessica 'Good eveniing~~!! Guess who came to mess around~~!!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -396,23 +396,23 @@ label event01_30_03:
  hide jessica_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000元気よく、何かを抱えた朱志香さんがやってきた。'
- narrator '\u3000私たちにとってのバカンスも、朱志香さんには、友達が泊まりに\n来てくれたようなものなのだろう。'
+ narrator 'In good spirits, Jessica had appeared holding something.'
+ narrator 'To Jessica, us coming here to vacation is probably more like friends coming to sleep over.'
  show jessica_v001 smile at mei_right
  show mion_v002 odoroki at mei_left
  with Dissolve(0.5)
  show mion_v002 odoroki at active
  show jessica_v001 smile at inactive
- mion 'あれ？！\u3000その小脇に抱えてるのはひょっとしてぇ？！'
+ mion "Whaaat?! Could that little board game you're carrying really be?!"
  show jessica_v001 futeki at active
  show mion_v002 odoroki at inactive
- jessica 'いつか、こんな日も来るかと思ってさぁ！\u3000何年も前に買ったの\nに、ようやく遊べる日が来たぜ……！'
+ jessica "I always knew this day would come! After buying this all those years back, it's finally time to play...!"
  hide mion_v002
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show jessica_v001 futeki at inactive
- shion 'おやまぁ。お姉の前にボドゲを持ってくるなんて、大変なことにな\nりますよ？'
+ shion 'Ah, jeez. Bringing a board game in front of Sis like that is a huge deal, you know?'
  hide jessica_v001
  hide shion_v002
  with Dissolve(0.2)
@@ -421,25 +421,25 @@ label event01_30_03:
  with Dissolve(0.5)
  show mion_v002 smile at updown_shake_transform,active
  show erika_v001 normal at inactive
- mion 'やろうやろう、みんなでやろう！\u3000ヱリカさんも一緒にどう？'
+ mion "Let's go! Let's go! Everyone, let's go!! You wanna play with us too, Erika-san?"
  show erika_v001 normal_close at active
  show mion_v002 smile at inactive
- erika '私は部屋でのんびりと過ごそうかと。'
+ erika 'I do think I will be spending time leisurely in my room.'
  show mion_v002 futeki at active
  show erika_v001 normal_close at inactive
- mion 'あれぇ？\u3000逃げちゃうぅ？\u3000ボードゲームはね、人と人の頭脳のぶ\nつかり合い！'
+ mion "Whaaat? You're gonna run oooff? Board games are a head-to-head clashing experience!"
  show mion_v002 futeki_close at active
  show erika_v001 normal_close at inactive
- mion 'まぁ、私の頭脳には勝ち目がないだろうからね。逃げちゃうのもア\nリかもねぇ～？'
+ mion "Well, this head of mine isn't too good at winning. You still gonna run off~?"
  show erika_v001 normal at active
  show mion_v002 futeki_close at inactive
- erika '……ふっ。安い挑発ですが、そこまで言われては受けて立たない訳\nにはいきませんね。'
+ erika '...Hnn. Cheap provocation method. But if you say that much, I must have to take your offer.'
  hide mion_v002
  show shion_v002 fuan at mei_left
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show erika_v001 normal at inactive
- shion 'いいんですか？\u3000お姉との勝負には一切の言い訳は通用しません\nよ？'
+ shion "Are you sure? Sis doesn't take any excuses when she plays games with people, okay?"
  hide erika_v001
  hide shion_v002
  with Dissolve(0.2)
@@ -448,75 +448,75 @@ label event01_30_03:
  with Dissolve(0.5)
  show jessica_v001 smile at active
  show nao_v002 normal at inactive
- jessica '魅音さんって、ボドゲに詳しいの？'
+ jessica 'Mion-san, you know a lot about board games?'
  show nao_v002 fuan at active
  show jessica_v001 smile at inactive
- nao '……ボドゲに限らず、勝負事となれば、水を得た魚も同然です。'
+ nao '...Not even just board games. Mion and competition is to fish and water.'
  play audio 'audio/sfx/SE_226_shine.wav'
  show jessica_v001 futeki at jump_transform,active
  show nao_v002 fuan at inactive
- jessica 'そりゃいいぜ！\u3000私も、こう見えても右代宮金蔵の孫だ！\u3000勝負\n事、大いに望むところだぜ！'
+ jessica "Sweet! I'm the grandkid of Kinzo Ushiromiya, so competition is first nature to me!"
  hide nao_v002
  hide jessica_v001
  with Dissolve(0.2)
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
  show mion_v002 smile at active
- mion 'みんなでやろうよ！\u3000私、詩音、ヱリカさんに朱志香さん。菜央\nちゃんも紗音さんも一緒にやろうよ！'
+ mion "Let's get everyone to play! Me, Shion, Erika-san and Jessica-san. Nao-chan and Shannon-san can jump in too!"
  show shannon_v001 smile at mei_left
  with Dissolve(0.5)
  show shannon_v001 smile at active
  show mion_v002 smile at inactive
- shannon 'お気持ちだけ頂戴させていただきます。お屋敷の方で、まだお仕事\nがありますので……。'
+ shannon 'The feeling alone is enough for me. I have yet to do all my chores in the mansion...'
  show shannon_v001 smile_close at active
  show mion_v002 smile at inactive
- shannon 'それでは、本日は失礼させていただきます……。'
+ shannon "I'll take my leave for today..."
  hide mion_v002
  hide shannon_v001
  with Dissolve(0.2)
- narrator '\u3000紗音さんはペコリと会釈してから踵を返そうとする。'
+ narrator 'Shannon-san went off with a slight bow out of consideration.'
  show mion_v002 smile at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao '魅音さん。窓の鍵の話、しました？'
+ nao 'Mion-san. Did you have the conversation with her... about the window lock?'
  show mion_v002 fuan at chara_shake_transform,active
  show nao_v002 normal at inactive
- mion 'ぎくぅ。'
+ mion '*gulp*'
  hide nao_v002
  show shion_v002 normal at mei_left
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 fuan at inactive
- shion 'お姉。こういうのは先に謝るのが筋ですよ？'
+ shion 'Sis. It would be best to apologize outright for something like this, yeah?'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  show shannon_v001 normal at mei_left
  with Dissolve(0.5)
  show shannon_v001 normal at active
- shannon '何の話でしょう……？'
+ shannon 'What conversation did you want to have...?'
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shannon_v001 normal at inactive
- erika 'あぁ、……窓の。くす。'
+ erika 'Ah, ... about the window, *giggle*.'
  show erika_v001 normal at active
  show shannon_v001 normal at inactive
- erika '外界から隔離された島ではありますが、窓とはいえ、女子の部屋の\n鍵がかからないのは気持ちのよいことではありませんね。'
+ erika 'Though we are on an island separated from the outside world, it is quite unpleasant for a girl to have her room left unlocked, even by window.'
  hide shannon_v001
  show jessica_v001 smile at mei_left
  with Dissolve(0.5)
  show jessica_v001 smile at active
  show erika_v001 normal at inactive
- jessica 'あぁ、ひょっとして窓の鍵？\u3000あれ、古いからちょっとコツがいる\nんだぜ。'
+ jessica "Aah, so you're talking about the window locks? Those are old, so there's a bit of a trick to using them."
  hide erika_v001
  show mion_v002 fuan at mei_right
  with Dissolve(0.5)
  show mion_v002 fuan at active
  show jessica_v001 smile at inactive
- mion 'いやぁ……、素敵なお部屋に興奮して、思い切り窓を開ける\n時、……ちょっと鍵を強引に……。'
+ mion 'Nahh... I was psyched that we got a really nice room, and while I was opening the window... I kind of used all my force on the lock...'
  hide jessica_v001
  hide mion_v002
  with Dissolve(0.2)
@@ -525,10 +525,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 fuan_close at active
  show nao_v002 fuan at inactive
- shion '田舎者のお姉で本当にすみません。'
+ shion "I'm sorry my sister is such a hick."
  show nao_v002 fuan at active
  show shion_v002 fuan_close at inactive
- nao '田舎者の魅音さんで本当にすみません。……見てもらうことは出来\nますでしょうか。'
+ nao "I'm really sorry about Mion-san being a hick. ...I do wonder if we can have you look at it?"
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -537,17 +537,17 @@ label event01_30_03:
  with Dissolve(0.5)
  show jessica_v001 smile at active
  show shannon_v001 smile at inactive
- jessica '紗音、ちょっと見てきてよ。'
+ jessica 'Shannon, go check it out.'
  show shannon_v001 smile at active
  show jessica_v001 smile at inactive
- shannon '畏まりました……。'
+ shannon 'Certainly...'
  hide shannon_v001
  hide jessica_v001
  with Dissolve(0.2)
  show mion_v002 smile at mei_center
  with Dissolve(0.5)
  show mion_v002 smile at active
- mion 'よおッし、やろやろやろ！！\u3000このゲームはね、要は最後まで生き\n残った人が勝ちってタイプでぇ！'
+ mion "Alriiiiight, let's go let's go let's go!! Okay, so this is the type of game where whoever survives 'til the end wins!!"
  hide mion_v002
  with Dissolve(0.2)
  show jessica_v001 smile at mei_right
@@ -555,10 +555,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show jessica_v001 smile at inactive
- nao '魅音さんとゲームをする時には、まず罰ゲームの確認が必要ですよ\nね。'
+ nao 'When Mion-san is playing a game, she has to make sure she has a punishment game set.'
  show jessica_v001 smile at active
  show nao_v002 smile at inactive
- jessica 'え？！\u3000何々？！\u3000罰ゲームとか賭けちゃう？！\u3000リスクがある方\nが燃えるのが右代宮の血だぜ！'
+ jessica "Wait, what?!?! We're running this with punishment games?! Whenever there's risk involved, the Ushiromiya blood inside me gets fired up!"
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -567,36 +567,36 @@ label event01_30_03:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shion_v002 smile at inactive
- erika 'どうせ勝つのは私ですから。せいぜい、自分が被ってもマシな罰ゲ\nームに決めて下さいね。'
+ erika "I'll be the winner, in any case. At most, do allow me to choose a serious punishment game myself."
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'ヱリカさん、あまりお姉を舐めない方がいいですよ？\u3000この人は、\n勝つ為なら何でもありですので。'
+ shion "Erika-san, you'd best not underestimate Sis, yeah? She'll do anything to win."
  hide shion_v002
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao '……とりあえず、爆発とかトラップとか、身体に危害が及ばないゲ\nームだと嬉しいわ。'
+ nao "...For starters, I'll be glad if we won't be doing ones with explosions, traps, or bodily harm."
  show erika_v001 normal_close at active
  show nao_v002 fuan at inactive
- erika 'おやおや。罰ゲーム以前に、スリリングなゲームになりそうです\nね。くっくっくっく！'
+ erika 'My, my. In the face of these punishment games, this is going to become quite the thrilling one. *cackle*cackle*cackle*!!'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
  show jessica_v001 odoroki at mei_center
  with Dissolve(0.5)
  show jessica_v001 odoroki at active
- jessica 'お、おかしーぜ。このゲームって、そんなヤバイゲームだったっ\nけ……。'
+ jessica 'W-, weird. I had no idea this was gonna be a dangerous kind of game...'
  hide jessica_v001
  with Dissolve(0.2)
- narrator '\u3000魅音さんにかかれば、どんな遊びも即座に闇のゲームに早変わり\nだ……。'
- narrator '\u3000初日の夜から屈辱の涙で枕を濡らしたくなどない。みんなで真剣\nにルールを確認するのだった。'
+ narrator 'When Mion-san comes into the picture, anytime playing is involved, it transforms into a much darker game...'
+ narrator 'No one wanted to get their pillow wet with tears of humiliation on their first night here. Everyone diligently looked over the rules.'
  play audio 'audio/sfx/SE_526_door_open.wav'
  pause 1.0
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
  show shannon_v001 smile at active
- shannon '鍵、直しておきました。'
+ shannon "I've fixed the lock!"
  hide shannon_v001
  with Dissolve(0.2)
  show nao_v002 odoroki at mei_left
@@ -604,17 +604,17 @@ label event01_30_03:
  with Dissolve(0.5)
  show mion_v002 odoroki at active
  show nao_v002 odoroki at inactive
- mion 'え！\u3000すごいあっさり！\u3000今、上に行ったと思ったら、もう！'
+ mion 'Woah! That was real fast! To think you had gone up just now, jeez!'
  show nao_v002 smile at active
  show mion_v002 odoroki at inactive
- nao 'ですね。でも、これで安心です。ずいぶん簡単に直せましたね。'
+ nao "Right? But anyways, this is a relief. You've fixed it in quite a flash."
  hide nao_v002
  hide mion_v002
  with Dissolve(0.2)
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
  show shannon_v001 smile at active
- shannon 'コツがあるんです。明日以降は、優しくお取り扱いをいただけます\nと助かります。'
+ shannon "There's a trick in using it. From tomorrow forward, we would appreciate if you handled it with care."
  hide shannon_v001
  with Dissolve(0.2)
  show mion_v002 fuan at mei_right
@@ -622,10 +622,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 fuan at inactive
- shion 'ですってよ、お姉？\u3000反省して下さいな。'
+ shion 'Did you hear that, Sis? Now reflect on your actions.'
  show mion_v002 fuan at chara_shake_transform,active
  show shion_v002 normal at inactive
- mion 'お、おじさんはね、力の強いお客のつもりで、モニターでやったん\nだからね！\u3000ホントだからね！！'
+ mion "Th-, this ol' man wanted to be the strong visitor, so he was surveying it that way! Really!!"
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -634,36 +634,36 @@ label event01_30_03:
  with Dissolve(0.5)
  show shannon_v001 smile at active
  show jessica_v001 smile at inactive
- shannon 'ふふ。それでは失礼致します。'
+ shannon "Hehe. Okay, now I'll take my leave."
  show jessica_v001 smile at active
  show shannon_v001 smile at inactive
- jessica 'ありがとな、紗音！\u3000私がこっちで遊んでること、親には内緒\nな……！'
+ jessica "Thanks, Shannon! Don't let the adults know that I'm playing over here...!"
  show shannon_v001 smile at active
  show jessica_v001 smile at inactive
- shannon 'くす。心得ております。'
+ shannon '*giggle*. I will act under this instruction.'
  hide jessica_v001
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shannon_v001 smile at inactive
- erika '紗音さん、ご苦労様です。窓から泥棒が入って、部屋を荒らしたり\nはしていませんでしたか？'
+ erika 'Nice work, Shannon-san. Has a robber broken into the window or anything?'
  show shannon_v001 smile_close at active
  show erika_v001 normal at inactive
- shannon 'いいえ。ご安心を。'
+ shannon 'No. Please be at ease.'
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000紗音さんは深々とお辞儀をしてから、屋敷に戻っていった。'
+ narrator 'Shannon-san bowed very deeply and returned to the mansion.'
  show mion_v002 smile at mei_right
  show jessica_v001 smile at mei_left
  with Dissolve(0.5)
  show jessica_v001 smile at jump_transform,active
  show mion_v002 smile at inactive
- jessica 'さあ！！\u3000始めようぜ！！'
+ jessica "Alright!! Let's go!!"
  play audio 'audio/sfx/SE_226_shine.wav'
  show mion_v002 futeki at active
  show jessica_v001 smile at inactive
- mion 'いいね、その気合、気に入ったぁ！\u3000私たちと朱志香さんで、\n六軒島出張部活ッ五凶爆闘だぁ！！！'
+ mion "Yeah, that's the spirit!! Here are Jessica and I's business trip club activities on Rokkenjimaaaa!!!"
  stop music fadeout 2.0
  window hide None
  hide mion_v002
@@ -671,29 +671,29 @@ label event01_30_03:
  with Dissolve(0.2)
  pause 4.0
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
- narrator '\u3000初めてプレイするボドゲは、ルールの確認などが伴い、かなりの\n長時間になることが少なくない。'
+ narrator "When you play a board game for the first time, it's often accompanied with taking a while to look over all of the rules."
  show jessica_v001 fuan at mei_center
  with Dissolve(0.5)
  show jessica_v001 fuan at chara_shake_transform,active
- jessica 'ふぁぁあぁぁぁぁ……ぁぁ。'
+ jessica 'Haaaaaaaah... aaaah...'
  hide jessica_v001
  with Dissolve(0.2)
- narrator '\u3000朱志香さんが欠伸をすると、つられてあたしも詩音さんも欠伸を\nする。'
+ narrator 'Jessica-san yawned, so it caught Shion-san and I into the yawn chain too.'
  show mion_v002 normal at mei_right
  show erika_v001 sinken at mei_left
  with Dissolve(0.5)
  show erika_v001 sinken at active
  show mion_v002 normal at inactive
- erika '待ってください。これは“してもよい”、ですよね？\u3000“しなくて\nもよい”訳ですよね？'
+ erika 'Wait a second. This one is saying "it\'s okay to do this", right? Isn\'t it also saying "it\'s not okay to do this"?'
  show mion_v002 normal at active
  show erika_v001 sinken at inactive
- mion 'えっとね、待って待って。まず時計回りで徴収を解決してから、次\nに収入の処理を……。'
+ mion "Umm, wait, wait. First, we settled we'd go in clockwise to collect taxes, and then processing income was..."
  hide erika_v001
  show shion_v002 sinken at mei_left
  with Dissolve(0.5)
  show shion_v002 sinken at active
  show mion_v002 normal at inactive
- shion 'お姉、さっき、私の収入を先に処理してから、そこから徴収しまし\nたよね？'
+ shion 'Sis, before, I was going to be the first to have my income processed, and then we would collect from there, right?'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -702,10 +702,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show jessica_v001 fuan at inactive
- nao '………何だかすみません。魅音さんたち、ゲームには絶対に手を抜\nけないんです。'
+ nao '...Yeah, hold on. The game is absolutely falling through.'
  show jessica_v001 fuan_close at active
  show nao_v002 fuan at inactive
- jessica 'いやぁ……たはは。もっと短く遊べるゲームを持って来ればよかっ\nたぜ……。'
+ jessica 'Ahhh... hahahh... I wish I brought over a game that we could play quickly... '
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -714,13 +714,13 @@ label event01_30_03:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shion_v002 fuan at inactive
- erika 'あらあら。菜央ちゃまが大あくびをしていますよ。'
+ erika 'Oh my. Nao-chama let out a massive yawn.'
  show erika_v001 normal at active
  show shion_v002 fuan at inactive
- erika '確かにもう、お子様が起きているには、少々、遅い時間ですね。'
+ erika "It has clearly already reached the point in the night where children shouldn't be up."
  show shion_v002 fuan at active
  show erika_v001 normal at inactive
- shion 'ゲームは結果じゃなくて、過程を楽しむものですし。今日はこれで\nお開きにしませんか？'
+ shion "The game hasn't reached a result, and we haven't even gotten to enjoy the process. Won't we end it here for today?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -734,7 +734,7 @@ label event01_30_03:
  camera at screenshake_transform
  pause 0.0
  show mion_v002 sinken at active
- mion 'あーーッ、何それ何それ！！\u3000おじさんが電力を買い占めた途端に\nお開きとか、ずーるーいーッ！！'
+ mion "Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to end it?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -748,34 +748,34 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 fuan_close at active
  show jessica_v001 smile at inactive
- nao 'もう眠いわ。……シャワーも浴びたいし。'
+ nao "I'm already getting sleepy. ... I want to take a shower and stuff."
  show jessica_v001 smile at active
  show nao_v002 fuan_close at inactive
- jessica 'じゃあ、今日はこれでお開き、ってことで！'
+ jessica 'Welp, I guess that settles it.'
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000このまま行くと魅音さんの圧勝になりそうだったので、みんなさ\nりげなくノーゲームにして解散の流れにする。'
- narrator '\u3000何しろ、２位以下に課せられる罰ゲームがあまりに苛烈だったか\nら……。\n\u3000雛見沢っ子でも、……アレは……ちょっと………。'
+ narrator 'Since Mion-san would have destroyed all of us ingame had it continued past that point, we called it here and went on our ways.'
+ narrator 'Besides, having a punishment game enforced on everyone second place and below was too much... Even for a kid from Hinamizawa... that... is a little...'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
- narrator '\u3000朱志香さんは屋敷に帰る。\n\u3000あたしたちは、ぞろぞろと２階へ上がっていく。'
+ narrator 'Jessica-san returns to the mansion. The rest of us dragged ourselves up to the second floor.'
  show erika_v001 normal at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'どうです？\u3000少しは楽しめましたか？\u3000部活式ゲーム。'
+ shion "What's the verdict? Did we enjoy ourselves a little with the club activity?"
  show erika_v001 normal_close at active
  show shion_v002 smile at inactive
- erika 'やはり私には、ダイス等の運がかかわるゲームは苦手なようです。'
+ erika 'As expected, dice-throwing games relying on luck are not my thing.'
  show erika_v001 normal at active
  show shion_v002 smile at inactive
- erika '我が主と違って。望む目が出るまで、永遠に振り直すようなこと\nは、私には出来ませんので。'
+ erika 'Unlike my master, eternally rolling over and over until you get the number desired is something I can never do.'
  hide erika_v001
  hide shion_v002
  with Dissolve(0.2)
@@ -784,25 +784,25 @@ label event01_30_03:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show nao_v002 fuan at inactive
- mion '菜央ちゃんも楽しめた？'
+ mion 'Did Nao-chan have fun too?'
  show nao_v002 fuan at active
  show mion_v002 smile at inactive
- nao '……あれが楽しく感じる頃には、実弾入りロシアンルーレットも、\nへらへら笑って出来る気がします。'
+ nao 'By the time it felt fun, I feel like we could have been laughing carelessly playing Russian roulette with live bullets.'
  show mion_v002 futeki at active
  show nao_v002 fuan at inactive
- mion '朱志香さんも言ってたでしょ？\u3000リスクの狂気の中にこそハイリ\nターンが潜むって。'
+ mion 'Jessica-san said it herself, I guess, how there is a huge prize hidden underneath the insanity of risk.'
  show mion_v002 smile at updown_shake_transform,active
  show nao_v002 fuan at inactive
- mion 'ここの当主の金蔵さんは、おじさんの部活の狂気を、楽しんでくれ\nるような気がするね。'
+ mion "I feel like the head of this place, Kinzo-san, would have enjoyed the madness of this ol' man's club activities."
  hide nao_v002
  show shion_v002 normal at mei_left
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 smile at inactive
- shion 'えっと、鍵は誰が持ってたんでしたっけ？'
+ shion 'Umm, who has the key?'
  show mion_v002 smile at active
  show shion_v002 normal at inactive
- mion 'おじさんが持ってるよー。今、開けるね～。'
+ mion 'I have iiit~. Opening it now~.'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -811,58 +811,58 @@ label event01_30_03:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 smile at inactive
- erika 'それでは皆さん。おやすみなさい。'
+ erika 'Okay, everyone. Good night.'
  show nao_v002 smile at active
  show erika_v001 normal at inactive
- nao 'おやすみなさい。ヱリカさん。'
+ nao 'Good night, Erika-san.'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  show erika_v001 normal at active
  show nao_v002 smile at inactive
- erika 'そうそう。菜央ちゃま。'
+ erika 'Oh, yeah. Nao-chama.'
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao 'その、菜央ちゃまっての、やめてくれませんか……。'
+ nao "That 'Nao-chama', would you stop calling me that...?"
  stop music fadeout 2.0
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika '聞いてましたよ。……さっき、紗音さんと話していたでしょう？'
+ erika 'I heard. ...I suppose you had spoken with Shannon-san earlier?'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika 'ベアトリーチェは、自分を信じない人に、悪戯をするのが大好きだ\nとか……。'
+ erika "How Beatrice loves playing pranks on people who don't believe, and such... "
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika '黄金の魔女のことを、あれだけ堂々と、馬鹿馬鹿しいと言い放った\nんですもの。'
+ erika 'And how you denounced the Golden Witch outright, even with her having that level of magnificence.'
  show erika_v001 fuan at active
  show nao_v002 fuan at inactive
- erika '……何か、不気味な悪戯でも、されないといいですねぇ……？'
+ erika "...I do hope that she doesn't some sort of creepy prank on you because of that...?"
  show nao_v002 normal_close at active
  show erika_v001 fuan at inactive
- nao 'やっぱりヱリカさんは性悪ですね。……人のこと、子供扱いして。'
+ nao 'You really are poorly mannered, Erika-san. ... Treating people like children.'
  show nao_v002 normal at active
  show erika_v001 fuan at inactive
- nao 'あたし、あんな怪談話に、怯えたりなんかしませんから。'
+ nao "I'm not afraid or anything of that ghost story."
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika 'グッド。'
+ erika '<Good>.'
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'その覚悟、がんばって持ち続けて下さいね？\u3000くすくすくす……。'
+ erika 'Do please keep that determination up for me. *giggle*giggle*giggle*...'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_526_door_open.wav'
- narrator '\u3000ヱリカさんは嫌味な笑いを最後まで向けながら、自分の部屋に消\nえる。'
- narrator '\u3000魅音さんは、ようやくどのポケットにしまっていたか思い出し、\n鍵を開けたところだった。'
+ narrator 'Erika-san aimed out a sarcastic laugh at me while disappearing into her room.'
+ narrator 'Mion-san, finally remembering which pocket she had left the key in, picked it out and opened the door.'
  show expression "#000" as fade with Dissolve(1.0)
- mion 'シャワー、誰から使う？'
- shion '菜央さんからでいいんじゃないですか？'
- nao '嬉しいですけど、あたし、ちゃんと湯船にお湯を張りたいです。'
+ mion "Who's gonna shower after me?"
+ shion 'Nao-san can go after, right?'
+ nao "I'd be happy to, but I want to give myself a proper bath."
  play audio 'audio/sfx/SE_5004_lightoff.wav'
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
- narrator '\u3000灯りのスイッチを入れる。\n\u3000洋館らしい雰囲気を壊さない、暗めの証明が部屋を照らした。'
+ narrator "There's a light switch inside. Without breaking the Western-style house feel, what illuminated inside was some disorenting proof."
  window hide None
  
  show expression "#000" as fade with Dissolve(1.0)
@@ -882,7 +882,7 @@ label event01_30_03:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao 'ッッッ………………………、'
+ nao 'H-......'
  hide nao_v002
  with Dissolve(0.2)
  show mion_v002 sinken at mei_right
@@ -890,27 +890,27 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 odoroki at jump_transform,active
  show mion_v002 sinken at inactive
- shion 'どうしたんです？\u3000………ひッ？！？！\u3000お、お姉……！！'
+ shion 'What happened? .... Heee?!?! S-, Sis...!!'
  show mion_v002 futeki at active
  show shion_v002 odoroki at inactive
- mion '……やって、……くれるねぇ………。'
+ mion "...They've... done it..."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
- narrator '\u3000これが……、魔女の存在を認めぬ者への、悪戯。'
+ narrator "This is... a prank... geared towards people who don't acknowledge the witch's existence."
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao 'ど、………どういうこと…………。'
+ nao 'W-... what in the hell...'
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_017_TragedyStart.wav'
- narrator '\u3000魅音さんと詩音さんのベッドは、……何事もないのに。\n\u3000あたしのベッドだけが……、#p殺#s・#r#pさ#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r……。'
- narrator '\u3000毛布は乱雑に剥ぎ取られて散乱し……、まるで肌のように露出し\nたシーツが……、鮮血に染まっている……。'
- narrator '\u3000違う。ただ染まっているんじゃない。それは………鮮血のような\n赤で描かれていた………。'
+ narrator "Mion-san and Shion-san's beds had... nothing on top of them, but just my bed was k i l l e d..."
+ narrator 'The blanket was torn off disastrously... almost like the sheets were skin hanging off of it... dyed it with fresh blood.'
+ narrator "No. It's not just dyed red. This is... something drawn on with a blood-like substance..."
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao 'ま………………魔法陣………………。'
+ nao 'A........  magic circle.........'
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  pause 4.0

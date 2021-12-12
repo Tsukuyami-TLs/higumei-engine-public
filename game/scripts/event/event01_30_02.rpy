@@ -9,10 +9,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show mion_v002 smile at inactive
- kanon '食後は、コーヒーか紅茶のご用意がありますが、如何いたします\nか……？'
+ kanon 'After the meal, we usually prepare either tea or coffee, which would you prefer?'
  show mion_v002 smile at active
  show kanon_v001 normal at inactive
- mion '口の中が甘ったるくなったからね！\u3000ここは梅塩昆布茶でキュッと\n締めたいんだけど、あるかなぁ？'
+ mion "The taste inside my mouth is so sweet after that! So I'd like to finish things up with a salted plum kelp tea, do you have it?"
  hide mion_v002
  hide kanon_v001
  with Dissolve(0.2)
@@ -21,10 +21,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show shion_v002 fuan at inactive
- nao 'て、天衣無縫、ここに極まれりだわ……。'
+ nao 'This... this is perfection at its finest...'
  show shion_v002 fuan at active
  show nao_v002 fuan at inactive
- shion 'ウチの姉が本当にすみません。田舎者なもので……。'
+ shion "Sorry about my older sister. She's quite a country bumpkin..."
  hide shion_v002
  hide nao_v002
  with Dissolve(0.2)
@@ -33,13 +33,13 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  show mion_v002 smile at inactive
- kanon '……お屋敷の方に準備があるかもしれません。お時間をいただけれ\nば、確認いたします。'
+ kanon '... Maybe it is available at the mansion. If you give me some time, I can check.'
  show mion_v002 smile at jump_transform,active
  show kanon_v001 normal_close at inactive
- mion 'あ、ホント？！\u3000ありがと！\u3000じゃあ、お願いしちゃおっかなぁ。'
+ mion "Ah, really!? Thanks! Then I'll be counting on you."
  show kanon_v001 normal at active
  show mion_v002 smile at inactive
- kanon '……確か、熊沢さんが私物で鯖昆布茶を持っていたような……。'
+ kanon "... If I'm not wrong, Kumasawa-san had mackerel kelp tea of her own..."
  play audio 'audio/sfx/SE_530_walk_one.wav'
  hide kanon_v001
  with Dissolve(0.3)
@@ -48,11 +48,11 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika '魅音さん、なかなかやりますね。タダで泊まらせてもらう分、きっ\nちりとお仕事をしているようで。'
+ erika "Mion-san, you're quite good. You're not just spending the night here but also properly doing your job."
  play audio 'audio/sfx/SE_226_shine.wav'
  show mion_v002 futeki at active
  show erika_v001 normal at inactive
- mion 'まぁね！\u3000私のこと、さんざん田舎者とか言ってくる、わかってな\nい妹もいるけどさぁ？'
+ mion "I guess! Although I've got a little sister who doesn't gets that and calls me a country bumpkin or something!"
  hide mion_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -63,13 +63,13 @@ label event01_30_02:
  pause 0.0
  show shion_v002 odoroki at active
  show nao_v002 normal at inactive
- shion 'えーーッ？！\u3000今の、モニターとしてサービスを試してたっていう\nんですかぁ？！'
+ shion "Ehhh!? Don't tell me that just now was testing their services as a monitor!?"
  show nao_v002 normal at active
  show shion_v002 odoroki at inactive
- nao 'た、確かに……。リゾート地にするなら、それなりの賓客が来る\nこともあるわ。'
+ nao "I-Indeed... If they're going to make it into a resort, such privileged guests might come."
  show nao_v002 normal_close at active
  show shion_v002 odoroki at inactive
- nao '賓客のささやかな要望に、杓子定規で対応しているようでは、彼ら\nの満足は得られない……。'
+ nao "If they aren't able to naturally fulfill such a small request from the guests, they won't be able to have anyone satisfied..."
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -78,66 +78,66 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika '今回はたまたま、用意が出来ましたが……。'
+ erika 'Although this time, they just happened to have it...'
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika '恐らく、魅音さんが一番、見たかったのは、どうしても用意が出来\nず、客の気分を害さないように、如何に美しく断って見せるか、\nだったのでしょうね。'
+ erika "I'm presuming that what Mion-san wanted to see the most was how they would they come up with a beautiful refusal in case they were unable to have it ready, without offending the guest."
  show mion_v002 smile at active
  show erika_v001 normal at inactive
- mion 'でも、嘉音くんの所作は十分、及第点以上だったと思うよ。'
+ mion "Still, Kanon-kun's conduct is definitely deserving of a good score."
  hide erika_v001
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion '確かに。……少しでも言い淀みがあったら、お客は、困らせてし\nまったと申し訳なく感じてしまいますものね。'
+ shion "Indeed... Had he taken too long to take action the guest could've felt bad for troubling them."
  show mion_v002 smile_close at active
  show shion_v002 smile at inactive
- mion 'どんな無茶ぶりにも、淀みなく、清流のように対応するのがプロ\nフェッショナルってもんなのさ！'
+ mion 'No matter how unreasonable of a situation it is, behaving without showing any waver is what a true professional is!'
  hide shion_v002
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile_close at inactive
- nao '大事なのは、マニュアル外のことが起こっても、涼やかに対応でき\nることって訳ね……。'
+ nao "What's important is to be able to smoothly handle that situation, even if it's something that was not written in the manual..."
  hide mion_v002
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika '臨機応変。あるいは、さも想定内の事態であるかのように振舞う。'
+ erika "To be flexible. Putting it in other words, to act as if that too is something that's under your expectations."
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'ある種のハッタリが大事、ということでもありますね。'
+ erika 'It also means that bluffing can be important, to some extent.'
  hide nao_v002
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion '確かに、ベテラン感のある店員さんだと、何があっても安心感があ\nりますよね。'
+ shion 'Indeed, like how a clerk that seems like a veteran feels more trustworthy.'
  hide erika_v001
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
  show mion_v002 smile at nod_transform,active
  show shion_v002 smile at inactive
- mion 'そうそう。逆に、いつもあわあわしている店員さんだと、例えベテ\nランと同じことをしていても、頼りなく感じられてしまう。'
+ mion "Yeah, yeah. And in comparison, if it's a clerk that seems to be desperately handling their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them."
  hide shion_v002
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao '……堂々とした態度は、お客に信頼感を与え、それ自体が、優れた\nサービスのひとつになるのね。'
+ nao "... A dignified attitude is essential for building a sense of trust with the guest, and that's the first step to prove the excellency in your services."
  hide mion_v002
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'ま。平たく言えば、舐められたらおしまい、ってことです。'
+ erika "Well. To put it simply, if you underestimate things too much then it's all over."
  show erika_v001 normal at active
- erika '古今東西の名探偵たちも、貫禄とリスペクトがあるからこそ、その\n推理に圧倒的な絶対性が宿るのです。'
+ erika "It's the same for the greatest detectives from east to west- because of their dignity and how respected they were, there's overwhelming certainty in their resonings."
  show erika_v001 normal_close at active
- erika 'まぁ、十分な貫禄さえあれば、穴だらけの推理でも、犯人が勝手に\n観念することもありますので。'
+ erika "Weell, there's cases at which the culprit gives in exactly because the detective had more than enough dignity, even if their reasoning is full of holes."
  hide erika_v001
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -145,56 +145,56 @@ label event01_30_02:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion '確かにね！\u3000犯人にプレッシャーを与えれば、勝手に自滅してくれ\nることもある！'
+ mion "True! If you pressure the culprit enough, there's times they'll give in on their own."
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion '何もわかってないのに、さもわかっているかのように振舞うのはお\n姉の得意技ですしね。'
+ shion "It's my sister's speciality to pretend she understood everything, but in actuality doesn't gets anything after all."
  show mion_v002 sinken at jumping_transform,active
  show shion_v002 smile at inactive
- mion '違うよ、ワニャンの得意技なんだよぅ！\u3000手掛かりゼロでさもわ\nかっているかのように振舞い、隙を誘う！'
+ mion "That's not it, it's a speciality of Wanyan! Even when you have zero hints, act as if you've grasped the truth and aim for the blind spot!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '探偵たるもの、常日頃から、何もかもお見通しのようなオーラを\n纏っていなくてはなりませんね。'
+ erika "It is essential for a detective to always have the aura of someone who's seen through everything."
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000そういう話の流れになれば、あとはもう、名探偵だのミステリー\nだの、そういう話題になるのは火を見るより明らかだ。'
- narrator '\u3000そこに、嘉音さんと一緒に朱志香さんも戻ってくる。\n\u3000嘉音さんがお茶の準備をしている間に、朱志香さんも話に加わる\nのだった。'
- narrator '\u3000この頃には、ミステリーから未解決事件、都市伝説と話題は移\nり、最後にはオカルトにまで至っていた……。'
+ narrator 'As the flow of the conversation went on, it was unavoidable that the main topic would become great detectives and mysteries.'
+ narrator "At that time, Jessica-san arrived with Kanon-san, who's just returned. As Kanon-san served the tea, Jessica-san joined our talk."
+ narrator 'By then, the topic had went from unresolved cases to urban legends, and at the very end we ended up talking about even the occult.'
  show mion_v002 smile at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion '確かに一理ありますね。解決できればミステリーだけれど、解決で\nきないなら、オカルトになることもありえる。'
+ shion "That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult."
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion '太古の昔から、神の奇跡とされていたものが、次々に科学で解明さ\nれたからね。'
+ mion 'Since ancient times, things considered miracles have been proven by scientific researches.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion '神の奇跡は解明できない。イコール、解明できなければ神の奇跡と\nも言えちゃう訳だ。'
+ mion "Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '科学とオカルトの、戦いなんですね。'
+ nao "It's the battle between science and the occult, right?"
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika 'そこは優雅に、ミステリー、バーサス、ファンタジーと言って頂き\nたいです。'
+ erika "More gracefully put, it's <Mystery versus Fantasy>."
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  show jessica_v001 fuan_close at mei_center
  with Dissolve(0.5)
  show jessica_v001 fuan_close at active
- jessica 'まぁ、未解明が何でもかんでも悪いって訳じゃねぇからな。\nやり過ぎれば、子供の夢を壊しちまうこともあるぜ。'
+ jessica "Well, the theory of the unexplained isn't see all end all. Take it too far and you crush the dreams of children."
  hide jessica_v001
  with Dissolve(0.2)
  show shion_v002 smile at mei_right
@@ -202,29 +202,29 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show shion_v002 smile at inactive
- nao '……オヤシロさまの#p祟#sたた#rりも、未解明なだけで、いつかは科学的に正\n体が暴かれるのでしょうか？'
+ nao "...Since Oyashiro-sama's curse is unexplained too, I wonder if maybe science will expose its true form someday?"
  show shion_v002 fuan at active
  show nao_v002 normal at inactive
- shion '信仰は難しいですね。暴いちゃまずいものも、世の中にはあるって\nことです。'
+ shion "With religious faith, it's a bit harder. There are some things in the world you shouldn't try to disprove."
  hide shion_v002
  hide nao_v002
  with Dissolve(0.2)
  show jessica_v001 sinken at mei_center
  with Dissolve(0.5)
  show jessica_v001 sinken at active
- jessica '何？\u3000オヤシロさまの祟りって！'
+ jessica "What? Oyashiro-sama's curse!?"
  hide jessica_v001
  with Dissolve(0.2)
- narrator '\u3000おや、食い付きがいい。\n\u3000まぁ、確かに、オヤシロさまの祟りなんてフレーズ、#p雛見沢#sひなみざわ#rの人\n以外には、ちょっと面白そうに聞こえるかもしれない……。'
+ narrator 'Oh, I\'ll bite. Well, for someone not from Hinamizawa, hearing the phrase "Oyashiro-sama\'s curse" clearly might be a bit silly...'
  show jessica_v001 normal at mei_left
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show jessica_v001 normal at inactive
- erika '……毎年、村の祭の日に、１人が死に、１人が行方不明にな\nる、……ですか。'
+ erika '... Every year, on the day of the village festival, one person dies, and then one person disappears... right?'
  show jessica_v001 fuan at chara_shake_transform,active
  show erika_v001 normal_close at inactive
- jessica '何それ、めちゃめちゃ怖ぇぜ……？！\u3000足音が付けてくるなんて、\n私、今夜、ひとりでトイレ行けねぇぜぇ……！！'
+ jessica "What the hell, that's mad creepy...?! I won't bother going to the bathroom alone tonight thinking about footsteps following me like that...!!"
  hide jessica_v001
  hide erika_v001
  with Dissolve(0.2)
@@ -233,37 +233,37 @@ label event01_30_02:
  with Dissolve(0.5)
  show mion_v002 normal at active
  show shion_v002 normal at inactive
- mion 'そもそも園崎の園という字は……、人間の内臓を示していて、崎と\nいう字は……、'
+ mion 'From the beginning, the "Sono" (園) kanji in "Sonozaki" (園崎)... has depicted human organs, while the "Zaki" (崎) kanji... '
  show shion_v002 sinken at active
  show mion_v002 normal at inactive
- shion '園崎家には双子が生まれたら、片方はくびり殺せという家訓があり\nまして。生まれたばかりの私の首を……、ぎええぇえぇえぇ！'
+ shion 'If there are twins born within the Sonozaki family, the family rule is to strangle the younger child. Since I was born afterwards, they had me by the neck like... gyeeeeehhh!'
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show jessica_v001 odoroki at mei_right
  with Dissolve(0.5)
  show jessica_v001 odoroki at active
- jessica 'マジかよ、おいおいッ、島の外も怖ぇなぁ！！\u3000私ゃ、一生、六軒\n島でもいいかもだぜ……。'
+ jessica 'Wait, for real!? Hold up, the world outside the island is freaky too!! Maybe I should spend my whole life here...'
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show jessica_v001 odoroki at inactive
- nao '……雛見沢がちょっと、そういう話に恵まれ過ぎているだけです。'
+ nao '...Hinamizawa was... just a bit too blessed with such a story.'
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000日本中のあちこちが、こんなにも物騒な昔話で溢れていると勘違\nいされたら気の毒過ぎる。'
- narrator '\u3000それに何だか、地元に恐ろしいミステリーやオカルトがあるとス\nゴイ、みたいな流れになっていた。'
+ narrator 'All over Japan, turbulent legends like this overflow with misunderstandings.'
+ narrator 'Even so, having a creepy occult mystery from your hometown became something cool.'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  show erika_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao '……そういえば、ヱリカさん。……魔女がどうのこうのって、言っ\nていませんでしたか？'
+ nao "...Speaking of which, Erika-san. ...Didn't you say something about the witch doing this and that?"
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'くす。……その話は、この島の住人である朱志香さんがされるべき\nでしょう。'
+ erika '*giggle* ...That conversation should be had with you by someone who lives on this island, like Jessica-san.'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -272,59 +272,59 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 smile at inactive
- shion '魔女って、ひょっとしてさっきの肖像画のご婦人のこと、です\nか？'
+ shion 'Could the witch be the lady in the portrait from earlier?'
  show mion_v002 smile at active
  show shion_v002 normal at inactive
- mion 'いいねいいねぇ、やっぱり洋館のオカルトは洋風じゃないとねぇ。'
+ mion "Oh, nice, I like that! As I thought, the Western house's occult mystery isn't so Western after all."
  show mion_v002 futeki at active
  show shion_v002 normal at inactive
- mion 'でも、こっちは流血のダム戦争から連なるオヤシロさまの祟りに、\n秘祭、#p綿流#sわたなが#rしの秘密まで話したんだからねぇ。'
+ mion "But this was why I shared the secret of behind the name of Watanagashi, and how it links the blood spill in the dam war to Oyashiro-sama's curse."
  show shion_v002 futeki at active
  show mion_v002 futeki at inactive
- shion '肖像画のご婦人が夜中に瞬きした、って程度では、ちょっと釣り合\nいませんよ～？'
+ shion "Isn't the intensity of that a bit different than a lady in a portrait blinking in the middle of the night~?"
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  show jessica_v001 futeki at mei_left
  with Dissolve(0.5)
  show jessica_v001 futeki at active
- jessica 'そこまで言われちゃあ、こっちも黙ってる訳にはいかねぇぜ。取っ\nて置きを披露しちまうぜ！'
+ jessica "If you say that much, even I can't keep quiet about it. She's gonna show you the ace up her sleeve!"
  show kanon_v001 normal at mei_right
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show jessica_v001 futeki at inactive
- kanon '……お嬢様。よろしいのですか？'
+ kanon '...My lady. Are you fine with saying that?'
  show jessica_v001 fuan at active
  show kanon_v001 normal at inactive
- jessica 'ぇ、あ、えーと……。'
+ jessica 'Eh, ah, umm...'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal at inactive
- jessica '私がここでこんな話をしたってのは、絶対に内緒で頼むぜ？\u3000母さ\nんに知られたら怒られるぜ……。'
+ jessica 'The conversation that we had here absolutely stays between us, alright? Mother would be terrifying if she found out. '
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'くすくすくす。'
+ erika '*giggle*giggle*giggle*.'
  stop music fadeout 0.5
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000音楽室に、ベートーベンの絵があるだけで、怪談が生まれるの\nだ。\n\u3000ましてや、雰囲気たっぷりの洋館に、あれだけの巨大な肖像画。'
- narrator '\u3000その上、錬金術師を名乗るミステリアスな美女。……これで怪談\nが生まれない方がおかしい。'
+ narrator 'Just a Beethoven picture being in a music classroom can create a ghost story, never mind an enormous portrait like that one in a completely westernized home.'
+ narrator "What's more, it's of a beautiful woman bearing the title of family alchemist. It would be weirder if a ghost story didn't come out of it."
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
  with Dissolve(0.5)
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica 'さっきも見たと思うけど。……ウチの屋敷は広いんだ。家族の人数\nに合ってないくらいに。'
+ jessica "I think I've seen her before too... but our mansion is huge. Huge enough that it doesn't match with the size of my family."
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon '……たくさんの部屋が、一族で満たされるような子孫繁栄を願っ\nて、意図的に広く作られたと聞いたことがあります。'
+ kanon '...I have heard that the many rooms were made to accommodate many relatives, and the mansion was intentionally built large to encourage the prosperity of the family.'
  show jessica_v001 fuan at active
  show kanon_v001 normal at inactive
- jessica '祖父さまの縁起担ぎは勝手だけどさ。……無駄に広い屋敷っての\nは、言うまでもなく、薄気味悪ぃんだよな。'
+ jessica 'Grandfather is superstitious on his own, though. ...Having an impossibly large mansion is, needless to say, pretty uncanny.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -336,7 +336,7 @@ label event01_30_02:
  show mion_v002 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show mion_v002 futeki at active
- mion '使わない部屋には、……人ならざる者が住み着くっていうから\nねぇ……。'
+ mion 'Those unused rooms... might have something other than people settling in them...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -348,43 +348,43 @@ label event01_30_02:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at chara_shake_transform,active
- nao 'や、……止めて下さい。顔が近いです。'
+ nao 'S-... stop it, please. Your face is getting too close.'
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'ウィンチェスターミステリーハウスの話をご存知ですか？'
+ erika 'Is anyone familiar with the story of the Winchester house mystery?'
  show shion_v002 normal at mei_left
  with Dissolve(0.5)
  show shion_v002 normal at active
  show erika_v001 normal at inactive
- shion 'ウィンチェスターって、銃のウィンチェスターですか？'
+ shion 'When you say Winchester, do you mean the Winchester gun?'
  show erika_v001 normal at active
  show shion_v002 normal at inactive
- erika 'ウィンチェスター銃のビジネスで大富豪となったウィンチェスター\n氏の未亡人は、夫の銃で殺された人々の霊が自分を祟っていると信\nじていたそうです。'
+ erika 'The widowed wife of the late multimillionaire and owner of the Winchester gun company, Mr. Winchester, was believed to have been cursed by his spirit, who killed bunches of people by possessing a gun.'
  hide shion_v002
  show mion_v002 normal at mei_left
  with Dissolve(0.5)
  show mion_v002 normal at active
  show erika_v001 normal at inactive
- mion '占い師に、亡霊たちを住まわせる空き部屋を増築し続けないと、呪\nわれて死ぬって脅されて、それを信じたんだってさ。'
+ mion "A fortune teller told her that the ghosts residing in the rooms in her home would threaten to curse her to death if she didn't continue to renovate it. And she believed."
  hide erika_v001
  hide mion_v002
  with Dissolve(0.2)
- narrator '\u3000それが、ウィンチェスター氏の未亡人が死ぬまで増築を続けたと\nいう、歪なる巨大邸宅、ウィンチェスターミステリーハウスであ\nる……。'
+ narrator 'The widowed wife then continued to add more and more extensions to the house until her death, resulting in a massively distorted mansion: the Winchester mystery house.'
  show erika_v001 normal at mei_right
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao '……え……。……じゃあ、家族の人数に見合わない、部屋の多過ぎ\nるお屋敷は……。'
+ nao '...Huh... ...Then, the mansion with too many rooms to fit the amount of family members is...'
  show erika_v001 normal_close at active
  show nao_v002 fuan at inactive
- erika '右代宮家の当主、金蔵さんは、ベアトリーチェより借り受けた\n１００ｔの金塊を元に、ビジネスを成功させたとか。'
+ erika 'The head of the Ushiromiya family, Kinzo-san succeeded in some business with Beatrice before accepting the loan of 100 tons of gold.'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika 'それだけなら、サクセスストーリーですが。……私には何か、大切\nなことが伏せられている気がします。'
+ erika "It isn't just a success story either... I feel as though there is something important hidden in it."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -393,13 +393,13 @@ label event01_30_02:
  with Dissolve(0.5)
  show mion_v002 normal at active
  show shion_v002 fuan at inactive
- mion '１００ｔの金塊が、草っ原から生えてくる訳もない。'
+ mion "100 tons of gold doesn't just grow on trees."
  show mion_v002 normal_close at active
  show shion_v002 fuan at inactive
- mion '錬金術で、あのベアトリーチェってご婦人が生み出した、なんてお\n伽話にはしてるけれど……。'
+ mion 'That lady, Beatrice, creating it through alchemy also sounds a bit like a fairytale, though...'
  show shion_v002 fuan at active
  show mion_v002 normal_close at inactive
- shion '普通に考えて。……桁違いの欲望や怨念、そして死者が関わってい\nてもおかしくないような、莫大な金塊ですよね……。'
+ shion "Think about it regularly... an uncomparable amount of greed and hatred as well as dead people being involved isn't too strange. It is a huge amount of gold after all..."
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -408,19 +408,19 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  show jessica_v001 fuan at inactive
- kanon '…………………。'
+ kanon '...'
  show jessica_v001 fuan at chara_shake_transform,active
  show kanon_v001 normal_close at inactive
- jessica 'お、おいおい、よしてくれよ……！\u3000自分の家なのに、夜、トイレ\nに行けなくなっちまうぜ……。'
+ jessica "H-, hey, hey, you better stop with that...! This is my family you're talking about. I'm really not gonna be able to go to the bathroom at night..."
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '……このゲストハウスだって、広過ぎです。'
+ nao '...This guesthouse is way too big, even.'
  show nao_v002 fuan at active
- nao 'お屋敷にあれだけ客室が余ってるのに、わざわざ作る必要があると\nは……。'
+ nao 'The mansion already has all of those guest rooms in it too, so needing to go out of your way to make this is...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -431,7 +431,7 @@ label event01_30_02:
  show erika_v001 fuan at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 fuan at active
- erika '２００億円の金塊に、未だに集まってくる怨霊たちを、……迎える\n為かもしれませんねぇ……？'
+ erika 'Perhaps the 200 million dollars worth of gold is still being used to welcome... ghosts... here...?'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -440,58 +440,58 @@ label event01_30_02:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000嫌だ、怖い。……ちょっと止めてほしいわ。あたし、ここにこれ\nから２泊するのよ……？'
+ narrator 'Ugh, this is scary. ...Wait, stop for second. I have to stay here for two more nights...?'
  show kanon_v001 normal at mei_right
  show jessica_v001 normal_close at mei_left
  with Dissolve(0.5)
  show jessica_v001 normal_close at active
  show kanon_v001 normal at inactive
- jessica 'まぁそれで、話を戻すぜ……。'
+ jessica 'Well, with that, the conversation comes full circle...'
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica 'とにかく、ベアトリーチェってのが何者なのか、祖父さま以外、こ\nの屋敷の誰も知らねぇんだ。'
+ jessica 'Anyway, other than Grandfather, no one in this mansion knows who Beatrice is.'
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon 'お館様の大恩人である、とのこと以上は、誰も……。'
+ kanon 'Other than the fact that she is to whom the master is greatly indebted... no one...'
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica '生きてるのか死んでいるのか。生きていたら何歳なのか。どこに住\nんでいるのか……。'
+ jessica "Is she alive or is she dead? If she's alive, how old is she? Where could she be living...?"
  show jessica_v001 fuan_close at active
  show kanon_v001 normal at inactive
- jessica '私たちは誰も知らねぇんだ……。'
+ jessica 'None of us know...'
  hide kanon_v001
  hide jessica_v001
  with Dissolve(0.2)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '……誰だかわからない人の肖像画が、……大広間に、あんなにも堂\n々と飾られているなんて、何だか薄気味悪いかも。……かも。'
+ nao '...A portrait of an unknown person... being boldly hung up in such a wide space might be kind of... uncanny... maybe.'
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000いつ誰が名付けたのか。……やがて彼女は、黄金の魔女、ベアト\nリーチェと呼ばれるようになる。'
- narrator '\u3000屋敷の大広間に飾られた巨大な肖像画は、当主の金蔵を描いたも\nのではなく、黄金の魔女を描いたもの。'
- narrator '\u3000……つまりは、屋敷も、この島も、……真の主は、黄金の魔女、\nベアトリーチェなのではないか。'
+ narrator 'When did someone name it? ...She eventually went on to be called the Golden Witch, Beatrice.'
+ narrator "The massive portrait hung in a wide space in the mansion isn't something that the head, Kinzo, drew either. It's something that the Golden Witch drew."
+ narrator "...This means that the mansion and the island's... real master... isn't the Golden Witch, Beatrice?"
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
  with Dissolve(0.5)
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica '夜。……不思議な人影が、屋敷の中を徘徊しているって噂は、……\n使用人の間では、結構、有名だったんだ。……な？'
+ jessica 'At night... the rumor of a mysterious figure wandering around inside the mansion while the servants are working has gotten pretty popular. ...Right?'
  show kanon_v001 normal_close at active
  show jessica_v001 normal at inactive
- kanon '………はい。'
+ kanon '...Yes.'
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon 'もし。……夜の屋敷の中で、不思議な人影を見ても、……決して後\nを追ったり、ましてや、声を掛けてもならないと。'
+ kanon 'If... in the middle of the night in the mansion, you do see this mysterious figure... never chase after it, let alone call after it.'
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon '僕も何度か、……右代宮家の誰かでも、使用人の誰かでもあるはず\nのない、……不思議な女性の人影を、見たことがあります。'
+ kanon "On multiple occasions... someone who couldn't have been in the Ushiromiya family nor a servant... in the mysterious form of a woman... I've come into contact with her as well."
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica '時折。窓の施錠がされてなくて使用人が母さんに怒られてた。'
+ jessica 'Sometimes, windows unlock at night without the servants touching them, and it terrifies Mother.'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal at inactive
- jessica 'でも、みんな言うんだ。確かに見回りの時に施錠を確認した、っ\nて。'
+ jessica 'But everyone keeps saying how they definitely did rounds particularly making sure the windows are locked.'
  hide kanon_v001
  hide jessica_v001
  with Dissolve(0.2)
@@ -500,17 +500,17 @@ label event01_30_02:
  with Dissolve(0.5)
  show mion_v002 normal at active
  show shion_v002 smile at inactive
- mion 'あれだけの広い屋敷だからね。……ベアトリーチェを名乗る何者か\nが、隠れ潜んでいたとか。'
+ mion 'It is a mansion of this size. ...Someone named Beatrice could be lurking about, hidden somewhere.'
  show shion_v002 smile at active
  show mion_v002 normal at inactive
- shion 'でも、窓の鍵を開けるくらいの悪戯なら、可愛いもんじゃないです\nか。'
+ shion "Still, the window locks opening as a prank isn't very cute."
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '……確かに。'
+ nao '...Clearly.'
  hide nao_v002
  with Dissolve(0.2)
  show jessica_v001 normal at mei_left
@@ -518,33 +518,33 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon 'ベアトリーチェさまは、その存在を信じて敬う者には、寛大だと言\nわれています。'
+ kanon 'The people who do believe in and respect the existence of Beatrice-sama say she is generous.'
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica 'だから。……ベアトリーチェのことを馬鹿にして、いる訳がないな\nんて言い張ると、……祟られるらしいんだ。'
+ jessica "So... asserting something that makes a fool out of Beatrice, like saying she couldn't exist... seems to result in you being cursed."
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
- narrator '\u3000右代宮家には、少なくない人数の使用人が出入りしており、時\nに、新しい使用人と入れ替わることもある。'
- narrator '\u3000何しろ広大で、そして薄気味悪さも伴う屋敷だ。……大抵の新人\nは、ベアトリーチェという怪談を神妙に受け容れる。'
+ narrator 'Not a small number of servants come in and out for the Ushiromiya family, and at times, new employees come in their stead.'
+ narrator "Because it's a massive and eerie mansion... the newer servants generally believe the ghost story of Beatrice right away."
  show jessica_v001 normal at mei_left
  show kanon_v001 normal_close at mei_right
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  show jessica_v001 normal at inactive
- kanon 'でも。……たまに、信じない人もおりました。'
+ kanon "However... sometimes there are people who don't believe."
  show jessica_v001 normal at active
  show kanon_v001 normal_close at inactive
- jessica '……以前、夜の見回りの時に、階段を踏み外して転げ落ちて、大怪\n我をして辞めた使用人がいたんだよ。'
+ jessica '...One time at night while doing the rounds, there was a servant who misstepped and fell down the stairs, getting injured horribly before quitting.'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal_close at inactive
- jessica '後で紗音に聞いたら、……その人、ベアトリーチェがいるなら現れ\nてみろなんて、言ってた矢先だったらしい……。'
+ jessica 'Afterwards, Shannon heard... that person said, "If Beatrice does exist, I\'d like to see her", and seemed to have been targetted...'
  show kanon_v001 normal at active
  show jessica_v001 fuan_close at inactive
- kanon '…………僕も、最初は信じていませんでした。'
+ kanon "...I, too, didn't believe in her at first."
  show kanon_v001 fuan_close at active
  show jessica_v001 fuan_close at inactive
- kanon 'しかし、……ある出来事があり、……それ以来、存在を疑うのを止\nめました。'
+ kanon 'But then... I had a certain job to do... and since then, I stopped doubting her existence.'
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
@@ -553,30 +553,30 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show nao_v002 fuan at inactive
- shion '……つまり。……その出来事を境に、ベアトリーチェの存在を信じ\nるようになった、と……？'
+ shion "...Meaning... that job led you to believe in Beatrice's existence afterwards... and...?"
  show nao_v002 fuan at active
  show shion_v002 normal at inactive
- nao 'その出来事って、……何があったんですか。'
+ nao 'What happened... during that job?'
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
  show kanon_v001 normal_close at mei_center
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
- kanon '………………………。'
+ kanon '...'
  show expression "#000" as fade with Dissolve(1.0)
  hide kanon_v001
  with Dissolve(0.2)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  scene expression "#000"
  play audio 'audio/sfx/SE_5020_key.wav'
- narrator '\u3000ある日。薔薇の手入れを主な仕事とする嘉音さんは、園芸倉庫に\n施錠した後、鍵をポケットに入れたまま、就寝してしまったとい\nう。'
- narrator '\u3000本来は、勤務時間中に使用した鍵は、勤務が終わる時に、使用人\n室のキーボックスに戻さなければならない。'
- narrator '\u3000それを戻さずに、嘉音さんは一日を終えてしまったのだという。'
- narrator '\u3000園芸倉庫の鍵は、それ１つしかない。マスターキーでは開けるこ\nとは出来ない。'
- narrator '\u3000つまり。……園芸倉庫は、彼が施錠してから、翌朝に開錠するま\nで、誰にも開けることが出来ない、密室だったということにな\nる……。'
- jessica '翌朝。……嘉音くんが園芸倉庫のシャッターを開けると……、そこ\nにはありえないものがあったんだ……。'
- nao 'ありえないもの、って………？'
+ narrator 'One day, Kanon was appointed to trim the roses. After locking up the garden shed, he left the key in his pocket, and retired for the day.'
+ narrator 'Normally, the key gets used during a job, and then after that job is done, it must be returned to the keybox in the servant room. '
+ narrator 'That day, Kanon-san finished the job without returning the key.'
+ narrator 'The garden shed can only be opened with that one key. It cannot even be opened with the master key.'
+ narrator 'So, in essense... since the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a locked room...'
+ jessica "The next morning... when Kanon-kun opened the shutters to the garden shed... something that couldn't have been there, was..."
+ nao "Something that couldn't have been... there...?"
  window hide None
  stop sound
  scene expression "#000"
@@ -592,7 +592,7 @@ label event01_30_02:
  show kanon_v001 normal_close at mei_center
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
- kanon '……不気味な、……魔法陣が、描かれていました。'
+ kanon '...A creepy... magic circle... was drawn there.'
  hide kanon_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -600,30 +600,30 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'シンプルに推理するならば、……密室の唯一の鍵を持っていた、嘉\n音さんの自作自演が疑えるでしょう。'
+ erika 'If I reason this out simply... I suppose we can doubt that the one person who had the key to the locked room, Kanon-kun, did all of this on his own.'
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika 'ですが、だからこそ逆に……。'
+ erika 'But then, so, on the other hand...'
  show nao_v002 normal at active
  show erika_v001 normal_close at inactive
- nao '……嘉音さんには、……これが人間の仕業でないと、……わか\nる……。'
+ nao "...To Kanon-san... this wasn't the doing of someone human... I can understand that..."
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  show kanon_v001 normal_close at mei_center
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
- kanon '…………………………。'
+ kanon '...'
  show kanon_v001 normal at active
- kanon '……源次さまにこのことをお伝えしたところ、……決して誰にも、\n口外してはならぬと。'
+ kanon '...I reported to Genji-sama that... he must never reveal this information to anyone.'
  hide kanon_v001
  with Dissolve(0.2)
  show jessica_v001 sinken at mei_center
  with Dissolve(0.5)
  show jessica_v001 sinken at active
- jessica '魔法陣が、……ベアトリーチェの挨拶なのさ。'
+ jessica 'The magic circle is... a greeting from Beatrice.'
  show jessica_v001 sinken_close at active
- jessica 'ベアトリーチェは……、自分を信じない者のところに訪れ、魔法陣\nを残すんだ……。'
+ jessica "Beatrice... left that magic circle there for those of us who didn't believe..."
  hide jessica_v001
  with Dissolve(0.2)
  show mion_v002 normal at mei_right
@@ -631,31 +631,31 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 normal at inactive
- shion '……それが、警告で済んでいる内はいいけれど。'
+ shion "...If it's just a warning, then it's nothing to worry about, though."
  show mion_v002 normal at active
  show shion_v002 normal at inactive
- mion 'それでもなお、ベアトリーチェの存在を否定したり、あるいは馬鹿\nにしたりすると、……階段を転げ落ちて大怪我する人もいる、\nと……。'
+ mion "Notwithstanding, if you deny Beatrice's existence, or rather make her out to be a fool... there have been people that tumbled down the stairs and were injured badly, and... "
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika '私は探偵です。この世の全ては、推理で暴けると確信しています。'
+ erika 'I am the detective. I am confident that everything in this world can be explained with reasoning.'
  show erika_v001 normal at active
- erika 'しかし、だからこそ。時に。……私でさえ、推理することが冒涜で\nあるかもしれない“何か”に、出くわすことはあります。'
+ erika 'But for this reason in particular... Even I may come into contact with "something" through committing blasphemy with my reasoning.'
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao 'ちょっと……、……いや本当に……、………怖いかも、………か\nも……。'
+ nao "That's a little... no... really... scary... maybe... maybe..."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000まだ日も高いのに、あたしの背中は冷たい気配でぞわぞわしてい\nる。'
- narrator '\u3000そう。それが唯一の幸運だ。まだ昼過ぎではないか。怪談を楽し\nむには、あまりに外はいいお天気過ぎるのだ。'
- narrator '\u3000……あたしは空気を変えたかった。\n\u3000美しい薔薇庭園で、本を読んだり刺繍をしたりしてのんびり過ご\nす為にやってきたのだ。'
- narrator '\u3000早く、帰る日が来ないかと怯えながら指を折って数える為に来た\nんじゃない……。'
+ narrator 'The sun is still high, but I feel a cold presense tingling down my spine.'
+ narrator "Yeah. That's my one saving grace here. It's not even past noon yet. And the weather is a bit too good for telling ghost stories."
+ narrator '...I wanted a change of atmosphere. I just wanted to spend my time relaxing in the rose garden while reading a book or doing embroidery or something.'
+ narrator "I didn't come here to panic while counting my remaining days here on my fingers."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -665,7 +665,7 @@ label event01_30_02:
  show nao_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 smile at jump_transform,active
- nao '……はははははは、あっははははははは。'
+ nao '...Hahahahahaha, aaahahahahahahahaha...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -674,27 +674,27 @@ label event01_30_02:
  hide nao_v002
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator '\u3000とにかく、誤魔化すかのように笑えば、誰かも一緒に笑ってくれ\nて、場の空気を換えられるのだ。'
- narrator '\u3000だから、何も面白くないのに、あたしはケタケタと笑い続けるの\nだ。'
+ narrator 'Anyways, if I fake laugh like this, everyone will laugh with me, and then I can change the mood.'
+ narrator "But nothing is funny at the moment, so I'm just laughing out of place."
  camera at screenshake_transform
  pause 0.0
- narrator '\u3000でも、………どうして？！\u3000誰も、あたしと一緒に笑ってはくれ\nない……！'
+ narrator 'But... why does it have to be like that?! No one is laughing with me...!'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '馬鹿馬鹿しいわ。ハロウィンはもう、ひと月も前に終わってるって\nいうのに。'
+ nao 'This is ridiculous. Halloween has been over since last month.'
  show nao_v002 smile at active
- nao 'せっかく楽しく過ごそうと思って、ここまでやってきたのに、こん\nなチープな怪談で怖がらせられるなんて、滑稽よ。'
+ nao "I thought I had specifically gone here to enjoy myself, but all I've done up until now is get scared by a cheap ghost story. It's absurd."
  show nao_v002 smile at active
- nao 'それに、今の世の中、どんな不思議なことだって、必ず解明できる\nもの！'
+ nao 'Besides, in the world today, whatever strange thing it is, it can absolutely be explained!'
  show nao_v002 smile at active
- nao 'ねぇ、ヱリカさん。そうでしょう？'
+ nao "Hey, Erika-san. Aren't I right?"
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika '…………………。'
+ erika '...'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 sinken at mei_center
@@ -708,7 +708,7 @@ label event01_30_02:
    linear 0.5 zoom 1.1
  pause 0.5
  show nao_v002 sinken at active
- nao '仮に、ベアトリーチェの亡霊が夜の屋敷を歩いているのを見たって\nいう、目撃者が現れたとしても！'
+ nao "Let's suppose that Beatrice's ghost walks along the halls of the mansion at night, and someone witnesses that!"
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -718,7 +718,7 @@ label event01_30_02:
    linear 0.5 zoom 1.2
  pause 0.5
  show nao_v002 sinken at active
- nao '偽証の可能性があるし、視力の問題だって、あと、知性の問題だっ\nけ？\u3000あらゆる可能性が否定することが出来る！'
+ nao "There's a possibility that the evidence was falsified, there was a problem with their eyesight, or even a problem with their head, right? All of these possibilities can deny this! "
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -730,7 +730,7 @@ label event01_30_02:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao 'そうでしたよね？！\u3000ヱリカさん！'
+ nao 'Is that so, Erika-san?'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -744,48 +744,48 @@ label event01_30_02:
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika '……そうですね。フェリーでお会いした時。私は確かにそう言いま\nした。'
+ erika "That's right. I've definitely said that. When we met on the ferry. "
  show erika_v001 normal at active
- erika 'でもその上で。先ほど、申し上げたはずです。'
+ erika 'However, I should have mentioned this some time ago.'
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000しかし、だからこそ。時に。'
- narrator '\u3000私でさえ、推理することが冒涜であるかもしれない“何か”に、\n出くわすことはあります、………と。'
+ narrator 'But for this reason in particular...'
+ narrator 'Even I may come into contact with "something" through committing blasphemy with my reasoning... and...'
  show nao_v002 sinken at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika '……私は探偵です。それがニンゲンの引き起こした事件である限\nり、必ず、証拠を集めて、真相を暴く自信があります。'
+ erika '...I am the detective. As long as a Human caused this incident, I am confident that I can gather evidence to expose the truth without fail.'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika 'しかし。……人ならざる者が引き起こした事件であるならば、話は\n別です。'
+ erika "However... if something inhuman caused this incident, that's a different story."
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao '……そんな…………。'
+ nao '...No way......'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator '\u3000ヱリカさんという人なら、おかしな怪談の魔女など認めたりし\nないと、信じていたのに……。'
+ narrator "I believed that a person like Erika-san wouldn't acknowledge a witch from a silly ghost story, though..."
  show mion_v002 normal at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 normal at inactive
- shion '菜央さん、落ち着きましょう。ただの、茶飲み話ですよ？'
+ shion "Nao-san, let's calm down. It's just a chat over tea, yeah?"
  show mion_v002 normal at active
  show shion_v002 smile at inactive
- mion '……オヤシロさまが“い”るように。この島には魔女が“い”るん\nだよ。'
+ mion 'Just like Oyashiro-sama "exists", on this island the witch "exists"'
  show mion_v002 normal_close at active
  show shion_v002 smile at inactive
- mion 'あまり、頭ごなしに否定するのは、……おじさんはあんまり、感心\nしないなぁ。'
+ mion "Denying something without letting the other person explain is... something this ol' man isn't too fond of."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
- narrator '\u3000いつも、ふざけて茶化す魅音さんまで……！\u3000ついさっきまで、\n人様の屋敷で不謹慎な話で盛り上がっていたのに！'
- narrator '\u3000詩音さんは、まるで癇癪を起した子供を宥めるかのような様子\nで、あたしに接する。'
- narrator '\u3000朱志香さんと嘉音さんに至っては、互いに顔を見合わせながら、\n……きっと思っているのだ。'
- narrator '\u3000……この小さな客人が、魔女の祟りに遭わないといいのだけれ\nど、と………！'
+ narrator "Even Mion-san, who's always messing around and poking fun at people...! Yet just until a bit ago, the others were getting riled up having that impudent conversation about the mansion!"
+ narrator 'And Shion-san, who came up to me as if she was trying to pacify an irritable child.'
+ narrator 'As Jessica-san and Kanon-san looked at each other... they surely were thinking that, very much so.'
+ narrator "...That they wish this brat of a visitor wouldn't have a fit over a witch's curse... and...!"
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop music fadeout 0.5
  show jessica_v001 smile at mei_left
@@ -793,25 +793,25 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show jessica_v001 smile at inactive
- kanon '……お嬢様。次のお勤めがありますので。'
+ kanon '... My lady. You have your next task to do still.'
  show jessica_v001 smile at active
  show kanon_v001 normal at inactive
- jessica 'そ、そうだね。嘉音くん、ありがと。'
+ jessica "Th-, that's right. Thanks, Kanon-kun."
  show jessica_v001 smile at active
  show kanon_v001 normal at inactive
- jessica 'じゃあ、私もそろそろ行くよ。'
+ jessica "I'm gonna head out in a bit, then."
  show jessica_v001 fuan at active
  show kanon_v001 normal at inactive
- jessica '菜央ちゃん、ごめんね？\u3000つまらない話だったよな。忘れて欲しい\nぜっ。……じゃ、じゃあな！'
+ jessica 'Nao-chan, can you forgive me? It was a boring conversation. I want you to forget it. ...All right, see ya!'
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_530_walk_one.wav'
- narrator '\u3000朱志香さんたちは、気まずそうにしながら退出していく。\n\u3000ヱリカさんも、肩を竦めながら立ち上がる。'
+ narrator 'Jessica-san and him walked off with a perturbed look. Erika-san also stood there while shrugging her shoulders.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '私は部屋へ戻ろうと思いますが、皆さんは？'
+ erika "I think I'm going to return to my room, but what will everyone else do?"
  hide erika_v001
  with Dissolve(0.2)
  show mion_v002 smile at mei_right
@@ -819,38 +819,38 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion '私たちは明日の準備があるので、同じく部屋に戻って、ちょっと仕\n事をしようと思います。'
+ shion 'I think since we have to prepare for tomorrow, we should go back to our rooms too to get some work done.'
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion 'お姉が突然、色々と注文するもんだから、全然用意が間に合わな\nかったんですよ。サイアクです。'
+ shion "Sis suddenly got a bunch of orders coming in, so the arrangements didn't make it in time at all. It SUCKS."
  show mion_v002 smile at active
  show shion_v002 fuan at inactive
- mion '私も、部屋に戻って服の準備、手伝って。……ちょっとだけお昼寝\nしたいかな。'
+ mion "I'm also gonna go back to my room to help prepare the clothes. ...I wonder if I can fit a little nap in."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
- narrator '\u3000気付けば、外はいつの間にか、小雨が降っていた。'
- narrator '\u3000空は明るいので、すぐに止むだろうが、傘を差してまで薔薇庭園\nに出ようという気持ちはない。'
- narrator '\u3000……これはバカンスなのだ。のんびりくつろぐのが目的なのだ。\n\u3000昭和の海外旅行みたいに、分刻みでバスであちこちに移動して観\n光するようなのとは、まったく違う。'
- narrator '\u3000それに、魅音さんも言っているが、あたしたちは結構、朝が早\nかった。'
+ narrator 'I just realized that at some point, it had started drizzling out.'
+ narrator "Since the sky is still light, it might stop soon anyway, but it isn't worth it pulling out an umbrella just to set out for the rose garden."
+ narrator '...This is a vacation. Relaxation is the goal. This is completely different from the tight scheduling of overseas travel, having to catch busses all over to sightsee.'
+ narrator 'Plus, just like Mion-san was saying, morning went by pretty fast.'
  show nao_v002 fuan_close at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan_close at active
- nao '……あたしも、ちょっと眠いかも……かも。'
+ nao '...I might be a little tired too... maybe...'
  hide nao_v002
  with Dissolve(0.2)
- narrator '\u3000ちょっと仮眠して。目が覚めたら、小雨に濡れた薔薇庭園を窓か\nら眺めるのも素敵かもしれない。'
- narrator '\u3000いや、案外、横になったら、電源が切れるみたいに眠ってしまう\nかも……。'
- narrator '\u3000貴重な一日を、朝が早かったので眠いから昼寝する、で費やして\nしまうのも、……バカンスなら有りだ。'
+ narrator "I'll nap a bit. And when I wake up, the freshly rained on rose garden will likely make a lovely sight from the window."
+ narrator "Well, on the flipside, the power could cut out unexpectedly while I'm sleeping..."
+ narrator ''
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '取りあえず、窓が閉まってよかったです。でも、やっぱり、寝る時\nはちゃんと施錠したいです。'
+ nao "I'm glad the windows are shut for now. But I want to properly lock them while I'm sleeping, as I thought."
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 smile at inactive
- erika '……どうしたんです？\u3000窓の施錠、壊れてるんですか？'
+ erika "...Why's that? Are the locks on the windows breaking?"
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -859,10 +859,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show mion_v002 fuan at inactive
- shion '壊れてるんじゃないです。壊したんです。どっかの誰かが。'
+ shion "They aren't breaking. They were broken... by someone."
  show mion_v002 fuan at active
  show shion_v002 fuan at inactive
- mion 'もうちょっと試してみるよ……。謝るのはそれからでも間に合うっ\nて。'
+ mion "I can still try at it... I told you there's still time before I have to apologize."
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide mion_v002
@@ -875,25 +875,25 @@ label event01_30_02:
  play audio 'audio/sfx/SE_536_up_stairs.wav'
  pause 5.0
  play audio 'audio/sfx/SE_5007_keyroll.wav'
- narrator '\u3000あたしたち４人は、ぞろぞろと２階へあがる。\n\u3000そして、それぞれの部屋の施錠を、それぞれの鍵で開き、入っ\nた。'
+ narrator 'The four of us went up to the second floor. And so, we unlocked each of our rooms with our respective keys and entered.'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
- narrator '\u3000詩音さんは、トランクから、たくさんの衣装を取り出してベッド\nの上に広げ始める。\n\u3000撮影の時に使うお手製の衣装の一部が、まだ未完成らしい。'
- narrator '\u3000魅音さんは、窓の鍵としばらく格闘したが、やっぱり無理だった\nと、けろりと言って舌を出した。'
+ narrator "Shion-san started spreading out bunches of clothing garments from the trunk onto the beds. It seems like some of the garments aren't finished in time for the photoshoots."
+ narrator 'After Mion-san fought for a bit with the window lock, she realized it was impossible and stuck her tongue out at it.'
  play audio 'audio/sfx/SE_5037_getup.wav'
- narrator '\u3000あたしは、自分のベッドに横になり、靴下を脱ぐ。\n\u3000……これだけで、だいぶ体が楽になった。'
+ narrator 'I was laid up on my bed, taking off my socks. With just that, I started feeling relaxed.'
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
- narrator '\u3000本でも読もうと、頭は思っていても、体は拒否する。………眠\nい……。'
- narrator '\u3000こんなにも素敵な島で、こんなにも素敵なゲストハウスで、こん\nなにも素敵な薔薇庭園が広がっているのに、……昼寝。'
- narrator '\u3000うん。これぞ真のバカンス、真の贅沢かも。かも。'
- narrator '\u3000園崎姉妹の賑やかなおしゃべりを子守歌にしながら、瞼がとろん\nと重くなる。'
- narrator '\u3000……さっきの、魔女の怪談話の異様な雰囲気が嘘のよう。\n\u3000あれは、あたしがぼんやりしていた白昼夢ということに、ならな\nいかな……。'
- narrator '\u3000あたしのしたことは、古手神社の境内で、オヤシロさまなんか信\nじないと言ったのと同じようなもの。\n\u3000きっと、島の人の気を害した。'
- narrator '\u3000……島の、真の主の気も、……きっと。'
- narrator '\u3000………………………。'
+ narrator 'Even thinking about reading a book is making me... sleepy...'
+ narrator "Even being on this wonderful island, even being in this wonderful guesthouse, even with there being such a wonderfully wide rose garden... I'm napping."
+ narrator 'Yeah. This is true vacationing. True luxury, maybe, maybe.'
+ narrator "With the Sonozaki sisters' busy chatting serving as a lullaby, my eyelids grew heavier."
+ narrator "...The odd atmosphere from the witch ghost story seemed like a lie. I wonder if that could have been avoided if I didn't absent-mindedly daydream..."
+ narrator "What I did was akin to saying I didn't believe in Oyashiro-sama while on the Furude shrine grounds. Surely, I had ruined the mood on the island."
+ narrator "...And the master of the island's too... surely..."
+ narrator '...'
  play sound ['audio/sfx/SE_5054_rain.wav','audio/sfx/SE_5054_rain.wav'] fadeout 1.0
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -903,30 +903,30 @@ label event01_30_02:
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '………………………。'
+ erika '...'
  show dlanor_v001 normal at mei_left
  with Dissolve(1.0)
  show dlanor_v001 normal at active
  show erika_v001 normal at inactive
- dlanor 'なるほど。天気雨にもなる訳デス。'
+ dlanor 'I SEE. Sunshowers do happen TOO.'
  show dlanor_v001 normal_close at active
  show erika_v001 normal at inactive
- dlanor 'ファンタジーの腸を引き摺り出すことを生き甲斐とする貴女が、ベ\nアトリーチェ卿の肩を持つトハ。'
+ dlanor 'For someone like you, who lives to tear fantasy apart, siding with Lady Beatrice IS...'
  show erika_v001 normal_close at active
  show dlanor_v001 normal_close at inactive
- erika 'まったくです。蕁麻疹が出ちゃいますね。'
+ erika "Seriously. It's going to give me hives."
  show erika_v001 normal at active
  show dlanor_v001 normal_close at inactive
- erika '私は、ベアトの誕生祝いを託された、我が主の使いなのですから。\n立場は、一応、弁えているつもりです。'
+ erika "I was my master's slave in delivering Beato's present because of that. That was more or less my understanding of it."
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
- dlanor 'それにしても、今日のランチはお見事だったデス。'
+ dlanor "At any rate, today's lunch was quite MAGNIFICENT."
  show erika_v001 smile at active
  show dlanor_v001 smile at inactive
- erika 'プレートに盛られたオムライスであろうとも。私はお箸で美味しく\nいただけてしまうのですっ。'
+ erika 'With that plate heaping with that much omurice, I had to slurp it up deliciously with chopsticks.'
  show dlanor_v001 normal at active
  show erika_v001 smile at inactive
- dlanor 'ところで、それは……？'
+ dlanor 'By the way, that IS...?'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
- erika 'これが、ベアトへの誕生祝いです。ね？\u3000気に入ってくれそうで\nしょう？'
+ erika "This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?"
