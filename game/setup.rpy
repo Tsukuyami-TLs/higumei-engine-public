@@ -39,21 +39,21 @@ image ctcArrow:
 
 transform mei_center:
     xanchor 0.5
-    xpos 0.5
+    xpos 960
 
     yanchor 1.0
     ypos 1200
 
 transform mei_left:
     xanchor 0.5
-    xpos 0.25
+    xpos 480
 
     yanchor 1.0
     ypos 1200
 
 transform mei_right:
     xanchor 0.5
-    xpos 0.74
+    xpos 1440
 
     yanchor 1.0
     ypos 1200
