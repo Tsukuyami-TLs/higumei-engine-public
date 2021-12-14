@@ -529,7 +529,7 @@ screen events():
         yalign 0.5
         spacing 10
 
-        textbutton "The Witch's Bloodstained Birthday Banquet" style "button_story" action Start("event01_30_01")
+        textbutton "The Witch's Bloodstained Birthday Banquet" style "button_story" action Start("event01_30_04")
 
 
 

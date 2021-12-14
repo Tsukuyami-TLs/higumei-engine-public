@@ -79,3 +79,4 @@ transform inactive:
 transform active:
     matrixcolor BrightnessMatrix(0.0)
 
+image crack_effect = Movie(play="video/crack_video.mp4", mask="video/crack_mask.mp4", loop=False)

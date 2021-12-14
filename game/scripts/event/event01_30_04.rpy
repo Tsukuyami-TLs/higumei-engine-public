@@ -493,6 +493,7 @@ label event01_30_04:
  nao '#4169e1 The servant Shannon-san has a master key. Through that, she used the key to unlock the door, enter the room, and perform the prank! #r'
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_5036_glass_break.wav'
+ show crack_effect
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show beatrice_v001 futeki at active
  show nao_v002 sinken at inactive
@@ -547,11 +548,11 @@ label event01_30_04:
  beatrice "Naooo, please do let me dig out the dirt from your naaaillss! Battler's going to love drinking iiiit!"
  hide beatrice_v001
  with Dissolve(0.2)
- show nao_v002 noemal at mei_left
+ show nao_v002 normal at mei_left
  show dlanor_v001 normal at mei_right
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- show nao_v002 noemal at inactive
+ show nao_v002 normal at inactive
  dlanor 'Okay, NAO. This is your game NOW. Please challenge it to your LIKING.'
  show nao_v002 smile at active
  show dlanor_v001 normal at inactive
