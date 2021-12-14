@@ -480,4 +480,32 @@ init python:
         gui.nvl_button_xpos = 30
 
 
+# Click to continue arrow
+image Arrow1 = "gui/adv_Arrow1.png"
+image Arrow2 = "gui/adv_Arrow2.png"
+
+image ctcArrow:
+    contains:
+        xpos 1630 ypos 992 xanchor 0.5
+        "Arrow1"
+        parallel:
+            0.1
+            ease 0.1 xzoom 0.0
+            ease 0.1 xzoom 1.0
+        parallel:
+            ease 0.4 yoffset 20
+        0.1
+        ease 0.4 yoffset 0
+        repeat
+    contains:
+        xpos 1630 ypos 984 xanchor 0.5
+        "Arrow2"
+        parallel:
+            ease 0.1 xzoom 0.0
+            ease 0.1 xzoom 1.0
+        parallel:
+            0.1
+            ease 0.4 yoffset 20
+        ease 0.4 yoffset 0
+        repeat
 

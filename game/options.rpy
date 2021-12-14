@@ -113,7 +113,6 @@ define config.window = "auto"
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
-
 ## Preference defaults #########################################################
 
 ## Controls the default text speed. The default, 0, is infinite, while any other
@@ -206,3 +205,8 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+define config.gl2 = True
+define config.default_transform = truecenter
+define config.window_auto_hide = {}
+
