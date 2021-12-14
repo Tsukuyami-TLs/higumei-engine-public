@@ -232,6 +232,10 @@ class Compiler:
         dx = int(line.get('arg2', '0'))
         self.variables[line['arg0']] = self.variables[line['arg1']] + dx
 
+    def crack(self, typ, line, cmd):
+        print('If this is not umineko collab event 4, this will be borked')
+        self.outlines.append('show crack_effect')
+
     def zoom(self, typ, line, cmd):
         mag = line['arg0']
         xpos = self.variables[line['arg1']]
