@@ -300,7 +300,6 @@ camera:
     def 背景(self, typ, line, cmd):
         bgname = line["arg0"]
         self.shown.clear()
-        command = ""
         if bgname == "暗幕":
             self.background = f'scene expression "#000" as bg'
         else:
@@ -310,7 +309,7 @@ camera:
             self.background = f'scene expression {repr(bgname)} as bg'
 
         if not self.faded:
-            self.outlines.append(command)
+            self.outlines.append(self.background)
         else:
             self.outlines.append(f'scene expression "{self.faded}"')
             self.background = self.background.replace('scene', 'show', 1)
@@ -335,6 +334,19 @@ camera:
         time = int(line['arg1']) / 60
         self.faded = color
         self.outlines.append(f'show expression "{color}" as fade with Dissolve({time})')
+
+    def wipeout(self, typ, line, cmd):
+        self.outlines.append('call wipeout_routine')
+        self.faded = "#000"
+
+    def wipein(self, typ, line, cmd):
+        if self.background: 
+            self.outlines.append(self.background.replace('scene', 'show', 1))
+            self.background = None
+        
+        self.faded = False
+        self.output_shows()
+        self.outlines.append('call wipein_routine')
 
     def bgm2(self, typ, line, cmd):
         name = BGM[line["arg0"]]
@@ -384,7 +396,7 @@ camera:
             self.outlines.append(f'play sound [{l}] fadeout 1.0')
 
     def wait(self, typ, line, cmd):
-        self.outlines.append(f'pause {int(line["arg0"])/30}')
+        self.outlines.append(f'pause {int(line["arg0"])/60}')
 
     def output_shows(self):
         if self.faded: return
