@@ -146,7 +146,7 @@ label event01_30_07:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2351.png' as bg
  with Dissolve(1.0)
- pause 4.0
+ pause 2.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -326,18 +326,24 @@ label event01_30_07:
  show expression "#000" as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
- pause 4.0
+ pause 2.0
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2361.png' as bg
  with Dissolve(1.0)
- pause 4.0
+ pause 2.0
+ call wipeout_routine
  stop sound
- 
- pause 4.0
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2271.png' as bg
+ call wipein_routine
+ pause 2.0
+ call wipeout_routine
  stop sound
- 
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2221.png' as bg
+ call wipein_routine
  narrator 'After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.'
  narrator "Finally, I had the chance to embroider to my heart's content, surrounded by the wonderful roses in the arbor."
  narrator 'The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo op that afternoon.'
@@ -389,7 +395,7 @@ label event01_30_07:
   zoom 1.3
  hide mion_v004
  hide nao_v002
- scene expression 'images/bg/AdvBg_2221.png' as bg
+ hide fade with Dissolve(0.08333333333333333)
  show shion_v012 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
@@ -686,7 +692,7 @@ label event01_30_07:
  show shion_v012 smile:
   linear 0.16666666666666666 pos (-480,1200)
  pause 0.16666666666666666
- pause 1.0
+ pause 0.5
  play audio 'audio/sfx/SE_332_ls_fall.wav'
  show mion_v004 odoroki
  show mion_v004 odoroki:
@@ -798,7 +804,7 @@ label event01_30_07:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
- pause 4.0
+ pause 2.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
