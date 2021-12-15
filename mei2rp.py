@@ -20,32 +20,32 @@ COLORS = {
     '赤': "#e11", # TODO tune the red
 }
 
-with open('mappings/charnames.csv') as cnames:
+with open('mappings/charnames.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
         if len(line) < 3: continue
         JP2ID[line[0]] = line[1]
         ID2NAME[line[1]] = line[2]
 
-with open('mappings/bg.csv') as cnames:
+with open('mappings/bg.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
         if len(line) < 2: continue
         BACKGROUND[line[0]] = line[1]
 
-with open('mappings/bgm.csv') as cnames:
+with open('mappings/bgm.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
         if len(line) < 2: continue
         BGM[line[0]] = line[1]
 
-with open('mappings/se.csv') as cnames:
+with open('mappings/se.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
         if len(line) < 2: continue
         SFX[line[0]] = line[1]
 
-with open('mappings/shakes.csv') as cnames:
+with open('mappings/shakes.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
         if len(line) < 2: continue
@@ -55,7 +55,7 @@ for outfit in os.listdir(OUTFIT_MAPS):
     name = outfit.split('.')[0]
     OUTFITS[name] = {}
 
-    with open(OUTFIT_MAPS + outfit) as cnames:
+    with open(OUTFIT_MAPS + outfit, 'r', encoding='utf8') as cnames:
         reader = csv.reader(cnames)
         for line in reader:
             if len(line) < 2: continue
@@ -442,12 +442,12 @@ camera:
 def compile_script(folder, fname):
     header = f'label {fname}:'
     
-    with open(f'scripts/{folder}/{fname}.bytes') as jsonfile:
+    with open(f'scripts/{folder}/{fname}.bytes', 'rb') as jsonfile:
         og_script = json.load(jsonfile)['scr']
 
     try:
         tl_dict = {}
-        with open(f'translations/{folder}/{fname}.csv') as tlfile:
+        with open(f'translations/{folder}/{fname}.csv', 'r', encoding='utf8') as tlfile:
             reader = csv.reader(tlfile)
             for line in reader:
                 if len(line) < 4: continue
@@ -459,7 +459,7 @@ def compile_script(folder, fname):
 
     compiled = Compiler(og_script, tl_dict).compile_commands()
 
-    with open(f'game/scripts/{folder}/{fname}.rpy', 'w') as outfile:
+    with open(f'game/scripts/{folder}/{fname}.rpy', 'w', encoding='utf8') as outfile:
         outfile.write(header + '\n' + indent(compiled, 1))
 
 
