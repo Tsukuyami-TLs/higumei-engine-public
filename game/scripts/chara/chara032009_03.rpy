@@ -17,7 +17,7 @@ label chara032009_03:
  show expression 'images/bg/AdvBg_2190.png' as bg
  show beatrice_v001 normal_close at mei_right
  with Dissolve(1.0)
- pause 2.0
+ pause 1.0
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active

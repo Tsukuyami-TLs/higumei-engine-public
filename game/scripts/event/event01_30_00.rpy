@@ -43,7 +43,7 @@ label event01_30_00:
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
- pause 6.0
+ pause 3.0
  scene expression "#000"
  narrator "I shouldn't have come to this island........ Now that I think about it, the invitation to Rokkenjima island was very abrupt"
  window hide None
@@ -233,7 +233,7 @@ label event01_30_00:
  narrator "If so, then they can have their time to have fun with themselves, and I'll have my time to myself."
  narrator "Althought you wouldn't call it a cruise, the view of the horizon from the ferry was quite nice."
  play audio 'audio/sfx/SE_611_ls_wind.wav'
- pause 1.0
+ pause 0.5
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -520,7 +520,7 @@ label event01_30_00:
  play music 'audio/bgm/BGM_QUEST4_COLLAB2.wav'
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
- pause 4.0
+ pause 2.0
  show dlanor_v001 fuan_close at mei_left
  with Dissolve(1.0)
  show dlanor_v001 fuan_close at active

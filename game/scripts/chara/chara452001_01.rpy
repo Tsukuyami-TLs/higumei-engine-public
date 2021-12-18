@@ -59,7 +59,7 @@ label chara452001_01:
  with Dissolve(0.2)
  narrator '…………。'
  show expression "#000" as fade with Dissolve(1.0)
- pause 2.0
+ pause 1.0
  hide fade with Dissolve(1.0)
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_left

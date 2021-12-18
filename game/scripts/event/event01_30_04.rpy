@@ -4,7 +4,7 @@ label event01_30_04:
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
- pause 4.0
+ pause 2.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -87,7 +87,7 @@ label event01_30_04:
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_5040_handclap.wav'
- pause 2.6666666666666665
+ pause 1.3333333333333333
  play audio 'audio/sfx/SE_5040_handclap.wav'
  narrator "At that moment, the mental fog inside of my head had finally been cleared.\nAnd, that's when I've heard clapping, and a laugh..."
  show nao_v002 normal at mei_center
@@ -141,7 +141,7 @@ label event01_30_04:
    linear 0.5 zoom 1.0
  hide nao_v002
  with Dissolve(0.2)
- pause 2.0
+ pause 1.0
  show beatrice_v001 futeki at mei_center
  with Dissolve(2.0)
  show beatrice_v001 futeki at updown_shake_transform,active
@@ -262,7 +262,7 @@ label event01_30_04:
  pause 0.5
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  stop music fadeout 0.5
- pause 2.0
+ pause 1.0
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show nao_v002 normal at mei_left
  show beatrice_v001 normal at mei_right
@@ -339,7 +339,7 @@ label event01_30_04:
  hide nao_v002
  with Dissolve(0.2)
  play music 'audio/bgm/BGM_QUEST4_COLLAB2.wav'
- pause 2.0
+ pause 1.0
  show dlanor_v001 normal at mei_center
  with Dissolve(2.0)
  show dlanor_v001 normal at active

@@ -59,7 +59,7 @@ label chara452001_02:
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
- pause 2.0
+ pause 1.0
  show expression 'images/bg/AdvBg_1352.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'

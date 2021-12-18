@@ -43,7 +43,7 @@ label event01_30_02:
  play audio 'audio/sfx/SE_530_walk_one.wav'
  hide kanon_v001
  with Dissolve(0.3)
- pause 2.0
+ pause 1.0
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -583,7 +583,7 @@ label event01_30_02:
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
- pause 6.0
+ pause 3.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -873,7 +873,7 @@ label event01_30_02:
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_536_up_stairs.wav'
- pause 5.0
+ pause 2.5
  play audio 'audio/sfx/SE_5007_keyroll.wav'
  narrator 'The four of us went up to the second floor. And so, we unlocked each of our rooms with our respective keys and entered.'
  show expression "#000" as fade with Dissolve(1.0)

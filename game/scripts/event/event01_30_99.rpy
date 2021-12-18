@@ -4,7 +4,7 @@ label event01_30_99:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(2.0)
- pause 2.0
+ pause 1.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -214,12 +214,18 @@ label event01_30_99:
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2271.png' as bg
  with Dissolve(1.0)
- pause 2.0
+ pause 1.0
+ call wipeout_routine
  stop sound
- 
- pause 2.0
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2221.png' as bg
+ call wipein_routine
+ pause 1.0
+ call wipeout_routine
  stop sound
- 
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2251.png' as bg
+ call wipein_routine
  show jessica_v001 smile at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile at active
@@ -361,7 +367,7 @@ label event01_30_99:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
- scene expression 'images/bg/AdvBg_2251.png' as bg
+ hide fade with Dissolve(0.08333333333333333)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 normal_close at active
@@ -384,7 +390,7 @@ label event01_30_99:
  window hide None
  hide nao_v002
  with Dissolve(0.2)
- pause 6.0
+ pause 3.0
  play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
  stop sound
  scene expression "#fff"
@@ -781,4 +787,4 @@ label event01_30_99:
  show nao_v014 sinken at active
  nao "What's with this outfit!! It's tasteless!! It's the worstttttttt!!!"
  show expression "#000" as fade with Dissolve(3.0)
- pause 3.0
+ pause 1.5

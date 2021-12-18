@@ -198,7 +198,7 @@ label event01_30_06:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- pause 2.0
+ pause 1.0
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
  show shion_v008 smile at mei_left
  show mion_v014 smile at mei_right
@@ -245,7 +245,7 @@ label event01_30_06:
  show jessica_v001 smile_blush:
   linear 0.16666666666666666 pos (2400,1200)
  pause 0.16666666666666666
- pause 2.0
+ pause 1.0
  hide shion_v008
  hide jessica_v001
  with Dissolve(0.2)

@@ -44,7 +44,7 @@ label chara472001_03:
  with Dissolve(0.2)
  stop sound
  scene expression "#000"
- pause 2.0
+ pause 1.0
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)

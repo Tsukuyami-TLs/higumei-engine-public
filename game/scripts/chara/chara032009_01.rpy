@@ -4,10 +4,13 @@ label chara032009_01:
  show expression 'images/bg/AdvBg_341.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
- pause 2.0
+ pause 1.0
+ call wipeout_routine
  stop sound
- 
+ scene expression "#000"
  play music 'audio/bgm/TODO Nao SSR Part 1.wav'
+ show expression 'images/bg/AdvBg_351.png' as bg
+ call wipein_routine
  show satoko_v002 fuan at mei_right
  show rika_v002 smile at mei_left
  with Dissolve(0.5)

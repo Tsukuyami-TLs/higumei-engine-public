@@ -179,7 +179,7 @@ label event01_30_03:
  narrator 'For unrelated people looking in from a distance, Erika-san might seem like a really amusing person.'
  window hide None
  stop music fadeout 2.0
- pause 6.0
+ pause 3.0
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  narrator 'After dinner, we were all sat in front of the TV, relaxing on the sofa.'
  narrator "While being pleasantly full from all that food, even though I shouldn't have been doing that much these days, I started getting the strange feeling that I had done my best today."
@@ -375,7 +375,7 @@ label event01_30_03:
  show shannon_v001 fuan at active
  shannon 'Nao-sama... Saying things like that can be very-...'
  play audio 'audio/sfx/SE_5029_slap_back.wav'
- pause 1.0
+ pause 0.5
  play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
@@ -592,7 +592,7 @@ label event01_30_03:
  narrator 'When Mion-san comes into the picture, anytime playing is involved, it transforms into a much darker game...'
  narrator 'No one wanted to get their pillow wet with tears of humiliation on their first night here. Everyone diligently looked over the rules.'
  play audio 'audio/sfx/SE_526_door_open.wav'
- pause 1.0
+ pause 0.5
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
  show shannon_v001 smile at active
@@ -669,7 +669,7 @@ label event01_30_03:
  hide mion_v002
  hide jessica_v001
  with Dissolve(0.2)
- pause 4.0
+ pause 2.0
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
  narrator "When you play a board game for the first time, it's often accompanied with taking a while to look over all of the rules."
  show jessica_v001 fuan at mei_center
@@ -864,14 +864,14 @@ label event01_30_03:
  with Dissolve(1.0)
  narrator "There's a light switch inside. Without breaking the Western-style house feel, what illuminated inside was some disorenting proof."
  window hide None
- 
+ scene expression "#000" as bg
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(2.0)
- pause 2.0
+ pause 1.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -913,4 +913,4 @@ label event01_30_03:
  show nao_v002 fuan at active
  nao 'A........  magic circle.........'
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
- pause 4.0
+ pause 2.0

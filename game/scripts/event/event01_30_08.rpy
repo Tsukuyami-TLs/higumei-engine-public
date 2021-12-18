@@ -375,9 +375,12 @@ label event01_30_08:
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
- pause 2.0
+ pause 1.0
+ call wipeout_routine
  stop sound
- 
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2281.png' as bg
+ call wipein_routine
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
@@ -401,7 +404,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- scene expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '#ff0000When the door is locked, there is no way to enter the room until Erika unlocks IT.#r'

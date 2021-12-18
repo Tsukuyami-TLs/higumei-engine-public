@@ -5,7 +5,7 @@ label event01_30_05:
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
- pause 2.0
+ pause 1.0
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
@@ -506,7 +506,7 @@ label event01_30_05:
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  stop music fadeout 0.5
- pause 4.0
+ pause 2.0
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
@@ -608,11 +608,11 @@ label event01_30_05:
  show mion_v005 smile at inactive
  shion 'Su-re♪ Can you fully capture my cuteness, Sis?'
  play audio 'audio/sfx/SE_201_shutter.wav'
- pause 0.6666666666666666
+ pause 0.3333333333333333
  play audio 'audio/sfx/SE_201_shutter.wav'
- pause 0.6666666666666666
+ pause 0.3333333333333333
  play audio 'audio/sfx/SE_201_shutter.wav'
- pause 0.6666666666666666
+ pause 0.3333333333333333
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)

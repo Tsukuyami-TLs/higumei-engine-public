@@ -247,7 +247,7 @@ label event01_30_10:
  hide dlanor_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_5040_handclap.wav'
- pause 2.6666666666666665
+ pause 1.3333333333333333
  play audio 'audio/sfx/SE_5040_handclap.wav'
  narrator ''
  narrator ''
@@ -355,19 +355,25 @@ label event01_30_10:
  scene expression "#fff"
  show expression 'images/bg/AdvBg_2221.png' as bg
  with Dissolve(1.0)
- pause 2.0
+ pause 1.0
+ call wipeout_routine
  stop sound
- 
- pause 2.0
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2271.png' as bg
+ call wipein_routine
+ pause 1.0
+ call wipeout_routine
  stop sound
- 
+ scene expression "#000"
+ show expression 'images/bg/AdvBg_2281.png' as bg
+ call wipein_routine
  play audio 'audio/sfx/SE_543_bird.wav'
  narrator ''
  narrator ''
  narrator ''
  narrator ''
  stop music fadeout 0.5
- 
+ scene expression "#000" as bg
  narrator ''
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  nao ''
@@ -428,7 +434,7 @@ label event01_30_10:
  window hide None
  show expression "#000" as fade with Dissolve(2.0)
  scene expression "#000"
- pause 4.0
+ pause 2.0
  stop music
  nao ''
  narrator ''
@@ -470,7 +476,9 @@ label event01_30_10:
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_408_run.wav'
  narrator ''
- pause 4.0
+ call wipeout_routine
+ call wipein_routine
+ pause 2.0
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -584,7 +592,7 @@ label event01_30_10:
    linear 0.5 zoom 1.3
  pause 0.5
  play audio 'audio/sfx/SE_5037_getup.wav'
- pause 4.0
+ pause 2.0
  camera at screenshake_transform
  pause 0.0
  show erika_v001 smile at active
@@ -665,7 +673,7 @@ label event01_30_10:
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_341_ls_WhistleShort.wav'
- pause 0.3333333333333333
+ pause 0.16666666666666666
  play audio 'audio/sfx/SE_341_ls_WhistleLong.wav'
  camera at screenshake_transform
  pause 0.0
@@ -705,7 +713,7 @@ label event01_30_10:
  narrator ''
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
- pause 2.0
+ pause 1.0
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.wav'
  hide fade with Dissolve(1.0)
  with Dissolve(1.0)

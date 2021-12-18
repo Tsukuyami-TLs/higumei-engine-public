@@ -271,7 +271,7 @@ label event01_30_01:
  play audio 'audio/sfx/SE_5005_grab.wav'
  camera at screenshake_transform
  pause 0.0
- pause 2.0
+ pause 1.0
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
@@ -388,7 +388,7 @@ label event01_30_01:
   parallel:
    linear 0.5 zoom 1.5
  pause 0.5
- pause 2.0
+ pause 1.0
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -397,7 +397,7 @@ label event01_30_01:
   parallel:
    linear 1.0 zoom 1.5
  pause 1.0
- pause 2.0
+ pause 1.0
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -974,7 +974,7 @@ label event01_30_01:
   parallel:
    linear 1.0 zoom 1.3
  pause 1.0
- pause 2.0
+ pause 1.0
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -1044,8 +1044,8 @@ label event01_30_01:
  narrator 'That was the first meeting between me and the witch.'
  narrator 'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait.........'
  window hide None
- pause 4.0
- play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
  pause 2.0
+ play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
+ pause 1.0
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  beatrice '*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans......!!'

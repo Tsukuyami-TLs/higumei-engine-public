@@ -72,7 +72,7 @@ label event01_30_09:
  with Dissolve(0.3)
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
- pause 2.0
+ pause 1.0
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -386,7 +386,7 @@ label event01_30_09:
  show expression "#000" as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
- pause 2.0
+ pause 1.0
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_BOSS1_COLLAB2.wav'
@@ -801,7 +801,7 @@ label event01_30_09:
    linear 0.5 zoom 1.2
  pause 0.5
  play audio 'audio/sfx/SE_391_ls_swing.wav'
- pause 0.6666666666666666
+ pause 0.3333333333333333
  play audio 'audio/sfx/SE_391_ls_swing.wav'
  show nao_v002 normal at active
  show erika_v001 odoroki at inactive
