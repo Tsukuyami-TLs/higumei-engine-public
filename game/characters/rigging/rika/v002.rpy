@@ -1,7 +1,9 @@
 image rika_v002 fuan_close:
+ animation
  
  "characters/sprites/rika/v002//fuan_close.png"
 image rika_v002 fuan:
+ animation
  
  "characters/sprites/rika/v002//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image rika_v002 fuan:
   pause 5.0
  repeat
 image rika_v002 fuan_blush_close:
+ animation
  
  "characters/sprites/rika/v002//fuan_blush_close.png"
 image rika_v002 fuan_blush:
+ animation
  
  "characters/sprites/rika/v002//fuan_blush_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image rika_v002 fuan_blush:
   pause 5.0
  repeat
 image rika_v002 futeki_close:
+ animation
  
  "characters/sprites/rika/v002//futeki_close.png"
 image rika_v002 futeki:
+ animation
  
  "characters/sprites/rika/v002//futeki_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image rika_v002 futeki:
   pause 5.0
  repeat
 image rika_v002 futeki_blush_close:
+ animation
  
  "characters/sprites/rika/v002//futeki_blush_close.png"
 image rika_v002 futeki_blush:
+ animation
  
  "characters/sprites/rika/v002//futeki_blush_close.png"
  pause 0.0667
@@ -63,9 +71,11 @@ image rika_v002 futeki_blush:
   pause 5.0
  repeat
 image rika_v002 normal_close:
+ animation
  
  "characters/sprites/rika/v002//normal_close.png"
 image rika_v002 normal:
+ animation
  
  "characters/sprites/rika/v002//normal_close.png"
  pause 0.0667
@@ -79,9 +89,11 @@ image rika_v002 normal:
   pause 5.0
  repeat
 image rika_v002 normal_blush_close:
+ animation
  
  "characters/sprites/rika/v002//normal_blush_close.png"
 image rika_v002 normal_blush:
+ animation
  
  "characters/sprites/rika/v002//normal_blush_close.png"
  pause 0.0667
@@ -95,9 +107,11 @@ image rika_v002 normal_blush:
   pause 5.0
  repeat
 image rika_v002 odoroki_close:
+ animation
  
  "characters/sprites/rika/v002//odoroki_close.png"
 image rika_v002 odoroki:
+ animation
  
  "characters/sprites/rika/v002//odoroki_close.png"
  pause 0.0667
@@ -111,9 +125,11 @@ image rika_v002 odoroki:
   pause 5.0
  repeat
 image rika_v002 odoroki_blush_close:
+ animation
  
  "characters/sprites/rika/v002//odoroki_blush_close.png"
 image rika_v002 odoroki_blush:
+ animation
  
  "characters/sprites/rika/v002//odoroki_blush_close.png"
  pause 0.0667
@@ -127,9 +143,11 @@ image rika_v002 odoroki_blush:
   pause 5.0
  repeat
 image rika_v002 sinken_close:
+ animation
  
  "characters/sprites/rika/v002//sinken_close.png"
 image rika_v002 sinken:
+ animation
  
  "characters/sprites/rika/v002//sinken_close.png"
  pause 0.0667
@@ -143,9 +161,11 @@ image rika_v002 sinken:
   pause 5.0
  repeat
 image rika_v002 sinken_blush_close:
+ animation
  
  "characters/sprites/rika/v002//sinken_blush_close.png"
 image rika_v002 sinken_blush:
+ animation
  
  "characters/sprites/rika/v002//sinken_blush_close.png"
  pause 0.0667
@@ -159,9 +179,11 @@ image rika_v002 sinken_blush:
   pause 5.0
  repeat
 image rika_v002 smile_close:
+ animation
  
  "characters/sprites/rika/v002//smile_close.png"
 image rika_v002 smile:
+ animation
  
  "characters/sprites/rika/v002//smile_close.png"
  pause 0.0667
@@ -175,9 +197,11 @@ image rika_v002 smile:
   pause 5.0
  repeat
 image rika_v002 smile_blush_close:
+ animation
  
  "characters/sprites/rika/v002//smile_blush_close.png"
 image rika_v002 smile_blush:
+ animation
  
  "characters/sprites/rika/v002//smile_blush_close.png"
  pause 0.0667

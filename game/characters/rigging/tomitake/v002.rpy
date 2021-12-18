@@ -1,7 +1,9 @@
 image tomitake_v002 fuan_close:
+ animation
  
  "characters/sprites/tomitake/v002//fuan_close.png"
 image tomitake_v002 fuan:
+ animation
  
  "characters/sprites/tomitake/v002//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image tomitake_v002 fuan:
   pause 5.0
  repeat
 image tomitake_v002 normal_close:
+ animation
  
  "characters/sprites/tomitake/v002//normal_close.png"
 image tomitake_v002 normal:
+ animation
  
  "characters/sprites/tomitake/v002//normal_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image tomitake_v002 normal:
   pause 5.0
  repeat
 image tomitake_v002 sinken_close:
+ animation
  
  "characters/sprites/tomitake/v002//sinken_close.png"
 image tomitake_v002 sinken:
+ animation
  
  "characters/sprites/tomitake/v002//sinken_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image tomitake_v002 sinken:
   pause 5.0
  repeat
 image tomitake_v002 smile_close:
+ animation
  
  "characters/sprites/tomitake/v002//smile_close.png"
 image tomitake_v002 smile:
+ animation
  
  "characters/sprites/tomitake/v002//smile_close.png"
  pause 0.0667

@@ -1,7 +1,9 @@
 image hanyuu_v012 fuan_close:
+ animation
  
  "characters/sprites/hanyuu/v012//fuan_close.png"
 image hanyuu_v012 fuan:
+ animation
  
  "characters/sprites/hanyuu/v012//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image hanyuu_v012 fuan:
   pause 5.0
  repeat
 image hanyuu_v012 fuan_blush_close:
+ animation
  
  "characters/sprites/hanyuu/v012//fuan_blush_close.png"
 image hanyuu_v012 fuan_blush:
+ animation
  
  "characters/sprites/hanyuu/v012//fuan_blush_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image hanyuu_v012 fuan_blush:
   pause 5.0
  repeat
 image hanyuu_v012 futeki_close:
+ animation
  
  "characters/sprites/hanyuu/v012//futeki_close.png"
 image hanyuu_v012 futeki:
+ animation
  
  "characters/sprites/hanyuu/v012//futeki_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image hanyuu_v012 futeki:
   pause 5.0
  repeat
 image hanyuu_v012 futeki_blush_close:
+ animation
  
  "characters/sprites/hanyuu/v012//futeki_blush_close.png"
 image hanyuu_v012 futeki_blush:
+ animation
  
  "characters/sprites/hanyuu/v012//futeki_blush_close.png"
  pause 0.0667
@@ -63,9 +71,11 @@ image hanyuu_v012 futeki_blush:
   pause 5.0
  repeat
 image hanyuu_v012 normal_close:
+ animation
  
  "characters/sprites/hanyuu/v012//normal_close.png"
 image hanyuu_v012 normal:
+ animation
  
  "characters/sprites/hanyuu/v012//normal_close.png"
  pause 0.0667
@@ -79,9 +89,11 @@ image hanyuu_v012 normal:
   pause 5.0
  repeat
 image hanyuu_v012 normal_blush_close:
+ animation
  
  "characters/sprites/hanyuu/v012//normal_blush_close.png"
 image hanyuu_v012 normal_blush:
+ animation
  
  "characters/sprites/hanyuu/v012//normal_blush_close.png"
  pause 0.0667
@@ -95,9 +107,11 @@ image hanyuu_v012 normal_blush:
   pause 5.0
  repeat
 image hanyuu_v012 odoroki_close:
+ animation
  
  "characters/sprites/hanyuu/v012//odoroki_close.png"
 image hanyuu_v012 odoroki:
+ animation
  
  "characters/sprites/hanyuu/v012//odoroki_close.png"
  pause 0.0667
@@ -111,9 +125,11 @@ image hanyuu_v012 odoroki:
   pause 5.0
  repeat
 image hanyuu_v012 odoroki_blush_close:
+ animation
  
  "characters/sprites/hanyuu/v012//odoroki_blush_close.png"
 image hanyuu_v012 odoroki_blush:
+ animation
  
  "characters/sprites/hanyuu/v012//odoroki_blush_close.png"
  pause 0.0667
@@ -127,9 +143,11 @@ image hanyuu_v012 odoroki_blush:
   pause 5.0
  repeat
 image hanyuu_v012 sinken_close:
+ animation
  
  "characters/sprites/hanyuu/v012//sinken_close.png"
 image hanyuu_v012 sinken:
+ animation
  
  "characters/sprites/hanyuu/v012//sinken_close.png"
  pause 0.0667
@@ -143,9 +161,11 @@ image hanyuu_v012 sinken:
   pause 5.0
  repeat
 image hanyuu_v012 sinken_blush_close:
+ animation
  
  "characters/sprites/hanyuu/v012//sinken_blush_close.png"
 image hanyuu_v012 sinken_blush:
+ animation
  
  "characters/sprites/hanyuu/v012//sinken_blush_close.png"
  pause 0.0667
@@ -159,9 +179,11 @@ image hanyuu_v012 sinken_blush:
   pause 5.0
  repeat
 image hanyuu_v012 smile_close:
+ animation
  
  "characters/sprites/hanyuu/v012//smile_close.png"
 image hanyuu_v012 smile:
+ animation
  
  "characters/sprites/hanyuu/v012//smile_close.png"
  pause 0.0667
@@ -175,9 +197,11 @@ image hanyuu_v012 smile:
   pause 5.0
  repeat
 image hanyuu_v012 smile_blush_close:
+ animation
  
  "characters/sprites/hanyuu/v012//smile_blush_close.png"
 image hanyuu_v012 smile_blush:
+ animation
  
  "characters/sprites/hanyuu/v012//smile_blush_close.png"
  pause 0.0667

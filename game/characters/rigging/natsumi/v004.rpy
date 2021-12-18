@@ -1,7 +1,9 @@
 image natsumi_v004 fuan_close:
+ animation
  
  "characters/sprites/natsumi/v004//fuan_close.png"
 image natsumi_v004 fuan:
+ animation
  
  "characters/sprites/natsumi/v004//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image natsumi_v004 fuan:
   pause 5.0
  repeat
 image natsumi_v004 futeki_close:
+ animation
  
  "characters/sprites/natsumi/v004//futeki_close.png"
 image natsumi_v004 futeki:
+ animation
  
  "characters/sprites/natsumi/v004//futeki_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image natsumi_v004 futeki:
   pause 5.0
  repeat
 image natsumi_v004 normal_close:
+ animation
  
  "characters/sprites/natsumi/v004//normal_close.png"
 image natsumi_v004 normal:
+ animation
  
  "characters/sprites/natsumi/v004//normal_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image natsumi_v004 normal:
   pause 5.0
  repeat
 image natsumi_v004 odoroki_close:
+ animation
  
  "characters/sprites/natsumi/v004//odoroki_close.png"
 image natsumi_v004 odoroki:
+ animation
  
  "characters/sprites/natsumi/v004//odoroki_close.png"
  pause 0.0667
@@ -63,9 +71,11 @@ image natsumi_v004 odoroki:
   pause 5.0
  repeat
 image natsumi_v004 sinken_close:
+ animation
  
  "characters/sprites/natsumi/v004//sinken_close.png"
 image natsumi_v004 sinken:
+ animation
  
  "characters/sprites/natsumi/v004//sinken_close.png"
  pause 0.0667
@@ -79,9 +89,11 @@ image natsumi_v004 sinken:
   pause 5.0
  repeat
 image natsumi_v004 smile_close:
+ animation
  
  "characters/sprites/natsumi/v004//smile_close.png"
 image natsumi_v004 smile:
+ animation
  
  "characters/sprites/natsumi/v004//smile_close.png"
  pause 0.0667

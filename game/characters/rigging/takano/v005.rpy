@@ -1,7 +1,9 @@
 image takano_v005 fuan_close:
+ animation
  
  "characters/sprites/takano/v005//fuan_close.png"
 image takano_v005 fuan:
+ animation
  
  "characters/sprites/takano/v005//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image takano_v005 fuan:
   pause 5.0
  repeat
 image takano_v005 futeki_close:
+ animation
  
  "characters/sprites/takano/v005//futeki_close.png"
 image takano_v005 futeki:
+ animation
  
  "characters/sprites/takano/v005//futeki_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image takano_v005 futeki:
   pause 5.0
  repeat
 image takano_v005 normal_close:
+ animation
  
  "characters/sprites/takano/v005//normal_close.png"
 image takano_v005 normal:
+ animation
  
  "characters/sprites/takano/v005//normal_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image takano_v005 normal:
   pause 5.0
  repeat
 image takano_v005 odoroki_close:
+ animation
  
  "characters/sprites/takano/v005//odoroki_close.png"
 image takano_v005 odoroki:
+ animation
  
  "characters/sprites/takano/v005//odoroki_close.png"
  pause 0.0667
@@ -63,9 +71,11 @@ image takano_v005 odoroki:
   pause 5.0
  repeat
 image takano_v005 sinken_close:
+ animation
  
  "characters/sprites/takano/v005//sinken_close.png"
 image takano_v005 sinken:
+ animation
  
  "characters/sprites/takano/v005//sinken_close.png"
  pause 0.0667
@@ -79,9 +89,11 @@ image takano_v005 sinken:
   pause 5.0
  repeat
 image takano_v005 smile_close:
+ animation
  
  "characters/sprites/takano/v005//smile_close.png"
 image takano_v005 smile:
+ animation
  
  "characters/sprites/takano/v005//smile_close.png"
  pause 0.0667

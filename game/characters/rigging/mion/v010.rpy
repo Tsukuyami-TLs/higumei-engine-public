@@ -1,7 +1,9 @@
 image mion_v010 fuan_close:
+ animation
  
  "characters/sprites/mion/v010//fuan_close.png"
 image mion_v010 fuan:
+ animation
  
  "characters/sprites/mion/v010//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image mion_v010 fuan:
   pause 5.0
  repeat
 image mion_v010 fuan_blush_close:
+ animation
  
  "characters/sprites/mion/v010//fuan_blush_close.png"
 image mion_v010 fuan_blush:
+ animation
  
  "characters/sprites/mion/v010//fuan_blush_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image mion_v010 fuan_blush:
   pause 5.0
  repeat
 image mion_v010 futeki_close:
+ animation
  
  "characters/sprites/mion/v010//futeki_close.png"
 image mion_v010 futeki:
+ animation
  
  "characters/sprites/mion/v010//futeki_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image mion_v010 futeki:
   pause 5.0
  repeat
 image mion_v010 futeki_blush_close:
+ animation
  
  "characters/sprites/mion/v010//futeki_blush_close.png"
 image mion_v010 futeki_blush:
+ animation
  
  "characters/sprites/mion/v010//futeki_blush_close.png"
  pause 0.0667
@@ -63,9 +71,11 @@ image mion_v010 futeki_blush:
   pause 5.0
  repeat
 image mion_v010 normal_close:
+ animation
  
  "characters/sprites/mion/v010//normal_close.png"
 image mion_v010 normal:
+ animation
  
  "characters/sprites/mion/v010//normal_close.png"
  pause 0.0667
@@ -79,9 +89,11 @@ image mion_v010 normal:
   pause 5.0
  repeat
 image mion_v010 normal_blush_close:
+ animation
  
  "characters/sprites/mion/v010//normal_blush_close.png"
 image mion_v010 normal_blush:
+ animation
  
  "characters/sprites/mion/v010//normal_blush_close.png"
  pause 0.0667
@@ -95,9 +107,11 @@ image mion_v010 normal_blush:
   pause 5.0
  repeat
 image mion_v010 odoroki_close:
+ animation
  
  "characters/sprites/mion/v010//odoroki_close.png"
 image mion_v010 odoroki:
+ animation
  
  "characters/sprites/mion/v010//odoroki_close.png"
  pause 0.0667
@@ -111,9 +125,11 @@ image mion_v010 odoroki:
   pause 5.0
  repeat
 image mion_v010 odoroki_blush_close:
+ animation
  
  "characters/sprites/mion/v010//odoroki_blush_close.png"
 image mion_v010 odoroki_blush:
+ animation
  
  "characters/sprites/mion/v010//odoroki_blush_close.png"
  pause 0.0667
@@ -127,9 +143,11 @@ image mion_v010 odoroki_blush:
   pause 5.0
  repeat
 image mion_v010 sinken_close:
+ animation
  
  "characters/sprites/mion/v010//sinken_close.png"
 image mion_v010 sinken:
+ animation
  
  "characters/sprites/mion/v010//sinken_close.png"
  pause 0.0667
@@ -143,9 +161,11 @@ image mion_v010 sinken:
   pause 5.0
  repeat
 image mion_v010 sinken_blush_close:
+ animation
  
  "characters/sprites/mion/v010//sinken_blush_close.png"
 image mion_v010 sinken_blush:
+ animation
  
  "characters/sprites/mion/v010//sinken_blush_close.png"
  pause 0.0667
@@ -159,9 +179,11 @@ image mion_v010 sinken_blush:
   pause 5.0
  repeat
 image mion_v010 smile_close:
+ animation
  
  "characters/sprites/mion/v010//smile_close.png"
 image mion_v010 smile:
+ animation
  
  "characters/sprites/mion/v010//smile_close.png"
  pause 0.0667
@@ -175,9 +197,11 @@ image mion_v010 smile:
   pause 5.0
  repeat
 image mion_v010 smile_blush_close:
+ animation
  
  "characters/sprites/mion/v010//smile_blush_close.png"
 image mion_v010 smile_blush:
+ animation
  
  "characters/sprites/mion/v010//smile_blush_close.png"
  pause 0.0667

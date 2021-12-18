@@ -1,7 +1,9 @@
 image kazuho_v014 fuan_close:
+ animation
  
  "characters/sprites/kazuho/v014//fuan_close.png"
 image kazuho_v014 fuan:
+ animation
  
  "characters/sprites/kazuho/v014//fuan_close.png"
  pause 0.0667
@@ -15,9 +17,11 @@ image kazuho_v014 fuan:
   pause 5.0
  repeat
 image kazuho_v014 futeki_close:
+ animation
  
  "characters/sprites/kazuho/v014//futeki_close.png"
 image kazuho_v014 futeki:
+ animation
  
  "characters/sprites/kazuho/v014//futeki_close.png"
  pause 0.0667
@@ -31,9 +35,11 @@ image kazuho_v014 futeki:
   pause 5.0
  repeat
 image kazuho_v014 normal_close:
+ animation
  
  "characters/sprites/kazuho/v014//normal_close.png"
 image kazuho_v014 normal:
+ animation
  
  "characters/sprites/kazuho/v014//normal_close.png"
  pause 0.0667
@@ -47,9 +53,11 @@ image kazuho_v014 normal:
   pause 5.0
  repeat
 image kazuho_v014 odoroki_close:
+ animation
  
  "characters/sprites/kazuho/v014//odoroki_close.png"
 image kazuho_v014 odoroki:
+ animation
  
  "characters/sprites/kazuho/v014//odoroki_close.png"
  pause 0.0667
@@ -63,9 +71,11 @@ image kazuho_v014 odoroki:
   pause 5.0
  repeat
 image kazuho_v014 sinken_close:
+ animation
  
  "characters/sprites/kazuho/v014//sinken_close.png"
 image kazuho_v014 sinken:
+ animation
  
  "characters/sprites/kazuho/v014//sinken_close.png"
  pause 0.0667
@@ -79,9 +89,11 @@ image kazuho_v014 sinken:
   pause 5.0
  repeat
 image kazuho_v014 smile_close:
+ animation
  
  "characters/sprites/kazuho/v014//smile_close.png"
 image kazuho_v014 smile:
+ animation
  
  "characters/sprites/kazuho/v014//smile_close.png"
  pause 0.0667
