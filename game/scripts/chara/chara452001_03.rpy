@@ -343,7 +343,7 @@ label chara452001_03:
  stop sound
  scene expression "#000"
  pause 1.0
- play music 'audio/bgm/TODO Beatrice SSR Part 3.wav'
+ play music 'audio/bgm/BGM_QUEST9_COLLAB2.wav'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_center
