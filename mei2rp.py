@@ -171,7 +171,7 @@ class Compiler:
             name = get_name(cmd, self.local)
             cid = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
     
-        text = self.translation.get(n, line['arg1'])
+        text = self.translation.get(n, line['arg1']).replace('%', '%%').replace('[', '[[')
         for c, o in self.to_show.items():
             if c == cid: continue
             o.transforms.append('inactive')
@@ -202,7 +202,7 @@ class Compiler:
 
     def chara(self, typ, line, cmd):
         outfit = get_outfit(line['arg0'])
-        expr = line['arg1']
+        expr = line['arg1'].replace('目閉じ', 'close')
         pos = get_pos(line['arg2'])
        
         showchara = ShowChara(outfit, expr)
@@ -460,7 +460,7 @@ def compile_script(folder, fname):
     compiled = Compiler(og_script, tl_dict).compile_commands()
 
     with open(f'game/scripts/{folder}/{fname}.rpy', 'w', encoding='utf8') as outfile:
-        outfile.write(header + '\n' + indent(compiled, 1))
+        outfile.write(header + '\n' + indent(compiled, 1) + '\n return')
 
 
 if __name__ == '__main__':
