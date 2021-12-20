@@ -380,7 +380,7 @@ label event01_30_09:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 fuan at active
- erika 'Now, the time for pity is over!! Show me your palms!! Show theeeeeeeem!!!!! [erika noises]'
+ erika 'Now, the time for pity is over!! Show me your palms!! Show theeeeeeeem!!!!! [[erika noises]'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -556,7 +556,7 @@ label event01_30_09:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at active
- erika 'Something besides this, something besides this [erika breaking down noises]'
+ erika 'Something besides this, something besides this [[erika breaking down noises]'
  show erika_v001 odoroki_close at chara_shake_transform,active
  erika "It's fine, my master...! My reasoning is flawless. Aaaaaaaaa, so don't get mad, don't get mad..."
  hide erika_v001
@@ -614,7 +614,7 @@ label event01_30_09:
  nao "I have physically encountered paranormal phenomena such as gods and tsukuyami, and know that this world doesn't just contain what Humans think it does."
  show beatrice_v001 odoroki at active
  show nao_v002 normal at inactive
- beatrice '...What the....are you.....a voyager witch....!?'
+ beatrice '...What the....are you.....a Voyager witch....!?'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -673,7 +673,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'Of course, I will only need to see the parts having to do with your red truth. In addition, I swear an oath of confidentiality to the great court of heaven that I will never reveal any other truths I have learned.'
+ dlanor 'Of course, I will only need to see the parts having to do with your red truth. In addition, I swear an oath of confidentiality to the Great Court of Heaven that I will never reveal any other truths I have learned.'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
  nao "...You mean she wants to look inside my head? I don't mind."
@@ -908,7 +908,7 @@ label event01_30_09:
  nao "I'd like to negotiate."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice "Hou? Since you're letting me win, I will listen to what you have to say."
+ beatrice "Hoh? Since you're letting me win, I will listen to what you have to say."
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
  nao 'The next turn is yours, but before you declare your victory, I want you to make one move for me.'
@@ -933,7 +933,7 @@ label event01_30_09:
  nao "Because of that, you're an expert in all sorts of spells and rites, correct? Which of course would also include magic circles."
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'Mu. My title is the infinite witch. There is nothing I do not know.'
+ beatrice 'Hmph. I hold the title of Endless Witch. There is nothing I do not know.'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
  nao 'Since you just said that, I want you to look at both the first and second magic circles.'
@@ -973,7 +973,7 @@ label event01_30_09:
  pause 0.0
  hide fade with Dissolve(1.0)
  with Dissolve(1.0)
- narrator "That itself was an explaination. Perhaps it wasn't a magic circle at all."
+ narrator "That itself was an explanation. Perhaps it wasn't a magic circle at all."
  narrator "That line of reasoning explains......why Shannon-san didn't see it as strange, and why Mion-san and Shion-san didn't seem to be too shocked when they saw it......!!"
  show beatrice_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -983,16 +983,16 @@ label event01_30_09:
  nao 'Can you please give us a more detailed explaination?'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'Mu.....the shapes of a magic circle can roughly describe things like the center and flow of energy through it.....'
+ beatrice 'Hmph.....the shapes of a magic circle can roughly describe things like the center and flow of energy through it.....'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice "...This circle looks like it's gathering magical energy from outside of it, but in reality it just passes through the circle without being collected, so it doesn't look like it has any meaning in particular. "
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao "So in the eyes of the witch called the great lord Beatrice......the magic circle doesn't make any sense at all?"
+ nao "So in the eyes of the Great Witch called Lady Beatrice......the magic circle doesn't make any sense at all?"
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
- beatrice 'Mu......this thing that appears to be a magic circle is an illegible fake.'
+ beatrice 'Hmph......this thing that appears to be a magic circle is an illegible fake.'
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -1001,7 +1001,7 @@ label event01_30_09:
  show dlanor_v001 normal at active
  dlanor 'I am a Reader, so I have kept silent, but...I have never seen the letters on the circumference of the summoning circle BEFORE.'
  show dlanor_v001 normal at active
- dlanor 'The great court of heaven uses a vast number of languages, but...I have never seen any like THIS.'
+ dlanor 'The Great Court of Heaven uses a vast number of languages, but...I have never seen any like THIS.'
  hide dlanor_v001
  with Dissolve(0.2)
  show beatrice_v001 normal_close at mei_right
@@ -1075,3 +1075,4 @@ label event01_30_09:
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
  nao 'Maybe that summoning circle.....'
+ return

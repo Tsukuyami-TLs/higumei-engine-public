@@ -865,3 +865,4 @@ label event01_30_10:
  narrator ''
  narrator ''
  narrator ''
+ return

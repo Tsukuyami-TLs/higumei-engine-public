@@ -362,3 +362,4 @@ label chara032009_03:
  show nao_v002 smile_close at active
  show rika_v002 odoroki at inactive
  nao '気がするだけだけど、ね。ふふっ。'
+ return

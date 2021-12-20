@@ -6,7 +6,7 @@ label event01_30_07:
  with Dissolve(1.0)
  narrator 'We returned to the guesthouse, where lunch plates were being served in the hall.'
  narrator 'Shion-san was going on about how amazing the tableware was supposed to be.'
- narrator 'Once you get used to the cuisine on this island, you never want to go back...probably.'
+ narrator 'Once you get used to the cuisine on this island, you never want to go back, perhaps...I hope.'
  show mion_v014 smile at mei_right
  show shion_v008 fuan at mei_left
  with Dissolve(0.5)
@@ -31,7 +31,7 @@ label event01_30_07:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao "..I'm not in the mood for embroidery, so I'll set it down."
+ nao "...I'm not in the mood for embroidery, so I'll set it down."
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
@@ -240,7 +240,7 @@ label event01_30_07:
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show dlanor_v001 fuan at inactive
- erika "#ff0000It was I, Erika Furudo, who performed the magic circle prank on Nao's bed.#r"
+ erika "{umi_red}It was I, Erika Furudo, who performed the magic circle prank on Nao's bed.{/umi_red}"
  hide dlanor_v001
  show beatrice_v001 sinken at mei_right
  with Dissolve(0.5)
@@ -253,7 +253,7 @@ label event01_30_07:
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show beatrice_v001 sinken at inactive
- erika "#ff0000After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheet with another that had the magic circle drawn on it in advance.#r"
+ erika "{umi_red}After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheet with another that had the magic circle drawn on it in advance.{/umi_red}"
  show beatrice_v001 sinken at nod_transform,active
  show erika_v001 normal at inactive
  beatrice "Of course, I see! Even Nao would've figured that out long ago!"
@@ -285,7 +285,7 @@ label event01_30_07:
  play audio 'audio/sfx/SE_5036_glass_break.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
- narrator '#ff0000On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.#r'
+ narrator '{umi_red}On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.{/umi_red}'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -318,7 +318,7 @@ label event01_30_07:
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
  show erika_v001 smile at active
- erika 'Uhuhuhuhu. It really is a treat to dangle riddles in front of Beatrice like this♪'
+ erika '*giggle*giggle* It really is a treat to dangle riddles in front of Beatrice like this♪'
  show erika_v001 futeki at active
  erika 'Keep doing your best, okay? Didn\'t "they" see through everything on their first try?'
  stop music fadeout 0.5
@@ -448,7 +448,7 @@ label event01_30_07:
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao 'Two days and three nights went by in the blink of an eye, huh?'
+ nao 'Three days and two nights went by in the blink of an eye, huh?'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v012 smile at mei_left
@@ -767,7 +767,7 @@ label event01_30_07:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika '....Ahhhh.....uwaaaaaa...'
+ erika '...Ahhhh...uwaaaaaa...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -795,7 +795,7 @@ label event01_30_07:
  hide shion_v007
  with Dissolve(0.2)
  narrator 'Shion-san gripped her stun gun tightly and leapt into the room.'
- narrator 'Wait a minute, she just ran out of the bathroom with a towel! Why does she have a stun gun?! I feel like giving up...'
+ narrator 'Wait a minute, she just ran out of the bathroom with a towel! Why does she have a stun gun?! I give up...'
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  window hide None
@@ -821,7 +821,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 futeki at active
  show nao_v002 normal at inactive
- mion '*cackle*cackle* Well well well, what have we here?'
+ mion '*cackle*cackle* Well, well, well, what have we here?'
  show nao_v002 fuan at active
  show mion_v008 futeki at inactive
  nao 'This is...the same magic circle I saw...'
@@ -837,7 +837,7 @@ label event01_30_07:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika 'This is..this is...hic...hic...'
+ erika 'This is...this is...hic...hic......'
  hide erika_v001
  with Dissolve(0.2)
  narrator 'Erika-san was visibly upset.'
@@ -964,3 +964,4 @@ label event01_30_07:
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  narrator "I had never seen such a look on Erika-san's face. Her eyes widened, and her expression was one of both shock and dumbfoundedness."
+ return

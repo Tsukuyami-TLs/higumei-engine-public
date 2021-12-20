@@ -170,3 +170,4 @@ label chara452001_02:
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
  rena 'うんっ、頑張って。\n菜央ちゃんがうまくいくよう、\nレナは応援しているからね……！'
+ return

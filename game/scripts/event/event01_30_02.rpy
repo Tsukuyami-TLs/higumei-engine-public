@@ -9,10 +9,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show mion_v002 smile at inactive
- kanon 'After the meal, we usually prepare either tea or coffee, which would you prefer?'
+ kanon 'After the meal, we usually prepare either tea or coffee. Which would you prefer?'
  show mion_v002 smile at active
  show kanon_v001 normal at inactive
- mion "The taste inside my mouth is so sweet after that! So I'd like to finish things up with a salted plum kelp tea, do you have it?"
+ mion 'The taste inside my mouth is so sweet after that! Some salted plum kelp tea would wrap things up nicely. You got that here?'
  hide mion_v002
  hide kanon_v001
  with Dissolve(0.2)
@@ -33,13 +33,13 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  show mion_v002 smile at inactive
- kanon '... Maybe it is available at the mansion. If you give me some time, I can check.'
+ kanon '... Maybe it is available at the mansion. If you allow me some time, I can go check.'
  show mion_v002 smile at jump_transform,active
  show kanon_v001 normal_close at inactive
- mion "Ah, really!? Thanks! Then I'll be counting on you."
+ mion "Ah, really!? Thanks! I'll be counting on you, then."
  show kanon_v001 normal at active
  show mion_v002 smile at inactive
- kanon "... If I'm not wrong, Kumasawa-san had mackerel kelp tea of her own..."
+ kanon "...If I'm not wrong, Kumasawa-san had mackerel kelp tea of her own..."
  play audio 'audio/sfx/SE_530_walk_one.wav'
  hide kanon_v001
  with Dissolve(0.3)
@@ -48,11 +48,11 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika "Mion-san, you're quite good. You're not just spending the night here but also properly doing your job."
+ erika "Mion-san, you're quite good. You're not just spending the night here, but you're properly doing your job too."
  play audio 'audio/sfx/SE_226_shine.wav'
  show mion_v002 futeki at active
  show erika_v001 normal at inactive
- mion "I guess! Although I've got a little sister who doesn't gets that and calls me a country bumpkin or something!"
+ mion "I guess! Although I've got a little sister who doesn't get that and calls me a country bumpkin and stuff!"
  hide mion_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -63,13 +63,13 @@ label event01_30_02:
  pause 0.0
  show shion_v002 odoroki at active
  show nao_v002 normal at inactive
- shion "Ehhh!? Don't tell me that just now was testing their services as a monitor!?"
+ shion "Ehhh!? Don't tell me that was you testing their services just now!?"
  show nao_v002 normal at active
  show shion_v002 odoroki at inactive
- nao "I-Indeed... If they're going to make it into a resort, such privileged guests might come."
+ nao "For, for sure... If they're going to make it into a resort, high profile guests might come too."
  show nao_v002 normal_close at active
  show shion_v002 odoroki at inactive
- nao "If they aren't able to naturally fulfill such a small request from the guests, they won't be able to have anyone satisfied..."
+ nao "If they aren't able to fulfill such a small request for the guests in a natural manner, they won't be able to have anyone satisfied..."
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -78,10 +78,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika 'Although this time, they just happened to have it...'
+ erika 'Although this time, they happened to be prepared for that...'
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika "I'm presuming that what Mion-san wanted to see the most was how they would they come up with a beautiful refusal in case they were unable to have it ready, without offending the guest."
+ erika "I presume what Mion-san wanted to see the most was how they could come up with an excuse so beautiful after failing to be prepared for them that it wouldn't ruin the guest's mood."
  show mion_v002 smile at active
  show erika_v001 normal at inactive
  mion "Still, Kanon-kun's conduct is definitely deserving of a good score."
@@ -90,22 +90,22 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "Indeed... Had he taken too long to take action the guest could've felt bad for troubling them."
+ shion "Right... Had he taken too long to take action, the guest could've felt bad for troubling them."
  show mion_v002 smile_close at active
  show shion_v002 smile at inactive
- mion 'No matter how unreasonable of a situation it is, behaving without showing any waver is what a true professional is!'
+ mion 'No matter how unreasonable of a situation it is, working in a consistent flow without making a single mistake is true professionalism!'
  hide shion_v002
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile_close at inactive
- nao "What's important is to be able to smoothly handle that situation, even if it's something that was not written in the manual..."
+ nao "What's important is being able to smoothly handle that situation, even if it's something that was not written in the manual..."
  hide mion_v002
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika "To be flexible. Putting it in other words, to act as if that too is something that's under your expectations."
+ erika 'Being flexible. In other words, acting as if that itself is the expectation.'
  show erika_v001 normal at active
  show nao_v002 normal at inactive
  erika 'It also means that bluffing can be important, to some extent.'
@@ -114,30 +114,30 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'Indeed, like how a clerk that seems like a veteran feels more trustworthy.'
+ shion 'Definitely, like how a clerk that seems like a veteran feels more trustworthy.'
  hide erika_v001
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
  show mion_v002 smile at nod_transform,active
  show shion_v002 smile at inactive
- mion "Yeah, yeah. And in comparison, if it's a clerk that seems to be desperately handling their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them."
+ mion "Yep, yep. And in comparison, if it's a clerk that seems to get flustered doing their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them."
  hide shion_v002
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao "... A dignified attitude is essential for building a sense of trust with the guest, and that's the first step to prove the excellency in your services."
+ nao '...A dignified attitude is essential for building a sense of trust with the guest, and that itself is the first step in proving the excellency in your services.'
  hide mion_v002
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "Well. To put it simply, if you underestimate things too much then it's all over."
+ erika "Well, to put it simply, if you underestimate things too much, then it's all over."
  show erika_v001 normal at active
- erika "It's the same for the greatest detectives from east to west- because of their dignity and how respected they were, there's overwhelming certainty in their resonings."
+ erika "It's the same for the greatest detectives all over; because of how dignified and respected they are, there lies an overwhelming absoluteness in their reasoning."
  show erika_v001 normal_close at active
- erika "Weell, there's cases at which the culprit gives in exactly because the detective had more than enough dignity, even if their reasoning is full of holes."
+ erika 'Well, there {i}are{/i} also cases in which the culprit gave in because the detective was too dignified, even while their reasoning was full of holes.'
  hide erika_v001
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -145,25 +145,25 @@ label event01_30_02:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "True! If you pressure the culprit enough, there's times they'll give in on their own."
+ mion "True! If you pressure the culprit enough, there are times they'll give in on their own."
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "It's my sister's speciality to pretend she understood everything, but in actuality doesn't gets anything after all."
+ shion "My sister's specialty is pretending she understood everything, but, in actuality, she doesn't get anything at all."
  show mion_v002 sinken at jumping_transform,active
  show shion_v002 smile at inactive
- mion "That's not it, it's a speciality of Wanyan! Even when you have zero hints, act as if you've grasped the truth and aim for the blind spot!"
+ mion "No, it's a specialty of Wanyan's! Even when you have zero hints, act as if you've grasped the truth and aim for the blind spot!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "It is essential for a detective to always have the aura of someone who's seen through everything."
+ erika "It is always essential for a detective to have the aura of someone who's seen through everything."
  hide erika_v001
  with Dissolve(0.2)
  narrator 'As the flow of the conversation went on, it was unavoidable that the main topic would become great detectives and mysteries.'
- narrator "At that time, Jessica-san arrived with Kanon-san, who's just returned. As Kanon-san served the tea, Jessica-san joined our talk."
- narrator 'By then, the topic had went from unresolved cases to urban legends, and at the very end we ended up talking about even the occult.'
+ narrator 'At that time, Jessica-san arrived with Kanon-san, who just returned. As Kanon-san served the tea, Jessica-san joined our talk.'
+ narrator 'By then, the topic had went from unresolved cases to urban legends, and at the very end, we even ended up talking about the occult.'
  show mion_v002 smile at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
@@ -172,7 +172,7 @@ label event01_30_02:
  shion "That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult."
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'Since ancient times, things considered miracles have been proven by scientific researches.'
+ mion 'Since ancient times, things that can be considered divine miracles have been proven to exist by scientific research.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle."
@@ -224,7 +224,7 @@ label event01_30_02:
  erika '... Every year, on the day of the village festival, one person dies, and then one person disappears... right?'
  show jessica_v001 fuan at chara_shake_transform,active
  show erika_v001 normal_close at inactive
- jessica "What the hell, that's mad creepy...?! I won't bother going to the bathroom alone tonight thinking about footsteps following me like that...!!"
+ jessica "What the hell, that's mad creepy...?! I won't {i}bother{/i} going to the bathroom alone tonight thinking about footsteps following me like that...!!"
  hide jessica_v001
  hide erika_v001
  with Dissolve(0.2)
@@ -253,7 +253,7 @@ label event01_30_02:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'All over Japan, turbulent legends like this overflow with misunderstandings.'
- narrator 'Even so, having a creepy occult mystery from your hometown became something cool.'
+ narrator 'Even so, having a creepy occult mystery from your hometown became something cool to talk about.'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  show erika_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -263,7 +263,7 @@ label event01_30_02:
  nao "...Speaking of which, Erika-san. ...Didn't you say something about the witch doing this and that?"
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika '*giggle* ...That conversation should be had with you by someone who lives on this island, like Jessica-san.'
+ erika '*giggle*. ...That conversation should be had with you by someone who lives on this island, like Jessica-san.'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -275,10 +275,10 @@ label event01_30_02:
  shion 'Could the witch be the lady in the portrait from earlier?'
  show mion_v002 smile at active
  show shion_v002 normal at inactive
- mion "Oh, nice, I like that! As I thought, the Western house's occult mystery isn't so Western after all."
+ mion "Oh, nice, I like that! Western-style occult mysteries really wouldn't be the same without their westernness."
  show mion_v002 futeki at active
  show shion_v002 normal at inactive
- mion "But this was why I shared the secret of behind the name of Watanagashi, and how it links the blood spill in the dam war to Oyashiro-sama's curse."
+ mion "But that's why I shared the secret behind the name of Watanagashi, and how it links the bloodshed in the dam war to Oyashiro-sama's curse."
  show shion_v002 futeki at active
  show mion_v002 futeki at inactive
  shion "Isn't the intensity of that a bit different than a lady in a portrait blinking in the middle of the night~?"
@@ -311,7 +311,7 @@ label event01_30_02:
  hide erika_v001
  with Dissolve(0.2)
  narrator 'Just a Beethoven picture being in a music classroom can create a ghost story, never mind an enormous portrait like that one in a completely westernized home.'
- narrator "What's more, it's of a beautiful woman bearing the title of family alchemist. It would be weirder if a ghost story didn't come out of it."
+ narrator "What's more, it's of a beautiful woman bearing the title of family alchemist. It would be weirder if a ghost story {i}didn't{/i} come out of it."
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
@@ -362,7 +362,7 @@ label event01_30_02:
  shion 'When you say Winchester, do you mean the Winchester gun?'
  show erika_v001 normal at active
  show shion_v002 normal at inactive
- erika 'The widowed wife of the late multimillionaire and owner of the Winchester gun company, Mr. Winchester, was believed to have been cursed by his spirit, who killed bunches of people by possessing a gun.'
+ erika 'The widowed wife of the late multimillionaire and owner of the Winchester gun company believed that she had been cursed by the spirits of those killed by his guns.'
  hide shion_v002
  show mion_v002 normal at mei_left
  with Dissolve(0.5)
@@ -372,19 +372,19 @@ label event01_30_02:
  hide erika_v001
  hide mion_v002
  with Dissolve(0.2)
- narrator 'The widowed wife then continued to add more and more extensions to the house until her death, resulting in a massively distorted mansion: the Winchester mystery house.'
+ narrator 'The widowed wife then continued to add more and more extensions to the house until her death, resulting in a massively distorted mansion: the Winchester mystery house...'
  show erika_v001 normal at mei_right
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao '...Huh... ...Then, the mansion with too many rooms to fit the amount of family members is...'
+ nao '...Huh. ...Then, the mansion with too many rooms to fit the amount of family members is...'
  show erika_v001 normal_close at active
  show nao_v002 fuan at inactive
- erika 'The head of the Ushiromiya family, Kinzo-san succeeded in some business with Beatrice before accepting the loan of 100 tons of gold.'
+ erika 'The head of the Ushiromiya family, Kinzo-san, succeeded in some business with Beatrice before accepting the loan of 100 tons of gold.'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika "It isn't just a success story either... I feel as though there is something important hidden in it."
+ erika "It isn't just a success story either... I feel as though there is something important hidden within it."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -408,10 +408,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  show jessica_v001 fuan at inactive
- kanon '...'
+ kanon '.....................'
  show jessica_v001 fuan at chara_shake_transform,active
  show kanon_v001 normal_close at inactive
- jessica "H-, hey, hey, you better stop with that...! This is my family you're talking about. I'm really not gonna be able to go to the bathroom at night..."
+ jessica "H-hey, hey, you better stop with that...! This is my family you're talking about. I'm really not gonna be able to go to the bathroom at night..."
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
@@ -431,7 +431,7 @@ label event01_30_02:
  show erika_v001 fuan at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 fuan at active
- erika 'Perhaps the 200 million dollars worth of gold is still being used to welcome... ghosts... here...?'
+ erika 'Perhaps the 200 million yen worth of gold is still being used to welcome... ghosts... here...?'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -440,7 +440,7 @@ label event01_30_02:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator 'Ugh, this is scary. ...Wait, stop for second. I have to stay here for two more nights...?'
+ narrator 'Ugh, this is scary. ...Wait, stop for second. I have to stay here for two nights...?'
  show kanon_v001 normal at mei_right
  show jessica_v001 normal_close at mei_left
  with Dissolve(0.5)
@@ -469,7 +469,7 @@ label event01_30_02:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'When did someone name it? ...She eventually went on to be called the Golden Witch, Beatrice.'
- narrator "The massive portrait hung in a wide space in the mansion isn't something that the head, Kinzo, drew either. It's something that the Golden Witch drew."
+ narrator "The massive portrait hung in a wide space in the mansion isn't something that the head, Kinzo, drew either. It's a drawing of the Golden Witch."
  narrator "...This means that the mansion and the island's... real master... isn't the Golden Witch, Beatrice?"
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
@@ -485,10 +485,10 @@ label event01_30_02:
  kanon 'If... in the middle of the night in the mansion, you do see this mysterious figure... never chase after it, let alone call after it.'
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon "On multiple occasions... someone who couldn't have been in the Ushiromiya family nor a servant... in the mysterious form of a woman... I've come into contact with her as well."
+ kanon "On multiple occasions... someone who couldn't have been in the Ushiromiya family nor a servant... that mysterious form of a woman... I've come into contact with her as well."
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica 'Sometimes, windows unlock at night without the servants touching them, and it terrifies Mother.'
+ jessica 'Sometimes, windows unlock at night without the servants touching them, and it terrifies Mom.'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal at inactive
  jessica 'But everyone keeps saying how they definitely did rounds particularly making sure the windows are locked.'
@@ -538,7 +538,7 @@ label event01_30_02:
  jessica '...One time at night while doing the rounds, there was a servant who misstepped and fell down the stairs, getting injured horribly before quitting.'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal_close at inactive
- jessica 'Afterwards, Shannon heard... that person said, "If Beatrice does exist, I\'d like to see her", and seemed to have been targetted...'
+ jessica 'Afterwards, Shannon learned... that person said, "If Beatrice does exist, I\'d like to see her.", and seemed to have been targetted...'
  show kanon_v001 normal at active
  show jessica_v001 fuan_close at inactive
  kanon "...I, too, didn't believe in her at first."
@@ -563,7 +563,7 @@ label event01_30_02:
  show kanon_v001 normal_close at mei_center
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
- kanon '...'
+ kanon '...........................'
  show expression "#000" as fade with Dissolve(1.0)
  hide kanon_v001
  with Dissolve(0.2)
@@ -600,10 +600,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika 'If I reason this out simply... I suppose we can doubt that the one person who had the key to the locked room, Kanon-kun, did all of this on his own.'
+ erika 'If I reason this out simply... I suppose we can doubt that the one person who had the key to the locked room, Kanon-san, did all of this on his own.'
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika 'But then, so, on the other hand...'
+ erika 'But then, on the other hand...'
  show nao_v002 normal at active
  show erika_v001 normal_close at inactive
  nao "...To Kanon-san... this wasn't the doing of someone human... I can understand that..."
@@ -613,7 +613,7 @@ label event01_30_02:
  show kanon_v001 normal_close at mei_center
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
- kanon '...'
+ kanon '..............................'
  show kanon_v001 normal at active
  kanon '...I reported to Genji-sama that... he must never reveal this information to anyone.'
  hide kanon_v001
@@ -686,7 +686,7 @@ label event01_30_02:
  show nao_v002 smile at active
  nao "I thought I had specifically gone here to enjoy myself, but all I've done up until now is get scared by a cheap ghost story. It's absurd."
  show nao_v002 smile at active
- nao 'Besides, in the world today, whatever strange thing it is, it can absolutely be explained!'
+ nao 'Besides, in our world today, whatever strange thing it is, it can absolutely be explained!'
  show nao_v002 smile at active
  nao "Hey, Erika-san. Aren't I right?"
  hide nao_v002
@@ -694,7 +694,7 @@ label event01_30_02:
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika '...'
+ erika '.....................'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 sinken at mei_center
@@ -730,7 +730,7 @@ label event01_30_02:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao 'Is that so, Erika-san?'
+ nao "Aren't I right, Erika-san?!"
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -744,7 +744,7 @@ label event01_30_02:
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika "That's right. I've definitely said that. When we met on the ferry. "
+ erika "...That's right. It was when we met on the ferry. I definitely said that then."
  show erika_v001 normal at active
  erika 'However, I should have mentioned this some time ago.'
  hide erika_v001
@@ -775,7 +775,7 @@ label event01_30_02:
  shion "Nao-san, let's calm down. It's just a chat over tea, yeah?"
  show mion_v002 normal at active
  show shion_v002 smile at inactive
- mion 'Just like Oyashiro-sama "exists", on this island the witch "exists"'
+ mion 'Just like Oyashiro-sama "exists", the witch "exists" on this island.'
  show mion_v002 normal_close at active
  show shion_v002 smile at inactive
  mion "Denying something without letting the other person explain is... something this ol' man isn't too fond of."
@@ -796,7 +796,7 @@ label event01_30_02:
  kanon '... My lady. You have your next task to do still.'
  show jessica_v001 smile at active
  show kanon_v001 normal at inactive
- jessica "Th-, that's right. Thanks, Kanon-kun."
+ jessica "Th-that's right. Thanks, Kanon-kun."
  show jessica_v001 smile at active
  show kanon_v001 normal at inactive
  jessica "I'm gonna head out in a bit, then."
@@ -811,7 +811,7 @@ label event01_30_02:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "I think I'm going to return to my room, but what will everyone else do?"
+ erika 'I do think I will return to my room, but what will everyone else do?'
  hide erika_v001
  with Dissolve(0.2)
  show mion_v002 smile at mei_right
@@ -822,7 +822,7 @@ label event01_30_02:
  shion 'I think since we have to prepare for tomorrow, we should go back to our rooms too to get some work done.'
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion "Sis suddenly got a bunch of orders coming in, so the arrangements didn't make it in time at all. It SUCKS."
+ shion "Sis suddenly got a bunch of orders coming in, so the arrangements didn't make it in time at all. It {i}sucks{/i}."
  show mion_v002 smile at active
  show shion_v002 fuan at inactive
  mion "I'm also gonna go back to my room to help prepare the clothes. ...I wonder if I can fit a little nap in."
@@ -840,8 +840,8 @@ label event01_30_02:
  hide nao_v002
  with Dissolve(0.2)
  narrator "I'll nap a bit. And when I wake up, the freshly rained on rose garden will likely make a lovely sight from the window."
- narrator "Well, on the flipside, the power could cut out unexpectedly while I'm sleeping..."
- narrator ''
+ narrator "No, on the flipside, the power could cut out unexpectedly while I'm sleeping..."
+ narrator 'When the morning goes by so fast, you get sleepy and nap your precious day away... I guess I can owe that to being on vacation.'
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
@@ -850,7 +850,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 smile at inactive
- erika "...Why's that? Are the locks on the windows breaking?"
+ erika '...Why is that? Are the locks on the windows breaking?'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -893,7 +893,7 @@ label event01_30_02:
  narrator "...The odd atmosphere from the witch ghost story seemed like a lie. I wonder if that could have been avoided if I didn't absent-mindedly daydream..."
  narrator "What I did was akin to saying I didn't believe in Oyashiro-sama while on the Furude shrine grounds. Surely, I had ruined the mood on the island."
  narrator "...And the master of the island's too... surely..."
- narrator '...'
+ narrator '...........................'
  play sound ['audio/sfx/SE_5054_rain.wav','audio/sfx/SE_5054_rain.wav'] fadeout 1.0
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -903,12 +903,12 @@ label event01_30_02:
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika '...'
+ erika '...........................'
  show dlanor_v001 normal at mei_left
  with Dissolve(1.0)
  show dlanor_v001 normal at active
  show erika_v001 normal at inactive
- dlanor 'I SEE. Sunshowers do happen TOO.'
+ dlanor 'I SEE. Sunshowers do also HAPPEN.'
  show dlanor_v001 normal_close at active
  show erika_v001 normal at inactive
  dlanor 'For someone like you, who lives to tear fantasy apart, siding with Lady Beatrice IS...'
@@ -917,16 +917,17 @@ label event01_30_02:
  erika "Seriously. It's going to give me hives."
  show erika_v001 normal at active
  show dlanor_v001 normal_close at inactive
- erika "I was my master's slave in delivering Beato's present because of that. That was more or less my understanding of it."
+ erika "This is why I was appointed as my master's slave in delivering Beato's present. That was more or less my understanding of it."
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor "At any rate, today's lunch was quite MAGNIFICENT."
  show erika_v001 smile at active
  show dlanor_v001 smile at inactive
- erika 'With that plate heaping with that much omurice, I had to slurp it up deliciously with chopsticks.'
+ erika 'With that plate heaping with that much omurice, I simply {i}had{/i} to slurp it up voraciously with chopsticks.'
  show dlanor_v001 normal at active
  show erika_v001 smile at inactive
  dlanor 'By the way, that IS...?'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
  erika "This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?"
+ return

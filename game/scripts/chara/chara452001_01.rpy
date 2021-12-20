@@ -219,3 +219,4 @@ label chara452001_01:
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'ふっ……戯言だったな、忘れて良い。\n妾は少々感傷的になっているのかもしれんな。'
+ return

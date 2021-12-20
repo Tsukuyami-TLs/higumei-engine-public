@@ -788,3 +788,4 @@ label event01_30_99:
  nao "What's with this outfit!! It's tasteless!! It's the worstttttttt!!!"
  show expression "#000" as fade with Dissolve(3.0)
  pause 1.5
+ return

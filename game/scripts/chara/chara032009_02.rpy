@@ -274,3 +274,4 @@ label chara032009_02:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice 'くっひゃっひゃっひゃっひゃっ！\n琴線に触れる良い叫びだ！\n目一杯楽しんでこいよぉおおおぉぉっっ！！'
+ return

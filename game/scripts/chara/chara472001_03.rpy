@@ -189,3 +189,4 @@ label chara472001_03:
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor 'ハイ。……私も、楽しみデス。'
+ return

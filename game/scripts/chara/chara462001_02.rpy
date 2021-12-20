@@ -490,3 +490,4 @@ label chara462001_02:
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active
  satoko 'い、今すぐ掃除道具を準備しますわ！\nだから、早まらないで下さいまし！\nお願いですからぁぁぁ！'
+ return

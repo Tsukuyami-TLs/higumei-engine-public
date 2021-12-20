@@ -211,3 +211,4 @@ label chara462001_01:
  dlanor '……行かれマシタカ。\nあの感情の大きなブレさえなければ、\nとても優秀な方なのデスガ……。'
  show dlanor_v001 fuan_close at active
  dlanor '……。仕方ありマセン。'
+ return

@@ -332,3 +332,4 @@ label chara462001_03:
  beatrice 'ふっ。ヱリカが恵まれているとは\nとても言えぬが……。'
  show beatrice_v001 smile at active
  beatrice 'どうやら、友には恵まれたようであるな。'
+ return

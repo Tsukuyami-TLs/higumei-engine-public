@@ -219,3 +219,4 @@ label chara032009_01:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  nao 'Huh...?'
+ return

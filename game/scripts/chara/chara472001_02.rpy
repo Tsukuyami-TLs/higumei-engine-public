@@ -401,3 +401,4 @@ label chara472001_02:
  show nao_v001 odoroki at chara_shake_transform,active
  show beatrice_v001 smile at inactive
  nao 'えっ、あっ……！！'
+ return

@@ -174,3 +174,4 @@ label chara472001_01:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  dlanor '構いマセン。では……。'
+ return

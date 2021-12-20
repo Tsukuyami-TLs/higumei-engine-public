@@ -10,13 +10,13 @@ label event01_30_08:
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
- erika '....'
+ erika '........................'
  hide erika_v001
  with Dissolve(0.2)
  show mion_v002 sinken at mei_center
  with Dissolve(0.5)
  show mion_v002 sinken at active
- mion '....'
+ mion '...........................'
  hide mion_v002
  with Dissolve(0.2)
  show nao_v002 fuan at mei_left
@@ -55,7 +55,7 @@ label event01_30_08:
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator '...At that moment, it seemed like my surroundings grew dim.'
+ narrator '...At that moment, I felt my surroundings growing dim.'
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.wav'
@@ -103,7 +103,7 @@ label event01_30_08:
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'You are very quick to change your MIND....The ability to adapt to foreign situations is necessary for a VOYAGER.'
+ dlanor 'You are very quick to change your MIND...The ability to adapt to foreign situations is necessary for a VOYAGER.'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -138,7 +138,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 fuan_close at active
  show beatrice_v001 smile at inactive
- nao "I'm very sorry, but this game...I don't know how to say this..."
+ nao "I've already had enough of this game... is what I want to say, though."
  show beatrice_v001 futeki at active
  show nao_v002 fuan_close at inactive
  beatrice "Hmph! Well, this game won't end until the morning comes! *cackle*cackle*cackle*!"
@@ -232,10 +232,10 @@ label event01_30_08:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'That will not HAPPEN. As a first-class archbishop of the Great Court of Heaven, I will guarantee THAT.'
+ dlanor 'That will not HAPPEN. As a first-class archbishop of the Great Court of Heaven, I, Dlanor A. Knox, will guarantee THAT.'
  show nao_v002 normal_close at active
  show dlanor_v001 normal at inactive
- nao '...'
+ nao '...........................'
  stop music fadeout 2.0
  hide nao_v002
  hide dlanor_v001
@@ -290,7 +290,7 @@ label event01_30_08:
  beatrice "Excellent, Nao! You really are an upstanding girl! Now, let us enjoy ourselves to our heart's content on this night!"
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor 'NAO...I will now repeat the SITUATION.'
+ dlanor 'NAO...just like before, I will repeat the SITUATION.'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
  dlanor "A magic circle prank appeared in Erika's ROOM."
@@ -407,21 +407,21 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000When the door is locked, there is no way to enter the room until Erika unlocks IT.#r'
+ dlanor '{umi_red}When the door is locked, there is no way to enter the room until Erika unlocks IT.{/umi_red}'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000Nobody existed inside the room at that time, and nobody can enter by any other METHOD.#r'
+ dlanor '{umi_red}Nobody existed inside the room at that time, and nobody can enter by any other METHOD.{/umi_red}'
  show expression "#e11" as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000The magic circle prank can only be performed while someone is inside the ROOM.#r'
+ dlanor '{umi_red}The magic circle prank can only be performed while someone is inside the ROOM.{/umi_red}'
  show dlanor_v001 normal_close at active
- dlanor 'For the time being, that is all the INFORMATION....Everyone, please begin your INVESTIGATION.'
+ dlanor 'For the time being, that is all the INFORMATION...Everyone, please begin your INVESTIGATION.'
  hide dlanor_v001
  with Dissolve(0.2)
  narrator 'Us three players looked at each other with inquisitive expressions.'
@@ -476,7 +476,7 @@ label event01_30_08:
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor "#ff0000From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible to place the magic CIRCLE.#r"
+ dlanor "{umi_red}From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible to place the magic CIRCLE.{/umi_red}"
  hide dlanor_v001
  hide beatrice_v001
  with Dissolve(0.2)
@@ -495,7 +495,7 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000From the time Erika entered her room, it was impossible for anybody to place the magic circle by any kind of METHOD.#r'
+ dlanor '{umi_red}From the time Erika entered her room, it was impossible for anybody to place the magic circle by any kind of METHOD.{/umi_red}'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -506,7 +506,7 @@ label event01_30_08:
  erika "Thank you for proving my innocence. See? See how I wasn't acting? I just needed more time."
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao 'How terrible. But this was still the same as what happened to my bed...'
+ nao '...How terrible. But this was still the same as what happened to my bed...'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -588,7 +588,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 sinken at jump_transform,active
  show erika_v001 normal at inactive
- nao '...Ah, there!'
+ nao '......Ah......there!'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
  erika '<Good>. Nao-chama has noticed it, and very quickly at that.'
@@ -598,7 +598,7 @@ label event01_30_08:
  show beatrice_v001 fuan at mei_center
  with Dissolve(0.5)
  show beatrice_v001 fuan at active
- beatrice 'Eh? What? Is this some kinda Spot the Difference puzzle?'
+ beatrice 'Eh? What? ...Is this some kinda Spot the Difference puzzle?'
  hide beatrice_v001
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
@@ -670,7 +670,7 @@ label event01_30_08:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao '...?!?!'
+ nao '......?!?!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -690,7 +690,7 @@ label event01_30_08:
  beatrice "But if that's the case...you want to admit it?"
  show erika_v001 normal at active
  show beatrice_v001 normal at inactive
- erika "Fufu. I don't mind at all."
+ erika "*giggle* I don't mind at all."
  show erika_v001 normal at active
  show beatrice_v001 normal at inactive
  erika 'Well, Dlanor? Will you do the honors?'
@@ -707,7 +707,7 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '#ff0000Each magic circle drawn on the two sheets were drawn by different PEOPLE.#r'
+ dlanor '{umi_red}Each magic circle drawn on the two sheets were drawn by different PEOPLE.{/umi_red}'
  hide dlanor_v001
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
@@ -744,7 +744,7 @@ label event01_30_08:
  nao 'I see, so you really were the culprit after all!'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika "Hey, it was just a prank, right? And to bring personal grudges into this game.. you have <no manners>, don't you?"
+ erika 'Hey, it was just a prank, right? And to bring personal grudges into this game...you have <no manners>, do you?'
  hide nao_v002
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
@@ -780,21 +780,21 @@ label event01_30_08:
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '...?'
+ nao '.....................?'
  show dlanor_v001 normal at mei_right
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor "...Thank you for WAITING. It is now Nao's TURN."
+ dlanor "Thank you for WAITING. It is now Nao's TURN."
  stop music fadeout 2.0
  show nao_v002 normal_close at active
  show dlanor_v001 normal at inactive
- nao '...'
+ nao '...........................'
  hide nao_v002
  hide dlanor_v001
  with Dissolve(0.2)
  narrator 'Inside my head, many thoughts swirled around like soup.'
- narrator 'The ingredients were coming together and began to boil...Perhaps...'
+ narrator 'The ingredients were coming together and began to boil...Perhaps.........'
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
@@ -835,7 +835,7 @@ label event01_30_08:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator "...For a moment, I saw hesitation in Erika-san's eyes. I bet she was thinking about how to answer this in such a way as to confuse me more."
+ narrator "......For a moment, I saw hesitation in Erika-san's eyes. I bet she was thinking about how to answer this in such a way as to confuse me more."
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -853,7 +853,7 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
- erika '#ff0000The one who created the first magic circle and placed it was Erika Furudo.#r'
+ erika '{umi_red}The one who created the first magic circle and placed it was Erika Furudo.{/umi_red}'
  show erika_v001 normal at active
  erika "However, how and when I placed it and how I tricked Shannon-san are things I refuse to answer. I hope you'll forgive me."
  camera:
@@ -912,9 +912,9 @@ label event01_30_08:
  with Dissolve(0.2)
  narrator '...Erika-san is definitely gunning for me. She wants to claim victory, but she also wants me to lose more than anything.'
  narrator 'Meanwhile, I sense no ill will from Beatrice. She just wants to have a fair game....Of course, with the way things are playing out, she might press on if victory is in sight.'
- narrator '...Erika-san and I are maintaining a balance, but maybe I can win Beatrice over to my side...'
+ narrator '...Erika-san and I are maintaining a balance...but maybe I can win Beatrice over to my side...'
  narrator 'For me to win, I need to prove Erika-san was acting.'
- narrator 'For Beatrice to win, she must prove the crime was impossible for humans...'
+ narrator 'For Beatrice to win, she must prove the crime was impossible for humans.....................'
  show dlanor_v001 normal at mei_right
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
@@ -926,7 +926,7 @@ label event01_30_08:
  dlanor 'Do not WORRY. I will listen to what you have to SAY.'
  show nao_v002 fuan at active
  show dlanor_v001 normal at inactive
- nao 'Ah, um...'
+ nao 'Ah...um.'
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -959,7 +959,7 @@ label event01_30_08:
  show dlanor_v001 normal_close at mei_center
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal_close at active
- dlanor '...Mm-HMM....I SEE.'
+ dlanor '...Mm-HMM......I SEE.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -975,7 +975,7 @@ label event01_30_08:
  show erika_v001 normal at active
  erika "Dlanor smells pretty good, doesn't she?"
  show erika_v001 smile at active
- erika 'I have a good nose, so I can smell her from a mile away. Ufufufufu.'
+ erika 'I have a good nose, so I can smell her from a mile away. *giggle*giggle*'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -999,7 +999,7 @@ label event01_30_08:
  hide nao_v002
  hide dlanor_v001
  with Dissolve(0.2)
- narrator 'Alright, <good>...but will this work?'
+ narrator 'Alright, <good>.........is that how you say it?'
  narrator "I don't want to lose to Erika-san. I must win. And I *will* uncover the secrets of these two magic circles."
  narrator 'I learned this from Erika-san, after all. This battle of wits was more like a fistfight.'
  narrator 'The victor is the one who analyzes all the theories, pieces through all the reasoning, and compiles all the evidence...to beat the enemy down.'
@@ -1011,7 +1011,8 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
- nao '...'
+ nao '........................'
  show erika_v001 futeki at active
  show nao_v002 sinken at inactive
  erika '...<Good>.'
+ return

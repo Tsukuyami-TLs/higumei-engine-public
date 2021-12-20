@@ -16,6 +16,20 @@ image jessica_v001 fuan:
  choice:
   pause 5.0
  repeat
+image jessica_v001 fuan_blush:
+ animation
+ 
+ "characters/sprites/jessica/v001//fuan_blush_close.png"
+ pause 0.0667
+ "characters/sprites/jessica/v001//fuan_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
 image jessica_v001 odoroki_close:
  animation
  
@@ -24,6 +38,20 @@ image jessica_v001 odoroki:
  animation
  
  "characters/sprites/jessica/v001//odoroki_close.png"
+ pause 0.0667
+ "characters/sprites/jessica/v001//odoroki_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image jessica_v001 odoroki_blush:
+ animation
+ 
+ "characters/sprites/jessica/v001//odoroki_blush_close.png"
  pause 0.0667
  "characters/sprites/jessica/v001//odoroki_open.png"
  pause 15.0
@@ -98,6 +126,20 @@ image jessica_v001 smile:
  "characters/sprites/jessica/v001//smile_close.png"
  pause 0.0667
  "characters/sprites/jessica/v001//smile_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image jessica_v001 smile_blush:
+ animation
+ 
+ "characters/sprites/jessica/v001//smile_blush_close.png"
+ pause 0.0667
+ "characters/sprites/jessica/v001//smile_blush_open.png"
  pause 15.0
  choice:
   pause 1.0

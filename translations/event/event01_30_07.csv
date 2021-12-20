@@ -5,14 +5,14 @@ index,chara,jp,en,
 36,,"　詩音さんが言うには、ここで使われている食器は、本当にいいも
 のということだった。",Shion-san was going on about how amazing the tableware was supposed to be.,
 37,,"　この島の美食に慣れてしまったら、もう島の外には戻れなくなっ
-てしまうかも。……かも。","Once you get used to the cuisine on this island, you never want to go back...probably.",
+てしまうかも。……かも。","Once you get used to the cuisine on this island, you never want to go back, perhaps...I hope.",
 41,詩音 (ビキニアーマー),"早く着替えてきましょ。さすがにこの格好でランチはしたくないで
 す。",Let's get changed quickly. I don't want to be eating lunch like this.,
 43,Mion (ウェディング),そーおー？　おじさんは全然、気にしないけどなぁ。,"Is that so? Well, this ol' man doesn't mind.",
 45,詩音 (ビキニアーマー),"お姉がよくても、私が落ち着かないんですっ。さ、上に行って、着
 替えますよ。","Sis, you might be okay with it, but I'd prefer to be modest. Anyway, I'm going upstairs to change.","""Modest"" or something similar would work since Shion is standing around with the skimpy Dragon Quest armor"
 50,ヱリカ,私も一度部屋に戻って、手を洗うことにします。,I would also like to return to my room for a bit to wash my hands.,
-54,Nao (Casual),……刺繍、全然、出来なかったけど、置いてこなきゃ。,"..I'm not in the mood for embroidery, so I'll set it down.",
+54,Nao (Casual),……刺繍、全然、出来なかったけど、置いてこなきゃ。,"...I'm not in the mood for embroidery, so I'll set it down.",
 61,,"　後で畳めばいいと、あたしの目も気にしないで、じゃんじゃん脱
 いで、じゃんじゃん着替える。","After folding my clothes neatly, I glanced around with a carefree look, where the sounds of clothes being shed resounded.",
 62,,"　女同士とはいえ、あぁも裸を見せることに抵抗がないのも、スゴ
@@ -77,11 +77,11 @@ index,chara,jp,en,
 196,ヱリカ,"ハイハイ。意地悪はこれくらいにして、お望みの赤き真実を進呈し
 ましょう。",...Very well. So much for being mean. I'll give you the red truth you want.,
 201,ヱリカ,"#ff0000菜央のベッドに魔法陣の悪戯をしたのは、この私、古戸ヱリカで#r
-#ff0000す。#r","#ff0000It was I, Erika Furudo, who performed the magic circle prank on Nao's bed.#r",
+#ff0000す。#r","{umi_red}It was I, Erika Furudo, who performed the magic circle prank on Nao's bed.{/umi_red}",
 206,ベアトリーチェ,それは最初からわかっている！　もう１つ！　もう１つ！,"I knew that since the beginning! One more, one more!",
 211,ヱリカ,"#ff0000ヱリカは、菜央たちが夕食に向かった直後に、庇を伝い、窓から侵#r
 #ff0000入し、予め用意した魔法陣のシーツを菜央のベッドのシーツと換え#r
-#ff0000ました。#r","#ff0000After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheet with another that had the magic circle drawn on it in advance.#r",
+#ff0000ました。#r","{umi_red}After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheet with another that had the magic circle drawn on it in advance.{/umi_red}",
 214,ベアトリーチェ,"それももちろん、わかっている！　菜央とて、そこまではとっくに
 至っているであろう！","Of course, I see! Even Nao would've figured that out long ago!",
 218,ドラノール,"……その後、入室した紗音が、なぜ魔法陣のシーツを見て、異常な
@@ -92,14 +92,14 @@ index,chara,jp,en,
 226,ヱリカ,それでは、最後の大ヒントですよ？　よぉくお聞きください。,"Now then, you want a big hint? You'll want to hear this...",
 229,ベアトリーチェ,頼むよォ、神さま仏さまヱリカさまぁぁあぁ！！,"Oh yes, please! My God, my Buddha, my lady Erikaaaaa!",
 235,,"　#ff0000この島には、あの部屋の状況を見て、異常なしと判断してしまう#r
-#ff0000人間が、紗音以外にも存在します。#r","#ff0000On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.#r",
+#ff0000人間が、紗音以外にも存在します。#r","{umi_red}On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.{/umi_red}",
 242,ベアトリーチェ,"んええええぇええぇッ？！？！　紗音だけがおかしいんじゃない
 の？！　他にもいるの？！",Whaaaaaaaaat?! Shannon isn't the only crazy person? There are more?!,
 244,ベアトリーチェ,嘉音？！　じゃあ源次？！　ここでまさかの南條ォ？！,Kanon? Genji? Even Nanjo?!,
 253,ドラノール,"く、苦しいデス……。私の首を絞めても、ヒントは出ないのデ
 ス……。",...This is DIFFICULT. This hint has only served to restrain ME.,
 257,ヱリカ,"うっふっふっふ。ベアトリーチェを、謎解きでいじめられるなん
-て、本当に役得です♪",Uhuhuhuhu. It really is a treat to dangle riddles in front of Beatrice like this♪,
+て、本当に役得です♪",*giggle*giggle* It really is a treat to dangle riddles in front of Beatrice like this♪,
 259,ヱリカ,"せいぜい頑張ってくださいね？　#pア#s・#r#pイ#s・#r#pツ#s・#r#pら#s・#rは、初見で謎を全て、見
 抜きやがりましたよ……？","Keep doing your best, okay? Didn't ""they"" see through everything on their first try?",
 276,,"　お昼の後は、ヱリカさんはひとりになりたいと言って、どこかに
@@ -142,7 +142,7 @@ index,chara,jp,en,
 処理を見られたくらいで照れるなんて、よくわからないわ……。",I don't know how you can be embarassed at people looking at your back when you've been doing sexy cosplay photo shoots outdoors...,
 342,,"　まぁ、そんな話をしながら、あたしたちはゲストハウスに戻るの
 だった。",We chatted on as we returned to the guesthouse.,
-345,Nao (Casual),２泊３日なんて、あっという間ですね。,"Two days and three nights went by in the blink of an eye, huh?",
+345,Nao (Casual),２泊３日なんて、あっという間ですね。,"Three days and two nights went by in the blink of an eye, huh?",
 350,Mion (探偵),そうだね。中日が１日しかない訳だからね。,"Yup, and we only have less than a day left before it ends.",
 352,詩音 (水着),明日のお昼前には出発ですね。帰りは新島空港から飛行機でしたっけ。,We'll be leaving tomorrow before noon and fly back from Nijima Airport.,
 357,Nao (Casual),……輝くように素敵な薔薇庭園も、これで見納めなんですね。,...This will be the last time I see this wonderful rose garden.,
@@ -240,19 +240,19 @@ index,chara,jp,en,
 飛び出す。","The concerned Sonozaki sisters acted fast, putting on bath towels and running into the hallway.",
 553,,"　廊下には、ヱリカさんがへたり込んで、開け放たれた自室の中を
 指さしている。","There, Erika-san was sunken down on the floor and pointing towards the inside of her wide-open room.",
-559,ヱリカ,……ぁわ……ぁわわわ………。,....Ahhhh.....uwaaaaaa...,
+559,ヱリカ,……ぁわ……ぁわわわ………。,...Ahhhh...uwaaaaaa...,
 567,Mion (バスタオル),どしたの？！　何があったの？！,Are you alright?! What's going on?!,
 569,Nao (Casual),あのヱリカさんが……、こんなに怯えるなんて……。,Can't believe I'd ever see Erika-san frightened like this...,
 574,詩音 (バスタオル),部屋の中に何かあるんですか？！　失礼しますね！,Is there something wrong inside your room?! Let me through!,
 576,,詩音さんはスタンガンを握り締めながら室内に飛び込む。,Shion-san gripped her stun gun tightly and leapt into the room.,
 577,,"　え、ちょっと待って。どうしてシャワー室からタオル姿で飛び出
 してきたのにスタンガンがあるの……。
-　これは突っ込んだら負けか……。","Wait a minute, she just ran out of the bathroom with a towel! Why does she have a stun gun?! I feel like giving up...",
+　これは突っ込んだら負けか……。","Wait a minute, she just ran out of the bathroom with a towel! Why does she have a stun gun?! I give up...",
 591,ヱリカ,……わ、私のベッドに……ベッドに…………。,My bed...my bed has...,
-596,Mion (バスタオル),くっくっく。……これはこれは、……やられたねぇ？,"*cackle*cackle* Well well well, what have we here?",
+596,Mion (バスタオル),くっくっく。……これはこれは、……やられたねぇ？,"*cackle*cackle* Well, well, well, what have we here?",
 598,Nao (Casual),これ……、あたしのと同じ魔法陣……。,This is...the same magic circle I saw...,
 603,詩音 (バスタオル),ここにもシャワー室にも、誰もいません。,There's no one in here or in the bathroom.,
-608,ヱリカ,こんな……こんなことって、……ひぃ……ひぃ………。,This is..this is...hic...hic...,
+608,ヱリカ,こんな……こんなことって、……ひぃ……ひぃ………。,This is...this is...hic...hic......,
 610,,あのヱリカさんが取り乱すなんて……。,Erika-san was visibly upset.,
 611,,"　いや、考えてみれば無理もない。……ヱリカさんは、犯人側なの
 だ。

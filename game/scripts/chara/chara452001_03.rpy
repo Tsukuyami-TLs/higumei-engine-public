@@ -358,3 +358,4 @@ label chara452001_03:
  beatrice '……そなたに感謝を。\n短い時間であったが、楽しかったぞ。'
  show beatrice_v001 smile at active
  beatrice 'そなた越しに見た島外の景色は、\nなかなかに見物であった……。'
+ return
