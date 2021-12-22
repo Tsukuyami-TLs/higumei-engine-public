@@ -440,7 +440,7 @@ camera:
         return "\n".join(self.outlines)
 
 def compile_script(folder, fname):
-    header = f'label {fname}:'
+    header = f'label {fname}:\n show black_background onlayer black'
     
     with open(f'scripts/{folder}/{fname}.bytes', 'rb') as jsonfile:
         og_script = json.load(jsonfile)['scr']
