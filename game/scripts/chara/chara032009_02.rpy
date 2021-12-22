@@ -1,4 +1,5 @@
 label chara032009_02:
+ show black_background onlayer black
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_EVENT6.wav'

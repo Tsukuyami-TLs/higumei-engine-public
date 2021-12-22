@@ -1,4 +1,5 @@
 label event01_30_04:
+ show black_background onlayer black
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'

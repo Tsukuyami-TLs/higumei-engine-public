@@ -1,4 +1,5 @@
 label chara452001_03:
+ show black_background onlayer black
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_591.png' as bg

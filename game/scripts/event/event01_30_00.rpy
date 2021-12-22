@@ -1,4 +1,5 @@
 label event01_30_00:
+ show black_background onlayer black
  narrator 'I should have never come to this island.'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
  nao 'N... n......'

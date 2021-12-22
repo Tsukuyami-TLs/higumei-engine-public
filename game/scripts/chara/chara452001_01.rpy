@@ -1,4 +1,5 @@
 label chara452001_01:
+ show black_background onlayer black
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.wav'

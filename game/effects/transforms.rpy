@@ -46,3 +46,7 @@ transform active:
     matrixcolor IdentityMatrix(0.0)
 
 image crack_effect = Movie(play="video/crack_video.mp4", mask="video/crack_mask.mp4", loop=False)
+
+init python:
+    config.layers.insert(0, 'black')
+image black_background = Solid(Color('#000'), xalign=0.5, yalign=0.5, xzoom=2.0, yzoom=2.0)
