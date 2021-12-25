@@ -15,7 +15,9 @@ game/cache
 # Python objects
 *.py[co]
 
-# Heavy assets
+#Heavy assets
 game/audio/
 game/characters/sprites/
 game/images/
+
+service-token.json

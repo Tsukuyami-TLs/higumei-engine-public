@@ -1,19 +1,19 @@
-event01_30_06.bytes,,roux,,
+event01_30_06.bytes,,roux,Lloro - QC/TL,
 index,chara,jp,en,notes
 32,Nao (Casual),"紗音さんに濡れ衣を被せようとしてもダメです。あの悪戯の犯人は
 あなたです。ヱリカさん。","It doesn't matter if you dress Shannon-san in wet clothes. Erika-san, you're the culprit of that prank.",
 34,ヱリカ,それ、気持ちいいでしょう？,"That feels good, doesn't it?",
 36,Nao (Casual),はい？,Excuse me?,
 38,ヱリカ,"“犯人は、あなたです”。……その言葉を口にする瞬間こそが、探
-偵の悦楽の究極にして最高峰！","""You're the culprit""...The moment you get to speak those words is the ultimate highest peak of pleasure for a detective!",
+偵の悦楽の究極にして最高峰！","""You're the culprit."" ...The moment you get to speak those words is the ultimate highest peak of pleasure for a detective!",
 40,ヱリカ,もちろん、犯人がその言葉で簡単に屈することはありません。,"Of course, the culprit won't give in to that phrase so easily.",
 42,ヱリカ,"それこそ、窮鼠猫を噛むの勢いで反論してくるでしょう。しかし、
-それを崩すのがまたいい！","As a cornered rat will bite a cat*, the culprit will also surely object with all their might. However, I'll enjoy destroying it again!",*japanese proverb. the last sentence might be referring to events of previous chapters? not sure what she means
+それを崩すのがまたいい！","As a cornered rat will bite a cat, the culprit will also surely object with all their might. However, I'll enjoy destroying it again!",*japanese proverb. the last sentence might be referring to events of previous chapters? not sure what she means
 44,Nao (Casual),"……つまり、ヱリカさんは模範的な犯人役を演じてくれる、という
 ことですよね？","...In other words, Erika-san will play the part of an exemplary culprit. Is that what you're saying?",
-46,ヱリカ,貴女が探偵としての究極の悦楽を得られるか……。,Can you obtain the ultimate pleasure as a detective?...,
+46,ヱリカ,貴女が探偵としての究極の悦楽を得られるか……。,Can you obtain the ultimate pleasure as a detective...?,
 48,ヱリカ,"さもなくば、探偵の解決の直前に披露される、ナントカ警部のヘッ
-ポコ推理の役になるのか。くっくっく！","Or, just before the detective's solution is unveiled, will you assume the role of Inspector so-and-so with your incompetent reasoning? *cackle*cackle*cackle*",
+ポコ推理の役になるのか。くっくっく！","Or, just before the solution is unveiled, will you assume the role of Inspector So-and-so with your incompetent reasoning? *cackle*cackle*cackle*",detective's solution -> solution
 50,Nao (Casual),"では、ヱリカさん。反論してもらいます。どうしてあなたは犯人で
 はないと？","Then, Erika-san, let's hear your objection. Why do you say you aren't the culprit?",
 52,ヱリカ,非常にシンプルな話です。私にはアリバイがあるからです。,It's an exceedingly simple reason. Because I have an alibi.,
@@ -25,10 +25,10 @@ index,chara,jp,en,notes
 60,ヱリカ,その後、遅くまで遊び、皆さんと一緒に２階へ上がったはずです。,"After we played late into the night, I surely went upstairs with everyone else.",
 62,ヱリカ,"その間、私はわずかの時間でも、皆さんの前から姿を消したことが
 ありましたか？","In that time, was there even the briefest moment when I disappeared from everyone's sight?",
-64,Nao (Casual),………………………。,...,
+64,Nao (Casual),………………………。,...........................,
 67,,"　確かに、それは鉄壁のアリバイだ。他ならぬ、あたしとずっと一
 緒にいたのだから。","Certainly, it's a rock-solid alibi. Since she was nowhere other than with me...",
-71,Nao (Casual),いや、………犯行のチャンスはあるわ。,No...you did have a chance to commit a crime.,
+71,Nao (Casual),いや、………犯行のチャンスはあるわ。,No... you did have a chance to commit a crime.,
 73,ヱリカ,おや。それはどのタイミングで？,Oh? At which time would that be?,
 75,Nao (Casual),"一番最初だわ。あなたは、髪が整わなくてと言って、夕食に来るの
 が遅れたじゃない。","At the very beginning. You were late coming to dinner, saying your hair wasn't ready.",
@@ -38,16 +38,16 @@ index,chara,jp,en,notes
 は十分にあった。","The magic circle on the sheets took time to prepare, but there was plenty of time to prepare it in advance.",
 81,,"　そして、夕食の時にあたしたちが先に下へ降りたのを確認した上
 で、窓から出て、１階の庇の上を歩き、あたしたちの部屋の窓から
-入った！","After confirming that we went downstairs to dinner ahead of her, she left through the window, walked on top of the first floor eaves, and entered through the window of our room!",
-85,ヱリカ,グッド。悪くはありません。,<Good.> Not bad at all.,
-87,ヱリカ,しかし、良くもない。,However...not good either.,not great either.
+入った！","After confirming that we went downstairs to dinner ahead of her, she left through the window, walked on top of the first floor overhang, and entered through the window of our room!",eaves -> overhang
+85,ヱリカ,グッド。悪くはありません。,<Good>. Not bad at all.,
+87,ヱリカ,しかし、良くもない。,However... not great either.,good -> great
 89,Nao (Casual),反論があるかしら？,You have an objection?,
 92,ヱリカ,"もちろん。……貴女の言う通りだとすると、私が魔法陣の悪戯をし
-たのは、夕食の早い段階だということになります。","But of course. If I do that magic circle prank the way you've said, then it happens during the early stage of dinner.",then it would happen during
-94,ヱリカ,つまり。紗音さんが入室するのは、その後と言う事です。,In other words...Shannon-san enters the room shortly afterward.,would be entering
+たのは、夕食の早い段階だということになります。","But of course. If I do that magic circle prank the way you've said, then it would happen during the early stage of dinner.",
+94,ヱリカ,つまり。紗音さんが入室するのは、その後と言う事です。,In other words... Shannon-san would be entering the room shortly afterward.,
 96,ヱリカ,"貴女のベッドが、仰られるような壮絶な状況だったとしたら、彼女
-が何事もなく帰ってくると思いますか……？","If she found your bed in such a sublime state, do you really think she'd return uneventfully?",
-98,Nao (Casual),……………………………。,...,
+が何事もなく帰ってくると思いますか……？","If she found your bed in that wonderfully {i}sublime{/i} state, do you really think she'd return uneventfully?",added wonderfully and italics
+98,Nao (Casual),……………………………。,.................................,
 100,ヱリカ,"私は紗音さんが戻ってきた時。ふざけて、窓から泥棒が入って部屋
 を荒らしたりはしていなかったかと聞いたのを覚えていますか？","Do you not remember hearing when I jokingly asked Shannon, ""Has a robber broken into the window or anything?"", when she came back?",event 03 line 484
 102,Nao (Casual),……そんなこと……言ったような……。,...I guess... you did say that...,
@@ -59,7 +59,7 @@ index,chara,jp,en,notes
 109,,"　それを見て、“いいえ、ご安心を”という言葉が出るだろう
 か……？","Seeing that, could someone really say, ""No. Please be at ease.""?",
 113,Nao (Casual),そ、それはきっと……、考えられることは、貴女と紗音さんが、,"Th-, surely that's... when you think of it, you and Shannon-san are...",
-118,ヱリカ,#ff0000私と紗音さんは、示し合わせてなどいません。#r,Shannon-san and I are not conspiring together in any way.,
+118,ヱリカ,#ff0000私と紗音さんは、示し合わせてなどいません。#r,{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red},
 121,,"　え？　……今、ヱリカさんの声色が、何かとても……不思議だっ
 た。",Huh? ...The color of Erika's voice was... somehow... different... just now.,
 122,,根拠を示すことなく、真実を語る言葉に聞こえた……。,They were words that I knew spoke the truth even without it being shown...,
@@ -74,13 +74,13 @@ index,chara,jp,en,notes
 149,ヱリカ,ちなみにですが、紗音さんは、今日からお休みだそうです。,"By the way, Shannon-san seems to be off work today.",
 151,ヱリカ,"右代宮家は、使用人の権利やプライバシーにも十分に配慮している
 そうですから、お休みの紗音さんに伝言を頼むことは出来ても、連
-絡を取ってもらうことは出来ませんよ？","Because the Ushiromiya family seem to deeply consider the rights and privacy of their servants, even if you were able to put in a message for Shannon-san while she was out, that message obviously still wouldn't reach her.",
+絡を取ってもらうことは出来ませんよ？","Because the Ushiromiya family seems to consider the rights and privacy of their servants deeply, even if you were able to put in a message for Shannon-san while she was out, that message obviously still wouldn't reach her.",
 153,,"　つまり、……昨夜、本当に魔法陣の悪戯がなかったかどうかなど
 を、尋ねることが出来ないということ……？",Which means... I can't confirm with her whether or not the magic circle last night was a prank...?,
 157,ヱリカ,"今日と明日がお休みだそうなので、明日の日曜には帰る菜央ちゃま
 にはもう、話を聞く機会はない、という訳です。","Seems like she's going to be out today and tomorrow, so little Nao-chama returning home on Sunday no longer has a chance to hear her side.",
 159,Nao (Casual),く…………………。,Gh......,
-169,Mion (ウェディング),はー、疲れたねぇ！　ちょっと休憩しよっかぁ。,"Hahh, I'm tireeddd! Let's take a break, yeah?",
+169,Mion (ウェディング),はー、疲れたねぇ！　ちょっと休憩しよっかぁ。,"Haah-, I'm tireeddd! Let's take a break, yeah?",
 171,詩音 (ビキニアーマー),あれ？　菜央さん、刺繍はしてないんですか？,"Huh? Nao-chan, you aren't doing your embroidery?",
 177,Nao (Casual),……ヱリカさんとのおしゃべりが盛り上がっちゃって。,......I got hyped up chatting with Erika-san.,
 179,ヱリカ,ちょうど、今、盛り下がったところですので。,Hyped down would be a bit more fitting.,
@@ -196,115 +196,115 @@ index,chara,jp,en,notes
 364,,"　待って待って待って。魅音さんが言ってた。テキストは徹底的に
 読み込め、って！
 　ヱリカさんはこう言った！","Wait, wait, wait. Mion-san told me before. Read through the text thoroughly! Erika-san said this:",
-366,,#ff0000私と紗音さんは、示し合わせてなどいません。#r,Shannon-san and I are not conspiring together in any way.,
+366,,#ff0000私と紗音さんは、示し合わせてなどいません。#r,{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red},
 367,,"　これ……、下らないトリックじゃないの？！　間に仲介者を挟め
 ばいい！",This... isn't this a stupid little trick?! There better be something between the lines!,
 368,,"　ヱリカさんが誰かと示し合わせる。その示し合わせた誰かが、紗
 音さんに、何らかの指示を与える。",Erika-san is conspiring with someone. That someone that she's conspiring with is somehow given through this message with Shannon-san.,trying so hard not to say it idk if this makes it obvious or notnjdfghdfjg
-369,,例えば……、そう、コスプレ撮影！,,
+369,,例えば……、そう、コスプレ撮影！,Like for example... yeah! Cosplay photography!,
 370,,"　撮影の為に、ちょっとショッキングな準備がしてあるから、見て
-も驚かないように、なんて風に予め言われていたとしたら……。",,
+も驚かないように、なんて風に予め言われていたとしたら……。","For the sake of your photographer, you might want to inform him in advance about your costume if he walks in on you while getting ready, so he doesn't get surprised...",this can be condensed even more probably
 373,Nao (Casual),"……あの魔法陣のシーツも、……紗音さんにとっては、事件性のな
-い、プライベートなものとなる！",,
+い、プライベートなものとなる！","...This same thought applies to the magic circle sheets, which Shannon-san thought was a normal, harmless thing!",
 375,,"　だが……、紗音さんに命令を出せそうな人物はかなり該当が多
-い。",,
+い。",The thing is... Shannon-san is the type to listen to orders.,not totally accurate but better i think
 376,,"　右代宮家の人間は全員そうだろうし、使用人頭や目上の使用人も
-命令は可能だろう。",,
+命令は可能だろう。",I'm led to believe the whole family is like that. You can probably give orders to the servant head and the older servants as well.,shes so mean i swear
 377,,"　でも、……今はこれで十分。
 　これで、紗音さんがあの魔法陣を見ても、何事もなかったかのよ
-うに振舞う可能性が見えてくる……！",,
-381,朱志香,……何か、ウチの使用人がやらかしたりした……？,,
-383,Nao (Casual),いえ、そんなことはありません。むしろ、多分、逆です。,,
+うに振舞う可能性が見えてくる……！","But... that's just it. Even if Shannon did see the magic circle, I can see her acting as if nothing had happened...!",is it my job to revise the japanese wording to make this sound more exciting
+381,朱志香,……何か、ウチの使用人がやらかしたりした……？,...Did one of our servants mess up somehow......?,
+383,Nao (Casual),いえ、そんなことはありません。むしろ、多分、逆です。,"No, not at all. It might be the opposite in fact.",
 386,,"　紗音さんは、命令された通りに、使用人の仕事を全うしたに過ぎ
-ないのだ。",,
-390,朱志香,じゃ、じゃあ、私はこれで失礼するぜ……！,,
+ないのだ。",Shannon-san simply carried out her orders as she was told.,
+390,朱志香,じゃ、じゃあ、私はこれで失礼するぜ……！,"Th-then, I'll head out for now...!",
 393,Nao (Casual),"ありがとうございました。本当に何でもないので、気にしないで下
-さいね。",,
+さいね。","Thank you very much for that. Nothing really happened, so please do not worry.",
 397,,"　朱志香さんが立ち去るのを見届け、振り返ると、
-東屋のヱリカさんと目が合う……。",,
-404,ヱリカ,…………ふふん。,,
+東屋のヱリカさんと目が合う……。","After making sure Jessica-san was gone, I turned over... and made eye contact with Erika-san by the arbor...",
+404,ヱリカ,…………ふふん。,............*giggle*.,
 409,,"　あの顔は、何を朱志香さんと話していたのか、全てお見通しだと
-言いたいのだろう。",,
+言いたいのだろう。",That face probably wants to say that she eavesdropped fully on whatever I was talking about with Jessica-san.,
 410,,"　ヱリカさんは器用にも、魅音さんと談笑しながら、にもかかわら
-ず、あたしをずっと監視していたのだ。",,
-417,Nao (Casual),あれ、詩音さんは？,,
+ず、あたしをずっと監視していたのだ。","While Erika-san was having a friendly chat with Mion-san, she observed me the whole time without so much as a hint of effort.",
+417,Nao (Casual),あれ、詩音さんは？,Huh? Where'd Shion-san go?,
 419,Mion (ウェディング),"ちょっと別の小道具を探しに、ゲストハウスに戻ってるよ。すぐ戻
-るよ。",,
+るよ。",She went back to the guesthouse to check for a different prop. She'll be back soon.,
 423,ヱリカ,"……それにしても魅音さんは、……なかなかの切れ者じゃないです
-か。",,
+か。","...At any rate, Mion-san... you can be pretty shrewd, can't you?",
 425,ヱリカ,"こういっては失礼ですけど、怖い物知らずのただの田舎者かと思っ
-ていたら、……なかなかです。",,
-428,Mion (ウェディング),あっはっは！　ヱリカさんにそこまで言われると照れちゃうよぉ。,,
+ていたら、……なかなかです。","Saying this is a smidge rude, but I thought you would be like a caveman afraid of fire... You're pretty good, though.",
+428,Mion (ウェディング),あっはっは！　ヱリカさんにそこまで言われると照れちゃうよぉ。,"Ahaha! If Erika-san says that much, I'll start blushing!!",
 430,Mion (ウェディング),"でも、ヱリカさんだってなかなかだよ～？　でもひとつ勘違いがあ
-るかなぁ。",,
+るかなぁ。","But you're pretty good too, y'know, Erika-san? There's one thing you might have wrong, though~.",
 433,Mion (ウェディング),"真実は暴くものじゃない。作るものなのさ。さもなきゃ埋めるもの
-かな？　園崎家の次期頭首を、舐めてもらっちゃあ困るねぇ？",,
+かな？　園崎家の次期頭首を、舐めてもらっちゃあ困るねぇ？","The truth isn't what gets revealed. It's a fabrication of reality. Or maybe it's a mixture of the two? Either way, don't mess with the next head of the Sonozaki family, you hear?",review mayb
 436,,"　……朱志香さんと話している間に、二人でどんな会話をしていた
-か知らないが、……何だかバチバチしたものだったようだ。",,
+か知らないが、……何だかバチバチしたものだったようだ。",...I don't know what those two were having a conversation about while I was talking to Jessica-san... but it feels like it was kind of fiery.,
 437,,"　でも、仮にそうだったにせよ、魅音さんにとっては、やるねぇの
-一言で済んでしまう程度なのだろう。",,
+一言で済んでしまう程度なのだろう。","Even if that did happen though, Mion-san would probably just be like ""You got me!!"" and walk it off.",
 441,ヱリカ,"魅音さん。約束しましょう。いずれ必ず。#p雛見沢#sひなみざわ#rに探偵として訪れ
-ることをお約束します。",,
+ることをお約束します。","Mion-san, let's make a promise. One of these days, I'll definitely visit Hinamizawa as a detective.",
 444,Mion (ウェディング),"うん！　きっとだよ！　部活メンバー全員で大歓迎しちゃうから
-ね～！",,
+ね～！","Yeah, for sure! All of the club members will give you a warm welcome when you do~!",
 447,,"　バチバチっと二人の交差する視線が火花を散らした気がしたが、
-気の置けない仲だからこそのじゃれ合いにも見えてしまう。",,
+気の置けない仲だからこそのじゃれ合いにも見えてしまう。","Those fiery, murderous sparks that I felt in between them as they crossed vision suddenly seemed like the kind in a friendly playfight.",wording could be better mayb
 448,,"　やっぱり魅音さんという人は、場数が違うというか、度胸が半端
-ないというか。……大物だ。",,
-451,Nao (Casual),あ、……詩音さん、帰ってきました。,,
+ないというか。……大物だ。","Mion-san either has more experience than me, or she just has way more guts than I do. ...She really is no joke.","bakazu could mean ""has been to a bunch of places"" but that's sooo wordy"
+451,Nao (Casual),あ、……詩音さん、帰ってきました。,Ah... Shion-san came back.,
 457,詩音 (ビキニアーマー),"お姉ぇ！　全然、違う場所に入れてありましたよ？　勘弁して下さ
-いよねぇ！",,
+いよねぇ！",Sis! I think I might have put it in a totally different place? Please forgive meee!,
 459,Mion (ウェディング),"はぁ？！　出発前に入れる場所を勝手に変えたのはあんたで
-しょー？！",,
-464,ヱリカ,やれやれ。また賑やかになりました……。,,
-467,嘉音,……ご歓談中、失礼致します。お昼の準備が整いました。,,
-469,ヱリカ,だそうですよ、皆様方？　参りましょうか。菜央ちゃま？,,
-473,Nao (Casual),……ヱリカさん。あなたのアリバイ、崩せました。,,
-475,ヱリカ,おや。それは、食後のデザートに取っておきませんか？,,
-477,Nao (Casual),いいえ、オードブルで。今、説明するわ。,,
+しょー？！",Huuuh?! Weren't you the one who went and put it someplace else before we left?!,
+464,ヱリカ,やれやれ。また賑やかになりました……。,"My, my. It's getting lively again...",
+467,嘉音,……ご歓談中、失礼致します。お昼の準備が整いました。,...Please do forgive me for intruding on your conversation. Lunch has been prepared.,
+469,ヱリカ,だそうですよ、皆様方？　参りましょうか。菜央ちゃま？,"Isn't that right, everyone? Shall we go now, Nao-chama?",
+473,Nao (Casual),……ヱリカさん。あなたのアリバイ、崩せました。,"...Erika-san, I've torn your alibi to pieces.",
+475,ヱリカ,おや。それは、食後のデザートに取っておきませんか？,Oh? Would that have been after dessert had been served to us?,
+477,Nao (Casual),いいえ、オードブルで。今、説明するわ。,"No, during appetizers. It's clear to me now.",
 479,ヱリカ,"それ、ちゃんとコースになるんですよねぇ？　前菜で終わったら恥
-ずかしいですよぉ？",,
+ずかしいですよぉ？","Wouldn't the full-course meals have already come out if that were the case? It would have been embarrassing for me if I made it after appetizers were already over, don't you knooow?!",
 481,Nao (Casual),"あなたは、紗音さんが異常を認めなかったから、犯行の余地はそれ
-以降だとしていました。",,
+以降だとしていました。",You had Shannon-san look the other way from the point you committed the crime forward.,
 483,Nao (Casual),"その上、ご丁寧に、紗音さんとあなたは示し合わせていないとまで
-言い切ってくれました。でも",,
-486,ヱリカ,#ff0000私と紗音さんは、示し合わせてなどいません。#r,Shannon-san and I are not conspiring together in any way.,
+言い切ってくれました。でも","Moreover, you carefully asserted to me that you weren't conspiring with Shannon-san up until now. But--",
+486,ヱリカ,#ff0000私と紗音さんは、示し合わせてなどいません。#r,{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red},
 492,ヱリカ,"#ff0000私が何らかの人物を介し、もしくは手段を介して、紗音さんに根回#r
-#ff0000しをした事実はありません。#r",,
-494,Nao (Casual),………え………。,,
+#ff0000しをした事実はありません。#r","{umi_red}Through another person or by any other means possible, it is in no way true that Shannon-san was involved behind the scenes.{/umi_red}",
+494,Nao (Casual),………え………。,...Eh......?,
 497,ヱリカ,"はぁぁぁ。残念無念、期待外れの的外れ。……ほらね？　デザート
-にしておけばよかったんです。",,
+にしておけばよかったんです。","Ughhhhh. Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during desert.",
 499,ヱリカ,"直接示し合わせていないなら、誰かを挟んで間接的に示し合わせれ
 ばいい、これで赤き真実の間隙を縫った！って、……思ったんで
-しょお……？",,
-501,Nao (Casual),……ん、…………ぅ………。,,
+しょお……？","Since I wasn't directly conspiring with someone, I must have been getting someone involved indirectly. You really thought you could weasel yourself through the red truth like that... huuuuh?!",
+501,Nao (Casual),……ん、…………ぅ………。,...Nn...... uh......,
 506,Nao (Casual),"お、……思ってないわよ。そんな下らない言葉遊び、……あたしを
-子供扱いしないで欲しいわ。",,
-509,ヱリカ,くっくっくっく……。グッド。,,
+子供扱いしないで欲しいわ。",I... I wasn't thinking like that. I don't want to be treated like a child with some... silly wordplay like that.,
+509,ヱリカ,くっくっくっく……。グッド。,*cackle*cackle*cackle*cackle*... <Good>.,
 511,ヱリカ,"探偵であれ、犯人であれ。……すぐに挫けるのは二流です。泣いて
-うずくまるのは戦人です。",,
-513,ヱリカ,一流は、タフでなければ。そして不敵でなければ。,,
+うずくまるのは戦人です。",As the detective or as the culprit ...quickly losing heart is for second-rates. The only one who would keel over crying is Battler.,trying so hard not to say poors here
+513,ヱリカ,一流は、タフでなければ。そして不敵でなければ。,"First-rates must be tough, and they {i}must{/i} be daring.",
 516,,"　本当に嫌な人だけれど、不思議な人。
 　ただの嫌な人というより、……何というか、……ライバルって感
-じ。",,
+じ。","She really is a hateable person; however, she's a bit strange. Rather than being just a hateable person... how can I put it... she's like a rival.",
 517,,"　小馬鹿にしたり、挑発したり。腹立たしいけれど、敵であれ、見
-事ならば褒めるというところに、それを感じる。",,
+事ならば褒めるというところに、それを感じる。","She puts me below her and gets under my skin. She's aggravating, but as an enemy, I feel like she's deserving of praise in that aspect.",
 522,Mion (ウェディング),"ほらほら、お昼に行こうよ～！　なぁにぃ？　ウチの菜央ちゃん、
-口説いてんのぉ？",,
+口説いてんのぉ？","C'mon, c'mooon, let's go get luuunch~! Huuuuuuh? You hittin' on my little Nao-chaaaan?!",
 524,ヱリカ,"えぇ、そうです。こんな可愛らしくて小憎らしい子、殺人事件の被
-害者になる前に保護してあげないと。",,
+害者になる前に保護してあげないと。","Yes, absolutely. This sweet {i}darling{/i} of a girl must be protected at all costs before she becomes victim to a murder incident.",
 526,Mion (ウェディング),"お～っと、お触りは厳禁ですよ～？　ウチの菜央ちゃんに御用の際
-は、マネージャーを通してもらわないとぉ♪",,
-528,ヱリカ,それで？　貴女方の手番は十分ですか？,,
-531,Mion (ウェディング),もちろん、ターンエンド。あんたに次の手、期待してるよ～？,,
+は、マネージャーを通してもらわないとぉ♪","Ooohhh, don't you know touching her is forbidden~? If you wanna schedule with my Nao-chan, you're gonna have to get through her manager fiiirst!♪",
+528,ヱリカ,それで？　貴女方の手番は十分ですか？,And so? Will that be your move?,
+531,Mion (ウェディング),もちろん、ターンエンド。あんたに次の手、期待してるよ～？,"Of course. Round over. Your next move better be promising, yeah~?",
 534,,"　やっぱり、すっごいバチバチしてる。
 　しかし、二人とも敵意を剥き出しのはずなのに、まるで映画の中
-の出来事のような、カッコよさも兼ね備えている。",,
-535,,……これが、一流はタフでなければ、ということなのね……。,,
-539,詩音 (ビキニアーマー),菜央さん。昨夜は、あの悪戯、すっごいビックリしましたよねぇ？,,
-541,Nao (Casual),え？　あ、はい……。,,
-543,詩音 (ビキニアーマー),あれが魔女の仕業だというのなら。,,
-545,詩音 (ビキニアーマー),……こっちは、オヤシロさまの#p祟#sたた#rりがあるかもしれませんねぇ？,,
-548,,え、……何？　どういう意味なの………？,,
+の出来事のような、カッコよさも兼ね備えている。","Yeah, there are definitely sparks flying between those two. But even though there's supposed to be enmity between them, it's almost like they've combined that with the coolness of a movie scene.",wording probs
+535,,……これが、一流はタフでなければ、ということなのね……。,...This must be what it's like to be tough like a first-rate......,
+539,詩音 (ビキニアーマー),菜央さん。昨夜は、あの悪戯、すっごいビックリしましたよねぇ？,"Nao-san, last night, didn't you get super shocked from that prank?",
+541,Nao (Casual),え？　あ、はい……。,"Eh? Ah, yeah...",
+543,詩音 (ビキニアーマー),あれが魔女の仕業だというのなら。,If that was the work of a witch...,
+545,詩音 (ビキニアーマー),……こっちは、オヤシロさまの#p祟#sたた#rりがあるかもしれませんねぇ？,"...Oyashiro-sama's curse might be able to exist too, right?",
+548,,え、……何？　どういう意味なの………？,Uh... what? What does that mean......?,
 549,,"　詩音さんの笑みは、頼もしさが９割と、……１割の不敵さ、不気
-味さが含まれている気がした……。",,
+味さが含まれている気がした……。","Shion-san's smile was about 90% reliable... and 10% daring, with a bit of creepiness mixed in...",
