@@ -3,7 +3,7 @@ label chara462001_02:
  stop sound
  scene expression "#000"
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.wav'
- show expression 'images/bg/AdvBg_204.png.png' as bg
+ show expression 'images/bg/AdvBg_204.png' as bg
  with Dissolve(1.0)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
