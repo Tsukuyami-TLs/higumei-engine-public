@@ -317,7 +317,7 @@ camera:
     def fadein(self, typ, line, cmd):
         time = int(line['arg0']) / 60
         if self.background:
-            self.outlines.append(f'{self.background}')
+            self.outlines.append(self.background)
             self.background = None
         else:
             self.outlines.append(f'hide fade with Dissolve({time})')
