@@ -372,7 +372,7 @@ label event01_30_01:
  hide shion_v002
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator 'Shion-san, who was free from her luggage, reached the top of the long flight stairs ahead of the rest of us.'
+ narrator 'Shion-san, who was free from her luggage, reached the top of the long flight of stairs ahead of the rest of us.'
  narrator 'And so, as the scene spread out before me, I became so overcome with emotion that I almost lost myself...'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -541,7 +541,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
- erika "What a cheap plot. Well, whatever, it'll be nice to have fewer keys so the story won't be so complicated."
+ erika "What a cheap plot. Well, whatever, it'll be nice to have fewer keys so the story won't end up so complicated."
  show nao_v002 fuan at active
  show erika_v001 normal_close at inactive
  nao '...If we end up losing the only key......'
@@ -588,7 +588,7 @@ label event01_30_01:
  mion 'Yahoo!! Hoho! These bed springs are the best!'
  play audio 'audio/sfx/SE_526_door_open.wav'
  show mion_v002 smile at jump_transform,active
- mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look look, Shion!! It's an ocean vieeeewwww!!"
+ mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look, look, Shion!! It's an ocean vieeeewwww!!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -654,7 +654,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show mion_v002 fuan at active
  show nao_v002 normal at inactive
- mion 'Man, if we got two rooms, we could have invited Kei-chan.'
+ mion 'Man, if we had gotten two rooms, we could have invited Kei-chan.'
  show nao_v002 fuan at active
  show mion_v002 fuan at inactive
  nao "Aah... it wouldn't be good for a girl to stay in a room with a boy before she gets married after all."
@@ -698,7 +698,7 @@ label event01_30_01:
  shion 'I never knew you had that little self respect, Sis.'
  show nao_v002 fuan_close at active
  show shion_v002 smile at inactive
- nao "I-If he rejected me there I wouldn't know how to respond..."
+ nao "I-If you did that and he turned it down I wouldn't know how to respond..."
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide nao_v002
@@ -824,7 +824,7 @@ label event01_30_01:
  jessica "It's like having some new friends over, so I'm really happy!"
  show jessica_v001 smile at active
  show shannon_v001 smile at inactive
- jessica "Ask me anything you'd like about this island! Or even if you want someone to talk to, or play a game with! Just give me a shout!"
+ jessica "Ask me anything you'd like to know about this island! Or even if you just want someone to talk to, or play a game with! Just give me a shout!"
  hide jessica_v001
  hide shannon_v001
  with Dissolve(0.2)

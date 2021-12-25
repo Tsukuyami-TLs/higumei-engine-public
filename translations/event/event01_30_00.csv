@@ -1,42 +1,43 @@
-event01_30_00.bytes,Uminetta,Lloro - QC,Naegles - QC2,,
+event01_30_00.bytes,Uminetta - TL,Lloro - QC/TL,Naegles - QC2,Pteryon - QC3,
 index,chara,jp,en,Notes,
-25,,こんな島、来なければよかった。,I should have never come to this island.,,
+25,,こんな島、来なければよかった。,I should have never come to this island.,"any changes made to this pink highlighted section must also be made in chapter 10, starting from sheets line 71",
 27,Nao (Casual),ひ、……ひ、,N... n......,,
 28,Nao (Casual),嫌ああぁああぁあぁぁああぁぁぁあッ！！,Nooooooooooooooooo!!,,
 32,,哀れな犠牲者たちは、……ベッドの上で、血まみれだった。,The poor victims... were on the bed covered in blood.,,
 33,,"　彼女のネグリジェは、本当はとても可愛らしいものだったのだろ
-う。",The girl's negligee was actually very lovely.,,
+う。",The girl's negligee probably used to be very lovely.,"from ""The girl's negligee was no doubt actually very lovely.",
 34,,"　しかし、刃物か何かで執拗に切りつけられて、ズタズタにされて
-しまっている。","But... it was relentlessly cut by a blade or something of the sort, and has been torn to shreds.",,
+しまっている。","But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.",,
 35,,"　そこから溢れ出しただろう鮮血が、ネグリジェもシーツも、元が
-何色だったか思い出せないほどに染めてしまっている。",The blood that was pouring down from there dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.,,
+何色だったか思い出せないほどに染めてしまっている。",The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.,,
 36,,"　もうひとりはガウン姿だった。……もちろん、真っ赤な鮮血に染
 められている。","The other one was in a gown. ...Of course, they were also stained with fresh, bright red blood.",,
 37,,"　こちらも同様に、ズタズタに切り裂かれ……、見るも無残な有様
-だ……。","Just like the other, it was torn to shreds.... and looked in a pitiful state.",,
+だ……。","Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.","Changed from ""Just like the other, it was torn to shreds.... and looked in a pitiful state.""",added one
 38,,"　３つのベッドの内、２つは鮮血に染まるが、１つは、昨晩から変
 わらず清潔なままだ。それが、……あたしのベッド。","Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.",,
 39,,"　そしてあたしだけが、……血の一滴も浴びずに、彼女たちと同じ
-部屋で、……熟睡していた……。",And I was the only one... who wasn't covered in a single drop of blood... as I slept soundly throughout the night.,"changed from ""And I was the only one... who slept soundly in the same room as the other girls.... who wasn't covered in a single drop of blood.""",
+部屋で、……熟睡していた……。",And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them...,"changed from ""And I was the only one... who slept soundly in the same room as the other girls.... who wasn't covered in a single drop of blood.""",
 40,,"　だ、大丈夫ですか……。そう言おうと思った。
 　しかし、あたしの口から出たのは、か細くて弱々しい、悲鳴と呼
-ぶにも頼りない、かすれ声だけであった。","I wanted to ask ""Are you okay...?"". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.","changed from ""I wanted to ask ""are you okay?"". But the only thing that came out of my mouth was a small, weak and shaky voice that was too weak to be called a scream.""",
+ぶにも頼りない、かすれ声だけであった。","I wanted to ask ""A-Are you okay...?"". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.","changed from ""I wanted to ask ""are you okay?"". But the only thing that came out of my mouth was a small, weak and shaky voice that was too weak to be called a scream.""",
 44,,"　あたしは部屋を飛び出し、隣室の扉を激しくノックしながら、同
-時にドアノブも捻る。",I dashed to Erika's room and relentlessly knocked on the door while trying to turn the doorknob.,"changed from ""I dashed out of my room, and relentlessly knocked on the door while trying to turn the doorknob.",
+時にドアノブも捻る。","I dashed out to the next room over, frantically knocking on the door while trying at the doorknob.","changed from ""I dashed out of my room, and relentlessly knocked on the door while trying to turn the doorknob.",
 45,Nao (Casual),"ヱリカさんッ、ヱリカさんッ！！　た、大変です大変です、たた、
-助けて……ッ！！","Erika-san, Erika-san!! S-Something awful happened! H-H-Help....!!",,
+助けて……ッ！！","Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!",,
 47,Nao (Casual),え……？　開いた………？,Huh...? It opened...?,,
 48,,"　ドアノブを捻ったって、鍵が掛けられているのだから、開く訳は
 ない。","Even if you turn a doorknob, when it's locked, there's no way it would open.",,
 49,,"　ドアノブをガチャガチャさせるのが、自分の混乱と状況の異常を
-知らせる、無意識の方法だったからに過ぎない。",Rattling the doorknob like that was my way to inform her of my confusion and the abnormality of the situation. I was only doing it unconsciously.,,
+知らせる、無意識の方法だったからに過ぎない。",Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.,,
 50,,"　……だから、扉が開いてしまうことは、まったく想定しなかった
-のだ。",...That's why I didn't expect the door to open.,,
+のだ。",...That's why I honestly didn't expect the door to open.,Added truly for まったく,changed to honestly
 51,,"　その異常が……、あたしの心を瞬時に凍らせ、……ナイフのよう
-に鋭く尖らせる。",It was so unexpected... that it made my heart stop for a second... my senses sharpening like a knife.,I had to improvise here so it'll make sense with the next sentence welp,
+に鋭く尖らせる。","It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.
+",I had to improvise here so it'll make sense with the next sentence welp,
 52,,"　極限の恐怖は、感情の全てを殺し、五感を限界まで研ぎ澄ます。
 　だが、所詮は氷のナイフ。
-　……どんなに鋭くても、脆く、砕け散る……。","Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's an icy knife. ...No matter how sharp it is, it's fragile and easily shattered......",,
+　……どんなに鋭くても、脆く、砕け散る……。","Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......",,
 53,Nao (Casual),ヱリカ……さん………？,Erika...san...?,,
 57,,"　染められていた……。
 　ヱリカさんもまた、ベッドの上で……、真っ赤に、血まみれ
@@ -51,9 +52,9 @@ index,chara,jp,en,Notes,
 79,,"　話は実に唐突だった。
 　レナちゃんから、週末の２泊３日で小さな旅行に行かないかと誘われたのだ。",The conversation came suddenly. Rena-chan asked me if I wanted to go on a short two night trip during the weekend.,,
 80,,"　そもそも、この旅行は、レナちゃんと魅音さんと詩音さんの、３
-人で行くものだったらしい。","Originally, Rena-chan was supposed to go with Shion-san and Mion-san.",,
+人で行くものだったらしい。","Originally, it was Rena-chan, Mion-san and Shion-san who were supposed to go on this trip.",,
 81,,"　ところが直前で、親類の用事が出来て、レナちゃんは参加できな
-くなってしまったらしい。","But at just the last minute, a relative had some sudden errands, and Rena-chan wasn't able to participate anymore.",,
+くなってしまったらしい。","But at just the last minute, a relative had some errands, and Rena-chan wasn't able to participate anymore.",,
 85,Nao (Casual),六軒島って、個人の方が所有する小さな島……、でしたよね？,"Rokkenjima... It's a small, privately owned island, right?",,
 88,Mion (Casual),そうそう。うだいかん家っていう、大富豪が所有していてね！,Yeah that's right! It's owned by the super rich Udaikan family!,,
 93,Shion (Casual),お姉。右代宮（うしろみや）家です。,"Sis, it's the ""{i}Ushiromiya{/i} family"". ",,
@@ -66,25 +67,25 @@ index,chara,jp,en,Notes,
 105,Shion (Casual),"最後に簡単なアンケートに答えるだけだそうです。これで、２泊３
 日の小旅行が食事つきでタダなんですから、最高ですよね！","All I have to do is to answer a simple questionnaire at the end. It's a two night trip with free meals, so it'll be great!",,
 108,,"　右代宮家のシェフは、有名ホテルで料理長の座を争ったこともあ
-るほどの人物らしく、その料理は絶品だという。",The Ushiromiya family chef used to work in a famous hotel and competed for the head chef position. His cooking was rumored to be excellent.,,
+るほどの人物らしく、その料理は絶品だという。","They say the Ushiromiya family chef was good enough to have competed for the head chef position at a famous hotel, so his cooking is rumored to be excellent.",,
 109,,"　また、手入れの行き届いた薔薇庭園も、白い砂浜も絶景との話
 だ。","Moreover, they have a well-kept rose garden and a perfectly picturesque beach with white sand.",,
 110,,"　もちろん、戦後すぐに建てられたという洋館も、趣のある素晴ら
-しいものだという。","And of course, the Western-style buildings, which were built right after the war, are also said to be quaint yet wonderful.",,
+しいものだという。","And of course, the Western-style buildings, which were built right after the war, are also said to be wonderfully elegant.",,
 114,詩音 (Casual),"ただ、別に観光地って訳じゃありませんから。お店があったり、ア
-クティビティがあったりってこともないんですが。","Still, this place isn't meant for tourists, though, so there aren't any stores or things to do.",,
+クティビティがあったりってこともないんですが。","Still, the place isn't meant for tourists, though, so there aren't any stores or things to do.",,
 117,Nao (Casual),"わかってます。別に、遊ぶことと買い物をするだけが、旅行ではあ
 りませんから。","I understand. After all, traveling isn't just about playing and shopping.",get it -> understand,
 121,Mion (Casual),"日本人はバカンスってのをわかってないからねぇ。買い物と観光バ
-スだけが旅行だと勘違いしてるよ。","Japanese people just don't get what vacations are, y'know? It's not just about shopping or bus sightseeing.",,
-123,Nao (Casual),トラベルではなく、バカンスなんですね。,We aren't traveling anyway; this is a vacation.,,
+スだけが旅行だと勘違いしてるよ。","Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing bus tours.",,
+123,Nao (Casual),トラベルではなく、バカンスなんですね。,We aren't going there to travel anyway; this is a vacation.,,
 125,Mion (Casual),"素敵な洋館で、薔薇を眺めながら、しばし心を休める、誰にも急か
 されない時間……。","In this wonderful Western-style house, we can spend time resting our minds while watching the roses, not a soul there to bother us.",,
 128,,"　……そう言われたら、少しあたしも乗り気になってきた。
 　素敵な薔薇を眺めながら、刺繍でもしたら、……心がすっごく、
-穏やかになるかも…、かも。","...Hearing her say that, I'm starting to get in the mood to go a little bit. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe.",Now that you say that -> Hearing her say that,
+穏やかになるかも…、かも。","...Hearing her say that, I started to get in the mood to go a little more. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe.",Now that you say that -> Hearing her say that,
 129,,"　費用は全て、先方持ち。それで、素敵な洋館にお泊りし、素敵な
-食事まで付いてくる。","The payments were all done ahead of time. Now we''ll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. ",we can -> we'll be able to,
+食事まで付いてくる。","The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. ",we can -> we'll be able to,
 130,,"　２泊３日をのんびり過ごし、日曜の夜には帰って来られる。
 　ちょっと強行軍だが、条件は最高だった。","We'll rest up for three days and two nights, then we'll return home Sunday night. The schedule is kind of tight, but the conditions will be well worth it.",,>
 131,,"　そんなゴールデンチケットが、どこぞの商店街のクジの特賞にあ
@@ -112,7 +113,7 @@ index,chara,jp,en,Notes,
 157,詩音 (Casual),そんなの関係ないですよー！　すっごくいいんですよー？！,"That doesn't matteerr!! It's really good, okay?!",,
 163,Mion (Casual),アニメも漫画も、一切読まなくてもわかるから！,"If you don't want to watch the show or read the manga, I totally get it!",,
 166,Mion (Casual),"だからお願い！　おじさんに騙されたと思って、劇場版ワニャンの
-『中秋哀歌～兎たちの悲恋殺人事件～』を絶対に見てぇぇ！","But please! I thought you were just messing with this ol' man, but the Wanyan movie ""Mid-Autumn's Lament: The Heartbroken Rabbits Murder Case"" is something you absolutely must waaatch!!!",,
+『中秋哀歌～兎たちの悲恋殺人事件～』を絶対に見てぇぇ！","But please! I thought you were just messing with this ol' man, but the movie Detective Wanyan's ""Mid-Autumn's Lament: The Heartbroken Rabbits Murder Case"" is something you absolutely must waaatch!!!",,
 169,,『名探偵ワニャン』は、結構、人気のある推理アニメだ。,"""Detective Wanyan"" is a very popular mystery anime.",,
 170,,"　特に、劇場版はクオリティが高く、最新作は歴代最高の傑作と名
 高いのだ、……と魅音さんは力説してくれる。","The movie in particular is really high quality, so much that it's regarded as a masterpiece among their most recent works... is what Mion-san was stressing to me.",,

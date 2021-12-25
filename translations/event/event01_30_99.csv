@@ -1,346 +1,361 @@
-event01_30_99.bytes,,Lunik,,
-index,chara,jp,en,
-42,Nao (Casual),ッッッ………………………、,,
-48,詩音 (Casual),どうしたんです？　………ひッ？！？！　お、お姉……！！,What's wrong? ...Wha?!?! S-sis...,
-50,Mion (Casual),……やって、……くれるねぇ………。,"....I'll do it,... let's give it to them....",
+event01_30_99.bytes,,Lunik - TL,hanss - TL,Lloro - QC,
+index,chara,jp,en,,
+42,Nao (Casual),ッッッ………………………、,...........................,,
+48,詩音 (Casual),どうしたんです？　………ひッ？！？！　お、お姉……！！,What's wrong? ...Wha?!?! S-sis...!!,,
+50,Mion (Casual),……やって、……くれるねぇ………。,...They've... done it...,"from ""....I'll do it,... let's give it to them....",
 53,,"　物語は、第一の魔法陣が、あたしのベッドシーツに描かれていた
-のを発見した時に遡る。",The story goes back to when I first found the magic circle on my bed sheet.,
-56,Nao (Casual),ど、………どういうこと…………。,"W,..... what's that....",
+のを発見した時に遡る。",The story goes back to when I first found the magic circle on my bed sheet.,,
+56,Nao (Casual),ど、………どういうこと…………。,W-... what is this...,ど、………どういうこと…………。,W-... what is this...
 59,,"　魅音さんと詩音さんのベッドは、……何事もないのに。
-　あたしのベッドだけが……、#p殺#s・#r#pさ#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r……。","On Mion and Shion's bed,.... there's nothing. 
-But on my bed... /They'll be killed/.",
+　あたしのベッドだけが……、#p殺#s・#r#pさ#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r……。","Mion-san and Shion-san's beds had... nothing on top of them, but my bed alone was k i l l e d...","　魅音さんと詩音さんのベッドは、……何事もないのに。
+　あたしのベッドだけが……、#p殺#s・#r#pさ#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r……。","Mion-san and Shion-san's beds had... nothing on top of them, but my bed alone was k i l l e d..."
 60,,"　毛布は乱雑に剥ぎ取られて散乱し……、まるで肌のように露出し
-たシーツが……、鮮血に染まっている……。","The blankets were scattered in a crude pile...., the sheets were exposed like skin...., painted red....",
+たシーツが……、鮮血に染まっている……。",The blanket was torn off disastrously... almost like the sheets were skin hanging off of it... and dyed with fresh blood.,"　毛布は乱雑に剥ぎ取られて散乱し……、まるで肌のように露出し
+たシーツが……、鮮血に染まっている……。",The blanket was torn off disastrously... almost like the sheets were skin hanging off of it... and dyed with fresh blood.
 61,,"　違う。ただ染まっているんじゃない。それは………鮮血のような
-赤で描かれていた………。",That's not it. It's not just paint. It was dyed in.... fresh red blood....,
-64,Nao (Casual),ま………………魔法陣………………。,A.... magic circle....,
+赤で描かれていた………。",No. It's not just dyed red. This is... something drawn on with a blood-like substance...,"　違う。ただ染まっているんじゃない。それは………鮮血のような
+赤で描かれていた………。",No. It's not just dyed red. This is... something drawn on with a blood-like substance...
+64,Nao (Casual),ま………………魔法陣………………。,A.........  magic circle.........,ま………………魔法陣………………。,A.........  magic circle.........
 67,,"　あたしが、おぞましい魔法陣に絶句している時。
-　園崎姉妹は言っていた。",I was enraptured by that horrible magic circle. That was when the Sonozaki Sister spoke.,
+　園崎姉妹は言っていた。",I was enraptured by that horrible magic circle. That was when the Sonozakis spoke.,removed Sister,
 68,,"　ひッ？！？！　お、お姉……！！
-　……やって、……くれるねぇ………。","Wha?!? S-sis...!!
-Do ...... give me.....",
+　……やって、……くれるねぇ………。",Wha?!? S-sis...!! ...They've... done it...,"from ""Do ...... give me.....",
 69,,"　以下は園崎姉妹の二人にしか聞こえないやりとりである。
-　恐怖で頭を真っ白にしていたあたしには、聞こえる訳もない。",The following is an exchange that only the two Sonozaki sisters can hear.　I was so terrified that I couldn't even hear it.,
-74,詩音 (Casual),……これ……、無頼人さまの魔法陣ですよッッ？！？！,"....That....., is the scoundrel's magic circle?!?",...That's... Bright-sama's magic circle?!?!
-76,Mion (Casual),や、……やるねぇ……。見事な再現度だよ……。,,
-78,詩音 (Casual),お姉、……気付いてます……？,,
+　恐怖で頭を真っ白にしていたあたしには、聞こえる訳もない。",The following is an exchange that only the Sonozaki sisters can hear. I was so terrified that I couldn't even hear it.,,
+74,詩音 (Casual),……これ……、無頼人さまの魔法陣ですよッッ？！？！,...That's... Bright-sama's magic circle?!?!,,
+76,Mion (Casual),や、……やるねぇ……。見事な再現度だよ……。,They... They're not half bad... This is a magnificent reproduction...,"from ""T....they did it....",
+78,詩音 (Casual),お姉、……気付いてます……？,Sis... did you notice...?,,
 81,Mion (Casual),"もちろん……。……枕や毛布の乱れ方まで、……完全に映画を再現
-しているッ。",,
+しているッ。",Of course... The way that the pillows and blankets are messed up... it perfectly recreates the scene from the movie!,editz,
 84,,"　あたしは、紗音さんがどうして魔法陣を気にしなかったのかわか
-らず、長く混乱した。",,
+らず、長く混乱した。","For a long time, I was confused as to why Shannon-san wasn't bothered by the magic circle.",hanss starts here,
 85,,"　しかし、……魅音さんは光の速度で理解した。紗音さんもまた、
-ワニャン沼にはまるひとりだと知っていたからだ。",,
+ワニャン沼にはまるひとりだと知っていたからだ。",But... Mion-san instantly understood. She knew that Shannon was also a deeply engrossed fan of Detective Wanyan.,,
 86,,"　紗音さんが窓の鍵を見に行くといって２階へ上がり、降りて来た
-時。ヱリカさんは彼女にこう尋ねたのを魅音さんは記憶していた。",,
+時。ヱリカさんは彼女にこう尋ねたのを魅音さんは記憶していた。",Mion remembered the question Erika had asked Shannon after she returned from fixing the lock on the window upstairs.,,
 94,ヱリカ,"紗音さん、ご苦労様です。窓から泥棒が入って、部屋を荒らしたり
-はしていませんでしたか？",,
-96,紗音,いいえ。ご安心を。,,
-99,,魅音さんは不思議な違和感を覚えた。,,
+はしていませんでしたか？","Excellent work, Shannon-san. Has a robber broken into the window or anything?",flashback ref: ch3 index 484,
+96,紗音,いいえ。ご安心を。,No. Please be at ease.,,
+99,,魅音さんは不思議な違和感を覚えた。,Mion thought that felt out of place.,,
 100,,"　ヱリカさんのそれは、一種の厭味に聞こえるのだが、……だとし
-たら言う相手を間違えている。",,
-101,,なぜ、部屋が荒れていないか、聞く？,,
+たら言う相手を間違えている。","It sounded like a sarcastic remark from Erika-san... but if it was meant to be that way, she's saying that to the wrong person.",Ehhhh idk how to phrase this,"from ""but that'd only be if you weren't the one she was addressing."
+101,,なぜ、部屋が荒れていないか、聞く？,Why did she ask if something happened in the room?,"from ""Why did we hear that nothing was wrong with the room?",
 102,,"　魅音さんはすぐに理解する。ヱリカさんは、紗音さんがワニャ
-ラーだと知っていた。",,
+ラーだと知っていた。",Mion-san instantly understood. Erika-san knew that Shannon-san was a Wanyanner.,,
 103,,"　あたしが夕食後に紗音さんと会話をしていて、彼女がワニャラー
-だとＣＯするのを聞いていたのだ。",,
+だとＣＯするのを聞いていたのだ。",I heard about it myself after dinner that night when she confessed to me that she was a Wanyanner.,"from ""When I was speaking with Shannon-san after dinner (to flow a lil better)",
 104,,"　なので、あの魔法陣を、ちゃんと、映画の魔法陣だと理解してく
-れたかどうか、確認したかったのだ。",,
+れたかどうか、確認したかったのだ。","So, I wanted to confirm with her that it was indeed the magic circle from the film.",,
 108,,"　さて。本来ならば、紗音さんが２階の部屋に入るのはイレギュ
-ラーだった。",,
+ラーだった。","Now, Shannon-san had originally not planned to go to the room upstairs.",well -> now,
 109,,"　あたしが窓の鍵の話を唐突に始めたので、紗音さんは２階へ上が
-ることになってしまった。",,
+ることになってしまった。",She only had to upstairs because I suddenly mentioned the lock on the window.,,
 110,,"　だからその時点でのヱリカさんは、内心、しまったと思ったはず
-だ。",,
+だ。","So, at that point, I'm sure Erika-san was panicking internally.",so / order change,
 111,,"　魔法陣の悪戯の第一発見者を私にして、驚かせてやろうと思って
-たに違いないから。",,
+たに違いないから。",That's because it was {i}me{/i} who was supposed to be the first to discover the magic circle prank and be surprised.,I -> that's because it was me who,
 112,,"　そして同時に、ワニャラー仲間である魅音さんと詩音さんには、
-仲間内で盛り上がれる“ネタ”にもなる。",,
+仲間内で盛り上がれる“ネタ”にもなる。","And at the same time, it would have been a fun joke to share with her fellow Wanyanners, Mion-san and Shion-san.",it'd be -> it would have been,
 113,,"　ところが、紗音さんはディープなワニャラーだった為、魔法陣の
-意味をすぐに理解し、微笑んでスルーした。",,
+意味をすぐに理解し、微笑んでスルーした。","However, since Shannon-san is also a hardcore Wanyanner, she immediately understood the meaning of the magic circle, so she just smiled and ignored it.",deeply engrossed -> a hardcore,
 114,,"　その事実を、ヱリカさんは、降りて来た紗音さんに#p問#s・#r#pい#s・#r#p掛#s・#r#pけ#s・#r#pて#s・#r、
-確認を取ったのだ。",,
+確認を取ったのだ。",This fact was confirmed by Erika-san when she asked Shannon-san after coming down the stairs.,,
 115,,"　魅音さんはそれを瞬時に理解する。
 　紗音さんがスルーできることがわかっているなら、犯人がヱリカ
-さんであることは、秒で導ける答えだ。",,
+さんであることは、秒で導ける答えだ。","Mion-san understood it instantly.
+Both why Shannon-san could ignore it and that the culprit was Erika were answers that could be derived in seconds.",both / removed commas,
 116,,"　つまり、魔法陣を発見したその時点で、園崎姉妹は魔法陣の正体
 も、犯人がヱリカさんであることも、全て全て、あの時点で知って
-いたのだ。",,
+いたのだ。","In other words, the moment the magic circle was discovered, the Sonozaki sisters knew everything, from the meaning of the magic circle, to the culprit being Erika-san.",,
 117,,"　あたしが魔法陣に怯えて足を竦ませているその背後では、……キ
 モい笑みを浮かべたワニャラー園崎姉妹がニヤニヤしていたという
-訳だ。",,
+訳だ。",While I was cowering in fear at the magic circle... the Wanyan adoring Sonozaki sisters must have been laughing at me with disgusting smiles.,,
 121,,"　……そして、……ここからがあたしの理解を超える世界。
 　バケモノ同士は惹かれ合うとはいうけれど、まさにこれを言うの
-だろう……。",,
+だろう……。","...And... from here on it's a world beyond my understanding.
+It's said that monsters are drawn to each other, but who would've thought that'd turn out to be true...",,
 122,,"　魅音さんは、そして詩音さんは、超高速で状況を理解した。
 　この見事な、映画の完全再現の魔法陣を描いたヱリカさんは、何
-を欲しているだろう？",,
-123,,賛辞？　あるいは驚きの声？　……そう、オーディエンスだ。,,
+を欲しているだろう？","Mion-san and Shion-san instantly got a grasp on the situation.
+What could Erika, who had drawn this perfect recreation of the circle from the movie, possibly want?",,
+123,,賛辞？　あるいは驚きの声？　……そう、オーディエンスだ。,"A compliment? Or a shocked scream? ...Yes, it was an {i}audience{/i}.","from ""Erika was in the audience",
 124,,"　そう。その時、壁一枚向こうのヱリカさんの部屋では……、もう
 １人のワニャラーが、めちゃくちゃキモい笑いを浮かべて、じっと
-聞いていたのだ。",,
+聞いていたのだ。","That's right. In that moment, across the wall in Erika-san's room... one more Wanyanner was listening intently, letting out a disgusting laugh.",,
 126,,"　ヱリカさんは……、自分の魔法陣に驚く声、同志の感嘆の声が聞
 きたくて……、コップを壁に押し当てて耳を当て、……ずっと聞き
-耳を立てていた！！",,
+耳を立てていた！！","Erika-san... who wanted to hear the admiration of her magic circle by comrades, was listening... with a cup pressed against the wall... she was listening the whole time!!",,
 132,ヱリカ,"……ふっふっふ……。如何ですか、私の魔法陣は傑作でしょ
-う……？　無頼人さまの魔法陣を完全再現ですよぉ……？",,
+う……？　無頼人さまの魔法陣を完全再現ですよぉ……？","...*giggle*... What do you think? Isn't my magic circle a masterpiece...?
+Isn't it a perfect recreation of Bright-sama's magic circle...?",,
 134,ヱリカ,"さぁ、聞かせて下さいな、魅音さん、詩音さん！！
 未だに名探偵ワニャンを見ようともしない異教徒、
-菜央さんの悲鳴はたっぷりと楽しみました。",,
-137,ヱリカ,次はッ、あなたたちの感嘆が聞きたイィイっひひっひっひッ！！！,,
+菜央さんの悲鳴はたっぷりと楽しみました。","Now, do allow me to hear your praise, Mion-san, Shion-san!!
+I've already satisfied myself with the screams of Nao-san, who refuses to watch Detective Wanyan.",let me -> do allow me to,
+137,ヱリカ,次はッ、あなたたちの感嘆が聞きたイィイっひひっひっひッ！！！,"Nwext, I want to hear your cries of admirationnNNIHIHIHI!!!",,
 142,,"　ヱリカさんは耳を澄ます耳を澄ます。魅音さんと詩音さんの反応
 が知りたくて全神経を聴覚に集めて全ての音を聞き取ろうとす
-る……！！",,
-144,,……ゴリリ…………。,,
+る……！！","Erika strains her ears more and more. She wants to know Mion-san and Shion-san's reactions, so she focuses all of her attention into her hearing...!!",,
+144,,……ゴリリ…………。,...Ssskk......,"from ""...*giggle*......",
 145,,"　それは、小さな、おかしな音だった。
 　小さい音なのだけれど、……耳のすぐ近くに押し付けて来たよう
-な、小さいけれども#p近#s・#r#pく#s・#r#pて#s・#r#p触#s・#r#pる#s・#r、異音。",,
-146,,……まさか。………いや、そんなまさか……。,,
+な、小さいけれども#p近#s・#r#pく#s・#r#pて#s・#r#p触#s・#r#pる#s・#r、異音。","It was a small, strange sound.
+A quiet sound, but... as if it was pressed right up next to ear.",,
+146,,……まさか。………いや、そんなまさか……。,"...No way. ......No, it can't be...",,
 147,,"　ヱリカさんの額に冷たい汗が一粒浮かぶ。
 　……それがゆっくりと滴り落ちようとする時、……ヱリカさんの
-その形相は……、不気味なくらいの……歓喜に彩られていた。",,
-149,,こいつ、……こいつら、……まさか……ッッッ？！？！,,
+その形相は……、不気味なくらいの……歓喜に彩られていた。","A bead of cold sweat appeared on Erika's face.
+...As it slowly ran down Erika's forehead... her expression... was colored with... an eerie joy.",,
+149,,こいつ、……こいつら、……まさか……ッッッ？！？！,Th-these people...... really......!?!,guys -> people,
 150,,"　そう。ヱリカさんがコップを押し付けて隣の部屋の声を
-うかがっている、その壁の反対側では……、",,
+うかがっている、その壁の反対側では……、","That's right. Erika-san, with the cup pressed against the wall, listens to the voice in the next room over, and hears through the wall...",,
 152,,"ヱリカさんの形相とまったく同じ不気味な笑みを浮かべた
-#p二#s・#r#p人#s・#r#pの#s・#r#pヱ#s・#r#pリ#s・#r#pカ#s・#rがいた……。",,
-155,ヱリカ,ハッ………ハハ……………ッッッ。,,
-157,,こいつら……、#p聞#s・#r#pい#s・#r#pて#s・#r#pや#s・#r#pが#s・#r#pる#s・#r……ッ！！！,,
+#p二#s・#r#p人#s・#r#pの#s・#r#pヱ#s・#r#pリ#s・#r#pカ#s・#rがいた……。","Two sets of creepy laughs, just like Erika's.",,
+155,ヱリカ,ハッ………ハハ……………ッッッ。,Ha...... haha............ nnn.,,
+157,,こいつら……、#p聞#s・#r#pい#s・#r#pて#s・#r#pや#s・#r#pが#s・#r#pる#s・#r……ッ！！！,Those two... {i}they're listening to me{/i}!!!,,
 158,,"　私が完璧な魔法陣を描き上げて、その感嘆の声を聴こうとして壁
-に耳を当てている私の挙動を、……聞いてやがるッ！！！",,
+に耳を当てている私の挙動を、……聞いてやがるッ！！！","I've drawn a perfect magic circle, and am now listening through the wall for voices of admiration... but they're listening to me!!!",,
 160,,"　２つの客室を隔てる１枚の壁の両側で、……１人と２人の巨大ナ
 メクジが……、コップを壁に押し付け合い、互いに聞き耳を立て
-合っているッ！！",,
+合っているッ！！",On either side of the wall separating the two rooms... was one giant slug and two giant slugs... listening to each other through the wall with cups.,,
 162,,"　グ、グッド、グッダぁあぁぁぁ……、グッデストぉおおおおおぉ
-おおおおおッ！！！",,
+おおおおおッ！！！","<G-Good>, <Gooderrrrrr>... <Goodeeeeeeeesssssstttt!!!>",,
 163,,"　翌日。今度はそちらの番ですよとでもいうかのように、ヱリカさ
-んは自分の部屋の鍵を、わざと掛け忘れた。",,
+んは自分の部屋の鍵を、わざと掛け忘れた。","The next day, as if to say ""Now it's your turn"", Erika-san purposely forgot to lock the door.",,
 164,,"　園崎姉妹は、罠とわかっていても、敢えてこの機会に便乗
 し、……荷物を取りに戻るといってゲストハウスに詩音さんが戻
-る。",,
-165,,そして、ヱリカさんの部屋に入り、魔法陣の悪戯をするのだ。,,
+る。","Even though they knew it was a trap, the Sonozaki sisters decided to take advantage of this... so Shion-san returned to the guesthouse under the guise of retrieving some luggage.",,
+165,,そして、ヱリカさんの部屋に入り、魔法陣の悪戯をするのだ。,"And then, she went into Erika-san's room to set up the prank with the magic circle.",,
 166,,"　なお、魔法陣のシーツは予め、事前に用意してあったものだ。
 ……あたしが睡眠薬で眠った後、園崎姉妹は夜なべして作ったの
-だ！",,
+だ！","Furthermore, the sheet with the magic circle was prepared in advance. ...The Sonozaki sisters worked all night on it after I had gone to sleep with the sleeping pills!",,
 167,,"　そしてまんまと詩音さんは、ドアノブの蛍光塗料の仕掛けに引っ
-掛かる。",,
+掛かる。","Then, Shion-san falls for the trap with the fluorescent paint on the doorknob.",,
 168,,"　詩音さんもある程度の注意はしていたが、さすがにヱリカさんが
-自分で調合したという薬物の存在にまでは、気付けなかった。",,
+自分で調合したという薬物の存在にまでは、気付けなかった。","Shion-san exercised a certain amount of caution, but as expected, she was unaware of the substance Erika had prepared herself.",,
 169,,"　だから、詩音さんの手には確かに、蛍光塗料が付着したのだ。そ
-れでヱリカさんはチェックメイトしたはずだった！",,
+れでヱリカさんはチェックメイトしたはずだった！","So, there should certainly have been fluorescent paint on Shion's hands. So Erika-san should have checkmated her!",,
 170,,"　だが、……園崎姉妹はやはり、甘くはなかったのだ。
 　そう。帰ってきて二人は、争うようにして一緒にシャワー室に駆
-け込んでいった。",,
+け込んでいった。","But... the Sonozaki sisters were not so naive after all.
+That's right. After we returned, the two fought and ran into the shower together.",,
 171,,"　あたしは、シャワーの順番を争うなんて、双子姉妹は仲がいい
-なぁと微笑ましく思っていたけれど。",,
-172,,……二人は、この上なく慎重だった。,,
+なぁと微笑ましく思っていたけれど。","I was just smiling at how close the two were, fighting over who would go first in the shower.",,
+172,,……二人は、この上なく慎重だった。,"...But the two of them, were doing this deliberately.",,
 173,,"　あの時、入れ替わったのだ。ヱリカさんの悲鳴を聞いて、シャ
-ワー室から飛び出してきた時には、姉妹は入れ替わっていたのだ。",,
+ワー室から飛び出してきた時には、姉妹は入れ替わっていたのだ。","They switched at that time. When they heard Erika-san's scream and ran out of the shower, they had switched places.",,
 174,,"　二人はヱリカさんを侮らなかった。……自分たちには知覚できな
-い、何らかの仕掛けが付着しているかもしれないと疑った！",,
+い、何らかの仕掛けが付着しているかもしれないと疑った！",The two of them didn't underestimate Erika-san... They had suspected something had been attached to them that they couldn't percieve! ,,
 175,,"　だからあのシャワーは、それを洗い流すことと、さらに慎重を期
-して、姉妹を入れ替わらせることが目的だったのだ。",,
+して、姉妹を入れ替わらせることが目的だったのだ。","The purpose of the shower was to wash that away, and more importantly, switch the sisters.",,
 176,,"　だが、ヱリカさんだって、自分を名探偵などと呼ぶ程度にはイカ
-レてる。",,
+レてる。","But, Erika-san is crazy enough to call herself a great detective.",,
 177,,"　ブラックライトで詩音さんの手を照らして、何の痕跡もないこと
 を見た瞬間彼女は、こんなはずはないと絶叫を始めたが、……あれ
-は絶望の狂乱ではなく、ある意味、歓喜だったのだ。",,
+は絶望の狂乱ではなく、ある意味、歓喜だったのだ。","When nothing came up after shining on Shion-san's hand with the black light, and she started crying out, ""That's impossible!""... it wasn't frenzied scream of despair, but rather, of great delight.",chapter 9 index 546,
 178,,"　ヱリカさんが言うには、……ノックス第１０条。“手掛かりなき
-他の登場人物への変装を禁ず”。",,
+他の登場人物への変装を禁ず”。","Erika-san says... Knox's 10th: ""it is forbidden to disguise yourself as another person without any clues.""",,
 179,,"　ヱリカさんは園崎姉妹に会い、自己紹介を交わして、二人が瓜二
-つの双子姉妹であることを知っていた。",,
+つの双子姉妹であることを知っていた。","However, Erika-san had met the sisters, introduced herself, and knew that they were identical twins.",,
 180,,"　“瓜二つな双子姉妹”と、ヱリカさん自身が、六軒島へ向かう船
-の上でそう言っているのだ。",,
+の上でそう言っているのだ。","""Identical twin sisters"", Erika-san had said herself on the boat to Rokkenjima.",,
 181,,"　だから、有効デス。
 　ノックス第１０条に抵触しない、他の登場人物への変装。いや、
-入れ替わり……！",,
+入れ替わり……！","Therefore, EFFECTIVE.
+A disguise that does not violate Knox's 10th. No, a swap...!",,
 182,,"　ヱリカさんはあの時、即座に魅音さんの手をブラックライトで照
-らすことも出来たのだ。",,
+らすことも出来たのだ。","At that moment, Erika-san could have immediately illuminated Mion's hand with her black light.",,
 183,,"　そうすれば、魅音さんの手が蛍光塗料で浮かび上がるのを見るこ
-とが出来ただろう。",,
-184,,しなかった。……どうして？　一流はタフじゃないの？,,
-186,,違う。これは敬意、畏敬、崇敬……！,,
+とが出来ただろう。","If she did that, I would've seen Mion's hands illuminated with fluorescent paint.",,
+184,,しなかった。……どうして？　一流はタフじゃないの？,But she didn't... why? Isn't she supposed to be tougher than that?,,
+186,,違う。これは敬意、畏敬、崇敬……！,No. It was respect... awe... reverence...!,,
 187,,"　ヱリカさんは、ワニャラーとしての愛だけでなく、探偵の自分と
 の知恵比べにおいても、全身全霊で応えてくれた園崎姉妹に心酔さ
-えしたのだ。",,
+えしたのだ。","Erika-san had great admiration for the Sonozaki sisters, who had responded not only with their love as Wanyanners, but also with all their might in a battle of wits.",,
 188,,"　ドラノールさんも言っていた。ヱリカさんは、探偵も犯人も演じ
-分けられる、優れた俳優なのだと。",,
+分けられる、優れた俳優なのだと。","Dlanor-san told me. Erika-san is a great actor, who can play both the detective and the culprit.",,
 189,,"　だからこそ、あれだけみっともなく、出し抜かれて狼狽える姿を
-見せて、園崎姉妹に応えて見せたのだ。",,
+見せて、園崎姉妹に応えて見せたのだ。",That's why she responded to the Sonozaki sisters with such a shameful and outwitted display of dismay.,upsetting -> shameful,
 190,,"　いや、恐らくはアレも、名探偵ワニャンに出てくる、犯人のひと
-りの、往生際の悪さの再現なのかもしれない。",,
+りの、往生際の悪さの再現なのかもしれない。","No, perhaps it was even a reenactment of a particularly ill-tempered culprit in Detective Wanyan.",,
 191,,"　六軒島の２泊３日は、あたしにとってだけは、ホラーとミステ
-リー。",,
+リー。","These three days and two nights on Rokkenjima, for me alone, have been a horror and a mystery.",,
 192,,"　他の３人にとっては、……巨大ナメクジ、ワニャンを愛する者た
-ちの、ファンミーティングなのであった……。",,
+ちの、ファンミーティングなのであった……。",As for the other three... it was a fan meetup for those who love Wanyan the giant slug...,,
 209,朱志香,"ぜひ！　また遊びに来てくれよな！！　その時はオールでボドゲ勝
-負しようぜ！　な！",,
+負しようぜ！　な！","Of course! Feel free to come over and play again!! Next time, we'll pull an all-nighter having a board game showdown! Right?","from ""we'll have an all-out board game match",
 213,？？？？,"君たちの滞在のお陰で、使用人たちも色々と勉強になったと言って
-いる。感謝するよ。",,
+いる。感謝するよ。",The servants say that they have learned a great deal from your stay. You have our thanks.,,
 216,？？？？,"アンケートもありがとうございました。よく読んで、今後に役立て
-たいと思います。",,
+たいと思います。",Thank you for completing the questionnaire as well. We will read it carefully and make good use of it in the future.,,
 220,Mion (Casual),"ガッツリと書いておきましたんで！　ぜひ、最後まで読んで下さい
-ね！",,
+ね！",I've put my all into it! Please definitely read it to the end!,,
 222,詩音 (Casual),"私たちが責任を持って！　六軒島を新しいリゾート地にコンサルタ
-ントしていきますので！",,
-225,,お別れの時には、右代宮家の人までお見送りに来てくれた。,,
+ントしていきますので！",We'll take responsibility for it! Because we're the consultants for the new resort on Rokkenjima!,,
+225,,お別れの時には、右代宮家の人までお見送りに来てくれた。,"When it was time to leave, even the Ushiromiya family members came to see us off.",,
 226,,"　もう一度、訪れる時には、……今度はのんびりしたい。さもな
 きゃ、……あたしもコスプレ、……挑戦してみてもいいか
-も、……かも。",,
+も、……かも。",If I come here again... I'd like to take it easier. Otherwise... I might as well try cosplay... I think... maybe.,,
 230,嘉音,"紗音から、お見送りが出来なくて申し訳ないと言付かっておりま
-す。",,
+す。",Shannon would like to express her apologies for not being able to see you off.,,
 232,ヱリカ,"今日はお休みですからね。仕方ありません。よろしく伝えておいて
-下さい。私たちは、巨大ナメクジの下、同志ですから！",,
-234,嘉音,……えっと、確か、……真実は、いつも二つ。,,
-237,ヱリカ,真実は、いつも二つ！　あなたも読んでおいてくださいね？,,
+下さい。私たちは、巨大ナメクジの下、同志ですから！","Today's her day off. It can't be helped. Do give her my regards, for we are comrades under the giant slug!",,
+234,嘉音,……えっと、確か、……真実は、いつも二つ。,"...Um, of course. ...As always, there are two truths.","I assume this is a wanyan reference, which is therefore a reference to smth else. How to word this reference",
+237,ヱリカ,真実は、いつも二つ！　あなたも読んでおいてくださいね？,"As always, there are two truths! Do you read it too?",,
 243,朱志香,"私も～……、その、次に機会がある時は、コスプレ撮影って、やっ
-てみよっかなぁって。",,
+てみよっかなぁって。","I... uh, might also like to do a cosplay photoshoot next time.",,
 246,朱志香,"その時はさ。菜央ちゃんも一緒にやろうぜ？　一緒ならきっと、
-恥ずかしくないって。",,
+恥ずかしくないって。","You know, when that time comes, why don't we do it together, Nao-chan? I'm sure it won't be as embarrassing if we go together.",,
 248,Nao (Casual),"くす……。そうですね。……一緒に、コスプレデビューしましょ
-う。",,
+う。",*giggle*... That's right... let's make our cosplay debut together.,,
 251,,"　見送りの人々の中に、あの魔女の姿も混じっている。
-　もちろん、誰にも姿は見えてないだろうが。",,
-255,ベアトリーチェ,誕生日を、そなたと共に過ごせてよかったぞ。菜央。,,
+　もちろん、誰にも姿は見えてないだろうが。","Among the people who see us off, the witch is mixed in with the crowd.
+Of course, no one can see her though.","from ""is there",
+255,ベアトリーチェ,誕生日を、そなたと共に過ごせてよかったぞ。菜央。,"It was a pleasure to spend my birthday with you, Nao.",,
 257,Nao (Casual),"ありがとう。だけど、聞いていいかしら。……一体、何歳の誕生日
-なの？",,
-259,ベアトリーチェ,くっくっく！　千から先は忘れたわ！,,
+なの？","Thank you. But, I'd like to ask something... how old exactly are you?",,
+259,ベアトリーチェ,くっくっく！　千から先は忘れたわ！,*cackle*cackle*! I have forgotten over the course of a thousand years!,,
 261,ベアトリーチェ,"また、いつでも遊びに来るがよい。次は、妾の黄金郷の、黄金の薔
-薇庭園を案内しようぞ！",,
+薇庭園を案内しようぞ！","You are always welcome to come play again. Next time, I'll show you the golden rose garden of the Golden Land!",visit -> play again,
 263,Nao (Casual),"あたしもゲーム機でも持ってきてあげるわ。腕前を存分に見せてあ
-げるから。",,
+げるから。",I'll bring a game console too. I'll show you just how good I am.,,
 267,ドラノール,"貴女の行く末に幸多からんことを祈りマス。お元気でお過ごし下サ
-イ。",,
+イ。",I pray for your good FORTUNE. Wishing you the BEST.,,
 269,Nao (Casual),"ありがとう。あなたとはもっと、ゆっくりとお話をしたかったわ。
-また会いましょう。",,
+また会いましょう。",Thank you. I would have liked to spend more time speaking with you. See you again.,,
 273,ヱリカ,"私は探偵ですので、事件が起こる度にあちこちに引っ張り凧です。
-だからもう、あんたと会うことはないでしょう。",,
+だからもう、あんたと会うことはないでしょう。","Since I'm a detective, whereever an incident might occur, you'll find me. So, I don't think I will ever see you again.","from ""I am the detective. Wherever an incident may occur, I will be there.",
 275,Nao (Casual),"大丈夫よ。名探偵ワニャンのコラボカフェ。多分、あたしも行くか
-らそこで会えるわ。",,
+らそこで会えるわ。","That's okay. There's the Detective Wanyan collab cafe. I'll probably be there, so we'll see each other again then.",,
 277,ヱリカ,"…………ふっふふふふ。グッド。その時は、推しキャラについて存
-分に語り合いましょう。",,
+分に語り合いましょう。",".........*giggle*giggle*. <Good> When you do, let's talk about our favorite characters to the fullest. ",,
 283,Mion (Casual),"ヱリカさんも、ぜひ#p雛見沢#sひなみざわ#rに遊びに来てね。ヱリカさんなら、絶対
-に退屈しないからさ！",,
+に退屈しないからさ！","Come visit us in Hinamizawa some time, Erika-san! We definitely won't let you get bored!",,
 285,詩音 (Casual),"圭ちゃんと対決して欲しいですねぇ。口先の魔術師と名探偵。どっ
-ちが勝つか見てみたいです。",,
+ちが勝つか見てみたいです。",I want to see you face off with Kei-chan. The Magician of Words vs The Great Detective. I wonder who will win?,off with,
 290,ヱリカ,"ほう？　口先の魔術師？　魔術師とはまた、如何にもカネダ少年の
-事件簿に出てくる犯人の二つ名みたいで素敵です！",,
+事件簿に出てくる犯人の二つ名みたいで素敵です！","Oh? A Magician of Words? A magician, just like the alias of that culprit in The Kaneda Case Files! Wonderful!",,
 292,ヱリカ,"古戸ヱリカ、皆さんのところで事件ある時、必ずや参上することを
-お約束しましょう！",,
+お約束しましょう！","Whenever anyone has a case, I, Erika Furudo, shall promise to come to your aid!",,
 297,詩音 (Casual),"もしくは、フツーにエンジェルモートで、デザート食べ放題しなが
-ら、だらだらと長話をしましょーねぇ☆",,
+ら、だらだらと長話をしましょーねぇ☆","Alternatively, we can go to Angel Mort and have a long casual talk over all-you-can-eat dessert.☆",,
 299,Mion (Casual),"あんたみたいな面白くてタフなヤツを、ぜひ雛見沢分校に招きたい
-よ。",,
+よ。",I'd love to invite someone fun and tough like you to the Hinamizawa Branch School.,interesting tough guy -> someone fun and tough,
 304,Nao (Casual),"確かに。……ヱリカさんのパワーと推理力は、
-魅音さんとレナちゃんが合体したみたいなものだわ。",,
-311,ヱリカ,いつか。必ず。,,
+魅音さんとレナちゃんが合体したみたいなものだわ。",Definitely. ...Erika's energy and reasoning skills are like a combination of Mion-san and Rena-chan.,,
+311,ヱリカ,いつか。必ず。,"One day, absolutely.",idk how 2 tl this,of course -> absolutely
 313,ヱリカ,"ふふっ。……ただ、別れを惜しむ友人たちがそこにいるだけで、古
-戸ヱリカにはこの程度の挨拶が可能です。如何です、皆様方？",,
-320,Nao (Casual),グッド！,,
-332,Nao (Casual),……ヱリカさんがもらった手紙は、何なんですか？,,
+戸ヱリカにはこの程度の挨拶が可能です。如何です、皆様方？","*giggle*...Just with the presence of a few friends that are reluctant to depart, this level of farewell is possible for Erika Furudo. What do you think, everyone?","from ""Simply by the presence of a few friends to depart with, this level of greeting ",
+320,Nao (Casual),グッド！,<Good!>,,
+332,Nao (Casual),……ヱリカさんがもらった手紙は、何なんですか？,...What's with the letter that Erika received?,,
 334,ヱリカ,"気にしないで下さい。私はただの使い。主への返書を預かったに過
-ぎません。",,
+ぎません。",Don't worry. I am only a messenger. I have merely been entrusted with this message to give to my master.,by the -> to give to my,
 336,ヱリカ,"ベアトリーチェは私のことを良く書いてくれたそうなので。中身が
-楽しみです。",,
+楽しみです。",It seems that Beatrice has written a lot about me. I look forward to seeing what's inside.,,
 338,Nao (Casual),"……そういえば。……ベアトリーチェはあたしにも何かプレゼント
-をくれるって言っていたけれど……。",,
-345,Mion (Casual),えー？　何々？！　六軒島でプレゼントをもらったの？！,,
-347,詩音 (Casual),いいなぁ。私たち、なーんにももらってないです。,,
+をくれるって言っていたけれど……。",...Speaking of which... Beatrice said she had a present for me too...,,
+345,Mion (Casual),えー？　何々？！　六軒島でプレゼントをもらったの？！,Ehh? What?! Did you get a present on Rokkenjima?!,,
+347,詩音 (Casual),いいなぁ。私たち、なーんにももらってないです。,That's nice. We didn't get anything at all.,,
 352,ヱリカ,"いえ。魔女が菜央さんに預けたプレゼントは、貴女たち３人に
-宛てたものだと思います。",,
-354,ヱリカ,荷物の中を、見てみたらどうです？,,
+宛てたものだと思います。","Actually, I think the witch's present for Nao was intended for all three of you.",not at all -> actually,
+354,ヱリカ,荷物の中を、見てみたらどうです？,Why don't you have a look in your luggage?,,
 357,,"　そう言われ、あたしは自分の荷物を調べる。
 　すると、まったく心当たりのない、小さなプレゼントボックスが
-入っているではないか。",,
+入っているではないか。","After she says that, I take a look through my luggage.
+Sitting inside, was a small present box that I had never seen before.",with that said -> after she says that / And in it -> sitting inside,
 358,,"　メッセージカードが添えてある。……やっぱり、ベアトリーチェ
-からだ。",,
-360,,“六軒島への来訪を記念して。――黄金の魔女より”,,
-364,Mion (Casual),あー、あの肖像画のね！　２００億円の金塊だっけ？,,
+からだ。","There's a message card attached... As I thought, it's from Beatrice.",,
+360,,“六軒島への来訪を記念して。――黄金の魔女より”,"""In honor of your visit to Rokkenjima. -From The Golden Witch""",,
+364,Mion (Casual),あー、あの肖像画のね！　２００億円の金塊だっけ？,I-It's that portrait! Could it be the 20 billion yen's worth of gold bars?,,
 366,詩音 (Casual),"肖像画の前に、碑文みたいなのあったじゃないですか。あれ、謎が
-書いてあって、解くと金塊の場所がわかるらしいですよ？",,
+書いてあって、解くと金塊の場所がわかるらしいですよ？","There's something like an inscription in front of the portrait. They say it's a riddle, and solving it leads to the location of the gold bars.",,
 369,Mion (Casual),"ええぇぇええぇ！！　そういうことは滞在中に言ってよぉ！　碑文
-の謎解きに挑戦したかったなぁー！",,
-375,ヱリカ,ふふ。まぁ、私は解いたことがありますけれど。,,
-377,Nao (Casual),さらりとすごいこと言ったわ。金塊は本当にあったの……？,,
+の謎解きに挑戦したかったなぁー！",Eeeeeh!? You should've told me that during the stay! I would have tried solving the riddle!,,
+375,ヱリカ,ふふ。まぁ、私は解いたことがありますけれど。,"*giggle*. Well, I've solved it before, though.",,
+377,Nao (Casual),さらりとすごいこと言ったわ。金塊は本当にあったの……？,That's an easy thing to say. Was there really gold...?,,
 379,ヱリカ,"もちろん！　……まぁ、私には興味がなかったので、右代宮家の皆
-さんにお任せしましたが。",,
-385,Mion (Casual),菜央ちゃん、早くプレゼント、開けてみようよ！,,
-387,詩音 (Casual),純金のモールドが入ってたりして？,,
+さんにお任せしましたが。","Of course! ...Although, I had no interest in it, so I left it to the Ushiromiya family.",,
+385,Mion (Casual),菜央ちゃん、早くプレゼント、開けてみようよ！,"Come on, Nao-chan. Let's open up the present!",,
+387,詩音 (Casual),純金のモールドが入ってたりして？,What if it contains a solid gold figurine?,what is モールド,"i changed it to solid gold figurine from mold, but im not sure on this"
 392,ヱリカ,"１ｇでも数千円。仮に１００ｇもあったら、なかなかの価値になり
-ますね。",,
+ますね。",Even 1 gram of gold is a few thousand yen. If it was 100 grams of gold that'd be quite the pretty penny.,a lot -> pretty penny,
 394,ヱリカ,"でも、あのベアトリーチェが、意味もなく黄金を贈ってくれるとは
-ちょっと思えませんが。",,
-401,Nao (Casual),すごく軽いから、金じゃないかも。……空っぽみたいに軽いわ。,,
-406,,とにかく、開けてみよう……。,,
-410,ヱリカ,な、……何？！　……何事ですかッ……？！,,
+ちょっと思えませんが。","But, I don't think that Beatrice would give us gold for no reason.",,
+401,Nao (Casual),すごく軽いから、金じゃないかも。……空っぽみたいに軽いわ。,"It's very light, so it's probably not gold... It's almost as if it was empty.",,
+406,,とにかく、開けてみよう……。,"Anyways, let's open it...",,
+410,ヱリカ,な、……何？！　……何事ですかッ……？！,Wh... What?! ...What is this?!,,
 417,Mion (バニー),"何よ、今のすっごい雷……！　こんなに晴れてるのに凄かった
-ね……。",,
-420,詩音 (バニー),お、お姉？！　そ、その恰好は何です……？！,,
+ね……。","Wow, that sure was some lightning...! That was amazing for such a sunny day...",,
+420,詩音 (バニー),お、お姉？！　そ、その恰好は何です……？！,S-Sis?! Wh-what's that outfit...?!,,
 427,Nao (シエスタ),"そ、それを言ったら、詩音さんだって。どういうこと？　手品？　
-早着替え？！",,
-429,ヱリカ,……菜央さんも、なかなかの恰好ですよ。,,
-431,ヱリカ,それ、……確か、シエスタ姉妹兵の。,,
+早着替え？！","Y-you should talk, Shion-san. What was that? A magic trick? A quick change of clothes?",idk on the start of this line,"from ""S-Shion san you said it."
+429,ヱリカ,……菜央さんも、なかなかの恰好ですよ。,...Nao-san also has a lovely outfit.,,
+431,ヱリカ,それ、……確か、シエスタ姉妹兵の。,"That is... if I remember correctly, the Chiester Sisters Guard Corps.",,
 434,Nao (シエスタ),"な、……なな、何ですか、この服っ？　え、ちょ、スカート短い！
-　というか前、丸見え？！",,
-440,詩音 (バニー),お姉、私たちのこの服……。,,
+　というか前、丸見え？！","Wh... wh-wh-what's with these clothes? Hey, wait, the skirt's too short! I mean, you can see the whole front?!",,
+440,詩音 (バニー),お姉、私たちのこの服……。,"Sis, these clothes of ours...",,
 443,Mion (バニー),"『中秋哀歌～兎たちの悲恋殺人事件～』に出て来た、月兎の衣装
-だぁあぁ！！",,
+だぁあぁ！！",It's the costumes of the moon rabbits from Mid-Autumn's Lament: The Heartbroken Rabbits Murder Caasseee!!,,
 447,詩音 (バニー),"すごいじゃないですか！　私とお姉で、月兎の舞踏合わせが出来ま
-すよ？！",,
+すよ？！","Isn't this great! Me and my sister, we can do the moon rabbit dance together!!",,
 455,Nao (シエスタ),"魅音さんと詩音さんは楽しそうだけど、あたしは訳が分からないで
-す！",,
-458,Nao (シエスタ),これも、名探偵ワニャンに出てくる衣装なんですかぁ？！,,
-465,ヱリカ,いいえ、違いますね。シエスタ姉妹兵の制服です。,,
+す！","Mion-san and Shion-san seem to be having fun, but I don't understand what's going on!",,
+458,Nao (シエスタ),これも、名探偵ワニャンに出てくる衣装なんですかぁ？！,Is this also a costume from Detective Wanyan?!,,
+465,ヱリカ,いいえ、違いますね。シエスタ姉妹兵の制服です。,Not at all. It's the uniform of the Chiester Sisters Guard Corps.,,
 467,ヱリカ,"魔界のマニアの間では、すっごい高額で取引されてるとか。それの
-新品なんて、ある意味、すっごいプライスレスです。",,
-471,Mion (バニー),まぁ、新品より使用済みの方が価値が出る業界もあるけどねー。,,
+新品なんて、ある意味、すっごいプライスレスです。","Among the maniacs of the Magical World, it's sold at an incredibly high price. In a way, a new one of those is priceless.",,
+471,Mion (バニー),まぁ、新品より使用済みの方が価値が出る業界もあるけどねー。,"Well, there are industries where a used one is worth more than a new one you know~.",,
 477,Nao (シエスタ),"あたしには価値がよくわかりませんっ。寒いです、恥ずかしいで
-す！！",,
-479,ヱリカ,おや？　先程のメッセージカードの文字が、変わっていますね。,,
+す！！","I don't care what it's worth. I'm cold, {i}and{/i} I'm embarassed!!",,
+479,ヱリカ,おや？　先程のメッセージカードの文字が、変わっていますね。,Oh? The text on the message card from earlier has changed.,,
 483,,"　楽しんでいただけたかな？
-　開けると即座に衣装が変わる、お着換え玉手箱であるぞ！",,
+　開けると即座に衣装が変わる、お着換え玉手箱であるぞ！","I wonder if you've been enjoying yourself?
+It instantly changes your clothes when you open it, as it's a Clothes Change Pandora Box!",how to tl 玉手箱,you got it / order change
 484,,"　実はな、３人にそれぞれが最も欲しがっている衣装を贈ってやろ
-うと思い、少し、そなたらのカケラを覗かせてもらったのだ。",,
+うと思い、少し、そなたらのカケラを覗かせてもらったのだ。","The truth is, I thought I'd give the three of you the costumes you wanted the most while giving you all a glimpse at a fragment of yourselves.", ,
 485,,"　魅音と詩音については、欲しい衣装のイメージがはっきりしてい
-たのでよかったが、菜央については、わからなかったのだ。",,
+たのでよかったが、菜央については、わからなかったのだ。","For Mion and Shion, I had a clear image of what they wanted, but I couldn't figure anything out for Nao.",,
 488,Nao (シエスタ),"……服なんて、その時その時でニーズが変わりますし。一番欲しい
-１着なんてイメージ、普段は持ってないし……。",,
+１着なんてイメージ、普段は持ってないし……。","...For clothing, my needs change from time to time. I don't usually have an image of one outfit I want the most.",the -> my,
 491,,"　なのでな、考えた。
 　魅音と詩音は、兎たちの悲恋殺人事件の月兎の衣装なのであろ
-う？",,
+う？","So, I thought about it.
+Mion and Shion have the moon rabbit costumes from The Heartbroken Rabbits Murder Case, right?",,
 492,,"　ならばそなたも兎合わせにしてやったら、３人で仲良くできるの
-ではないかと思ってな！",,
+ではないかと思ってな！","So, I thought that if you were a rabbit too, the three of you could be good friends!",,
 499,Nao (シエスタ),"思わないわぁあぁぁ！！！　返して！　スカートの前の部分だけで
-も返してぇぇ！",,
+も返してぇぇ！",I don't think soooooooo!!! Give it back! The front part of the skiiiirtt!,,
 506,ヱリカ,"……フロントオープンスカートって、どういう訳か魔界で流行って
-るんですよね。",,
-511,詩音 (バニー),ちょっと、エンジェルモートっぽいですよね！,Wait- that's a bit like the Angel Mort's outfits!,
+るんですよね。",...Front-open skirts are popular in the magic world for some reason.,,
+511,詩音 (バニー),ちょっと、エンジェルモートっぽいですよね！,"Wait, these are a bit like Angel Mort's outfits!",that's a -> these are,
 513,Mion (バニー),"菜央ちゃん、エンジェルモートで今度、その衣装でバイトしてみな
-い？！",,
+い？！","Nao-chan, why won't you try out some part-time at Angel Mort in that outfit?!",editz,
 522,Nao (シエスタ),"ヒナミザワーッ！！！　オ・コ・ト・ワ・リぃいいぃいい
-いぃッ！！！",,
+いぃッ！！！",Hinamizawa--!! I re-fu-seeeeeee!!!,,
 525,Nao (シエスタ),"っていうか、さっきまで着てたあたしの服はどこなの？！　ど
-こ？！",,
-532,ヱリカ,あ、またメッセージカードに文字が。……何々？,,
-535,,追伸。,,
+こ？！","Wait, where are the clothes I was wearing just now?! Where are they?!",,
+532,ヱリカ,あ、またメッセージカードに文字が。……何々？,"Ah, there are more words on the message card... I do wonder what it says? ...Hm?",,
+535,,追伸。,P.S.,,
 536,,"　そなたらが着ていた元の服は、魔界クリーニングの超特急便に
 て、明日には新品同様になって自宅に届けられることになってい
-る。",,
+る。","The clothes you were wearing will be delivered to your house tomorrow, by Magic World Cleaning's express service, where they will be as good as new.",,
 537,,"　クリーニング代は妾の奢りであるぞ！　礼には及ばぬ。
-　それではまた会おう！　シーユーアゲイン。ハバナイスデーイ！",,
-540,Nao (シエスタ),どういうこと？！　家までこの恰好でいろってことなの？！,,
-545,Mion (バニー),おじさんたちはコスプレ衣装があるから、着替えられるねー。,,
+　それではまた会おう！　シーユーアゲイン。ハバナイスデーイ！","The cleaning is on the house! No need to thank me.
+I'll see you soon! <See you again. Have a nice day!>",<See you again. Have a nice day!> OMFG ANGE,
+540,Nao (シエスタ),どういうこと？！　家までこの恰好でいろってことなの？！,What do you mean?! Am I supposed to dress like this until we get home?!,,
+545,Mion (バニー),おじさんたちはコスプレ衣装があるから、着替えられるねー。,This ol' man has cosplay outfits if you want to change~.,,
 547,詩音 (バニー),"でもお姉？　往来を歩くには、ちょっと露出の多い衣装ばっかりで
-すよ？",,
-551,ヱリカ,殺人現場再現の、あの血まみれ衣装にすればいいじゃないですか。,,
-553,詩音 (バニー),ただし、職質は免れないと思いますけれどね……。,,
+すよ？",But Sis? Aren't these outfits a bit revealing for walking in public?,, 
+551,ヱリカ,殺人現場再現の、あの血まみれ衣装にすればいいじゃないですか。,Why don't you wear that bloody one from the murder scene reenactment?,,
+553,詩音 (バニー),ただし、職質は免れないと思いますけれどね……。,"But, I think it'd be hard to avoid getting questioned if we did that...",,
 557,Mion (バニー),"まぁまぁ。ウェディングドレス姿で、泣きながらタクシーを停めれ
-ば、ちょっとはオマケしてくれるかもしれないーって♪",,
-562,ヱリカ,たくましい人たちです。くす。,,
-565,Nao (シエスタ),こんな羞恥プレイ！　聞いてないわ！！　どうしてこんな目に！,,
+ば、ちょっとはオマケしてくれるかもしれないーって♪","Well, I think that if I stopped a taxi while wearing a wedding dress and crying, I might get a bit of a discount♪",,
+562,ヱリカ,たくましい人たちです。くす。,You two are tireless. *giggle*,Check,just changed it to that so its easier to consume
+565,Nao (シエスタ),こんな羞恥プレイ！　聞いてないわ！！　どうしてこんな目に！,This shameplay! I've never heard of something like this!! How could you taint me like this!?,shameless -> shameplay,
 568,Nao (シエスタ),"この恰好で帰るなんて、部活のコスプレ罰ゲームよりもサイアクだ
-わーッ！！",,
-570,ヱリカ,くっくっくっく……。メイアイヘルプユー？,*giggle*giggle*giggle* <May I help you?>,
-577,Nao (シエスタ),イエース！！　アイニード、えっと、スカートのフロント！！,<Yes!! I need> Ummm.... This skirt's front!!,
+わーッ！！",Going home dressed like this is worse than the club's cosplay punishment games!!,,
+570,ヱリカ,くっくっくっく……。メイアイヘルプユー？,*giggle*giggle*giggle*. <May I help you?>,,
+577,Nao (シエスタ),イエース！！　アイニード、えっと、スカートのフロント！！,"<Yes!! I need>, ummm.... <Skirt no front!!>",editz,
 580,Nao (シエスタ),"このスカートの、切り取った前の部分を返して！！　せめて下腹部
-だけ隠させて！",Give me back the front part of this skirt! At least let me cover the abdomen area!!,
-584,Nao (シエスタ),何よ、この衣装！！　センスない！　Ｈ！　最低だわぁぁぁ！！！,What's with this outfit!! It's tasteless!! It's the worstttttttt!!!,
+だけ隠させて！",Give me back the front part of this skirt! At least let me cover the abdomen area!!,,
+584,Nao (シエスタ),何よ、この衣装！！　センスない！　Ｈ！　最低だわぁぁぁ！！！,What's with this outfit!! It's tasteless!! It's pervy! It's the worstttttttt!!!,added it's pervy,

@@ -1,4 +1,4 @@
-event01_30_02.bytes,Eri,Lloro - QC,,
+event01_30_02.bytes,Eri,Lloro - QC/TL,Naegles - QC,
 index,chara,jp,en,Notes
 33,嘉音,"食後は、コーヒーか紅茶のご用意がありますが、如何いたします
 か……？","After the meal, we usually prepare either tea or coffee. Which would you prefer?",
@@ -23,7 +23,7 @@ index,chara,jp,en,Notes
 80,ヱリカ,今回はたまたま、用意が出来ましたが……。,"Although this time, they happened to be prepared for that...","from ""they just happened to have it"
 82,ヱリカ,"恐らく、魅音さんが一番、見たかったのは、どうしても用意が出来
 ず、客の気分を害さないように、如何に美しく断って見せるか、
-だったのでしょうね。",I presume what Mion-san wanted to see the most was how they could come up with an excuse so beautiful after failing to be prepared for them that it wouldn't ruin the guest's mood.,"from ""I'm presuming that what Mion-san wanted to see the most was how they would they come up with a beautiful refusal in case they were unable to have it ready, without offending the guest."
+だったのでしょうね。","I presume what Mion-san wanted to see the most was how they could come up with an excuse so beautiful that, even after failing to be prepared for them, it wouldn't ruin the guest's mood.","from ""I'm presuming that what Mion-san wanted to see the most was how they would they come up with a beautiful refusal in case they were unable to have it ready, without offending the guest."
 84,Mion (Casual),でも、嘉音くんの所作は十分、及第点以上だったと思うよ。,"Still, Kanon-kun's conduct is definitely deserving of a good score.",
 88,詩音 (Casual),"確かに。……少しでも言い淀みがあったら、お客は、困らせてし
 まったと申し訳なく感じてしまいますものね。","Right... Had he taken too long to take action, the guest could've felt bad for troubling them.",
@@ -34,16 +34,16 @@ index,chara,jp,en,Notes
 98,ヱリカ,臨機応変。あるいは、さも想定内の事態であるかのように振舞う。,"Being flexible. In other words, acting as if that itself is the expectation.","from ""Putting it in other words, to act as if that too is something that's under your expectations."
 100,ヱリカ,ある種のハッタリが大事、ということでもありますね。,"It also means that bluffing can be important, to some extent.",
 104,詩音 (Casual),"確かに、ベテラン感のある店員さんだと、何があっても安心感があ
-りますよね。","Definitely, like how a clerk that seems like a veteran feels more trustworthy.",
+りますよね。","Definitely, in the same way that a clerk who appears to be a senior seems more competent.","from Definitely, like how a clerk that seems like a veteran feels more trustworthy."
 109,Mion (Casual),"そうそう。逆に、いつもあわあわしている店員さんだと、例えベテ
-ランと同じことをしていても、頼りなく感じられてしまう。","Yep, yep. And in comparison, if it's a clerk that seems to get flustered doing their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them.",
+ランと同じことをしていても、頼りなく感じられてしまう。","Yep, yep. In contrast, if a clerk appears anxious while performing their duties, even though they are performing the same tasks as the senior, you can't help but feel that you can't rely on them.","from Yep, yep. And in comparison, if it's a clerk that seems to get flustered doing their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them.fro"
 113,Nao (Casual),"……堂々とした態度は、お客に信頼感を与え、それ自体が、優れた
 サービスのひとつになるのね。","...A dignified attitude is essential for building a sense of trust with the guest, and that itself is the first step in proving the excellency in your services.",
-118,ヱリカ,ま。平たく言えば、舐められたらおしまい、ってことです。,"Well, to put it simply, if you underestimate things too much, then it's all over.",
+118,ヱリカ,ま。平たく言えば、舐められたらおしまい、ってことです。,"To put it simply, mess around too much and it's all over.","from ""Well, to put it simply, if you underestimate things too much, then it's all over."
 120,ヱリカ,"古今東西の名探偵たちも、貫禄とリスペクトがあるからこそ、その
-推理に圧倒的な絶対性が宿るのです。","It's the same for the greatest detectives all over; because of how dignified and respected they are, there lies an overwhelming absoluteness in their reasoning.","from ""It's the same for the greatest detectives from east to west- because of their dignity and how respected they were, there's overwhelming certainty in their resonings."
+推理に圧倒的な絶対性が宿るのです。","It's the same for the greatest detectives all over; because of how dignified and respected they are, there lies an overwhelming absoluteness in their reasoning.","from ""It's the same for the greatest detectives from east to west- because of their dignity and how respected they were, there's overwhelming certainty in their reasonings."
 122,ヱリカ,"まぁ、十分な貫禄さえあれば、穴だらけの推理でも、犯人が勝手に
-観念することもありますので。","Well, there {i}are{/i} also cases in which the culprit gave in because the detective was too dignified, even while their reasoning was full of holes.","from ""Weell, there's cases at which the culprit gives in exactly because the detective had more than enough dignity, even if their reasoning is full of holes."
+観念することもありますので。","Well, there {i}are{/i} also cases in which the culprit gave in just because the detective was very dignified, even while their reasoning was full of holes.","from ""Weell, there's cases at which the culprit gives in exactly because the detective had more than enough dignity, even if their reasoning is full of holes."
 127,Mion (Casual),"確かにね！　犯人にプレッシャーを与えれば、勝手に自滅してくれ
 ることもある！","True! If you pressure the culprit enough, there are times they'll give in on their own.",
 129,詩音 (Casual),"何もわかってないのに、さもわかっているかのように振舞うのはお
@@ -145,7 +145,7 @@ index,chara,jp,en,Notes
 300,Mion (Casual),"錬金術で、あのベアトリーチェってご婦人が生み出した、なんてお
 伽話にはしてるけれど……。","That lady, Beatrice, creating it through alchemy also sounds a bit like a fairytale, though...",
 302,詩音 (Casual),"普通に考えて。……桁違いの欲望や怨念、そして死者が関わってい
-てもおかしくないような、莫大な金塊ですよね……。",Think about it regularly... an uncomparable amount of greed and hatred as well as dead people being involved isn't too strange. It is a huge amount of gold after all...,
+てもおかしくないような、莫大な金塊ですよね……。","Thinking about it... an unfathomable amount of greed and hatred, as well as the involvement of dead people, isn't unusual. After all, it's a large sum of money...",
 308,嘉音,…………………。,.....................,
 311,朱志香,"お、おいおい、よしてくれよ……！　自分の家なのに、夜、トイレ
 に行けなくなっちまうぜ……。","H-hey, hey, you better stop with that...! This is my family you're talking about. I'm really not gonna be able to go to the bathroom at night...",
@@ -170,7 +170,7 @@ index,chara,jp,en,Notes
 350,,"　屋敷の大広間に飾られた巨大な肖像画は、当主の金蔵を描いたも
 のではなく、黄金の魔女を描いたもの。","The massive portrait hung in a wide space in the mansion isn't something that the head, Kinzo, drew either. It's a drawing of the Golden Witch.",
 351,,"　……つまりは、屋敷も、この島も、……真の主は、黄金の魔女、
-ベアトリーチェなのではないか。","...This means that the mansion and the island's... real master... isn't the Golden Witch, Beatrice?",
+ベアトリーチェなのではないか。","...This means that the mansion and the island's... real master... is the Golden Witch, Beatrice, isn't it?",
 355,朱志香,"夜。……不思議な人影が、屋敷の中を徘徊しているって噂は、……
 使用人の間では、結構、有名だったんだ。……な？",At night... the rumor of a mysterious figure wandering around inside the mansion while the servants are working has gotten pretty popular. ...Right?,
 357,嘉音,………はい。,...Yes.,
@@ -180,9 +180,9 @@ index,chara,jp,en,Notes
 のない、……不思議な女性の人影を、見たことがあります。",On multiple occasions... someone who couldn't have been in the Ushiromiya family nor a servant... that mysterious form of a woman... I've come into contact with her as well.,"not sure if this is the best ordering but i tried putting it in the japanese order bc suspense, maybe there's a better way?"
 363,朱志香,時折。窓の施錠がされてなくて使用人が母さんに怒られてた。,"Sometimes, windows unlock at night without the servants touching them, and it terrifies Mom.",
 365,朱志香,"でも、みんな言うんだ。確かに見回りの時に施錠を確認した、っ
-て。",But everyone keeps saying how they definitely did rounds particularly making sure the windows are locked.,
+て。",But everyone keeps saying how they definitely did rounds making sure the windows are locked.,
 371,Mion (Casual),"あれだけの広い屋敷だからね。……ベアトリーチェを名乗る何者か
-が、隠れ潜んでいたとか。","It is a mansion of this size. ...Someone named Beatrice could be lurking about, hidden somewhere.",
+が、隠れ潜んでいたとか。","This {i}is{/i} a massive mansion. ...Someone named Beatrice could be lurking about, hidden somewhere.",
 373,詩音 (Casual),"でも、窓の鍵を開けるくらいの悪戯なら、可愛いもんじゃないです
 か。","Still, the window locks opening as a prank isn't very cute.",
 378,Nao (Casual),……確かに。,...Clearly.,
@@ -198,12 +198,12 @@ index,chara,jp,en,Notes
 395,朱志香,"……以前、夜の見回りの時に、階段を踏み外して転げ落ちて、大怪
 我をして辞めた使用人がいたんだよ。","...One time at night while doing the rounds, there was a servant who misstepped and fell down the stairs, getting injured horribly before quitting.",
 397,朱志香,"後で紗音に聞いたら、……その人、ベアトリーチェがいるなら現れ
-てみろなんて、言ってた矢先だったらしい……。","Afterwards, Shannon learned... that person said, ""If Beatrice does exist, I'd like to see her."", and seemed to have been targetted...",
+てみろなんて、言ってた矢先だったらしい……。","Afterwards, Shannon learned... that person said, ""If Beatrice does exist, I'd like to see her."", and seemed to have been targeted...",
 399,嘉音,…………僕も、最初は信じていませんでした。,"...I, too, didn't believe in her at first.",
 401,嘉音,"しかし、……ある出来事があり、……それ以来、存在を疑うのを止
 めました。","But then... I had a certain job to do... and since then, I stopped doubting her existence.",
 407,詩音 (Casual),"……つまり。……その出来事を境に、ベアトリーチェの存在を信じ
-るようになった、と……？",...Meaning... that job led you to believe in Beatrice's existence afterwards... and...?,
+るようになった、と……？",...Meaning... that job led you to believe in Beatrice's existence afterwards... but...?,
 409,Nao (Casual),その出来事って、……何があったんですか。,What happened... during that job?,
 414,嘉音,………………………。,...........................,
 420,,"　ある日。薔薇の手入れを主な仕事とする嘉音さんは、園芸倉庫に
@@ -216,7 +216,7 @@ index,chara,jp,en,Notes
 とは出来ない。",The garden shed can only be opened with that one key. It cannot even be opened with the master key.,
 424,,"　つまり。……園芸倉庫は、彼が施錠してから、翌朝に開錠するま
 で、誰にも開けることが出来ない、密室だったということにな
-る……。","So, in essense... since the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a locked room...",
+る……。","So, in essence... since the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a locked room...",
 425,朱志香,"翌朝。……嘉音くんが園芸倉庫のシャッターを開けると……、そこ
 にはありえないものがあったんだ……。","The next morning... when Kanon-kun opened the shutters to the garden shed... something that couldn't have been there, was...",
 426,Nao (Casual),ありえないもの、って………？,Something that couldn't have been... there...?,
@@ -235,14 +235,14 @@ index,chara,jp,en,Notes
 464,詩音 (Casual),……それが、警告で済んでいる内はいいけれど。,"...If it's just a warning, then it's nothing to worry about, though.",
 466,Mion (Casual),"それでもなお、ベアトリーチェの存在を否定したり、あるいは馬鹿
 にしたりすると、……階段を転げ落ちて大怪我する人もいる、
-と……。","Notwithstanding, if you deny Beatrice's existence, or rather make her out to be a fool... there have been people that tumbled down the stairs and were injured badly, and... ",
+と……。","Notwithstanding, if you deny Beatrice's existence, or rather make her out to be a fool... they said there have been people that tumbled down the stairs and were injured badly... ",
 471,ヱリカ,私は探偵です。この世の全ては、推理で暴けると確信しています。,I am the detective. I am confident that everything in this world can be explained with reasoning.,
 473,ヱリカ,"しかし、だからこそ。時に。……私でさえ、推理することが冒涜で
 あるかもしれない“何か”に、出くわすことはあります。","But for this reason in particular... Even I may come into contact with ""something"" through committing blasphemy with my reasoning.",
 476,Nao (Casual),"ちょっと……、……いや本当に……、………怖いかも、………か
 も……。",That's a little... no... really... scary... maybe... maybe...,
 479,,"　まだ日も高いのに、あたしの背中は冷たい気配でぞわぞわしてい
-る。","The sun is still high, but I feel a cold presense tingling down my spine.",
+る。","The sun is still high, but I feel a cold presence tingling down my spine.",
 480,,"　そう。それが唯一の幸運だ。まだ昼過ぎではないか。怪談を楽し
 むには、あまりに外はいいお天気過ぎるのだ。",Yeah. That's my one saving grace here. It's not even past noon yet. And the weather is a bit too good for telling ghost stories.,
 481,,"　……あたしは空気を変えたかった。
@@ -263,19 +263,19 @@ index,chara,jp,en,Notes
 なチープな怪談で怖がらせられるなんて、滑稽よ。","I thought I had specifically gone here to enjoy myself, but all I've done up until now is get scared by a cheap ghost story. It's absurd.",
 504,Nao (Casual),"それに、今の世の中、どんな不思議なことだって、必ず解明できる
 もの！","Besides, in our world today, whatever strange thing it is, it can absolutely be explained!",
-506,Nao (Casual),ねぇ、ヱリカさん。そうでしょう？,"Hey, Erika-san. Aren't I right?",
+506,Nao (Casual),ねぇ、ヱリカさん。そうでしょう？,"Hey, Erika-san. Am I not right?",
 510,ヱリカ,…………………。,.....................,
 515,Nao (Casual),"仮に、ベアトリーチェの亡霊が夜の屋敷を歩いているのを見たって
 いう、目撃者が現れたとしても！","Let's suppose that Beatrice's ghost walks along the halls of the mansion at night, and someone witnesses that!",
 518,Nao (Casual),"偽証の可能性があるし、視力の問題だって、あと、知性の問題だっ
 け？　あらゆる可能性が否定することが出来る！","There's a possibility that the evidence was falsified, there was a problem with their eyesight, or even a problem with their head, right? All of these possibilities can deny this! ",
-522,Nao (Casual),そうでしたよね？！　ヱリカさん！,"Aren't I right, Erika-san?!",
+522,Nao (Casual),そうでしたよね？！　ヱリカさん！,"Am I not right, Erika-san?!",
 527,ヱリカ,"……そうですね。フェリーでお会いした時。私は確かにそう言いま
-した。",...That's right. It was when we met on the ferry. I definitely said that then.,
-529,ヱリカ,でもその上で。先ほど、申し上げたはずです。,"However, I should have mentioned this some time ago.",
-531,,しかし、だからこそ。時に。,But for this reason in particular...,
+した。",...You're right. It was when we met on the ferry. I definitely said that then.,
+529,ヱリカ,でもその上で。先ほど、申し上げたはずです。,"However, I must have also mentioned this some time ago.",
+531,,しかし、だからこそ。時に。,"""But for this reason in particular...""",line 473
 532,,"　私でさえ、推理することが冒涜であるかもしれない“何か”に、
-出くわすことはあります、………と。","Even I may come into contact with ""something"" through committing blasphemy with my reasoning... and...",line 473
+出くわすことはあります、………と。","""...Even I may come into contact with 'something' through committing blasphemy with my reasoning..."" ...she said.",""" """
 536,ヱリカ,"……私は探偵です。それがニンゲンの引き起こした事件である限
 り、必ず、証拠を集めて、真相を暴く自信があります。","...I am the detective. As long as a Human caused this incident, I am confident that I can gather evidence to expose the truth without fail.",
 538,ヱリカ,"しかし。……人ならざる者が引き起こした事件であるならば、話は
@@ -302,15 +302,15 @@ index,chara,jp,en,Notes
 569,朱志香,"菜央ちゃん、ごめんね？　つまらない話だったよな。忘れて欲しい
 ぜっ。……じゃ、じゃあな！","Nao-chan, can you forgive me? It was a boring conversation. I want you to forget it. ...All right, see ya!",
 573,,"　朱志香さんたちは、気まずそうにしながら退出していく。
-　ヱリカさんも、肩を竦めながら立ち上がる。",Jessica-san and him walked off with a perturbed look. Erika-san also stood there while shrugging her shoulders.,
+　ヱリカさんも、肩を竦めながら立ち上がる。",Jessica-san and Kanon walked off with perturbed looks. Erika-san simply stood there while shrugging her shoulders.,
 576,ヱリカ,私は部屋へ戻ろうと思いますが、皆さんは？,"I do think I will return to my room, but what will everyone else do?",
 581,詩音 (Casual),"私たちは明日の準備があるので、同じく部屋に戻って、ちょっと仕
 事をしようと思います。","I think since we have to prepare for tomorrow, we should go back to our rooms too to get some work done.",
 583,詩音 (Casual),"お姉が突然、色々と注文するもんだから、全然用意が間に合わな
-かったんですよ。サイアクです。","Sis suddenly got a bunch of orders coming in, so the arrangements didn't make it in time at all. It {i}sucks{/i}.",
+かったんですよ。サイアクです。","Sis suddenly got a bunch of requests coming in, so the arrangements didn't get done in time at all. It {i}sucks{/i}.",
 585,Mion (Casual),"私も、部屋に戻って服の準備、手伝って。……ちょっとだけお昼寝
 したいかな。",I'm also gonna go back to my room to help prepare the clothes. ...I wonder if I can fit a little nap in.,
-588,,気付けば、外はいつの間にか、小雨が降っていた。,"I just realized that at some point, it had started drizzling out.",
+588,,気付けば、外はいつの間にか、小雨が降っていた。,"I just realized that at some point, it had started drizzling outside.",
 589,,"　空は明るいので、すぐに止むだろうが、傘を差してまで薔薇庭園
 に出ようという気持ちはない。","Since the sky is still light, it might stop soon anyway, but it isn't worth it pulling out an umbrella just to set out for the rose garden.",
 590,,"　……これはバカンスなのだ。のんびりくつろぐのが目的なのだ。
@@ -326,7 +326,7 @@ index,chara,jp,en,Notes
 598,,"　貴重な一日を、朝が早かったので眠いから昼寝する、で費やして
 しまうのも、……バカンスなら有りだ。","When the morning goes by so fast, you get sleepy and nap your precious day away... I guess I can owe that to being on vacation.",wording MAYBE
 601,Nao (Casual),"取りあえず、窓が閉まってよかったです。でも、やっぱり、寝る時
-はちゃんと施錠したいです。","I'm glad the windows are shut for now. But I want to properly lock them while I'm sleeping, as I thought.",
+はちゃんと施錠したいです。",I'm glad the windows are shut for now. But I think I do want to properly lock them while I'm sleeping.,
 604,ヱリカ,……どうしたんです？　窓の施錠、壊れてるんですか？,...Why is that? Are the locks on the windows breaking?,
 610,詩音 (Casual),壊れてるんじゃないです。壊したんです。どっかの誰かが。,They aren't breaking. They were broken... by someone.,
 612,Mion (Casual),"もうちょっと試してみるよ……。謝るのはそれからでも間に合うっ
@@ -336,7 +336,7 @@ index,chara,jp,en,Notes
 た。","The four of us went up to the second floor. And so, we unlocked each of our rooms with our respective keys and entered.",
 626,,"　詩音さんは、トランクから、たくさんの衣装を取り出してベッド
 の上に広げ始める。
-　撮影の時に使うお手製の衣装の一部が、まだ未完成らしい。",Shion-san started spreading out bunches of clothing garments from the trunk onto the beds. It seems like some of the garments aren't finished in time for the photoshoots.,
+　撮影の時に使うお手製の衣装の一部が、まだ未完成らしい。",Shion-san began spreading clothing garments from the trunk onto the beds in bunches. It seems like some of the garments haven't been finished in time for the photoshoots.,
 627,,"　魅音さんは、窓の鍵としばらく格闘したが、やっぱり無理だった
 と、けろりと言って舌を出した。","After Mion-san fought for a bit with the window lock, she realized it was impossible and stuck her tongue out at it.",
 629,,"　あたしは、自分のベッドに横になり、靴下を脱ぐ。
@@ -350,22 +350,22 @@ index,chara,jp,en,Notes
 と重くなる。","With the Sonozaki sisters' busy chatting serving as a lullaby, my eyelids grew heavier.",
 635,,"　……さっきの、魔女の怪談話の異様な雰囲気が嘘のよう。
 　あれは、あたしがぼんやりしていた白昼夢ということに、ならな
-いかな……。",...The odd atmosphere from the witch ghost story seemed like a lie. I wonder if that could have been avoided if I didn't absent-mindedly daydream...,wording
+いかな……。",...The odd atmosphere from the witch ghost story seemed like a lie now. I wonder if that could have been avoided if I didn't absent-mindedly daydream...,wording
 636,,"　あたしのしたことは、古手神社の境内で、オヤシロさまなんか信
 じないと言ったのと同じようなもの。
 　きっと、島の人の気を害した。","What I did was akin to saying I didn't believe in Oyashiro-sama while on the Furude shrine grounds. Surely, I had ruined the mood on the island.",
 637,,……島の、真の主の気も、……きっと。,...And the master of the island's too... surely...,
 638,,………………………。,...........................,
 646,ヱリカ,………………………。,...........................,
-649,ドラノール,なるほど。天気雨にもなる訳デス。,I SEE. Sunshowers do also HAPPEN.,
+649,ドラノール,なるほど。天気雨にもなる訳デス。,I SEE. The occasional sunshower does also HAPPEN.,
 651,ドラノール,"ファンタジーの腸を引き摺り出すことを生き甲斐とする貴女が、ベ
 アトリーチェ卿の肩を持つトハ。","For someone like you, who lives to tear fantasy apart, siding with Lady Beatrice IS...",
 653,ヱリカ,まったくです。蕁麻疹が出ちゃいますね。,Seriously. It's going to give me hives.,
 655,ヱリカ,"私は、ベアトの誕生祝いを託された、我が主の使いなのですから。
-立場は、一応、弁えているつもりです。",This is why I was appointed as my master's slave in delivering Beato's present. That was more or less my understanding of it.,
+立場は、一応、弁えているつもりです。",That's why I was appointed as my master's messenger in delivering Beato's present. That's more or less my understanding of it.,
 657,ドラノール,それにしても、今日のランチはお見事だったデス。,"At any rate, today's lunch was quite MAGNIFICENT.",
 659,ヱリカ,"プレートに盛られたオムライスであろうとも。私はお箸で美味しく
-いただけてしまうのですっ。","With that plate heaping with that much omurice, I simply {i}had{/i} to slurp it up voraciously with chopsticks.",
+いただけてしまうのですっ。","With the plate heaping with that much omurice, I simply {i}had{/i} to slurp it up voraciously with chopsticks.",
 661,ドラノール,ところで、それは……？,"By the way, that IS...?",
 663,ヱリカ,"これが、ベアトへの誕生祝いです。ね？　気に入ってくれそうで
 しょう？",This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?,

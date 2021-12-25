@@ -529,7 +529,7 @@ label event01_30_05:
  with Dissolve(0.2)
  narrator 'Mion-san hung a tag on the doorknob that said "Bedmaking Not Necessary".\n...I\'m not sure what she called it a charm for.'
  play audio 'audio/sfx/SE_5056_toy.wav'
- narrator "For a while, she was messing around with the doorknob... but I couldn't quite figure out what she was doing."
+ narrator "She was messing around with the doorknob for a while... but I couldn't quite figure out what she was doing."
  show shion_v002 smile at mei_center
  with Dissolve(0.5)
  show shion_v002 smile at active
@@ -661,7 +661,7 @@ label event01_30_05:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '...... I thought you were going to take pictures of roses. I had no idea it was a cosplay shoot.'
+ nao '...I thought you were going to take pictures of roses. I had no idea it was a cosplay shoot.'
  hide nao_v002
  with Dissolve(0.2)
  show mion_v005 smile at mei_right
@@ -682,13 +682,13 @@ label event01_30_05:
  show jessica_v001 smile_blush at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile_blush at active
- jessica "Let's get a shot then! Any pose you like, please! W-wo, wow, so bold.... so amorous..."
+ jessica "Let's get a shot then! Give me your best pose! W-wow, so bold... so sexy..."
  hide jessica_v001
  with Dissolve(0.2)
- narrator 'For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be a different world.'
- narrator "If you asked me to name the person who's having the most fun on this vacation, I would have to say Jessica-san."
- narrator '...... Well, girls will be girls. I should spend some time on my own too.\n'
- narrator 'Where can I relax and immerse myself in embroidery, surrounded by roses: ......?'
+ narrator 'For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be completely different.'
+ narrator "If you asked me to name the person who's having the most fun on this vacation, I would have to say it's Jessica-san."
+ narrator '...Well, girls will be girls. I should spend some time on my own too.'
+ narrator 'Where can I relax and immerse myself in embroidery, surrounded by roses-- oh...?'
  stop music fadeout 2.0
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
@@ -704,21 +704,21 @@ label event01_30_05:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 fuan_close at inactive
- erika "Ah, Nao-chama. Would you like to sit here too......? It's great here."
+ erika "Ah, Nao-chama. ...Would you like to sit here too? It's great here."
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator 'The perfect location that was surrounded by a spectacular view of the rose garden...arbor.'
- narrator "There's a fancy table and chairs there, but there was the worst preceding visitor ahead of me..."
+ narrator 'The perfect location was surrounded by a spectacular view of the rose garden... the arbor.'
+ narrator 'A fancy table and chairs are set there, but the {i}worst{/i} guest made it there before me...'
  show nao_v002 fuan_close at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 fuan_close at inactive
- erika "I'm not going to talk to you or anything. Why wouldn't you like to sit down?"
+ erika "I'm not going to talk to you or anything. Why not just sit here?"
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao "....... I guess I can disturb you here, so I'll find a different spot."
+ nao "...I might disturb you, so I'll find a different spot."
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
  erika "I've been observing your every move since you entered this rose garden.\n"
@@ -728,7 +728,7 @@ label event01_30_05:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator "How creepy .... She wasn't reading, but instead, she was watching me the whole time...?"
+ narrator "How creepy... She wasn't reading, but instead, she was watching me the whole time...?"
  narrator "After all, I don't get along with this person. I mean, I can clearly sense her hostility."
  narrator "When you think about it, turning your back on this place feels like admitting defeat. There's no way I'm running away..."
  show erika_v001 normal at mei_right
@@ -737,26 +737,26 @@ label event01_30_05:
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao "Thank you. ......., Then, I'll sit across from you."
+ nao "...Thank you very much. ...I'll sit across from you, then."
  show erika_v001 normal at active
  show nao_v002 normal at inactive
  erika '<Good>.'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator 'I guess she means "You\'ve got some guts"....or something like that.'
- narrator "*Sigh*. ......, Why do I feel like I've been forced to make a group with classmates I don't like when I'm on vacation in a beautiful rose garden?"
- narrator "No. I've already got a fight on my hands. It's one of two things: take the challenge or run."
- narrator 'Since she played such a terrible prank on my bed ......!'
+ narrator 'I guess she means "You\'ve got some guts." ...or something like that.'
+ narrator "*Sigh*. ......Even though I'm on vacation in this beautiful rose garden, I feel like I've been forced to make a group with annoying classmates."
+ narrator "No. I've already got a choice on my hands. It's one of two things: take the challenge or run."
+ narrator 'Besides, she played such a terrible prank on my bed...!'
  show erika_v001 normal at mei_right
  show nao_v002 normal_close at mei_left
  with Dissolve(0.5)
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao '....I enjoyed the stuff you did to me last night.'
+ nao '...You really did it last night.'
  show erika_v001 normal at active
  show nao_v002 normal_close at inactive
- erika 'May I beg your pardon? I have no idea what you mean.....!'
+ erika 'I beg your pardon? What are you talking about?'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -769,13 +769,13 @@ label event01_30_05:
  erika 'I see that you wish to have a debate with me about something that happened last night.'
  show erika_v001 normal at active
  show nao_v002 normal_close at inactive
- erika 'But sadly, I am not aware of anything like that.'
+ erika 'But sadly, I am not aware of what happened.'
  show nao_v002 sinken at chara_shake_transform,active
  show erika_v001 normal at inactive
  nao 'W-what a blatant lie....'
  show erika_v001 smile at active
  show nao_v002 sinken at inactive
- erika "So, would you mind describing what's on your mind, in detail..., so I can understand too? Eheheheheheh!"
+ erika "Then, would you care to describe what's on your mind in detail, so I can understand too? Eheheheheh!"
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)

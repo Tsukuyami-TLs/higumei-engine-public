@@ -257,7 +257,7 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 　……何の御守りになるのか、よくわからない。","Mion-san hung a tag on the doorknob that said ""Bedmaking Not Necessary"".
 ...I'm not sure what she called it a charm for.",In Japan do not disturb sign is separated to varies of different types,
 417,,"　しばらくの間、ドアノブで何かゴソゴソやっていたが、何をして
-るのかよくわからなかった。","For a while, she was messing around with the doorknob... but I couldn't quite figure out what she was doing.",fumbling something -> messing around,
+るのかよくわからなかった。",She was messing around with the doorknob for a while... but I couldn't quite figure out what she was doing.,fumbling something -> messing around / for a while order change,
 420,詩音 (Casual),"くす。今は忘れてくれて大丈夫ですよ。さ、お姉も終わりました。
 下に降りましょう！",*giggle*. You can forget about it for now. It looks like Sis finished. Let's go downstairs!,is done doing it -> finished,
 426,,"　３人で階段を降り、１階広間に戻ると、ヱリカさんがちょうど、
@@ -301,7 +301,7 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 505,Mion (エンジェルモート),え？　ホント？！　それは助かるなぁ！　一眼レフ、扱えるぅ？,What? Really? That would be great! Can you handle an SLR camera?,,
 508,朱志香,任せろよ！　親父のカメラ、一時は親父よりいじってたんだぜ。,"Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him.",I got it! -> Leave it to me!,
 513,Nao (Casual),"……てっきり、薔薇の写真を撮るのだと思ってました。まさか、コ
-スプレ撮影とは。",...... I thought you were going to take pictures of roses. I had no idea it was a cosplay shoot.,,
+スプレ撮影とは。",...I thought you were going to take pictures of roses. I had no idea it was a cosplay shoot.,,
 518,詩音 (エンジェルモート),"ロケーションもすっごい大事なんですよ？　白ホリで撮るのと、こ
 こで撮るのじゃ、全然違ってきますから。","Location is also quite important, you know? There's a big difference between shooting in front of a white backdrop and shooting here.",,
 520,Mion (エンジェルモート),"これもね、叔父さんに頼まれた仕事なんだよねぇ。エンジェルモー
@@ -309,51 +309,50 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 522,詩音 (エンジェルモート),"キャンペーン対象メニューを頼むと、ランダムで魅惑のエンジェル
 モートウェイトレスの写真がもらえるんだそうです。","If you order certain menu items on a campaign, you will randomly receive a picture of an enchanting Angel Mort waitress.",,
 527,朱志香,"じゃあ撮るぜー！　好きなポーズで頼むぜ！　わ、大胆っ、せく
-しぃ……。","Let's get a shot then! Any pose you like, please! W-wo, wow, so bold.... so amorous...",so sexy...,
+しぃ……。","Let's get a shot then! Give me your best pose! W-wow, so bold... so sexy...","from ""Any pose you like, please! / amorous -> sexy",
 529,,"　六軒島で孤独に生きて来た朱志香さんにとって、魅音さんたちの
-世界は、まさに異世界なのだろう。","For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be a different world.",must be completely different.,
+世界は、まさに異世界なのだろう。","For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be completely different.",,
 530,,"　今回のバカンスで、一番楽しんでいる人は誰か挙げろと言われた
-ら、あたしは朱志香さんを推すだろう。","If you asked me to name the person who's having the most fun on this vacation, I would have to say Jessica-san.",I would have to say it's Jessica-san.,
+ら、あたしは朱志香さんを推すだろう。","If you asked me to name the person who's having the most fun on this vacation, I would have to say it's Jessica-san.",,
 531,,"　……さて。彼女たちは彼女たち。あたしも、自分の時間を過ごさ
-なきゃ。","...... Well, girls will be girls. I should spend some time on my own too.
-",,
+なきゃ。","...Well, girls will be girls. I should spend some time on my own too.",,
 532,,"　薔薇に囲まれて、のんびりと刺繍に没頭できるのはどこだろ
-う……？","Where can I relax and immerse myself in embroidery, surrounded by roses: ......?",by roses? ......?,
+う……？","Where can I relax and immerse myself in embroidery, surrounded by roses-- oh...?",,
 539,Nao (Casual),となれば、……同じところに行きつく訳ね。,It seems we had the same idea...,,
-543,ヱリカ,おや、菜央ちゃま。……貴女も如何です？　ここは最高ですよ。,"Ah, Nao-chama. Would you like to sit here too......? It's great here.",,
-546,,薔薇庭園の絶景に囲まれた、最高のロケーション。………東屋。,The perfect location that was surrounded by a spectacular view of the rose garden...arbor.,The perfect location was surrounded by a spectacular view of the rose garden... the arbor.,
+543,ヱリカ,おや、菜央ちゃま。……貴女も如何です？　ここは最高ですよ。,"Ah, Nao-chama. ...Would you like to sit here too? It's great here.",,
+546,,薔薇庭園の絶景に囲まれた、最高のロケーション。………東屋。,The perfect location was surrounded by a spectacular view of the rose garden... the arbor.,,
 547,,"　そこに洒落たテーブルと椅子があるのだが、……サイアクの先客
-がいた……。","There's a fancy table and chairs there, but there was the worst preceding visitor ahead of me...",A fancy and table and chairs were there...... but the worst guest made it there before me...,
-551,ヱリカ,別に話し掛けたりしませんので。座ったらどうです？,I'm not going to talk to you or anything. Why wouldn't you like to sit down?,Why not just sit here?,
-553,Nao (Casual),……お邪魔でしょうから、別の場所を探すわ。,"....... I guess I can disturb you here, so I'll find a different spot.","... I might disturb you, so I'll find a different spot.",
+がいた……。","A fancy table and chairs are set there, but the {i}worst{/i} guest made it there before me...",,
+551,ヱリカ,別に話し掛けたりしませんので。座ったらどうです？,I'm not going to talk to you or anything. Why not just sit here?,,
+553,Nao (Casual),……お邪魔でしょうから、別の場所を探すわ。,"...I might disturb you, so I'll find a different spot.",,
 555,ヱリカ,この薔薇庭園に出てからの貴女の行動は全て観察しています。,"I've been observing your every move since you entered this rose garden.",,
 557,ヱリカ,"貴女はすでに、この場所以外には、刺繍をするのに最適な場所がな
 いことを、ご存知のはずですよ？","You already know that there is no better place to embroider than here, don't you?",,
 560,,"　気持ち悪い……。読書じゃなくて、あたしをずっと観察してた
-の？","How creepy .... She wasn't reading, but instead, she was watching me the whole time...?",,
+の？","How creepy... She wasn't reading, but instead, she was watching me the whole time...?",,
 561,,"　やっぱり、この人とは馬が合わない。というか、はっきりと敵意
 を感じるのだ。","After all, I don't get along with this person. I mean, I can clearly sense her hostility.",,
 562,,"　そう思ったら、ここで背中を向けるのは、負けを認めるような気
 持ちになる。……逃げたりするものか。","When you think about it, turning your back on this place feels like admitting defeat. There's no way I'm running away...",,
 567,Nao (Casual),"……ありがとうございます。……じゃあ、お向かいの席、失礼しま
-す。","Thank you. ......., Then, I'll sit across from you.","...Thank you very much. ...I'll sit across from you, then.",
+す。","...Thank you very much. ...I'll sit across from you, then.",,
 569,ヱリカ,グッド。,<Good>.,,
-572,,いい度胸です、……とでも言ったところだろうか。,"I guess she means ""You've got some guts""....or something like that.",,
+572,,いい度胸です、……とでも言ったところだろうか。,"I guess she means ""You've got some guts."" ...or something like that.",,
 573,,"　もう。……何で、こんな素敵な薔薇庭園でのバカンスなのに、苦
 手なクラスメートと二人組を作らされたような気分にならなきゃい
-けないのよ……。","*Sigh*. ......, Why do I feel like I've been forced to make a group with classmates I don't like when I'm on vacation in a beautiful rose garden?","*Sigh*. ......Even though I'm on vacation in this beautiful rose garden, I feel like I've been forced to make a group with annoying classmates.",
+けないのよ……。","*Sigh*. ......Even though I'm on vacation in this beautiful rose garden, I feel like I've been forced to make a group with annoying classmates.","from ""*Sigh*. ......, Why do I feel like I've been forced to make a group with classmates I don't like when I'm on vacation in a beautiful rose garden?",
 574,,"　うぅん。あたしは、すでに喧嘩を売られているのよ。買うか、逃
-げるかの２つに１つ。",No. I've already got a fight on my hands. It's one of two things: take the challenge or run.,,
-575,,だって彼女は、あたしのベッドに、あんなに酷い悪戯を……！,Since she played such a terrible prank on my bed ......!,"Besides, she played such a terrible prank on my bed......!",
-579,Nao (Casual),……昨夜は、やってくれましたね。,....I enjoyed the stuff you did to me last night.,... You really did it last night.,
-581,ヱリカ,ハイ？　何の話でしょう？,May I beg your pardon? I have no idea what you mean.....!,I beg your pardon? What are you talking about?,
+げるかの２つに１つ。",No. I've already got a choice on my hands. It's one of two things: take the challenge or run.,fight -> choice,
+575,,だって彼女は、あたしのベッドに、あんなに酷い悪戯を……！,"Besides, she played such a terrible prank on my bed...!",,
+579,Nao (Casual),……昨夜は、やってくれましたね。,...You really did it last night.,"from ""...I enjoyed the stuff you did to me last night.",
+581,ヱリカ,ハイ？　何の話でしょう？,I beg your pardon? What are you talking about?,"from ""I have no idea what you mean.....!",
 584,,"　セリフは惚けているが、そのニヤリという表情は明白なイエス
 だ。","She acted innocent, but her grin meant an obvious yes.",,
 588,ヱリカ,"昨夜、あったらしい何かについて、私との議論をお望みとお見受け
 します。",I see that you wish to have a debate with me about something that happened last night.,,
-590,ヱリカ,ただ、私は昨夜、貴女の身に何があったのかをよく存じません。,"But sadly, I am not aware of anything like that.",aware of what had happened.,
+590,ヱリカ,ただ、私は昨夜、貴女の身に何があったのかをよく存じません。,"But sadly, I am not aware of what happened.",,
 593,Nao (Casual),し、白々しい……。,W-what a blatant lie....,,
 595,ヱリカ,"なので、私にもわかるように、丁寧にお教え願えますか？　うっ
-ふっふっふ……。","So, would you mind describing what's on your mind, in detail..., so I can understand too? Eheheheheheh!","Then would you care to describe what's on your mind in detail, so I can understand too? Eheheheheh!",
+ふっふっふ……。","Then, would you care to describe what's on your mind in detail, so I can understand too? Eheheheheh!","from ""So, would you mind describing what's on your mind, in detail..., so I can understand too? Eheheheheheh!",
 598,,"　喧嘩の売買成立。もうこうなったらやってやるわ。鳳谷菜央、
 買った喧嘩は値切らないわよ……。","Deal. As Nao Houtani, I'm not going to make an easy compromise...",,

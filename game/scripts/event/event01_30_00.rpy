@@ -10,26 +10,26 @@ label event01_30_00:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_346_ls_blood.wav'
  narrator 'The poor victims... were on the bed covered in blood.'
- narrator "The girl's negligee was actually very lovely."
- narrator 'But... it was relentlessly cut by a blade or something of the sort, and has been torn to shreds.'
- narrator 'The blood that was pouring down from there dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.'
+ narrator "The girl's negligee probably used to be very lovely."
+ narrator 'But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.'
+ narrator 'The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.'
  narrator 'The other one was in a gown. ...Of course, they were also stained with fresh, bright red blood.'
- narrator 'Just like the other, it was torn to shreds.... and looked in a pitiful state.'
+ narrator 'Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.'
  narrator 'Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.'
- narrator "And I was the only one... who wasn't covered in a single drop of blood... as I slept soundly throughout the night."
- narrator 'I wanted to ask "Are you okay...?". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
+ narrator "And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them..."
+ narrator 'I wanted to ask "A-Are you okay...?". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
  show expression "#000" as fade with Dissolve(1.0)
  scene expression "#000"
  play audio 'audio/sfx/SE_527_door_close.wav'
- narrator "I dashed to Erika's room and relentlessly knocked on the door while trying to turn the doorknob."
- nao 'Erika-san, Erika-san!! S-Something awful happened! H-H-Help....!!'
+ narrator 'I dashed out to the next room over, frantically knocking on the door while trying at the doorknob.'
+ nao 'Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!'
  play audio 'audio/sfx/SE_526_door_open.wav'
  nao 'Huh...? It opened...?'
  narrator "Even if you turn a doorknob, when it's locked, there's no way it would open."
- narrator 'Rattling the doorknob like that was my way to inform her of my confusion and the abnormality of the situation. I was only doing it unconsciously.'
- narrator "...That's why I didn't expect the door to open."
- narrator 'It was so unexpected... that it made my heart stop for a second... my senses sharpening like a knife.'
- narrator "Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's an icy knife. ...No matter how sharp it is, it's fragile and easily shattered......"
+ narrator 'Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.'
+ narrator "...That's why I honestly didn't expect the door to open."
+ narrator 'It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.\n'
+ narrator "Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......"
  nao 'Erika...san...?'
  stop sound
  scene expression "#000"
@@ -66,8 +66,8 @@ label event01_30_00:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'The conversation came suddenly. Rena-chan asked me if I wanted to go on a short two night trip during the weekend.'
- narrator 'Originally, Rena-chan was supposed to go with Shion-san and Mion-san.'
- narrator "But at just the last minute, a relative had some sudden errands, and Rena-chan wasn't able to participate anymore."
+ narrator 'Originally, it was Rena-chan, Mion-san and Shion-san who were supposed to go on this trip.'
+ narrator "But at just the last minute, a relative had some errands, and Rena-chan wasn't able to participate anymore."
  show mion_v002 smile at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
@@ -105,15 +105,15 @@ label event01_30_00:
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
- narrator 'The Ushiromiya family chef used to work in a famous hotel and competed for the head chef position. His cooking was rumored to be excellent.'
+ narrator 'They say the Ushiromiya family chef was good enough to have competed for the head chef position at a famous hotel, so his cooking is rumored to be excellent.'
  narrator 'Moreover, they have a well-kept rose garden and a perfectly picturesque beach with white sand.'
- narrator 'And of course, the Western-style buildings, which were built right after the war, are also said to be quaint yet wonderful.'
+ narrator 'And of course, the Western-style buildings, which were built right after the war, are also said to be wonderfully elegant.'
  show nao_v002 normal at mei_left
  show shion_v002 fuan at mei_right
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show nao_v002 normal at inactive
- shion "Still, this place isn't meant for tourists, though, so there aren't any stores or things to do."
+ shion "Still, the place isn't meant for tourists, though, so there aren't any stores or things to do."
  show nao_v002 smile at nod_transform,active
  show shion_v002 fuan at inactive
  nao "I understand. After all, traveling isn't just about playing and shopping."
@@ -122,18 +122,18 @@ label event01_30_00:
  with Dissolve(0.5)
  show mion_v002 fuan at active
  show nao_v002 smile at inactive
- mion "Japanese people just don't get what vacations are, y'know? It's not just about shopping or bus sightseeing."
+ mion "Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing bus tours."
  show nao_v002 normal at active
  show mion_v002 fuan at inactive
- nao "We aren't traveling anyway; this is a vacation."
+ nao "We aren't going there to travel anyway; this is a vacation."
  show mion_v002 smile_close at active
  show nao_v002 normal at inactive
  mion 'In this wonderful Western-style house, we can spend time resting our minds while watching the roses, not a soul there to bother us.'
  hide nao_v002
  hide mion_v002
  with Dissolve(0.2)
- narrator "...Hearing her say that, I'm starting to get in the mood to go a little bit. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe."
- narrator "The payments were all done ahead of time. Now we''ll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. "
+ narrator '...Hearing her say that, I started to get in the mood to go a little more. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe.'
+ narrator "The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. "
  narrator "We'll rest up for three days and two nights, then we'll return home Sunday night. The schedule is kind of tight, but the conditions will be well worth it."
  narrator 'That golden ticket was a special raffle prize at some shopping district, so for Mion-san to be the one to have pulled it was...'
  narrator 'At first, I thought that I could help Rena-chan with that stuff and have her go instead.'
@@ -185,7 +185,7 @@ label event01_30_00:
    linear 0.5 zoom 1.3
  pause 0.5
  show mion_v002 fuan at active
- mion 'But please! I thought you were just messing with this ol\' man, but the Wanyan movie "Mid-Autumn\'s Lament: The Heartbroken Rabbits Murder Case" is something you absolutely must waaatch!!!'
+ mion 'But please! I thought you were just messing with this ol\' man, but the movie Detective Wanyan\'s "Mid-Autumn\'s Lament: The Heartbroken Rabbits Murder Case" is something you absolutely must waaatch!!!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)

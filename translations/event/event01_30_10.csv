@@ -1,294 +1,312 @@
-event01_30_10.bytes,,tessie,
-index,chara,jp,en
-32,Nao (Casual),……漫画かアニメに登場したものだと思います。,I think something like this has been in manga or anime before...
-34,ベアトリーチェ,何？　も、もう一度頼む……。,"Huh? Ca, can you run that over once more...?"
-36,Nao (Casual),多分。この魔法陣は、漫画かアニメに登場したものだと思います。,"I think... that this magic circle appeared in some manga or anime before, probably."
-39,ベアトリーチェ,何と？！　漫画……ッ？！？！,What'd you say?! Manga....?!?!
-43,ヱリカ,ベアトは見てないんですかー？　……名探偵ワニャン。,"Beatrice, haven't you seen it...? Detective Wanyan."
-46,ベアトリーチェ,え？！　わっはははは、妾はカネダ少年の事件簿派でなぁ。,"Huh? Ahahaha, I'm more into the Kaneda Case Files."
+event01_30_10.bytes,,tessie - TL,Uminetta - TL (I translated it a little bit),Lloro - QC/TL,
+index,chara,jp,en,,
+32,Nao (Casual),……漫画かアニメに登場したものだと思います。,...I think something like this has been in manga or anime before.,,
+34,ベアトリーチェ,何？　も、もう一度頼む……。,Huh? C-can you run that over once more...?,,
+36,Nao (Casual),多分。この魔法陣は、漫画かアニメに登場したものだと思います。,"I think... that this magic circle appeared in some manga or anime before, probably.",,
+39,ベアトリーチェ,何と？！　漫画……ッ？！？！,What'd you say?! Manga...?!?!,,
+43,ヱリカ,ベアトは見てないんですかー？　……名探偵ワニャン。,"Beatrice, haven't you seen it...? Detective Wanyan.",,
+46,ベアトリーチェ,え？！　わっはははは、妾はカネダ少年の事件簿派でなぁ。,"Huh?! Ahahaha, I'm more Team Kaneda Case Files, remember?",,
 48,ベアトリーチェ,"ワニャンは子供っぽいから見ておらぬのだ。そういえば、紗音は面
-白いと言っていて勧めてきたことがあったなぁ。","Detective Wanyan is too childish, so I don't watch it. That said, I remember Shannon saying it's interesting and recommending it to me."
-50,ヱリカ,……マジで本当に面白いから見て下さいぃって。,
-53,ヱリカ,"我が主も、私がこんなにも勧めているのに、ちーーーーっとも見て
-くれないんですよ……。",
+白いと言っていて勧めてきたことがあったなぁ。","Detective Wanyan is too childish, so I don't watch it. That said, I remember Shannon saying it was interesting and recommending it to me.",,
+50,ヱリカ,……マジで本当に面白いから見て下さいぃって。,"...It seriously is {i}incredibly{/i} interesting, so do please watch it.",really -> seriously is incredibly (can be more verbose probs),
+53,ヱリカ,我が主も、私がこんなにも勧めているのに、ちーーーーっとも見てくれないんですよ……。,"Even though I had recommended it so much to my master as well, she didn't even so much as glaaaaaanceee...","from ""Even my master... even though I recommended it so much, didn't watch even a liiiitle bit....",
 58,Nao (Casual),"何も知らない人が見たら、とてもグロテスクな魔法陣に見えるで
-しょうね。",
+しょうね。",For people who don't know much about it... it'll look like a really grotesque magic circle.,added much about,
 60,Nao (Casual),"でも、……知っている人には、むしろ微笑ましく思えるかもしれな
-い。",
+い。","But... for people who know, it might actually make them smile.",even -> actually,
 64,ドラノール,"この魔法陣が……、名探偵ワニャンの中に登場するから、……デス
-カ。",
+カ。",Did the magic circle... appear in Detective WANYAN...?,,
 67,ヱリカ,"まだ見てない人は見て下さいよぉ。大人気で上映期間も延長中なん
-ですよぉ……。",
+ですよぉ……。","If you haven't watched it yet, please do sooo... It's really popular and the screening period has extendeddd...",,
 71,Nao (Casual),"……劇場版アニメ、名探偵ワニャン『中秋哀歌～兎たちの悲恋殺人
-事件～』……。",
+事件～』……。","...The movie, Detective Wanyan's ""Mid-Autumn's Lament: The Heartbroken Rabbits Murder Case""...",gotta find what reference it probably is first,fixed it ;;;)))
 73,ヱリカ,"この中に出てくる連続殺人犯が、現場に残す魔法陣なんです
-よぉぉ……。",
-75,Nao (Casual),……その連続殺人犯は、……人気あるの？,
+よぉぉ……。",The serial killer in this movie leaves magic circles on the crime sceneeeee...,,
+75,Nao (Casual),……その連続殺人犯は、……人気あるの？,Is that serial killer... popular?,,
 84,ヱリカ,"ありますよぉおおおおぉおぉお！！　巷じゃ、無頼人（ブライト）
-さまは、１００億の男なんて言われてるんですよぉおぉ！！",
+さまは、１００億の男なんて言われてるんですよぉおぉ！！","UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 100 billion followers in real liiiiifeeeeeee!!!!",pls review,
 86,ヱリカ,"すっごい儚くて美しくて、死でしか結ばれえない悲しき愛の貫き
-方……！！　あぁあぁ、無頼人さまぁあぁぁ……！！",
+方……！！　あぁあぁ、無頼人さまぁあぁぁ……！！","It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!",also mayb review,
 93,ベアトリーチェ,"つ、……つまり。映画に登場する、イケメン犯人が現場に残すサイ
-ン、という訳なのか……。",
+ン、という訳なのか……。","S... So, this means in the movie, a handsome killer leaves a ""sign"" at the crime scene...?",,
 97,ヱリカ,"魔女から見て、魔法陣がおかしいのはご愛敬ですよぉお！！　作者
 の代官山剛先生はミステリーの専門家で、魔法陣の専門家じゃない
-んですからぁ！",
+んですからぁ！","Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Tsuyoshi "" "", is an expert on mystery, not on magic circleeeeeess!!",name,
 100,ヱリカ,"それでね？　それでね？！　詩音が持ってきた魔法陣、ちょいちょ
-い細かいとこが間違ってんですよぉおぉ！！",
+い細かいとこが間違ってんですよぉおぉ！！",And you know what else? You know what elsee?! The magic circle that Shion brought has the details all wroooooonggg!!,,
 104,ヱリカ,"愛が足りない、愛がないから視えてないッ！　とりあえず、１日３
-公演で１ヶ月は映画館に通わなきゃあ！！",
+公演で１ヶ月は映画館に通わなきゃあ！！","There wasn't enough love, no, there wasn't love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!",and this,
 108,ヱリカ,"私が描いた方は完璧です！　代官山剛先生のチーフアシの人を３日
-も監禁して教えてもらったんです！！",
-114,ベアトリーチェ,さらーりと犯罪をＣＯしてるなぁー。,
+も監禁して教えてもらったんです！！","The way that I drew it was perfect! Even Mr. "" "" 's Chief Ash character was able to learn it himself in just three days while in confinement!!",name again + this,
+114,ベアトリーチェ,さらーりと犯罪をＣＯしてるなぁー。,"No hesitation coming out about doing the crime now, huh?",,
 116,ドラノール,"つまり。……名探偵ワニャンの映画を見ていた紗音や魅音詩音
 は、……一目見ただけで、この魔法陣の意味が、わかっていたとい
-うことデスネ……。",
+うことデスネ……。","Essentially... having only seen the Wanyan movie once, Shannon, Mion, and Shion were able to see the meaning behind the circle with EASE...","i feel like this script uses ""in other words"" for tsumari way too much",
 121,Nao (Casual),"魅音さんたちが、コスプレ撮影をしていることは、紗音さんもご存
-知だったはずです。",
+知だったはずです。",Shannon-san should have also been aware that Mion-san's group was doing cosplay photo ops.,,
 123,Nao (Casual),"そして、窓の鍵を直しに入室したら、……映画と同じ、イケメン犯
-人の魔法陣を描いたシーツが。",
+人の魔法陣を描いたシーツが。","And so, as she entered the room to fix the window lock... just as she saw in the movie, the handsome criminal's magic circle sheets were sitting there.",,
 128,ベアトリーチェ,"……はぁぁぁぁぁ……。それは……、怖がるどころか、むしろ同じ
-作品のファンとして、微笑ましくなってしまうなぁ……。",
+作品のファンとして、微笑ましくなってしまうなぁ……。","...Haaaaahh... So, in place of being afraid of it, she saw it as a fellow fan of the series and began to smile, huh...",,
 130,Nao (Casual),"ヱリカさんが、意味ありげな笑みを浮かべながら、部屋は荒らされ
-てなかったかと聞いてきたなら……。",
+てなかったかと聞いてきたなら……。",And Erika-san put a suggestive smile on her face after hearing that the room wasn't broken into...,,
 134,ドラノール,"……紗音が涼し気に、いいえ、ご安心を、という気持ちも、少しは
-わかるというものデス。",
+わかるというものデス。","...I understand the sentiment behind why Shannon naturally said, ""No, please be at ease."", a little bit more NOW.",,
 136,Nao (Casual),"映画は見ていませんが、恐らく、ベッドの荒れ方も、かなり映画に
-準拠していたでしょう。",
+準拠していたでしょう。","I haven't watched the movie, but I suppose the way the bed was laid waste to was likely even based on the movie. ",,
 138,Nao (Casual),"思えば、ヱリカさんのベッドの毛布や枕の乱れ方は、……まるでお
-手本があるかのように、あたしのベッドの時と瓜二つでした。",
-142,ベアトリーチェ,……これは、……名探偵ワニャンを読んでみるしかないなぁ……。,
+手本があるかのように、あたしのベッドの時と瓜二つでした。","Now that I think of it, the way Erika-san's blanket and pillows on her bed were arranged... were almost in a pattern, one in the same with the arrangement on my bed back then.",,
+142,ベアトリーチェ,……これは、……名探偵ワニャンを読んでみるしかないなぁ……。,"...Guess I'm... gonna have to read Detective Wanyan, huh...",,
 144,Nao (Casual),"あたしも、今回の事件で興味を持ったわ。……本屋で単行本を探し
-てみるわ。",
+てみるわ。",I also had some interest in this recent incident. ...I'll search for the specific volume in the bookstore.,,
 146,Nao (Casual),"そんな訳で、第一の魔法陣事件は、ヱリカさんの手による、えぇ
-と……、",
+と……、","For that reason, the first magic circle accident was done by Erika-san's hands, aaand, um...",,
 155,ヱリカ,"はいはぁい、リザインですよぉおぉぉ……。私が悪かったです
-よぉぉ……。",
-163,ドラノール,リザインで、よろしいデスカ。,
+よぉぉ……。","Yeah, yeah. I resiiiiiignnnnn... It was my faaaaulltttt...",,
+163,ドラノール,リザインで、よろしいデスカ。,Are you okay with RESIGNING?,,
 165,ヱリカ,"参りましたぁ、負けましたぁ。大人しくお家に帰って、ワニャンの
-単行本、また１巻から全読破しまぁす……。",
+単行本、また１巻から全読破しまぁす……。",I'm finiiished... defeeeated. I'll behave and go back home to read through the whole Wanyan manga series agaaaiiinnn...,,
 172,ベアトリーチェ,"妾にも単行本を貸してくれぬか。そなたをそこまで虜にするとは、
-実に興味深いぞ！",
+実に興味深いぞ！",Why not even lend some volumes to me? For you to go that far in punishing yourself is dreadfully fascinating!,,
 176,ドラノール,"それでは、ヱリカのリザインにより、勝者はベアトリーチェと菜央
-デス。おめでとうございマス。",
+デス。おめでとうございマス。","In that case, through Erika's resign, the winners are Beatrice and NAO. I congratulate the both of YOU.",i feel like CONGRATULATIONS in all caps right after NAO is too aggressive,
 181,,"　ドラノールさんが拍手を始めると、あたしとベアトリーチェも
-それに倣う。",
+それに倣う。","Dlanor-san started a round of applause, so Beatrice and I joined in.",,
 182,,"　くらげみたいな軟体動物と化してグネグネしているヱリカさん
-も、投げ遣りではあるが共に拍手をしてくれた……。",
-185,ベアトリーチェ,うむ！！　妾は大満足であるぞッ。実に楽しい誕生日であった！,
+も、投げ遣りではあるが共に拍手をしてくれた……。","As if she had transformed into a sea mollusc wriggling around its tendrils, Erika-san begrudgingly joined in on the applause for us...",,
+185,ベアトリーチェ,うむ！！　妾は大満足であるぞッ。実に楽しい誕生日であった！,Yeah!! I'm very satisfied! I truly had a fun birthday!,,
 188,ベアトリーチェ,"菜央よ、ヱリカよ！！　そなたたちは、見事、妾の退屈の病を癒し
-てくれた。",
+てくれた。","Nao, Erika!! You two have successfully cured me of my boredom.",,
 190,ベアトリーチェ,"ヱリカには褒美として、そなたが素晴らしい贈り物を届けてくれ
 た、素晴らしい使者であったと記したベルンカステル卿宛ての親書
-を授けよう。",
+を授けよう。","As a reward for Erika for sending me this delightful present, allow me to give you this handwritten letter I put together stating what a wonderful messenger you were, addressed to Lady Bernkastel.",,
 192,ベアトリーチェ,"さらに追伸にて、名探偵ワニャンは面白いらしいぞと、妾からもお
-勧めしておく！",
+勧めしておく！","What's more, in the postscript, I recommended Detective Wanyan to her as well, stating how amusing I find it!",,
 200,ヱリカ,"ベ、ベアトリーチェ卿……！！　有り難きお言葉！　
-ははぁぁぁ！！",
+ははぁぁぁ！！","M-Miss Beatrice...!! Thank you for your wordsss!! Ha-, haaaaaahhh!!!!",added haaah / split up the ha's here so it didnt sound like a silly triumphant laugh,
 208,ドラノール,"菜央。ヱリカを誤解しないで下サイ。……ヱリカは優れた探偵も、
-憐れな犯人も同時に演じられる、素晴らしい俳優なのデス。",
+憐れな犯人も同時に演じられる、素晴らしい俳優なのデス。","Nao, please do not misunderstand ERIKA. ...Erika plays her part as both an outstanding detective and a pitiable criminal, and does a fine job as an ACTRESS. ",wording mayb,
 210,Nao (Casual),"……わかってるわ。彼女は普段、悪役を演じているだけで、本当は
-そうじゃないってこと。",
+そうじゃないってこと。","...I realize that. She's only pretending to be the villain, but normally, she actually isn't like that.",,
 212,ドラノール,"…………菜央。やはり貴女は、航海者の魔女に並ぶ、特別な人のよ
-うデス。",
+うデス。","......Nao, you really are an extraordinary person, even coming up to par with voyager WITCHES.",This is so cranky I'm sorry,"from ""Nao, you really are a special person, lining up with voyager WITCHES."
 216,ベアトリーチェ,"そして菜央よ！　そなたも我が六軒島へ来て、よく最後まで妾と
-ゲームに付き合ってくれた！",
+ゲームに付き合ってくれた！",And Nao! You came to {i}my{/i} Rokkenjima and spent lots of time playing games with me until the very end!,she uses both the ikuko and the beatrice I forms here AAAAAA,
 218,Nao (Casual),"……薔薇を眺めながら、のんびり刺繍をするつもりだったのにね。
-サイアクのバカンスになったわ。",
-220,Nao (Casual),でも。………あたしも、ちょっと楽しかったかも、かも……。,
-222,ベアトリーチェ,もうじき、夜が明ける。それでお別れだ。,
+サイアクのバカンスになったわ。","...My intention was to embroider while relaxing in the rose garden, though. It became the {i}worst{/i} possible vacation ever.",,
+220,Nao (Casual),でも。………あたしも、ちょっと楽しかったかも、かも……。,But... I might have also enjoyed it a little bit... probably.,added might have,
+222,ベアトリーチェ,もうじき、夜が明ける。それでお別れだ。,Dawn will arrive soon. We will part then.,"from ""That will be our parting",
 224,ベアトリーチェ,"妾からの、心ばかりのプレゼントを贈っておく。楽しみにして目覚
-めるがよい。",
+めるがよい。",I'll present you with a small token of my thanks. Do look forward to it upon waking up.,,
 226,Nao (Casual),"ありがとう。……あなたとまたゲームが出来るなら、……また六軒
-島に来るのも、悪くないわ。",
-228,ベアトリーチェ,待っておるぞ！　いつでも来るがよい！,
-234,ヱリカ,島の近くで船から落っこちれば、勝手に島に流れ着きますから。,
+島に来るのも、悪くないわ。",Thanks. ...If I can play again with you... maybe coming back to Rokkenjima won't be so bad.,,
+228,ベアトリーチェ,待っておるぞ！　いつでも来るがよい！,I'll be waiting! Come whenever you like!,,
+234,ヱリカ,島の近くで船から落っこちれば、勝手に島に流れ着きますから。,"If you fell off of a boat closeby to the island, you'd drift here on your own anyway.",,
 236,ドラノール,"……菜央。貴女のカケラを覗いた時。……貴女がこれから巡るだろ
-う数奇な運命を垣間見マシタ。",
+う数奇な運命を垣間見マシタ。","...Nao, while I was peaking through your Fragments... I caught glimpse of a hapless fate to COME.",,
 238,ドラノール,"強く、生きて下サイ。貴女なら、どのようなカケラもつかみ取れる
-はずデス。",
+はずデス。","Be strong, and please live ON. If it's you, you should be able to acquire any Fragment POSSIBLE. ",,
 243,Nao (Casual),"あたしは、ただのお姉ちゃん大好きっ子だし。……運命なんて、な
-るようになるわ。あたしは、恐れも期待もしない。",
+るようになるわ。あたしは、恐れも期待もしない。","I'm just a little girl who loves her sister. ...Whatever happens, happens. I don't have any fears or expectations.",,
 247,,"　……あ。
-　ゆっくりと……、視界が暗くなっていくのを感じる。",
-248,,朝を迎え、あたしは起床するのだろう。,
+　ゆっくりと……、視界が暗くなっていくのを感じる。",...Ah. I can feel my vision... slowly darkening.,,
+248,,朝を迎え、あたしは起床するのだろう。,"Morning will come, and I'll probably rise out of bed.",,
 249,,"　……楽しかったわ、六軒島。
-　次に来る時は、……今度こそのんびり、刺繍をさせてね……。",
+　次に来る時は、……今度こそのんびり、刺繍をさせてね……。","...It was fun, here at Rokkenjima. Next time I come... I'll definitely be able to relax and embroider...",,
 266,,"　……雀の囀りが聞こえて来た。
 　ゆっくりと目を開けば、……朝日で満たされた温かな部屋の天井
-が見えてくる……。",
-267,,今日で、六軒島ともお別れか……。,
+が見えてくる……。",...I started to hear the sparrows chirping. If I slowly open my eyes... I'll be able to see the ceiling of my room being warmed up by the morning sun......,,
+267,,今日で、六軒島ともお別れか……。,"Today, I'm parting ways with Rokkenjima, huh...?",,
 268,,"　そういえばベアトリーチェは、何かプレゼントがあると言ってな
-かったっけ。",
-269,,楽しみにして目覚めるがよい、とか言っていたような………。,
-272,,こんな島、来なければよかった……。,
-274,Nao (Casual),ひ、……ひ、,
-275,Nao (Casual),嫌ああぁああぁあぁぁああぁぁぁあッ！！,
-281,,哀れな犠牲者たちは、……ベッドの上で、血まみれだった。,
+かったっけ。","Now that I say that, Beatrice told me she had some sort of present for me, I think.",,
+269,,楽しみにして目覚めるがよい、とか言っていたような………。,"""Do look forward to it upon waking up."", is what she probably told me...",,
+272,,こんな島、来なければよかった……。,I should have never come to this island.,こんな島、来なければよかった。,I should have never come to this island.
+274,Nao (Casual),ひ、……ひ、,N... n......,ひ、……ひ、,N... n......
+275,Nao (Casual),嫌ああぁああぁあぁぁああぁぁぁあッ！！,Nooooooooooooooooo!!,嫌ああぁああぁあぁぁああぁぁぁあッ！！,Nooooooooooooooooo!!
+281,,哀れな犠牲者たちは、……ベッドの上で、血まみれだった。,The poor victims... were on the bed covered in blood.,哀れな犠牲者たちは、……ベッドの上で、血まみれだった。,The poor victims... were on the bed covered in blood.
 282,,"　魅音さんのネグリジェは、本当はとても可愛らしいものだったの
-だろう。",
+だろう。",Mion-san's negligee used to be very lovely.,"　彼女のネグリジェは、本当はとても可愛らしいものだったのだろ
+う。",The girl's negligee probably used to be very lovely.
 283,,"　しかし、刃物か何かで執拗に切りつけられて、ズタズタにされて
-しまっている。",
+しまっている。","But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.","　しかし、刃物か何かで執拗に切りつけられて、ズタズタにされて
+しまっている。","But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds."
 284,,"　そこから溢れ出しただろう鮮血が、ネグリジェもシーツも、元が
-何色だったか思い出せないほどに染めてしまっている。",
+何色だったか思い出せないほどに染めてしまっている。",The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.,"　そこから溢れ出しただろう鮮血が、ネグリジェもシーツも、元が
+何色だったか思い出せないほどに染めてしまっている。",The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.
 285,,"　詩音さんはガウン姿だった。……もちろん、真っ赤な鮮血に染め
-られている。",
+られている。","Shion-san was in a gown. ...Of course, she was also stained with fresh, bright red blood.","　もうひとりはガウン姿だった。……もちろん、真っ赤な鮮血に染
+められている。","The other one was in a gown. ...Of course, they were also stained with fresh, bright red blood."
 286,,"　こちらも同様に、ズタズタに切り裂かれ……、見るも無残な有様
-だ……。",
+だ……。","Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.","　こちらも同様に、ズタズタに切り裂かれ……、見るも無残な有様
+だ……。","Just like the other one, it had been torn to shreds... and was clearly in a pitiful state."
 287,,"　３つのベッドの内、２つは鮮血に染まるが、１つは、昨晩から変
 わらず清潔なままだ。
-　それが、……あたしのベッド。",
+　それが、……あたしのベッド。","Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.","　３つのベッドの内、２つは鮮血に染まるが、１つは、昨晩から変
+わらず清潔なままだ。それが、……あたしのベッド。","Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed."
 288,,"　そしてあたしだけが、……血の一滴も浴びずに、彼女たちと同じ
-部屋で、……熟睡していた……。",
+部屋で、……熟睡していた……。",And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them...,"　そしてあたしだけが、……血の一滴も浴びずに、彼女たちと同じ
+部屋で、……熟睡していた……。",And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them...
 289,,"　だ、大丈夫ですか……。そう言おうと思った。
 　しかし、あたしの口から出たのは、か細くて弱々しい、悲鳴と呼
-ぶにも頼りない、かすれ声だけであった。",
+ぶにも頼りない、かすれ声だけであった。","I wanted to ask ""A-Are you okay...?"". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.","　だ、大丈夫ですか……。そう言おうと思った。
+　しかし、あたしの口から出たのは、か細くて弱々しい、悲鳴と呼
+ぶにも頼りない、かすれ声だけであった。","I wanted to ask ""A-Are you okay...?"". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream."
 293,,"　あたしは部屋を飛び出し、隣室の扉を激しくノックしながら、同
-時にドアノブも捻る。",
+時にドアノブも捻る。","I dashed out to the next room over, frantically knocking on the door while trying at the doorknob.","　あたしは部屋を飛び出し、隣室の扉を激しくノックしながら、同
+時にドアノブも捻る。","I dashed out to the next room over, frantically knocking on the door while trying at the doorknob."
 294,Nao (Casual),"ヱリカさんッ、ヱリカさんッ！！　た、大変です大変です、たた、
-助けて……ッ！！",
-300,Nao (Casual),え……？　開いた………？,
+助けて……ッ！！","Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!","ヱリカさんッ、ヱリカさんッ！！　た、大変です大変です、たた、
+助けて……ッ！！","Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!"
+300,Nao (Casual),え……？　開いた………？,Huh...? It opened...?,え……？　開いた………？,Huh...? It opened...?
 302,,"　ドアノブを捻ったって、鍵が掛けられているのだから、開く訳は
-ない。",
+ない。","Even if you turn a doorknob, when it's locked, there's no way it would open.","　ドアノブを捻ったって、鍵が掛けられているのだから、開く訳は
+ない。","Even if you turn a doorknob, when it's locked, there's no way it would open."
 303,,"　ドアノブをガチャガチャさせるのが、自分の混乱と状況の異常を
-知らせる、無意識の方法だったからに過ぎない。",
+知らせる、無意識の方法だったからに過ぎない。",Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.,"　ドアノブをガチャガチャさせるのが、自分の混乱と状況の異常を
+知らせる、無意識の方法だったからに過ぎない。",Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.
 304,,"　……だから、扉が開いてしまうことは、まったく想定しなかった
-のだ。",
+のだ。",...That's why I honestly didn't expect the door to open.,"　……だから、扉が開いてしまうことは、まったく想定しなかった
+のだ。",...That's why I honestly didn't expect the door to open.
 305,,"　その異常が……、あたしの心を瞬時に凍らせ、……ナイフのよう
-に鋭く尖らせる。",
+に鋭く尖らせる。",It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.,"　その異常が……、あたしの心を瞬時に凍らせ、……ナイフのよう
+に鋭く尖らせる。",It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.
 306,,"　極限の恐怖は、感情の全てを殺し、五感を限界まで研ぎ澄ます。
 　だが、所詮は氷のナイフ。
-　……どんなに鋭くても、脆く、砕け散る……。",
-309,Nao (Casual),ヱリカ……さん………？,
+　……どんなに鋭くても、脆く、砕け散る……。","Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......","　極限の恐怖は、感情の全てを殺し、五感を限界まで研ぎ澄ます。
+　だが、所詮は氷のナイフ。
+　……どんなに鋭くても、脆く、砕け散る……。","Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......"
+309,Nao (Casual),ヱリカ……さん………？,Erika...san...?,ヱリカ……さん………？,Erika...san...?
 315,,"　染められていた……。
 　ヱリカさんもまた、ベッドの上で……、真っ赤に、血まみれ
-に………。",
-317,Nao (Casual),嫌あああぁあぁぁあぁあぁあぁぁぁぁぁッ！！！,
-323,Nao (Casual),…………ヱリカさん。おはようございます。,
-324,,当然、死体が喋ることはない。,
-326,,なら、死体が呼吸をする必要もないわね。,
-328,ヱリカ,ふがッ……………。,
-329,ヱリカ,…………………………………。,
-330,ヱリカ,……………………………………………………ッ。,
-337,ヱリカ,ゲハッ！！　こッ、殺す気ですか、ハアハア、ゼエゼエ！！！,
-339,Nao (Casual),おはようございます、ヱリカさん。,
+に………。",It was stained... Erika-san was also on the bed... red and bloody......,"　染められていた……。
+　ヱリカさんもまた、ベッドの上で……、真っ赤に、血まみれ
+に………。",It was stained... Erika-san was also on the bed... red and bloody......
+317,Nao (Casual),嫌あああぁあぁぁあぁあぁあぁぁぁぁぁッ！！！,Noooooooooooooooooooooooooooooooo!!!!!!!!!!!,嫌あああぁあぁぁあぁあぁあぁぁぁぁぁッ！！！,Noooooooooooooooooooooooooooooooo!!!!!!!!!!!
+323,Nao (Casual),…………ヱリカさん。おはようございます。,"......Erika-san, good morning.",,
+324,,当然、死体が喋ることはない。,"Of course, corpses don't speak.",,
+326,,なら、死体が呼吸をする必要もないわね。,"So, corpses don't need to breathe either.",,
+328,ヱリカ,ふがッ……………。,Gh......,,
+329,ヱリカ,…………………………………。,.......................................,,
+330,ヱリカ,……………………………………………………ッ。,............................................................nn--,,
+337,ヱリカ,ゲハッ！！　こッ、殺す気ですか、ハアハア、ゼエゼエ！！！,"Guh--!!! A-Are you trying to kill me?! Haah, haah, *cough*cough*!!!",,
+339,Nao (Casual),おはようございます、ヱリカさん。,"Good morning, Erika-san.",,
 341,Nao (Casual),"これもきっと、ワニャンの映画の中のワンシーンの再現なんですよ
-ね？",
+ね？","This is another reenactment of a scene you saw in the Wanyan movie, isn't it?",,
 343,ヱリカ,"ふっふっふ！　完璧だったでしょう？！　特に、死に顔にほのかに
-残る未練と慕情の再現は、究極的だったと思いますッ！",
+残る未練と慕情の再現は、究極的だったと思いますッ！",*giggle*giggle*giggle*! Wasn't it perfect?! I thought my death face in particular was the ultimate expression of one's leftover traces of regret and yearning!!,,
 345,ヱリカ,"ただ、名探偵ワニャンへの愛があるだけで、古戸ヱリカにはこの程
-度のコスプレが可能です！　如何ですか、魅音さん詩音さんッ？！",
+度のコスプレが可能です！　如何ですか、魅音さん詩音さんッ？！","Just through my love for Detective Wanyan, this level of cosplay is possible for Erika Furudo! What do you think, Mion-san and Shion-san?!",,
 347,Nao (Casual),"……向こうも死体だわ。あなたとどちらが完璧か、採点をお願いす
-るわ……。",
+るわ……。",...Dead bodies over there too. I wish there were grades on these to see who did it better...,,
 351,,"　ヱリカさんは、ズタズタの血塗れゾンビの姿で、不敵に笑いなが
-ら、あたしたちの部屋に飛び込んでいく。",
+ら、あたしたちの部屋に飛び込んでいく。","With an intrepid laugh, Erika-san bursted into our room looking like a zombie out of a horror movie.",,
 361,ヱリカ,"おおッ！！！　……なかなかの再現度です！　これは確か劇場版
-の……３２分１８秒の……。",
+の……３２分１８秒の……。",Oooohhh!!! ...What a splendid recreation! This must be... if I'm correct... the movie scene at 32 minutes and 18 seconds......,,
 368,Nao (Casual),"これ……映画館で隠し撮りしたの……？　それ犯罪よ。映画泥棒
-よ。頭からポップコーンぶちまけるわよ。",
+よ。頭からポップコーンぶちまけるわよ。",Is this... did you guys sneak a picture at the theaters...? That's a crime. Movie thieves. Popcorn is gonna shoot out of your heads now.,,
 370,,"　ヱリカさんがどこからともなく取り出した、秘密探偵道具の小さ
 な画面には、……この部屋の惨状とそっくりなシーンが映し出され
-ていた……。",
+ていた……。","From who knows where, Erika-san grabbed out a secret detective gadget with a little screen... which depicted a scene that matched perfectly with what was in this room...",,
 373,ヱリカ,"まず、詩音さんから！　強打者（スラッガ）くんの再現、お見事で
-す！",
+す！","Firstly, Shion-san, powerful portrayal of Slugger-kun!",,
 377,ヱリカ,"いいですね、衣装が完璧なのは当然として、この感じ！　心から
-キャラになり切らないとなかなか出来ません！",
+キャラになり切らないとなかなか出来ません！","Yeah, that's it, the clothes being perfectly in the right form, just like that! This couldn't be done unless you allowed the character to envelop your soul!",,
 380,ヱリカ,"一番大事なのはこの儚い死に顔！！　実にいい表情ですッ！　これ
-は満点を出しましょう！",
+は満点を出しましょう！",But what ties it all together is that reactionary death face!! Truly an amazing facial expression! Just let me give you an A+!,,
 389,詩音 (Casual),"ヒョオウ！　さっすがワニャラー！！　細かいところまでよく見て
-下さりましたね！",
-396,Nao (Casual),すごいわ。……惨殺死体が上機嫌に跳ね起きたわ……。,
+下さりましたね！","Haaaah! That's a Wanyanner if I see one!! You judged it down to every last detail, huh?!",idk if hyoou is a reference pls help,
+396,Nao (Casual),すごいわ。……惨殺死体が上機嫌に跳ね起きたわ……。,Incredible. ...They just sprang up out of their death positions like nothing...,,
 400,ヱリカ,"続きまして魅音さんですね。こちらは町留田（マチルダ）さんの再
-現、これもまたお見事です！！",
+現、これもまたお見事です！！",Now I'll judge Mion-san. This one is a depiction of Matilda-san; very nicely done as well!,,
 402,ヱリカ,"もはや、言うまでもなく完璧なのですが、……ダブルパーフェクト
-が出るかどうかは、ここに掛かってます！！",
-407,詩音 (Casual),菜央さん、わかりますぅ？　この細かいこだわり。,
-409,Nao (Casual),……だから全然わかりません。,
+が出るかどうかは、ここに掛かってます！！",I had already called the other one perfect... but this one really has me feeling like this is a <double perfect!!>,"feeling usage? i was thinking of saying ""lines up with the other"" etc",
+407,詩音 (Casual),菜央さん、わかりますぅ？　この細かいこだわり。,"Nao-san, do you get why she's so hung up on the details?",,
+409,Nao (Casual),……だから全然わかりません。,"......Yeah, not at all.",,
 415,ヱリカ,"このネグリジェの裾！　ほら、少しだけ膨らんでいるでしょう？　
-ここ！　指輪ケースが隠れてるんです！",
+ここ！　指輪ケースが隠れてるんです！",The bottom edge of this negligee! See how it puffs out a little bit? Right here! There's a ring case hidden here!,,
 418,ヱリカ,"どうせ見えない部分だからと、適当に誤魔化しちゃうレイヤーさん
-も多いんですが、……さてさて魅音さんは……ッ？！",
+も多いんですが、……さてさて魅音さんは……ッ？！","Since you can't see it at all, lots of cosplayers might lazily gloss over that fact... but with Mion-san...?!",,
 424,ヱリカ,"ありましたぁ！！　しかもすごい原作再現度！！　投げ返された時
-についた傷跡まで完璧！！",
-431,Nao (Casual),……もう全然意味がわかりません。,
+についた傷跡まで完璧！！",She has iiiit!! Absolutely artful remastering of the original work!! It's perfect even down to the scar she got from when she was thrown back!!,,
+431,Nao (Casual),……もう全然意味がわかりません。,...I just don't know what's happening anymore.,,
 435,Mion (Casual),"くっくっく！　細部にこそ神は宿る、見えないところにまでこだ
-わってこそ真のワニャラー！",
-437,Nao (Casual),……ホントごめんなさい。帰ったら必ず映画館いきます。,
+わってこそ真のワニャラー！",*cackle*cackle*cackle*! Intense detail is my religion! Being fastidious even over aspects that go unseen is to be a true Wanyanner!,reworded the first part bc i feel like it would be offensive in english,
+437,Nao (Casual),……ホントごめんなさい。帰ったら必ず映画館いきます。,...I'm so sorry. Once I get back I'll absolutely go to the movie theaters.,,
 442,詩音 (Casual),"ヱリカさんの衣装を見る限り、どうやら、未来（ミライ）さんの死
-亡現場を再現してたみたいですね！",
+亡現場を再現してたみたいですね！","Even looking at Erika-san's clothes, I can somehow tell that recreated Mirai-san's death scene!",,
 446,Mion (Casual),"ちょっとヱリカさんの部屋に戻ろうよ！　ヱリカさん、見るからも
-う１回死んで死んで！！",
-451,Nao (Casual),……ホント皆さん、１回死んで下さい……。,
-453,,このワニャラーどもは、すっごく和気藹々と楽しんでいる。,
+う１回死んで死んで！！","Let's go check out Erika-san's room! Erika-san, we wanna see, so just die one more time, one more time!!",,
+451,Nao (Casual),……ホント皆さん、１回死んで下さい……。,"...Really, everyone, just die once......",,
+453,,このワニャラーどもは、すっごく和気藹々と楽しんでいる。,These Wanyanners are having a blast because they're so incredibly compatible.,the flow here could be better maybe,
 454,,"　昨日、何だかギスギスした言葉を交わし合っていた気がするけ
 ど、あれもきっと、ワニャンに出てくる劇中の掛け合いの真似なの
-だろう。",
+だろう。","I feel like some pretty edgy words were being exchanged yesterday, but that was also likely... another Wanyan recital they started doing.",,
 455,,"　魅音さんと詩音さん、そしてヱリカさんは、共通の趣味を持つ者
-として、かなり早い段階から意気投合していたのだ……。",
+として、かなり早い段階から意気投合していたのだ……。","Mion-san, Shion-san, and Erika-san all have common interests, so they were able to get onstage together and hit it off fast...",,
 456,,"　それで、劇中の洋館ミステリーっぽい、ギスギスとした会話を交
-わし合い、わかる人にしかわからない会話を楽しんでいた………？",
-460,Nao (Casual),ストップ。……すると、とても当然な疑問に行きつくわ。,
-462,ヱリカ,疑問？　何でしょうか？,
+わし合い、わかる人にしかわからない会話を楽しんでいた………？","So with that, they engaged in an edgy Western mystery roleplay conversation that only people who were in the know could enjoy...?",,
+460,Nao (Casual),ストップ。……すると、とても当然な疑問に行きつくわ。,"Stop. ...Thereupon, we arrive at a very obvious question.",,
+462,ヱリカ,疑問？　何でしょうか？,A question? And what could that be?,,
 468,詩音 (Casual),"あー、映画を楽しむには、やはり漫画を読了してないとダメか、っ
-てことでしょうか。",
+てことでしょうか。","Ah-, maybe enjoying the movie is actually impossible without finishing the manga, is what she's talking about?",,
 470,Mion (Casual),"さすがに全巻読了は厳しいからね！　６８巻以降でいいんじゃない
-かな。",
+かな。",Finishing the whole series is brutal as I thought! Shouldn't she start off on volume 68?,,
 482,ヱリカ,"ぴぴぴー！　ダメですダメです！　ワニャンを取り巻く人間関係の
-深みを知らなければ、面白さは激減です！",
+深みを知らなければ、面白さは激減です！","Eeeeeee~! Never that, never that! Without knowing the depth surrounding the character relationships in the Wanyan universe, the entertainment level would dramatically decrease!",,
 490,詩音 (Casual),"ですよねー！　やっぱり菜央さんには全巻を読んでいただかない
-と！",
-497,Nao (Casual),いい加減にして下さい。切り刻みますよ。,
-502,,ワニャラーどもは、ヒッと短い悲鳴をあげて、正座した……。,
-511,Nao (Casual),今から、皆さんに質問します。,
+と！",Riiight?! Nao-san definitely needs to read through the entire thing!,,
+497,Nao (Casual),いい加減にして下さい。切り刻みますよ。,Please cut that out. I'm gonna chop you guys up.,,
+502,,ワニャラーどもは、ヒッと短い悲鳴をあげて、正座した……。,"The Wanyanners were taken aback, shrieking with a little ""Hee?!""",,
+511,Nao (Casual),今から、皆さんに質問します。,I will now set up an inquiry for everyone.,,
 513,Nao (Casual),"返答如何では、ホントに殺人事件になりますので、心してお返事下
-さい。",
+さい。","Depending on your answer, it will literally become a murder case, so please reply with caution.",,
 516,Mion (Casual),"な、何よぉ～……、凄んじゃって、菜央ちゃんの可愛い顔が台無し
-だよぉ。ねぇ？",
-519,Nao (Casual),教えてくれても、よかったじゃないですか。,
-523,詩音 (Casual),教えてって、何を……。,
+だよぉ。ねぇ？","Wha-whaaat~...? If you're gonna threaten me, Nao-chan, don't ruin it with having such a cuuuute little face. Okay?",,
+519,Nao (Casual),教えてくれても、よかったじゃないですか。,"I'm glad that you taught me that, you know?",,
+523,詩音 (Casual),教えてって、何を……。,Taught you... what...?,,
 532,Nao (Casual),"あたしのベッドに魔法陣が現れた時！　教えてくれればよかった
-じゃないですかッ！",
+じゃないですかッ！","When that magic circle appeared on my bed, I'm really glad that you taught me that, you know?!",,
 535,Nao (Casual),"これは名探偵ワニャンの映画に出てくるワンシーンで云々！　教え
-てくれれば、あたしは怯えずに済んだんですッ。",
-543,詩音 (Casual),それはぁ……、ねぇ………？,
+てくれれば、あたしは怯えずに済んだんですッ。","This was an actual scene from the Wanyan movie! In teaching me that, it stopped being scary to me.",,
+543,詩音 (Casual),それはぁ……、ねぇ………？,That's... yeah...?,,
 545,Mion (Casual),"菜央ちゃんの驚きようが……、あんまりに可愛かったもので……つ
-いつい……。",
+いつい……。",Nao-chan getting surprised was... excessively cute... though unintentional...,,
 550,Nao (Casual),"ハイ、……“あんまりに可愛かったもので、ついつい”。１７文字
-ですね。",
-552,Nao (Casual),魅音さんと詩音さんは１７分割に切り刻みます。,
+ですね。","{i}Yes{/i}... ""Excessively cute, though unintentional."". 34 letters, right?",IF SOMEONE DOES CHANGE THE ONE ABOVE PLEASE KEEP THE AMOUNT OF LETTERS IN QUOTES AS 34 PLEASE PLEASE,
+552,Nao (Casual),魅音さんと詩音さんは１７分割に切り刻みます。,I'm going to chop you and Shion-san into 34 bits.,PLEASEE ITS PERTINENT TO THE STORY,ok but the fact the bits they would be cut into would amount to 34... lets discuss
 557,Nao (Casual),"続きまして、ヱリカさん。……あなたは本当は、見ていたんですよ
-ね？",
-559,ヱリカ,え？　何を？　ワニャンの放送はもちろん全部……、,
+ね？","Let's continue, Erika-san. ...Did you really watch it?",,
+559,ヱリカ,え？　何を？　ワニャンの放送はもちろん全部……、,Eh? What? Of course I watched all of Wanyan's broadcast....,,
 562,Nao (Casual),"あなたの部屋の魔法陣です！　詩音さんの悪戯はお昼前にはもう行
-われていたわ！",
+われていたわ！",The magic circle in your room! Shion-san's prank had already been done before noon!,,
 564,Nao (Casual),"あなたは施錠前に室内を確認したけれど、異常はなかったと言いま
-した。……嘘ですよね？",
+した。……嘘ですよね？","You checked inside before you locked your room, but you said you found nothing out of the ordinary. ...That was a lie, wasn't it?",,
 566,ヱリカ,"……紗音さんが魔法陣を気にしなかった件で混乱しているようだっ
-たので、ちょっとからかっちゃおうと思いまして……♪",
+たので、ちょっとからかっちゃおうと思いまして……♪",...You were so confused in the case of Shannon-san not caring about the magic circle that I thought that I'd maybe mess around with you a bit...♪,,
 568,Nao (Casual),"“紗音さんが魔法陣………っちゃおうと思いまして”……。４９文
-字ですね。サービスで切り上げて５０文字です。",
+字ですね。サービスで切り上げて５０文字です。",Your statement in total had 49 vowels including y's and w's... right? I'll do you a favor and make it 50.,IM PUKIGN,
 570,Nao (Casual),"さすがに５０分割は面倒臭いので、ヱリカさんはフードプロセッ
-サーに放り込んだ方が楽そうです。",
-574,,ひーーッ、猟奇的ぃ！！　３人は悲鳴を上げる。,
+サーに放り込んだ方が楽そうです。","50 pieces would definitely be painstaking to get to, though, so tossing Erika-san in a food processor would be much more fun.",LIKE ITS SO GENIUS,
+574,,ひーーッ、猟奇的ぃ！！　３人は悲鳴を上げる。,"""Eeeekkk, how grotesque!!"" The three shrieked.",,
 575,,"　あたしから見れば、あんな惨殺体の格好をして互いに写真を撮り
-合うアンタらの方が、ずっと猟奇的だ。",
+合うアンタらの方が、ずっと猟奇的だ。","No, from my point of view, the image of three massacred bodies banding together in front of me has been {i}far more{/i} grotesque.",,
 578,Nao (Casual),"まぁ、３人とも素直に謝りましたので、切り刻むのは今回は保留し
-ます。",
+ます。","Well, since you three already apologized earnestly, I'll save mincing you up for another day.",,
 584,Mion (Casual),"はーーッ。よかったぁ！　菜央ちゃんも、ワニャンを見てたらいい
-よ！",
-586,詩音 (Casual),ぜーったい、映画見たら、ワニャン沼にズブズブ入りますからぁ。,
+よ！","Haaaahh. Thank goodnesss! Nao-chan, if you watched Wanyan too it would be awesome!",,
+586,詩音 (Casual),ぜーったい、映画見たら、ワニャン沼にズブズブ入りますからぁ。,"If you see the movie, you'll ABBB-SO-lutely sink deep into the Wanyan swamp.",,
 592,ヱリカ,"ワニャン沼、いいですねぇ。今度、コラボカフェがあるそうです
-よぉ！　一緒に行きましょおー！！",
-597,Nao (Casual),……今、最後の謎が浮かんだわ。,
+よぉ！　一緒に行きましょおー！！","Wanyan swamp, cool term. There's apparently a cafe collabing with them that opened recentlyyy! Let's go togetheeerrrr!!",,
+597,Nao (Casual),……今、最後の謎が浮かんだわ。,...The last mystery has just emerged.,,
 599,Nao (Casual),"あなたたちがそれぞれ、熱狂的な名探偵ワニャンのファンであるこ
-とは理解しました。",
+とは理解しました。",I've finally grasped that each of you are wildly enthusiastic about Detective Wanyan.,,
 601,Nao (Casual),"しかしそれにしたって……、あなたたちの意気投合っぷりは、
-ちょっと考え難いほどです。",
-603,Nao (Casual),あなたたちは、いつの間にそんなに仲良くなっていたんですか？,
+ちょっと考え難いほどです。",But with that said... it's a bit hard to understand why you guys are so chummy.,,
+603,Nao (Casual),あなたたちは、いつの間にそんなに仲良くなっていたんですか？,At what point did you guys start getting along so well?,,
 605,,"　あぁ……、いよいよ明かされる。
 　あたしにとっての六軒島は、魔女と魔法陣と謎解きのミステリア
-スな２泊３日だった。",
-606,,しかし。,
+スな２泊３日だった。","Aah... it's getting more and more clear. For me, my stay on Rokkenjima has been a very mysterious three days and two nights, involving witches, magic circles, and puzzles to solve.",,
+606,,しかし。,But...,,
 607,,"　あたしが魔法陣に怯え、不可解な謎に頭を悩ませている間
 に……、彼女たちは、#pと#s・#r#pて#s・#r#pつ#s・#r#pも#s・#r#pな#s・#r#pい#s・#r暗闘を繰り広げていたの
-だ………。",
+だ………。","As I was fearing magic circles and concerned with baffling mysteries... a ""{i}preposterous{/i}"" secret feud between the girls began to ensue.",,

@@ -150,7 +150,7 @@ label event01_30_03:
  with Dissolve(0.2)
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Dear me. ... I do wonder if Erika-sama is still in her room?'
  narrator 'Gohda-san had appeared at the best possible moment to introduce his own cooking.'
- narrator 'In that moment, everyone wanted to sit and listen. But he had only come out of worry that Erika was still missing.'
+ narrator 'In that moment, everyone wanted to sit and listen. But he seemed to be worried that Erika was still missing.'
  narrator 'However, if we were to wait for Erika-san, we would miss our chance to eat while the food was still at its most ideal.'
  narrator "With a cough to clear his throat, Gohda-san had begun his explanation on tonight's cuisine."
  narrator 'By the time we had finished a subtle appetizer and even gotten through a deliciously light-flavored soup, Erika had finally gone down the stairs.'
@@ -166,13 +166,13 @@ label event01_30_03:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shannon_v001 smile at inactive
- erika 'Ah, for me, if I would have my own chopsticks. Using silver to eat would be quite fine.'
+ erika 'Ah, for me, if I would have my own chopsticks. It would be splendid if you took away my silverware.'
  show shannon_v001 fuan at active
  show erika_v001 normal at inactive
  shannon 'B-but... eating soup with chopsticks is...'
  show erika_v001 smile at active
  show shannon_v001 fuan at inactive
- erika "You're underrating Erika's skill in using chopsticks, aren't you? Allow me to demonstrate my soup eating chopstick technique!"
+ erika "You're underestimating Erika's skill in using chopsticks, aren't you? Allow me to demonstrate my soup eating chopstick technique!"
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)
@@ -183,7 +183,7 @@ label event01_30_03:
  pause 3.0
  play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
  narrator 'After dinner, we were all sat in front of the TV, relaxing on the sofa.'
- narrator "While being pleasantly full from all that food, even though I shouldn't have been doing that much these days, I started getting the strange feeling that I had done my best today."
+ narrator "While being pleasantly full from all that food, even though I probably haven't done much these past few days, I got the strange feeling that I had done my best today."
  narrator 'Of course, "Detective Wanyan" was on TV. The cast on the show has multiplied since the last time I watched it.'
  narrator 'Speaking of which, why are the police in this show just letting an elementary schooler and that big slug stand there on the scene of a murder incident??'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
@@ -526,10 +526,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 fuan_close at active
  show nao_v002 fuan at inactive
- shion "I'm sorry my sister is such a hick."
+ shion "I'm sorry my sister is such a country bumpkin."
  show nao_v002 fuan at active
  show shion_v002 fuan_close at inactive
- nao "I'm really sorry about Mion-san being a hick. ...I do wonder if we can have you look at it?"
+ nao "I'm really sorry about Mion-san being a country bumpkin. ...I do wonder if we can have you look at it?"
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
