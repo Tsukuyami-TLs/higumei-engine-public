@@ -406,16 +406,6 @@ define gui.nvl_button_xalign = 0.0
 
 define gui.language = "unicode"
 
-# furigana styles
-style ruby_style is default:
-    size 20
-    yoffset -30
-
-style say_dialogue:
-    line_leading 12
-    ruby_style style.ruby_style
-
-
 ################################################################################
 ## Mobile devices
 ################################################################################
