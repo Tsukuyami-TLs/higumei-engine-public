@@ -2,7 +2,7 @@ label event01_30_06:
  show black_background onlayer black
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.flac'
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2341.png' as bg
  with Dissolve(1.0)
  show erika_v001 normal at mei_right
@@ -200,7 +200,7 @@ label event01_30_06:
  hide erika_v001
  with Dissolve(0.2)
  pause 1.0
- play music 'audio/bgm/BGM_HOME_COLLAB2.flac'
+ play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show shion_v008 smile at mei_left
  show mion_v014 smile at mei_right
  with Dissolve(0.5)
@@ -392,7 +392,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show nao_v002 normal at active
  nao "...Even if they knew, they wouldn't let you speak. ......Ah."
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.flac'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
  hide nao_v002
  with Dissolve(0.2)
  narrator "...Whether a servant sees something or doesn't see something is a duty of theirs... isn't that right?"
@@ -524,7 +524,7 @@ label event01_30_06:
  hide jessica_v001
  with Dissolve(0.2)
  narrator 'After making sure Jessica-san was gone, I turned over... and made eye contact with Erika-san by the arbor...'
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.flac'
+ play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -674,7 +674,7 @@ label event01_30_06:
  show nao_v002 fuan_close at active
  show erika_v001 fuan at inactive
  nao '...Nn...... uh......'
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.flac'
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
   pos (960,540)

@@ -2,7 +2,7 @@ label chara472001_02:
  show black_background onlayer black
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.flac'
+ play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show nao_v001 normal at mei_right

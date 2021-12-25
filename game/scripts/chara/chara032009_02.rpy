@@ -2,7 +2,7 @@ label chara032009_02:
  show black_background onlayer black
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_EVENT6.flac'
+ play music 'audio/bgm/BGM_EVENT6.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_right
@@ -120,7 +120,7 @@ label chara032009_02:
  show beatrice_v001 futeki at active
  show nao_v002 smile at inactive
  beatrice 'それはだな……ほれっ。'
- play music 'audio/bgm/BGM_EVENT5.flac'
+ play music 'audio/bgm/BGM_EVENT5.ogg'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -151,7 +151,7 @@ label chara032009_02:
  nao 'きゃぁ……っ、て、えっ？'
  show nao_v014 fuan at active
  nao 'う、浮いてる……？'
- play music 'audio/bgm/BGM_QUEST.flac'
+ play music 'audio/bgm/BGM_QUEST.ogg'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
