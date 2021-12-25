@@ -16,6 +16,20 @@ image nao_v014 fuan:
  choice:
   pause 5.0
  repeat
+image nao_v014 fuan_blush:
+ animation
+ 
+ "characters/sprites/nao/v014//fuan_blush_close.png"
+ pause 0.0667
+ "characters/sprites/nao/v014//fuan_blush_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
 image nao_v014 warai_close:
  animation
  
@@ -44,6 +58,20 @@ image nao_v014 odoroki:
  "characters/sprites/nao/v014//odoroki_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//odoroki_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image nao_v014 odoroki_blush:
+ animation
+ 
+ "characters/sprites/nao/v014//odoroki_blush_close.png"
+ pause 0.0667
+ "characters/sprites/nao/v014//odoroki_blush_open.png"
  pause 15.0
  choice:
   pause 1.0
@@ -98,6 +126,20 @@ image nao_v014 sinken:
  "characters/sprites/nao/v014//sinken_close.png"
  pause 0.0667
  "characters/sprites/nao/v014//sinken_open.png"
+ pause 15.0
+ choice:
+  pause 1.0
+ choice:
+  pause 2.0
+ choice:
+  pause 5.0
+ repeat
+image nao_v014 sinken_blush:
+ animation
+ 
+ "characters/sprites/nao/v014//sinken_blush_close.png"
+ pause 0.0667
+ "characters/sprites/nao/v014//sinken_blush_open.png"
  pause 15.0
  choice:
   pause 1.0
