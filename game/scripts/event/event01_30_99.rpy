@@ -523,18 +523,18 @@ label event01_30_99:
  show expression 'images/bg/AdvBg_2101.png' as bg
  with Dissolve(1.0)
  show shion_v011 fuan at mei_left
- show mion_v012 fuan at mei_right
+ show mion_v013 fuan at mei_right
  with Dissolve(0.5)
- show mion_v012 fuan at active
+ show mion_v013 fuan at active
  show shion_v011 fuan at inactive
  mion 'Wow, that sure was some lightning...! That was amazing for such a sunny day...'
  camera at screenshake_transform
  pause 0.0
  show shion_v011 odoroki at active
- show mion_v012 fuan at inactive
+ show mion_v013 fuan at inactive
  shion "S-Sis?! Wh-what's that outfit...?!"
  hide shion_v011
- hide mion_v012
+ hide mion_v013
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
  show nao_v014 odoroki at mei_left
@@ -554,11 +554,11 @@ label event01_30_99:
  hide erika_v001
  hide nao_v014
  with Dissolve(0.2)
- show mion_v012 smile at mei_right
+ show mion_v013 smile at mei_right
  show shion_v011 fuan at mei_left
  with Dissolve(0.5)
  show shion_v011 fuan at active
- show mion_v012 smile at inactive
+ show mion_v013 smile at inactive
  shion 'Sis, these clothes of ours...'
  camera:
   anchor (0.5,0.5)
@@ -568,19 +568,19 @@ label event01_30_99:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- show mion_v012 smile at active
+ show mion_v013 smile at active
  show shion_v011 fuan at inactive
  mion "It's the costumes of the moon rabbits from Mid-Autumn's Lament: The Heartbroken Rabbits Murder Caasseee!!"
  play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  show shion_v011 smile at jump_transform,active
- show mion_v012 smile at inactive
+ show mion_v013 smile at inactive
  shion "Isn't this great! Me and my sister, we can do the moon rabbit dance together!!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
- hide mion_v012
+ hide mion_v013
  hide shion_v011
  hide fade with Dissolve(0.08333333333333333)
  show nao_v014 sinken at mei_center
@@ -607,11 +607,11 @@ label event01_30_99:
  erika "Among the maniacs of the Magical World, it's sold at an incredibly high price. In a way, a new one of those is priceless."
  hide erika_v001
  with Dissolve(0.2)
- show mion_v012 smile at mei_center
+ show mion_v013 smile at mei_center
  with Dissolve(0.5)
- show mion_v012 smile at active
+ show mion_v013 smile at active
  mion 'Well, there are industries where a used one is worth more than a new one you know~.'
- hide mion_v012
+ hide mion_v013
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
  show nao_v014 sinken_blush at mei_left
@@ -664,13 +664,13 @@ label event01_30_99:
  erika '...Front-open skirts are popular in the magic world for some reason.'
  hide erika_v001
  with Dissolve(0.2)
- show mion_v012 smile at mei_right
+ show mion_v013 smile at mei_right
  show shion_v011 smile at mei_left
  with Dissolve(0.5)
  show shion_v011 smile at active
- show mion_v012 smile at inactive
+ show mion_v013 smile at inactive
  shion "Wait, these are a bit like Angel Mort's outfits!"
- show mion_v012 smile at active
+ show mion_v013 smile at active
  show shion_v011 smile at inactive
  mion "Nao-chan, why won't you try out some part-time at Angel Mort in that outfit?!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
@@ -678,7 +678,7 @@ label event01_30_99:
   anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
- hide mion_v012
+ hide mion_v013
  hide shion_v011
  hide fade with Dissolve(0.08333333333333333)
  show nao_v014 sinken at mei_center
@@ -716,15 +716,15 @@ label event01_30_99:
  hide nao_v014
  with Dissolve(0.2)
  show shion_v011 smile at mei_left
- show mion_v012 smile at mei_right
+ show mion_v013 smile at mei_right
  with Dissolve(0.5)
- show mion_v012 smile at active
+ show mion_v013 smile at active
  show shion_v011 smile at inactive
  mion "This ol' man has cosplay outfits if you want to change~."
  show shion_v011 fuan at active
- show mion_v012 smile at inactive
+ show mion_v013 smile at inactive
  shion "But Sis? Aren't these outfits a bit revealing for walking in public?"
- hide mion_v012
+ hide mion_v013
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -734,13 +734,13 @@ label event01_30_99:
  show erika_v001 normal at inactive
  shion "But, I think it'd be hard to avoid getting questioned if we did that..."
  hide erika_v001
- show mion_v012 smile at mei_right
+ show mion_v013 smile at mei_right
  with Dissolve(0.5)
- show mion_v012 smile at active
+ show mion_v013 smile at active
  show shion_v011 fuan_close at inactive
  mion 'Well, I think that if I stopped a taxi while wearing a wedding dress and crying, I might get a bit of a discount♪'
  hide shion_v011
- hide mion_v012
+ hide mion_v013
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
  with Dissolve(0.5)

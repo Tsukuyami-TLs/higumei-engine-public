@@ -8,19 +8,19 @@ label event01_30_07:
  narrator 'We returned to the guesthouse, where lunch was being served in the hall.'
  narrator 'Shion-san was going on about how high-quality the silverware was.'
  narrator 'Once you get used to the cuisine on this island, you might never want to go back... ever.'
- show mion_v014 smile at mei_right
+ show mion_v015 smile at mei_right
  show shion_v008 fuan at mei_left
  with Dissolve(0.5)
  show shion_v008 fuan at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  shion "Let's get changed quickly. I don't want to be eating lunch like this."
- show mion_v014 smile at active
+ show mion_v015 smile at active
  show shion_v008 fuan at inactive
  mion "Reaaally? This ol' man doesn't mind at all, though."
  show shion_v008 sinken at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  shion "Sis, you might be okay with it, but I'd prefer to be modest. Anyway, I'm going upstairs to change."
- hide mion_v014
+ hide mion_v015
  hide shion_v008
  with Dissolve(0.2)
  show erika_v001 normal at mei_center

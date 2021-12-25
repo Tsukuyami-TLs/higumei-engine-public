@@ -202,16 +202,16 @@ label event01_30_06:
  pause 1.0
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show shion_v008 smile at mei_left
- show mion_v014 smile at mei_right
+ show mion_v015 smile at mei_right
  with Dissolve(0.5)
- show mion_v014 smile at active
+ show mion_v015 smile at active
  show shion_v008 smile at inactive
  mion "Haah-, I'm tireeddd! Let's take a break, yeah?"
  show shion_v008 smile at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  shion "Huh? Nao-chan, you aren't doing your embroidery?"
  hide shion_v008
- hide mion_v014
+ hide mion_v015
  with Dissolve(0.2)
  show erika_v001 normal at mei_right
  show nao_v002 normal_close at mei_left
@@ -260,16 +260,16 @@ label event01_30_06:
  hide erika_v001
  with Dissolve(0.2)
  show shion_v008 smile at mei_left
- show mion_v014 odoroki at mei_right
+ show mion_v015 odoroki at mei_right
  with Dissolve(0.5)
- show mion_v014 odoroki at active
+ show mion_v015 odoroki at active
  show shion_v008 smile at inactive
  mion "What do you mean? Wait, did Erika-san's break too?!"
  show shion_v008 fuan at active
- show mion_v014 odoroki at inactive
+ show mion_v015 odoroki at inactive
  shion 'Obviously not, Sis. What happened?'
  hide shion_v008
- hide mion_v014
+ hide mion_v015
  with Dissolve(0.2)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -278,16 +278,16 @@ label event01_30_06:
  hide erika_v001
  with Dissolve(0.2)
  show shion_v008 fuan at mei_left
- show mion_v014 smile at mei_right
+ show mion_v015 smile at mei_right
  with Dissolve(0.5)
- show mion_v014 smile at updown_shake_transform,active
+ show mion_v015 smile at updown_shake_transform,active
  show shion_v008 fuan at inactive
  mion 'How horrible!! The windows are, well, who cares about those, but the door! Oh no, not the door!!'
  show shion_v008 fuan_close at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  shion 'I feel like forgetting to lock your room and breaking something because you underestimated your strength are two incredibly different things, though?'
  hide shion_v008
- hide mion_v014
+ hide mion_v015
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_408_run.wav'
  narrator '"Heeeeyy!", Jessica-san calls out as she runs back over here.'
@@ -304,21 +304,21 @@ label event01_30_06:
  hide jessica_v001
  with Dissolve(0.2)
  show shion_v008 smile at mei_left
- show mion_v014 smile at mei_right
+ show mion_v015 smile at mei_right
  with Dissolve(0.5)
- show mion_v014 smile at active
+ show mion_v015 smile at active
  show shion_v008 smile at inactive
  mion 'Shion~. For our next photo shoot, though, like, can we really not replace this prop?'
  show shion_v008 smile at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  shion "Ah-, you finally realized, huh? I've been thinking it didn't fit well."
  camera at screenshake_transform
  pause 0.0
- show mion_v014 sinken at active
+ show mion_v015 sinken at active
  show shion_v008 smile at inactive
  mion "Huuh?! If you've been thinking it, then, like, say something!"
  hide shion_v008
- hide mion_v014
+ hide mion_v015
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
@@ -550,49 +550,49 @@ label event01_30_06:
  scene expression "#000"
  show expression 'images/bg/AdvBg_2341.png' as bg
  with Dissolve(1.0)
- show mion_v014 smile at mei_right
+ show mion_v015 smile at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  nao "Huh? Where'd Shion-san go?"
- show mion_v014 smile at active
+ show mion_v015 smile at active
  show nao_v002 normal at inactive
  mion "She went back to the guesthouse to check for a different prop. She'll be back soon."
  hide nao_v002
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
  show erika_v001 normal at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  erika "...At any rate, Mion-san... you can be pretty shrewd, can't you?"
  show erika_v001 normal at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  erika "Saying this is a smidge rude, but I thought you would be like a caveman afraid of fire... You're pretty good, though."
- show mion_v014 smile at updown_shake_transform,active
+ show mion_v015 smile at updown_shake_transform,active
  show erika_v001 normal at inactive
  mion "Ahaha! If Erika-san says that much, I'll start blushing!!"
- show mion_v014 smile_close at active
+ show mion_v015 smile_close at active
  show erika_v001 normal at inactive
  mion "But you're pretty good too, y'know, Erika-san? There's one thing you might have wrong, though~."
  play audio 'audio/sfx/SE_226_shine.wav'
- show mion_v014 futeki at active
+ show mion_v015 futeki at active
  show erika_v001 normal at inactive
  mion "The truth isn't what gets revealed. It's a fabrication of reality. Or maybe it's a mixture of the two? Either way, don't mess with the next head of the Sonozaki family, you hear?"
- hide mion_v014
+ hide mion_v015
  hide erika_v001
  with Dissolve(0.2)
  narrator "...I don't know what those two were having a conversation about while I was talking to Jessica-san... but it feels like it was kind of fiery."
  narrator 'Even if that did happen though, Mion-san would probably just be like "You got me!!" and walk it off.'
- show mion_v014 futeki at mei_right
+ show mion_v015 futeki at mei_right
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
  show erika_v001 normal at active
- show mion_v014 futeki at inactive
+ show mion_v015 futeki at inactive
  erika "Mion-san, let's make a promise. One of these days, I'll definitely visit Hinamizawa as a detective."
- show mion_v014 smile at nod_transform,active
+ show mion_v015 smile at nod_transform,active
  show erika_v001 normal at inactive
  mion 'Yeah, for sure! All of the club members will give you a warm welcome when you do~!'
- hide mion_v014
+ hide mion_v015
  hide erika_v001
  with Dissolve(0.2)
  narrator 'Those fiery, murderous sparks that I felt in between them as they crossed vision suddenly seemed like the kind in a friendly playfight.'
@@ -603,18 +603,18 @@ label event01_30_06:
  nao 'Ah... Shion-san came back.'
  hide nao_v002
  with Dissolve(0.2)
- show mion_v014 smile at mei_right
+ show mion_v015 smile at mei_right
  show shion_v008 sinken at mei_left
  with Dissolve(0.5)
  camera at screenshake_transform
  pause 0.0
  show shion_v008 sinken at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  shion 'Sis! I think I might have put it in a totally different place? Please forgive meee!'
- show mion_v014 odoroki at active
+ show mion_v015 odoroki at active
  show shion_v008 sinken at inactive
  mion "Huuuh?! Weren't you the one who went and put it someplace else before we left?!"
- hide mion_v014
+ hide mion_v015
  hide shion_v008
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_right
@@ -711,26 +711,26 @@ label event01_30_06:
  narrator "She really is a hateable person; however, she's a bit strange. Rather than being just a hateable person... how can I put it... she's like a rival."
  narrator "She puts me below her and gets under my skin. She's aggravating, but as an enemy, I feel like she's deserving of praise in that aspect."
  show erika_v001 normal at mei_right
- show mion_v014 smile at mei_left
+ show mion_v015 smile at mei_left
  with Dissolve(0.5)
- show mion_v014 smile at jumping_transform,active
+ show mion_v015 smile at jumping_transform,active
  show erika_v001 normal at inactive
  mion "C'mon, c'mooon, let's go get luuunch~! Huuuuuuh? You hittin' on my little Nao-chaaaan?!"
  show erika_v001 normal at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  erika 'Yes, absolutely. This sweet {i}darling{/i} of a girl must be protected at all costs before she becomes victim to a murder incident.'
- show mion_v014 smile at active
+ show mion_v015 smile at active
  show erika_v001 normal at inactive
  mion "Ooohhh, don't you know touching her is forbidden~? If you wanna schedule with my Nao-chan, you're gonna have to get through her manager fiiirst!♪"
  show erika_v001 normal at active
- show mion_v014 smile at inactive
+ show mion_v015 smile at inactive
  erika 'And so? Will that be your move?'
  play audio 'audio/sfx/SE_211_electric.wav'
- show mion_v014 futeki at active
+ show mion_v015 futeki at active
  show erika_v001 normal at inactive
  mion 'Of course. Round over. Your next move better be promising, yeah~?'
  hide erika_v001
- hide mion_v014
+ hide mion_v015
  with Dissolve(0.2)
  narrator "Yeah, there are definitely sparks flying between those two. But even though there's supposed to be enmity between them, it's almost like they've combined that with the coolness of a movie scene."
  narrator "...This must be what it's like to be tough like a first-rate......"
