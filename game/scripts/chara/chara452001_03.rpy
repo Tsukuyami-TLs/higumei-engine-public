@@ -4,29 +4,29 @@ label chara452001_03:
  scene expression "#000"
  show expression 'images/bg/AdvBg_591.png' as bg
  with Dissolve(1.0)
- narrator '――数日後。'
+ narrator 'Several days later...'
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
- nao 'ありがとうございましたーっ！'
+ nao 'Thank you very much----!'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao '……まさか、こんなに早く\n手に入れられるとは思わなかったわ。\n魅音さんには今度お礼をしなきゃ。'
+ nao "...I didn't think I would get my hands on that this soon. I need to thank Mion next time I see her."
  show nao_v002 normal at active
- nao 'とりあえず目的の品は揃ったから、\nあとはどうやって連絡を取るのかって\nことだけど……。'
+ nao 'Now that I have what I wanted to get, the next step is to get in touch with them...'
  show nao_v002 fuan at active
- nao '……。あたし、あの人と\nどこでどうやって会ってたんだっけ？'
+ nao '...How and where did I meet that person?'
  show nao_v002 fuan at active
- nao '思い出せない……ってことは、\n向こうに呼ばれてたってことかしら。'
+ nao "I can't remember... about the time I was summoned over there."
  show nao_v002 fuan_close at active
- nao '……気長に待つしかないようね。\nさて、それじゃ家に戻って――。'
+ nao "...It appears I'll just have to be patient. Well then, back to the house--"
  stop music fadeout 0.5
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2211.png' as bg
  with Dissolve(1.0)
- nao 'えっ？'
- nao 'ここって、あの……！\nということは……？'
+ nao 'Huh?'
+ nao 'This place...! So that means...?'
  hide nao_v002
  with Dissolve(0.2)
  play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
@@ -35,71 +35,71 @@ label chara452001_03:
  with Dissolve(0.5)
  show beatrice_v001 futeki at active
  show nao_v002 odoroki at inactive
- beatrice 'くっくっくっく……！\u3000久しぶりよの。'
+ beatrice "*cackle*cackle*...! It's been a while."
  show nao_v002 smile at active
  show beatrice_v001 futeki at inactive
- nao 'ベアトリーチェ……！'
+ nao 'Beatrice...!'
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice '元気であったか？\n妾と会いたいと呼んだだろう。'
+ beatrice 'Have you been well? It seems you wanted a meeting and called for me.'
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'ちょうど暇を持て余していたのでな、ここに招待したのだ。\n感謝しても良いぞ？\u3000くっくっくっく！'
+ beatrice 'I had a bit of free time, so I called you here. Mind thanking me? *cackle*cackle*cackle*!'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'ありがとう、ベアトリーチェ。\nどうやって連絡を取ればいいか\nわからなかったから、助かったわ。'
+ nao "Thank you, Beatrice. I didn't know how I could get a hold of you, so this helped out."
  show beatrice_v001 fuan at active
  show nao_v002 smile at inactive
- beatrice 'む、むぅ……そんなにストレートに\n感謝されるとは思わなかったぞ。'
+ beatrice "Oh, mm... I didn't think you'd be so straightforward about being grateful."
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'ん……？\nそなたが抱えている、その袋はなんだ？\n何やらいい香りがするぞ。'
+ beatrice "Hm...? What's that bag that you're carrying? Something inside smells nice."
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'あ、わかった……？\nこれ、ちょっと変わったハーブティーなの。\nよかったら一緒に飲もうと思って。'
+ nao "Ah, you saw...? Here, it's some slightly different herbal tea. If you'd like, I thought we could drink it together."
  play audio 'audio/sfx/SE_5037_getup.wav'
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice 'ほう、魔女に土産とな？\nハーブティーと言ったな、\nどれどれ、いったいどんな茶葉を……。'
+ beatrice "Hoh, a souvenir for the witch? Since you said it was a herbal tea, I wonder what kind of plant it's from..."
  show beatrice_v001 smile at jump_transform,active
  show nao_v002 smile at inactive
- beatrice '……おぉっ？\nなんと、バタフライピーではないか。'
+ beatrice "...Oooh? If it isn't butterfly pea flower tea."
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao '昔、外国に行った時に飲んだのが\nとってもおいしかったから……\nベアトリーチェもどうかな、ってね。'
+ nao 'I really enjoyed drinking it when I was in a foreign country a long time ago, and thought you would like it too.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao '#p興宮#sおきのみや#rのお店だと取り扱ってなかったから、\n友達のつてで手に入れてもらったの。\nこれ、あたしからのプレゼントよ。'
+ nao "Since the store in Okinomiya didn't have it, I was able to get it through a friend. So, this is my gift to you."
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'くっくっくっ……それは良い心がけであるぞ。\nしかし、妾のご機嫌伺いに茶葉を持参するとは……\nやはりそなたは面白い。'
+ beatrice '*cackle*... how thoughtful. But to bring tea to my courtesy visit... you truly are interesting.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao '別に、機嫌をどうこうしたいって\n思ったわけじゃないんだけど……。'
+ nao "It's not like I wanted to do it out of courtesy or anything though..."
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao 'ちなみにベアトリーチェは、\nハーブティーってどうかしら？\n苦手だったら申し訳ないんだけど。'
+ nao "By the way, Beatrice, what do you think of the tea? I apologize if I chose something you don't like."
  show beatrice_v001 smile_close at active
  show nao_v002 normal at inactive
- beatrice '古今のありとあらゆる銘茶を楽しみ\n千年、紅茶を嗜んだ\n黄金の魔女、ベアトリーチェであるぞ。'
+ beatrice 'I am the Golden Witch Beatrice, who has enjoyed all kinds of teas both ancient and modern for one thousand years, black tea becoming my favorite.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'メジャーな銘柄からニッチな逸品まで、\n美味な茶は大歓迎だ。\nいわんや、ハーブティーもな。'
+ beatrice 'I welcome all delicious tea, from the name brands to the hidden gems. Naturally, that includes herbal tea as well.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'ふふっ、それならよかった。\nじゃあこれ、気が向いた時にでも飲んでみてね。'
+ nao '*giggle*, thank goodness. Then try this whenever you feel like it.'
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice '何を申すか。\n妾が招待したのだ、土産を渡して帰るとは、\nあまりに無粋ではないか。'
+ beatrice "What do you mean? Isn't answering my invitation, giving me a gift, and then leaving tremendously inelegant?"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'せっかくだ。\nこの茶を淹れて、茶会としようではないか。\nしばしの間、妾に付き合うが良い。'
+ beatrice "Since you are here, let's brew this and have a tea party. Let us hang out a short while."
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'ありがとう。……じゃあ、ご馳走になろうかしら。\nあ、でもティーカップとかはどこに……？'
+ nao "Thank you. ...In that case, I'll accept your treat. Ah, but where are the teacups...?"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice '…なに、用意はできている。'
+ beatrice '...Hah, preparations are being made now.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -112,7 +112,7 @@ label chara452001_03:
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_515_tableware.wav'
  show nao_v002 odoroki at jump_transform,active
- nao 'ほわっ……す、すごい……！\n一瞬でティーカップとお茶菓子が、\nテーブルの上に……？！'
+ nao "Wow... that's amazing...! In a single instant, teacups and tea cakes appeared on the table...?!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -124,11 +124,11 @@ label chara452001_03:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.5)
  show beatrice_v001 futeki at active
- beatrice 'くっくっくっ……この程度の魔法、造作もないわ。'
+ beatrice '*cackle*cackle*... This level of magic is simple for me.'
  show beatrice_v001 smile at active
- beatrice 'まあ、茶の腕前で言ったら、\n我が家具のロノウェほどではないがな、\nここは女同士の語らい、妾がもてなすのが道理よ。'
+ beatrice "Well, if we're talking about skill in teamaking, I'm not as talented as my furniture, Ronove; and this is between us women, but he's the reason why I can host like this."
  show beatrice_v001 normal at active
- beatrice 'ふぅむ……相変わらず面白い茶よの。\nレモンを入れると、鮮やかな青から赤に変わる。\nまさしく魔法の紅茶である。'
+ beatrice 'Hmm... this tea is as fascinating as ever. When you add lemon, it turns from a vivid blue into a red color. It surely is a magical tea.'
  hide beatrice_v001
  with Dissolve(0.2)
  show beatrice_v001 normal at mei_left
@@ -136,36 +136,36 @@ label chara452001_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'といっても、リトマス液みたいな\n化学反応でこうなってるらしいけどね。'
+ nao 'Although, I heard that it is caused by a chemical reaction called a Litmus solution.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '化学も、立派な魔法であるぞ。\nただ、その構造を説明する文言が\n数字に代わったに過ぎぬ。'
+ beatrice 'Chemistry is also a form of magic. The difference is that numbers have replaced the words explaining how it works.'
  show beatrice_v001 fuan_close at active
  show nao_v002 normal at inactive
- beatrice 'だが、その化学はやがて反魔法の毒素へと\n変貌した……大本は同じなはずが、\nどこで枝分かれしたのやら。'
+ beatrice "Nonetheless, eventually that chemistry morphed into an anti-magic toxin... their roots are the same, but I don't know where the two diverged."
  show nao_v002 normal at active
  show beatrice_v001 fuan_close at inactive
- nao 'そういえば、昔は化学を含めた科学と魔法は\n同じような研究をしていた、って聞いたことが\nあったわ。'
+ nao "Now that you mention it, I've heard that magic and science, including chemistry, used to be studied in similar ways."
  show beatrice_v001 normal at nod_transform,active
  show nao_v002 normal at inactive
- beatrice 'よく理解しておる。実際、ほんの数百年ほど前は\n錬金術は科学と魔法、両方に通じる学問として\n知識人たちがその習得と研鑽に励んでいたものよ。'
+ beatrice 'I have a deep understanding of this. In fact, a few hundred years ago, alchemy, a branch of study that bridged the gap between magic and science, was something that many intellectuals would devote themselves to acquiring knowledge in.'
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
- beatrice 'しかし、魔法は脆い。\n誰にでも使えるわけではないのだ…'
+ beatrice 'However, magic is delicate, and not everyone can use it...'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice '科学は物と手順さえ揃えば誰にでもたやすいという。\n科学と魔法は相反するもの。魔力は弱まり力は失う――'
+ beatrice 'They say that science can be easy for anybody to do so long as they have the proper equipment and procedures. Science and magic are polar opposites. And then magic loses its power--'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao 'でも……魔法はある。\n少なくとも、私を助けてくれたわ。\n黄金の魔女、ベアトリーチェがね。'
+ nao 'But... magic does exist. At the very least, the Golden Witch, Beatrice, was able to help me.'
  stop music fadeout 0.5
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice '…………。'
+ beatrice '............'
  play music 'audio/bgm/BGM_QUEST8_COLLAB2.ogg'
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
- beatrice 'ひとつ、そなたに尋ねよう。'
+ beatrice 'I would like to ask you something.'
  show expression "#000" as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v002
@@ -174,12 +174,12 @@ label chara452001_03:
  scene expression "#000"
  show expression 'images/card/Card_452001.png' as bg
  with Dissolve(1.0)
- beatrice '以前、絶望に瀕したはずのそなたは\n「世界」を超えることで\nそこに希望を見出したと申していたな。'
- beatrice 'だが、結果としてそなたはさらなる悲劇を\n目の当たりにした……。ひょっとすると、\n進む先には地獄しかないやもしれぬ。'
- beatrice 'それでも、そなたは前に行くのか？\n最初の絶望で終わっていた方が\n安らかな終焉を迎えていたとしても……？'
- nao '……えぇ、行くわ。\nここまで来たんだから、中途半端に\n引き返すことなんてできない。'
- nao 'それに……どんな形でも「変わる」結果が\n見つかったんだから、うまくいけば\nいい方向に進むことだってあるかもしれない。'
- nao 'その「可能性」の存在を、あたしは\nまだまだ無視したくない。\n……絶望は、いつだってできるわ。'
+ beatrice 'Previously, you said you were on the brink of despair, but were able to find hope after crossing over to that "world".'
+ beatrice "However, as a result of that, you've experienced an even greater level of tragedy... Perhaps at this point, the only way forward is straight into hell."
+ beatrice "And even so, you continue to push forward? Wouldn't it have been more peaceful to have snuffed your life out with that initial despair?"
+ nao "...Yeah, I have to keep going. After coming this far, I can't quit halfway through."
+ nao 'Besides... whichever "different" result that I come upon, by continuing to the end, there is a possibility I can reach one where things went well.'
+ nao 'I will not disregard the existence of that "possibility"... I can\'t ever despair.'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -190,55 +190,55 @@ label chara452001_03:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao 'それに、友達ができちゃったから。'
+ nao "And aside from that, I've made friends."
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice '友達？'
+ beatrice 'Friends?'
  show nao_v002 smile_close at nod_transform,active
  show beatrice_v001 normal at inactive
- nao 'えぇ。年上だけど、あの子たちって\nちょっと頼りないのよ。\nあたしがついててあげなきゃダメね。'
+ nao "Yeah. They're older, but since they're a little unreliable, I need to be there for them."
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao 'だから……あの子たちを置いて\n絶望なんてできないわ。'
+ nao "Because... even they couldn't despair."
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice '…………。'
+ beatrice '............'
  show beatrice_v001 smile_close at active
  show nao_v002 smile at inactive
- beatrice 'やはり、そなたには感謝しなければなるまいな。\n迷い子……いや、「鳳谷菜央」よ。'
+ beatrice 'As expected, I still need to thank you, lost child... no, "Nao Houtani".'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 smile_close at inactive
- nao 'えっ？'
+ nao 'Huh?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice 'くっくっくっ……実に面白き奇縁であったわ。\nいずれまたそなたの村に顔を出すつもりゆえ、\nその時はよろしく頼むぞ。'
+ beatrice '*cackle*cackle*... this truly was a pleasantly strange coincidence. I plan to show my face in your village again in the future, so I hope you receive me well then.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'えぇ、もちろん……って、#p雛見沢#sひなみざわ#rに来るの？\n魔女のあなたが？\u3000どうやって？'
+ nao "Yes, of course... wait, but you're going to Hinamizawa? As a witch? How?"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'そこはほれ、魔法でな。\n……ただ、そこでそなたは妾のことを\n覚えているやもしれぬし、忘れているやもしれぬ。'
+ beatrice 'That would be through magic, of course... but I do not know if you will remember me or forget me at that point.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao '忘れたくはないけど、\nそれはあたしの力じゃどうこうできなさそうね。'
+ nao "I don't want to forget about you, but I don't think there's anything I can do about it."
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'だとしたら、その時は\n「初めまして」からやり直しをさせてくれる？'
+ nao 'If that happens, could we start over with a "Nice to meet you"?'
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice '…………。'
+ beatrice '............'
  show nao_v002 fuan at active
  show beatrice_v001 normal at inactive
- nao 'あ、ダメ？\u3000でもその場合、「初めまして」から\nやり直す以外に選択肢ってあるかしら。'
+ nao 'Ah, it\'s impossible, huh? But in that case, I wonder if there are options other than starting over with "Nice to meet you".'
  show beatrice_v001 smile_close at active
  show nao_v002 fuan at inactive
- beatrice 'いや、ダメではない……そうだな。\nその時は妾も「初めまして」から\nやり直すことにしよう。'
+ beatrice 'No, it\'s not impossible... I get it. When that time comes, let\'s start over with this "nice to meet you".'
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice '……では、また会おう。鳳谷菜央よ――。'
+ beatrice '...Then, until we meet again, Nao Houtani.'
  show nao_v002 odoroki at active
  show beatrice_v001 smile at inactive
- nao 'えぇ……えっ、あっ……わっ！'
+ nao 'Yeah... huh, ah... wah!'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -262,7 +262,7 @@ label chara452001_03:
  camera at screenshake_transform
  pause 0.0
  show miyuki_v002 sinken at active
- miyuki '……ぉ、……菜央、ちょっと菜央！'
+ miyuki '...Uh...... Nao. Hey, Nao!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -275,7 +275,7 @@ label chara452001_03:
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v002 odoroki at active
- nao '……えっ？'
+ nao '...Huh?'
  hide nao_v002
  with Dissolve(0.2)
  show nao_v002 fuan at mei_right
@@ -283,59 +283,59 @@ label chara452001_03:
  with Dissolve(0.5)
  show kazuho_v002 fuan at active
  show nao_v002 fuan at inactive
- kazuho 'どうしたの？\u3000大丈夫？！'
+ kazuho 'What is it? Are you okay?'
  show nao_v002 fuan at active
  show kazuho_v002 fuan at inactive
- nao '美雪……一穂？\n大声を上げて、何かあったの？'
+ nao "Miyuki... Kazuho? You're shouting; what happened?"
  show kazuho_v002 sinken at chara_shake_transform,active
  show nao_v002 fuan at inactive
- kazuho 'な、何かあったって……こっちの台詞だよ！'
+ kazuho "H-hey... that's my line!"
  hide kazuho_v002
  show miyuki_v002 sinken at mei_left
  with Dissolve(0.5)
  show miyuki_v002 sinken at active
  show nao_v002 fuan at inactive
- miyuki '私と一穂がリビングに戻ったら、\n出かけたはずの菜央が台所で\nぼーっとお茶を飲んでるから、驚いて……！'
+ miyuki 'When me and Kazuho got back to the living room, we were surprised to see you, who was supposed to be out of the house, absentmindedly drinking tea in the kitchen...!'
  show nao_v002 fuan at active
  show miyuki_v002 sinken at inactive
- nao 'えっ……あ、そうだったの。'
+ nao 'Ah... I see.'
  show nao_v002 normal_close at active
  show miyuki_v002 sinken at inactive
- nao '（あたし、いつの間に帰ってきたのかしら……）'
+ nao '(When did I come back here...)'
  hide miyuki_v002
  show kazuho_v002 fuan at mei_left
  with Dissolve(0.5)
  show kazuho_v002 fuan at active
  show nao_v002 normal_close at inactive
- kazuho '菜央ちゃん……出かけた先で何かあったの？'
+ kazuho 'Nao-chan... did something happen when you were out?'
  show nao_v002 normal at active
  show kazuho_v002 fuan at inactive
- nao '……ううん。なんでもないわ。\nちょっとぼーっとしてたら、\nいつの間にか日が落ちてただけよ。'
+ nao "...No, it's nothing. I just spaced out, and before I realized it, the sun had set."
  hide kazuho_v002
  show miyuki_v002 fuan at mei_left
  with Dissolve(0.5)
  show miyuki_v002 fuan at active
  show nao_v002 normal at inactive
- miyuki '目が悪くなるから、電気ぐらいつけなよ……\nって、あれ？\u3000このティーカップって誰の？'
+ miyuki "I can't see well, since the lights are off... wh-what? Whose teacup is that?"
  hide nao_v002
  show kazuho_v002 odoroki at mei_right
  with Dissolve(0.5)
  show kazuho_v002 odoroki at active
  show miyuki_v002 fuan at inactive
- kazuho 'もしかしてお客さんが来てたの？'
+ kazuho 'Did a visitor maybe come over?'
  hide miyuki_v002
  hide kazuho_v002
  with Dissolve(0.2)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '……ううん、来てないわ。'
+ nao '...No, no one came.'
  show nao_v002 normal_close at active
- nao '（そう、そのはず……たぶん……）'
+ nao '(Yeah, I expect that... sort of...)'
  show nao_v002 smile at active
- nao 'そうだ、魅音さんから珍しいお茶をもらったのよ。\n２人も飲んでみる？'
+ nao 'Oh, right, I got this rare tea from Mion-san. Do you two want to try drinking it?'
  show nao_v002 smile at active
- nao 'あたし、淹れてあげるわ。\nお菓子はないけど、勘弁してね。'
+ nao "I'll brew you some. Please pardon the lack of sweets."
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -350,13 +350,13 @@ label chara452001_03:
  show beatrice_v001 smile at mei_center
  with Dissolve(0.5)
  show beatrice_v001 smile at active
- beatrice 'しかし、魔女をもてなそうとは変わった娘よ。\nくっくっくっ！'
+ beatrice "But, you've changed, child, looking like you're hosting for a witch. *cackle*cackle*cackle*"
  show beatrice_v001 normal at active
- beatrice '……もし妾が島の外に出ていたら、\nあのような娘と会えたのだろうか。'
+ beatrice '...If I had left the island, I wonder if I could have met a girl like that.'
  show beatrice_v001 smile_close at active
- beatrice 'ふっ。考えても仕方のないことよ。'
+ beatrice "Hm. It's no use thinking about it too much."
  show beatrice_v001 smile at active
- beatrice '……そなたに感謝を。\n短い時間であったが、楽しかったぞ。'
+ beatrice '....Nao, you have my thanks. The time we spent together was short, but it was incredibly fun.'
  show beatrice_v001 smile at active
- beatrice 'そなた越しに見た島外の景色は、\nなかなかに見物であった……。'
+ beatrice 'The scenery outside the island that I saw through your eyes was quite beautiful...'
  return

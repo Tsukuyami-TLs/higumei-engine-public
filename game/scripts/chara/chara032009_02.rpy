@@ -10,76 +10,76 @@ label chara032009_02:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  show beatrice_v001 smile at inactive
- nao 'えっ……？'
+ nao 'Huh...?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice '久しぶりよの、菜央。\nそちらに戻った後も元気そうでなによりだ。'
+ beatrice 'Long time no see, Nao. More than anything, you seem to be in good spirits to have returned there.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao 'あ、あなたは誰……じゃ、なくて！'
+ nao "Wh-who are you... wait, I shouldn't be asking that!"
  show nao_v002 sinken at active
  show beatrice_v001 smile at inactive
- nao 'あたし……あなたのこと、知ってる……？\n黄金の魔女、ベアトリーチェ……？！'
+ nao 'I... I know about you...? The Golden Witch, Beatrice...?!'
  show beatrice_v001 smile at active
  show nao_v002 sinken at inactive
- beatrice 'ほぅ、まだ妾の名前を憶えていたのか。'
+ beatrice 'Hoh, you still remember my name?'
  show nao_v002 fuan at nod_transform,active
  show beatrice_v001 smile at inactive
- nao 'えぇ。むしろ、なんで今まで忘れていたのか\nよくわからないわ。\nあんなに強烈な体験をしたってのに……。'
+ nao 'Yes. Rather, I less understand why I had forgotten your name up until now. You give off an intense personal experience even considering.'
  show beatrice_v001 normal_close at active
  show nao_v002 fuan at inactive
- beatrice '……なるほど。そなたの記憶から、\n妾たちに関することを忘れるように\n魔法がかかっていたというわけか。'
+ beatrice '...I see. Magic was cast on you, wiping all knowledge of you and I from your memory?'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 normal_close at inactive
- nao '……えっ？\u3000じゃあ、あたしの記憶が\n誰かに操作されてるってこと……？'
+ nao '...Huh? So then, my memory is being tampered with by someone...?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice 'そう嫌な顔をするでない。記憶を改変したのは\nそなたに害を与えようとしたのではなく、\nむしろ守るための措置なのだろう。'
+ beatrice "Don't make such a hateful face. The alterations on your memory will not do you any harm; I suppose they are steps taken to protect it instead."
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice '此度のゲームはイレギュラーゆえ、\nゲームマスターはそなたが妾に関係する記憶を\n保持し続けることを良しとしなかったのであろう。'
+ beatrice 'Since the game this time is irregular, the Game Master figured it would be good to continue to hold onto your memories relating to me.'
  show beatrice_v001 futeki_close at active
  show nao_v002 odoroki at inactive
- beatrice 'ふむふむ…妾がここへそなたを招待したことで\nそれは効果が消えたようだ。くっくくくくくくくくくく！'
+ beatrice 'Hmm, yes... from me inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!'
  show nao_v002 normal at active
  show beatrice_v001 futeki_close at inactive
- nao '……。別に、あなたのことを忘れるように\nしてくれなくてもよかったのに。'
+ nao '...Ehh, I kind of wish that it had made me continue to forget about you.'
  show nao_v002 normal_close at active
  show beatrice_v001 futeki_close at inactive
- nao '確かに、ベアトリーチェやヱリカさんとのバトルでは\n色々と頭を悩ませるものだったけど……\nあの程度の出来事であたしは変わらないわ。'
+ nao "Clearly, the battle between Beatrice and Erika-san made my head spin, though... I'm different from that sort of affair."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 normal_close at inactive
- beatrice 'くっくっくっ……言うではないか。\nその臆せぬ態度……ますます気に入ったぞ。'
+ beatrice "*cackle*cackle*cackle*... you don't have to say it. That hesitant behavior... I'm gradually growing an interest in it. "
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
- nao '……ところで、今日ははいったい何の用？\nひょっとして、また推理バトルでも始まるのかしら。'
+ nao '... Anyway, what on earth could you want from me today? Could it be that another logic battle is starting up?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '案ずるな、そう警戒しなくても良い。\n妾がそなたを招待したのはな、少々退屈がすぎたのでな。'
+ beatrice 'Do not fret; such caution is unnecessary. I have invited you as my boredom has gotten slightly out of hand.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '要するに、暇潰しというやつだ。'
+ beatrice 'What I need, is something to kill time.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao '暇潰し……ね。たったそれだけのために\nこんな場所に呼びつけるなんて、\n魔女ってよくわからない存在ね……。'
+ nao 'Killing time... huh? What an incomprehensible existence witches are, calling me up to places like this just for that one reason.'
  show beatrice_v001 futeki at active
  show nao_v002 fuan at inactive
- beatrice 'くっくっくっく、無理もない！\n魔女にとっては退屈とは毒……そなたにとっては\n大したことではなくとも、妾にとっては大事なことなのだ。'
+ beatrice '*cackle*cackle*cackle*, a reasonable thought! Boredom to witches is a poison... you are not just important to me, you are {i}extremely{/i} valuable.'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice 'それはともかくとして……\n菜央よ、妾の用意した物語を観劇する気はないか？'
+ beatrice 'Aside from that... Nao, are you up to spectate a story I have prepared?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao '物語の、観劇……？'
+ nao 'Spectating, a story...?'
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
- beatrice 'うむ。妾はこれまで、六軒島を舞台に\n様々なゲーム盤を用意してきたのだ。\nそれこそ、今回とは違う密室殺人事件というものだがな。'
+ beatrice 'Mhm. Up until now, I have set up numerous stages on Rokkenjima as game boards. This time will for sure be a different locked-room murder incident.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '……くっくくくく。妾のゲームは楽しいぞぉ。\n妾も駒を眺めてるだけじゃなく\nゲーム盤で駒として動くこともある位だ。'
+ beatrice '...*cackle*cackle*cackle*. My games are entertaining. Not only do I observe my pieces, for I can even move them through the gameboard.'
  show nao_v002 odoroki at active
  show beatrice_v001 smile at inactive
- nao '六軒島……？\nその名前、どこかで聞いたような……あっ？！'
+ nao "Rokkenjima...? I've heard that name somewhere... ah-?!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -91,11 +91,11 @@ label chara032009_02:
  show nao_v002 sinaken at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 sinken at active
- nao 'そうだ、思い出したわ……！\n１９８６年の１０月頃、伊豆諸島のひとつで\n謎の爆発事故が起こって……。'
+ nao "That's right, I just remembered...! Around October of 1986, a mysterious explosion occurred on one of the islands in the Izu Archipelago..."
  show nao_v002 sinken at active
- nao '会合でそこを訪れていた、資産家の親族たちの\n多くが命を落としたという小さな島の名が、\n確か「六軒島」……っ……。'
+ nao 'The relatives of a wealthy family had gathered for a meeting on a small island where a massive amount of them lost their lives; the name of it was clearly "Rokkenjima" ... uh...'
  show nao_v002 normal at active
- nao '……なるほど。あの島って、\nそういう因縁のある場所だったのね。'
+ nao "...I see. That island was a certain fateful destination for them, wasn't it?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -109,17 +109,17 @@ label chara032009_02:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao 'それで……あなたの作ったゲーム盤って、\nどうやって遊べばいいのかしら？'
+ nao 'Then... the game board that you made, how would one play on it, I wonder?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'おぉ、それは妾のゲームを楽しむ、という事だな？'
+ beatrice 'Oooh, then I have it you would enjoy my game?'
  show nao_v002 smile at nod_transform,active
  show beatrice_v001 smile at inactive
- nao 'えぇ。あたし、どんなゲームでも好きだから。\n……で、ルールは？\u3000目的は？'
+ nao "Yes. I like games regardless of what they are... So, what are the rules? What's the goal?"
  stop music fadeout 0.5
  show beatrice_v001 futeki at active
  show nao_v002 smile at inactive
- beatrice 'それはだな……ほれっ。'
+ beatrice 'That is, well... look here.'
  play music 'audio/bgm/BGM_EVENT5.ogg'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
@@ -133,7 +133,7 @@ label chara032009_02:
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_230_charge.wav'
  show nao_v002 odoroki at chara_shake_transform,active
- nao 'えっ、ちょっ、なにこの大穴……！\nお、落ち……きゃぁあああああぁああっ！！'
+ nao "Huh-, wai-, what is this huge hole...! I'm, I'm fal-... kyaaaaaaaaaaaa-!!"
  show nao_v002 odoroki
  show nao_v002 odoroki:
   linear 0.5 pos (960,2280)
@@ -148,9 +148,9 @@ label chara032009_02:
  show nao_v014 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v014 odoroki at active
- nao 'きゃぁ……っ、て、えっ？'
+ nao 'Kya... uh, huh?'
  show nao_v014 fuan at active
- nao 'う、浮いてる……？'
+ nao "I'm, I'm floating...?"
  play music 'audio/bgm/BGM_QUEST.ogg'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
@@ -165,43 +165,43 @@ label chara032009_02:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v014 fuan at inactive
- beatrice '今のそなたは、竜王ペンドラゴンの兵士――\nシエスタ姉妹を依り代としている。\n空を飛ぶ程度、赤子の手を捻るより簡単であろう。'
+ beatrice "You currently are a soldier of the Dragon King Pendragon-- as a host for the Chiester Sisters. Even flying through the sky should be as easy as twisting a baby's hand for you now."
  show nao_v014 fuan at active
  show beatrice_v001 smile at inactive
- nao '……ベアトリーチェも、普通に浮いてるわね。\nいったいあなたは、どうやって飛んでるの？'
+ nao '...Even Beatrice is floating normally. Just how are you flying?'
  show beatrice_v001 futeki at active
  show nao_v014 fuan at inactive
- beatrice 'くっくっくっ……妾は魔女だ！\n空を飛ぶことに何の不思議もないわ。'
+ beatrice '*cackle*cackle*cackle*... I am a witch! Something like flying through the sky is nothing strange.'
  show nao_v014 normal at active
  show beatrice_v001 futeki at inactive
- nao '魔女って、箒がなくても飛べたのね……っと！'
+ nao 'So, witches flew even without brooms... hup!'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
  show expression 'images/bg/AdvBg_2220.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_232_landing.wav'
- nao 'とりあえず、お庭には降り立ったけど……\nあたしはこれからどうすればいいの？'
- beatrice '今から、新島で船を待つ\n右代宮戦人のもとへそなたをつれて行く。'
- beatrice 'そこで、その男の背後から、\nこの六軒島で起きる出来事を見届けてもらおう。'
- nao 'なるほど。その「戦人」という男性の目線に立って、\nあなたの作ったゲーム盤上で行動しろってことね。'
- beatrice 'そうだ。なかなか聡い上に素直なのは良いぞ。\n……そして、菜央。そなたが着ているその制服は\n妾が契約を結んでいる武具のもの。'
- nao 'えっ……？'
- beatrice 'そう考えたら、そなたも我の武具になっている…\nというように考えられるとも思わないか？'
- nao 'そんなことを言われるなら、脱ぎたいわね…'
- beatrice 'くっくくくく、冗談冗談。\nほれほれ、これよりゲームが始まるぞ。'
- nao 'えっ……？ あ、あたしはどうすればいいの？'
- beatrice '何もせずとも良い。\n準備ができたところで向かう先は戦人の後ろだ。'
- beatrice '戦人と妾の戦いを特等席で楽しめるぞぉ。'
- nao 'ゲームを遊ぶんじゃないの？\nどっちかというと、他人がプレイしてるのを\nただ後ろで見てるだけ……？'
- beatrice 'これは妾と戦人のゲームゆえ\nそなたを対戦相手として呼んではおらぬ。'
- beatrice 'ただ、いままで観劇していたのは\n奇跡の魔女や絶対の魔女だったからな。\n少し趣向を変えてそなたの感想も聞いてみてたかったのよ。'
- nao '……ゲームだったら、自分で遊んだ方が\n楽しいと思うけどな。'
- beatrice '不服か？'
- nao 'ううん、そういうわけじゃないわ。\n……ただ、あたしは自分で遊ぶ以外の\nゲームの遊び方を知らなかっただけ。'
- nao 'でも、まぁ……そうね。\nそういう楽しみ方があるなら、\n試させてもらおうかしら。'
- beatrice 'くっくっくっ……\n柔軟で素直な思考と姿勢は、ゲームを楽しむ上で\n欠かせぬ要素だ。なかなか悪くないぞ。'
- nao '褒め言葉として受け取っておくわ。\nえっと、この物語の先には普通に人が待っているのよね……っ！'
+ nao 'Alright, I landed down here in the courtyard, but what do I do from here?'
+ beatrice "Now, you wait for the boat from Niijima. You are being taken to Battler Ushiromiya's location."
+ beatrice "There, from that man's shoes, you can witness the events that occurred on Rokkenjima with your own eyes."
+ nao 'I see. In this man "Battler\'s" viewpoint, you can mobilize him on top of the gameboard, right?'
+ beatrice "That's right. Having such sharpness and frankness is key. ...Also, Nao, that uniform that you are wearing is battle furniture that has signed a contract to me."
+ nao 'Huh...?'
+ beatrice "If you consider that, you also become my furniture... it can be considered that way, don't you think?"
+ nao "If it's said like that, it makes me want to take it off..."
+ beatrice '*cackle*cackle*cackle*, I jest, I jest. Now look ahead; the game will begin from here.'
+ nao 'Huh-...? Wh-, what should I do?'
+ beatrice "Anything is fine. Whenever you're ready, step up right behind Battler."
+ beatrice "Enjoy the close-up seat in Battler's fight against me."
+ nao "I'm not playing the game? No matter how you say it, whoever plays is really just watching him through his eyes...?"
+ beatrice "This is Battler's and my game; therefore, you are not the one who can be called my competition."
+ beatrice 'Still, the ones spectating, even up until now, are the Witch of Miracles and the Witch of Certainty. With a little change of plans, I still wanted to hear your thoughts.'
+ nao "...If it's a game, I think me playing myself is more fun."
+ beatrice 'Are you unsatisfied?'
+ nao "Yeah, kind of... It's just, I didn't know of any other way of playing a game than playing it yourself."
+ nao 'But, well... right. If that type of enjoyment exists, then I will have to try it out.'
+ beatrice '*cackle*cackle*cackle*... This open-minded and frank attitude is an irreplaceable element to enjoying the game. Not bad at all.'
+ nao "I'll accept those words of praise. Umm, do people normally wait for the end of the story?"
  show expression "#000" as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v014
@@ -210,9 +210,9 @@ label chara032009_02:
  scene expression "#000"
  show expression 'images/card/Card_032009.png' as bg
  with Dissolve(1.0)
- nao 'えーっと……こほん。'
- nao '鳳谷菜央……魔女ベアトリーチェの、\nゲーム盤を観劇させていただきます。'
- nao 'どうぞ、お手柔らかにお願い致します……。'
+ nao 'Uuum, *ahem*.'
+ nao "Nao Houtani... rightfully spectating the witch Beatrice's game board."
+ nao 'Please, if you would kindly begin...'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -227,11 +227,11 @@ label chara032009_02:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice 'ふ、はっはっはっはっはっは…。\n戦人がいると聞いて挨拶から始めるか！\nなかなかに面白いではないか！'
+ beatrice "Hu, hahahahahahahaha... Once you hear Battler's greeting, it begins! How this is so incredibly entertaining!"
  show beatrice_v001 futeki_close at active
- beatrice 'しかしぎこちないぞ菜央よ。\n真里亞だったら勢いよく飛び込んでおるわ。くっくくくく！'
+ beatrice 'However, you are unrefined, Nao. If you were Maria, you would be flying around with such vigor. *cackle*cackle*cackle*!'
  show beatrice_v001 smile at active
- beatrice 'ほらほらそんな顔をするでない。\n物語はもう始まるぞ。\nせいぜい、振り落とされぬようにな。'
+ beatrice "Oh, look, do not make such a face. The story is already beginning. At best, don't be shaken off. "
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -245,10 +245,10 @@ label chara032009_02:
  with Dissolve(0.5)
  show nao_v014 fuan at active
  show beatrice_v001 smile at inactive
- nao 'ありがと……って、ちょっと待って。\nいったい何から「振り落とされる」って？'
+ nao 'Thank you, w-wait a minute. Just what will I be "shaken off" from?'
  show beatrice_v001 futeki at active
  show nao_v014 fuan at inactive
- beatrice '無論、妾のゲーム盤からだッ！'
+ beatrice 'Of course, from my game boooard!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -263,7 +263,7 @@ label chara032009_02:
  camera at screenshake_transform
  pause 0.0
  show nao_v014 odoroki at active
- nao 'そ、そういう乗り物系だとは\nさすがに聞いてなっ……んきゃぁぁぁあぁっ？！'
+ nao "I-I didn't know there was a type of vehicle like tha-... aaaaaaaaaaat?!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -274,5 +274,5 @@ label chara032009_02:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice 'くっひゃっひゃっひゃっひゃっ！\n琴線に触れる良い叫びだ！\n目一杯楽しんでこいよぉおおおぉぉっっ！！'
+ beatrice "Kuhahhahhahhahha! A great scream that tugs on the heartstrings! Let's enjoy this as much as possibleeeeeeeee!!"
  return

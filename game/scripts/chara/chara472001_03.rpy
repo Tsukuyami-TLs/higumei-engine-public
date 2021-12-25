@@ -10,7 +10,7 @@ label chara472001_03:
  camera at screenshake_transform
  pause 0.0
  show nao_v001 sinken at active
- nao '待って！'
+ nao 'Wait!'
  hide nao_v001
  with Dissolve(0.2)
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
@@ -19,25 +19,25 @@ label chara472001_03:
  with Dissolve(0.5)
  show miyuki_v001 normal at active
  show kazuho_v001 normal at inactive
- miyuki 'ん、どうしたの菜央。'
+ miyuki "Hm? What's up, Nao?"
  show kazuho_v001 normal at active
  show miyuki_v001 normal at inactive
- kazuho 'お昼寝から、目が覚めたの？'
+ kazuho 'Have you woken up from your nap?'
  hide miyuki_v001
  show nao_v001 normal_close at mei_right
  with Dissolve(0.5)
  show nao_v001 normal_close at active
  show kazuho_v001 normal at inactive
- nao 'えぇ……目が覚めたわ。'
+ nao "Yeah... I'm up."
  show kazuho_v001 fuan at active
  show nao_v001 normal_close at inactive
- kazuho 'どうしたの、まだ眠い？'
+ kazuho "What's up? Still sleepy?"
  show nao_v001 fuan at active
  show kazuho_v001 fuan at inactive
- nao 'そうじゃない……けど。\nもう少しだけ、眠っていたかった気がするわ。'
+ nao "I don't think that's it... but I feel like I should have slept just a little more."
  show nao_v001 smile_close at active
  show kazuho_v001 fuan at inactive
- nao 'なんだか、\nとっても楽しい夢を見ていた気がするの。'
+ nao 'I feel like I was having a super fun dream.'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide kazuho_v001
@@ -54,55 +54,55 @@ label chara472001_03:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
- dlanor '法律のために人がいるのではありマセン。\n人のために法律がありマス。'
+ dlanor 'People do not exist for LAW. Law does not exist for PEOPLE.'
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
- dlanor 'ですが、人を守るための法律を悪用し、\n人を傷つける悪人が生まれる場合もありマス。'
+ dlanor 'Nevertheless, there are cases borne from bad people hurting others through abusing the power of laws that protect PEOPLE.'
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
- dlanor '……ルールとは常に、ある一方を守ると同時に、\nもう片方を傷つける刃にもなりえマス。'
+ dlanor '...With rules that are made to protect, there is always someone on the other end who has already weaponized it against someone ELSE.'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'だが、ドラノール卿たちが守り続けていなければ\nミステリー自体が崩壊していたやもしれぬ。'
+ beatrice "But if Lady Dlanor and her followers hadn't continued to protect others, mystery itself as a genre would have likely crumbled apart."
  show dlanor_v001 fuan_close at active
  show beatrice_v001 normal at inactive
- dlanor 'ハイ。……とはいえ、『ノックス十戒』などの\nルールが原因で、ミステリーに窮屈さを覚える人が\nいるのも事実デス。'
+ dlanor 'AGREED... Although it is also true that there are people who have committed "Knox\'s Decalogue" to memory as well as its origin to keep the mystery genre in CHECK.'
  show beatrice_v001 normal_close at active
  show dlanor_v001 fuan_close at inactive
- beatrice 'それも真理だ。しかし、ルールがあるからこそ\nミステリーというものは迷い子本来の時代にも\n存在し続けているとも言える。'
+ beatrice 'This is true. Since there are definite rules to mystery, this must also apply to the mystery of the lost child being displaced from her original time.'
  show beatrice_v001 normal at active
  show dlanor_v001 fuan_close at inactive
- beatrice 'ミステリーが一時的に衰退したとしても、\n消滅することはないだろう。'
+ beatrice 'I suppose it is a mystery that will temporarily wane, but will never completely blow out.'
  show beatrice_v001 smile at active
  show dlanor_v001 fuan_close at inactive
- beatrice '……その証拠に、あの少女はきっと\n目が覚めた後にミステリー小説を手に取る。\nそしてまた、相まみえることが叶うだろう。'
+ beatrice '...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. And then perhaps once more, our union shall be realized.'
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor 'ただ……その時にはここでのことを、\n菜央は忘れているのデハ？'
+ dlanor 'But then... what about Nao forgetting that she had ever been HERE?'
  show beatrice_v001 normal_close at active
  show dlanor_v001 normal at inactive
- beatrice 'あぁ、忘れているだろうな。\nもし思い出したとしても、\n夢を見たで、済ませるやもしれぬ。'
+ beatrice "Ah, I guess she is forgetting each time, huh? And even if she does remember, she'll see it as a dream that has already ended."
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'だが、面白いという感情は\n心の奥底に深く根付く。'
+ beatrice 'Even so, her feelings of amusement will strike at the depths of her heart.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal at inactive
- beatrice '『ノックス十戒』を\n面白いと思ったあの迷い子ならば、\nきっとミステリーに手を伸ばすであろう。'
+ beatrice 'The lost child that found "Knox\'s Decalogue" amusing will surely reach her hands out to mystery.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 smile at inactive
- dlanor 'そうだといいデスネ。\n……では、私も失礼しようと思いマス。'
+ dlanor 'I hope that it does become SO... Now, I think I will again take my LEAVE.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal_close at inactive
- beatrice '迎えにいくのか？'
+ beatrice 'Are you going out to meet her?'
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor 'ハイ。今頃、ゴロゴロと部屋で\n転がり回っていると思いマス。\n……ミス・ベアトリーチェ。'
+ dlanor 'YES. Around now, I think she would be lazing around in her ROOM. ...Miss Beatrice?'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'なんだ？'
+ beatrice 'Yes?'
  show dlanor_v001 smile at active
  show beatrice_v001 normal at inactive
- dlanor 'この残ったクッキー、\n持ち帰っても良いデスカ？'
+ dlanor 'Those leftover COOKIES, may I take them back with ME?'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -131,9 +131,9 @@ label chara472001_03:
  show erika_v001 odoroki_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at active
- erika 'うぅうう、まさか#p雛見沢#sひなみざわ#rに\n我が主とうり二つの別人がいただなんて……！'
+ erika "Uuuuuuu, for there to have been TWO people in Hinamizawa that turned out not to be my master; it can't be...!"
  show erika_v001 odoroki_close at chara_shake_transform,active
- erika 'うぅ、もう二度と間違えません！\nうぅ、うぅぅううぅうぅぅぅっ……！'
+ erika "Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -147,47 +147,47 @@ label chara472001_03:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show erika_v001 odoroki_close at inactive
- dlanor 'ヱリカ卿。'
+ dlanor 'Lady ERIKA.'
  show erika_v001 sinken at active
  show dlanor_v001 normal at inactive
- erika '……ドラノールですか。\nなんですか、我が主からお叱りを受けた私を\n笑いに来たんですか？'
+ erika "...Is that you, Dlanor? What is it? Have you come to laugh at me after I've received my scolding from my master?"
  show dlanor_v001 normal_close at active
  show erika_v001 sinken at inactive
- dlanor 'イイエ。そのようなことはありマセン。'
+ dlanor "Not at ALL. I wouldn't do something like THAT."
  show erika_v001 sinken at active
  show dlanor_v001 normal_close at inactive
- erika 'じゃあなんで……\nって、なんですかそのクッキーは。'
+ erika 'THEN WHY-... oh, what are those cookies there?'
  show dlanor_v001 smile at active
  show erika_v001 sinken at inactive
- dlanor 'いただきものデス。\nよかったら、一緒に食べマショウ。'
+ dlanor "They are for us to HAVE. If you'd like, we can eat them TOGETHER."
  show erika_v001 sinken_close at active
  show dlanor_v001 smile at inactive
- erika '……じゃあ、もらいます。'
+ erika "...Then I'll... have some."
  show erika_v001 normal at active
  show dlanor_v001 smile at inactive
- erika 'ふぅん……悪くありませんね。\nもうすこし甘い方が脳の栄養補給には\n良さそうですが。'
+ erika "Mm... they aren't bad. A little too sweet to be nutritious for my brain, though."
  show dlanor_v001 smile_close at active
  show erika_v001 normal at inactive
- dlanor '口に合ったなら良かったデス。'
+ dlanor "If you think it's tasty, then I'm HAPPY."
  show erika_v001 normal at active
  show dlanor_v001 smile_close at inactive
- erika '……なんだか機嫌が良いですね。\n良いことでもありました？'
+ erika "...You're in a really good mood, huh? Has something nice happened?"
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
- dlanor 'ハイ。新しいミステリーの読者が、\nまたひとり増えたかもしれマセン。'
+ dlanor 'YES. We may have gotten a new mystery READER.'
  show erika_v001 normal at active
  show dlanor_v001 smile at inactive
- erika 'ふぅん？\u3000いいことじゃないですか。\nミステリーの話ができる人が増えるのは、\n私も大歓迎です。'
+ erika "Hmm? Isn't that good. I'll also warmly welcome someone new who is capable of talking about mystery."
  show erika_v001 futeki at active
  show dlanor_v001 smile at inactive
- erika 'ちょっとかじった程度で、わかった気になった\n半端モノの心を叩き折るのが楽しみです……。'
+ erika "Even just dabbling in this idea a little, I'm getting interested, I find. I'm looking forward to ripping this person's heart in half..."
  show dlanor_v001 normal at active
  show erika_v001 futeki at inactive
- dlanor 'そう簡単に折れる相手ではないかも\nしれマセン。'
+ dlanor 'This opponent might not be so easily BREAKABLE.'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
- erika 'へぇ……珍しく自信ありげですね。\nあんたが見込んだそいつと戦うのが楽しみです。'
+ erika "Woah... what ununual confidence. I'm looking forward to this battle with them now since you seem so sure about it."
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
- dlanor 'ハイ。……私も、楽しみデス。'
+ dlanor 'YES. ...I am also looking forward to IT.'
  return

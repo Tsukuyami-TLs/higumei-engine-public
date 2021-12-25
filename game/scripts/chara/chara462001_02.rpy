@@ -8,25 +8,25 @@ label chara462001_02:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'と、やって来たのはいいですけど……\nほんとになーんにもないところですね。'
+ erika "The fact that I've arrived is nice... but there really is nooothing here, huh?"
  show erika_v001 normal at active
- erika '寂れた寒村、ほとんどいない人間。\n景色ぐらいしか取り柄がなさそう……。'
+ erika 'A desolate and run-down village with nearly no one here. Without the scenery, it would have no redeeming qualities...'
  show erika_v001 normal_close at active
- erika '一昔前なら、頭からふけを落とす\n探偵がやって来そうな感じですが、\nさすがに時代が違っていそうですし。'
+ erika 'It makes me feel like a long time ago a detective with dandruff falling from his head would come here, but as I thought, the times seem to have changed.'
  show erika_v001 normal at active
- erika 'せめて連続殺人事件とか怪奇事件とか、\n灰色の脳細胞を刺激してくれるようなことが\n起こったりしないですかねぇ……はーあ。'
+ erika "There aren't any locked-room murders or mysterious incidents around here that would stimulate my withering brain cells, huh... *siiigh*."
  show erika_v001 normal at active
- erika 'しかし……菜央さんはいったい\nどこにいるのでしょう？'
+ erika 'But then... I do wonder where in the world Nao-san is?'
  show erika_v001 normal at active
- erika '推理してみましょう……\n寂れた田舎で子供が集まる場所は限られます。'
+ erika "Let's try to reason this out... We'll restrict it to a place where kids would be gathering in a desolate countryside like this."
  show erika_v001 normal_close at active
- erika '学校……は、時間から考えて下校した後。\n公園……は、この村にあるとは思えませんね。\n予算もなければ遊具の管理すら難しいでしょうし。'
+ erika "School... considering the time, it would be afterschool hours. A park... I don't think this village has one, right? I do suppose it would be difficult even to manage playground equipment without having a budget."
  show erika_v001 normal at active
- erika 'だとしたら、一番可能性の高い場所は\n遊び場の代わりとなる……神社。'
+ erika 'With that in mind, the place with the highest possibility would be the substitute for a playground... the shrine.'
  show erika_v001 normal at active
- erika 'よしんばいなかったとしても、この寒村。\n子どもの数はそう多くないはず。'
+ erika "And if they aren't there, this village is deserted. I don't anticipate the number of kids here to be huge anyway."
  show erika_v001 normal at active
- erika 'となれば、あの小娘の居場所や家を聞き出すのは\n造作もないこと――。'
+ erika "If it comes to that, getting information about where that girl lives and her current location won't be that difficult either--."
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -37,7 +37,7 @@ label chara462001_02:
  pause 0.5
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 smile at active
- erika 'ただ村を一瞥しただけで、\n古戸ヱリカはこの程度の推理が可能です。\nいかがですか、皆さん。'
+ erika 'Just from one peek at this village, this level of reasoning is possible for Erika Furudo. What do you think, everyone?'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -47,11 +47,11 @@ label chara462001_02:
    linear 0.5 zoom 1.0
  pause 0.5
  show erika_v001 normal_close at active
- erika '……やはり聴衆がいないと張り合いが\nいまひとつですね。やっぱりドラノールを\n無理やりにでも連れてくればよかったです。'
+ erika "......If there's no audience, the response really will be just as lacking. I guess it would have been nice if I forced Dlanor to come with me."
  show erika_v001 normal at active
- erika 'まぁいいでしょう。\nとりあえず、あの小娘を見つけて\nとっとと引きずり込むことにしますか。'
+ erika 'Well, whatever. For now, I will find that girl quickly and drag her away.'
  show erika_v001 normal at active
- erika '神社は災害時の避難所を兼ねますから、\n高い場所にあると相場は決まっています。\n……さて、推理の結果を確認しに行くとしますか。'
+ erika 'The shrine also serves as a shelter for when disasters happen, so it must be at a high altitude... Now, shall I go and confirm the result of my reasoning?'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide erika_v001
@@ -63,9 +63,9 @@ label chara462001_02:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'おや、子どもの声がしますね。\nどうやら推理は的中していたようです。\n……まぁ、当然ですが。'
+ erika 'Ah, I can hear the voices of children. It seems somehow my reasoning hit the nail on the head... Well, but of course it would.'
  show erika_v001 normal at active
- erika 'さて、あの小娘の居場所を聞き出すとしましょう。'
+ erika "Now, let us find out where that girl's location is."
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -81,31 +81,31 @@ label chara462001_02:
  with Dissolve(0.5)
  show rika_v002 smile at active
  show kazuho_v002 smile at inactive
- rika 'はい、一穂。沙都子。\nお茶をどうぞなのです。'
+ rika "Okay, Kazuho, Satoko, here's your tea."
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
- kazuho 'ありがとう、梨花ちゃん\n……はぁ、おいしい。'
+ kazuho "Thank you, Rika-chan. ...Wah, it's delicious."
  show rika_v002 smile at active
  show kazuho_v002 smile at inactive
- rika 'ありがとうはこちらの台詞なのです。\nボクの代わりに、一穂がお茶っ葉を\n買ってきてくれて助かったのですよ。'
+ rika '"Thank you" is my line here. Instead of me going, Kazuho went out and bought these tea leaves for us, saving the day.'
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
- kazuho 'この程度のお遣い、お安い御用だよ。\n……けど、神社の清掃をお願いした\n業者さんって、遅いね？'
+ kazuho 'This kind of errand was easy for me... but the contractor they asked to clean the shrine is pretty slow, huh?'
  show rika_v002 fuan at active
  show kazuho_v002 smile at inactive
- rika 'みー。もう来る時間だから\n不在はまずいと思って、一穂に\nお遣いを頼みましたのですが……。'
+ rika 'Meep. He should already be here, so I thought his absence would be bad, and then I had Kazuho run that errand, but...'
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show kazuho_v002 smile at inactive
- satoko 'こんなことになるのでしたら、\n私が用事を終わらせてから買いに行っても、\n全然間に合いましたわね。'
+ satoko 'If it comes to it, I could finish that task plus go shopping and I would still completely make it on time.'
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho 'うーん、きっと前の仕事が\n長引いているんだと思うよ。'
+ kazuho 'Yeahh, I think the former job is being dragged out.'
  show satoko_v002 fuan_close at active
  show kazuho_v002 fuan at inactive
- satoko 'そうかもしれませんが、それなら連絡の\n一本くらいあってもバチが当たらないと\n思いますわ……。'
+ satoko "It might be like that, but in that case, even if we call and complain once, I don't think scolding would do much..."
  hide kazuho_v002
  hide satoko_v002
  with Dissolve(0.2)
@@ -114,52 +114,52 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 normal at active
  show rika_v002 fuan at inactive
- satoko 'でも梨花、どうして一穂さんに\nお遣いをお願いしましたの？'
+ satoko 'But Rika, why did you entrust Kazuho with that task?'
  show rika_v002 smile at active
  show satoko_v002 normal at inactive
- rika 'みー。お茶がなくて困っている時に\nたまたま一穂に電話をもらったのですよ。'
+ rika 'Meep. Whenever I run into trouble with having no tea, I occasionally call Kazuho, like I did this time.'
  hide satoko_v002
  show kazuho_v002 smile at mei_left
  with Dissolve(0.5)
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
- kazuho 'うん。前に梨花ちゃんからもらったりんごで、\n美雪ちゃんがコンポート？\u3000ってお菓子を\n作ったから、お裾分けしようと思ってね。'
+ kazuho 'Yep. Earlier, Rika gave me an apple and Miyuki made me a compote, or some snack like that, so I thought it would be nice to share all of this stuff with everyone.'
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
- kazuho 'それを持ってくるついでに、\nお茶っ葉のお遣いをしてきたんだよ。'
+ kazuho 'With all of this stuff in hand, I took that opportunity to get tea leaves.'
  show rika_v002 smile at active
  show kazuho_v002 smile at inactive
- rika 'コンポートは冷やした方がおいしいそうなので、\n今夜のデザートにいただきましょうなのです。'
+ rika "Compotes are so delicious when they're chilled. Let's enjoy it for dessert tonight!"
  hide rika_v002
  show satoko_v002 smile at mei_right
  with Dissolve(0.5)
  show satoko_v002 smile at active
  show kazuho_v002 smile at inactive
- satoko 'あら、それは楽しみですわね。\n……ですが、美雪さんは？'
+ satoko 'My, that would be fun. ...But where is Miyuki-san?'
  show kazuho_v002 fuan_close at active
  show satoko_v002 smile at inactive
- kazuho '今も鍋につきっきりでコンポートを作ってるよ。\n家の中、全部甘い香りでいっぱいでね……。'
+ kazuho "Even now, she's attentively sitting in front of the pan making the compote. The whole inside of her house is full of sweet scents..."
  show satoko_v002 fuan at active
  show kazuho_v002 fuan_close at inactive
- satoko '羽入さんは今、家でお昼寝しているんでしたっけ？\nもしここにいてその話を聞いたら、美雪さんの家へ\n一目散に駆け出して行きそうですわ～。'
+ satoko "Hanyuu-san is taking a nap at home right now, isn't she? If she were to hear this conversation, she would be breaking into a sprint running to Miyuki's house~."
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho 'う、うん。\n羽入ちゃんだったら好きな匂いだと思うけど……\n私はちょっと、頭が痛くなってきちゃって。'
+ kazuho "Y-yep. If it was Hanyuu-chan, I think she would love those smells... but for me, it's so sickeningly sweet it gives me a headache."
  hide satoko_v002
  show rika_v002 fuan at mei_right
  with Dissolve(0.5)
  show rika_v002 fuan at active
  show kazuho_v002 fuan at inactive
- rika 'みー。匂いは好き嫌いが出やすいのです。'
+ rika 'Meep. You tend to be picky with smells.'
  hide kazuho_v002
  hide rika_v002
  with Dissolve(0.2)
  show kazuho_v002 smile at mei_center
  with Dissolve(0.5)
  show kazuho_v002 smile at active
- kazuho '菜央ちゃんは大丈夫みたいなんだけどね。\nあの匂いの中でも、ぐっすりお昼寝……あれ？'
+ kazuho 'It seems like Nao-chan is okay with it, though. Napping soundly right in the midst of that smell... huh?'
  show kazuho_v002 normal at active
- kazuho 'あの鳥居の下にいる人って……\nもしかして業者さんじゃない？'
+ kazuho "That person there under the torii... isn't that the contractor?"
  hide kazuho_v002
  with Dissolve(0.2)
  show rika_v002 normal at mei_right
@@ -167,10 +167,10 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 odoroki at active
  show rika_v002 normal at inactive
- satoko 'えっ？\nですがあの方、お掃除をする格好には\nとても見えませんが……。'
+ satoko "Huh? But I can't see someone cleaning in those clothes though..."
  show rika_v002 normal at active
  show satoko_v002 odoroki at inactive
- rika 'みー……\nドレスみたいな服を着てるのです。'
+ rika 'Meep... She has on like a dress or something.'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -184,7 +184,7 @@ label chara462001_02:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika 'あ、ぁ、あ、ぁああぁあああああああ……！'
+ erika 'Ah, ah, ah, aaaaaaaahhhhhhhhhhhhhhhhh...!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -196,7 +196,7 @@ label chara462001_02:
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
  show rika_v002 odoroki at active
- rika 'えっ？！'
+ rika 'What?!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -209,7 +209,7 @@ label chara462001_02:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika 'あぁーーーーーーーっ！！'
+ erika 'AAAHHHHHHH---!'
  play audio 'audio/sfx/SE_408_run.wav'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
@@ -222,7 +222,7 @@ label chara462001_02:
  show kazuho_v002 odoroki at mei_center
  with Dissolve(0.5)
  show kazuho_v002 odoroki at chara_shake_transform,active
- kazuho 'こ、こっちに向かって全力ダッシュ？！'
+ kazuho "S-She's dashing over here at full force?!"
  hide kazuho_v002
  with Dissolve(0.2)
  show rika_v002 fuan at mei_right
@@ -230,16 +230,16 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 odoroki at jump_transform,active
  show rika_v002 fuan at inactive
- satoko 'りっ、梨花ぁ！\nあの方って、あなたの知っている人ですの？！'
+ satoko "Ri, Rikaa! Isn't she someone you know?!"
  show rika_v002 fuan at active
  show satoko_v002 odoroki at inactive
- rika 'し、知らない人なのです！'
+ rika "I-I don't know her!"
  hide satoko_v002
  show kazuho_v002 fuan at mei_left
  with Dissolve(0.5)
  show kazuho_v002 fuan at active
  show rika_v002 fuan at inactive
- kazuho 'でもあの人、ミサイルみたいな勢いで\nこっちに向かってくるよ……？！'
+ kazuho 'But that person is sprinting over here like a missile...?!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -254,7 +254,7 @@ label chara462001_02:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika '我が主ぃいいいぃいいいいいぃいいいい！！！'
+ erika 'MYYYYY MAAASTERRRRRRRRRRRRRRRRRRR!!!!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -266,7 +266,7 @@ label chara462001_02:
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
  show rika_v002 odoroki at jump_transform,active
- rika 'みーっ？！'
+ rika 'Me...ep?!'
  hide rika_v002
  with Dissolve(0.2)
  show kazuho_v002 fuan at mei_left
@@ -274,10 +274,10 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 odoroki at chara_shake_transform,active
  show kazuho_v002 fuan at inactive
- satoko 'ふわぁぁぁあぁっっ？\n見知らぬ方が、梨花の足元へ流れるように\nスライディング土下座？！'
+ satoko "Whaaaaaaaaa? This stranger just dropped down by Rika's feet and slid into a kneeling position?!"
  show kazuho_v002 fuan at active
  show satoko_v002 odoroki at inactive
- kazuho 'すごい、芸術的な土下座……！'
+ kazuho 'Wow, such an artistic form...!'
  hide kazuho_v002
  hide satoko_v002
  with Dissolve(0.2)
@@ -286,7 +286,7 @@ label chara462001_02:
  with Dissolve(0.5)
  show erika_v001 odoroki at active
  show rika_v002 fuan at inactive
- erika 'なななな、何故我が主がこのような\n寂れた場所にいらっしゃるのですか？！'
+ erika 'W-w-w-w-why would my master ever be in a run-down place like this?!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -297,7 +297,7 @@ label chara462001_02:
  pause 0.5
  show erika_v001 sinken at active
  show rika_v002 fuan at inactive
- erika 'はっ……！？\nもしや、私がどのような働きを見せるか、\nわざわざ見学にいらっしゃったと……？！'
+ erika 'Ah...!? Had you perhaps went out of your way to investigate what I had been doing here...?!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -308,7 +308,7 @@ label chara462001_02:
  pause 0.5
  show erika_v001 smile at active
  show rika_v002 fuan at inactive
- erika 'あ、ありがとうございます！\nそこまでご期待いただけていたことを\n理解できず、本当に申し訳ございません！！'
+ erika 'Th-thank you so much! For not having reasoned out an expectation of your arrival, I so deeply apologize!!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -319,23 +319,23 @@ label chara462001_02:
  pause 0.5
  show rika_v002 fuan at active
  show erika_v001 smile at inactive
- rika 'あ、あの……。'
+ rika 'U-um...'
  play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  show erika_v001 smile at jump_transform,active
  show rika_v002 fuan at inactive
- erika 'はい、なんでしょうか！'
+ erika 'Yes, what is it?!'
  show rika_v002 fuan at active
  show erika_v001 smile at inactive
- rika 'ど、どちらさまですか？'
+ rika 'Wh-who are you?'
  show erika_v001 odoroki at active
  show rika_v002 fuan at inactive
- erika 'えっ？……我が主、ですよね？'
+ erika 'What? ...You are my master, right?'
  show rika_v002 normal at active
  show erika_v001 odoroki at inactive
- rika '違うのです。'
+ rika 'Not at all.'
  show erika_v001 odoroki at chara_shake_transform,active
  show rika_v002 normal at inactive
- erika 'は？！\u3000い、いや、そんなご冗談を……。'
+ erika 'Huh?! N-no, that sort of joke is...'
  hide rika_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -344,32 +344,32 @@ label chara462001_02:
  with Dissolve(0.5)
  show kazuho_v002 normal at active
  show satoko_v002 fuan at inactive
- kazuho 'ねぇ、梨花ちゃん。もしかしてこの方が\n清掃業者の人……じゃないの？'
+ kazuho "Hey, Rika-chan. Maybe this person... isn't... the cleaner guy?"
  show satoko_v002 fuan at active
  show kazuho_v002 normal at inactive
- satoko '我が主とか、言ってますわよ？'
+ satoko 'She\'s saying "my master" and stuff too?'
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho 'えっと……そ、そういうサービス、とか？'
+ kazuho "Uhh... it's, it's that kind of service?"
  show kazuho_v002 sinken at active
  show satoko_v002 fuan at inactive
- kazuho 'ほ、ほら！\u3000エンジェルモートみたいに\nかわいい制服の店員さんがお客さんを\nご主人様として扱う……みたいな？！'
+ kazuho "Lo-look! Doesn't she look like a waitress from Angel Mort wearing that cute uniform, dealing with customers by calling them master? ...She does, right?!"
  show satoko_v002 fuan at active
  show kazuho_v002 sinken at inactive
- satoko '一穂さん……それ、本気で言っておりますの？'
+ satoko 'Kazuho-san... are you seriously saying that?'
  show kazuho_v002 fuan_close at active
  show kazuho_v002 fuan_close:
   linear 0.5 pos (480,1250)
  show satoko_v002 fuan at inactive
  pause 0.5
- kazuho '……ごめんなさい。\n自分で言っててなんだけど、\nあんまり自信ない……うぅっ。'
+ kazuho "... I'm sorry. I was talking to myself, but I didn't have that much confidence in that... Uuu."
  show kazuho_v002 fuan_close
  show kazuho_v002 fuan_close:
   linear 0.5 pos (480,1200)
  pause 0.5
  show kazuho_v002 sinken at active
  show satoko_v002 fuan at inactive
- kazuho 'け、けど一度、ちゃんと確かめた方が\n良いと思うよ！'
+ kazuho 'Bu-but, I think it would be a good idea to properly check again!'
  hide satoko_v002
  hide kazuho_v002
  with Dissolve(0.2)
@@ -378,13 +378,13 @@ label chara462001_02:
  with Dissolve(0.5)
  show rika_v002 fuan at active
  show erika_v001 smile at inactive
- rika 'みー。ボクも違うとは思いますが、\n一穂の言うことにも一理あるのです……。'
+ rika "Meep. I also think it's a little different, but Kazuho was right in saying that..."
  show rika_v002 normal at active
  show erika_v001 smile at inactive
- rika 'あの……もしかして喜一郎がお願いした、\n清掃業者の方ですか？'
+ rika 'Um... are you maybe the cleaner person that Kiichirou requested for?'
  show erika_v001 sinken at active
  show rika_v002 normal at inactive
- erika '清掃業者？'
+ erika 'Cleaner person?'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -396,15 +396,15 @@ label chara462001_02:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika '…………はっ？！'
+ erika '...Huh?!'
  show erika_v001 smile at active
- erika 'なるほど、そういうことですか。\nこれも我が主の暇潰し。いえ、慈悲！'
+ erika "I see, it's like that? This is also one of my master's time killing games. No, this is mercy!"
  show erika_v001 smile at active
- erika 'つまり不快にさせてしまったリベンジに\nこの古ぼけた神社の掃除ができたら\n少しは見直してやろうという我が主のお心遣い！！'
+ erika 'This is basically revenge for me displeasing her, so if I clean up this timeworn shrine, my master will change her perception of me out of thoughtfulness!!'
  camera at screenshake_transform
  pause 0.0
  show erika_v001 smile at active
- erika 'つまり！\u3000これはある意味ボーナスステージ？！？！'
+ erika "So basically! In this meaning, it's a bonus stage?!?!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -418,10 +418,10 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show kazuho_v002 fuan at inactive
- satoko '……何を言ってるのか、全然わかりませんわ。'
+ satoko "...Whatever you're talking about, I don't get it at all."
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho 'わ、私もわかんない……。'
+ kazuho "I-I don't get it either..."
  hide kazuho_v002
  hide satoko_v002
  with Dissolve(0.2)
@@ -430,22 +430,22 @@ label chara462001_02:
  with Dissolve(0.5)
  show rika_v002 fuan at active
  show erika_v001 smile at inactive
- rika 'みー……。'
+ rika 'Meep...'
  show erika_v001 smile at active
  show rika_v002 fuan at inactive
- erika '大変申し訳ございません！\nではこれより、古戸ヱリカの\n華麗な掃除術をお見せ致しましょう！'
+ erika 'I do humbly apologize for the trouble! So, from here on out, Erika Furudo shall demonstrate to you her magnificent cleaning powers!'
  show erika_v001 smile at jump_transform,active
  show rika_v002 fuan at inactive
- erika 'さて、掃除道具はどちらにありますか？'
+ erika 'Now, where are the cleaning tools?'
  show rika_v002 fuan_close at active
  show erika_v001 smile at inactive
- rika 'みー。てっきり業者の人が専門の掃除道具を\n持ってくると思って……。'
+ rika 'Meep. I certainly thought the contractor guy would have specialized cleaning tools with him...'
  hide erika_v001
  show satoko_v002 fuan at mei_left
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show rika_v002 fuan_close at inactive
- satoko '特に、何も……。'
+ satoko 'And especially not nothing...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -457,9 +457,9 @@ label chara462001_02:
  show erika_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 smile at active
- erika '……はっ！\nふ、ふふふ、なるほど。わかりましたよ。'
+ erika '...Hah! *giggle*, *giggle*giggle*, I see. I get it now.'
  show erika_v001 smile at active
- erika '文字通り舌で舐めるように\n掃除しろと言うことですね！\n了解致しました、我が主！'
+ erika "So, what you're saying is you literally want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -475,10 +475,10 @@ label chara462001_02:
  pause 0.0
  show kazuho_v002 sinken at active
  show rika_v002 fuan at inactive
- kazuho 'ちっ、違うと思います！'
+ kazuho "That's... I don't think that's right."
  show rika_v002 fuan at active
  show kazuho_v002 sinken at inactive
- rika '……むしろ逆に汚いと思うのですよ。'
+ rika "...I think that's actually more dirty."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -490,5 +490,5 @@ label chara462001_02:
  show satoko_v002 fuan at mei_center
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active
- satoko 'い、今すぐ掃除道具を準備しますわ！\nだから、早まらないで下さいまし！\nお願いですからぁぁぁ！'
+ satoko "I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!"
  return

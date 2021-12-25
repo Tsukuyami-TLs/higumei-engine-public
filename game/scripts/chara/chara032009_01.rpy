@@ -17,7 +17,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show rika_v002 smile at active
  show satoko_v002 fuan at inactive
- rika 'Meep~, Satoko. Did you find the book for your book report?'
+ rika 'Meep. Satoko, did you find the book for your book report?'
  show satoko_v002 fuan at active
  show rika_v002 smile at inactive
  satoko "...Well, I don't see it here, but I remember seeing the cover of it around here somewhere."
@@ -47,7 +47,7 @@ label chara032009_01:
  satoko 'Hello, Nao. Are you also here to get a book for your book report?'
  show nao_v002 smile at nod_transform,active
  show satoko_v002 smile at inactive
- nao "Yes. I've heard that has previously served as a screening for a prefecture-sponsored contest, and thought it was interesting."
+ nao "Yes. I've heard that it was previously selected for a prefecture-sponsored contest, so it looked a bit interesting."
  hide satoko_v002
  show rika_v002 odoroki at mei_right
  with Dissolve(0.5)
@@ -56,25 +56,25 @@ label chara032009_01:
  rika 'Meep. Nao must have lots of enthusiasm to aim for something like applying for the prefecture contest.'
  show nao_v002 fuan at active
  show rika_v002 odoroki at inactive
- nao "Well, If I had that level of workmanship it would be nice, it's more so like a goal for me. Actually, as expected, I'm not thinking about applying or anything."
+ nao "Well, If I had that level of workmanship it would be nice. It's more so like a goal for me. I'm not actually thinking about applying or anything."
  show rika_v002 smile at active
  show nao_v002 fuan at inactive
  rika "It's not really like that. I think that with Nao's usual strength, it would become a fair fight."
  show nao_v002 smile_close at active
  show rika_v002 smile at inactive
- nao 'Ahaha, thanks. But in my case, it seems like I would run into issues with workmanship among other things in the face of "this era\'s" contest application.'
+ nao 'Ahaha, thanks. ...But in my case, it seems like I would run into issues with workmanship among other things in the face of "this era\'s" contest application.'
  show rika_v002 normal at active
  show nao_v002 smile_close at inactive
  rika '...? What did you just say, Nao?'
  show nao_v002 smile at active
  show rika_v002 normal at inactive
- nao "Oh, it's nothing. By the way, didn't you guys come here with Satoko to search for today's assignment book?"
+ nao "Oh, it's nothing. By the way, didn't you guys come here with Satoko to search for your books for the assignment today?"
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show nao_v002 smile at inactive
- satoko "Yes... It's just, the book that I was relying on is apparently still in the middle of being loaned."
+ satoko "Yes... It's just, the book that I was relying on is apparently still being loaned."
  hide satoko_v002
  show hanyuu_v002 fuan at mei_right
  with Dissolve(0.5)
@@ -84,13 +84,13 @@ label chara032009_01:
  play audio 'audio/sfx/SE_556_netdown.wav'
  show nao_v002 odoroki at active
  show hanyuu_v002 fuan at inactive
- nao "... Is that book you're talking about, perhaps, this?"
+ nao "...Is the book you're talking about, perhaps, this?"
  hide hanyuu_v002
  show satoko_v002 odoroki at mei_right
  with Dissolve(0.5)
  show satoko_v002 odoroki at active
  show nao_v002 odoroki at inactive
- satoko "Wh-, yeah, that's it! So it was Nao-san who started borrowing it; that's finally done with..."
+ satoko "Wh-, yeah... that's it! So it was Nao-san who started borrowing it. That's finally done with..."
  show nao_v002 smile at active
  show satoko_v002 odoroki at inactive
  nao "Ah-, but I just finished reading this book, so I needed to return it to the bookshelf, or so I thought. You can have it if you'd like."
@@ -99,13 +99,13 @@ label chara032009_01:
  with Dissolve(0.5)
  show rika_v002 smile at active
  show nao_v002 smile at inactive
- rika 'Is that really okay? Thank youuu, nipah-♪'
+ rika 'Is that really okay? Thank youuu, nipah♪'
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show nao_v002 smile at inactive
- satoko "You saved me, Nao-san...ah, but won't this be an inconvenience somehow since Nao-san will write her book report with this?"
+ satoko "You saved me, Nao-san... ah, but won't this be an inconvenience somehow since Nao-san will write her book report with this?"
  show nao_v002 smile at active
  show satoko_v002 fuan at inactive
  nao "It's alright. Since there was another work that I enjoyed, I'll make it so I write the book report on that."
@@ -114,7 +114,7 @@ label chara032009_01:
  satoko 'Huh... then, why is it that you even read this book?'
  show nao_v002 smile at active
  show satoko_v002 odoroki at inactive
- nao "I thought I'd pick out a book that Kazuho and Miyuki recommended to me. Seems like those two still haven't chosen even so."
+ nao "I thought I'd pick out a book that Kazuho and Miyuki recommended to me. It seems like those two haven't chosen yet even so."
  show nao_v002 fuan at active
  show satoko_v002 odoroki at inactive
  nao "Just... as a reference, going from an underclassman level book to this, I subconsciously got carelessly absorbed in reading it. It's almost one of my favorites that I've finished reading."
@@ -123,7 +123,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show hanyuu_v002 odoroki at active
  show nao_v002 fuan at inactive
- hanyuu "Aah-, if say that, Nao's book mountain at home has a underclassman level assignment books mixed in~!"
+ hanyuu "Aah-, now that you say it, Nao's book mountain at home has a underclassman level assignment books mixed in~!"
  hide hanyuu_v002
  show rika_v002 odoroki at mei_right
  with Dissolve(0.5)
@@ -132,7 +132,7 @@ label chara032009_01:
  rika 'Are you completely done reading that? ...What an amazing reading level. Nao is such a bookworm, inch inch~.'
  show nao_v002 smile at active
  show rika_v002 odoroki at inactive
- nao "A bookworm, wasn't that more like an inchworm? Well anyway... here you go, Satoko."
+ nao "You say bookworm, but wasn't that more like an inchworm? Well anyway... here you go, Satoko."
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
@@ -162,7 +162,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show satoko_v002 fuan at inactive
- nao "Ahaha. I'm sure it's due to you having that negative mindset towards books going into it that leads you to having no interest."
+ nao "Ahaha. I'm sure it's due to you having that negative mindset towards books that leads you to having no interest going into it."
  hide satoko_v002
  show hanyuu_v002 normal at mei_right
  with Dissolve(0.5)
@@ -171,10 +171,10 @@ label chara032009_01:
  hanyuu 'Au au? What does that mean?'
  show nao_v002 smile at active
  show hanyuu_v002 normal at inactive
- nao 'Book reports originally were an assignment made for children, who had no interest in reading normally, so that they could hold a book and enjoy it, it seems.'
+ nao 'Book reports originally were an assignment made for children who had no interest in reading normally, so that they could hold a book and enjoy it, it seems.'
  show nao_v002 fuan_close at active
  show hanyuu_v002 normal at inactive
- nao "But now, teachers and adults consciously chose these assignment books, and now making kids read has incidentally taken shape as something they're forced to do."
+ nao "But now, teachers and adults consciously choose these assignment books, and now making kids read has incidentally taken shape as something they're forced to do."
  show nao_v002 fuan at active
  show hanyuu_v002 normal at inactive
  nao 'Contrarily, I fear the agony that kids feel while reading has multiplied.'
@@ -204,10 +204,10 @@ label chara032009_01:
  rika "Meep, at any rate, Nao is awesome. I hadn't even considered that book reports had that kind of meaning behind them."
  show nao_v002 fuan at active
  show rika_v002 smile at inactive
- nao "Huh? Ah... I'm sorry, I kind of spoke in a conceited way, didn't I? I'm really just repeating what my teacher advisor told me."
+ nao "Huh? Ah... I'm sorry, I kind of spoke in a conceited way, didn't I? I'm really just repeating what my advisor told me."
  show nao_v002 smile at active
  show rika_v002 smile at inactive
- nao '"You become good at what you like doing.", right? Because that teacher said that to me, I started to like reading and such...'
+ nao '"You become good at what you like doing", right? Because that teacher said that to me, I started to like reading and such...'
  show nao_v002 smile at active
  show rika_v002 smile at inactive
  nao 'With book reports, instead of them being assignments, I think of them as being pleasantly fun to write.'
@@ -215,7 +215,7 @@ label chara032009_01:
  hide rika_v002
  with Dissolve(0.2)
  stop music fadeout 0.5
- beatrice '"... Hmm, how interesting. If that is the case, allow me to hear your thoughts on my works."'
+ beatrice '... {i}Hmm, how interesting. If that is the case, allow me to hear your thoughts on my works{/i}.'
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v002 odoroki at active

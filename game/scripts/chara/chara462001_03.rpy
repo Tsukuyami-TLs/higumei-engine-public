@@ -15,7 +15,7 @@ label chara462001_03:
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at active
- erika 'つ、疲れました……。'
+ erika "I'm so... tired..."
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide erika_v001
@@ -30,20 +30,20 @@ label chara462001_03:
  with Dissolve(1.0)
  show rika_v002 fuan at active
  show satoko_v002 sinken at inactive
- rika '……ですから、ボクは古手梨花。\nあなたのご主人様ではないのです。'
+ rika "...I've told you, I'm Rika Furude. I am not your master at all."
  show rika_v002 fuan at active
  show satoko_v002 sinken at inactive
- rika 'ボクはあなたのこと、知らないのですよ。'
+ rika 'I do not know you at all.'
  show satoko_v002 sinken at active
  show rika_v002 fuan at inactive
- satoko 'どれだけそっくりかわかりませんが、\n梨花とあなたのご主人様は全くの別人！\n違う人！\u3000ですわ！'
+ satoko "I don't know to what extent she looks similar to her, but Rika and your master are completely different people! Different! People!"
  hide satoko_v002
  hide rika_v002
  with Dissolve(0.2)
  show kazuho_v002 fuan at mei_center
  with Dissolve(0.5)
  show kazuho_v002 fuan at active
- kazuho 'というより、あなたのご主人様って\nちょっと……話を聞く限り、その……。'
+ kazuho 'Unlike how you say, this master person is a little, as far as I can tell, um...'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -53,7 +53,7 @@ label chara462001_03:
    linear 0.5 zoom 1.3
  pause 0.5
  show kazuho_v002 fuan at active
- kazuho '……優しさって言葉、知ってますか？'
+ kazuho '...does she know the word "kindness"?'
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  hide kazuho_v002
@@ -75,11 +75,11 @@ label chara462001_03:
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at chara_shake_transform,active
- erika 'うぅ、神社をピカピカにする前に\n気づいていれば、こんな余計な\n苦労をしなくてすんだのに……！'
+ erika 'Uu, until she recognizes that this shrine is shining, this excess of work will never have been worth it, though...!'
  show erika_v001 sinken at active
- erika 'しかも、おまけに！\nそう言ったら、あのボサボサ頭の小娘！'
+ erika 'And yet, to make matters worse! Now that you say it, that little girl with the unkempt hair!'
  show erika_v001 sinken at active
- erika '「むしろ終わるまで、どうして\n気がつかなかったんですか？」……とか、\n可哀想なものを見る目で言い放ちやがって！！！'
+ erika 'And her spitting out, "Why hadn\'t you realized until it was over?" ...with those pitying eyes!!!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -89,7 +89,7 @@ label chara462001_03:
    linear 0.5 zoom 1.1
  pause 0.5
  show erika_v001 sinken at jump_transform,active
- erika 'だって仕方ないじゃないですか！\n万が一どころか、億が一、\nいや兆が一、京が一、垓が一！'
+ erika "Because it couldn't have been helped! Not even in ten thousand worlds, nor a hundred million, no, even a trillion, ten quadrillion, one hundred quintillion!!!"
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -99,7 +99,7 @@ label chara462001_03:
    linear 0.5 zoom 1.2
  pause 0.5
  show erika_v001 sinken at active
- erika '砂塵のように小さくとも、\n古手梨花が我が主の可能性があるなら！'
+ erika 'Just like the pebbles in a sandstorm are small, there is a possibility that Rika Furude is my master!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -111,7 +111,7 @@ label chara462001_03:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika '神社を掃除しないわけには\nいかないじゃないですかぁぁあぁあああ！！！'
+ erika "As if I couldn't be cleaning this shrine right nooooooooooooowwwwww!!!!!!!!!!"
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -121,20 +121,20 @@ label chara462001_03:
    linear 0.5 zoom 1.0
  pause 0.5
  show erika_v001 sinken_close at active
- erika 'はー、はー、はー……。'
+ erika 'Hah, hah, hah...'
  show erika_v001 normal_close at active
- erika 'ふー……。'
+ erika 'Hooo...'
  show erika_v001 normal at active
- erika 'しかし、勢い余って飛び出したせいで\n肝心のターゲットの居場所を\n聞くのを忘れてしまいました。'
+ erika 'However, as a result of me getting carried away, I accidentally forgot to hear about where my main target is located.'
  show erika_v001 sinken at active
- erika 'あてどなく歩いても、山！\u3000森！\u3000田んぼ！\n本ッ当にこれだから田舎は嫌なんです！'
+ erika 'No matter where I go, the mountains, the forest, the paddies, all of this is why I really HATE the countryside!'
  show erika_v001 normal_close at active
- erika '……はぁ。というかあの小娘、誰の許可を取って\n我が主に似た姿を取っていたんでしょうか。\n今度会ったら、キッチリと問いたださねば。'
+ erika "...*sigh*. I mean really, whose permission did that little girl get to resemble my master so much? The next time I see her, I'm going to interrogate her on it without fail. "
  show erika_v001 normal at active
- erika 'ん？\u3000あそこを歩いているのは……。'
+ erika 'Hm? The one walking over there is...'
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '…………。'
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '............'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -146,7 +146,7 @@ label chara462001_03:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika 'ちょっと、古手梨花！'
+ erika 'Hold on, Rika Furude!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -155,32 +155,32 @@ label chara462001_03:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '…………？'
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '............?'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
- erika 'なんですか、その不思議そうな間抜け面は。\nあんたのことですよ。'
+ erika 'What is that strange and foolish look? You, over there.'
  show erika_v001 normal_close at active
- erika 'さっきは言い忘れていましたが、\n私は人を探していたんです。'
+ erika 'I forgot to say this earlier, but I am searching for someone.'
  show erika_v001 normal at active
- erika 'とても生意気な小娘で、名前は……ん？'
+ erika "She's a super audacious child, and her name is... hm?"
  stop music fadeout 0.5
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'くす……くすくす。'
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '*giggle*... *giggle*giggle*.'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
- erika 'なにがおかしいんですか、古手梨花。'
+ erika "What's so funny, Rika Furude?"
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show erika_v001 sinken_close at active
- erika 'ん？\u3000……古手梨花？\nフルデ……ん？\u3000んんっ？'
+ erika 'Hm? ... Rika Furude? Fu-ru-de... hm? Hmm?'
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'くすくす……おかしいに決まっているじゃない。'
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'あんたの姿が見えないから、\nわざわざこの姿になって\n様子を見に来てあげたのよ。'
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '恩を仇で返すことにしたってわけね。\nいい趣味じゃない。'
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'あんたにしてはなかなか面白いことするわね。\n悪くない、えぇ悪くないわ……ふふふふ……。'
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "*giggle*giggle*... It's obvious what's so funny."
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "Repaying evil for good, hm? Isn't that a nice hobby."
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -190,7 +190,7 @@ label chara462001_03:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika 'えっ、あっ……えっ？\nま、まさか……？！'
+ erika "Eh, ah... huh? No, it couldn't be...?!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -199,25 +199,25 @@ label chara462001_03:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'ピクニックだって、クマが\n出る場所にいくのは馬鹿がすることだわ？\nそれと同じよ……くすくす。'
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'でも、駄目よ？あんたは私の駒。\n歯向かっていい相手は選ぶべきだったわね……？'
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "Do you know the type of idiot that would picnic out at a place where bears could come out? You're exactly the same... *giggle*giggle*."
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika 'あ、あんた……い、いえ……！\nあなたは、あなた様は……！'
+ erika 'Y-you... n-no... thou, thine highest is...!'
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'あんたがいつまでたっても戻ってこないから、\n何をしているのか暇潰しがてら、この私が\nわざわざ見に来てあげたっていうのに……。'
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'あんたが珍しいことをするから、最初は\n面白かったけど、目に余るわね。別に私はあんたなんて\nいらなくてもいいのよ……くすくすくすくす！！'
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you..."
+ Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "I saw you doing something strange, so I was enjoying myself at first, but it really was too much. I really don't need something like you... *giggle*giggle*giggle*!!!"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika 'あ、あぁっ、ぁっ……\nあなた様は、我が、主……？'
+ erika 'Ah, aaah, ah... thine highness is my... master...?'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '正解よ…………くすくす。\nまぁ、タイムオーバーだけど？'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct......... *giggle*. Well, isn't it game over for you?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -229,7 +229,7 @@ label chara462001_03:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika 'あ、あぁ、…………あ。\nぁぁああーーーーーーーっ？！？！！？！'
+ erika 'Ah, aaah... ah, aaaaAAAAAAAH?!?!!?!??!'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -251,86 +251,86 @@ label chara462001_03:
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile at active
- beatrice 'うーむ、派手にやっておるなぁ。'
+ beatrice "Mhm, this is pretty flashy, isn't it?"
  show beatrice_v001 smile at active
- beatrice 'しかし、ヱリカも\n疲弊から来る思考能力の低下への抵抗力は\n持ち合わせていなかったようであるな。'
+ beatrice "Nonetheless, Erika's thinking power has deteriorated from exhaustion, and does not have the power to resist on hand."
  show beatrice_v001 smile_close at active
- beatrice 'それにしても、貴殿には助けられたな……\nドラノール。'
+ beatrice 'All things considered, she was saved by you... Dlanor.'
  show dlanor_v001 normal at mei_right
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show beatrice_v001 smile_close at inactive
- dlanor 'イイエ。たいしたことはしていマセン。'
+ dlanor 'No, it was not anything CONSIDERABLE.'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice '謙遜だな。そなたからの連絡がなければ、\nあやつの「目標」を先回りして我が領土に避難、\n保護することはできなかった。'
+ beatrice 'How modest. If you hadn\'t gotten involved, her "goal" would have been forestalled as she escaped to my domain, and she wouldn\'t have been able to be protected.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal at inactive
- beatrice '今頃、あの人物は忘れているであろうが……\nなかなか楽しいティーパーティーであったぞ。'
+ beatrice "I've been forgetting who that character is lately, but we had a very fun tea party together."
  show dlanor_v001 normal_close at active
  show beatrice_v001 smile at inactive
- dlanor '一方的に戦うことを強制するのは、\n私の立場からも友の立場からも\n許容できることではありマセン。'
+ dlanor "When forced into a battle out of the blue, whether it's a position I'm in or a friend's, I am not given permission to do ANYTHING."
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor '……お茶、ごちそうさまデシタ。\nミステリー談義も、大変有意義デシタ。'
+ dlanor '...Thank you for the TEA. The conversation about mysteries was also terribly WORTHWHILE.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal at inactive
- beatrice 'うむ。満足のいく時間を過ごせたなら何よりだ。'
+ beatrice "Mhm. What's most important is that you are satisfied with spending your time with me."
  show beatrice_v001 fuan at active
  show dlanor_v001 normal at inactive
- beatrice 'にしても、ヱリカはいいのか？\nなかなかの仕置きを受けているようであるが。'
+ beatrice 'Either way, is Erika going to be okay? She seems to be taking a great beating though.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 fuan at inactive
- dlanor '大丈夫デス。おそらくですが、あのまま\nヱリカが見捨てられることはないデショウ。'
+ dlanor 'It is ALRIGHT. I dare say in that scenario, Erika could not be ABANDONED.'
  show beatrice_v001 futeki at active
  show dlanor_v001 normal_close at inactive
- beatrice 'くっくっくっ……ドラノールもそう思うか。'
+ beatrice '*cackle*cackle*... So you think so too, Dlanor?'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor 'ハイ。きっと戻って来るでショウ。'
+ dlanor 'YES. She will surely RETURN.'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor 'それに、「彼女」との再戦は……\nもっときちんとしたルールの下で\n行われるべきデス。'
+ dlanor 'And the rematch with "her" as well... there should be rules that are more precisely put in to PLACE.'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor 'あの存在の出自がどうであれ、\nミステリーに対して真摯かつ虚心な姿勢で\n臨まれる姿勢、好感が持てマシタ。'
+ dlanor 'Where that being came from I have no idea, but she has an honest and open-minded approach in regards to mystery, which has given me a good impression of HER.'
  show beatrice_v001 futeki at active
  show dlanor_v001 normal at inactive
- beatrice 'くっくっくっ、その通りだ……！'
+ beatrice '*cackle*cackle*, exactly...!'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'それにしても、そなたがヱリカの\n友である理由は何だ？\nやはり、自分にはないものに惹かれると？'
+ beatrice 'That being said, what is your reason for being friends with Erika? Do opposites really attract?'
  show dlanor_v001 normal_close at active
  show beatrice_v001 normal at inactive
- dlanor '……どう取っていただいてもかまいマセン。\nでは、私はこれで失礼しようと思いマス。'
+ dlanor '...What becomes of it does not matter to ME. Now, I believe I will be taking my LEAVE.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal_close at inactive
- beatrice '迎えに行くのか？'
+ beatrice 'Are you going out to meet her?'
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor 'ハイ。どうもこちらの盤に\n戻っているようなノデ。'
+ dlanor 'YES. We will return to this board, one way or ANOTHER.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 smile at inactive
- dlanor '…………。'
+ dlanor '............'
  show beatrice_v001 normal at active
  show dlanor_v001 normal_close at inactive
- beatrice 'ドラノール？\u3000いかがしたか？'
+ beatrice 'Dlanor? How was your time here?'
  show dlanor_v001 smile at active
  show beatrice_v001 normal at inactive
- dlanor '……クッキー、おいしかったデス。\nまた、来てもいいデスカ？'
+ dlanor '...The cookies were DELICIOUS. Can I come AGAIN?'
  show beatrice_v001 smile at active
  show dlanor_v001 smile at inactive
- beatrice '無論。次はヱリカを誘って来るがいい。'
+ beatrice 'Of course. Next time, it will be nice if we invite Erika.'
  show beatrice_v001 smile at active
  show dlanor_v001 smile at inactive
- beatrice '妾はいつだって、そなたらを歓迎しようぞ。'
+ beatrice 'I will always welcome you here.'
  show dlanor_v001 smile_close at active
  show beatrice_v001 smile at inactive
- dlanor '……感謝します、ベアトリーチェ。'
+ dlanor '...I am thankful, BEATRICE.'
  hide dlanor_v001
  with Dissolve(0.6)
  show beatrice_v001 smile_close at active
- beatrice 'ふっ。ヱリカが恵まれているとは\nとても言えぬが……。'
+ beatrice 'Hm, I cannot really say that Erika is blessed, but...'
  show beatrice_v001 smile at active
- beatrice 'どうやら、友には恵まれたようであるな。'
+ beatrice 'Either way, it seems she was blessed with a friend.'
  return

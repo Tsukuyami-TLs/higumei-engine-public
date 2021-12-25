@@ -9,10 +9,10 @@ label chara452001_02:
  with Dissolve(0.5)
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
- beatrice 'そろそろ時間のようだ。……また会おうぞ、迷い子よ。'
+ beatrice 'It seems like our time is up. ...We will meet again, lost child.'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 normal_close at inactive
- nao 'えっ……あっ、ちょっと……？！'
+ nao 'Eh... ah, wait...?!!'
  play audio 'audio/sfx/SE_230_charge.wav'
  show expression "#000" as fade with Dissolve(1.0)
  hide beatrice_v001
@@ -23,38 +23,38 @@ label chara452001_02:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
- nao 'っ……ここは、興宮……？'
- nao 'あれ、あたし今まで何をしてたんだっけ……？\nというか、そもそもなんのために興宮に……。'
+ nao '...This is... Okinomiya?'
+ nao 'Huh, what have I been doing? Or rather... why did I go to Okinomiya?'
  show rena_v002 odoroki at mei_left
  with Dissolve(0.5)
  show rena_v002 odoroki at active
- rena '……あれ、菜央ちゃん？'
+ rena '...Huh, Nao-chan?'
  show rena_v002 odoroki at inactive
- nao 'あっ、レナちゃん！'
+ nao 'Ah, Rena-chan!'
  show rena_v002 smile at active
- rena 'あははは、こんにちは。\n……買い物の途中？'
+ rena 'Ahaha, hello. ...Are you in the middle of shopping?'
  show rena_v002 smile at inactive
- nao 'えっ？\u3000あ、う、うん！'
+ nao 'Eh? Ah, y-yeah!'
  show rena_v002 smile at inactive
- nao '（そっか、あたし買い物の途中だったのね）'
+ nao '(I see, I was on my way to go shopping.)'
  show rena_v002 smile at active
- rena 'はぅ……１人で運ぶには荷物多そうだね。\nよかったら少し持ってあげようか？'
+ rena 'Hau... that looks like a lot for one person to carry. Do you want me to hold some of it?'
  show rena_v002 smile at inactive
- nao 'ううん、平気。\n……そっか、あたしは夕飯の食材の\n買い出しに来たんだった。'
+ nao "No, I'm fine. ...Right, I was buying things for dinner."
  show rena_v002 fuan at active
- rena 'そういえば、今日は一穂ちゃんたちと\n一緒じゃないのかな……かな？'
+ rena "Speaking of which... I wonder why you're not with Kazuho and her friends today... today?"
  show rena_v002 fuan at inactive
- nao '一穂は家でお掃除。\n美雪は１人で散歩に出かけてるわ。'
+ nao 'Kazuho is home cleaning, and Miyuki is out walking by herself.'
  show rena_v002 fuan at inactive
- nao '（……うん、ようやく思い出してきた。\nそう、そのはず……だと、思う）'
+ nao '(...Yeah, I finally remember. So that should be right... I think.)'
  show rena_v002 fuan at active
- rena '菜央ちゃん……？'
+ rena 'Nao-chan...?'
  show rena_v002 fuan at inactive
- nao 'あ、ごめんなさい。\nレナちゃんこそ、興宮にはお買い物で？'
+ nao 'Ah, sorry. Rena-chan, did you come to Okonomiya to do shopping?'
  show rena_v002 smile at nod_transform,active
- rena 'うん。ちょうど終わったところだから、\nこれから帰るところなの。\nよかったら菜央ちゃんも、一緒に戻らない？'
+ rena "Yup. I just finished, so now I'm on my way back. Do you want to walk back together, Nao-chan?"
  show rena_v002 smile at inactive
- nao 'うんっ。ありがとう、レナちゃん。'
+ nao 'Yes. Thank you, Rena-chan.'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -65,22 +65,22 @@ label chara452001_02:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
- rena '日の暮れるのが早くなってきたね……。\n暗い道は危ないから、そろそろお買い物は\n誰かと一緒の方がいいと思うよ。'
- nao 'えぇ、そうするわ。'
- rena '……？\u3000どうしたの、菜央ちゃん。'
- nao 'えっ……な、何が？'
- rena 'なんだか、いつもより口数が少ないから……\n何か心配事でもあったりするのかな、かな？'
- nao 'ううん。そういうわけじゃないんだけど……。'
- nao '……。あの、レナちゃん。'
- rena 'なに、菜央ちゃん？'
- nao 'レナちゃんは、どんなに頑張って、頑張っても\nできないって思い知らされて、落ち込んだ時……\nなんて言葉をかけられたら元気になってくれる？'
- rena 'はぅ、えっと……\n菜央ちゃんの近くに、そういう悩みを\n持っている人がいるってことなのかな、かな？'
- nao '……えぇ。'
- nao '（名前と顔は思い出せないけど……そうだ。\nあたしにはそういう人がいる……そんな気がする）'
- rena '美雪ちゃんか、一穂ちゃん……じゃなさそうだね。'
- nao 'うん。あの２人が相手なら、\nどうすればいいかわかってるもの。\nだから、こんなに悩まなかったと思うわ。'
- rena 'でも、大事な人なんだね。'
- nao '大事……そうね。たぶんそうだわ。'
+ rena "The sun is setting soon...roads can be dangerous when it's dark, so I think it's better to go together with someone else."
+ nao "Yeah, let's do that."
+ rena '...? Did something happen, Nao-chan?'
+ nao '"Wh-... what, what do you mean?"'
+ rena "Somehow, you're being more reserved than usual... I wonder if something is bothering you, bothering you?"
+ nao "No, it's not really like that..."
+ nao '...Hey, Rena-chan.'
+ rena 'What is it, Nao-chan?'
+ nao "Rena-chan, when you get depressed because you're reminded of something you'll never be able to do no matter how hard you try, what could somebody say to cheer you up?"
+ rena "Hau, umm... I wonder, does that mean that there's somebody close to Nao-chan that has that problem, that problem?"
+ nao '...Yes.'
+ nao "(I don't remember the name or the face, but... yes. I feel... I know somebody like that.)"
+ rena "And it's not Miyuki-chan or Kazuho-chan..."
+ nao "Yes. I would know what to do if it were those two, so if that was the case, I suppose I wouldn't have been as worried."
+ rena 'But this is an important person to you.'
+ nao "Important... person. That's probably true."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -92,11 +92,11 @@ label chara452001_02:
  show nao_v002 normal at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at active
- nao 'その人、すごくプライドが高くて、\n簡単には本音を見せてくれないんだけど……。'
+ nao "This person is extremely prideful and it's not easy to figure out what they're really feeling..."
  show nao_v002 normal at active
- nao '本当はすごく繊細で、\n傷つきやすい人じゃないかって感じるの。'
+ nao 'I get the impression that they are a very sensitive, delicate person.'
  show nao_v002 fuan at active
- nao 'だから、詳しい事情も理解してないのに\n変に慰めの言葉をかけても傷つけそうで、\nなんて言えばいいのかわかんなくて……。'
+ nao "So, because I don't know her circumstances, I'm afraid I might hurt her if I don't word things correctly, so I don't know what to say."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -110,65 +110,65 @@ label chara452001_02:
  with Dissolve(0.5)
  show rena_v002 normal_close at active
  show nao_v002 fuan at inactive
- rena '…………。'
+ rena '............'
  show nao_v002 fuan at active
  show rena_v002 normal_close at inactive
- nao 'ごめんね、レナちゃん。\nあたしの変な悩みに巻き込んじゃったりして。'
+ nao "Sorry, Rena-chan. I'm dragging you into my weird problems."
  show rena_v002 smile at active
  show nao_v002 fuan at inactive
- rena 'ううん、そんなことないよ。\n……そうだね。レナの意見でよければ\n聞いてくれる？'
+ rena "No, that's not the case. ...I've got it. Would you like to hear Rena's opinion?"
  show nao_v002 smile at nod_transform,active
  show rena_v002 smile at inactive
- nao 'う、うん、もちろんよ！\u3000聞かせて！'
+ nao "O-of course! I'm listening!"
  show rena_v002 smile_close at active
  show nao_v002 smile at inactive
- rena 'あはは、ありがとう。\nえっと、そうだね……。'
+ rena 'Ahaha, thanks. Umm, right...'
  show rena_v002 smile at active
  show nao_v002 smile at inactive
- rena '確かに慰めたり、励まされたりするのって\n嬉しい時もあるけど……。'
+ rena "While there are times where I'm happy when somebody comforts and encourages me..."
  show rena_v002 smile at active
  show nao_v002 smile at inactive
- rena '自分で立ち上がりたいと頑張っている時に\n励まされたら、その時の気持ち次第では\nその応援が邪魔に感じちゃうこともあるかもね。'
+ rena "Sometimes, when you're trying your best to recover and keep at it, that support may feel like a hindrance depending on your current feelings. "
  show nao_v002 fuan at active
  show rena_v002 smile at inactive
- nao '勉強しようとしてる時に\n勉強しろって言われると、\n逆に反発する……みたいな？'
+ nao "It's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like trying to do the opposite... I think?"
  show rena_v002 smile at nod_transform,active
  show nao_v002 fuan at inactive
- rena 'そうそう、そんな感じ。'
+ rena 'Yeah, in that ballpark.'
  show nao_v002 fuan at active
  show rena_v002 smile at inactive
- nao 'だとしたら、どうしたらいいのかしら……。'
+ nao "If that's the case, I wonder what I can do..."
  show rena_v002 smile_close at active
  show nao_v002 fuan at inactive
- rena '……別に、立ち上がらせようと考えなくても\nいいと思うよ。'
+ rena "...I don't think you need to think about getting them fully recovered."
  show nao_v002 odoroki at active
  show rena_v002 smile_close at inactive
- nao '……どういうこと？'
+ nao '...What do you mean?'
  show rena_v002 smile at active
  show nao_v002 odoroki at inactive
- rena '立ち上がるための力じゃなくて、\n立ち上がるための力が出るように、\n明るく楽しい気分になれるよう協力する……。'
+ rena 'Whether or not you have the ability to stand up on your own, putting on a bright and fun aura can help...'
  show rena_v002 smile at active
  show nao_v002 odoroki at inactive
- rena 'なんて、どうかな？\u3000かな？'
+ rena 'What do you think, you think?'
  show nao_v002 fuan at active
  show rena_v002 smile at inactive
- nao 'ごめんなさい、レナちゃん。\nその説明だと、ちょっと想像しにくくて……\nよかったら具体例を教えてくれる？'
+ nao "I'm sorry Rena-chan, but I'm having trouble picturing what you're saying... could you give me an example?"
  show rena_v002 smile at active
  show nao_v002 fuan at inactive
- rena 'うーん、そうだね……。\n勉強のやる気を出そうとした人に、\nお菓子を差し入れする、なんてどうかな？\u3000かな？'
+ rena 'Okay, right... Say there was someone who seemed like they were really into their studies, and you brought them sweets as refreshments. How about that, about that?'
  show nao_v002 normal at active
  show rena_v002 smile at inactive
- nao '……差し入れ。'
+ nao '...Bringing refreshments.'
  show rena_v002 smile at active
  show nao_v002 normal at inactive
- rena 'その人が好きなものって、知ってる？'
+ rena 'Do you know what this person likes?'
  show nao_v002 smile at nod_transform,active
  show rena_v002 smile at inactive
- nao 'えぇ、わかるわ。\nそっか、差し入れか……。'
+ nao 'Ah, I understand. I see, bringing her refreshments...'
  show nao_v002 smile at active
  show rena_v002 smile at inactive
- nao 'ありがとう、レナちゃん。\n相手にどう思ってもらえるかわからないけど、\nあたし……やってみるわ。'
+ nao "Thanks, Rena-chan. I don't know what they'll think of it, but... I'll give it a try."
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
- rena 'うんっ、頑張って。\n菜央ちゃんがうまくいくよう、\nレナは応援しているからね……！'
+ rena 'Yup, do your best. Rena will be rooting for you to do well, Nao-chan...!'
  return

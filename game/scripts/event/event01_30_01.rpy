@@ -131,7 +131,7 @@ label event01_30_01:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'Now, I have a question... Why do you think the island is called {rb}Rokkenjima{/rb}{rt}Six House Island{/rt}?'
+ erika 'Now, I have a question... Why do you think the island is called Rokkenjima (Six House Island)?'
  hide erika_v001
  with Dissolve(0.2)
  narrator "...If it's because there were six houses on the island a long time ago , then it'd be too easy."
@@ -199,7 +199,7 @@ label event01_30_01:
  show erika_v001 normal at active
  erika 'Although, that story was something I just made up.'
  show erika_v001 normal at active
- erika '...The truth is that the island used to be called {rb}Akujikushima{/rb}{rt}Evil Appetite Island{/rt} because the souls of anyone who came near would be eaten by evil spirits.'
+ erika '...The truth is that the island used to be called Akujikushima (Evil Appetite Island) because the souls of anyone who came near would be eaten by evil spirits.'
  hide erika_v001
  with Dissolve(0.2)
  narrator '"You sure know your stuff.", interjected the captain.'

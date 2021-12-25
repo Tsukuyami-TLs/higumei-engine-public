@@ -8,65 +8,65 @@ label chara462001_01:
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
  show erika_v001 smile at chara_shake_transform,active
- erika 'あぁっ、ようこそお越しくださいました！\n我が主におかれましては、ご機嫌麗しくっ――。'
+ erika 'Aah, I do offer my humblest welcome! For my master, with a loving spirit, I do---'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '…………。'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") '............'
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at active
- erika '……あ、あの……我が主？\nなんだかとても、お顔の色がよろしくないように\nお見受けいたしましたが……。'
+ erika '... U-um... my master? I do see that the color of your face is quite pale...'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'あら……そう？\n私はとても健康だし、心は深淵の闇のように\n澄み渡っているんだけど……。'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'My... is that so? But I am in good health, and my heart is as clear as the darkness of the depths of the ocean.'
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at active
- erika 'そ……それは、とても重畳に存じますが……\nひょっとしてあの、……怒っておられますか？'
+ erika 'That... that is, I am highly honored to know that, but would it happen that you are, um...... angered? '
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '……怒る？\u3000私が？\u3000あらあら、それは心外ね。\nこの胸のうちで溶岩が煮えくり返るくらいに\n不機嫌になる理由が、まるで思い当たらないんだけれど。'
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'それとも……もしかしてあんたには\n何か心当たりでもあるのかしら？'
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'ああ…あるわよね。私の駒にしながら\n一人だけ敗者なんてみっともない姿を\nさらしてきたんだもの…。'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") '...Angered? Me? My my, how regrettable. I have been displeasured to the point of lava boiling within my chest; nonetheless, that had not come to mind at all.'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'Else... I wonder if it could be that you had something else in mind?'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "Aah... there is, isn't there? Like how my own piece is a shameful loser that has brought public humiliation upon me..."
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika 'ひっ……ひいいいぃぃぃいぃっっ？\nま、まさか先日の、あの小娘との一件を\nお聞き及びになって……？！'
+ erika "Hih... hiiiiiiiiiiiiiiiih??? You, you couldn't have heard of the other day, with that girl...?!"
  show erika_v001 odoroki_close at active
- erika 'い……いやその、あのっ！\nあ、あれは生意気なガキのお遊びに\n軽く付き合ってやっただけと申しますか……！'
+ erika 'N-... no, um, uh! I-I can assure you, that was only a minor playfight with an irrelevant brat...!'
  show erika_v001 sinken at jump_transform,active
- erika 'け、決して負けたわけではありませんッ！\nあのままゲームを続けていれば、私の勝利は\n確実で絶対！\u3000小揺るぎもしませんでしたッ！'
+ erika 'As, as if I could ever lose! If the game would have continued at that rate, my victory would have been absolutely certain! Not once did it shake me!'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'あらそう？\nそれなら待ってあげてもよかったかしらね……\nなんていうとでも思った？'
- Character('????',ctc="ctcArrow", ctc_position="fixed") '一度別の駒に勝って、調子に乗ってんじゃないの。\nあんた私の駒のくせに思い上がるなんて\n情けなくて笑えるわ。'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "Is that so? If that's the case, then I do wonder if it would have been better if you had waited it out instead... have you thought of that?"
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'Once another piece wins, we get off on the wrong track. Your habit of being so conceited as a piece of mine is so pitiful I have to laugh.'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
- erika 'え？\u3000あの、別の駒とは……？'
+ erika 'Huh? Um, what was that about another piece?'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '……話を聞いていないようね？\n私は今、思い上がったかどうか聞いているのだけれど。'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") '...Were you not listening to what I said? Had you or had you not just heard about how conceited you are?'
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika 'いっ、いいえっっ！\nお、思い上がるなど決して、そんな……！！'
+ erika 'Nn-noooo! I-I would never be anything close to conceited, absolutely not...!!'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '……あら、そう。でも、油断したスキをつかれて\n手ひどくしっぺ返しを食らったらしいじゃない。\n『青』でも相手を仕留めきれずに……。'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") '...My, really? But isn\'t it indicative of conceit how you retaliated so poorly, left an opening for yourself out of negligence, and got eaten up? That "blue" couldn\'t even shoot down your opponent...'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika 'んなっ？！\u3000だ、誰がバラし……じゃないっ！\nそのような世迷いし戯言を、あなた様のお耳に\n入れたのはどなたですかっ？！'
+ erika 'N-, AH?! WHO, WHO RATTED ME OU-... I mean! How could word of this nonsense have ever reached your greatness?!'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '説明の必要はないわ。負けるにしても、\nもう少し面白いものが見られるかと思っていたのだけれど…。'
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'あんたにそんな器用な真似が\nできるはずなんてなかったわね……くすくす。'
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'とりあえず、主人である私の顔に\n泥を塗ってくれたご褒美は\nちゃんとしてあげないとね……'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'There is no need for explanation. Loss even so, I thought it was ever so entertaining to have seen, although...'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'I never could have expected you to be a competent mirror of me anyway... *giggle*.'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "In any case, I'll have to properly reward you for dragging your master's face through the mud, right...?"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -76,10 +76,10 @@ label chara462001_01:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika 'お、おおおお、お待ちください我が主っ？\nせめて私の話をお聞き届け下さい！\nそしてご再考を――？！'
+ erika 'P-p-ple-please wait, my master?! At least if you would hear me out this once! And then you can rethink i--?!'
  play audio 'audio/sfx/SE_335_ls_magmafire.wav'
  show erika_v001 odoroki_close at chara_shake_transform,active
- erika '……んぎゃっばぶりぎげらぁん、\nごはへががががぁぁっっ？！'
+ erika '... ngyappabrigigeraan, gohaheegagagaaaaa?!!'
  stop music fadeout 0.5
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
@@ -103,18 +103,18 @@ label chara462001_01:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika 'どぉぉおぉるあぁぁぁのおぉぉぉるぅぅぅっっ！！\nいたら返事しなさい、どらのーーーるぅぅ！！'
+ erika "DDDLLLAAAAANNNNNOOORRRRRRRRR!! YOU'D BETTER RESPOND RIGHT NOW, DLAAAANOOOOORRRRRR!!!!!"
  show dlanor_v001 normal at mei_right
  with Dissolve(1.0)
  show dlanor_v001 normal at active
  show erika_v001 sinken at inactive
- dlanor '……お呼びデスカ、ヱリカ。\n真っ黒な顔で、ドレスが焦げてマス。\nまるで火か何かに炙られたようデス。'
+ dlanor '...You CALLED, Erika? Your face is all black, and your dress is SINGED, almost like a fire or something STARTED.'
  show erika_v001 sinken at active
  show dlanor_v001 normal at inactive
- erika '「ように」じゃなくて、実際に炙られたんです！\n本気で白い灰にされて、地上にばら撒かれるかと\n思いました……！'
+ erika 'It\'s not "almost like"; an actual fire started! It seriously turned everything to white ash, and I thought it was going to spread everywhere...!'
  show dlanor_v001 normal at active
  show erika_v001 sinken at inactive
- dlanor '……山に散ったら、\n春には綺麗な花が咲きマスカ？'
+ dlanor '...If you scatter it in the mountains, will beautiful flowers bloom in SPRING?'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -125,12 +125,12 @@ label chara462001_01:
  pause 0.5
  show erika_v001 smile at active
  show dlanor_v001 normal at inactive
- erika 'えぇ、ばっちりです。その桜の木の下で\n杯を傾けながら、私の推理ショーの\nはじまりはじまり――。'
+ erika 'Yes, absolutely. If I were to sip sake under those sakura trees, the beginning of my logic story would take off fr--'
  camera at screenshake_transform
  pause 0.0
  show erika_v001 fuan at active
  show dlanor_v001 normal at inactive
- erika 'なワケねェえぇええええぇええだらァ\nあああぁアぁああああぁ！！'
+ erika 'LIKE HELLL IT WOUUUUUUUUUUUULDDDDDDD!!!!!!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -141,20 +141,20 @@ label chara462001_01:
  pause 0.5
  show dlanor_v001 smile_close at active
  show erika_v001 fuan at inactive
- dlanor '冗談デス。'
+ dlanor 'It was a JOKE.'
  show erika_v001 sinken at updown_shake_transform,active
  show dlanor_v001 smile_close at inactive
- erika 'はぁ、はぁ、はぁ……ってあなた、\n冗談を言うなんて妙にご機嫌のようですね。\n何かいいことでもあったんですか？'
+ erika "Hahh, hahh, hahh... wait, it's weird for you to be doing something like telling jokes. Has something good happened?"
  show dlanor_v001 normal at active
  show erika_v001 sinken at inactive
- dlanor 'イイエ。特にありマセン……ヱリカは、\nベルンカステル卿にお仕置きされたのデスカ？'
+ dlanor "NO. Nothing in PARTICULAR... Hadn't Lady Bernkastel just punished YOU?"
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 futeki at active
  show dlanor_v001 normal at inactive
- erika 'その通りッ！\nこの私にここまでの罰を与えることができるのは、\n世界で我が主だけに決まっていますッ！'
+ erika 'Exactly that! For me to have been able to receive this punishment here, of course it was done by none other than my master!'
  show dlanor_v001 fuan at active
  show erika_v001 futeki at inactive
- dlanor '……なぜヱリカが誇らしげなのでショウ。'
+ dlanor '...Why is Erika so boastful of this FACT?'
  show expression "#000" as fade with Dissolve(1.0)
  hide erika_v001
  hide dlanor_v001
@@ -163,12 +163,12 @@ label chara462001_01:
  scene expression "#000"
  show expression 'images/card/Card_462001.png' as bg
  with Dissolve(1.0)
- erika 'とにかくっ！\u3000我が主のご不興を少しでも\n鎮めるためにも、ここは第２回戦しかありません！'
- erika '先日はベアトリーチェの誕生日だったから\n華を持たせましたが…'
- erika '別れを惜しんだ友人とはいえ、我が主のために\nあらためて菜央さんには私の優位を見せなければなりません！'
- erika '菜央さんのもとへのルートはベアトリーチェが\n確保していますが、\n幸いヤツらは移動のための準備を整えている真っ最中。'
- erika '今なら邪魔が入る心配もありません……。\nというわけでドラノール、あなたも向かいますよ！'
- erika 'くっくっく……今度こそパーフェクトゲームで、\n探偵としても、ワニャラーとしても徹底的に\n叩き潰してやりますよッ！！'
+ erika 'ANYWAYS! In order to help rid my master of her displeasure, I must absolutely fight a second time!'
+ erika "A few days ago was Beatrice's birthday, so I let them have their fun, but..."
+ erika "Though I have regrettably departed from my friends, for my master's sake, I must once again show Nao-san my superiority over her!"
+ erika 'Beatrice is securing my one-way ticket to Nao-san, and luckily, those people are in the middle of setting up arrangements for traveling there.'
+ erika "If I move now, I will also have no worries of someone getting in my way. In other words, Dlanor, you're coming with me!"
+ erika '*cackle*cackle*... This time for sure will be a perfect game; with me as a detective and as a Wanyanner, I will thoroughly crush her!!!'
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
@@ -179,37 +179,37 @@ label chara462001_01:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  show erika_v001 smile at inactive
- dlanor '――お断りしマス。'
+ dlanor '-- I will DECLINE.'
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
  show dlanor_v001 normal_close at inactive
- erika 'んなっ？\u3000ど、どうしてですか？！'
+ erika 'Huuh? W-why is that?!?'
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
- dlanor '大法院は私的な決闘を認めマセン。\n個人的な鬱憤晴らしに判決を下そうなど、\nミステリーに対する冒涜の極みデス。'
+ dlanor 'The Great Court does not acknowledge me participating in my own DUELS. Venting my personal emotions is to be judged as the highest blasphemy against the mystery GENRE.'
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
- dlanor '前回は、奇跡により生まれたゲーム盤デシタ。\n内容を吟味するため、あなたに同行しただけデス。'
+ dlanor 'The last time this happened, it was on a game board brought to be due to a MIRACLE. So as to carefully inspect its contents, I simply accompanied YOU.'
  show dlanor_v001 fuan_close at active
  show erika_v001 odoroki at inactive
- dlanor '……それに、私は片づけるべき\n仕事が山積みデス。行くのはヱリカ、\nあなたお一人でお願いしマス。'
+ dlanor '...As well as this, I have a huge pile of work I should be FINISHING. I ask that the one going will be you and you ONLY.'
  show erika_v001 sinken at chara_shake_transform,active
  show dlanor_v001 fuan_close at inactive
- erika 'っ……わかりましたよっ！\n友人のあなたなら、私のこの気持ちを\n理解してくれると思っていましたのに……！'
+ erika 'H... Very well! I thought that you would understand my feelings as my friend, though...!'
  show erika_v001 sinken at active
  show dlanor_v001 fuan_close at inactive
- erika 'では、菜央さんの所在を\n我が主にお借りしたこちらのアイテムで……。'
+ erika 'Now, as for the item here, that I have been lent by my master, that will take me to where Nao-san is...'
  show erika_v001 odoroki at active
  show dlanor_v001 fuan_close at inactive
- erika 'あれ？\u3000とっくに自分の盤に\n戻っているはずなのに、いない……？\nいや、見つからない……？'
+ erika "Huh? Even though it was supposed to return to my own game board a while ago, it's gone...? No, I can't find it...?"
  show erika_v001 sinken at active
  show dlanor_v001 fuan_close at inactive
- erika 'これも、『迷い子』であるせいでしょうか。\nはぁ、面倒くさい……こうなったら直接行って、\nこっちの空間に呼びつけるとしましょう。'
+ erika 'I wonder if this is also the fault of the "lost child". Haah, this is so annoying... If it\'s like this, I suppose I\'ll have to go directly and summon it back to this space.'
  hide erika_v001
  with Dissolve(0.6)
  show dlanor_v001 fuan at active
- dlanor '……行かれマシタカ。\nあの感情の大きなブレさえなければ、\nとても優秀な方なのデスガ……。'
+ dlanor "...Is she GONE? If she didn't have those huge jumps in emotion, she would be quite the outstanding character, HOWEVER..."
  show dlanor_v001 fuan_close at active
- dlanor '……。仕方ありマセン。'
+ dlanor "...I guess it can't be HELPED."
  return

@@ -10,55 +10,55 @@ label chara452001_01:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice '遠慮はいらぬ。\nさぁ、そなたも冷めないうちに飲むといい。'
+ beatrice "Don't be shy. Now, drink it before it gets cold."
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao 'あの……えっと、これは……？'
+ nao 'Um... uhh... what is this?'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice 'ん……どうした、紅茶は嫌いか？\nなら、このクッキーはどうだ？\nロノウェが自信作と言っていたぞ。'
+ beatrice "Mm... what's the matter; do you dislike black tea? If so, why not try the cookies? Ronove said he was proud of how they came out."
  show nao_v002 fuan at active
  show beatrice_v001 normal at inactive
- nao 'いや、紅茶は好きだけど\nそういうことじゃなくて……その……。'
+ nao "No, that's not what I meant. I love black tea... But..."
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
- nao '（……。断るのも失礼だから、\n素直にいただいたほうがよさそうね……）'
+ nao '(...refusing would be rude, so I guess I should just try it...)'
  play audio 'audio/sfx/SE_5049_cup.wav'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao 'じゃあ、いただきます……って、\nほわぁ……おいしい……！'
+ nao 'Then, itadakimasu... Mmmmm... wow... delicious...! '
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show nao_v002 smile_blush at jumping_transform,active
  show beatrice_v001 normal at inactive
- nao '香りも上品で素敵だけど、\n渋みが全然なくて少し甘いくらい……♪'
+ nao "The smell is sophisticated and wonderful, there isn't any tartness, and it's just a little sweet...♪"
  show beatrice_v001 smile at active
  show nao_v002 smile_blush at inactive
- beatrice 'そうであろう、そうであろう？\n実は妾も最近この紅茶がお気に入りでなぁ！'
+ beatrice "It's true, it's true. By the way, as of late, the tea has been a personal favorite of mine!"
  show beatrice_v001 smile_close at active
  show nao_v002 smile_blush at inactive
- beatrice 'マイブームと言うやつよ。'
+ beatrice "You could say I'm obsessed with it."
  show nao_v002 fuan at active
  show beatrice_v001 smile_close at inactive
- nao 'あ……でも紅茶ってカフェインが\nコーヒー以上に入ってるはずだから、\n飲みすぎると夜眠れなくなりそう？'
+ nao "Ah... but since black tea is supposed to have more caffeine than coffee, if I drink too much of it, won't I have trouble sleeping?"
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice 'くっくっくっ、まったくニンゲンとは繊細なものだ。'
+ beatrice '*cackle* Humans truly are delicate creatures.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao '（ふふっ。あの推理バトルの時は\n威厳と怖さを兼ね備えたすごい魔女だったけど、\n案外親しみやすいところがあるのかも……かも）'
+ nao "(*giggle*. During that logic battle, she was incredibly dignified and frightening, but she seems to be friendlier than you'd think, maybe... maybe.)"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'あと、この紅茶は茶菓子を合間に食べると\n香りがより引き立つ。\nそこのスコーンなどは、相性的にもおすすめだ。'
+ beatrice 'In addition, the aroma of the tea is improved if you eat tea cakes in between sips. I would recommend those scones and such over there, as they would compliment it well. '
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'あ……ほんとだ。\nそれに、この味わいだったらジャムとかを\n入れてみてもいいかもね。'
+ nao "Ah... that's right. If that's the case, you could perhaps try putting jam or something on it."
  show beatrice_v001 smile at nod_transform,active
  show nao_v002 smile at inactive
- beatrice 'もちろん、ロシアンティにも合うぞ。\n次は試すが良い。'
+ beatrice "Naturally, it's a good match for Russian tea. Perhaps you can try it next."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
- narrator '…………。'
+ narrator '............'
  show expression "#000" as fade with Dissolve(1.0)
  pause 1.0
  hide fade with Dissolve(1.0)
@@ -68,37 +68,37 @@ label chara452001_01:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao '……ところで、ベアトリーチェ。\n今日あたしをここにまた呼び出したのは、\nどういうご用件なの？'
+ nao '...By the way, Beatrice. Why did you call me here today?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'どうも何もない、そなたと茶を飲みたいと思っただけだ。'
+ beatrice 'No reason in particular. I just wanted to drink tea with you.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao '……それだけ？'
+ nao '...Just that?'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice 'それだけだが……何の問題があるというのだ？'
+ beatrice 'Just calling you here for this... is there a problem with that?'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao 'ううん。おいしい紅茶が飲めるのは、\n単純に嬉しいからあたしは嬉しいわ。'
+ nao "No. I'm simply glad to enjoy a delicious cup of tea."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao '（……どうしたのかしら。\nあの魔女ベアトリーチェが、\nただお茶を飲むだけのためにあたしを呼んだ？）'
+ nao '(...I wonder about this. Did the witch Beatrice really call me here just to drink tea with her?)'
  show nao_v002 sinken at active
  show beatrice_v001 normal at inactive
- nao '（ちょっと考えにくいわね。\n何か企んでいるのかも……かも）'
+ nao "(I'm doubtful of that. She might be planning something... maybe.)"
  show beatrice_v001 normal_close at active
  show nao_v002 sinken at inactive
- beatrice '……そなたの考えていること、妾にはわかるぞ。'
+ beatrice "...I know what you're thinking."
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 normal_close at inactive
- nao 'えっ……？'
+ nao 'Huh...?'
  show beatrice_v001 normal at active
  show nao_v002 odoroki at inactive
- beatrice '本来交わることのなかったそなたが\nここに呼ばれ、こうして妾と茶を交わす。\nそれに奇異を感じているのであろう？'
+ beatrice 'You, as someone originally not meant to be here, have been summoned to have tea with me like this. Does this feel strange to you?'
  show nao_v002 normal at nod_transform,active
  show beatrice_v001 normal at inactive
- nao '……えぇ。正直言って身構えてるわ。\nいつあたしの尻子玉を抜こうとしてくるのか、って。'
+ nao "...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. "
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -110,9 +110,9 @@ label chara452001_01:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice 'ぷっ……くっくくははははははっ！\nよりにもよって喩えが尻子玉……とな？！'
+ beatrice 'Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with.....shirikodama!?!'
  show beatrice_v001 futeki_close at active
- beatrice '河童でもあるまいし、妾がそのような真似を\nするはずがなかろうっ！\nくっくくくっくく！'
+ beatrice "I'm not anything like a kappa, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -124,9 +124,9 @@ label chara452001_01:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'しないとは言えないでしょ？\nだってあたし、魔女に詳しくないもの。'
+ nao "How can I know you won't? After all, I don't know very much about witches."
  show nao_v002 normal at active
- nao '尻子玉コレクションを趣味にしてる\n魔女がいるかも知れないじゃない。'
+ nao "It's entirely possible that there is a witch whose hobby is collecting shirikodama. "
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -137,9 +137,9 @@ label chara452001_01:
  show beatrice_v001 futeki_close at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki_close at chara_shake_transform,active
- beatrice 'ひーっひひっひひひひひひひひ！！！\n面白いぞ、実に面白い！'
+ beatrice 'Heehehehehehehehehe!!! Hilarious, truly hilarious! '
  show beatrice_v001 futeki_close at active
- beatrice '妾がこんな小娘にひぃひぃ言わせられるとはな……\nふっふふふふふふ、くーっくっくっく！'
+ beatrice 'I never thought a little girl like you would say that... *giggle*giggle*, *cackle*cackle*cackle*!!'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -151,7 +151,7 @@ label chara452001_01:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '（すごい大爆笑してるわね。\nよっぽどツボだったのかしら？）'
+ nao '(That was a powerful roar of laughter. I think I hit her funny bone?)'
  hide nao_v002
  with Dissolve(0.2)
  show beatrice_v001 smile_close at mei_left
@@ -159,65 +159,65 @@ label chara452001_01:
  with Dissolve(0.5)
  show beatrice_v001 smile_close at active
  show nao_v002 fuan at inactive
- beatrice 'くっくっくっく！くは、ははは……はぁ、ふぅ……ふー。\n笑わせてもらったぞ。\n妾に冗談で返せる度胸、なかなかやるではないか。'
+ beatrice '*cackle*cackle*cackle*! Ha, hahaha... haaah, hoooh... hoo. You got me good. The fact you have the bravery to joke back at me is wonderful.'
  show nao_v002 normal at active
  show beatrice_v001 smile_close at inactive
- nao 'あたしもよ。\nまさか、ここまで笑ってもらえるなんて\nさすがに思わなかったわ。'
+ nao "You got me too. I didn't expect you to laugh that hard."
  show nao_v002 normal at active
  show beatrice_v001 smile_close at inactive
- nao '今思ったことだけど……魔女って感情豊かなのね。'
+ nao 'I just realized... that witches are quite emotional.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '当然であろう。\n魔女も面白ければ笑い、馬鹿にされたなら報復もする。'
+ beatrice "It's only natural. Like humans, witches will laugh if they are amused, and retaliate if they are being ridiculed."
  show beatrice_v001 smile_close at active
  show nao_v002 normal at inactive
- beatrice 'まぁ、そなたが妾に恐怖を求めるというならば\nその期待に応えなくもないがな……くっくっくっ。'
+ beatrice "Though, if you want me to be fearsome, then I can't help but meet that expectation... *cackle*cackle*."
  show nao_v002 fuan at active
  show beatrice_v001 smile_close at inactive
- nao 'それこそ冗談じゃないわ。あたしはまだまだ、\nやりたいこととやるべきことがあるんだから……。\nこんな年で地獄行きだなんてまっぴら御免よ。'
+ nao "No kidding. I still have many things I want and need to do. I apologize, but I don't want to go to hell at this age."
  show beatrice_v001 futeki at active
  show nao_v002 fuan at inactive
- beatrice '……ほぉ？\u3000そのわりに、あの「世界」に\n足を踏み入れた当初は早急なる死と絶望を\n望んでいたようだが……？'
+ beatrice '...Hoh? And yet when you first stepped into that "World", it seemed you quickly wanted to fall into despair and die...?'
  show nao_v002 fuan_close at active
  show beatrice_v001 futeki at inactive
- nao '……そんなことまでお見通しなのね。\nとてもかなわないわ。'
+ nao "...You can see through all that. I'm no match for you."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 fuan_close at inactive
- beatrice 'くっくっくっくっく…。\nまさか互角の勝負ができると思っていたとはな、\n残念、お生憎様だ。'
+ beatrice "*cackle*cackle*cackle*... I think it's unfortunate that we will never be able to compete on equal footing."
  show beatrice_v001 smile at active
  show nao_v002 fuan_close at inactive
- beatrice '妾はそなたが持つ小さな経験や知識なぞ比べるに値しない、\n千年を生きる黄金の魔女よ。'
+ beatrice 'The experience and knowledge you have is nothing compared to mine as a thousand-year-old Golden Witch.'
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao '大丈夫。\nそんなふうに脅さなくても、格の違いくらいは\nわかってるつもりよ。反抗する気なんてないわ。'
+ nao "It's fine. You don't need to intimidate me like that; I know the difference in our rank. I'm not going to oppose you."
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao 'あたしにできなくて、あなたにならできることは\nそれこそ星の数以上でしょうしね。'
+ nao "I'm sure you can reach for far more stars than I can."
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'あぁ……その通りだ。\nだが、妾にも出来ぬことはある。'
+ beatrice 'Ah... yes, that is true. And yet, there are things that even I cannot do.'
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
- beatrice '妾とそなたが出会うという奇縁、\nそれをきっかけに生まれた変化をこうして楽しむのも、\nその歪を理解しているからなのかもしれぬな……。'
+ beatrice 'Perhaps it is from this strange coincidence of us meeting that I can enjoy the changes that it sparked, as well as understand its irregularity...'
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
- nao '……。魔女のベアトリーチェにも、\nできなかったことで悔しかったり\n悲しかったりした思い出があるのね。'
+ nao "...It seems even the witch Beatrice has memories of being frustrated and sad over things she couldn't do."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'ふっ……そなたは本当に、怖いもの知らずというものだ。\n他の魔女だと、その質問ひとつで不敬だと\n即座に首が宙を舞うこともあるのだぞ。'
+ beatrice 'Hmm... you truly are fearless. Other witches would have immediately sent your severed head flying across the room out of disrespect for that single inquiry.'
  show nao_v002 fuan at chara_shake_transform,active
  show beatrice_v001 smile at inactive
- nao '……っ……。'
+ nao '......Wh-...'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice 'そう身を固くするでないぞ。別に怒ったわけではない。\nそもそも妾はそなたの「過去」を知っておる。\n今に至った経緯について賞賛も感じているのだ。'
+ beatrice 'Don\'t be so tense. It\'s not like I\'m angry. I have always been aware of your "past". I commend you for reaching this point.'
  show beatrice_v001 normal_close at active
  show nao_v002 fuan at inactive
- beatrice '生まれてこなければよかった……か。\nそこまでの絶望を味わいながらも\nそなたは這い上がってきた、大したものよ……。'
+ beatrice "Wishing you were never born...huh? And yet, despite feeling all that despair, you wriggled through it. That's quite significant."
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
- nao 'ベアトリーチェ……？'
+ nao 'Beatrice...?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'ふっ……戯言だったな、忘れて良い。\n妾は少々感傷的になっているのかもしれんな。'
+ beatrice 'Hmm... please forget that nonsense. It seems I am getting a little sentimental.'
  return

@@ -5,12 +5,12 @@ label chara032009_03:
  play music 'audio/bgm/BGM_QUEST.ogg'
  show expression 'images/bg/AdvBg_2201.png' as bg
  with Dissolve(1.0)
- nao '（そしてあたしは、ベアトリーチェの\nゲーム盤へ降り立った）'
- nao '（タイトルは、\n『Legend of the golden witch』\n……黄金の魔女の伝説）'
- nao '（あたしはそこで、「右代宮戦人」さんの\n背後霊のように付きまとい、\n彼が見聞きする一部始終を観察させてもらった）'
- nao '（１９８６年１０月４日から、５日までの六軒島を\n彼の目と、耳を借りて……）'
- nao '（肖像画の下に掲げられた謎の碑文。\nそのメッセージになぞらえた密室殺人事件。\n魔女の黄金をめぐる様々な#p思惑#sおもわく#r……そして）'
- nao '（――島に隠された、黄金郷……）'
+ nao "(And so, I landed down on Beatrice's game board.)"
+ nao '(The title is "Ougon no Majo no Densetsu" ...Legend of the Golden Witch.)'
+ nao '(There, I\'ve lurked in "Battler Ushiromiya-san\'s" shadow, having been allowed to spectate what he sees and hears from start to finish.)'
+ nao '(October 4th, 1986: 5 days until I witness and lend my ears to the aftermath of Rokkenjima...)'
+ nao "(There is an epitaph mystery written below the portrait. That message imitates the locked-room murder incidents. There are various prophecies in the text regarding the pursuit of the witch's gold. And then...)"
+ nao "(--the island's hidden Golden Land...)"
  window hide None
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
@@ -23,34 +23,34 @@ label chara032009_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
- nao '……よい、しょっと。'
+ nao '...Alright, there we go.'
  show beatrice_v001 smile at jump_transform,active
  show nao_v002 normal at inactive
- beatrice 'おぉ、終わったか菜央！'
+ beatrice 'Ooh, have you finished, Nao!?'
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao 'えぇ、といっても物語の幕を閉じたのは\n戦人って人だけど……。'
+ nao 'Yes, although the one who closed the curtains on this play was Battler.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao 'ただ、あれは「幕を閉じた」という表現で\n正しいのかしら……？'
+ nao 'But, I wonder if that expression "closed the curtains" is actually correct?'
  show beatrice_v001 smile_close at active
  show nao_v002 fuan at inactive
- beatrice 'くっくっくっ、言いたいことはわかるぞォ。\nあれは要するに「タイムオーバー」……\n時間切れを迎えただけの結末だ。'
+ beatrice '*cackle*cackle*cackle*, I know what you are trying to say. That point when the screen cuts out with "Game Over" when the ending has arrived.'
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice '物語を「終わらせた」と言うよりも、\nむしろ「終わってしまった」というべきであろう。'
+ beatrice 'Instead of saying the story "was caused to end", the saying "has ended incidentally" should be more appropriate.'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice 'それで……妾のゲーム盤、どうであったか？'
+ beatrice 'And thus... how was my game board?'
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
- nao 'そうね。一言で言うなら……。'
+ nao "That's right, if there is one way to express it..."
  show beatrice_v001 normal at active
  show nao_v002 normal_close at inactive
- beatrice '言うなら？'
+ beatrice 'If there is?'
  show nao_v002 sinken at active
  show beatrice_v001 normal at inactive
- nao '……悪趣味ね。'
+ nao "... It's bad taste."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -62,7 +62,7 @@ label chara032009_03:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice 'く、く……くっくっひひひゃひゃっひゃっひゃっ！\nそうかそうか、悪趣味か！'
+ beatrice 'Hm, Hm... *cackle*cackle*cackle*, hyyyaaahahahahaha! Is that so, is that so? Bad taste!?'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -76,46 +76,46 @@ label chara032009_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
- nao 'だって、碑文に沿っての\n連続殺人が趣味の良いものだなんて、\nさすがに言えないと思うわ。'
+ nao "Like really, even if the the epitaph aligning with the locked-room murders {i}was{/i} good taste, I don't think I would even mention it."
  show nao_v002 normal_close at active
  show beatrice_v001 futeki at inactive
- nao 'ただ……センスが悪い、とは言わない。\nだって、悪趣味ってだけじゃないもの。'
+ nao "Well... I don't think I would say the taste itself is bad. Because, it isn't just bad taste."
  show beatrice_v001 normal at active
  show nao_v002 normal_close at inactive
- beatrice '……ん？'
+ beatrice '...Hm?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'あのお話ってどこまでが本当か、それとも嘘か\nわからないもの。だからあちこちに、読み手を\n騙そうという罠がばらまかれてる気がするの。'
+ nao "We don't know how much of that story is real, as well as how much of it is a lie. I feel like this is because there are tricks scattered about here and there to deceive readers."
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice '……ふむ、妾の存在が嘘であると申すか？'
+ beatrice '...Hm, you mean the lie that I exist?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'そうとは思わないわ。\nけどあたしは、戦人さんの目を通して\nあのゲーム盤を観劇した……。'
+ nao "I don't think so. But with me having followed Battler's eyes, spectating the game board..."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'つまり、自分の目じゃない。\n他人の主観やバイアスが入ってることになるわ。'
+ nao "In essence, they aren't my own eyes. Someone else's perspectives and biases also filter in."
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice '自分の目で見なければ、全ての事実を\n真実とは認められず……\nまた魔女の存在も、信じられない……と？'
+ beatrice "If you were to see with your own eyes, all truth would be uncovered. Again, the witch's existence isn't being believed in, so...?"
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao '完全に否定してるわけじゃないわ。\nもしそうなら、今あたしと喋ってるのは\n誰って話になるでしょ。ただ……。'
+ nao 'It\'s not like I\'m completely denying it. If it was that way, I guess it would be a, "who would I be chatting with at this moment", sort of thing. But...'
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
- nao '他人の話を全部鵜呑みにするな。\nその情報が正しいかどうかは、\n自分でしっかり検証してから確かめる……。'
+ nao "It's that taking in all of someone else's story without questioning it that I mean. I should able to check whether or not that information is correct by properly verifying it through my own investigation..."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'そうすることで情報は知識になり、\n教養として自らの糧になる……\nそう、お母さんに教えられたわ。'
+ nao 'Doing that, information becomes knowledge, your eyes become nourished with intelligence... Something that my mom taught me.'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'だから、実際に自分がその場にいて\nこの目で見て、触ったものじゃないと\n判断の材料にはできないと思うのよ。'
+ nao 'So, even if I actually go to that spot myself, I believe that not seeing things with my eyes and not feeling things disables me from making a foundation for my conclusions.'
  show beatrice_v001 fuan at active
  show nao_v002 normal at inactive
- beatrice '……疑りが深いのか思慮が深いのか、\nよくわからぬ娘よ。'
+ beatrice '...Is this with deep doubt or with deep prudence, you ignorant child?'
  show nao_v002 smile at active
  show beatrice_v001 fuan at inactive
- nao 'ごめんなさい、そういう性分なの。\n……けど、悪趣味だけでもないってのも\n正直な感想よ。'
+ nao "I'm sorry, the nature of it is as you say... but me saying it isn't just bad taste is my straightforward opinion."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -127,9 +127,9 @@ label chara032009_03:
  show nao_v002 normal at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at active
- nao 'あの話は、島で起こったかもしれない\n何かの事実の可能性を伝えるため……。'
+ nao 'That story has the purpose of sharing some kind of possibility of a truth of what might have occurred on the island...'
  show nao_v002 normal_close at active
- nao 'ううん、メッセージを伝える\n意図があるような気がするの。'
+ nao "Yeah, I feel like it's intending to give that kind of message."
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -143,31 +143,31 @@ label chara032009_03:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v002 normal_close at inactive
- beatrice '……ほぅ。なぜ、そう思うのだ？'
+ beatrice '...Hoh. Why would you think that?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'あたしはまだ、\n『Legend of the golden witch』の\nテーマを見つけられていないからよ。'
+ nao 'Because I still haven\'t been able to discover the theme of "Legend of the Golden Witch".'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'テーマ？'
+ beatrice 'The theme?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'あたしが今まで読んだお話には、\n何かしらのテーマがあった。\nセンスに合うかどうかは別としてね。'
+ nao "The story that I've read until now had some sort of theme. This is like whether or not its own taste fits in with it, right?"
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'つまり、物語にテーマは必須ってことよね？'
+ nao 'Basically, stories require a theme, right?'
  show nao_v002 fuan_close at active
  show beatrice_v001 normal at inactive
- nao 'でも、テーマが見つけられないってことは\nきっと巧妙に隠されてるってことで……\nそれを見抜けないのはあたしの力不足。'
+ nao "But, being unable to find the theme because it was most likely cleverly hidden well... it's a weakness of mine when it's not easily noticeable."
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao '何度かお話を読み直したら、わかるのかもね。\nあ、それとも続きがあるの？'
+ nao "No matter how many times I read it over to correct myself, I probably understand it, right? Ah, unless there's more to it?"
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
- beatrice '……テーマが隠されていると、なぜ断言できる？'
+ beatrice '... Why can you assert that the theme has been hidden?'
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
- nao 'そりゃ断言できるわよ。'
+ nao 'Because I can.'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -178,7 +178,7 @@ label chara032009_03:
  pause 0.5
  show nao_v002 smile at active
  show beatrice_v001 normal_close at inactive
- nao 'だって、このお話……本当に面白かったもの。'
+ nao 'Like this story... it was really amusing.'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -188,54 +188,54 @@ label chara032009_03:
    linear 0.5 zoom 1.0
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
- beatrice '…………。'
+ beatrice '............'
  show nao_v002 fuan at active
  show beatrice_v001 normal at inactive
- nao 'ベアトリーチェ？'
+ nao 'Beatrice?'
  camera at screenshake_transform
  pause 0.0
  show beatrice_v001 futeki at active
  show nao_v002 fuan at inactive
- beatrice 'くっくっ、……くっくくく！！！\nはははははは！\u3000あひゃはははははははは！！！'
+ beatrice '*cackle*cackle*... *cackle*cackle*cackle*cackle!!! Hahahahahaha! Ahaaahahahahahahahaha!!!'
  show nao_v002 fuan at active
  show beatrice_v001 futeki at inactive
- nao 'えっ……ちょっと、どうしたのよ。\nそんなにあたしの感想、不満だった？\n期待に添えられなかったのは悪かったけど……。'
+ nao "Huh... wait, what happened?! Is my opinion that dissatisfying? My bad that it wasn't up to your expectations, but..."
  show beatrice_v001 smile_close at active
  show nao_v002 fuan at inactive
- beatrice 'いや、そうではない！\u3000そうではない！'
+ beatrice "No, that's not it! That's not it!"
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice 'あの話を読んで、臆面もなく面白いと\n断言したそなたに感服した！'
+ beatrice 'You read that story, and you flat out declared that it was amusing as you had admired it.'
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice 'なるほど！\n巫女を用意し、物語を朗読させるのが\nこれほどに楽しいこととは……！'
+ beatrice 'Now I get it! To think that something like arranging to have a story be read to you by a miko could be this entertaining...!'
  show beatrice_v001 futeki_close at active
  show nao_v002 fuan at inactive
- beatrice '千年の歳を生きてなお、\n新しいものを発見できるとはな……くっくっくっ！！'
+ beatrice 'In all of my 1,000 years of living, discovering something new is just... *cackle*cackle*cackle*!!'
  show nao_v002 fuan at active
  show beatrice_v001 futeki_close at inactive
- nao 'ど、どうも……で、いいのかしら。'
+ nao 'I wonder if a... thank you is right here?'
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice 'ふふ……なかなかに楽しかったぞ、菜央よ。\n機会があれば、また妾の用意したゲーム盤を\n読みに来るがよい。'
+ beatrice "*giggle*... I've had a lot of fun, Nao. If another chance arises, it would be grand if you came again to read another game board I put together."
  show beatrice_v001 smile_close at active
  show nao_v002 fuan at inactive
- beatrice 'そなたならば、大いに歓迎しよう。\n……ただ、これ以上そなたに関わるには、\nあの客人の許可が必要になるみたいだな。'
+ beatrice "If it's you, I would openly welcome you... But alas, you will have to deal with needing permission from that visitor, it seems."
  show nao_v002 normal at active
  show beatrice_v001 smile_close at inactive
- nao '許可……？'
+ nao 'Permission...?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'ふむ……また暴れられぬうちに\nそなたの記憶を消す魔法でもかけるとするか。'
+ beatrice 'Mhm... if he has another fit of rage, he may use magic to wipe your memory.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '案ずるな。\n目が覚めたら、そなたは元の場所に戻っていよう。'
+ beatrice 'But do not fret. If you close your eyes, you will return to your original world.'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 smile at inactive
- nao '……えっ、これで終わりっ？！\n続きを読ませてくれるんじゃないの？！'
+ nao "...Huh, this is the end?! It's not gonna keep going on?!"
  show beatrice_v001 normal_close at active
  show nao_v002 odoroki at inactive
- beatrice 'さあさ、思い出してご覧なさい……。'
+ beatrice 'Come, try to remember...'
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -247,7 +247,7 @@ label chara032009_03:
  show nao_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 sinken at active
- nao 'ちょっと……！'
+ nao 'Wait...!'
  stop music fadeout 0.5
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
@@ -257,7 +257,7 @@ label chara032009_03:
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
  camera at screenshake_transform
  pause 0.0
- nao '続きが気になるじゃないのっっ！！'
+ nao "I'm interested in how it continueeees!!"
  show expression "#000" as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -270,7 +270,7 @@ label chara032009_03:
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
  show rika_v002 odoroki at active
- rika 'えっ？'
+ rika 'Huh?'
  hide rika_v002
  with Dissolve(0.2)
  show hanyuu_v002 odoroki at mei_right
@@ -278,89 +278,89 @@ label chara032009_03:
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show hanyuu_v002 odoroki at inactive
- satoko 'ど、どうしましたの菜央さん。'
+ satoko 'Wh-what happened, Nao-san?'
  show hanyuu_v002 sinken at active
  show satoko_v002 fuan at inactive
- hanyuu 'あぅあぅ、ここは図書館なのです。\n静かにしないとダメなのですよ～！'
+ hanyuu "Au au, this is the library. If you don't be quiet, it could get bad~!"
  hide satoko_v002
  show rika_v002 fuan at mei_left
  with Dissolve(0.5)
  show rika_v002 fuan at active
  show hanyuu_v002 sinken at inactive
- rika '羽入も大声を出しているのですよ。'
+ rika 'Hanyuu is also speaking in a loud voice.'
  show hanyuu_v002 fuan at active
  show rika_v002 fuan at inactive
- hanyuu 'はっ？！\u3000ご、ごめんなさいなのです……。'
+ hanyuu "Huh?! I'm, I'm sorry..."
  hide rika_v002
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show hanyuu_v002 fuan at inactive
- nao 'あ、えっと……あたし、今、寝てた？'
+ nao 'Ah, umm, was I sleeping, just now?'
  hide hanyuu_v002
  show rika_v002 smile at mei_right
  with Dissolve(0.5)
  show rika_v002 smile at active
  show nao_v002 fuan at inactive
- rika 'みー。沙都子に読書感想文の書き方を\n教えて書き上がるのを待っている間、\n菜央はうとうとしていたのですよ。'
+ rika 'Meep. While we were waiting for you to teach Satoko how to improve her writing in her book report, Nao got sleepy.'
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show nao_v002 fuan at inactive
- satoko 'も、申し訳ありませんわ……\n私が時間をかけたせいで、\n菜央さんに退屈をさせてしまって……。'
+ satoko 'My, my apologies... because I took so much time up, Nao-san had gotten bored...'
  show nao_v002 fuan at active
  show satoko_v002 fuan at inactive
- nao 'あ、別に謝ることないと思うけど……。'
+ nao "Ah, I don't think you really have to apologize but..."
  hide satoko_v002
  show hanyuu_v002 normal at mei_right
  with Dissolve(0.5)
  show hanyuu_v002 normal at active
  show nao_v002 fuan at inactive
- hanyuu 'それにしても、続きが気になる……とは\n何のことですか？'
+ hanyuu 'At any rate, "I\'m interested in how it continues"... what was that about?'
  show nao_v002 odoroki at active
  show hanyuu_v002 normal at inactive
- nao 'え？\u3000え、えっと……なんだったかしら。\n夢の中で面白い本を読んでいた気がするんだけど。'
+ nao 'Huh? U-umm... I wonder what that was too? I feel like I was reading an interesting book in the middle of my dream, though.'
  show nao_v002 normal at active
  show hanyuu_v002 normal at inactive
- nao '…………。'
+ nao '............'
  hide hanyuu_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show nao_v002 normal at inactive
- satoko '菜央さん？'
+ satoko 'Nao-san?'
  show nao_v002 normal at active
  show satoko_v002 fuan at inactive
- nao '……ね、沙都子。感想文を書くのに\n時間がかかるんだったら、\nちょっと本を借りてきていいかしら。'
+ nao '...Hey, Satoko. Even if it takes a bit to write a report on my opinion of the text, I would like to check out a book for a bit.'
  show satoko_v002 fuan at active
  show nao_v002 normal at inactive
- satoko '付き合っていただいているのは\nこちらですし、それは結構ですが……\n読みたい本でもありましたの？'
+ satoko "I was the one following along with you, but that's fine... was there a book you would like to read?"
  show nao_v002 smile at nod_transform,active
  show satoko_v002 fuan at inactive
- nao 'えぇ、ミステリーが読みたいと思ってね。'
+ nao 'Yes, I believe I would like to read a mystery.'
  hide satoko_v002
  show hanyuu_v002 odoroki at mei_right
  with Dissolve(0.5)
  show hanyuu_v002 odoroki at active
  show nao_v002 smile at inactive
- hanyuu 'あぅ……ミステリー、ですか？'
+ hanyuu 'Au... Mystery?'
  show nao_v002 smile_close at active
  show hanyuu_v002 odoroki at inactive
- nao 'なんだか急に、ミステリーの勉強を\nしたくなってきちゃったのよ。'
+ nao "All of a sudden for some reason, I've started to want to study the mystery theme."
  show nao_v002 smile at active
  show hanyuu_v002 odoroki at inactive
- nao 'とりあえず、有名なミステリー小説を\nいくつか借りてみようかしら……。'
+ nao "For now, let's see how many famous mystery novels I can check out..."
  hide hanyuu_v002
  show rika_v002 odoroki at mei_right
  with Dissolve(0.5)
  show rika_v002 odoroki at active
  show nao_v002 smile at inactive
- rika 'みー、どういう風の吹き回しですか？'
+ rika 'Meep. Where did this come from?'
  show nao_v002 smile at active
  show rika_v002 odoroki at inactive
- nao 'なんとなく、よ。\nただその方が、夢の続きを見た時に\n楽しめる気がするのよ。'
+ nao 'Just randomly. I have a feeling it would be more enjoyable to see the rest of my dream like this.'
  show nao_v002 smile_close at active
  show rika_v002 odoroki at inactive
- nao '気がするだけだけど、ね。ふふっ。'
+ nao "But it's just a feeling, yeah? *giggle*"
  return

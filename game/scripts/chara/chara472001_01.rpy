@@ -8,110 +8,110 @@ label chara472001_01:
  show nao_v001 odoroki at mei_right
  with Dissolve(0.5)
  show nao_v001 odoroki at jump_transform,active
- nao 'えっ、……こ、ここは……？！'
+ nao 'T... this place is...!?'
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v001 odoroki at inactive
- beatrice '……久しぶりであるな、菜央よ。'
+ beatrice "...It's been a while, Nao."
  show nao_v001 normal at active
  show beatrice_v001 smile at inactive
- nao 'って、あなたは……\n黄金の魔女、ベアトリーチェね……？'
+ nao "Y-you're... the Golden Witch Beatrice...?"
  show beatrice_v001 smile_close at active
  show nao_v001 normal at inactive
- beatrice 'くっくっくっ……会えば記憶が戻るか。\nまだ覚えていたようで、何よりだ。'
+ beatrice "*cackle*... so your memory has returned. I'm glad to see that."
  show nao_v001 fuan at active
  show beatrice_v001 smile_close at inactive
- nao '……むしろ、どうして忘れてたのか\nそっちの方が不思議なくらいよ。'
+ nao "...If anything, I'm curious as to how I forgot about all this."
  show beatrice_v001 smile at active
  show nao_v001 fuan at inactive
- beatrice 'なに、別に不思議なことではない。\n単に魔法で忘れていただけなのだからな。'
+ beatrice "Oh, please, it's nothing particularly strange; your memory was simply erased by magic."
  show nao_v001 normal at active
  show beatrice_v001 smile at inactive
- nao '忘れていた……魔法で……？'
+ nao 'I forgot because... of magic...?'
  show beatrice_v001 normal_close at active
  show nao_v001 normal at inactive
- beatrice 'そう、魔法だ。\n少々乱暴な招待になったな。許せ。'
+ beatrice 'Yes, magic. Me inviting you here has gotten a little out of hand, so please forgive me.'
  show nao_v001 odoroki at active
  show beatrice_v001 normal_close at inactive
- nao '招待って、いったい……えっ？'
+ nao 'You invited... what the... huh?'
  hide beatrice_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v001 odoroki at inactive
- dlanor '……お久し振りデス。'
+ dlanor '...Long time no SEE.'
  show nao_v001 sinken at active
  show dlanor_v001 normal at inactive
- nao 'あなたは……ドラノールさん？\nってことは、またあの変態女もここに……？！'
+ nao "You're... Dlanor? Which means that pervert girl is also here...?!"
  show dlanor_v001 normal_close at active
  show nao_v001 sinken at inactive
- dlanor 'ご安心ヲ。ヱリカはいマセン。\n……むしろ会わせると面倒になりそうなので、\nあなたにはこちらに来ていただきマシタ。'
+ dlanor 'RELAX. Erika is not HERE. Since it would be a hassle if you were to meet, we brought you HERE.'
  show nao_v001 fuan at active
  show dlanor_v001 normal_close at inactive
- nao 'えっと……それって、どういうこと？'
+ nao 'Um... what do you mean by that?'
  hide dlanor_v001
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show beatrice_v001 smile at jumping_transform,active
  show nao_v001 fuan at inactive
- beatrice '細かいことはひとまず置いておくのだ！\nほらほら、お師匠様の入れてくれた紅茶と\nロノウェのクッキーがあるぞぉ！'
+ beatrice "Let's put such trivialities aside! Look here, we have black tea from the Master and cookies from Ronove! "
  show beatrice_v001 smile at active
  show nao_v001 fuan at inactive
- beatrice 'そなたがここで茶を飲んでいるうちに\n問題は解決し、全ては終わっている。'
+ beatrice 'Everything will be fine if you just sit and have some tea.'
  show beatrice_v001 smile_close at active
  show nao_v001 fuan at inactive
- beatrice 'その後で、そなたを元の場所へ返すと\n約束しよう。'
+ beatrice 'After that, I promise to return you to where you came from. '
  show nao_v001 normal at active
  show beatrice_v001 smile_close at inactive
- nao '……。つまり時間まで、ここで\nお茶を飲んでのんびりしてろってこと？'
+ nao '...In other words, I am supposed to quietly drink tea with you until then?'
  show beatrice_v001 smile at active
  show nao_v001 normal at inactive
- beatrice 'そうだ。不満か？'
+ beatrice 'Exactly. Are you displeased?'
  show nao_v001 smile at active
  show beatrice_v001 smile at inactive
- nao 'とんでもない、お茶会は大好きだもの。\nじゃあお言葉に甘えて、ゆっくりと\n過ごさせてもらうわね。'
+ nao "Absolutely not; I love tea parties. So I'll take your offer and leisurely drink with you."
  hide beatrice_v001
  show dlanor_v001 normal_close at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  show nao_v001 smile at inactive
- dlanor 'このクッキー、とても美味しいデス。\n貴方の口にも合うでショウ……。'
+ dlanor "These cookies are extremely TASTY. I'm sure thou will enjoy THEM..."
  show nao_v001 normal at active
  show dlanor_v001 normal_close at inactive
- nao '？\u3000なに、どうしたの？'
+ nao 'Huh? What do you mean?'
  hide dlanor_v001
  show beatrice_v001 smile_close at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile_close at active
  show nao_v001 normal at inactive
- beatrice '……ふむ。どうやらドラノール卿は、\nそなたの敬称を迷っているようだ。'
+ beatrice '...Hm. It seems Lady Dlanor is unsure of which title to call you.'
  show beatrice_v001 normal at active
  show nao_v001 normal at inactive
- beatrice '「ミス」とつけるのが通常の習いではあるが、\nそなたの年齢を考えると逆に侮っているようにも\n聞こえることがあるからな。'
+ beatrice 'She typically will use the title of "miss", but due to your age, that may come off as insulting.'
  show nao_v001 smile at active
  show beatrice_v001 normal at inactive
- nao '別に気にしないんだけど……\nとりあえず、菜央でいいわ。\n……あたしも、ドラノールって呼んでいい？'
+ nao "I don't particuarly mind... for now, just Nao is fine. ...Can I also just call you Dlanor?"
  hide beatrice_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v001 smile at inactive
- dlanor 'ハイ。私はそれで結構デス。\n……では、菜央。\nあなたはベアトリーチェ卿を信用しているのデスカ？'
+ dlanor 'Yes, that is FINE. ...Then, NAO. Do you trust Lady BEATRICE?'
  show nao_v001 smile at nod_transform,active
  show dlanor_v001 normal at inactive
- nao 'えぇ。だってあたしの危ないところを\n助けてくれたんだもの。\n命の恩人を疑う理由なんてないわ。'
+ nao 'Yes. She saved me when I was in danger, and I have no reason to doubt somebody who has saved my life.'
  show nao_v001 smile at active
  show dlanor_v001 normal at inactive
- nao 'あ、このクッキー本当においしい。\nもう１枚、もらってもいい？'
+ nao 'Ah, these cookies are really delicious. May I have another?'
  hide nao_v001
  hide dlanor_v001
  with Dissolve(0.2)
  show beatrice_v001 smile at mei_center
  with Dissolve(0.5)
  show beatrice_v001 smile at active
- beatrice 'うむ、気にせずじゃんじゃん食べるが良い。'
+ beatrice "Mhm, you don't need to worry about that. Just eat them."
  hide beatrice_v001
  with Dissolve(0.2)
  show beatrice_v001 smile at mei_right
@@ -119,60 +119,60 @@ label chara472001_01:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor '……。珍しい光景を見マシタ。\nミス・ベアトリーチェ、随分と寛容デス。\n例の一件を気に留めたのデスカ？'
+ dlanor '...This is a rare SIGHT. Lady Beatrice is being quite GENEROUS. Are you still held up over what happened EARLIER?'
  show beatrice_v001 smile_close at active
  show dlanor_v001 normal at inactive
- beatrice '……僭越な質問ではないか、ドラノール卿。\nこの場において、関係のないことであろうが。'
+ beatrice '...What an arrogant question, Lady Dlanor. That is irrelevant to our current situation.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 smile_close at inactive
- dlanor '確かに……失礼な発言デシタ。\n謝罪しマス。'
+ dlanor 'That was... clearly an impolite REMARK. I APOLOGIZE.'
  hide beatrice_v001
  show nao_v001 normal at mei_right
  with Dissolve(0.5)
  show nao_v001 normal at active
  show dlanor_v001 normal_close at inactive
- nao '……？'
+ nao '...?'
  show dlanor_v001 normal at active
  show nao_v001 normal at inactive
- dlanor '質問を変えまショウ。\n菜央、あなたはミステリーがお好きデスカ？'
+ dlanor 'I will change my QUESTION. Nao, do you like MYSTERIES?'
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
- nao 'ミステリー……\nそれって、読み物のミステリーってこと？'
+ nao 'Mysteries... you mean like mystery novels?'
  show dlanor_v001 normal at nod_transform,active
  show nao_v001 normal at inactive
- dlanor 'ハイ。率直な感想をお聞かせ下サイ。'
+ dlanor 'YES. I would like to hear your honest THOUGHTS.'
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
- nao 'うーん…特に好き嫌いはないかな。\nイギリスの名探偵とか安楽椅子探偵とか、\n有名なやつは一通り読んだしね。'
+ nao "Hm... I don't have a particular favorite. I've read the famous ones, like the great British detective and armchair detective."
  show nao_v001 fuan at active
  show dlanor_v001 normal at inactive
- nao '……と言っても、小学校の図書室にあった\n子供向けに編集されたものばかりだけど。'
+ nao "...Is what I'd say, but it's all from the elementary school library, so it's edited so that kids can read it."
  show dlanor_v001 normal at active
  show nao_v001 fuan at inactive
- dlanor 'では、『ノックスの十戒』……\nこちらの成り立ちについてご存知デスカ？'
+ dlanor 'Then, would you like to know the origin... of the Knox DECALOGUE?'
  show nao_v001 fuan at active
  show dlanor_v001 normal at inactive
- nao 'ノックスの十戒の……成り立ち……？'
+ nao 'The origin... of the Knox Decalogue...?'
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
- nao '『ノックスの十戒』は、前回の推理対決で\nあなたとヱリカが突きつけてきたものよね。\nあれって結局、何のためのものだったの？'
+ nao 'You and Erika used the Knox Decalogue during the last logic battle. In the end, what purpose did that serve?'
  hide dlanor_v001
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v001 normal at inactive
- beatrice '何のため、か……ふむ、初歩的な質問だが\n確かにミステリーを楽しむためには\nその存在意義を知っておくべきであろうな。'
+ beatrice 'What purpose it served... hmm... this is a basic question, but if you wish to enjoy mysteries, you should know its reason for existing. '
  show beatrice_v001 smile at active
  show nao_v001 normal at inactive
- beatrice '喜ぶが良い。ここにいるドラノール卿は\n『ノックスの十戒』についてプロ中のプロだ。'
+ beatrice "You should be pleased. Lady Dlanor is an expert in Knox's Decalogue. "
  show beatrice_v001 smile at active
  show nao_v001 normal at inactive
- beatrice '時間もある、ここはひとつ教えてもらうと良い。'
+ beatrice 'We have the time, so granting her this knowledge alone will be fine.'
  hide nao_v001
  hide beatrice_v001
  with Dissolve(0.2)
  show dlanor_v001 normal_close at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
- dlanor '構いマセン。では……。'
+ dlanor 'I do not MIND. Now THEN...'
  return
