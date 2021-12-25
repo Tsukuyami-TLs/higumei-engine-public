@@ -5,7 +5,7 @@ label chara452001_03:
  show expression 'images/bg/AdvBg_591.png' as bg
  with Dissolve(1.0)
  narrator '――数日後。'
- play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ play music 'audio/bgm/BGM_HOME_COLLAB2.flac'
  nao 'ありがとうございましたーっ！'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
@@ -29,7 +29,7 @@ label chara452001_03:
  nao 'ここって、あの……！\nということは……？'
  hide nao_v002
  with Dissolve(0.2)
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.wav'
+ play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.flac'
  show nao_v002 odoroki at mei_right
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
@@ -162,7 +162,7 @@ label chara452001_03:
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
  beatrice '…………。'
- play music 'audio/bgm/BGM_QUEST8_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST8_COLLAB2.flac'
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
  beatrice 'ひとつ、そなたに尋ねよう。'
@@ -271,7 +271,7 @@ label chara452001_03:
  hide miyuki_v002
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.flac'
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v002 odoroki at active
@@ -344,7 +344,7 @@ label chara452001_03:
  stop sound
  scene expression "#000"
  pause 1.0
- play music 'audio/bgm/BGM_QUEST9_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST9_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_center

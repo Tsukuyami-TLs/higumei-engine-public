@@ -22,7 +22,7 @@ label chara452001_02:
  show expression 'images/bg/AdvBg_287.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST2_COLLAB2.flac'
  nao 'っ……ここは、興宮……？'
  nao 'あれ、あたし今まで何をしてたんだっけ……？\nというか、そもそもなんのために興宮に……。'
  show rena_v002 odoroki at mei_left
@@ -64,7 +64,7 @@ label chara452001_02:
  show expression 'images/bg/AdvBg_1352.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
- play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.flac'
  rena '日の暮れるのが早くなってきたね……。\n暗い道は危ないから、そろそろお買い物は\n誰かと一緒の方がいいと思うよ。'
  nao 'えぇ、そうするわ。'
  rena '……？\u3000どうしたの、菜央ちゃん。'

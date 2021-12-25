@@ -1,7 +1,7 @@
 label event01_30_00:
  show black_background onlayer black
  narrator 'I should have never come to this island.'
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST7_COLLAB2.flac'
  nao 'N... n......'
  nao 'Nooooooooooooooooo!!'
  stop sound
@@ -50,7 +50,7 @@ label event01_30_00:
  window hide None
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ play music 'audio/bgm/BGM_HOME_COLLAB2.flac'
  show expression 'images/bg/AdvBg_541.png' as bg
  with Dissolve(1.0)
  show mion_v002 smile at mei_right
@@ -151,7 +151,7 @@ label event01_30_00:
  stop sound
  scene expression "#000"
  play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
- play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2111.png' as bg
  with Dissolve(1.0)
  show nao_v002 smile at mei_left
@@ -244,7 +244,7 @@ label event01_30_00:
  with Dissolve(0.2)
  narrator "The deck didn't have too many people on it. At first, the atmosphere was bright and fun, but the winds got too chilling, so everyone went inside."
  narrator 'So, sadly, the little children, who would otherwise be bustling around in excitement, are now submerged in a reclusive and depressing atmosphere.  '
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.flac'
  narrator "Oh, look. Just as I say it, there's a melancholic looking girl hanging onto the railing, looking out into the horizon."
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -291,7 +291,7 @@ label event01_30_00:
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
  erika 'Do you have conclusive evidence that I tripped someone on purpose?'
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.flac'
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
  nao 'Conclusive... evidence??'
@@ -518,7 +518,7 @@ label event01_30_00:
  play audio 'audio/sfx/SE_530_walk_one.wav'
  narrator 'With a blatant expression of displeasure, Nao turns her heel and walks off.'
  narrator 'Without even so much as glancing at her back, Erika once again returns her gaze to the horizon.'
- play music 'audio/bgm/BGM_QUEST4_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST4_COLLAB2.flac'
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  pause 2.0

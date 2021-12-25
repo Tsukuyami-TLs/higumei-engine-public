@@ -9,7 +9,7 @@ label chara032009_01:
  call wipeout_routine
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_EVENT1.wav'
+ play music 'audio/bgm/BGM_EVENT1.flac'
  show expression 'images/bg/AdvBg_351.png' as bg
  call wipein_routine
  show satoko_v002 fuan at mei_right

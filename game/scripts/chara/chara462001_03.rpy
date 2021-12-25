@@ -9,7 +9,7 @@ label chara462001_03:
  call wipeout_routine
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST5_COLLAB2.flac'
  show expression 'images/bg/AdvBg_782.png' as bg
  call wipein_routine
  show erika_v001 sinken_close at mei_center
@@ -172,7 +172,7 @@ label chara462001_03:
  with Dissolve(0.5)
  show erika_v001 sinken at active
  erika 'なにがおかしいんですか、古手梨花。'
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.flac'
  show erika_v001 sinken_close at active
  erika 'ん？\u3000……古手梨花？\nフルデ……ん？\u3000んんっ？'
  hide erika_v001
@@ -245,7 +245,7 @@ label chara462001_03:
   parallel:
    linear 0.5 zoom 1.0
  pause 0.5
- play music 'audio/bgm/BGM_QUEST11_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST11_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_left

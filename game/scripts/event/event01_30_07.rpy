@@ -2,7 +2,7 @@ label event01_30_07:
  show black_background onlayer black
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST2_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
  narrator 'We returned to the guesthouse, where lunch was being served in the hall.'
@@ -151,7 +151,7 @@ label event01_30_07:
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST4_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST4_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2350.png' as bg
  with Dissolve(1.0)
  show erika_v001 normal at mei_left
@@ -330,7 +330,7 @@ label event01_30_07:
  pause 2.0
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2361.png' as bg
  with Dissolve(1.0)
  pause 2.0
@@ -533,7 +533,7 @@ label event01_30_07:
   parallel:
    linear 0.5 zoom 1.0
  pause 0.5
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST5_COLLAB2.flac'
  show nao_v002 smile at mei_left
  show mion_v004 smile at mei_right
  with Dissolve(0.5)
@@ -724,7 +724,7 @@ label event01_30_07:
  with Dissolve(0.2)
  scene expression "#000"
  erika 'KYAAAAAAAA...!!!'
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST7_COLLAB2.flac'
  narrator "That was undoubtedly Erika's voice coming from the next room. The walls aren't very thick, so it was easy to realize... that it was a scream."
  stop sound
  scene expression "#000"

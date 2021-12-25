@@ -2,7 +2,7 @@ label chara032009_03:
  show black_background onlayer black
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST.wav'
+ play music 'audio/bgm/BGM_QUEST.flac'
  show expression 'images/bg/AdvBg_2201.png' as bg
  with Dissolve(1.0)
  nao '（そしてあたしは、ベアトリーチェの\nゲーム盤へ降り立った）'
@@ -266,7 +266,7 @@ label chara032009_03:
  hide nao_v002
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- play music 'audio/bgm/BGM_EVENT1.wav'
+ play music 'audio/bgm/BGM_EVENT1.flac'
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
  show rika_v002 odoroki at active

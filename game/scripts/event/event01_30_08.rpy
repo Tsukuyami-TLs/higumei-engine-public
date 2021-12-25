@@ -59,7 +59,7 @@ label event01_30_08:
  narrator '...At that moment, I felt my surroundings growing dim.'
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  narrator 'Huh? ...Mion-san and Shion-san are... disappearing as if they were a mirage the whole time.'
@@ -245,7 +245,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 normal at active
  nao "Very well. If that's the case..."
- play music 'audio/bgm/BGM_TITLE_COLLAB2.wav'
+ play music 'audio/bgm/BGM_TITLE_COLLAB2.flac'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -373,7 +373,7 @@ label event01_30_08:
  with Dissolve(0.2)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  pause 1.0
@@ -805,7 +805,7 @@ label event01_30_08:
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
  dlanor 'What is IT?'
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST7_COLLAB2.flac'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
  nao "In Erika-san's C.O., she admitted that she was the culprit behind the first magic circle."

@@ -13,7 +13,7 @@ label chara472001_03:
  nao '待って！'
  hide nao_v001
  with Dissolve(0.2)
- play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ play music 'audio/bgm/BGM_HOME_COLLAB2.flac'
  show kazuho_v001 normal at mei_left
  show miyuki_v001 normal at mei_right
  with Dissolve(0.5)
@@ -46,7 +46,7 @@ label chara472001_03:
  stop sound
  scene expression "#000"
  pause 1.0
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST6_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show beatrice_v001 normal_close at mei_right
@@ -111,7 +111,7 @@ label chara472001_03:
  with Dissolve(0.2)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST5_COLLAB2.flac'
  camera:
   anchor (0.5,0.5)
   pos (960,540)

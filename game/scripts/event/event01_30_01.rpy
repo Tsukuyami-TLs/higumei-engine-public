@@ -2,7 +2,7 @@ label event01_30_01:
  show black_background onlayer black
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2101.png' as bg
  with Dissolve(1.0)
  narrator 'To get to Rokkenjima, we transferred onto another boat at Niijima.'
@@ -136,7 +136,7 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator "...If it's because there were six houses on the island a long time ago , then it'd be too easy."
  narrator "But it's also the exact answer that comes out of Mion's mouth."
- play music 'audio/bgm/BGM_QUEST4_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST4_COLLAB2.flac'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -238,7 +238,7 @@ label event01_30_01:
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ play music 'audio/bgm/BGM_HOME_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2251.png' as bg
  with Dissolve(1.0)
  show shannon_v001 smile at mei_right
@@ -378,7 +378,7 @@ label event01_30_01:
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_GACHA_COLLAB2.wav'
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2221.png' as bg
  with Dissolve(1.0)
  camera:
@@ -798,7 +798,7 @@ label event01_30_01:
  show expression "#000" as fade with Dissolve(1.0)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_HOME_COLLAB2.wav'
+ play music 'audio/bgm/BGM_HOME_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2221.png' as bg
  with Dissolve(1.0)
  show jessica_v001 smile at mei_right
@@ -868,7 +868,7 @@ label event01_30_01:
  with Dissolve(0.2)
  stop sound
  scene expression "#000"
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.wav'
+ play music 'audio/bgm/BGM_QUEST2_COLLAB2.flac'
  show expression 'images/bg/AdvBg_2301.png' as bg
  with Dissolve(1.0)
  narrator 'The masters of the house, Ushiromiya Krauss-san and Natsuhi-san, came to greet us.'
