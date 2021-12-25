@@ -6,6 +6,7 @@ log.txt
 
 # Ren'py compiled files
 *.rpyc
+*.bak
 
 # Ren'py runtime
 *.save
