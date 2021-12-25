@@ -350,7 +350,7 @@ camera:
 
     def bgm2(self, typ, line, cmd):
         name = BGM[line["arg0"]]
-        name = f"audio/bgm/{name}.wav"
+        name = f"audio/bgm/{name}.ogg"
         self.outlines.append(f'play music {repr(name)}')
 
     def bgmstop(self, typ, line, cmd):
