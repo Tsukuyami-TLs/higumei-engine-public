@@ -40,7 +40,7 @@ label wipeout_routine:
     show wipeout2 at wipeout_transform
     pause 0.11
 
-    show expression "#000" as bg
+    show expression "#000" as fade
 
     hide wipeout1
     hide wipeout2
@@ -76,6 +76,7 @@ label wipein_routine:
         xanchor 1.0
         xpos 2420
 
+    hide fade
     show wipein4 at wipein_transform
     pause 0.03
     show wipein3 at wipein_transform
