@@ -1,7 +1,7 @@
 label chara032009_03:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST.ogg'
  show expression 'images/bg/AdvBg_2201.png' as bg
  with Dissolve(1.0)
@@ -12,9 +12,9 @@ label chara032009_03:
  nao "(There is an epitaph mystery written below the portrait. That message imitates the locked-room murder incidents. There are various prophecies in the text regarding the pursuit of the witch's gold. And then...)"
  nao "(--the island's hidden Golden Land...)"
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
  show beatrice_v001 normal_close at mei_right
  with Dissolve(1.0)
@@ -51,7 +51,7 @@ label chara032009_03:
  show nao_v002 sinken at active
  show beatrice_v001 normal at inactive
  nao "... It's bad taste."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -63,7 +63,7 @@ label chara032009_03:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice 'Hm, Hm... *cackle*cackle*cackle*, hyyyaaahahahahaha! Is that so, is that so? Bad taste!?'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -116,7 +116,7 @@ label chara032009_03:
  show nao_v002 smile at active
  show beatrice_v001 fuan at inactive
  nao "I'm sorry, the nature of it is as you say... but me saying it isn't just bad taste is my straightforward opinion."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -130,7 +130,7 @@ label chara032009_03:
  nao 'That story has the purpose of sharing some kind of possibility of a truth of what might have occurred on the island...'
  show nao_v002 normal_close at active
  nao "Yeah, I feel like it's intending to give that kind of message."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -236,7 +236,7 @@ label chara032009_03:
  show beatrice_v001 normal_close at active
  show nao_v002 odoroki at inactive
  beatrice 'Come, try to remember...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -249,16 +249,16 @@ label chara032009_03:
  show nao_v002 sinken at active
  nao 'Wait...!'
  stop music fadeout 0.5
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_351.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
  camera at screenshake_transform
  pause 0.0
  nao "I'm interested in how it continueeees!!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)

@@ -1,14 +1,14 @@
 label chara462001_03:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_262.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  pause 1.0
  call wipeout_routine
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_782.png' as bg
  call wipein_routine
@@ -17,11 +17,11 @@ label chara462001_03:
  show erika_v001 sinken_close at active
  erika "I'm so... tired..."
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  camera at sepia_shader
  pause 0.0
  show expression 'images/bg/AdvBg_161.png' as bg
@@ -55,11 +55,11 @@ label chara462001_03:
  show kazuho_v002 fuan at active
  kazuho '...does she know the word "kindness"?'
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide kazuho_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -135,7 +135,7 @@ label chara462001_03:
  hide erika_v001
  with Dissolve(0.2)
  Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '............'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -147,7 +147,7 @@ label chara462001_03:
  pause 0.0
  show erika_v001 sinken at active
  erika 'Hold on, Rika Furude!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -181,7 +181,7 @@ label chara462001_03:
  Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
  Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "Repaying evil for good, hm? Isn't that a nice hobby."
  Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -191,7 +191,7 @@ label chara462001_03:
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
  erika "Eh, ah... huh? No, it couldn't be...?!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -218,7 +218,7 @@ label chara462001_03:
  hide erika_v001
  with Dissolve(0.2)
  Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct......... *giggle*. Well, isn't it game over for you?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -232,11 +232,11 @@ label chara462001_03:
  erika 'Ah, aaah... ah, aaaaAAAAAAAH?!?!!?!??!'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  camera:
   anchor (0.5,0.5)
   pos (960,540)

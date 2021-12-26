@@ -1,7 +1,7 @@
 label chara452001_01:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
@@ -59,7 +59,7 @@ label chara452001_01:
  hide beatrice_v001
  with Dissolve(0.2)
  narrator '............'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  pause 1.0
  hide fade with Dissolve(1.0)
  with Dissolve(1.0)
@@ -99,7 +99,7 @@ label chara452001_01:
  show nao_v002 normal at nod_transform,active
  show beatrice_v001 normal at inactive
  nao "...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. "
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -113,7 +113,7 @@ label chara452001_01:
  beatrice 'Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with.....shirikodama!?!'
  show beatrice_v001 futeki_close at active
  beatrice "I'm not anything like a kappa, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -127,7 +127,7 @@ label chara452001_01:
  nao "How can I know you won't? After all, I don't know very much about witches."
  show nao_v002 normal at active
  nao "It's entirely possible that there is a witch whose hobby is collecting shirikodama. "
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -140,7 +140,7 @@ label chara452001_01:
  beatrice 'Heehehehehehehehehe!!! Hilarious, truly hilarious! '
  show beatrice_v001 futeki_close at active
  beatrice 'I never thought a little girl like you would say that... *giggle*giggle*, *cackle*cackle*cackle*!!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)

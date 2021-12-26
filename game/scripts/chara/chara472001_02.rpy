@@ -1,7 +1,7 @@
 label chara472001_02:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
@@ -14,12 +14,12 @@ label chara472001_02:
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
  nao 'Commandments...?'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v001
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/card/Card_472001.png' as bg
  with Dissolve(1.0)
  dlanor 'YES. Knox\'s 1st: "It is forbidden for the culprit to be anyone not mentioned in the early part of the STORY."'
@@ -34,9 +34,9 @@ label chara472001_02:
  nao 'I see. 10 rules make up the Ten Commandments... wait, what happened to number 5?'
  dlanor 'It is OMITTED. As such, please refrain from referencing IT.'
  nao 'I sort of wanted to hear why it is omitted... but I understand.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show nao_v001 normal_close at mei_right

@@ -15,9 +15,9 @@ SFX = {}
 SHAKEMAP = {}
 
 COLORS = {
-    '黒': "#000",
-    '白': "#fff",
-    '赤': "#e11", # TODO tune the red
+    '黒': "black_cover",
+    '白': "white_cover",
+    '赤': "red_cover", # TODO tune the red
 }
 
 with open('mappings/charnames.csv', 'r', encoding='utf8') as cnames:
@@ -224,7 +224,7 @@ class Compiler:
         eff = line['arg0']
         if eff != 'flash': raise ValueError('Effect type is not flash')
 
-        self.outlines.append('show expression "#fff" as flash with Dissolve(0.1)')
+        self.outlines.append('show white_cover as flash with Dissolve(0.1)')
         self.outlines.append('pause 0.1')
         self.outlines.append('hide flash with Dissolve(0.2)')
 
@@ -301,7 +301,7 @@ camera:
         bgname = line["arg0"]
         self.shown.clear()
         if bgname == "暗幕":
-            self.background = f'scene expression "#000" as bg'
+            self.background = f'scene black_cover as bg'
         else:
             bgname = BACKGROUND[bgname]
             bgname = f"images/{bgname}.png"
@@ -311,7 +311,7 @@ camera:
         if not self.faded:
             self.outlines.append(self.background)
         else:
-            self.outlines.append(f'scene expression "{self.faded}"')
+            self.outlines.append(f'scene {self.faded}')
             self.background = self.background.replace('scene', 'show', 1)
 
     def fadein(self, typ, line, cmd):
@@ -333,7 +333,7 @@ camera:
         color = COLORS[line['arg0']]
         time = int(line['arg1']) / 60
         self.faded = color
-        self.outlines.append(f'show expression "{color}" as fade with Dissolve({time})')
+        self.outlines.append(f'show {color} as fade with Dissolve({time})')
 
     def wipeout(self, typ, line, cmd):
         self.outlines.append('call wipeout_routine')

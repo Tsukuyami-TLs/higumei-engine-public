@@ -5,7 +5,7 @@ label event01_30_00:
  nao 'N... n......'
  nao 'Nooooooooooooooooo!!'
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_1270.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_346_ls_blood.wav'
@@ -18,8 +18,8 @@ label event01_30_00:
  narrator 'Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.'
  narrator "And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them..."
  narrator 'I wanted to ask "A-Are you okay...?". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
- show expression "#000" as fade with Dissolve(1.0)
- scene expression "#000"
+ show black_cover as fade with Dissolve(1.0)
+ scene black_cover
  play audio 'audio/sfx/SE_527_door_close.wav'
  narrator 'I dashed out to the next room over, frantically knocking on the door while trying at the doorknob.'
  nao 'Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!'
@@ -32,7 +32,7 @@ label event01_30_00:
  narrator "Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......"
  nao 'Erika...san...?'
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_1270.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_017_TragedyStart.wav'
@@ -43,13 +43,13 @@ label event01_30_00:
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  pause 3.0
- scene expression "#000"
+ scene black_cover
  narrator 'I should have never come to this island... Thinking about it now, the invitation to Rokkenjima island was very sudden.'
  window hide None
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_541.png' as bg
  with Dissolve(1.0)
@@ -141,15 +141,15 @@ label event01_30_00:
  narrator 'I was also given the option to turn down the offer if it was a bother. In that situation, the sisters told me they would just go on their own.'
  narrator "Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories on my time there."
  stop music fadeout 2.0
- show expression "#000" as fade with Dissolve(1.0)
- scene expression "#000"
+ show black_cover as fade with Dissolve(1.0)
+ scene black_cover
  narrator 'So, just like that, I suddenly accepted the trip to Rokkenjima for three days and two nights. ...We were absolutely going to have lots of fun this time.'
  narrator 'But that might have... gotten jinxed at some point...'
  play audio 'audio/sfx/SE_5053_wind.wav'
  narrator 'It was probably because of that. When we were heading to Niijima by ferry... the sky started looking weird.'
  narrator "It has to be that unpleasant woman's... Erika Furudo's fault."
  stop sound
- scene expression "#000"
+ scene black_cover
  play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2111.png' as bg
@@ -447,7 +447,7 @@ label event01_30_00:
  show nao_v002 odoroki at active
  show erika_v001 normal_close at inactive
  nao '......Huh...?'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -479,7 +479,7 @@ label event01_30_00:
  erika "...Isn't it? ...Reflecting on my time living in this world, as we approach the horizon, I seriously feel as though all I want to do is to flap my wings into that beautifully intellectual world up ahead. "
  show erika_v001 normal at active
  erika "Oh my, do excuse me. That was too advanced for you. It seems I got a little carried away. We're already done here. Please do go stand someplace else."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)

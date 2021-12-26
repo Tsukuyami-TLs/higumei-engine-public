@@ -1,20 +1,20 @@
 label event01_30_04:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
  pause 2.0
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  narrator 'The blankets in my bed had been stripped... and a blood-red magic circle could be seen painted on the sheets underneath.'
  narrator "Beatrice... an existence I don't believe in... drew this in my bed."
- show expression "#000" as fade with Dissolve(1.0)
- scene expression "#000"
+ show black_cover as fade with Dissolve(1.0)
+ scene black_cover
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  narrator "Ah, in the end, Rokkenjima was indeed a witch's island.\nCursed... by its human inhabitants's lack of respect towards the being they dreaded."
  narrator 'Why does it have to be like this...? Why...?'
@@ -23,7 +23,7 @@ label event01_30_04:
  narrator "...Calm down. Think this over.\nC'mon... we talked about that, right?"
  narrator '...Was it the topic regarding Beatrice?\nNo... it was the talk about mystery and the occult.'
  stop sound
- scene expression "#000"
+ scene black_cover
  camera at sepia_shader
  pause 0.0
  show expression 'images/bg/AdvBg_2291.png' as bg
@@ -39,7 +39,7 @@ label event01_30_04:
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "Divine miracles cannot be explained. Meaning, if you can't figure them out, you may, fittingly, just call them as such."
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -59,9 +59,9 @@ label event01_30_04:
  hide erika_v001
  with Dissolve(0.2)
  narrator '...Honestly, all of them, always with that "Detective Wanyan" nonsense!'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  camera at reset_shader
  pause 0.0
  camera:
@@ -79,7 +79,7 @@ label event01_30_04:
  pause 0.0
  show nao_v002 sinken at active
  nao 'I\'m Team "Kaneda Case Files", all the way! In the name of my granny, I won\'t acknowledge any witches!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -180,7 +180,7 @@ label event01_30_04:
  narrator "And then, there's the witch from the portrait mocking me like this. Not a chance. Inconceivable."
  narrator 'Whether she\'s there or not is something for me to settle from here on out. Does Beatrice "exist, or does she not?'
  narrator 'I pointed at the witch as if I was piercing her, and yelled with all of my strength.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -191,7 +191,7 @@ label event01_30_04:
  play audio 'audio/sfx/SE_5029_slap_back.wav'
  show nao_v002 sinken at active
  nao 'The deciding factors are not your tricks nor your magic!!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -451,7 +451,7 @@ label event01_30_04:
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
  nao "...Then, how's this?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -463,7 +463,7 @@ label event01_30_04:
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at active
  nao '{umi_blue}Although it is a locked room, it is possible for a human with a master key to enter and perform the prank.{/umi_blue}'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -486,7 +486,7 @@ label event01_30_04:
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
  nao "Then I'll say something more daring."
- show expression "#fff" as flash with Dissolve(0.1)
+ show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
  show nao_v002 sinken at active
@@ -600,7 +600,7 @@ label event01_30_04:
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
- show expression "#fff" as flash with Dissolve(0.1)
+ show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
  play audio 'audio/sfx/SE_391_ls_swing.wav'
@@ -615,7 +615,7 @@ label event01_30_04:
  with Dissolve(0.2)
  show beatrice_v001 normal at mei_center
  with Dissolve(0.5)
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -674,7 +674,7 @@ label event01_30_04:
  show beatrice_v001 normal_close at active
  show dlanor_v001 normal at inactive
  beatrice "Very well. I'll repeat it."
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -725,7 +725,7 @@ label event01_30_04:
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 normal at inactive
  beatrice "*cackle*cackle*cackle*. I know what you're trying to say. Instead, I'll say something more specific."
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -763,7 +763,7 @@ label event01_30_04:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_5036_glass_break.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -904,7 +904,7 @@ label event01_30_04:
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide fade with Dissolve(1.0)
  with Dissolve(1.0)
  show nao_v002 odoroki at mei_center
@@ -922,5 +922,5 @@ label event01_30_04:
  show beatrice_v001 futeki at active
  show dlanor_v001 normal at inactive
  beatrice "I'm also looking forward to this. *cackle*cackle*cackle*..."
- show expression "#fff" as fade with Dissolve(3.0)
+ show white_cover as fade with Dissolve(3.0)
  return

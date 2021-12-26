@@ -1,7 +1,7 @@
 label chara462001_01:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2220.png' as bg
  with Dissolve(1.0)
@@ -67,7 +67,7 @@ label chara462001_01:
  Character('????',ctc="ctcArrow", ctc_position="fixed") 'There is no need for explanation. Loss even so, I thought it was ever so entertaining to have seen, although...'
  Character('????',ctc="ctcArrow", ctc_position="fixed") 'I never could have expected you to be a competent mirror of me anyway... *giggle*.'
  Character('????',ctc="ctcArrow", ctc_position="fixed") "In any case, I'll have to properly reward you for dragging your master's face through the mud, right...?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -82,11 +82,11 @@ label chara462001_01:
  erika '... ngyappabrigigeraan, gohaheegagagaaaaa?!!'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -155,12 +155,12 @@ label chara462001_01:
  show dlanor_v001 fuan at active
  show erika_v001 futeki at inactive
  dlanor '...Why is Erika so boastful of this FACT?'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/card/Card_462001.png' as bg
  with Dissolve(1.0)
  erika 'ANYWAYS! In order to help rid my master of her displeasure, I must absolutely fight a second time!'
@@ -169,9 +169,9 @@ label chara462001_01:
  erika 'Beatrice is securing my one-way ticket to Nao-san, and luckily, those people are in the middle of setting up arrangements for traveling there.'
  erika "If I move now, I will also have no worries of someone getting in my way. In other words, Dlanor, you're coming with me!"
  erika '*cackle*cackle*... This time for sure will be a perfect game; with me as a detective and as a Wanyanner, I will thoroughly crush her!!!'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show dlanor_v001 normal_close at mei_right

@@ -1,7 +1,7 @@
 label event01_30_02:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2291.png' as bg
  with Dissolve(1.0)
@@ -326,7 +326,7 @@ label event01_30_02:
  show jessica_v001 fuan at active
  show kanon_v001 normal at inactive
  jessica 'Grandfather is superstitious on his own, though. ...Having an impossibly large mansion is, needless to say, pretty uncanny.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -338,7 +338,7 @@ label event01_30_02:
  with Dissolve(0.08333333333333333)
  show mion_v002 futeki at active
  mion 'Those unused rooms... might have something other than people settling in them...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -422,7 +422,7 @@ label event01_30_02:
  nao '...This guesthouse is way too big, even.'
  show nao_v002 fuan at active
  nao 'The mansion already has all of those guest rooms in it too, so needing to go out of your way to make this is...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -433,7 +433,7 @@ label event01_30_02:
  with Dissolve(0.08333333333333333)
  show erika_v001 fuan at active
  erika 'Perhaps the 200 million yen worth of gold is still being used to welcome... ghosts... here...?'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -565,11 +565,11 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  kanon '...........................'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide kanon_v001
  with Dissolve(0.2)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
- scene expression "#000"
+ scene black_cover
  play audio 'audio/sfx/SE_5020_key.wav'
  narrator 'One day, Kanon was appointed to trim the roses. After locking up the garden shed, he left the key in his pocket, and retired for the day.'
  narrator 'Normally, the key gets used during a job, and then after that job is done, it must be returned to the keybox in the servant room. '
@@ -580,14 +580,14 @@ label event01_30_02:
  nao "Something that couldn't have been... there...?"
  window hide None
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
  pause 3.0
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2291.png' as bg
  with Dissolve(1.0)
  show kanon_v001 normal_close at mei_center
@@ -657,7 +657,7 @@ label event01_30_02:
  narrator "Yeah. That's my one saving grace here. It's not even past noon yet. And the weather is a bit too good for telling ghost stories."
  narrator '...I wanted a change of atmosphere. I just wanted to spend my time relaxing in the rose garden while reading a book or doing embroidery or something.'
  narrator "I didn't come here to panic while counting my remaining days here on my fingers."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -667,7 +667,7 @@ label event01_30_02:
  with Dissolve(0.08333333333333333)
  show nao_v002 smile at jump_transform,active
  nao '...Hahahahahaha, aaahahahahahahahaha...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -865,21 +865,21 @@ label event01_30_02:
  show shion_v002 fuan at inactive
  mion "I can still try at it... I told you there's still time before I have to apologize."
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_536_up_stairs.wav'
  pause 2.5
  play audio 'audio/sfx/SE_5007_keyroll.wav'
  narrator 'The four of us went up to the second floor. And so, we unlocked each of our rooms with our respective keys and entered.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  narrator "Shion-san began spreading clothing garments from the trunk onto the beds in bunches. It seems like some of the garments haven't been finished in time for the photoshoots."
@@ -897,9 +897,9 @@ label event01_30_02:
  narrator '...........................'
  play sound ['audio/sfx/SE_5054_rain.wav','audio/sfx/SE_5054_rain.wav'] fadeout 1.0
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
- scene expression "#000"
- show expression "#000" as bg
+ show black_cover as fade with Dissolve(1.0)
+ scene black_cover
+ show black_cover as bg
  with Dissolve(1.0)
  show erika_v001 normal at mei_right
  with Dissolve(0.5)

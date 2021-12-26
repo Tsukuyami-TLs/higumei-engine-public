@@ -1,7 +1,7 @@
 label chara452001_02:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show nao_v002 normal at mei_right
@@ -14,11 +14,11 @@ label chara452001_02:
  show beatrice_v001 normal_close at inactive
  nao 'Eh... ah, wait...?!!'
  play audio 'audio/sfx/SE_230_charge.wav'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide beatrice_v001
  with Dissolve(0.3)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_287.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
@@ -57,9 +57,9 @@ label chara452001_02:
  nao 'Yes. Thank you, Rena-chan.'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  pause 1.0
  show expression 'images/bg/AdvBg_1352.png' as bg
  with Dissolve(1.0)
@@ -81,7 +81,7 @@ label chara452001_02:
  nao "Yes. I would know what to do if it were those two, so if that was the case, I suppose I wouldn't have been as worried."
  rena 'But this is an important person to you.'
  nao "Important... person. That's probably true."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -97,7 +97,7 @@ label chara452001_02:
  nao 'I get the impression that they are a very sensitive, delicate person.'
  show nao_v002 fuan at active
  nao "So, because I don't know her circumstances, I'm afraid I might hurt her if I don't word things correctly, so I don't know what to say."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)

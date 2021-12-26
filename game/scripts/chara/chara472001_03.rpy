@@ -1,7 +1,7 @@
 label chara472001_03:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_103.png' as bg
  with Dissolve(1.0)
  show nao_v001 sinken at mei_center
@@ -39,12 +39,12 @@ label chara472001_03:
  show kazuho_v001 fuan at inactive
  nao 'I feel like I was having a super fun dream.'
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide kazuho_v001
  hide nao_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  pause 1.0
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
@@ -105,12 +105,12 @@ label chara472001_03:
  dlanor 'Those leftover COOKIES, may I take them back with ME?'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide beatrice_v001
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
@@ -122,7 +122,7 @@ label chara472001_03:
  pause 0.5
  show expression 'images/bg/AdvBg_2180.png' as bg
  with Dissolve(1.0)
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -134,7 +134,7 @@ label chara472001_03:
  erika "Uuuuuuu, for there to have been TWO people in Hinamizawa that turned out not to be my master; it can't be...!"
  show erika_v001 odoroki_close at chara_shake_transform,active
  erika "Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)

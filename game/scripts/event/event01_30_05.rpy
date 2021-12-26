@@ -1,7 +1,7 @@
 label event01_30_05:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
@@ -152,12 +152,12 @@ label event01_30_05:
  show mion_v002 smile at inactive
  nao "...I'm worried about that laugh, so no thanks."
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v002
  hide mion_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  show shion_v002 normal at mei_center
@@ -176,12 +176,12 @@ label event01_30_05:
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
  shion "You really don't know how to choose your words, Sis."
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
@@ -460,7 +460,7 @@ label event01_30_05:
  show mion_v002 futeki at active
  show nao_v002 sinken at inactive
  mion 'It would be someone who was staying on the second floor of the guesthouse last night, besides us...?'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -472,7 +472,7 @@ label event01_30_05:
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at active
  erika 'Good morning. I had the pleasure of sleeping in.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -505,18 +505,18 @@ label event01_30_05:
  narrator 'A refreshing smile? ...No, it wasn\'t like that.\nIt was a smile that asked, "Did you enjoy what you saw yesterday?"'
  narrator "...Erika-san, you were the one who played that nasty prank, weren't you..."
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop music fadeout 0.5
  pause 2.0
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  narrator 'After finishing breakfast, we went back to our rooms for a bit.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  narrator 'Then, with each of our belongings for the day in hand, we came back downstairs.'
@@ -535,11 +535,11 @@ label event01_30_05:
  show shion_v002 smile at active
  shion "*giggle*. You can forget about it for now. It looks like Sis finished. Let's go downstairs!"
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide shion_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
  narrator 'The three of us descended the stairs and returned to the first floor hall, where Erika-san had just finished her breakfast.'
@@ -592,9 +592,9 @@ label event01_30_05:
  narrator 'It seemed that Erika-san had already brought a book she wanted to read and was planning to leave without going back to her room.'
  narrator 'The four of us left the guesthouse in a group...'
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2221.png' as bg
  with Dissolve(1.0)
@@ -614,7 +614,7 @@ label event01_30_05:
  pause 0.3333333333333333
  play audio 'audio/sfx/SE_201_shutter.wav'
  pause 0.3333333333333333
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -628,7 +628,7 @@ label event01_30_05:
  jessica '...Woah! What are you people doing?! Are you really doing a cosplay photo session?!'
  show jessica_v001 fuan_blush at chara_shake_transform,active
  jessica "Woah, woah, woaaah, isn't this showing your skin t-too much? Isn't this too sexy?!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -690,9 +690,9 @@ label event01_30_05:
  narrator '...Well, girls will be girls. I should spend some time on my own too.'
  narrator 'Where can I relax and immerse myself in embroidery, surrounded by roses-- oh...?'
  stop music fadeout 2.0
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2341.png' as bg
  with Dissolve(1.0)
  show nao_v002 fuan_close at mei_left

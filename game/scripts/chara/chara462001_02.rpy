@@ -1,7 +1,7 @@
 label chara462001_02:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_204.png' as bg
  with Dissolve(1.0)
@@ -53,11 +53,11 @@ label chara462001_02:
  show erika_v001 normal at active
  erika 'The shrine also serves as a shelter for when disasters happen, so it must be at a high altitude... Now, shall I go and confirm the result of my reasoning?'
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_161.png' as bg
  with Dissolve(1.0)
  show erika_v001 normal at mei_center
@@ -68,11 +68,11 @@ label chara462001_02:
  erika "Now, let us find out where that girl's location is."
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_1101.png' as bg
  with Dissolve(1.0)
@@ -171,7 +171,7 @@ label chara462001_02:
  show rika_v002 normal at active
  show satoko_v002 odoroki at inactive
  rika 'Meep... She has on like a dress or something.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -185,7 +185,7 @@ label chara462001_02:
  pause 0.0
  show erika_v001 odoroki at active
  erika 'Ah, ah, ah, aaaaaaaahhhhhhhhhhhhhhhhh...!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -197,7 +197,7 @@ label chara462001_02:
  with Dissolve(0.5)
  show rika_v002 odoroki at active
  rika 'What?!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -211,7 +211,7 @@ label chara462001_02:
  show erika_v001 odoroki at active
  erika 'AAAHHHHHHH---!'
  play audio 'audio/sfx/SE_408_run.wav'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -240,7 +240,7 @@ label chara462001_02:
  show kazuho_v002 fuan at active
  show rika_v002 fuan at inactive
  kazuho 'But that person is sprinting over here like a missile...?!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -255,7 +255,7 @@ label chara462001_02:
  pause 0.0
  show erika_v001 odoroki at active
  erika 'MYYYYY MAAASTERRRRRRRRRRRRRRRRRRR!!!!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -385,7 +385,7 @@ label chara462001_02:
  show erika_v001 sinken at active
  show rika_v002 normal at inactive
  erika 'Cleaner person?'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -405,7 +405,7 @@ label chara462001_02:
  pause 0.0
  show erika_v001 smile at active
  erika "So basically! In this meaning, it's a bonus stage?!?!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -446,7 +446,7 @@ label chara462001_02:
  show satoko_v002 fuan at active
  show rika_v002 fuan_close at inactive
  satoko 'And especially not nothing...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -460,7 +460,7 @@ label chara462001_02:
  erika '...Hah! *giggle*, *giggle*giggle*, I see. I get it now.'
  show erika_v001 smile at active
  erika "So, what you're saying is you literally want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -479,7 +479,7 @@ label chara462001_02:
  show rika_v002 fuan at active
  show kazuho_v002 sinken at inactive
  rika "...I think that's actually more dirty."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)

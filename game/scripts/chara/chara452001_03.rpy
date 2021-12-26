@@ -1,7 +1,7 @@
 label chara452001_03:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_591.png' as bg
  with Dissolve(1.0)
  narrator 'Several days later...'
@@ -20,9 +20,9 @@ label chara452001_03:
  show nao_v002 fuan_close at active
  nao "...It appears I'll just have to be patient. Well then, back to the house--"
  stop music fadeout 0.5
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2211.png' as bg
  with Dissolve(1.0)
  nao 'Huh?'
@@ -100,7 +100,7 @@ label chara452001_03:
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
  beatrice '...Hah, preparations are being made now.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -113,7 +113,7 @@ label chara452001_03:
  play audio 'audio/sfx/SE_515_tableware.wav'
  show nao_v002 odoroki at jump_transform,active
  nao "Wow... that's amazing...! In a single instant, teacups and tea cakes appeared on the table...?!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -166,12 +166,12 @@ label chara452001_03:
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
  beatrice 'I would like to ask you something.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/card/Card_452001.png' as bg
  with Dissolve(1.0)
  beatrice 'Previously, you said you were on the brink of despair, but were able to find hope after crossing over to that "world".'
@@ -180,9 +180,9 @@ label chara452001_03:
  nao "...Yeah, I have to keep going. After coming this far, I can't quit halfway through."
  nao 'Besides... whichever "different" result that I come upon, by continuing to the end, there is a possibility I can reach one where things went well.'
  nao 'I will not disregard the existence of that "possibility"... I can\'t ever despair.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2211.png' as bg
  with Dissolve(1.0)
  show beatrice_v001 normal at mei_left
@@ -241,12 +241,12 @@ label chara452001_03:
  nao 'Yeah... huh, ah... wah!'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -263,7 +263,7 @@ label chara452001_03:
  pause 0.0
  show miyuki_v002 sinken at active
  miyuki '...Uh...... Nao. Hey, Nao!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -338,11 +338,11 @@ label chara452001_03:
  nao "I'll brew you some. Please pardon the lack of sweets."
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  pause 1.0
  play music 'audio/bgm/BGM_QUEST9_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg

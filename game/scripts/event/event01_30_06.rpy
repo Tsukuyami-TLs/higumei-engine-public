@@ -1,7 +1,7 @@
 label event01_30_06:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2341.png' as bg
  with Dissolve(1.0)
@@ -128,7 +128,7 @@ label event01_30_06:
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
  nao "Th-, surely that's... when you think of it, you and Shannon-san are..."
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -155,7 +155,7 @@ label event01_30_06:
  show erika_v001 normal at active
  show nao_v002 fuan_close at inactive
  erika 'Nonetheless, during that whole time period, I was together playing games with you people though, so I have a perfect alibi.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -168,7 +168,7 @@ label event01_30_06:
  play audio 'audio/sfx/SE_510_sand_foot.wav'
  show nao_v002 sinken at chara_shake_transform,active
  nao 'I... I heard it directly from Shannon-san.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -336,12 +336,12 @@ label event01_30_06:
  show nao_v002 normal at inactive
  jessica 'Hm? What?'
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2221.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_530_walk_one.wav'
@@ -525,7 +525,7 @@ label event01_30_06:
  with Dissolve(0.2)
  narrator 'After making sure Jessica-san was gone, I turned over... and made eye contact with Erika-san by the arbor...'
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -535,7 +535,7 @@ label event01_30_06:
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at active
  erika '............*giggle*.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -545,9 +545,9 @@ label event01_30_06:
  with Dissolve(0.08333333333333333)
  narrator 'That face probably wants to say that she eavesdropped fully on whatever I was talking about with Jessica-san.'
  narrator 'While Erika-san was having a friendly chat with Mion-san, she observed me the whole time without so much as a hint of effort.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2341.png' as bg
  with Dissolve(1.0)
  show mion_v015 smile at mei_right
@@ -655,7 +655,7 @@ label event01_30_06:
  show nao_v002 normal at inactive
  erika '{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red}'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)

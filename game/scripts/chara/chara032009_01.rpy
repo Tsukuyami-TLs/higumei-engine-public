@@ -1,14 +1,14 @@
 label chara032009_01:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_341.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
  pause 1.0
  call wipeout_routine
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_EVENT1.ogg'
  show expression 'images/bg/AdvBg_351.png' as bg
  call wipein_routine

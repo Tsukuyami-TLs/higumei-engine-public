@@ -2,7 +2,7 @@ label event01_30_08:
  show black_background onlayer black
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
  narrator 'That final night on Rokkenjima...'
@@ -51,20 +51,20 @@ label event01_30_08:
  show erika_v001 sinken_close at active
  show nao_v002 normal at inactive
  erika '...Hmph.'
- show expression "#000" as fade with Dissolve(1.0)
- scene expression "#000"
+ show black_cover as fade with Dissolve(1.0)
+ scene black_cover
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
  narrator '...At that moment, I felt my surroundings growing dim.'
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  narrator 'Huh? ...Mion-san and Shion-san are... disappearing as if they were a mirage the whole time.'
  narrator 'Erika-san and I remained. In place of where Mion-san and Shion-san vanished... wait, those witches appeared in my dreams...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -75,7 +75,7 @@ label event01_30_08:
  play audio 'audio/sfx/SE_610_ls_plosive.wav'
  show beatrice_v001 futeki at active
  beatrice '<Happy Birthday!!!> Congrats to me! And thank you, everyone! I truly am a lucky person!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -267,7 +267,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 sinken at active
  nao "...I'm rather competitive. Win or lose, I won't say I had fun."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -337,7 +337,7 @@ label event01_30_08:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao "We're working together?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -349,7 +349,7 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  show erika_v001 futeki at active
  erika 'Not quite. I believe that the culprit is Shion-san.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -368,18 +368,18 @@ label event01_30_08:
  show dlanor_v001 normal at active
  dlanor 'For you three, I shall explain the SITUATION. ...Please listen CAREFULLY.'
  stop music fadeout 2.0
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  pause 1.0
  call wipeout_routine
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_2281.png' as bg
  call wipein_routine
  show dlanor_v001 normal at mei_center
@@ -403,19 +403,19 @@ label event01_30_08:
  narrator 'Normally, the crime would have occurred from that point onward... but it became a perfect closed room.'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}From the point the door is locked until Erika unlocks it, the room is a perfect closed ROOM.{/umi_red}'
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}Nobody existed inside the room at that time, and nobody can enter by any other METHOD.{/umi_red}'
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -431,7 +431,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  dlanor "Now then, we shall BEGIN. Since it is Lady Beatrice's birthday, she has the privilege of going FIRST."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -444,7 +444,7 @@ label event01_30_08:
  beatrice "Well, happy birthday to me!! Let's get started, then."
  show beatrice_v001 normal at active
  beatrice "When Erika returned, she unlocked her room and entered it, so there must have been a short interval before Nao's group heard her scream."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -471,7 +471,7 @@ label event01_30_08:
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
  dlanor 'Request GRANTED.'
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -491,7 +491,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  dlanor 'YES.'
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -540,7 +540,7 @@ label event01_30_08:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '...Thought you might say that. I would have said the same thing if I were you.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -552,7 +552,7 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at active
  erika "*giggle*giggle*giggle*. ...Anyway, I'm going to talk about the differences between the two magic circles seen today and yesterday."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -569,19 +569,19 @@ label event01_30_08:
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
  nao '...I thought they were the same circle though......'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
  dlanor 'Over here is the first magic circle, and over here is the SECOND. Please compare THEM.'
  beatrice '...Hmm......? How are they different?'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  show erika_v001 normal at mei_right
@@ -636,11 +636,11 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  erika 'If you look closely, you can detect many other minute differences.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
  show dlanor_v001 normal at mei_left
@@ -656,11 +656,11 @@ label event01_30_08:
  hide erika_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_204_shot.wav'
- show expression "#fff" as flash with Dissolve(0.1)
+ show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
  narrator 'Do repeat this in red: "The two magic circles were drawn onto two separate sheets by different people."'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -672,7 +672,7 @@ label event01_30_08:
  pause 0.0
  show nao_v002 sinken at active
  nao '.........?!?!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -703,7 +703,7 @@ label event01_30_08:
  show dlanor_v001 normal at active
  dlanor '...YES. Sorry for the WAIT. I shall repeat IT.'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -758,7 +758,7 @@ label event01_30_08:
  show erika_v001 normal_close at active
  show beatrice_v001 normal at inactive
  erika 'On top of that, you must present it in the form of a blue truth. ...That does it for my turn.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -770,7 +770,7 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 sinken at active
  beatrice "......That being said... I still don't understand this magic circle at all. ...Just why was it made that way?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -827,7 +827,7 @@ label event01_30_08:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao 'Well then, please repeat this:'
- show expression "#fff" as flash with Dissolve(0.1)
+ show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
  show nao_v002 normal at active
@@ -849,7 +849,7 @@ label event01_30_08:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -949,7 +949,7 @@ label event01_30_08:
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
  erika 'Who knows? Well, she is a novice, so we must lend her our support.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -961,7 +961,7 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal_close at active
  dlanor '...Mm-HMM. ......I SEE.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)

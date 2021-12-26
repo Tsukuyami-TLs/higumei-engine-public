@@ -1,7 +1,7 @@
 label chara032009_02:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_EVENT6.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
@@ -80,7 +80,7 @@ label chara032009_02:
  show nao_v002 odoroki at active
  show beatrice_v001 smile at inactive
  nao "Rokkenjima...? I've heard that name somewhere... ah-?!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -96,7 +96,7 @@ label chara032009_02:
  nao 'The relatives of a wealthy family had gathered for a meeting on a small island where a massive amount of them lost their lives; the name of it was clearly "Rokkenjima" ... uh...'
  show nao_v002 normal at active
  nao "...I see. That island was a certain fateful destination for them, wasn't it?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -121,7 +121,7 @@ label chara032009_02:
  show nao_v002 smile at inactive
  beatrice 'That is, well... look here.'
  play music 'audio/bgm/BGM_EVENT5.ogg'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -138,11 +138,11 @@ label chara032009_02:
  show nao_v002 odoroki:
   linear 0.5 pos (960,2280)
  pause 0.5
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2201.png' as bg
  with Dissolve(1.0)
  show nao_v014 odoroki at mei_center
@@ -152,7 +152,7 @@ label chara032009_02:
  show nao_v014 fuan at active
  nao "I'm, I'm floating...?"
  play music 'audio/bgm/BGM_QUEST.ogg'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -175,9 +175,9 @@ label chara032009_02:
  show nao_v014 normal at active
  show beatrice_v001 futeki at inactive
  nao 'So, witches flew even without brooms... hup!'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2220.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_232_landing.wav'
@@ -202,23 +202,23 @@ label chara032009_02:
  nao 'But, well... right. If that type of enjoyment exists, then I will have to try it out.'
  beatrice '*cackle*cackle*cackle*... This open-minded and frank attitude is an irreplaceable element to enjoying the game. Not bad at all.'
  nao "I'll accept those words of praise. Umm, do people normally wait for the end of the story?"
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v014
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/card/Card_032009.png' as bg
  with Dissolve(1.0)
  nao 'Uuum, *ahem*.'
  nao "Nao Houtani... rightfully spectating the witch Beatrice's game board."
  nao 'Please, if you would kindly begin...'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2220.png' as bg
  with Dissolve(1.0)
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -232,7 +232,7 @@ label chara032009_02:
  beatrice 'However, you are unrefined, Nao. If you were Maria, you would be flying around with such vigor. *cackle*cackle*cackle*!'
  show beatrice_v001 smile at active
  beatrice "Oh, look, do not make such a face. The story is already beginning. At best, don't be shaken off. "
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -249,7 +249,7 @@ label chara032009_02:
  show beatrice_v001 futeki at active
  show nao_v014 fuan at inactive
  beatrice 'Of course, from my game boooard!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -264,7 +264,7 @@ label chara032009_02:
  pause 0.0
  show nao_v014 odoroki at active
  nao "I-I didn't know there was a type of vehicle like tha-... aaaaaaaaaaat?!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)

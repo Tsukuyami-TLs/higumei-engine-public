@@ -1,7 +1,7 @@
 label event01_30_07:
  show black_background onlayer black
  stop sound
- scene expression "#000"
+ scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2331.png' as bg
  with Dissolve(1.0)
@@ -34,11 +34,11 @@ label event01_30_07:
  show nao_v002 fuan at active
  nao "...I can't bring myself to embroider at all, so I'll have to set it aside for now."
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
@@ -82,9 +82,9 @@ label event01_30_07:
  narrator 'Wait, wait, wait, do I even want to be photographed in the first place?'
  narrator "...No, I will NOT be fooling around. I'm on Team Kaneda after all..."
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_526_door_open.wav'
@@ -142,15 +142,15 @@ label event01_30_07:
  narrator "I think I would've preferred an uninteresting roommate who would let me relax and embroider instead."
  stop music fadeout 2.0
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2351.png' as bg
  with Dissolve(1.0)
  pause 2.0
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_QUEST4_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2350.png' as bg
  with Dissolve(1.0)
@@ -235,7 +235,7 @@ label event01_30_07:
  show erika_v001 normal at active
  show dlanor_v001 fuan at inactive
  erika "...Very well. So much for being mean. I'll give you the red truth you want."
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -248,7 +248,7 @@ label event01_30_07:
  show beatrice_v001 sinken at jump_transform,active
  show erika_v001 normal at inactive
  beatrice 'I knew that since the beginning! One more, one more!'
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
@@ -282,12 +282,12 @@ label event01_30_07:
  hide beatrice_v001
  hide erika_v001
  with Dissolve(0.2)
- show expression "#e11" as fade with Dissolve(0.16666666666666666)
+ show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_5036_glass_break.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  narrator '{umi_red}On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.{/umi_red}'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -301,7 +301,7 @@ label event01_30_07:
  beatrice "Whaaaaaaaaat!?! Shannon isn't the only crazy person? There are more?!"
  show beatrice_v001 sinken at active
  beatrice 'Kanon? Genji? Even Nanjoooo?!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -324,25 +324,25 @@ label event01_30_07:
  erika 'Keep doing your best, won\'t you? Hadn\'t "{i}they{/i}" seen through everything on their first try...?'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  pause 2.0
  stop sound
- scene expression "#000"
+ scene black_cover
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2361.png' as bg
  with Dissolve(1.0)
  pause 2.0
  call wipeout_routine
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_2271.png' as bg
  call wipein_routine
  pause 2.0
  call wipeout_routine
  stop sound
- scene expression "#000"
+ scene #000
  show expression 'images/bg/AdvBg_2221.png' as bg
  call wipein_routine
  narrator 'After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.'
@@ -389,7 +389,7 @@ label event01_30_07:
  show mion_v004 smile at inactive
  pause 0.5
  nao '...Let me see. ...This fabric is... hmm... mm-hmm... very shoddy. ...And how was the inner lining sewed?'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -403,7 +403,7 @@ label event01_30_07:
  pause 0.0
  show shion_v012 odoroki at active
  shion "What are you, the costume police!? Don't look at the insideeee!!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -422,7 +422,7 @@ label event01_30_07:
  show nao_v002 smile at active
  show mion_v004 fuan at inactive
  nao 'Well... I happen to know a bit about clothing, so feel free to ask me for help the next time you want to make something.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -436,7 +436,7 @@ label event01_30_07:
  pause 0.0
  show shion_v012 fuan at active
  shion "B-but if you start helping, you'll see what we diiiiiiiiidd!!! Ewwwww, it's sooo embarrassiiiiiiiinggggg!!!!"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -481,12 +481,12 @@ label event01_30_07:
  shion 'Cosplay-friendly resorts are hard to find, so I definitely think this one will get really popular!'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide shion_v012
  hide mion_v004
  with Dissolve(0.2)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_536_up_stairs.wav'
@@ -662,9 +662,9 @@ label event01_30_07:
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_526_door_open.wav'
  narrator 'Leaving behind that terribly cautious Erika-san, the rest of us entered our room.'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  show shion_v012 smile at mei_left
@@ -719,15 +719,15 @@ label event01_30_07:
  nao '...I think I can sleep in peace... on this final night...'
  stop music fadeout 0.5
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
- scene expression "#000"
+ scene black_cover
  erika 'KYAAAAAAAA...!!!'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  narrator "That was undoubtedly Erika's voice coming from the next room. The walls aren't very thick, so it was easy to realize... that it was a scream."
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  show nao_v002 fuan at mei_center
@@ -747,19 +747,19 @@ label event01_30_07:
  show shion_v007 sinken at active
  show mion_v008 sinken at inactive
  shion 'A scream from next door... could that be Erika-san?'
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  hide shion_v007
  hide mion_v008
  with Dissolve(0.2)
- scene expression "#000"
+ scene black_cover
  play audio 'audio/sfx/SE_408_run.wav'
  narrator 'The concerned Sonozaki sisters acted fast, putting on bath towels and running into the hallway.'
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  narrator 'There, Erika-san was sunken down on the floor and pointing towards the inside of her wide-open room.'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -769,7 +769,7 @@ label event01_30_07:
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
  erika '...Ahhhh...uwaaaaaa...'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -800,15 +800,15 @@ label event01_30_07:
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  window hide None
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
  pause 2.0
- show expression "#000" as fade with Dissolve(1.0)
+ show black_cover as fade with Dissolve(1.0)
  stop sound
- scene expression "#000"
+ scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  show erika_v001 odoroki at mei_center
@@ -872,7 +872,7 @@ label event01_30_07:
  show shion_v007 normal at active
  show erika_v001 sinken at inactive
  shion "And at that time, you entered your room, right? You didn't find anything weird inside?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -886,7 +886,7 @@ label event01_30_07:
  pause 0.0
  show erika_v001 sinken at active
  erika 'Nothing at all! That would be impossible!!'
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
@@ -946,7 +946,7 @@ label event01_30_07:
  hide shion_v007
  with Dissolve(0.2)
  narrator "I couldn't think of any reason to suspect the wise Erika-san... even in the beginning, I never doubted her..."
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 590)
@@ -956,7 +956,7 @@ label event01_30_07:
  with Dissolve(0.08333333333333333)
  show shion_v007 sinken at active
  shion "...You're faking this, aren't you?"
- show expression "#000" as fade with Dissolve(0.3333333333333333)
+ show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
   pos (960, 540)
