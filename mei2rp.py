@@ -135,17 +135,13 @@ class ShowChara:
             s += f'\nshow {self.outfit} {self.expression}:\n{indent(self.atl,1)}'
         return s
 
+class CameraTransform:
+    def __init__(self):
+        self.time = 0
+
+
 class Compiler:
     def __init__(self, commands, translation):
-        '''
-        self.COMMAND_DICT = {
-            'wipeout': wipeout,
-            'wipein': wipein,
-            'shader': shader,
-            'effect': effect,
-            'voice': voice,
-        }
-        '''
         self.bgm = self.bgm2
         self.commands = commands
         self.translation = translation
@@ -164,6 +160,7 @@ class Compiler:
 
         self.faded = "#000"
         self.background = None
+        self.cam_extras = ""
 
     def talk(self, n, line, cmd):
         cid = get_id(cmd)
@@ -271,7 +268,7 @@ camera:
 
     def shakedisp(self, typ, line, cmd):
         anim = SHAKEMAP[line['arg0']]
-        self.outlines.append(f'camera at {anim}\npause 0.0')
+        self.outlines.append(f'camera at {anim}{self.cam_extras}\npause 0.0')
         
     def motion(self, typ, line, cmd):
         oid = get_id(line['arg0'])
@@ -376,8 +373,10 @@ camera:
     def shader(self, typ, line, cmd):
         if line['arg0'] == 'セピア':
             self.outlines.append(f'camera at sepia_shader\npause 0.0')
+            self.cam_extras = ",sepia_shader"
         else:
             self.outlines.append(f'camera at reset_shader\npause 0.0')
+            self.cam_extras = ",reset_shader"
 
     def se2(self, typ, line, cmd):
         sename = SFX[line['arg0']]
