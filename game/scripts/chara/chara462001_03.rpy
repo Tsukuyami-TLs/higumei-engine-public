@@ -108,7 +108,7 @@ label chara462001_03:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 sinken at active
  erika "As if I couldn't be cleaning this shrine right nooooooooooooowwwwww!!!!!!!!!!"
@@ -143,7 +143,7 @@ label chara462001_03:
  hide fade with Dissolve(0.08333333333333333)
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 sinken at active
  erika 'Hold on, Rika Furude!'
@@ -211,7 +211,7 @@ label chara462001_03:
  Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "I saw you doing something strange, so I was enjoying myself at first, but it really was too much. I really don't need something like you... *giggle*giggle*giggle*!!!"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 odoroki at active
  erika 'Ah, aaah, ah... thine highness is my... master...?'
@@ -226,7 +226,7 @@ label chara462001_03:
  hide fade with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 odoroki at active
  erika 'Ah, aaah... ah, aaaaAAAAAAAH?!?!!?!??!'

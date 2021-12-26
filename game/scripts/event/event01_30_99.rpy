@@ -122,7 +122,7 @@ label event01_30_99:
  narrator 'Mion-san and Shion-san instantly got a grasp on the situation.\nWhat could Erika, who had drawn this perfect recreation of the circle from the movie, possibly want?'
  narrator 'A compliment? Or a shocked scream? ...Yes, it was an {i}audience{/i}.'
  narrator "That's right. In that moment, across the wall in Erika-san's room... one more Wanyanner was listening intently, letting out a disgusting laugh."
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  narrator 'Erika-san... who wanted to hear the admiration of her magic circle by comrades, was listening... with a cup pressed against the wall... she was listening the whole time!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
@@ -137,7 +137,7 @@ label event01_30_99:
  erika "...*giggle*... What do you think? Isn't my magic circle a masterpiece...?\nIsn't it a perfect recreation of Bright-sama's magic circle...?"
  show erika_v001 smile at active
  erika "Now, do allow me to hear your praise, Mion-san, Shion-san!!\nI've already satisfied myself with the screams of Nao-san, who refuses to watch Detective Wanyan."
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 fuan at active
  erika 'Nwext, I want to hear your cries of admirationnNNIHIHIHI!!!'
@@ -155,7 +155,7 @@ label event01_30_99:
  narrator 'It was a small, strange sound.\nA quiet sound, but... as if it was pressed right up next to ear.'
  narrator "...No way. ......No, it can't be..."
  narrator "A bead of cold sweat appeared on Erika's face.\n...As it slowly ran down Erika's forehead... her expression... was colored with... an eerie joy."
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  narrator 'Th-these people...... really......!?!'
  narrator "That's right. Erika-san, with the cup pressed against the wall, listens to the voice in the next room over, and hears through the wall..."
@@ -173,7 +173,7 @@ label event01_30_99:
  narrator "I've drawn a perfect magic circle, and am now listening through the wall for voices of admiration... but they're listening to me!!!"
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  narrator 'On either side of the wall separating the two rooms... was one giant slug and two giant slugs... listening to each other through the wall with cups.'
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  narrator '<G-Good>, <Gooderrrrrr>... <Goodeeeeeeeesssssstttt!!!>'
  narrator 'The next day, as if to say "Now it\'s your turn", Erika-san purposely forgot to lock the door.'
@@ -198,7 +198,7 @@ label event01_30_99:
  narrator "At that moment, Erika-san could have immediately illuminated Mion's hand with her black light."
  narrator "If she did that, I would've seen Mion's hands illuminated with fluorescent paint."
  narrator "But she didn't... why? Isn't she supposed to be tougher than that?"
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  narrator 'No. It was respect... awe... reverence...!'
  narrator 'Erika-san had great admiration for the Sonozaki sisters, who had responded not only with their love as Wanyanners, but also with all their might in a battle of wits.'
@@ -419,7 +419,7 @@ label event01_30_99:
  show shion_v002 fuan at mei_left
  show mion_v002 odoroki at mei_right
  with Dissolve(0.5)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show mion_v002 odoroki at active
  show shion_v002 fuan at inactive
@@ -452,7 +452,7 @@ label event01_30_99:
  show shion_v002 smile at active
  show mion_v002 smile at inactive
  shion "There's something like an inscription in front of the portrait. They say it's a riddle, and solving it leads to the location of the gold bars."
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show mion_v002 odoroki at active
  show shion_v002 smile at inactive
@@ -528,7 +528,7 @@ label event01_30_99:
  show mion_v013 fuan at active
  show shion_v011 fuan at inactive
  mion 'Wow, that sure was some lightning...! That was amazing for such a sunny day...'
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show shion_v011 odoroki at active
  show mion_v013 fuan at inactive
@@ -587,7 +587,7 @@ label event01_30_99:
  with Dissolve(0.08333333333333333)
  show nao_v014 sinken at active
  nao "Mion-san and Shion-san seem to be having fun, but I don't understand what's going on!"
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 fuan at active
  nao 'Is this also a costume from Detective Wanyan?!'
@@ -646,7 +646,7 @@ label event01_30_99:
  hide fade with Dissolve(0.08333333333333333)
  show nao_v014 fuan_blush at mei_center
  with Dissolve(0.08333333333333333)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 fuan_blush at active
  nao "I don't think soooooooo!!! Give it back! The front part of the skiiiirtt!"
@@ -683,11 +683,11 @@ label event01_30_99:
  hide fade with Dissolve(0.08333333333333333)
  show nao_v014 sinken at mei_center
  with Dissolve(0.08333333333333333)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 sinken at active
  nao 'Hinamizawa--!! I re-fu-seeeeeee!!!'
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 sinken at active
  nao 'Wait, where are the clothes I was wearing just now?! Where are they?!'
@@ -783,7 +783,7 @@ label event01_30_99:
   parallel:
    linear 0.5 zoom 1.4
  pause 0.5
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 sinken at active
  nao "What's with this outfit!! It's tasteless!! It's pervy! It's the worstttttttt!!!"

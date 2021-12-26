@@ -75,7 +75,7 @@ label event01_30_04:
  show expression 'images/bg/AdvBg_2190.png' as bg
  show nao_v002 sinken at mei_center
  with Dissolve(1.0)
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v002 sinken at active
  nao 'I\'m Team "Kaneda Case Files", all the way! In the name of my granny, I won\'t acknowledge any witches!'
@@ -129,7 +129,7 @@ label event01_30_04:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v002 sinken at active
  nao 'As if things like you "exist", Beatrice!!!\n'
@@ -161,7 +161,7 @@ label event01_30_04:
  pause 0.5
  show beatrice_v001 futeki at active
  beatrice "Let us introduce ourselves once again! I am this island's master, the Golden Witch, Beatrice!!"
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show beatrice_v001 futeki at active
  beatrice 'And tomorrow is my birthday! <Happy Birthday>!! <Tooooo meeeeee>!!!'
@@ -851,7 +851,7 @@ label event01_30_04:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- camera at screenshake_transform
+ camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v002 sinken at active
  show beatrice_v001 futeki at inactive
