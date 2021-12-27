@@ -19,7 +19,7 @@ def main():
     with open(tl_source+'/green.csv', 'r') as tsvfile:
         for line in tsvfile:
             line = line.split('\t')
-            greens.append((line[1], int(line[2]), line[0], line[3]))
+            greens.append((line[1], int(line[2]), line[0].strip('"'), line[3]))
     
     greens.sort()
     greencount = 0
