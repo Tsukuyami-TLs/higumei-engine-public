@@ -6,6 +6,12 @@ import json
 from mei2rp import Compiler, indent
 
 
+def get_chname(s):
+    num = s.split('_')[-1]
+    if num == '00': return 'Prologue'
+    elif num == '99': return 'Epilogue'
+    else: return f'Chapter {num}'
+
 def main():
     event_name = sys.argv[1].split('/')[-1]
     script_source = sys.argv[1]
@@ -24,10 +30,14 @@ def main():
     greens.sort()
     greencount = 0
     scriptnames = []
-    for script, trans in zip(scripts, translations):
+    chapter_jump = []
+    for script in scripts:
         scriptname = script.split('.')[0]
         scriptnames.append(scriptname)
+        chapter_jump.append((get_chname(scriptname), scriptname))
 
+    for n, script, trans in zip(range(len(scripts)), scripts, translations):
+        scriptname = scriptnames[n]
         with open(script_source + '/' + script, 'rb') as jsonfile:
             og_script = json.load(jsonfile)['scr']
 
@@ -42,29 +52,37 @@ def main():
         greendict = {}
         header = f'''label {scriptname}:
  show black_background onlayer black
- $ tlnote_store.current_event={repr(event_name)}
- $ tlnote_store.current_progress={greencount}
+ $ event_store.current_event={repr(event_name)}
+ $ event_store.current_progress={greencount}
+ $ event_store.current_chapter={repr(scriptname)}
                       '''.rstrip()
 
         for scr, line, title, contents in greens:
             if script.endswith(scr):
                 greencount += 1
-                greendict[line] = f'$ tlnote_store.current_progress = {greencount}'
+                greendict[line] = f'$ event_store.current_progress = {greencount}'
              
         compiled = Compiler(og_script, tl_dict, greendict).compile_commands()
+
+        if n == len(scripts)-1:
+            end = 'return'
+        else:
+            end = f'call {scriptnames[n+1]}'
+
         with open(target + scriptname + '.rpy', 'w', encoding='utf8') as outfile:
-            outfile.write(header + '\n' + indent(compiled, 1) + '\n return')
+            outfile.write(header + '\n' + indent(compiled, 1) + '\n ' + end)
 
     NEWLINE = '\n'
     greens = [l[2:] for l in greens]
     with open(target + 'event.rpy', 'w') as outfile:
         outfile.write(f"""
 init python:
- tlnote_store.notes[{repr(event_name)}] = {repr(greens)}
+ event_store.notes[{repr(event_name)}] = {repr(greens)}
+ event_store.chapters[{repr(event_name)}] = {repr(chapter_jump)}
 
 label event_{event_name}:
  stop music
-{indent(NEWLINE.join('call ' + label for label in scriptnames), 1)}
+ call {scriptnames[0]}
         """.strip('\n').rstrip())
 
 
