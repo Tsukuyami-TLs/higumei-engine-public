@@ -54,14 +54,18 @@ define gui.interface_text_color = u'#ffffff'
 
 ## Fonts and Font Sizes ########################################################
 
+
+define default_font = FontGroup().add("gui/fonts/MerriweatherSans-Regular.ttf", 0x0020, 0x007f) \
+                                  .add("gui/fonts/NotoSansCJKjp-Regular.otf", 0x0000, 0xffff)
+
 ## The font used for in-game text.
-define gui.text_font = "gui/fonts/MerriweatherSans-Regular.ttf"
+define gui.text_font = default_font 
 
 ## The font used for character names.
-define gui.name_text_font = "gui/fonts/MerriweatherSans-Regular.ttf"
+define gui.name_text_font = default_font
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "gui/fonts/MerriweatherSans-Regular.ttf"
+define gui.interface_text_font = default_font
 
 ## The size of normal dialogue text.
 define gui.text_size = 34
