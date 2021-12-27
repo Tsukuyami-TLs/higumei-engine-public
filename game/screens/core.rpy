@@ -333,7 +333,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        if not main_menu:
+        if not main_menu and tlnote_store.current_event:
             textbutton _("Notes") action ShowMenu("tl_notes")
 
         textbutton _("Preferences") action ShowMenu("preferences")

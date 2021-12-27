@@ -141,10 +141,11 @@ class CameraTransform:
 
 
 class Compiler:
-    def __init__(self, commands, translation):
+    def __init__(self, commands, translation, forcelines={}):
         self.bgm = self.bgm2
         self.commands = commands
         self.translation = translation
+        self.forcelines = forcelines
         self.outlines = []
         self.local = {}
         self.shown = {}
@@ -420,6 +421,9 @@ camera:
             typ, cmd = get_cmd(line)
             is_talk = 'arg0' not in line and 'arg1' in line
             text_out = ""
+
+            if n in self.forcelines:
+                self.outlines.append(self.forcelines[n])
 
             if is_talk:
                 text_out = self.talk(n, line, cmd)
