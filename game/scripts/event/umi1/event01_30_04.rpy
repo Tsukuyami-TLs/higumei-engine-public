@@ -1,5 +1,7 @@
 label event01_30_04:
  show black_background onlayer black
+ $ tlnote_store.current_event='umi1'
+ $ tlnote_store.current_progress=3
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'

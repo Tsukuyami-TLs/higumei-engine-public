@@ -1,5 +1,7 @@
 label event01_30_10:
  show black_background onlayer black
+ $ tlnote_store.current_event='umi1'
+ $ tlnote_store.current_progress=3
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
@@ -84,6 +86,7 @@ label event01_30_10:
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
+ $ tlnote_store.current_progress = 4
  show erika_v001 sinken at active
  erika "UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 100 billion followers in real liiiiifeeeeeee!!!!"
  show erika_v001 smile at active
@@ -509,6 +512,7 @@ label event01_30_10:
  narrator 'From who knows where, Erika-san grabbed out a secret detective gadget with a little screen... which depicted a scene that matched perfectly with what was in this room...'
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
+ $ tlnote_store.current_progress = 5
  show erika_v001 smile at active
  erika 'Firstly, Shion-san, powerful portrayal of Slugger-kun!'
  play audio 'audio/sfx/SE_215_heartgrow.wav'
@@ -544,6 +548,7 @@ label event01_30_10:
  with Dissolve(0.2)
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
+ $ tlnote_store.current_progress = 6
  show erika_v001 smile at active
  erika "Now I'll judge Mion-san. This one is a depiction of Matilda-san; very nicely done as well!"
  show erika_v001 smile at active
@@ -622,6 +627,7 @@ label event01_30_10:
  hide nao_v002
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
+ $ tlnote_store.current_progress = 7
  show shion_v002 smile at jump_transform,active
  show mion_v002 futeki at inactive
  shion "Even looking at Erika-san's clothes, I can somehow tell that recreated Mirai-san's death scene!"

@@ -1,5 +1,7 @@
 label event01_30_00:
  show black_background onlayer black
+ $ tlnote_store.current_event='umi1'
+ $ tlnote_store.current_progress=0
  narrator 'I should have never come to this island.'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  nao 'N... n......'
@@ -157,9 +159,11 @@ label event01_30_00:
  show nao_v002 smile at mei_left
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
+ $ tlnote_store.current_progress = 1
  show mion_v002 smile at active
  show nao_v002 smile at inactive
  mion 'Nao-chan! Are you watching "Detective Wanyan"?!'
+ $ tlnote_store.current_progress = 2
  show nao_v002 fuan at active
  show mion_v002 smile at inactive
  nao 'I\'m more of a "Kaneda Case Files" person.'

@@ -1,5 +1,7 @@
 label event01_30_01:
  show black_background onlayer black
+ $ tlnote_store.current_event='umi1'
+ $ tlnote_store.current_progress=2
  stop sound
  scene #000
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
@@ -997,6 +999,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show jessica_v001 normal at active
  jessica "It's a portrait of our family alchemist."
+ $ tlnote_store.current_progress = 3
  show jessica_v001 normal at active
  jessica 'According to grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.'
  show nao_v002 normal at mei_left
