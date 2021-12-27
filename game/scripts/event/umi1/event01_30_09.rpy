@@ -1,7 +1,8 @@
 label event01_30_09:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=3
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=3
+ $ event_store.current_chapter='event01_30_09'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
@@ -1078,4 +1079,4 @@ label event01_30_09:
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
  nao 'Maybe that summoning circle...'
- return
+ call event01_30_10

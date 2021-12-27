@@ -1,7 +1,8 @@
 label event01_30_06:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=3
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=3
+ $ event_store.current_chapter='event01_30_06'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
@@ -756,4 +757,4 @@ label event01_30_06:
  with Dissolve(0.2)
  narrator 'Uh... what? What does that mean......?'
  narrator "Shion-san's smile was about 90%% reliable... and 10%% daring, with a bit of creepiness mixed in..."
- return
+ call event01_30_07

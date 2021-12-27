@@ -6,12 +6,12 @@ label chara462001_03:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  pause 1.0
- call wipeout_routine
+ call wipeout_routine from _call_wipeout_routine_2
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_782.png' as bg
- call wipein_routine
+ call wipein_routine from _call_wipein_routine_2
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at active

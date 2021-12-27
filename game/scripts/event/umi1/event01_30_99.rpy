@@ -1,7 +1,8 @@
 label event01_30_99:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=7
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=7
+ $ event_store.current_chapter='event01_30_99'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  scene #000

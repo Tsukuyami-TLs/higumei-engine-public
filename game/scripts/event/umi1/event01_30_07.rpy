@@ -1,7 +1,8 @@
 label event01_30_07:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=3
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=3
+ $ event_store.current_chapter='event01_30_07'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
@@ -967,4 +968,4 @@ label event01_30_07:
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  narrator "I had never seen such a look on Erika-san's face. Her eyes widened, and her expression was one of both shock and dumbfoundedness."
- return
+ call event01_30_08

@@ -6,12 +6,12 @@ label chara032009_01:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
  pause 1.0
- call wipeout_routine
+ call wipeout_routine from _call_wipeout_routine_9
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT1.ogg'
  show expression 'images/bg/AdvBg_351.png' as bg
- call wipein_routine
+ call wipein_routine from _call_wipein_routine_9
  show satoko_v002 fuan at mei_right
  show rika_v002 smile at mei_left
  with Dissolve(0.5)

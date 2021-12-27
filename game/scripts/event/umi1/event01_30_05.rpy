@@ -1,7 +1,8 @@
 label event01_30_05:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=3
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=3
+ $ event_store.current_chapter='event01_30_05'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
@@ -782,4 +783,4 @@ label event01_30_05:
  hide erika_v001
  with Dissolve(0.2)
  narrator "Deal. As Nao Houtani, I'm not going to make an easy compromise..."
- return
+ call event01_30_06

@@ -1,7 +1,9 @@
-init python in tlnote_store:
+init python in event_store:
     current_event = ""
+    current_chapter = ""
     current_progress = 0
     notes = {}
+    chapters = {}
     
 
 
@@ -22,7 +24,7 @@ screen tl_notes(title="", contents=""):
 
             side_xalign 0.5
             
-            for ntitle, ncontents in tlnote_store.notes[tlnote_store.current_event][:tlnote_store.current_progress]:
+            for ntitle, ncontents in event_store.notes[event_store.current_event][:event_store.current_progress]:
                 textbutton _(ntitle):
                     action ShowMenu("tl_notes", ntitle, ncontents)
                     selected title == ntitle
@@ -37,3 +39,15 @@ screen tl_notes(title="", contents=""):
             label title
             text contents
  
+screen chapter_jump():
+    tag menu
+    use game_menu(_("Chapter Jump")):
+        style_prefix "about"
+        has hbox
+
+        vbox:
+            for title, label in event_store.chapters[event_store.current_event]:
+                textbutton _(title):
+                    action Start(label)
+                    selected label == event_store.current_chapter
+

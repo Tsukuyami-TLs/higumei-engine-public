@@ -1,7 +1,8 @@
 label event01_30_08:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=3
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=3
+ $ event_store.current_chapter='event01_30_08'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  scene #000
@@ -1018,4 +1019,4 @@ label event01_30_08:
  show erika_v001 futeki at active
  show nao_v002 sinken at inactive
  erika '...<Good>.'
- return
+ call event01_30_09

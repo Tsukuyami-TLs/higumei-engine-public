@@ -1,7 +1,8 @@
 label event01_30_02:
  show black_background onlayer black
- $ tlnote_store.current_event='umi1'
- $ tlnote_store.current_progress=3
+ $ event_store.current_event='umi1'
+ $ event_store.current_progress=3
+ $ event_store.current_chapter='event01_30_02'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
@@ -933,4 +934,4 @@ label event01_30_02:
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
  erika "This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?"
- return
+ call event01_30_03
