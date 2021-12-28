@@ -137,7 +137,7 @@ label chara462001_03:
  erika 'Hm? The one walking over there is...'
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '............'
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") '............'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -158,7 +158,7 @@ label chara462001_03:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '............?'
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") '............?'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
@@ -170,7 +170,7 @@ label chara462001_03:
  stop music fadeout 0.5
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") '*giggle*... *giggle*giggle*.'
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") '*giggle*... *giggle*giggle*.'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
@@ -180,10 +180,10 @@ label chara462001_03:
  erika 'Hm? ... Rika Furude? Fu-ru-de... hm? Hmm?'
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "*giggle*giggle*... It's obvious what's so funny."
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "Repaying evil for good, hm? Isn't that a nice hobby."
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "*giggle*giggle*... It's obvious what's so funny."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Repaying evil for good, hm? Isn't that a nice hobby."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -202,16 +202,16 @@ label chara462001_03:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "Do you know the type of idiot that would picnic out at a place where bears could come out? You're exactly the same... *giggle*giggle*."
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?"
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Do you know the type of idiot that would picnic out at a place where bears could come out? You're exactly the same... *giggle*giggle*."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
  erika 'Y-you... n-no... thou, thine highest is...!'
  hide erika_v001
  with Dissolve(0.2)
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you..."
- Character('Furude Rika',ctc="ctcArrow", ctc_position="fixed") "I saw you doing something strange, so I was enjoying myself at first, but it really was too much. I really don't need something like you... *giggle*giggle*giggle*!!!"
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you..."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "I saw you doing something strange, so I was enjoying myself at first, but it really was too much. I really don't need something like you... *giggle*giggle*giggle*!!!"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  camera at screenshake_transform,reset_shader

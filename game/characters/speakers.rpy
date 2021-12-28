@@ -15,5 +15,6 @@ define rika = Character("Rika Furude", ctc="ctcArrow", ctc_position="fixed")
 define satoko = Character("Satoko Houjou", ctc="ctcArrow", ctc_position="fixed")
 define miyuki = Character("Miyuki Akasaka", ctc="ctcArrow", ctc_position="fixed")
 define hanyuu = Character("Hanyuu", ctc="ctcArrow", ctc_position="fixed")
+define rena = Character("Rena Ryuugu", ctc="ctcArrow", ctc_position="fixed")
 define chara_placeholder = Character("placeholder_dispname", ctc="ctcArrow", ctc_position="fixed", dynamic=True)
 define placeholder_dispname = "????"

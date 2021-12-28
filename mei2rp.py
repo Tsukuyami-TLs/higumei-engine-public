@@ -61,7 +61,6 @@ for outfit in os.listdir(OUTFIT_MAPS):
             if len(line) < 2: continue
             OUTFITS[name][line[0]] = line[1]
 
-
 def get_outfit(jp):
     if jp == '：': return None
     jp = jp.split('：')
