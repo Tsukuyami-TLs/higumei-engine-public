@@ -1,5 +1,8 @@
 label chara462001_02:
  show black_background onlayer black
+ $ event_store.current_event='chara462001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara462001_02'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
@@ -491,4 +494,5 @@ label chara462001_02:
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active
  satoko "I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!"
- return
+ call chapter_end
+ jump chara462001_03

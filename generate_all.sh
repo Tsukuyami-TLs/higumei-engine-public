@@ -10,15 +10,3 @@ python3 mei2rp.py chara chara462001_03
 python3 mei2rp.py chara chara472001_01
 python3 mei2rp.py chara chara472001_02
 python3 mei2rp.py chara chara472001_03
-python3 mei2rp.py event event01_30_00
-python3 mei2rp.py event event01_30_01
-python3 mei2rp.py event event01_30_02
-python3 mei2rp.py event event01_30_03
-python3 mei2rp.py event event01_30_04
-python3 mei2rp.py event event01_30_05
-python3 mei2rp.py event event01_30_06
-python3 mei2rp.py event event01_30_07
-python3 mei2rp.py event event01_30_08
-python3 mei2rp.py event event01_30_09
-python3 mei2rp.py event event01_30_10
-python3 mei2rp.py event event01_30_99

@@ -1,5 +1,8 @@
 label chara472001_01:
  show black_background onlayer black
+ $ event_store.current_event='chara472001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara472001_01'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
@@ -175,4 +178,5 @@ label chara472001_01:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  dlanor 'I do not MIND. Now THEN...'
- return
+ call chapter_end
+ jump chara472001_02

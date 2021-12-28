@@ -1,5 +1,8 @@
 label chara472001_02:
  show black_background onlayer black
+ $ event_store.current_event='chara472001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara472001_02'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
@@ -402,4 +405,5 @@ label chara472001_02:
  show nao_v001 odoroki at chara_shake_transform,active
  show beatrice_v001 smile at inactive
  nao 'Eh, aahhh...!!'
- return
+ call chapter_end
+ jump chara472001_03

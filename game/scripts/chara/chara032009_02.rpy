@@ -1,5 +1,8 @@
 label chara032009_02:
  show black_background onlayer black
+ $ event_store.current_event='chara032009'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara032009_02'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT6.ogg'
@@ -275,4 +278,5 @@ label chara032009_02:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice "Kuhahhahhahhahha! A great scream that tugs on the heartstrings! Let's enjoy this as much as possibleeeeeeeee!!"
- return
+ call chapter_end
+ jump chara032009_03

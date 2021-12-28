@@ -926,4 +926,5 @@ label event01_30_04:
  show dlanor_v001 normal at inactive
  beatrice "I'm also looking forward to this. *cackle*cackle*cackle*..."
  show white_cover as fade with Dissolve(3.0)
+ call chapter_end
  call event01_30_05

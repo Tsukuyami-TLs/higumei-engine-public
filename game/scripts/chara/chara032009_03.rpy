@@ -1,5 +1,8 @@
 label chara032009_03:
  show black_background onlayer black
+ $ event_store.current_event='chara032009'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara032009_03'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST.ogg'
@@ -363,4 +366,5 @@ label chara032009_03:
  show nao_v002 smile_close at active
  show rika_v002 odoroki at inactive
  nao "But it's just a feeling, yeah? *giggle*"
+ call chapter_end
  return

@@ -1079,4 +1079,5 @@ label event01_30_09:
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
  nao 'Maybe that summoning circle...'
+ call chapter_end
  call event01_30_10

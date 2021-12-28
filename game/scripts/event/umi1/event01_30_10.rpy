@@ -873,4 +873,5 @@ label event01_30_10:
  narrator "Aah... it's getting more and more clear. For me, my stay on Rokkenjima has been a very mysterious three days and two nights, involving witches, magic circles, and puzzles to solve."
  narrator 'But...'
  narrator 'As I was fearing magic circles and concerned with baffling mysteries... a "{i}preposterous{/i}" secret feud between the girls began to ensue.'
+ call chapter_end
  call event01_30_99

@@ -968,4 +968,5 @@ label event01_30_07:
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
  narrator "I had never seen such a look on Erika-san's face. Her eyes widened, and her expression was one of both shock and dumbfoundedness."
+ call chapter_end
  call event01_30_08

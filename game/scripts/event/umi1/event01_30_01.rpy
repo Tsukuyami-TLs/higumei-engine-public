@@ -1054,4 +1054,5 @@ label event01_30_01:
  pause 1.0
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  beatrice '{i}*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/i}'
+ call chapter_end
  call event01_30_02

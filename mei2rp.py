@@ -443,7 +443,12 @@ camera:
         return "\n".join(self.outlines)
 
 def compile_script(folder, fname):
-    header = f'label {fname}:\n show black_background onlayer black'
+    ssrname, num = fname.split('_')
+    header = f'''label {fname}:
+ show black_background onlayer black
+ $ event_store.current_event={repr(ssrname)}
+ $ event_store.current_progress=0
+ $ event_store.current_chapter={repr(fname)}'''
     
     with open(f'scripts/{folder}/{fname}.bytes', 'rb') as jsonfile:
         og_script = json.load(jsonfile)['scr']
@@ -461,9 +466,14 @@ def compile_script(folder, fname):
         tl_dict = {}
 
     compiled = Compiler(og_script, tl_dict).compile_commands()
+    
+    if num == "03":
+        end = "return"
+    else:
+        end = f"jump {ssrname}_{int(num)+1:02d}"
 
     with open(f'game/scripts/{folder}/{fname}.rpy', 'w', encoding='utf8') as outfile:
-        outfile.write(header + '\n' + indent(compiled, 1) + '\n return')
+        outfile.write(header + '\n' + indent(compiled, 1) + '\n call chapter_end\n ' + end)
 
 
 if __name__ == '__main__':

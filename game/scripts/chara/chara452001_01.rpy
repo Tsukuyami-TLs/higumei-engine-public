@@ -1,5 +1,8 @@
 label chara452001_01:
  show black_background onlayer black
+ $ event_store.current_event='chara452001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara452001_01'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
@@ -220,4 +223,5 @@ label chara452001_01:
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'Hmm... please forget that nonsense. It seems I am getting a little sentimental.'
- return
+ call chapter_end
+ jump chara452001_02

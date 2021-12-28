@@ -1019,4 +1019,5 @@ label event01_30_08:
  show erika_v001 futeki at active
  show nao_v002 sinken at inactive
  erika '...<Good>.'
+ call chapter_end
  call event01_30_09

@@ -611,4 +611,5 @@ label event01_30_00:
  show erika_v001 fuan at active
  show dlanor_v001 normal_close at inactive
  erika 'Well, you {i}were{/i} my motive in putting my leg in front of that kid.'
+ call chapter_end
  call event01_30_01

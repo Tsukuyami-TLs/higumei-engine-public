@@ -1,5 +1,8 @@
 label chara452001_02:
  show black_background onlayer black
+ $ event_store.current_event='chara452001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara452001_02'
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_2190.png' as bg
@@ -171,4 +174,5 @@ label chara452001_02:
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
  rena 'Yup, do your best. Rena will be rooting for you to do well, Nao-chan...!'
- return
+ call chapter_end
+ jump chara452001_03

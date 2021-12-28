@@ -70,7 +70,7 @@ def main():
             end = f'call {scriptnames[n+1]}'
 
         with open(target + scriptname + '.rpy', 'w', encoding='utf8') as outfile:
-            outfile.write(header + '\n' + indent(compiled, 1) + '\n ' + end)
+            outfile.write(header + '\n' + indent(compiled, 1) + '\n call chapter_end\n ' + end)
 
     NEWLINE = '\n'
     greens = [l[2:] for l in greens]

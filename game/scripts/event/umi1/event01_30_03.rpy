@@ -918,4 +918,5 @@ label event01_30_03:
  nao 'A.........  magic circle.........'
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  pause 2.0
+ call chapter_end
  call event01_30_04

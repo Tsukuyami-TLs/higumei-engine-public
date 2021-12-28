@@ -783,4 +783,5 @@ label event01_30_05:
  hide erika_v001
  with Dissolve(0.2)
  narrator "Deal. As Nao Houtani, I'm not going to make an easy compromise..."
+ call chapter_end
  call event01_30_06

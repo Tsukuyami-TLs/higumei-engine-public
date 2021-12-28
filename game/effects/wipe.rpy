@@ -102,3 +102,10 @@ label wipein_routine:
     hide wipein7
 
     return
+
+label chapter_end:
+    # TODO: Put whatever transition you want here
+    scene black_cover
+    with Dissolve(1.0)
+    pause 1.0
+    "End chapter." # lol please remove this later

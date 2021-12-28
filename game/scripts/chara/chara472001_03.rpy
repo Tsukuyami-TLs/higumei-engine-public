@@ -1,5 +1,8 @@
 label chara472001_03:
  show black_background onlayer black
+ $ event_store.current_event='chara472001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara472001_03'
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_103.png' as bg
@@ -190,4 +193,5 @@ label chara472001_03:
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor 'YES. ...I am also looking forward to IT.'
+ call chapter_end
  return

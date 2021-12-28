@@ -1,5 +1,8 @@
 label chara452001_03:
  show black_background onlayer black
+ $ event_store.current_event='chara452001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara452001_03'
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_591.png' as bg
@@ -359,4 +362,5 @@ label chara452001_03:
  beatrice '....Nao, you have my thanks. The time we spent together was short, but it was incredibly fun.'
  show beatrice_v001 smile at active
  beatrice 'The scenery outside the island that I saw through your eyes was quite beautiful...'
+ call chapter_end
  return

@@ -1,5 +1,8 @@
 label chara462001_01:
  show black_background onlayer black
+ $ event_store.current_event='chara462001'
+ $ event_store.current_progress=0
+ $ event_store.current_chapter='chara462001_01'
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
@@ -212,4 +215,5 @@ label chara462001_01:
  dlanor "...Is she GONE? If she didn't have those huge jumps in emotion, she would be quite the outstanding character, HOWEVER..."
  show dlanor_v001 fuan_close at active
  dlanor "...I guess it can't be HELPED."
- return
+ call chapter_end
+ jump chara462001_02
