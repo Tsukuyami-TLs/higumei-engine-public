@@ -103,9 +103,10 @@ label wipein_routine:
 
     return
 
+image chend_cover = Solid(Color('#000'), xalign=0.5, yalign=0.5, xzoom=2.0, yzoom=2.0)
 label chapter_end:
     camera:
-        anchor (0.5,0.5)
+        align (0.5, 0.5)
         parallel:
             linear 1.0 pos (0.5, 0.5)
         parallel:
@@ -114,7 +115,7 @@ label chapter_end:
     $ timeout = 2.0
     $ timepause = 1.0
     $ timein = 1.0
-    show black_cover as fade:
+    show chend_cover:
        alpha 0.0
        linear timeout alpha 1.0
     show expression "gui/higulogo_mei.png" as logo:
