@@ -104,6 +104,13 @@ label wipein_routine:
     return
 
 label chapter_end:
+    camera:
+        anchor (0.5,0.5)
+        parallel:
+            linear 1.0 pos (0.5, 0.5)
+        parallel:
+            linear 1.0 zoom 1.0
+    pause 1.0
     $ timeout = 2.0
     $ timepause = 1.0
     $ timein = 1.0
