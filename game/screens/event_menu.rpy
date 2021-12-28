@@ -13,16 +13,15 @@ screen tl_notes(title="", contents=""):
         style_prefix "about"
         has hbox
 
-        vpgrid:
+        
+        viewport:
             area (0,0,500,1.0)
-            cols 1
-            spacing 5
 
             draggable True
             mousewheel True
             scrollbars "vertical"
 
-            side_xalign 0.5
+            has vbox
             
             for ntitle, ncontents in event_store.notes[event_store.current_event][:event_store.current_progress]:
                 textbutton _(ntitle):
