@@ -106,7 +106,7 @@ label chara032009_03:
  nao 'It\'s not like I\'m completely denying it. If it was that way, I guess it would be a, "who would I be chatting with at this moment", sort of thing. But...'
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
- nao "It's that taking in all of someone else's story without questioning it that I mean. I should able to check whether or not that information is correct by properly verifying it through my own investigation..."
+ nao "It's that taking in all of someone else's story without questioning it that I mean. I should be able to check whether or not that information is correct by properly verifying it through my own investigation..."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
  nao 'Doing that, information becomes knowledge, your eyes become nourished with intelligence... Something that my mom taught me.'

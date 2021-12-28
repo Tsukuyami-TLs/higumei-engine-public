@@ -142,14 +142,14 @@ label event01_30_00:
  narrator 'At first, I thought that I could help Rena-chan with that stuff and have her go instead.'
  narrator "But the Sonozaki sisters already had it planned out. The three were invited to go, but Rena-chan couldn't make it. And since having that leftover space would be wasteful, I was asked to go in her place."
  narrator 'I was also given the option to turn down the offer if it was a bother. In that situation, the sisters told me they would just go on their own.'
- narrator "Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories on my time there."
+ narrator "Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there."
  stop music fadeout 2.0
  show black_cover as fade with Dissolve(1.0)
  scene black_cover
  narrator 'So, just like that, I suddenly accepted the trip to Rokkenjima for three days and two nights. ...We were absolutely going to have lots of fun this time.'
  narrator 'But that might have... gotten jinxed at some point...'
  play audio 'audio/sfx/SE_5053_wind.wav'
- narrator 'It was probably because of that. When we were heading to Niijima by ferry... the sky started looking weird.'
+ narrator 'It was probably because of {i}that{/i}. When we were heading to Niijima by ferry... the sky started looking weird.'
  narrator "It has to be that unpleasant woman's... Erika Furudo's fault."
  stop sound
  scene black_cover
@@ -190,7 +190,7 @@ label event01_30_00:
    linear 0.5 zoom 1.3
  pause 0.5
  show mion_v002 fuan at active
- mion 'But please! I thought you were just messing with this ol\' man, but the movie Detective Wanyan\'s "Mid-Autumn\'s Lament: The Heartbroken Rabbits Murder Case" is something you absolutely must waaatch!!!'
+ mion 'But please! I thought you were just messing with this ol\' man, but the Detective Wanyan movie "Mid-Autumn\'s Lament: The Heartbroken Rabbits Murder Case" is something you absolutely must waaatch!!!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -277,7 +277,7 @@ label event01_30_00:
  with Dissolve(0.2)
  narrator "Thankfully, he fell gracefully and gently. He wasn't hurt."
  play audio 'audio/sfx/SE_408_run.wav'
- narrator 'The child eventually runs off, still crying. The only ones left afterwards were... just the girl and I.'
+ narrator 'The child eventually ran off, still crying. The only ones left afterwards were... just the girl and I.'
  show erika_v001 normal_close at mei_right
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)

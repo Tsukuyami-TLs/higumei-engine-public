@@ -189,7 +189,7 @@ label chara472001_03:
  dlanor 'This opponent might not be so easily BREAKABLE.'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
- erika "Woah... what ununual confidence. I'm looking forward to this battle with them now since you seem so sure about it."
+ erika "Woah... what unusual confidence. I'm looking forward to this battle with them now since you seem so sure about it."
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor 'YES. ...I am also looking forward to IT.'

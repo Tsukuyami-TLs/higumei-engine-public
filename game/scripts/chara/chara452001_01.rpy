@@ -29,7 +29,7 @@ label chara452001_01:
  play audio 'audio/sfx/SE_5049_cup.wav'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao 'Then, itadakimasu... Mmmmm... wow... delicious...! '
+ nao "Down the hatch, then... Woooow... it's delicious...! "
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show nao_v002 smile_blush at jumping_transform,active
  show beatrice_v001 normal at inactive

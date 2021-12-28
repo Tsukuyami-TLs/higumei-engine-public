@@ -28,7 +28,7 @@ label event01_30_05:
  narrator "Let's recap what happened last night.\nWhen we returned to our guest room, I found my bed ravaged... and a magic circle was painted onto the sheets."
  narrator "It was a prank that Beatrice plays on those who don't believe in witches."
  narrator 'In my dream I suspected Shannon-san, who went up to our room to check the lock of the window.'
- narrator "Thinking about it now, I feel sorry after so diligently suspecting someone who's always helping us."
+ narrator "Thinking about it now, I feel sorry for so diligently suspecting someone who's always helping us."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -66,7 +66,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "I usually have a hard time sleeping on a different pillow while on vacation, so I brought those in case. I'm glad they helped you too."
+ shion "I usually have a hard time sleeping on a different pillow while on vacation, so I brought those just in case. I'm glad you found them useful."
  show mion_v002 smile at jump_transform,active
  show shion_v002 smile at inactive
  mion 'Yeeaaah!! We have great weather today! The best kind for a photo shoot!!'
@@ -83,7 +83,7 @@ label event01_30_05:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'Us three were... very surprised... last night when we saw that ominous magic circle painted on my bedsheet.'
- narrator '...However, what surprised me more was that it was only me who was shocked the entire time.'
+ narrator '...However, what surprised me even more was that it was only me who was shocked the entire time.'
  narrator 'A few moments after we saw the magic circle, Mion-san started to roar with laughter. It was so sudden, I was speechless and feared that the witch had possessed her.'
  narrator '....But thinking about it again, Mion-san probably understood in an instant that it was just a prank mimicking a curse from the witch.'
  narrator "...But of course, there is no such thing as witches or magic. There's no way to think of it other than a prank being done by a human."
@@ -100,10 +100,10 @@ label event01_30_05:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '......Maybe I should learn to be stoic like those two...'
+ nao '......Maybe I should learn to be as stoic like those two...'
  hide nao_v002
  with Dissolve(0.2)
- narrator "Because of that, the witch's panic overcame me in my dreams."
+ narrator 'Because of that fear, I let the witch impose on my dreams...'
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -200,7 +200,7 @@ label event01_30_05:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'She had a tag hanging on a doorknob saying "Do not disturb".'
+ nao 'She had a tag hanging on a doorknob saying "Do Not Disturb".'
  hide nao_v002
  with Dissolve(0.2)
  show kanon_v001 normal_close at mei_right
@@ -235,7 +235,7 @@ label event01_30_05:
  mion "Well, last night's board game session was a lot of fun!"
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion "Sis. About that tactic you did, I'm sure they'll have an errata in the next rule revision. There's no way they'll allow that."
+ shion "Sis. About that tactic you used, I'm sure they'll have an errata in the next rule revision. There's no way they'll allow that."
  show mion_v002 normal at active
  show shion_v002 fuan at inactive
  mion "Oh, really? Whether it's a game or real life, just read the text carefully. You never know where you'll find a trap!"
@@ -292,7 +292,7 @@ label event01_30_05:
  play audio 'audio/sfx/SE_006_WindowScroll.wav'
  show shion_v002 normal at active
  show mion_v002 normal at inactive
- shion 'I wrote the all red truths that Beatrice said in your dream. Could you double-check them?'
+ shion 'I wrote down all the red truths that Beatrice said in your dream. Could you double-check them?'
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -407,10 +407,10 @@ label event01_30_05:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 futeki at inactive
- shion 'In the timeframe the room was locked and then unlocked, going upstairs is forbidden, right?'
+ shion "From the time the room was locked until it was unlocked, the red doesn't allow going upstairs, right?"
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'But you can go upstairs before then.'
+ mion 'But someone could have gone upstairs before then.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "Meaning, if you're already upstairs between the time the door is locked and the time it's unlocked, there's no problem at all!"
@@ -441,7 +441,7 @@ label event01_30_05:
  nao 'So... the culprit climbed up the wall outside... broke in through the window, and hid in another room on the second floor...?!'
  show mion_v002 smile at active
  show nao_v002 odoroki at inactive
- mion "I couldn't tell last night because it was dark. In the morning, this ol' man opened the window and checked the outer wall."
+ mion "I couldn't tell last night because it was dark. But in the morning, this ol' man opened the window and checked the outer wall."
  show mion_v002 smile at active
  show nao_v002 odoroki at inactive
  mion 'There were no obvious traces, but the overhang on the lower floor made for a nice foothold.'
@@ -501,7 +501,7 @@ label event01_30_05:
  erika "I'm thinking of relaxing and reading my books at the arbor in the rose garden."
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika 'I remember Nao-chama was saying you were going to do embroidery while looking at the rose garden?'
+ erika 'I remember Nao-chama saying she was going to do embroidery while looking at the rose garden?'
  hide erika_v001
  hide mion_v002
  with Dissolve(0.2)
@@ -572,7 +572,7 @@ label event01_30_05:
  erika "Well, you see, it would typically be classified under the romance genre... yet it's very much a mystery to me."
  show erika_v001 smile at active
  show mion_v002 smile at inactive
- erika 'Why is that motivation to fall in love? Or, why step into the minefield of love without hedging your risks? And so on.'
+ erika 'What is the motivation to fall in love? Or, why step into the minefield of love without hedging your risks? And so on.'
  show erika_v001 normal at active
  show mion_v002 smile at inactive
  erika 'To me, the behavioral philosophy of love supremacists is a much juicier read than an ordinary mystery.'
@@ -581,13 +581,13 @@ label event01_30_05:
  mion "Hahahaha. This ol' man understands that a little bit too. A woman's mind may be more mysterious than a mystery novel."
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika 'As a detective, there is no harm in learning about the "emotion of romance": one of the most common motives for murder since ancient times.'
+ erika 'As a detective, there is no harm in learning about the "emotion of romantic love": one of the most common motives for murder since ancient times.'
  hide mion_v002
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'Erika-san? Love is not a matter of logic. When you feel the spark, you go zap and then boom♪'
+ shion "Erika-san? Love isn't a matter of logic. When you feel the spark, you go zap and then boom♪"
  hide erika_v001
  hide shion_v002
  with Dissolve(0.2)
@@ -648,7 +648,7 @@ label event01_30_05:
  shion "Why don't you come and join, Jessica-san? It can get pretty addictive～♪"
  show jessica_v001 smile at active
  show shion_v004 smile at inactive
- jessica "N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can take both of you then!"
+ jessica "N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!"
  hide shion_v004
  show mion_v005 odoroki at mei_left
  with Dissolve(0.5)
@@ -657,7 +657,7 @@ label event01_30_05:
  mion 'What? Really? That would be great! Can you handle an SLR camera?'
  show jessica_v001 smile at nod_transform,active
  show mion_v005 odoroki at inactive
- jessica "Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him."
+ jessica "Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him even."
  hide jessica_v001
  hide mion_v005
  with Dissolve(0.2)
@@ -685,7 +685,7 @@ label event01_30_05:
  show jessica_v001 smile_blush at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile_blush at active
- jessica "Let's get a shot then! Give me your best pose! W-wow, so bold... so sexy..."
+ jessica "Let's take a shoot then! Give me your best pose! W-wow, so bold... so sexy..."
  hide jessica_v001
  with Dissolve(0.2)
  narrator 'For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be completely different.'
@@ -732,7 +732,7 @@ label event01_30_05:
  hide erika_v001
  with Dissolve(0.2)
  narrator "How creepy... She wasn't reading, but instead, she was watching me the whole time...?"
- narrator "After all, I don't get along with this person. I mean, I can clearly sense her hostility."
+ narrator "After all, I can't get along with this person. I mean, I can clearly sense her hostility."
  narrator "When you think about it, turning your back on this place feels like admitting defeat. There's no way I'm running away..."
  show erika_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -782,6 +782,6 @@ label event01_30_05:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator "Deal. As Nao Houtani, I'm not going to make an easy compromise..."
+ narrator "Deal. As Nao Houtani, I'm not going to take an easy compromise..."
  call chapter_end
  call event01_30_06

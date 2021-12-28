@@ -65,8 +65,8 @@ label event01_30_08:
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
  with Dissolve(1.0)
- narrator 'Huh? ...Mion-san and Shion-san are... disappearing as if they were a mirage the whole time.'
- narrator 'Erika-san and I remained. In place of where Mion-san and Shion-san vanished... wait, those witches appeared in my dreams...'
+ narrator 'Huh? ...Mion-san and Shion-san... disappeared as if they were a mirage the whole time.'
+ narrator 'Erika-san and I remained. In place of where Mion-san and Shion-san vanished... the form of those witches from my dreams appeared...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -403,7 +403,7 @@ label event01_30_08:
  hide dlanor_v001
  with Dissolve(0.2)
  narrator "This was the crux. ...The point being that it's the same as last night's magic circle. Erika-san confirmed there was nothing weird inside her room when she locked it."
- narrator 'Normally, the crime would have occurred from that point onward... but it became a perfect closed room.'
+ narrator 'Normally, the crime could have occurred from that point onward... but at that point it became a perfect closed room.'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show red_cover as fade with Dissolve(0.16666666666666666)
@@ -411,19 +411,19 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '{umi_red}From the point the door is locked until Erika unlocks it, the room is a perfect closed ROOM.{/umi_red}'
+ dlanor '{umi_red}From the point the door is locked until Erika unlocked it, the room was a perfect closed ROOM.{/umi_red}'
  show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '{umi_red}Nobody existed inside the room at that time, and nobody can enter by any other METHOD.{/umi_red}'
+ dlanor '{umi_red}Nobody existed inside the room at that time, and nobody could have entered by any other METHOD.{/umi_red}'
  show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '{umi_red}The magic circle prank cannot be completed unless the person enters the ROOM.{/umi_red}'
+ dlanor '{umi_red}The magic circle prank could not have been completed unless the person entered the ROOM.{/umi_red}'
  show dlanor_v001 normal_close at active
  dlanor 'That will be all for NOW. ...Everyone, please begin your INVESTIGATION...'
  hide dlanor_v001
@@ -458,10 +458,10 @@ label event01_30_08:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "That is correct. Before I entered the room, I ensured that there wasn't any garbage packed into the keyhole, so a bit of time."
+ erika "That is correct. Before I entered the room, I ensured that there wasn't any garbage packed into the keyhole, so it took a bit of time."
  hide erika_v001
  with Dissolve(0.2)
- narrator "...Why is Beatrice focusing on that? My plan of attack was centered on Erika-san's acting..."
+ narrator '...Why is Beatrice focusing on that? My plan of attack was centered on Erika-san acting...'
  show dlanor_v001 normal at mei_left
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
@@ -480,7 +480,7 @@ label event01_30_08:
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor "{umi_red}From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible to place the magic CIRCLE.{/umi_red}"
+ dlanor "{umi_red}From the time Erika entered her room to the time Nao's group entered after hearing her scream, it was impossible for her to place the magic CIRCLE.{/umi_red}"
  hide dlanor_v001
  hide beatrice_v001
  with Dissolve(0.2)
@@ -499,7 +499,7 @@ label event01_30_08:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '{umi_red}From the time Erika entered her room, it was impossible to place the magic circle by any kind of METHOD.{/umi_red}'
+ dlanor '{umi_red}After Erika entered her room, placing the magic circle through any kind of method is not DOABLE.{/umi_red}'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -507,7 +507,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika "Thank you very much for clearing up those false accusations for me. See? See how I wasn't acting? I just needed more time."
+ erika "Thank you very much for clearing up those false accusations for me. See? See how I wasn't acting? I wasn't given enough time."
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
  nao '...How terrible. But this was still the same as what happened to my bed...'
@@ -580,7 +580,7 @@ label event01_30_08:
  scene black_cover
  show expression 'images/bg/AdvBg_2320.png' as bg
  with Dissolve(1.0)
- dlanor 'Over here is the first magic circle, and over here is the SECOND. Please compare THEM.'
+ dlanor 'Over here is the first magic circle, and over there is the SECOND. Please compare THEM.'
  beatrice '...Hmm......? How are they different?'
  show black_cover as fade with Dissolve(1.0)
  stop sound
@@ -616,7 +616,7 @@ label event01_30_08:
  erika 'A photographic memory... an invaluable tool for a detective.'
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao "I was panicking yesterday and was in shock, so I assumed that today's magic circle was the exact same..."
+ nao "I was panicking yesterday and I was in shock, so I assumed that today's magic circle was the exact same..."
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao 'There. See these letters surrounding the magic circle in a ring? ... This one specifically is different.'
@@ -904,7 +904,7 @@ label event01_30_08:
  beatrice "I don't care about winning or losing, this game is purely for entertainment. I still intend to have a fair fight, however."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'I attacked Nao just now, so next, I will place my attack on Erika.'
+ beatrice 'I attacked you just now, so next, I will place my attack on Erika.'
  hide nao_v002
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
@@ -996,7 +996,7 @@ label event01_30_08:
  nao 'Then Beatrice and I would be the winners...'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'However, as the reciter, this is nothing more than just a whisper to ME.'
+ dlanor 'However, as the Reader, this is nothing more than just a whisper to ME.'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
  dlanor 'You are free to tell Lady Beatrice and ally with her; however, Erika-san will hear it as WELL.'

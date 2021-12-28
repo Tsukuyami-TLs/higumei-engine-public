@@ -98,7 +98,7 @@ label event01_30_01:
  show erika_v001 normal at active
  erika 'I suppose I am a fan. Even if it is a work of fiction, I both pity and envy anyone calling themself a detective.'
  show erika_v001 normal_close at active
- erika 'The reasoning in the show is admirable, but my gripe is if I were the detective, I could have demonstrated a far more brilliant deduction.'
+ erika 'The reasoning in the show is admirable. My only gripe with it is that I could have demonstrated even more brilliant deductions were I the detective.'
  hide erika_v001
  with Dissolve(0.2)
  narrator "The Sonozaki sisters and Erika...san have somehow hit it off. \nI'm the only one left out. ...*sigh*."
@@ -116,7 +116,7 @@ label event01_30_01:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "It might be a bit difficult as the boat is rocking, but can you see it? That's Rokkenjima over there."
+ erika "It might be a bit difficult since the boat is rocking back and forth, but can you see it? That's Rokkenjima over there."
  hide erika_v001
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -137,7 +137,7 @@ label event01_30_01:
  erika 'Now, I have a question... Why do you think the island is called Rokkenjima (Six House Island)?'
  hide erika_v001
  with Dissolve(0.2)
- narrator "...If it's because there were six houses on the island a long time ago , then it'd be too easy."
+ narrator "...If it's just because there were six houses on the island a long time ago , then it'd be too easy."
  narrator "But it's also the exact answer that comes out of Mion's mouth."
  play music 'audio/bgm/BGM_QUEST4_COLLAB2.ogg'
  show erika_v001 normal at mei_center
@@ -218,7 +218,7 @@ label event01_30_01:
  erika '*giggle*...'
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
- nao "I don't really care what's living on the island. ...Ghosts and spirits, I don't believe in any of that."
+ nao "I don't really care what's living on the island. ...Ghosts or spirits, I don't believe in any of that."
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
  erika 'Oh?'
@@ -446,7 +446,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shannon_v001 smile at inactive
- erika 'I would like to express my gratitude to Kanon-san directly. Is there any way you can call him?'
+ erika 'I would like to express my gratitude to Kanon-san directly. Is there any way you could call him?'
  show shannon_v001 smile_close at active
  show erika_v001 normal at inactive
  shannon 'Your words are too kind. I will pass your message on to him.'
@@ -701,7 +701,7 @@ label event01_30_01:
  shion 'I never knew you had that little self respect, Sis.'
  show nao_v002 fuan_close at active
  show shion_v002 smile at inactive
- nao "I-If you did that and he turned it down I wouldn't know how to respond..."
+ nao "I-If you did that and he turned it down, I wouldn't know how to respond..."
  window hide None
  show black_cover as fade with Dissolve(1.0)
  hide nao_v002
@@ -712,7 +712,7 @@ label event01_30_01:
  show expression 'images/bg/AdvBg_2371.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_5007_keyroll.wav'
- narrator 'We leave our bags and lock the room.'
+ narrator 'We left our bags and locked the room.'
  narrator 'Erika-san had also just come out and locked her room.'
  window hide None
  show black_cover as fade with Dissolve(1.0)
@@ -795,7 +795,7 @@ label event01_30_01:
  shannon 'Everyone, I would like to show you the mansion.'
  hide shannon_v001
  with Dissolve(0.2)
- narrator 'After the refreshments and a break, Jessica comes to get us.'
+ narrator 'After the refreshments and a little break, Jessica arrived to come get us.'
  narrator "First, we'll go greet the family members that will be taking care of us these next few days.\nThen after that, we'll be shown around the Western-style mansion built right after the war."
  window hide None
  show black_cover as fade with Dissolve(1.0)
@@ -874,7 +874,7 @@ label event01_30_01:
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2301.png' as bg
  with Dissolve(1.0)
- narrator 'The masters of the house, Ushiromiya Krauss-san and Natsuhi-san, came to greet us.'
+ narrator 'The masters of the house, Krauss Ushiromiya-san and Natsuhi-san, came to greet us.'
  narrator 'Krauss-san was a wealthy looking, well-dressed gentleman. \nHis wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.'
  show mion_v002 smile at mei_center
  with Dissolve(0.5)
@@ -1002,7 +1002,7 @@ label event01_30_01:
  jessica "It's a portrait of our family alchemist."
  $ event_store.current_progress = 3
  show jessica_v001 normal at active
- jessica 'According to grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.'
+ jessica 'According to Grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.'
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active

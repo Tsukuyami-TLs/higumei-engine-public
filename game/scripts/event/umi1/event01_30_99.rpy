@@ -19,7 +19,7 @@ label event01_30_99:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao '...........................'
+ nao 'H-............'
  hide nao_v002
  with Dissolve(0.2)
  show mion_v002 sinken at mei_right
@@ -27,7 +27,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show shion_v002 odoroki at jump_transform,active
  show mion_v002 sinken at inactive
- shion "What's wrong? ...Wha?!?! S-sis...!!"
+ shion 'What happened? .........Heee?!?! S-Sis...!!'
  show mion_v002 futeki at active
  show shion_v002 odoroki at inactive
  mion "...They've... done it..."
@@ -53,7 +53,7 @@ label event01_30_99:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'I was enraptured by that horrible magic circle. That was when the Sonozakis spoke.'
- narrator "Wha?!? S-sis...!! ...They've... done it..."
+ narrator "Wha?!?! S-sis...!! \n...They've... done it..."
  narrator "The following is an exchange that only the Sonozaki sisters can hear. I was so terrified that I couldn't even hear it."
  show mion_v002 futeki at mei_right
  show shion_v002 sinken at mei_left
@@ -107,7 +107,7 @@ label event01_30_99:
  pause 0.0
  scene black_cover
  narrator 'Now, Shannon-san had originally not planned to go to the room upstairs.'
- narrator 'She only had to upstairs because I suddenly mentioned the lock on the window.'
+ narrator 'She only had to go upstairs because I suddenly mentioned the lock on the window.'
  narrator "So, at that point, I'm sure Erika-san was panicking internally."
  narrator "That's because it was {i}me{/i} who was supposed to be the first to discover the magic circle prank and be surprised."
  narrator 'And at the same time, it would have been a fun joke to share with her fellow Wanyanners, Mion-san and Shion-san.'
@@ -173,7 +173,7 @@ label event01_30_99:
  hide erika_v001
  with Dissolve(0.2)
  narrator "Those two... {i}they're listening to me{/i}!!!"
- narrator "I've drawn a perfect magic circle, and am now listening through the wall for voices of admiration... but they're listening to me!!!"
+ narrator "I've drawn a perfect magic circle, and am now listening through the wall for voices of admiration... but at the same time they're listening to me!!!"
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  narrator 'On either side of the wall separating the two rooms... was one giant slug and two giant slugs... listening to each other through the wall with cups.'
  camera at screenshake_transform,reset_shader
@@ -193,12 +193,12 @@ label event01_30_99:
  narrator "The two of them didn't underestimate Erika-san... They had suspected something had been attached to them that they couldn't percieve! "
  narrator 'The purpose of the shower was to wash that away, and more importantly, switch the sisters.'
  narrator 'But, Erika-san is crazy enough to call herself a great detective.'
- narrator 'When nothing came up after shining on Shion-san\'s hand with the black light, and she started crying out, "That\'s impossible!"... it wasn\'t frenzied scream of despair, but rather, of great delight.'
- narrator 'Erika-san says... Knox\'s 10th: "it is forbidden to disguise yourself as another person without any clues."'
+ narrator 'When nothing came up after shining on Shion-san\'s hand with the blacklight, and she started crying out, "That\'s impossible!"... it wasn\'t frenzied scream of despair, but rather, of great delight.'
+ narrator 'In Erika-san\'s words... "Knox\'s 10th: It is forbidden to disguise yourself as another person without any clues."'
  narrator 'However, Erika-san had met the sisters, introduced herself, and knew that they were identical twins.'
  narrator '"Identical twin sisters", Erika-san had said herself on the boat to Rokkenjima.'
  narrator "Therefore, EFFECTIVE.\nA disguise that does not violate Knox's 10th. No, a swap...!"
- narrator "At that moment, Erika-san could have immediately illuminated Mion's hand with her black light."
+ narrator "At that moment, Erika-san could have immediately illuminated Mion's hand with her blacklight."
  narrator "If she did that, I would've seen Mion's hands illuminated with fluorescent paint."
  narrator "But she didn't... why? Isn't she supposed to be tougher than that?"
  camera at screenshake_transform,reset_shader
@@ -263,11 +263,11 @@ label event01_30_99:
  erika "Today's her day off. It can't be helped. Do give her my regards, for we are comrades under the giant slug!"
  show kanon_v001 normal at active
  show erika_v001 normal at inactive
- kanon '...Um, of course. ...As always, there are two truths.'
+ kanon '...Um, I think that quote was ..."The truth is always twofold."'
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 smile at active
  show kanon_v001 normal at inactive
- erika 'As always, there are two truths! Do you read it too?'
+ erika 'The truth is always twofold! Do you read it too?'
  hide erika_v001
  hide kanon_v001
  with Dissolve(0.2)
@@ -406,7 +406,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show erika_v001 normal at inactive
- nao "...What's with the letter that Erika received?"
+ nao "...What's with the letter that you received?"
  show erika_v001 normal_close at active
  show nao_v002 smile at inactive
  erika "Don't worry. I am only a messenger. I have merely been entrusted with this message to give to my master."
@@ -553,7 +553,7 @@ label event01_30_99:
  erika 'That is... if I remember correctly, the Chiester Sisters Guard Corps.'
  show nao_v014 odoroki_blush at chara_shake_transform,active
  show erika_v001 normal at inactive
- nao "Wh... wh-wh-what's with these clothes? Hey, wait, the skirt's too short! I mean, you can see the whole front?!"
+ nao "Wh... wh-wh-what's with these clothes? Hey, wait, this skirt's way too short! I mean, you can see the whole front?!"
  hide erika_v001
  hide nao_v014
  with Dissolve(0.2)
@@ -630,12 +630,12 @@ label event01_30_99:
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_006_WindowScroll.wav'
  narrator "I wonder if you've been enjoying yourself?\nIt instantly changes your clothes when you open it, as it's a Clothes Change Pandora Box!"
- narrator "The truth is, I thought I'd give the three of you the costumes you wanted the most while giving you all a glimpse at a fragment of yourselves."
+ narrator "In fact, I thought I'd give the three of you the costumes you wanted the most while giving you all a glimpse at a fragment of yourself."
  narrator "For Mion and Shion, I had a clear image of what they wanted, but I couldn't figure anything out for Nao."
  show nao_v014 fuan at mei_center
  with Dissolve(0.5)
  show nao_v014 fuan at active
- nao "...For clothing, my needs change from time to time. I don't usually have an image of one outfit I want the most."
+ nao "...For clothing, my preferences change all the time. I don't usually have an image of one outfit I want the most."
  hide nao_v014
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_006_WindowScroll.wav'

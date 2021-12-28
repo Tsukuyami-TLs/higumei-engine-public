@@ -23,7 +23,7 @@ label chara032009_01:
  rika 'Meep. Satoko, did you find the book for your book report?'
  show satoko_v002 fuan at active
  show rika_v002 smile at inactive
- satoko "...Well, I don't see it here, but I remember seeing the cover of it around here somewhere."
+ satoko "...Hmm, I can't find it, but I remember seeing the cover of it around there somewhere."
  hide rika_v002
  show hanyuu_v002 fuan at mei_left
  with Dissolve(0.5)
@@ -56,7 +56,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show rika_v002 odoroki at active
  show nao_v002 smile at inactive
- rika 'Meep. Nao must have lots of enthusiasm to aim for something like applying for the prefecture contest.'
+ rika 'Meep. Nao must be very enthusiastic to aim for something like applying for a prefecture contest.'
  show nao_v002 fuan at active
  show rika_v002 odoroki at inactive
  nao "Well, If I had that level of workmanship it would be nice. It's more so like a goal for me. I'm not actually thinking about applying or anything."
@@ -126,7 +126,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show hanyuu_v002 odoroki at active
  show nao_v002 fuan at inactive
- hanyuu "Aah-, now that you say it, Nao's book mountain at home has a underclassman level assignment books mixed in~!"
+ hanyuu "Aah-, now that you say it, Nao's book mountain at home has underclassman level assignment books mixed in~!"
  hide hanyuu_v002
  show rika_v002 odoroki at mei_right
  with Dissolve(0.5)

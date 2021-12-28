@@ -1,4 +1,4 @@
-event01_30_07.bytes,Omega: I tl'd some lines to the best of my ability.,Lloro - QC,,NOTES,
+event01_30_07.bytes,Omega: I tl'd some lines to the best of my ability.,Lloro - QC,Naegles - QC2,NOTES,
 index,chara,jp,en,,
 35,,"　ゲストハウスに戻ると、広間ではランチのお皿が配膳されてい
 た。","We returned to the guesthouse, where lunch was being served in the hall.",lunch plates were -> lunch was,
@@ -16,7 +16,7 @@ index,chara,jp,en,,
 61,,"　後で畳めばいいと、あたしの目も気にしないで、じゃんじゃん脱
 いで、じゃんじゃん着替える。","After folding my clothes neatly, I glanced around with a carefree look, where the sounds of clothes being shed resounded.",,
 62,,"　女同士とはいえ、あぁも裸を見せることに抵抗がないのも、スゴ
-イというかカッコイイというか……。",It's amazing that they're not afraid to put their nakedness on display even though they have a sisterly bond...,"女同士 comes out as ""female bonding"" but sisterly bonding is probably better since it's the twins changing",
+イというかカッコイイというか……。",It's amazing that they're not afraid to put their nakedness on display even if they have a sisterly bond...,"女同士 comes out as ""female bonding"" but sisterly bonding is probably better since it's the twins changing",
 66,詩音 (Casual),これでエンジェルモートの仕事はおしまいですよね？,"This is the last Angel Mort request, right?",,
 68,Mion (Casual),"もっちろん！　午後はワニャンを！　兎たちの悲恋殺人事件合わ
 せ、やっるよ～！！","Of course! This afternoon, we're doing the ""Heartbroken Rabbits Murder Case"" photo set~!","added This afternoon, photo set, etc",
@@ -38,7 +38,7 @@ index,chara,jp,en,,
 102,ヱリカ,いいえ。ご安心を。,Nope. You can rest assured.,,
 106,Mion (Casual),グッド。それはよかった。,<Good>. That's nice to hear.,,
 111,Nao (Casual),行きましょう。この素敵な匂いに、お腹がもうペコペコです。,Then let's go. This wonderful smell is making my stomach rumble.,,
-114,,ヱリカさんは、しっかりと施錠し、その手応えを確かめる。,Erika-san carefully felt the door to ensure it was locked.,,
+114,,ヱリカさんは、しっかりと施錠し、その手応えを確かめる。,Erika-san carefully tried the door to ensure it was locked.,,
 118,ヱリカ,これで私の部屋は密室です。安心ですね。,"With this, my room is definitely a locked room. My mind is at ease.",,
 120,Mion (Casual),窓はちゃんと施錠してあるぅ？,Is the window locked?,,
 123,ヱリカ,もちろんです。こうでなくては、でしょう？,Indeed it is. Why wouldn't it be?,,
@@ -69,7 +69,7 @@ index,chara,jp,en,,
 と、食べれなくなっちゃうんだよオ……！！",Gaaahhhh!! Don't say it like thaaaattt!!!! I won't be able to eat them if they have a soooouulll...!!,this line needs to be checked,"from ""Arghh, stop that! I can't raise my spirits if I don't eat any!"
 181,ドラノール,かつて、残酷の象徴とまで言われた魔女が、ずいぶんと愛らしくなったものデス……。,"In the past, witches embodied cruelty, but now they have become quite CHARMING...",loveable -> charming,
 184,ベアトリーチェ,ヱリカぁ！　もう一個、ヒントを頼むよォ。,Erikaaaa! Give me another hiiinttt.,removed if i give you just one // changed inflection,
-188,ヱリカ,それを戦人さんが貴女に懇願した時。貴女はどんなことを言って甚振ったんでしたっけぇ？,"When Battler-san was begging you for mercy, what what was it that you said that tormented him, again?","from ""asked you similar things // in what ways did you",
+188,ヱリカ,それを戦人さんが貴女に懇願した時。貴女はどんなことを言って甚振ったんでしたっけぇ？,"When Battler-san was begging you for mercy, what was it that you said that tormented him, again?","from ""asked you similar things // in what ways did you",
 190,ヱリカ,"魔女側は負けるのが仕事とはいえ、赤き真実で生殺与奪を握れると
 いうのは、本当にいい気分です。","It really is a great feeling, controlling the red truth like it's life or death, even though the witch's side must lose in the end.",,
 194,ドラノール,"……ベアトリーチェ卿さえ丸くなったというノニ。……ヱリカには
@@ -125,7 +125,7 @@ index,chara,jp,en,,
 あんなに露出のあるコスプレで屋外撮影が出来るものだ。","At any rate, I don't know how the Sonozakis can take pictures outside in such revealing costumes when it's almost winter.",,
 296,,"　……コスプレイヤーはレベルＭＡＸに達すると、素肌が剥き出し
 でも冬のイベントに耐えられるようになる、というけど本当なのか
-しら……。",...I wonder if it's true about cosplayers being able to withstand winter events naked if they reach a high enough level...,,
+しら……。",...I wonder if it's true that cosplayers can withstand winter events naked if they reach max level...,,
 300,Nao (Casual),お二人の衣装は、手作りなんですか？,Are your costumes handmade?,,
 302,Mion (探偵),"手作りなんて言えるほどのものかはわかんないけどね～。まぁ、そ
 こそこに～。","I'm not so sure you could say they're handmaaade~. Well, we did a bit in a ruush~.",check,"from ""You could say they're handmade, I guess. That's just how it is~"
@@ -168,7 +168,7 @@ index,chara,jp,en,,
 407,Mion (探偵),"傍目にはわからないよ。つまり、細工をした本人が細工を外すま
 で、絶対にこの扉は開かないということ。","An onlooker wouldn't realize it's there. Basically, until the person who created the device takes it out, the door will absolutely not open.","from ""You can't really see it. In short, if this trick is used on the the door, then absolutely no one can open it.",
 409,詩音 (水着),"仮に、細工に気付いたところで、外そうとすればそれ、形が変わっ
-てしまいますので、入室を許した証拠は残る。","Supposing someone even {i}did{/i} notice the device, if they tried to remove it, it would change shape, and there would be evidence that they got in.","from ""Even if you notice the trick, if you try to remove it, it will change shape, and there would be evidence you entered the room.",
+てしまいますので、入室を許した証拠は残る。","Supposing someone {i}did{/i} notice the device, even if they tried to remove it, it would change shape, and there would be evidence that they got in.","from ""Even if you notice the trick, if you try to remove it, it will change shape, and there would be evidence you entered the room.",
 412,,"　園崎姉妹が何の話をしているのかよくわからないが、要はこうい
 うことだ。","I don't know what the Sonozakis were talking about at all, but this was the gist:",,
 413,,"　朝、この部屋を出て施錠した時に、鍵穴に妙な細工をしたのだ。
@@ -185,7 +185,7 @@ index,chara,jp,en,,
 428,,"　だから、この細工の意味を知っている犯人なら、マスターキーは
 もちろんのこと、ピッキングさえも諦めざるを得ないのだ。","Even if the culprit knew what this device was, continuing to go at it with a master key or even a lockpick would of course bear no fruit.","from ""Even if the culprit noticed this trick, they would either have to have a master key or pick the lock.",
 432,Mion (探偵),"この技、ホントに内緒だからね？　下手に真似されると、各方面に
-迷惑が掛かるからね。","This trick is a secret, alright? If it gets copied it lousily, we're gonna have to batten the hatches.","from ""If anyone else tries to copy it, it'll be bad for all of us.",
+迷惑が掛かるからね。","This trick is a secret, alright? If any amateurs try doing this, we're gonna have to batten the hatches.","from ""If anyone else tries to copy it, it'll be bad for all of us.",
 434,Nao (Casual),真似できないし、したくもありませんのでご安心を……。,"I can't come up with something like that and I don't intend to, so don't worry...","from ""Don't worry, I don't intend to",
 436,Nao (Casual),それで……、その細工は大丈夫だったんですか？　誰の痕跡も？,"That said... this trick works, right? Any signs of entry?",,
 439,Mion (探偵),"うん。私が施錠してから今の瞬間まで、誰も開錠しなかったことを
@@ -220,9 +220,9 @@ index,chara,jp,en,,
 504,詩音 (水着),"早い者勝ちでーす♪　お姉は汗臭いまま、私のシャワーの水音でも
 聞いてて下さい。","First come, first served♪ You can sweat there and listen to the running water in my shower.",,
 512,,"　またしても、小さな子供たちのように服を乱雑に脱ぎ捨てて、園
-崎姉妹は全裸で同時にシャワー室に飛び込んでいく……。","Once again, the Sonozakis bicker like little children, throwing off their clothes and entering the bathroom at the same time, completely naked...",,
+崎姉妹は全裸で同時にシャワー室に飛び込んでいく……。","Once again, the Sonozakis bicker like little children, throw off their clothes and enter the bathroom at the same time, completely naked...",,
 513,,"　……異性の目がないところでは、自分の性別を忘れるって話があ
-るけれど。",...They say you forget about your gender when in the absence of the opposite's eyes.,,
+るけれど。",...They say you forget about your sex when in the absence of the other.,,
 514,,"　あたしは誰の目がなくとも、もう少し気を遣おうと思いま
 す……。","I think I'll be a bit more careful, even when nobody is watching...",plan to -> think I'll,
 517,Nao (Casual),……よかった。あたしのベッド、何もない。,...That's a relief. There's nothing on my bed.,,
@@ -276,14 +276,14 @@ index,chara,jp,en,,
 いるようです。","...It looks just like the magic circle that was on my sheets, and it uses the same paint.",,
 660,Mion (バスタオル),うん。普通の水彩絵の具、だねぇ……。,"Yeah. It's no ordinary paint, if I'm right...",,
 662,詩音 (バスタオル),"……最初は透明で、時間の経過で浮き上がってくるような手品染み
-たものじゃない。","...The trick behind it is it's transparent at first, but as time passes, the stain starts to show up more and more.",check,"from ""...From the start, this wasn't the kind of magic trick that becomes obvious as time goes on."
+たものじゃない。","...The trick behind it is that it's transparent at first, but as time passes, the stain starts to show up more and more.",check,"from ""...From the start, this wasn't the kind of magic trick that becomes obvious as time goes on."
 664,Mion (バスタオル),となると、……犯行は、鍵を開けた直後しか考えられない。,As far as this crime goes... it could only have been committed immediately after opening the door.,"from ""It's impossible, but",
 669,Nao (Casual),……え………？,...Huh......?,,
 674,詩音 (バスタオル),…………ヱリカさん。正直に答えて下さいね。,"...Erika-san. Please give us an honest answer, okay?",,
-676,ヱリカ,何？　話しますよっ。聞かれれば何でも！,What? I'll speak for you. What do you want to know?!,,
+676,ヱリカ,何？　話しますよっ。聞かれれば何でも！,What? I'll tell you. Anything you want!,,
 679,,"　あの賢いヱリカさんが、何を疑われているのか、想像出来ないな
 んて。
-　……あたしでさえ、その疑念が最初に浮かんだのだから……。","I couldn't think of any reason to suspect the wise Erika-san... even in the beginning, I never doubted her...",,
+　……あたしでさえ、その疑念が最初に浮かんだのだから……。",As if we couldn't suspect that clever Erika-san... Even I could guess that right away...,,
 685,詩音 (バスタオル),自作自演、……じゃないですよね？,"...You're faking this, aren't you?",,
 690,,"　ヱリカさんは、一度も見せたことのない表情を浮かべる。
 　目を見開き、引きつった表情は……、衝撃と呆然の、双方を同時

@@ -6,18 +6,18 @@ init python:
 
 label chara032009:
     stop music
-    call chara032009_01
+    call chara032009_01 from _call_chara032009_01
     return
 label chara452001:
     stop music
-    call chara452001_01
+    call chara452001_01 from _call_chara452001_01
     return
 label chara462001:
     stop music
-    call chara462001_01
+    call chara462001_01 from _call_chara462001_01
     return
 label chara472001:
     stop music
-    call chara472001_01
+    call chara472001_01 from _call_chara472001_01
     return
 

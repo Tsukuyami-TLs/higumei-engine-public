@@ -15,12 +15,12 @@ label event01_30_04:
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
  narrator 'The blankets in my bed had been stripped... and a blood-red magic circle could be seen painted on the sheets underneath.'
- narrator "Beatrice... an existence I don't believe in... drew this in my bed."
+ narrator "Beatrice... an existence I don't believe in... drew this on my bed."
  show black_cover as fade with Dissolve(1.0)
  scene black_cover
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  narrator "Ah, in the end, Rokkenjima was indeed a witch's island.\nCursed... by its human inhabitants's lack of respect towards the being they dreaded."
- narrator 'Why does it have to be like this...? Why...?'
+ narrator 'Why did it have to be like this...? Why...?'
  narrator '...........................'
  stop music fadeout 2.0
  narrator "...Calm down. Think this over.\nC'mon... we talked about that, right?"
@@ -35,13 +35,13 @@ label event01_30_04:
  with Dissolve(1.0)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "You do have a point there, huh? While it may be a mystery if it can be explained, this might turn into something occult if it can't."
+ shion "That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult."
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion 'Since ancient times, things once assumed to be divine miracles have been successfully explained through science.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "Divine miracles cannot be explained. Meaning, if you can't figure them out, you may, fittingly, just call them as such."
+ mion "Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle."
  show black_cover as fade with Dissolve(1.0)
  hide mion_v002
  hide shion_v002
@@ -93,11 +93,11 @@ label event01_30_04:
  play audio 'audio/sfx/SE_5040_handclap.wav'
  pause 1.3333333333333333
  play audio 'audio/sfx/SE_5040_handclap.wav'
- narrator "At that moment, the mental fog inside of my head had finally been cleared.\nThat's when I hear the sound of hands clapping... paired with a laughing voice..."
+ narrator "At that moment, the mental fog inside of my head had finally been cleared.\nThat's when I heard the sound of hands clapping... paired with a laughing voice..."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '...Thanks for the lovely scribble on my bedsheets.'
+ nao '...Thanks for the lovely scribbles on my bedsheets.'
  show nao_v002 normal at active
  nao 'Perhaps an ordinary person would freak out seeing something like that? Well, too bad for you.'
  show nao_v002 normal_close at active
@@ -111,7 +111,7 @@ label event01_30_04:
    linear 0.5 zoom 1.1
  pause 0.5
  show nao_v002 sinken at active
- nao 'Since my room was locked, this creepy prank could only have been done by a witch!!'
+ nao 'Since my room was locked, this creepy prank could only have been done by a witch?!'
  show nao_v002 sinken at active
  nao 'What a pretentious locked-room trick! All you did was make me more skeptical!! '
  camera:
@@ -167,7 +167,7 @@ label event01_30_04:
  camera at screenshake_transform,reset_shader
  pause 0.0
  show beatrice_v001 futeki at active
- beatrice 'And tomorrow is my birthday! <Happy Birthday>!! <Tooooo meeeeee>!!!'
+ beatrice 'And tomorrow is my birthday! <Happy Birthday!!> <Tooooo meeeeee!!!>'
  hide beatrice_v001
  with Dissolve(0.2)
  narrator 'The witch from the portrait was in a tremendously enthusiastic good mood.\nNevertheless, matching up to said high spirits would be just what my opponent wishes for.'
@@ -176,11 +176,11 @@ label event01_30_04:
  show nao_v002 normal at active
  nao "I'm Nao Houtani. I'm going to spend my time gracefully admiring the roses while doing embroidery, and then I'll go back home the day after tomorrow."
  show nao_v002 sinken at active
- nao 'Neither you, nor your birthday have absolutely any chance of remaining in the memories of this lovely vacation!'
+ nao 'Neither you, nor your birthday have absolutely any chance of remaining in my memories of this lovely vacation!'
  hide nao_v002
  with Dissolve(0.2)
- narrator '...Where am I? When did I even end up in a place like this?'
- narrator "And then, there's the witch from the portrait mocking me like this. Not a chance. Inconceivable."
+ narrator '...Where am I? When did I even end up in this place?'
+ narrator 'To make matters worse, the witch from the portrait mocking me like this. Not a chance. Inconceivable.'
  narrator 'Whether she\'s there or not is something for me to settle from here on out. Does Beatrice "exist, or does she not?'
  narrator 'I pointed at the witch as if I was piercing her, and yelled with all of my strength.'
  show black_cover as fade with Dissolve(0.3333333333333333)
@@ -193,7 +193,7 @@ label event01_30_04:
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_5029_slap_back.wav'
  show nao_v002 sinken at active
- nao 'The deciding factors are not your tricks nor your magic!!'
+ nao 'The deciding factors are neither your tricks nor your magic!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -202,7 +202,7 @@ label event01_30_04:
  hide nao_v002
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator 'Then, in declaration of war with the witch, I pointed my finger at my temple.'
+ narrator 'Then, in a declaration of war with the witch, I pointed my finger at my temple.'
  show beatrice_v001 futeki at mei_right
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
@@ -216,7 +216,7 @@ label event01_30_04:
  hide nao_v002
  with Dissolve(0.2)
  narrator "The questions of where I am and why I'm faced up against the witch right now... are trivial matters to me."
- narrator "I'm on the offensive side, and she's on the defensive. If we ended up this way, it's whatever."
+ narrator "I'm on the offensive side, and she's on the defensive. If we ended up this way, it is what it is."
  show beatrice_v001 futeki at mei_right
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
@@ -225,7 +225,7 @@ label event01_30_04:
  nao "I'm going to put an end to the mystery of your worthless pranks!! In the name of my granny!!!"
  show beatrice_v001 futeki at active
  show nao_v002 sinken at inactive
- beatrice "Hyaaahhhahahahaha!!! Spatter as much as you like! I'll make you surrender!! In the name of my granny!!!"
+ beatrice "Hyaaahhhahahahaha!!! Spatter as much as you like! I'll make you surrender!! In the name of {i}my{/i} granny!!!"
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -241,7 +241,7 @@ label event01_30_04:
  nao "...Comrade of mine. Let's fight fair and square."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Mhm! Now, sit where you please, Nao! Shall we have fun again after all of this time?!'
+ beatrice "Mhm! Now, sit where you please, Nao! It's been a long time since I've had this much fun!"
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
@@ -273,10 +273,10 @@ label event01_30_04:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice "For my first move, I'll draw a magic circle on your bedsheets."
+ beatrice "For my first move, I've drawn a magic circle on your bedsheets."
  show beatrice_v001 futeki at active
  show nao_v002 normal at inactive
- beatrice "It would have been a locked room? Then, the magic circle could only have been drawn with a witch's magic...!"
+ beatrice "It would have been a locked room, wouldn't it? Then, the magic circle could only have been drawn with a witch's magic...!"
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
  nao 'Oh, really? Next time, drawing the circle with goat blood would make it a bit more convincing.'
@@ -288,7 +288,7 @@ label event01_30_04:
  beatrice 'Hoh? Why is it that just through the sheets, you can deny my existence as a witch?'
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao 'Mion-san realized instantly how it was drawn with watercolor paint.'
+ nao 'Mion-san realized instantly that it was drawn with watercolor paint.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
  nao 'Actually, I wonder if you drew the magic circle with red paint {i}because{/i} your magic is too cheap to be able to draw in blood?'
@@ -326,10 +326,10 @@ label event01_30_04:
  nao 'What a kind witch you are.'
  show beatrice_v001 futeki at active
  show nao_v002 normal_close at inactive
- beatrice 'Even with it drawn with paint, however, can you still deny that I drew it with magic?'
+ beatrice 'Even with it being drawn with paint can you deny that I drew it with magic?'
  show beatrice_v001 normal at active
  show nao_v002 normal_close at inactive
- beatrice 'How would a Human be able to accomplish that? Only with you beginning to launch hypotheses as blue truths into my body will you be able to deny me.'
+ beatrice 'How would a Human be able to accomplish that? Only by beginning to launch hypotheses as blue truths into my body will you be able to deny me.'
  show nao_v002 fuan at active
  show beatrice_v001 normal at inactive
  nao '.........?? Blue? What?'
@@ -370,10 +370,10 @@ label event01_30_04:
  dlanor 'Nao, I am your ALLY. Dlanor is my NAME.'
  show dlanor_v001 normal at active
  show nao_v002 normal_close at inactive
- dlanor "What you are looking over right now is the witch's GAME. According to the rules, winning is IMPOSSIBLE."
+ dlanor "What you are confronted with right now is the witch's GAME. According to the rules, winning is IMPOSSIBLE."
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao "Rules? First it was club tabletops with punishment games, and now it's a witch's game. This won't be too boring."
+ nao "Rules? First it was club tabletops with punishment games, and now it's a witch's game. I hope this won't be too boring."
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
  dlanor "Nao, you should remember Erika's WORDS."
@@ -392,7 +392,7 @@ label event01_30_04:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.5)
  show beatrice_v001 futeki at active
- beatrice "*cackle*cackle*cackle*. If you don't acknowledge me as a witch, nor acknowledge magic, I'll just have to show it to you myself."
+ beatrice "*cackle*cackle*cackle*. If you don't acknowledge me as a witch, nor acknowledge magic, you'll just have to show me yourself."
  show beatrice_v001 futeki at active
  beatrice 'Do tell how could a Human could have drawn that magic circle!'
  hide beatrice_v001
@@ -441,19 +441,19 @@ label event01_30_04:
  beatrice "You catch on quite fast... Will you let me dig out the dirt from under your nails afterwards? I'll mix it in with Battler's tea leaves!"
  show nao_v002 normal at active
  show beatrice_v001 fuan_close at inactive
- nao 'The magic circle prank can be performed by a human. While we were absent, someone sneakily entered the room and was able to do the prank. Like that?'
+ nao 'The magic circle prank could have been performed by a human. While we were absent, someone sneakily entered the room and was able to do the prank. Like that?'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice 'That is not a valid argument. Have you forgotten, Nao? That the room was locked?'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'As you had went out to have dinner, the room should have been locked.'
+ beatrice 'As you went out to have dinner, you locked the room.'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'From the point you came back to the room to retire for the night up until you found the magic circle, the room should have been locked.'
+ beatrice 'Until you retired to your room and found the magic circle, the room should have been locked.'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao "...Then, how's this?"
+ nao "...How's this, then?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -536,13 +536,13 @@ label event01_30_04:
  dlanor 'Please calm yourself, NAO. ...The red truth may be a merciless counter attack, but it simultaneously gives clues as WELL.'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao "Like how I was at least given out the hint that Shannon-san didn't draw the magic circle, right...?"
+ nao "Like how I was at least given the hint that Shannon-san didn't draw the magic circle, right...?"
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
  dlanor 'Just as you SAY. As you send out more blue truths, the witch will retaliate with red TRUTHS.'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'Letting that pile up... the truth behind this magic circle locked-room incident will jut out further and further.'
+ nao 'Letting those pile up... the truth behind this magic circle locked-room incident will jut out further and further.'
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -567,7 +567,7 @@ label event01_30_04:
  hide nao_v002
  hide dlanor_v001
  with Dissolve(0.2)
- narrator "Between me being called out to have dinner and me leaving my room, I hadn't left once until then. Of course, by that time, nothing was wrong with my bed."
+ narrator 'From the point we were called out for dinner to the point we left the room, not once did we leave. Of course, by that time, nothing was wrong with my bed.'
  narrator 'And when we left the room, we locked it.'
  narrator 'After dinner, Jessica-san joined in, and we played a board game.'
  narrator "Then, when we went back to go to sleep, we unlocked the room. ...That's when we saw the magic circle."
@@ -588,18 +588,18 @@ label event01_30_04:
  nao "That's when Shannon-san gained the opportunity to perform the magic circle prank."
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'As a matter of fact, Beatrice had said this in the red truth just earlier.'
+ nao 'But as a matter of fact, Beatrice had said this in the red truth just earlier.'
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
  nao '{umi_red}Shannon was not involved in performing the act of drawing the magic circle.{/umi_red}'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao '...is what she said, right?'
+ nao 'Right?'
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator 'What a roundabout way of saying it. Then, another way of saying this is that someone {i}did perform{/i} the crime of drawing the magic circle...?'
+ narrator 'What a roundabout way of saying it. Another way of saying this, then, is that someone {i}can perform{/i} the crime of drawing the magic circle...?'
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
@@ -631,7 +631,7 @@ label event01_30_04:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'Too indirect?'
+ nao 'Indirectly?'
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
  beatrice "This isn't just a matter of directly laying the magic circle sheets on the bed. This means it includes {i}any{/i} act that led to this result, even without knowing it."
@@ -640,28 +640,28 @@ label event01_30_04:
  with Dissolve(0.2)
  narrator "So, this means... Shannon-san hasn't even cooperated with the culprit even without knowing."
  narrator 'For example, though, the culprit could have prepared those sheets in particular beforehand.'
- narrator 'By the time the paint was on, it was transparent, though, so this magic circle could have been drawn with paint that fades over time. In that sense, these sheets are just any old sheets.'
+ narrator 'But by the time the paint was on, it was transparent, so this magic circle could have been drawn with paint that fades over time. In that sense, these sheets are just any old sheets.'
  narrator "Shannon-san could have been intending to lay on some normal white sheets, but afterwards, the color set in, and they became the magic circle sheets. In this case, a third party could have done this in good faith, and she wouldn't have been involved at all."
  show dlanor_v001 normal at mei_left
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'But Shannon likely did not go to your room to change the sheets in the first place, though? She should have simply went to check on the window lock.'
+ beatrice "Shannon didn't go to your room to change the sheets in the first place, did she? She should have went in simply to check on the window lock."
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor 'The timeframe that Shannon went up to the second floor and came back down was as fast as can BE.'
+ dlanor 'The timeframe that Shannon went up to the second floor and came back down was as short as can BE.'
  hide dlanor_v001
  hide beatrice_v001
  with Dissolve(0.2)
  show nao_v002 normal_close at mei_center
  with Dissolve(0.5)
  show nao_v002 normal_close at active
- nao "...That's right. Thinking about it normally, no matter how much of an expert she is at bedmaking, it's unthinkable how it could be done in such a short timeframe."
+ nao "...That's right. Thinking about it regularly, no matter how much of an expert she is at bedmaking, it's unthinkable that it could have been done in such a short timeframe."
  show nao_v002 normal at active
  nao 'Moreover, she even came back from the room as soon as we had broached the topic of the window lock.'
  show nao_v002 normal at active
- nao "It just so happened that she gained that chance from going upstairs. But even in that chance, Shannon-san having those magic circle sheets hidden on her at all isn't realistic."
+ nao "It just so happened that going upstairs gave her that chance. Even with that chance, it isn't realistic for Shannon-san to be holding the magic circle sheets the entire time."
  show nao_v002 normal at active
  nao "...Beatrice. Wouldn't this be too boring if this argument was just about Shannon-san straying from us? Make this clear for me."
  hide nao_v002
@@ -709,7 +709,7 @@ label event01_30_04:
  beatrice 'Tonight is nothing in comparison to the endless torture between him and I back then. I just wanted to have a little fun.'
  show dlanor_v001 smile_close at active
  show beatrice_v001 smile at inactive
- dlanor 'When I return to heaven, I must report that you have also been turned into a peaceful LADY.'
+ dlanor 'When I return to Heaven, I must report that you have also been turned into a peaceful LADY.'
  show beatrice_v001 smile at active
  show dlanor_v001 smile_close at inactive
  beatrice '*cackle*cackle*cackle*. Doesn\'t my name mean Eternal Lady? ...Well, "Eternity" is unpleasant, though.'
@@ -737,7 +737,7 @@ label event01_30_04:
  beatrice '{umi_red}No one visited the second floor of the guesthouse from the time you locked the door until you opened it again, except for Shannon.{/umi_red}'
  show nao_v002 normal_close at active
  show beatrice_v001 futeki at inactive
- nao "...Thanks. ...I'm starting to think a human can do this less and less, but there is an important hint there."
+ nao "...Thanks. ...I'm starting to think a human could do this less and less, but there is an important hint there."
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -772,7 +772,7 @@ label event01_30_04:
  with Dissolve(0.16666666666666666)
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice '{umi_red}Going upstairs any other way than using the stairs, such as sawing through the walls or gliding in from the sky, is unforgivable. Any other means of reaching the second floor can therefore be denied.{/umi_red}'
+ beatrice '{umi_red}Going upstairs through any other way than using the stairs, such as sawing through the walls or gliding in from the sky, is not permitted. Any other means of reaching the second floor can therefore be denied.{/umi_red}'
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
@@ -810,7 +810,7 @@ label event01_30_04:
  nao 'Mysteries have offensive and defensive components.'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao "In this witch's game... I have a winning condition, but the fact witch's side doesn't is strange."
+ nao "In this witch's game... I have a winning condition, but the fact that the witch's side doesn't is strange."
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
  nao 'If I demonstrate that the crime is possible for a human, I win.'
@@ -827,7 +827,7 @@ label event01_30_04:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao "Amidst the chaos of throwing logic back and forth at each other... I'll get tired and start feeling like I don't care about the end result... This is a drawback for me."
+ nao "Amidst the chaos of throwing logic back and forth at each other... I might get tired and start feeling like I don't care about the end result... This is a drawback for me."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice "That's right, Nao. ...You really do understand fast."
@@ -870,7 +870,7 @@ label event01_30_04:
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator "I absolutely won't lose until I admit my defeat! This means I'm absolutely {i}going{/i} to win!"
+ narrator "I absolutely can't lose until I admit my defeat! This means I'm absolutely {i}going{/i} to win!"
  show dlanor_v001 odoroki at mei_center
  with Dissolve(0.5)
  show dlanor_v001 odoroki at active
@@ -894,7 +894,7 @@ label event01_30_04:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao "...If I lose, is there a punishment game? You're a witch, so you can be extraordinarily gruesome with it."
+ nao "...If I lose, is there a punishment game? You're a witch, so you could be extraordinarily gruesome with it."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'I am enjoying myself with a rare visitor. There will be no punishment games.'

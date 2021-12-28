@@ -152,7 +152,7 @@ label event01_30_02:
  mion "True! If you pressure the culprit enough, there are times they'll give in on their own."
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "My sister's specialty is pretending she understood everything, but, in actuality, she doesn't get anything at all."
+ shion "My sister's specialty is pretending she understood everything, even though, in actuality, she didn't get anything at all."
  show mion_v002 sinken at jumping_transform,active
  show shion_v002 smile at inactive
  mion "No, it's a specialty of Wanyan's! Even when you have zero hints, act as if you've grasped the truth and aim for the blind spot!"
@@ -176,7 +176,7 @@ label event01_30_02:
  shion "That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult."
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'Since ancient times, things that can be considered divine miracles have been proven to exist by scientific research.'
+ mion 'Since ancient times, things once assumed to be divine miracles have been successfully explained through science.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle."
@@ -435,7 +435,7 @@ label event01_30_02:
  show erika_v001 fuan at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 fuan at active
- erika 'Perhaps the 200 million yen worth of gold is still being used to welcome... ghosts... here...?'
+ erika 'Perhaps the 20 billion yen worth of gold is still being used to welcome... ghosts... here...?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -444,7 +444,7 @@ label event01_30_02:
  hide erika_v001
  hide fade with Dissolve(0.08333333333333333)
  with Dissolve(0.08333333333333333)
- narrator 'Ugh, this is scary. ...Wait, stop for second. I have to stay here for two nights...?'
+ narrator 'Ugh, this is scary. ...Wait, stop for second. Do I really have to stay here for two nights...?'
  show kanon_v001 normal at mei_right
  show jessica_v001 normal_close at mei_left
  with Dissolve(0.5)
@@ -472,8 +472,8 @@ label event01_30_02:
  nao '...A portrait of an unknown person... being boldly hung up in such a wide space might be kind of... uncanny... maybe.'
  hide nao_v002
  with Dissolve(0.2)
- narrator 'When did someone name it? ...She eventually went on to be called the Golden Witch, Beatrice.'
- narrator "The massive portrait hung in a wide space in the mansion isn't something that the head, Kinzo, drew either. It's a drawing of the Golden Witch."
+ narrator 'When did the portrait get named? ...She eventually went on to be called the Golden Witch, Beatrice, after all.'
+ narrator "The massive portrait hung in that wide space in the mansion isn't drawn of the family head Kinzo either; It's a drawing of the Golden Witch."
  narrator "...This means that the mansion and the island's... real master... is the Golden Witch, Beatrice, isn't it?"
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
@@ -542,7 +542,7 @@ label event01_30_02:
  jessica '...One time at night while doing the rounds, there was a servant who misstepped and fell down the stairs, getting injured horribly before quitting.'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal_close at inactive
- jessica 'Afterwards, Shannon learned... that person said, "If Beatrice does exist, I\'d like to see her.", and seemed to have been targeted...'
+ jessica 'Shannon later heard... that the servant said, "If Beatrice does exist, I\'d like to see her.", and appeared to have been targeted...'
  show kanon_v001 normal at active
  show jessica_v001 fuan_close at inactive
  kanon "...I, too, didn't believe in her at first."
@@ -578,7 +578,7 @@ label event01_30_02:
  narrator 'Normally, the key gets used during a job, and then after that job is done, it must be returned to the keybox in the servant room. '
  narrator 'That day, Kanon-san finished the job without returning the key.'
  narrator 'The garden shed can only be opened with that one key. It cannot even be opened with the master key.'
- narrator 'So, in essence... since the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a locked room...'
+ narrator 'So, in essence... since after the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a closed room...'
  jessica "The next morning... when Kanon-kun opened the shutters to the garden shed... something that couldn't have been there, was..."
  nao "Something that couldn't have been... there...?"
  window hide None
@@ -625,7 +625,7 @@ label event01_30_02:
  show jessica_v001 sinken at mei_center
  with Dissolve(0.5)
  show jessica_v001 sinken at active
- jessica 'The magic circle is... a greeting from Beatrice.'
+ jessica 'That magic circle was... a greeting from Beatrice.'
  show jessica_v001 sinken_close at active
  jessica "Beatrice... left that magic circle there for those of us who didn't believe..."
  hide jessica_v001
@@ -797,7 +797,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show jessica_v001 smile at inactive
- kanon '... My lady. You have your next task to do still.'
+ kanon '... Milady. You have your next task to do still.'
  show jessica_v001 smile at active
  show kanon_v001 normal at inactive
  jessica "Th-that's right. Thanks, Kanon-kun."
@@ -849,7 +849,7 @@ label event01_30_02:
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao "I'm glad the windows are shut for now. But I think I do want to properly lock them while I'm sleeping."
+ nao "I'm glad the windows are shut for now. But I do think I want to properly lock them while I'm sleeping."
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active

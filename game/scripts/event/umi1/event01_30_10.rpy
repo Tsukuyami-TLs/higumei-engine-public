@@ -13,10 +13,10 @@ label event01_30_10:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao '...I think something like this has been in manga or anime before.'
+ nao '...has been in something like an anime or a manga before.'
  show beatrice_v001 fuan at active
  show nao_v002 normal at inactive
- beatrice 'Huh? C-can you run that over once more...?'
+ beatrice 'Huh? C-can you repeat that once more...?'
  show nao_v002 normal at active
  show beatrice_v001 fuan at inactive
  nao 'I think... that this magic circle appeared in some manga or anime before, probably.'
@@ -57,7 +57,7 @@ label event01_30_10:
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor 'Did the magic circle... appear in Detective WANYAN...?'
+ dlanor 'Did this magic circle... appear in Detective WANYAN...?'
  show erika_v001 odoroki at mei_right
  with Dissolve(0.5)
  show erika_v001 odoroki at active
@@ -89,7 +89,7 @@ label event01_30_10:
  pause 0.0
  $ event_store.current_progress = 4
  show erika_v001 sinken at active
- erika "UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 100 billion followers in real liiiiifeeeeeee!!!!"
+ erika "UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion followers in real liiiiifeeeeeee!!!!"
  show erika_v001 smile at active
  erika "It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
@@ -109,7 +109,7 @@ label event01_30_10:
  show erika_v001 fuan at mei_center
  with Dissolve(0.5)
  show erika_v001 fuan at active
- erika 'Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Tsuyoshi " ", is an expert on mystery, not on magic circleeeeeess!!'
+ erika 'Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Go Daikanyama, is an expert on mystery, not on magic circleeeeeess!!'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -131,7 +131,7 @@ label event01_30_10:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 fuan at active
- erika "There wasn't enough love, no, there wasn't love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!"
+ erika "There wasn't enough love, no, there wasn't any love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!"
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -142,7 +142,7 @@ label event01_30_10:
  pause 0.5
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 futeki at active
- erika 'The way that I drew it was perfect! Even Mr. " " \'s Chief Ash character was able to learn it himself in just three days while in confinement!!'
+ erika "The way that I drew it was perfect! Even Mr. Go Daikanyama's Chief Ash character was able to learn it himself in just three days while in confinement!!"
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -190,10 +190,10 @@ label event01_30_10:
  dlanor '...I understand the sentiment behind why Shannon naturally said, "No, please be at ease.", a little bit more NOW.'
  show nao_v002 normal at active
  show dlanor_v001 fuan_close at inactive
- nao "I haven't watched the movie, but I suppose the way the bed was laid waste to was likely even based on the movie. "
+ nao "I haven't watched the movie, but I suppose even the way the bed was laid waste to was likely based on the movie. "
  show nao_v002 normal at active
  show dlanor_v001 fuan_close at inactive
- nao "Now that I think of it, the way Erika-san's blanket and pillows on her bed were arranged... were almost in a pattern, one in the same with the arrangement on my bed back then."
+ nao "Now that I think about it, Erika-san's blanket and pillows on her bed were arranged... in a pattern, exactly the same as my bed was back then."
  hide dlanor_v001
  show beatrice_v001 futeki at mei_right
  with Dissolve(0.5)
@@ -202,7 +202,7 @@ label event01_30_10:
  beatrice "...Guess I'm... gonna have to read Detective Wanyan, huh..."
  show nao_v002 smile at active
  show beatrice_v001 futeki at inactive
- nao "I also had some interest in this recent incident. ...I'll search for the specific volume in the bookstore."
+ nao "I also have some interest in this recent case. ...I'll search for the specific volume in the bookstore."
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
  nao "For that reason, the first magic circle accident was done by Erika-san's hands, aaand, um..."
@@ -317,7 +317,7 @@ label event01_30_10:
  beatrice "I'll present you with a small token of my thanks. Do look forward to it upon waking up."
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao "Thanks. ...If I can play again with you... maybe coming back to Rokkenjima won't be so bad."
+ nao "Thanks. ...If I can play with you again... maybe coming back to Rokkenjima wouldn't be so bad."
  show beatrice_v001 futeki at active
  show nao_v002 smile at inactive
  beatrice "I'll be waiting! Come whenever you like!"
@@ -375,8 +375,8 @@ label event01_30_10:
  play audio 'audio/sfx/SE_543_bird.wav'
  narrator "...I started to hear the sparrows chirping. If I slowly open my eyes... I'll be able to see the ceiling of my room being warmed up by the morning sun......"
  narrator "Today, I'm parting ways with Rokkenjima, huh...?"
- narrator 'Now that I say that, Beatrice told me she had some sort of present for me, I think.'
- narrator '"Do look forward to it upon waking up.", is what she probably told me...'
+ narrator "Now that I've said that, I believe Beatrice told me she had a present for me."
+ narrator '"Do look forward to it upon waking up.", is what she told me, I think...'
  stop music fadeout 0.5
  scene black_cover as bg
  narrator 'I should have never come to this island.'
@@ -480,7 +480,7 @@ label event01_30_10:
  hide erika_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_408_run.wav'
- narrator 'With an intrepid laugh, Erika-san bursted into our room looking like a zombie out of a horror movie.'
+ narrator 'With an intrepid laugh, Erika-san burst into our room looking like a zombie out of a horror movie.'
  call wipeout_routine
  call wipein_routine
  pause 2.0
@@ -544,7 +544,7 @@ label event01_30_10:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao 'Incredible. ...They just sprang up out of their death positions like nothing...'
+ nao 'Incredible. ...She just sprang up from out of her death position like it was nothing...'
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 smile at mei_center
@@ -603,7 +603,7 @@ label event01_30_10:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 smile at active
- erika "She has iiiit!! Absolutely artful remastering of the original work!! It's perfect even down to the scar she got from when she was thrown back!!"
+ erika "She has iiiit!! Absolutely artful remastering of the original work!! It's perfect, even down to the scar she got from when she was thrown back!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -621,7 +621,7 @@ label event01_30_10:
  play audio 'audio/sfx/SE_226_shine.wav'
  show mion_v002 futeki at active
  show nao_v002 fuan at inactive
- mion '*cackle*cackle*cackle*! Intense detail is my religion! Being fastidious even over aspects that go unseen is to be a true Wanyanner!'
+ mion '*cackle*cackle*cackle*! God is in the details! Being fastidious even over aspects that go unseen is to be a true Wanyanner!'
  show nao_v002 fuan_close at active
  show mion_v002 futeki at inactive
  nao "...I'm so sorry. Once I get back I'll absolutely go to the movie theaters."
@@ -631,7 +631,7 @@ label event01_30_10:
  $ event_store.current_progress = 7
  show shion_v002 smile at jump_transform,active
  show mion_v002 futeki at inactive
- shion "Even looking at Erika-san's clothes, I can somehow tell that recreated Mirai-san's death scene!"
+ shion "Even looking at Erika-san's clothes, I can somehow tell she recreated Mirai-san's death scene!"
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show mion_v002 smile at jumping_transform,active
  show shion_v002 smile at inactive
@@ -666,7 +666,7 @@ label event01_30_10:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "Ah-, maybe enjoying the movie is actually impossible without finishing the manga, is what she's talking about?"
+ shion 'Ah-, maybe enjoying the movie is actually impossible without finishing the manga first, is that what you mean?'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "Finishing the whole series is brutal as I thought! Shouldn't she start off on volume 68?"
@@ -795,7 +795,7 @@ label event01_30_10:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '{i}Yes{/i}... "Excessively cute, though unintentional.". 34 letters, right?'
+ nao '{i}Yeah{/i}... "Excessively cute, though unintentional.". 34 letters, right?'
  show nao_v002 normal_close at active
  nao "I'm going to chop you and Shion-san into 34 bits."
  hide nao_v002

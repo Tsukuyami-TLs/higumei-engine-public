@@ -1,4 +1,4 @@
-event01_30_00.bytes,Uminetta - TL,Lloro - QC/TL,Naegles - QC2,Pteryon - QC3,
+event01_30_00.bytes,Uminetta - TL,Lloro - QC/TL,Naegles - QC2,Pteryon - QC3,Omega: QC4
 index,chara,jp,en,Notes,
 25,,こんな島、来なければよかった。,I should have never come to this island.,"any changes made to this pink highlighted section must also be made in chapter 10, starting from sheets line 71",
 27,Nao (Casual),ひ、……ひ、,N... n......,,
@@ -99,13 +99,13 @@ index,chara,jp,en,Notes,
 で行くから。そう言われる。","I was also given the option to turn down the offer if it was a bother. In that situation, the sisters told me they would just go on their own.",,
 135,,"　レナちゃんが、せっかくあたしに譲ってくれたのだ。
 　無下にしないで、土産話が持って帰れるよう、たくさん満喫して
-こよう。","Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories on my time there.",,
+こよう。","Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there.",,
 139,,"　こうして唐突に、２泊３日の六軒島旅行が決定するのだった。
 　……この時点では、楽しい気持ちしかなかった。","So, just like that, I suddenly accepted the trip to Rokkenjima for three days and two nights. ...We were absolutely going to have lots of fun this time.",,
 140,,それが……、どこから、ケチが付いたのだろう……。,But that might have... gotten jinxed at some point...,,
 142,,"　多分、あれからだ。
 　新島へ向かうフェリーの時点で、……おかしな雲行きだったの
-だ。",It was probably because of that. When we were heading to Niijima by ferry... the sky started looking weird.,,
+だ。",It was probably because of {i}that{/i}. When we were heading to Niijima by ferry... the sky started looking weird.,,
 143,,"　あの、いけ好かない女。
 　……古戸ヱリカのせいで。",It has to be that unpleasant woman's... Erika Furudo's fault.,,
 151,Mion (Casual),菜央ちゃんは見てる？　『名探偵ワニャン』！！,"Nao-chan! Are you watching ""Detective Wanyan""?!",,
@@ -113,7 +113,7 @@ index,chara,jp,en,Notes,
 157,詩音 (Casual),そんなの関係ないですよー！　すっごくいいんですよー？！,"That doesn't matteerr!! It's really good, okay?!",,
 163,Mion (Casual),アニメも漫画も、一切読まなくてもわかるから！,"If you don't want to watch the show or read the manga, I totally get it!",,
 166,Mion (Casual),"だからお願い！　おじさんに騙されたと思って、劇場版ワニャンの
-『中秋哀歌～兎たちの悲恋殺人事件～』を絶対に見てぇぇ！","But please! I thought you were just messing with this ol' man, but the movie Detective Wanyan's ""Mid-Autumn's Lament: The Heartbroken Rabbits Murder Case"" is something you absolutely must waaatch!!!",,
+『中秋哀歌～兎たちの悲恋殺人事件～』を絶対に見てぇぇ！","But please! I thought you were just messing with this ol' man, but the Detective Wanyan movie ""Mid-Autumn's Lament: The Heartbroken Rabbits Murder Case"" is something you absolutely must waaatch!!!",,
 169,,『名探偵ワニャン』は、結構、人気のある推理アニメだ。,"""Detective Wanyan"" is a very popular mystery anime.",,
 170,,"　特に、劇場版はクオリティが高く、最新作は歴代最高の傑作と名
 高いのだ、……と魅音さんは力説してくれる。","The movie in particular is really high quality, so much that it's regarded as a masterpiece among their most recent works... is what Mion-san was stressing to me.",,
@@ -165,7 +165,7 @@ index,chara,jp,en,Notes,
 225,Nao (Casual),……だ、大丈夫？！　怪我はないわ。落ち着いて。,"...A-are you okay?! You aren't hurt, are you? Please calm down.",,
 227,,柔らかく、そして綺麗に転んでくれたようだ。怪我はない。,"Thankfully, he fell gracefully and gently. He wasn't hurt.",,
 229,,"　やがて子供は、泣いたまま走り去ってしまう。
-　後に残されたのは、……あたしと、彼女だけだった。","The child eventually runs off, still crying. The only ones left afterwards were... just the girl and I.",,
+　後に残されたのは、……あたしと、彼女だけだった。","The child eventually ran off, still crying. The only ones left afterwards were... just the girl and I.",,
 233,Nao (Casual),……酷い人ですね。わざと足を引っかけるなんて。,"...You're awful, tripping someone on purpose like this.",,
 235,ヱリカ,わざと？　人聞きの悪いことをやめて下さいな。,On purpose? Please don't say such bad things about people.,,
 238,Nao (Casual),"その人聞きの悪いことを、堂々とやったのはあなたでしょ！　あた

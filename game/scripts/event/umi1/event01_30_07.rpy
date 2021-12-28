@@ -46,7 +46,7 @@ label event01_30_07:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
  narrator 'After folding my clothes neatly, I glanced around with a carefree look, where the sounds of clothes being shed resounded.'
- narrator "It's amazing that they're not afraid to put their nakedness on display even though they have a sisterly bond..."
+ narrator "It's amazing that they're not afraid to put their nakedness on display even if they have a sisterly bond..."
  show mion_v002 smile at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
@@ -120,7 +120,7 @@ label event01_30_07:
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_5007_keyroll.wav'
- narrator 'Erika-san carefully felt the door to ensure it was locked.'
+ narrator 'Erika-san carefully tried the door to ensure it was locked.'
  show mion_v002 smile at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -225,7 +225,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show erika_v001 fuan at active
  show beatrice_v001 fuan at inactive
- erika 'When Battler-san was begging you for mercy, what what was it that you said that tormented him, again?'
+ erika 'When Battler-san was begging you for mercy, what was it that you said that tormented him, again?'
  show erika_v001 normal_close at active
  show beatrice_v001 fuan at inactive
  erika "It really is a great feeling, controlling the red truth like it's life or death, even though the witch's side must lose in the end."
@@ -375,7 +375,7 @@ label event01_30_07:
  hide nao_v002
  with Dissolve(0.2)
  narrator "At any rate, I don't know how the Sonozakis can take pictures outside in such revealing costumes when it's almost winter."
- narrator "...I wonder if it's true about cosplayers being able to withstand winter events naked if they reach a high enough level..."
+ narrator "...I wonder if it's true that cosplayers can withstand winter events naked if they reach max level..."
  show mion_v004 smile at mei_right
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
@@ -557,7 +557,7 @@ label event01_30_07:
  mion "An onlooker wouldn't realize it's there. Basically, until the person who created the device takes it out, the door will absolutely not open."
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion 'Supposing someone even {i}did{/i} notice the device, if they tried to remove it, it would change shape, and there would be evidence that they got in.'
+ shion 'Supposing someone {i}did{/i} notice the device, even if they tried to remove it, it would change shape, and there would be evidence that they got in.'
  hide mion_v004
  hide shion_v012
  with Dissolve(0.2)
@@ -589,7 +589,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 fuan at active
  show nao_v002 normal at inactive
- mion "This trick is a secret, alright? If it gets copied it lousily, we're gonna have to batten the hatches."
+ mion "This trick is a secret, alright? If any amateurs try doing this, we're gonna have to batten the hatches."
  show nao_v002 fuan at active
  show mion_v004 fuan at inactive
  nao "I can't come up with something like that and I don't intend to, so don't worry..."
@@ -705,8 +705,8 @@ label event01_30_07:
  hide shion_v012
  hide mion_v004
  with Dissolve(0.2)
- narrator 'Once again, the Sonozakis bicker like little children, throwing off their clothes and entering the bathroom at the same time, completely naked...'
- narrator "...They say you forget about your gender when in the absence of the opposite's eyes."
+ narrator 'Once again, the Sonozakis bicker like little children, throw off their clothes and enter the bathroom at the same time, completely naked...'
+ narrator '...They say you forget about your sex when in the absence of the other.'
  narrator "I think I'll be a bit more careful, even when nobody is watching..."
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
@@ -923,7 +923,7 @@ label event01_30_07:
  mion "Yeah. It's no ordinary paint, if I'm right..."
  show shion_v007 normal at active
  show mion_v008 normal at inactive
- shion "...The trick behind it is it's transparent at first, but as time passes, the stain starts to show up more and more."
+ shion "...The trick behind it is that it's transparent at first, but as time passes, the stain starts to show up more and more."
  show mion_v008 normal_close at active
  show shion_v007 normal at inactive
  mion 'As far as this crime goes... it could only have been committed immediately after opening the door.'
@@ -944,11 +944,11 @@ label event01_30_07:
  shion '...Erika-san. Please give us an honest answer, okay?'
  show erika_v001 sinken at active
  show shion_v007 normal at inactive
- erika "What? I'll speak for you. What do you want to know?!"
+ erika "What? I'll tell you. Anything you want!"
  hide erika_v001
  hide shion_v007
  with Dissolve(0.2)
- narrator "I couldn't think of any reason to suspect the wise Erika-san... even in the beginning, I never doubted her..."
+ narrator "As if we couldn't suspect that clever Erika-san... Even I could guess that right away..."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)

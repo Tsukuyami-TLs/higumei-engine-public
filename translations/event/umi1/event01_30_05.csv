@@ -1,4 +1,4 @@
-event01_30_05.bytes,,Jevil_A3W,Lloro - QC,,
+event01_30_05.bytes,,Jevil_A3W,Lloro - QC,Naegles - QC2,
 index,chara,jp,en,Comments,
 35,Nao (Casual),…………え…………。……朝…………。,.........Huh...? ...Morning already......?,,
 37,,"　んご～～～、すぴ～～～。
@@ -17,7 +17,7 @@ When we returned to our guest room, I found my bed ravaged... and a magic circle
 46,,"　あたしは夢の中では、窓の鍵の様子を見に行った紗音さんを、
 疑っていた。","In my dream I suspected Shannon-san, who went up to our room to check the lock of the window.",,
 47,,"　……あんなにも甲斐甲斐しく、お世話をしてくれた人を疑うなん
-て、今思うと申し訳ない。","Thinking about it now, I feel sorry after so diligently suspecting someone who's always helping us.","from ""I now felt sorry to suspect someone who happily took care of us the entire time.",
+て、今思うと申し訳ない。","Thinking about it now, I feel sorry for so diligently suspecting someone who's always helping us.","from ""I now felt sorry to suspect someone who happily took care of us the entire time.",
 50,Nao (Casual),……ベアトリーチェが言った、赤き真実……。,......That red truth Beatrice said...,,
 52,,"　夢の中の話を真に受けるなど、他人が聞けば馬鹿馬鹿しいことだ
 と思うだろう。
@@ -44,7 +44,7 @@ I wonder what he thought when he unraveled it...?",,
 71,Nao (Casual),"昨夜は睡眠薬を下さってありがとうございます。あれがなかった
 ら、興奮して眠れなかったかもです。","Thanks for giving me sleeping pills yesterday, Shion-san. I don't think I could've slept without them due to the shock.",,
 76,詩音 (Casual),"旅先は枕が違うから、案外、熟睡できないんですよね。役に立って
-よかったです。","I usually have a hard time sleeping on a different pillow while on vacation, so I brought those in case. I'm glad they helped you too.","from ""Sleeping soundly on a trip can be difficult sometimes because of an unfamiliar pillow, which is why I brought those.",
+よかったです。","I usually have a hard time sleeping on a different pillow while on vacation, so I brought those just in case. I'm glad you found them useful.","from ""Sleeping soundly on a trip can be difficult sometimes because of an unfamiliar pillow, which is why I brought those.",
 79,Mion (Casual),"よっしゃああーー！！　今日は最高にいいお天気！　撮影日和
 だぁぁ！！",Yeeaaah!! We have great weather today! The best kind for a photo shoot!!,,
 81,詩音 (Casual),"菜央さんは、ゆっくり刺繍をして過ごすんでしたよね？　私たちの
@@ -52,7 +52,7 @@ I wonder what he thought when he unraveled it...?",,
 86,Nao (Casual),…………はい。,......Okay.,,
 88,,昨夜。……不気味な魔法陣に、あたしたち３人は驚いた。,Us three were... very surprised... last night when we saw that ominous magic circle painted on my bedsheet.,,
 89,,"　……だが、それよりも驚いたことは、いつまでも驚いていたの
-が、あたしだけだったということだ。","...However, what surprised me more was that it was only me who was shocked the entire time.",,
+が、あたしだけだったということだ。","...However, what surprised me even more was that it was only me who was shocked the entire time.",,
 90,,"　なんと。魅音さんは唐突に、カラカラと笑い出したのだ。
 　あの時は、突然の笑いに、魔女が憑依したのかと絶句してしまっ
 た。","A few moments after we saw the magic circle, Mion-san started to roar with laughter. It was so sudden, I was speechless and feared that the witch had possessed her.",,
@@ -83,8 +83,8 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 句して当然だと思うけれど……。","...Although, I think anyone would be at a loss for words if they were subject to a prank like this.",,
 102,,……………うーーん……。,......Yeaaaah...,,
 105,Nao (Casual),"……あたしも二人を見習って、もっと打たれ強くならないといけな
-いかしら……。",......Maybe I should learn to be stoic like those two...,,
-107,,だから。その怯えを魔女に付け込まれて、あんな夢を見る……。,"Because of that, the witch's panic overcame me in my dreams.",,
+いかしら……。",......Maybe I should learn to be as stoic like those two...,,
+107,,だから。その怯えを魔女に付け込まれて、あんな夢を見る……。,"Because of that fear, I let the witch impose on my dreams...",,
 110,Nao (Casual),あの……。お二人は……、何か夢を見ましたか？,Hey... did you two... have any dreams?,,
 115,詩音 (Casual),"素敵な夢を見られるかと期待しましたが、私はさっぱりでした。お
 姉は、何か夢を見ました？","I was expecting to have some good dreams, but none last night. What about you, Sis?",,
@@ -114,7 +114,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 169,,１階では郷田さんと嘉音さんが朝食の支度をしてくれていた。,"On the first floor, Gohda-san and Kanon-san were preparing our morning dishes.",,
 172,嘉音,……おはようございます。昨夜はよく眠れましたか。,...Good morning. Have you slept well last night?,"from ""I hope you had a good sleep last night.",
 176,郷田,さぁさぁ、御着席を。古戸さまは、まだお休みでしょうか？,"Now, please be seated. Is Furudo-sama still sleeping?",,
-179,Nao (Casual),ドアノブに、起こさないで下さいって札を掛けてました。,"She had a tag hanging on a doorknob saying ""Do not disturb"".",,
+179,Nao (Casual),ドアノブに、起こさないで下さいって札を掛けてました。,"She had a tag hanging on a doorknob saying ""Do Not Disturb"".",,
 186,詩音 (Casual),わ～、このポーチドエッグ、すっごい可愛らしいですよ～！,"Wow~, these poached eggs are soooo cute!",,
 188,嘉音,当家のシェフ、郷田が腕を振るいました。,"Our head chef, Gohda, has prepared for you his finest.","from ""Our chef Gohda showed his finest.",
 192,Nao (Casual),本当、見事なセンスですよね。,"He really has an eye for aesthetics, huh?","from ""I can see it is extremely tasteful.",
@@ -130,7 +130,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 開。朝食から全力で食いまくりだ。","Meanwhile, the Sonozaki sisters were at full throttle as if yesterday had never happened. They ate as much as they could, even if it was just breakfast.",on the other hand -> meanwhile / very lively -> full throttle,
 205,Mion (Casual),いやぁ、それにしても昨夜のボドゲは楽しかったねぇ！,"Well, last night's board game session was a lot of fun!",,
 207,詩音 (Casual),"お姉のアレ。絶対に次のルール改定でエラッタが出ますよ。あんな
-の許される訳がないです。","Sis. About that tactic you did, I'm sure they'll have an errata in the next rule revision. There's no way they'll allow that.",,
+の許される訳がないです。","Sis. About that tactic you used, I'm sure they'll have an errata in the next rule revision. There's no way they'll allow that.",,
 209,Mion (Casual),"いい？　ゲームも現実もね、とにかく徹底的にテキストを読み込む
 の。どこに罠があるかわからない！","Oh, really? Whether it's a game or real life, just read the text carefully. You never know where you'll find a trap!",,
 211,Mion (Casual),"逆に、決定的なチャンスを自分だけが見付けたなら、それは大きな
@@ -157,7 +157,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 245,Mion (Casual),"ふぅん。なるほどなるほど……。菜央ちゃんは夢の中でも頑張って
 考えてたんだねぇ。","Hmmm. I see, I see... Even in your dream, I'm sure you were thinking hard, Nao-chan!",,
 248,詩音 (Casual),"ベアトリーチェが言ったという、赤き真実。メモったんですけど、
-これで合ってますか？",I wrote the all red truths that Beatrice said in your dream. Could you double-check them?,,
+これで合ってますか？",I wrote down all the red truths that Beatrice said in your dream. Could you double-check them?,,
 251,,"　詩音さんは、ゲームの要となる赤き真実を、ペーパーナプキンに
 書き留めていた。","Shion-san had written down the red truths, the pivotal factor of the game, on a paper napkin.",,
 252,,"　確認する。……うん。ベアトリーチェが言ったことと、一言一
@@ -202,8 +202,8 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 317,詩音 (Casual),でしたよね？,"...was what the witch said, wasn't it?",,
 319,Mion (Casual),訪れた者はいなくても、待機していた者はいるかもねぇ？,"Maybe no one went up, but someone could have been waiting in the room, right?",,
 324,Nao (Casual),え、待機………。,"Huh, waiting...?",,
-329,詩音 (Casual),施錠から開錠までの間、２階に行っちゃいけない訳ですよね？,"In the timeframe the room was locked and then unlocked, going upstairs is forbidden, right?","from ""You can't go upstairs between locking and unlocking the door, right?",
-331,Mion (Casual),それ以前に、２階に行っちゃってればいい。,But you can go upstairs before then.,,
+329,詩音 (Casual),施錠から開錠までの間、２階に行っちゃいけない訳ですよね？,"From the time the room was locked until it was unlocked, the red doesn't allow going upstairs, right?","from ""You can't go upstairs between locking and unlocking the door, right?",
+331,Mion (Casual),それ以前に、２階に行っちゃってればいい。,But someone could have gone upstairs before then.,,
 333,Mion (Casual),"つまり。施錠から開錠までの間に、すでに２階に滞在してれば、
 なぁんの問題もないワケ！","Meaning, if you're already upstairs between the time the door is locked and the time it's unlocked, there's no problem at all!",,
 338,Nao (Casual),あ、……あ、…………。,Ah... oh......,,
@@ -219,7 +219,7 @@ The culprit had been lurking upstairs all along, waiting for the opportunity to 
 350,Nao (Casual),"じゃあ……、犯人は、２階の他の部屋に潜み……、外壁を伝うか何
 かして、窓から侵入したってことですか……？！","So... the culprit climbed up the wall outside... broke in through the window, and hid in another room on the second floor...?!","from ""So, ......, the culprit hid in another room on the second floor, ......, climbed through an exterior wall or something, and broke in through the window...?!",
 352,Mion (Casual),"昨夜は真っ暗だったからわからなかったけれど。おじさんは朝、窓
-を開けて、外壁を確認したんだよ。","I couldn't tell last night because it was dark. In the morning, this ol' man opened the window and checked the outer wall.",,
+を開けて、外壁を確認したんだよ。","I couldn't tell last night because it was dark. But in the morning, this ol' man opened the window and checked the outer wall.",,
 354,Mion (Casual),"露骨な痕跡はなかったけれど、下の階の庇がいい感じの足場になっ
 てた。","There were no obvious traces, but the overhang on the lower floor made for a nice foothold.","from ""the eaves of the lower floor made a nice scaffolding.",
 358,詩音 (Casual),"まぁ、これが部活だったなら、お姉どころか、部活メンバーなら誰
@@ -240,7 +240,7 @@ The culprit had been lurking upstairs all along, waiting for the opportunity to 
 391,ヱリカ,"私も、薔薇庭園の東屋で、のんびり読書でもしようかと思っていま
 す。",I'm thinking of relaxing and reading my books at the arbor in the rose garden.,,
 393,ヱリカ,"そういえば菜央ちゃまは、薔薇庭園を眺めながら刺繍をするんでし
-たっけ？",I remember Nao-chama was saying you were going to do embroidery while looking at the rose garden?,,
+たっけ？",I remember Nao-chama saying she was going to do embroidery while looking at the rose garden?,,
 396,,"　清々しい笑顔？　……違うわ、この笑みは。
 　昨日のアレ、お楽しみいただけました？　という問い掛けの笑み
 だ。","A refreshing smile? ...No, it wasn't like that.
@@ -273,15 +273,15 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 442,ヱリカ,"いえいえ。一般的な分類では、ラブロマンスというジャンルなんで
 すが。私にはとてもミステリーなんです。","Well, you see, it would typically be classified under the romance genre... yet it's very much a mystery to me.","from ""No, no. In the general classification, it's a romance genre... yet it's very much a mystery to me.",
 444,ヱリカ,"どうして、それが恋をする動機になるのか？　とか、どうして、リ
-スクヘッジもせずに恋愛の地雷原に踏み込むのか？　とか。","Why is that motivation to fall in love? Or, why step into the minefield of love without hedging your risks? And so on.",,
+スクヘッジもせずに恋愛の地雷原に踏み込むのか？　とか。","What is the motivation to fall in love? Or, why step into the minefield of love without hedging your risks? And so on.",,
 446,ヱリカ,"恋愛至上主義者たちの行動理念は、私にとっては、並のミステリー
 よりも読み応えがあるんです。","To me, the behavioral philosophy of love supremacists is a much juicier read than an ordinary mystery.",,
 449,Mion (Casual),"はははは。おじさんもちょっとわかるよ。下手な推理小説よりも、
 女心はミステリーかもしれない。",Hahahaha. This ol' man understands that a little bit too. A woman's mind may be more mysterious than a mystery novel.,,
 451,ヱリカ,"探偵たる者、殺人の動機として古来より代表格に数えられる“恋愛
-感情”というものを、勉強しておいて損はありませんので。","As a detective, there is no harm in learning about the ""emotion of romance"": one of the most common motives for murder since ancient times.",,
+感情”というものを、勉強しておいて損はありませんので。","As a detective, there is no harm in learning about the ""emotion of romantic love"": one of the most common motives for murder since ancient times.",,
 455,詩音 (Casual),"ヱリカさん？　恋は理屈じゃない。ビビーンと来たら、ドキュー
-ン、バキューン♪　ですよ。","Erika-san? Love is not a matter of logic. When you feel the spark, you go zap and then boom♪",,
+ン、バキューン♪　ですよ。","Erika-san? Love isn't a matter of logic. When you feel the spark, you go zap and then boom♪",,
 458,,"　ドキューン、バキューン？？　やっぱり、殺人の動機になり得る
 わね……。",Zap and boom...? I guess romance {i}can{/i} be a motive for murder...,,
 459,,"　ヱリカさんは、もう読みたい本を持ってきているようで、部屋に
@@ -297,9 +297,9 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 499,詩音 (エンジェルモート),"朱志香さんもご一緒にどうですぅ？　やってみるとクセになります
 よ～♪","Why don't you come and join, Jessica-san? It can get pretty addictive～♪",,
 501,朱志香,"い、いやいや！　私は見てるだけでいーぜ！　っていうか、カメラ
-変わろっか？　二人を撮るぜ？","N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can take both of you then!",,
+変わろっか？　二人を撮るぜ？","N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!",,
 505,Mion (エンジェルモート),え？　ホント？！　それは助かるなぁ！　一眼レフ、扱えるぅ？,What? Really? That would be great! Can you handle an SLR camera?,,
-508,朱志香,任せろよ！　親父のカメラ、一時は親父よりいじってたんだぜ。,"Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him.",I got it! -> Leave it to me!,
+508,朱志香,任せろよ！　親父のカメラ、一時は親父よりいじってたんだぜ。,"Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him even.",I got it! -> Leave it to me!,
 513,Nao (Casual),"……てっきり、薔薇の写真を撮るのだと思ってました。まさか、コ
 スプレ撮影とは。",...I thought you were going to take pictures of roses. I had no idea it was a cosplay shoot.,,
 518,詩音 (エンジェルモート),"ロケーションもすっごい大事なんですよ？　白ホリで撮るのと、こ
@@ -309,7 +309,7 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 522,詩音 (エンジェルモート),"キャンペーン対象メニューを頼むと、ランダムで魅惑のエンジェル
 モートウェイトレスの写真がもらえるんだそうです。","If you order certain menu items on a campaign, you will randomly receive a picture of an enchanting Angel Mort waitress.",,
 527,朱志香,"じゃあ撮るぜー！　好きなポーズで頼むぜ！　わ、大胆っ、せく
-しぃ……。","Let's get a shot then! Give me your best pose! W-wow, so bold... so sexy...","from ""Any pose you like, please! / amorous -> sexy",
+しぃ……。","Let's take a shoot then! Give me your best pose! W-wow, so bold... so sexy...","from ""Any pose you like, please! / amorous -> sexy",
 529,,"　六軒島で孤独に生きて来た朱志香さんにとって、魅音さんたちの
 世界は、まさに異世界なのだろう。","For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be completely different.",,
 530,,"　今回のバカンスで、一番楽しんでいる人は誰か挙げろと言われた
@@ -331,7 +331,7 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 560,,"　気持ち悪い……。読書じゃなくて、あたしをずっと観察してた
 の？","How creepy... She wasn't reading, but instead, she was watching me the whole time...?",,
 561,,"　やっぱり、この人とは馬が合わない。というか、はっきりと敵意
-を感じるのだ。","After all, I don't get along with this person. I mean, I can clearly sense her hostility.",,
+を感じるのだ。","After all, I can't get along with this person. I mean, I can clearly sense her hostility.",,
 562,,"　そう思ったら、ここで背中を向けるのは、負けを認めるような気
 持ちになる。……逃げたりするものか。","When you think about it, turning your back on this place feels like admitting defeat. There's no way I'm running away...",,
 567,Nao (Casual),"……ありがとうございます。……じゃあ、お向かいの席、失礼しま
@@ -355,4 +355,4 @@ It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's 
 595,ヱリカ,"なので、私にもわかるように、丁寧にお教え願えますか？　うっ
 ふっふっふ……。","Then, would you care to describe what's on your mind in detail, so I can understand too? Eheheheheh!","from ""So, would you mind describing what's on your mind, in detail..., so I can understand too? Eheheheheheh!",
 598,,"　喧嘩の売買成立。もうこうなったらやってやるわ。鳳谷菜央、
-買った喧嘩は値切らないわよ……。","Deal. As Nao Houtani, I'm not going to make an easy compromise...",,
+買った喧嘩は値切らないわよ……。","Deal. As Nao Houtani, I'm not going to take an easy compromise...",,

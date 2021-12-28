@@ -88,11 +88,11 @@ label event01_30_09:
  show shion_v007 odoroki at mei_center
  with Dissolve(0.5)
  show shion_v007 odoroki at jump_transform,active
- shion 'Huh? Wha, what on earth...!?'
+ shion 'Huh? Wha-what on earth...!?'
  hide shion_v007
  with Dissolve(0.2)
  narrator 'Since a magic circle had just appeared in her room, I thought Erika-san would have been shaking in fear.'
- narrator 'But suddenly, she burst into laughter and displayed an extression that seemed to say that some fool had fallen into her trap...'
+ narrator 'But suddenly, she burst into laughter and displayed an expression that seemed to say that some fool had fallen into her trap...'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -275,7 +275,7 @@ label event01_30_09:
  nao 'This is...'
  show mion_v008 normal at active
  show nao_v002 normal at inactive
- mion 'A black light...?'
+ mion 'A black light... right?'
  hide mion_v008
  hide nao_v002
  with Dissolve(0.2)
@@ -442,7 +442,7 @@ label event01_30_09:
  hide fade with Dissolve(0.16666666666666666)
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor "{umi_red}Shion Sonozaki's body does not have any florescent paint on IT.{/umi_red}"
+ dlanor "{umi_red}Shion Sonozaki's body does not have any fluorescent paint on IT.{/umi_red}"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -483,7 +483,7 @@ label event01_30_09:
  dlanor 'ERIKA. This is a game for ladies and GENTLEMEN. Please refrain from using vulgar SPEECH.'
  show erika_v001 sinken at chara_shake_transform,active
  show dlanor_v001 normal at inactive
- erika "SHUUUUUUUUT. THE HELLLLLL. UP. YOU MURDER DOLL!!! IT'S MY TURN NOW!!"
+ erika "SHUUUUUUUUT THE HELLLLLL UUUUUP, YOU MURDER DOLL!!! IT'S MY TURN NOW!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -539,7 +539,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show shion_v007 normal_close at active
  show mion_v008 normal at inactive
- shion 'You can say whatever you want about me. And by the way, I consider what you just said to be a compliment.'
+ shion "You can say whatever you want about me. And by the way, I'd consider what you just said to be a compliment."
  show mion_v008 normal at active
  show shion_v007 normal_close at inactive
  mion "...Shion definitely doesn't have an alibi, but... doesn't that prove she didn't enter your room?"
@@ -632,7 +632,7 @@ label event01_30_09:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika "There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant trash diveeeeeeerrrrrrr!!!!!"
+ erika "There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant dumpster diveeeeeeerrrrrrr!!!!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   anchor (0.5,0.5)
@@ -735,7 +735,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice "Didn't your master say once that black tea is best enjoyed with monsters?"
+ beatrice "Didn't your master once say that black tea is best enjoyed with monsters?"
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice '...I see. If a witch opens up the game board, witches, monsters, and similar beings may be invited in...'
@@ -795,7 +795,7 @@ label event01_30_09:
  play audio 'audio/sfx/SE_391_ls_swing.wav'
  show nao_v002 normal at active
  show erika_v001 odoroki at inactive
- nao '{umi_blue}Erika put a "Bedmaking Not Necessary" tag on her doorknob. In other words, it\'s so the servants would not enter her room.{/umi_blue}'
+ nao '{umi_blue}Erika put a "Bedmaking Not Necessary" tag on her doorknob so that the servants would not enter her room.{/umi_blue}'
  camera:
   anchor (0.5,0.5)
   pos (960,540)
@@ -984,7 +984,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'Can you please give us a more detailed explaination?'
+ nao 'Can you please give us a more detailed explanation?'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice 'Mhm... The shapes of a magic circle can roughly describe things like its core and the flow of energy through it...'
@@ -1025,7 +1025,7 @@ label event01_30_09:
  beatrice "While the spirals and overlapping circles vary, it's clear that both parties were trying to draw the same magic circle."
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
- nao "So in essense, it's possible this magic scribble was made by several people who shared some sort of common knowledge..."
+ nao "So in essence, it's possible this magic scribble was made by several people who shared some sort of common knowledge..."
  show beatrice_v001 fuan at active
  show nao_v002 normal_close at inactive
  beatrice "...I... I don't understand what you mean. Can you simplify what you're saying...?"
@@ -1057,7 +1057,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'Dlanor... I would like to listen respectfully to Nao. May I give my turn to her?'
+ beatrice 'Dlanor... I would like to respectfully listen to Nao. May I give my turn to her?'
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
  dlanor 'If that is your request, then it is FINE.'
@@ -1072,10 +1072,10 @@ label event01_30_09:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show erika_v001 odoroki_close at inactive
- nao 'Erika-san, I think this was what mercy as a detective was.'
+ nao 'Mercy as a detective, huh, Erika-san?'
  show erika_v001 sinken at active
  show nao_v002 smile at inactive
- erika 'Tch. ...I lost, I lost... My loss...'
+ erika 'Tch. ...Iost, lost... I lost...'
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
  nao 'Maybe that summoning circle...'

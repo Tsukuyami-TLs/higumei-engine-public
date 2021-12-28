@@ -1,4 +1,4 @@
-event01_30_01.bytes,,,hanss,Lloro - QC,Naegles - QC, 
+event01_30_01.bytes,,,hanss - QC1,Lloro - QC2,Naegles - QC3, 
 index,chara,jp,en,Notes,,
 29,,六軒島へは、新島から別の船に乗り換える。,"To get to Rokkenjima, we transferred onto another boat at Niijima.",,,
 30,,"　フェリーと違い、小型の高速船だったので、かなり揺れたが、ス
@@ -40,7 +40,7 @@ index,chara,jp,en,Notes,,
 92,ヱリカ,"ファンといいますか。探偵を名乗る人物には、創作物の中とはい
 え、シンパシーとジェラシーを同時に覚えるんです。","I suppose I am a fan. Even if it is a work of fiction, I both pity and envy anyone calling themself a detective.",,,
 94,ヱリカ,"見事な推理だと称賛する気持ちと、でも私だったら、もっと見事な
-推理を見せるのに、という反発と。","The reasoning in the show is admirable, but my gripe is if I were the detective, I could have demonstrated a far more brilliant deduction.","changed from ""but I have a gripe with it""",,
+推理を見せるのに、という反発と。",The reasoning in the show is admirable. My only gripe with it is that I could have demonstrated even more brilliant deductions were I the detective.,"changed from ""but I have a gripe with it""",,
 96,,"　園崎姉妹とヱリカ……さんは、何だか意気投合してしまってい
 る。
 　あたしだけが気まずい。……はぁ。","The Sonozaki sisters and Erika...san have somehow hit it off. 
@@ -51,14 +51,14 @@ I'm the only one left out. ...*sigh*.",,,
 から、楽しまないと。","Rena-chan... was looking forward to it so much, but she let me go instead, so I have to enjoy myself.",,,
 102,Nao (Casual),トラブルのことは忘れて、頭をリセットしなきゃ。,I need to forget about my troubles and clear my head.,,,
 108,ヱリカ,"もやっていて見えにくいですが。わかります？　あれが六軒島で
-す。","It might be a bit difficult as the boat is rocking, but can you see it? That's Rokkenjima over there.",,,
+す。","It might be a bit difficult since the boat is rocking back and forth, but can you see it? That's Rokkenjima over there.",,,
 114,Mion (Casual),あ！　あれ？！　すごいすごい！　本当に島だ！！,Ah! There?! Wow! It's really an island!!,,,
 116,詩音 (Casual),"……お姉、止めて下さい。海を見るのが初めての田舎者と思われま
 す。","...Sis, please calm down. Everyone's going to think you're a hick seeing the ocean for the first time.",,,
 121,ヱリカ,"では問題です。……六軒島という名は、どういう謂れで付けられた
 でしょう？","Now, I have a question... Why do you think the island is called Rokkenjima (Six House Island)?",,,
 123,,"　……大昔、家が６軒あったから、何て謂れだったら、簡単過ぎ
-る。","...If it's because there were six houses on the island a long time ago , then it'd be too easy.",,,
+る。","...If it's just because there were six houses on the island a long time ago , then it'd be too easy.",,,
 124,,同じことを魅音さんが口にしてくれた。,But it's also the exact answer that comes out of Mion's mouth.,,,
 128,ヱリカ,"半分正解です。最も繁栄した時でも、６軒までしか棲みつけなかっ
 たということに由来します。","That's half right. The name comes from the fact that even in its most prosperous times, there were no more than six houses on the island.",,,
@@ -94,7 +94,7 @@ Maybe it's not a big deal when you're constantly living under Oyashiro-sama's cu
 181,Nao (Casual),…………魔女……？,.........A witch...?,,,
 183,ヱリカ,ふふん……。,*giggle*...,,,
 185,Nao (Casual),"別に、何が住み着いてたって関係ないわ。……オバケも幽霊も、あ
-たしは信じない。","I don't really care what's living on the island. ...Ghosts and spirits, I don't believe in any of that.",,,
+たしは信じない。","I don't really care what's living on the island. ...Ghosts or spirits, I don't believe in any of that.",,,
 187,ヱリカ,おや。,Oh?,,,
 189,Nao (Casual),何よ……。,What is it...,,,
 191,ヱリカ,そういう態度、六軒島では慎んだ方がいいと思いますよ？,Don't you think you should be more careful about your attitude towards Rokkenjima?,,,
@@ -174,7 +174,7 @@ It was the type of scene that made you think something like that...",,,
 334,朱志香,"へへ。嘉音くんの手入れがいいから、今年も最高の薔薇が咲いた
 ぜ！","Heheh. Thanks to Kanon-kun's wonderful care, we've had the best roses ever this year!",,,
 338,ヱリカ,"ぜひ、嘉音さんに直接、労いの言葉が掛けたいのですが、お呼びい
-ただくことは出来ますか？",I would like to express my gratitude to Kanon-san directly. Is there any way you can call him?,,,
+ただくことは出来ますか？",I would like to express my gratitude to Kanon-san directly. Is there any way you could call him?,,,
 340,紗音,勿体ないお言葉です。本人に伝えさせていただきますね。,Your words are too kind. I will pass your message on to him.,,,
 346,Nao (Casual),"こんな立派な薔薇庭園が、家人以外の目に触れることも許されない
 なんて……。","Such a beautiful rose garden, and no one outside the household is allowed to see it. I can't believe it...",,,
@@ -247,8 +247,8 @@ Erika-san's room next to ours is the same, although she's the only one using it.
 502,Mion (Casual),ああぁああぁあぁぁぁぁ！！　その手があったかぁぁぁ！！,Aaaaaaaaaargghhh!! I should've done that!! ,,,
 504,Mion (Casual),詩音、今すぐ帰って、圭ちゃんとトレードしてぇ！！,Shion! Go back right now and switch with Kei-chan!,,,
 512,詩音 (Casual),なんて言ってますけど、お姉にそんな意気地はありませんから。,"I never knew you had that little self respect, Sis.",,,
-514,Nao (Casual),そ、そこで振られても、あたし、返事に困ります……。,I-If you did that and he turned it down I wouldn't know how to respond...,,,
-522,,あたしたちは荷物を置き、部屋を施錠する。,We leave our bags and lock the room.,,,
+514,Nao (Casual),そ、そこで振られても、あたし、返事に困ります……。,"I-If you did that and he turned it down, I wouldn't know how to respond...",,,
+522,,あたしたちは荷物を置き、部屋を施錠する。,We left our bags and locked the room.,,,
 523,,ヱリカさんもちょうど出て来て、施錠しているところだった。,Erika-san had also just come out and locked her room.,,,
 529,,"　下に降りると、郷田さんがウェルカムドリンクを配膳してくれて
 いた。","When we went downstairs, Gohda-san was setting out some drinks to welcome us.",,,
@@ -267,7 +267,7 @@ Erika-san's room next to ours is the same, although she's the only one using it.
 577,ヱリカ,ふふん……。,"Hmm, I see...",,,
 582,紗音,皆様。お屋敷の方へご案内させていただきます。,"Everyone, I would like to show you the mansion.",,,
 584,,"　ご馳走になり、ひと息ついたところで、朱志香さんが迎えに来
-る。","After the refreshments and a break, Jessica comes to get us.",,,
+る。","After the refreshments and a little break, Jessica arrived to come get us.",,,
 585,,"　まずは、２泊３日をお世話になる右代宮家の人にご挨拶だ。
 　それから、戦後すぐに建てられたという贅沢な洋館を案内しても
 らうのだ。","First, we'll go greet the family members that will be taking care of us these next few days.
@@ -294,7 +294,7 @@ Then after that, we'll be shown around the Western-style mansion built right aft
 629,ヱリカ,だってここは、魔女の島なんですから……。,"Because, this is the witch's island...",,,
 631,Nao (Casual),……魔女………？,...Witch......?,,,
 639,,"　洋館の主、右代宮蔵臼さんと夏妃さんが、あたしたちを迎えてく
-れた。","The masters of the house, Ushiromiya Krauss-san and Natsuhi-san, came to greet us.",,,
+れた。","The masters of the house, Krauss Ushiromiya-san and Natsuhi-san, came to greet us.",,,
 640,,"　蔵臼さんは、如何にもお金持ちという感じの、恰幅のいい紳士。
 　そして奥方の夏妃さんは、明治や大正の貴族を思わせるような、
 非の打ちどころのない淑女だった。","Krauss-san was a wealthy looking, well-dressed gentleman. 
@@ -344,7 +344,7 @@ His wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of t
 I wonder if I've also... been poisoned by the cliche of mysteries on isolated islands.",,,
 727,朱志香,ウチの顧問錬金術師サマの肖像画だそうだぜ。,It's a portrait of our family alchemist.,,,
 729,朱志香,"祖父さまが言うには、彼女から１００ｔの黄金を借りることが出来
-なければ、右代宮家の隆盛もなかったんだそうだ。","According to grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.",,,
+なければ、右代宮家の隆盛もなかったんだそうだ。","According to Grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.",,,
 732,Nao (Casual),錬金術って、……オカルトの？,Alchemy... like in the occult?,,,
 734,朱志香,"まぁ、ポンと金塊を１００ｔも用意できるんだから、錬金術師と呼
 んでもおかしくねぇんだろうぜ。","Well, if she can produce 100 tons of gold with a poof, then I suppose you could call her an alchemist.",,,
