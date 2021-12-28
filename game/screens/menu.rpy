@@ -117,10 +117,10 @@ screen characters():
         yalign 0.5
         spacing 10
 
-        textbutton "\"Chiester Sister Corps\" Nao Houtani" style "button_story" action NullAction()
-        textbutton "\"The Golden Witch\" Beatrice" style "button_story" action NullAction()
-        textbutton "\"Witch of Truth\" Erika Furudo" style "button_story" action NullAction()
-        textbutton "\"Inquisitor of Heresy\" Dlanor" style "button_story" action NullAction()
+        textbutton "\"Chiester Sister Corps\" Nao Houtani" style "button_story" action Start('chara032009')
+        textbutton "\"The Golden Witch\" Beatrice" style "button_story" action Start('chara452001')
+        textbutton "\"Witch of Truth\" Erika Furudo" style "button_story" action Start('chara462001')
+        textbutton "\"Inquisitor of Heresy\" Dlanor" style "button_story" action Start('chara472001')
 
 
 ## TIPS Select screen ############################################################
