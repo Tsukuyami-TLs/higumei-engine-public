@@ -104,8 +104,22 @@ label wipein_routine:
     return
 
 label chapter_end:
-    # TODO: Put whatever transition you want here
-    scene black_cover
-    with Dissolve(1.0)
-    pause 1.0
-    "End chapter." # lol please remove this later
+    $ timeout = 2.0
+    $ timepause = 1.0
+    $ timein = 1.0
+    show black_cover as fade:
+       alpha 0.0
+       linear timeout alpha 1.0
+    show expression "gui/higulogo_mei.png" as logo:
+        alpha 0.0
+        zoom 0.4
+        align (1.0, 1.0)
+        offset (0, 70)
+        linear timeout alpha 1.0
+
+    $ renpy.pause(timeout, hard=True)
+    stop music fadeout 1.0
+    $ renpy.pause(timepause, hard=True)
+    show expression "gui/higulogo_mei.png" as logo:
+        linear timein alpha 0.0
+    $ renpy.pause(timein)
