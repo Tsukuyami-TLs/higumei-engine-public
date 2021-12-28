@@ -1,8 +1,8 @@
-event01_30_99.bytes,,Lunik - TL,hanss - TL,Lloro - QC,
+event01_30_99.bytes,,Lunik - TL,hanss - TL,Lloro - QC,Naegles - QC2
 index,chara,jp,en,,
-42,Nao (Casual),ッッッ………………………、,...........................,,
-48,詩音 (Casual),どうしたんです？　………ひッ？！？！　お、お姉……！！,What's wrong? ...Wha?!?! S-sis...!!,,
-50,Mion (Casual),……やって、……くれるねぇ………。,...They've... done it...,"from ""....I'll do it,... let's give it to them....",
+42,Nao (Casual),ッッッ………………………、,H-............,,H-............
+48,詩音 (Casual),どうしたんです？　………ひッ？！？！　お、お姉……！！,What happened? .........Heee?!?! S-Sis...!!,,What happened? .........Heee?!?! S-Sis...!!
+50,Mion (Casual),……やって、……くれるねぇ………。,...They've... done it...,"from ""....I'll do it,... let's give it to them....",...They've... done it...
 53,,"　物語は、第一の魔法陣が、あたしのベッドシーツに描かれていた
 のを発見した時に遡る。",The story goes back to when I first found the magic circle on my bed sheet.,,
 56,Nao (Casual),ど、………どういうこと…………。,W-... what is this...,ど、………どういうこと…………。,W-... what is this...
@@ -19,7 +19,8 @@ index,chara,jp,en,,
 67,,"　あたしが、おぞましい魔法陣に絶句している時。
 　園崎姉妹は言っていた。",I was enraptured by that horrible magic circle. That was when the Sonozakis spoke.,removed Sister,
 68,,"　ひッ？！？！　お、お姉……！！
-　……やって、……くれるねぇ………。",Wha?!? S-sis...!! ...They've... done it...,"from ""Do ...... give me.....",
+　……やって、……くれるねぇ………。","Wha?!?! S-sis...!! 
+...They've... done it...","from ""Do ...... give me.....",
 69,,"　以下は園崎姉妹の二人にしか聞こえないやりとりである。
 　恐怖で頭を真っ白にしていたあたしには、聞こえる訳もない。",The following is an exchange that only the Sonozaki sisters can hear. I was so terrified that I couldn't even hear it.,,
 74,詩音 (Casual),……これ……、無頼人さまの魔法陣ですよッッ？！？！,...That's... Bright-sama's magic circle?!?!,,
@@ -49,7 +50,7 @@ index,chara,jp,en,,
 108,,"　さて。本来ならば、紗音さんが２階の部屋に入るのはイレギュ
 ラーだった。","Now, Shannon-san had originally not planned to go to the room upstairs.",well -> now,
 109,,"　あたしが窓の鍵の話を唐突に始めたので、紗音さんは２階へ上が
-ることになってしまった。",She only had to upstairs because I suddenly mentioned the lock on the window.,,
+ることになってしまった。",She only had to go upstairs because I suddenly mentioned the lock on the window.,,
 110,,"　だからその時点でのヱリカさんは、内心、しまったと思ったはず
 だ。","So, at that point, I'm sure Erika-san was panicking internally.",so / order change,
 111,,"　魔法陣の悪戯の第一発見者を私にして、驚かせてやろうと思って
@@ -114,7 +115,7 @@ A quiet sound, but... as if it was pressed right up next to ear.",,
 155,ヱリカ,ハッ………ハハ……………ッッッ。,Ha...... haha............ nnn.,,
 157,,こいつら……、#p聞#s・#r#pい#s・#r#pて#s・#r#pや#s・#r#pが#s・#r#pる#s・#r……ッ！！！,Those two... {i}they're listening to me{/i}!!!,,
 158,,"　私が完璧な魔法陣を描き上げて、その感嘆の声を聴こうとして壁
-に耳を当てている私の挙動を、……聞いてやがるッ！！！","I've drawn a perfect magic circle, and am now listening through the wall for voices of admiration... but they're listening to me!!!",,
+に耳を当てている私の挙動を、……聞いてやがるッ！！！","I've drawn a perfect magic circle, and am now listening through the wall for voices of admiration... but at the same time they're listening to me!!!",,
 160,,"　２つの客室を隔てる１枚の壁の両側で、……１人と２人の巨大ナ
 メクジが……、コップを壁に押し付け合い、互いに聞き耳を立て
 合っているッ！！",On either side of the wall separating the two rooms... was one giant slug and two giant slugs... listening to each other through the wall with cups.,,
@@ -152,9 +153,9 @@ That's right. After we returned, the two fought and ran into the shower together
 レてる。","But, Erika-san is crazy enough to call herself a great detective.",,
 177,,"　ブラックライトで詩音さんの手を照らして、何の痕跡もないこと
 を見た瞬間彼女は、こんなはずはないと絶叫を始めたが、……あれ
-は絶望の狂乱ではなく、ある意味、歓喜だったのだ。","When nothing came up after shining on Shion-san's hand with the black light, and she started crying out, ""That's impossible!""... it wasn't frenzied scream of despair, but rather, of great delight.",chapter 9 index 546,
+は絶望の狂乱ではなく、ある意味、歓喜だったのだ。","When nothing came up after shining on Shion-san's hand with the blacklight, and she started crying out, ""That's impossible!""... it wasn't frenzied scream of despair, but rather, of great delight.",chapter 9 index 546,
 178,,"　ヱリカさんが言うには、……ノックス第１０条。“手掛かりなき
-他の登場人物への変装を禁ず”。","Erika-san says... Knox's 10th: ""it is forbidden to disguise yourself as another person without any clues.""",,
+他の登場人物への変装を禁ず”。","In Erika-san's words... ""Knox's 10th: It is forbidden to disguise yourself as another person without any clues.""",,
 179,,"　ヱリカさんは園崎姉妹に会い、自己紹介を交わして、二人が瓜二
 つの双子姉妹であることを知っていた。","However, Erika-san had met the sisters, introduced herself, and knew that they were identical twins.",,
 180,,"　“瓜二つな双子姉妹”と、ヱリカさん自身が、六軒島へ向かう船
@@ -164,7 +165,7 @@ That's right. After we returned, the two fought and ran into the shower together
 入れ替わり……！","Therefore, EFFECTIVE.
 A disguise that does not violate Knox's 10th. No, a swap...!",,
 182,,"　ヱリカさんはあの時、即座に魅音さんの手をブラックライトで照
-らすことも出来たのだ。","At that moment, Erika-san could have immediately illuminated Mion's hand with her black light.",,
+らすことも出来たのだ。","At that moment, Erika-san could have immediately illuminated Mion's hand with her blacklight.",,
 183,,"　そうすれば、魅音さんの手が蛍光塗料で浮かび上がるのを見るこ
 とが出来ただろう。","If she did that, I would've seen Mion's hands illuminated with fluorescent paint.",,
 184,,しなかった。……どうして？　一流はタフじゃないの？,But she didn't... why? Isn't she supposed to be tougher than that?,,
@@ -200,8 +201,8 @@ A disguise that does not violate Knox's 10th. No, a swap...!",,
 す。",Shannon would like to express her apologies for not being able to see you off.,,
 232,ヱリカ,"今日はお休みですからね。仕方ありません。よろしく伝えておいて
 下さい。私たちは、巨大ナメクジの下、同志ですから！","Today's her day off. It can't be helped. Do give her my regards, for we are comrades under the giant slug!",,
-234,嘉音,……えっと、確か、……真実は、いつも二つ。,"...Um, of course. ...As always, there are two truths.","I assume this is a wanyan reference, which is therefore a reference to smth else. How to word this reference",
-237,ヱリカ,真実は、いつも二つ！　あなたも読んでおいてくださいね？,"As always, there are two truths! Do you read it too?",,
+234,嘉音,……えっと、確か、……真実は、いつも二つ。,"...Um, I think that quote was ...""The truth is always twofold.""","I assume this is a wanyan reference, which is therefore a reference to smth else. How to word this reference",
+237,ヱリカ,真実は、いつも二つ！　あなたも読んでおいてくださいね？,The truth is always twofold! Do you read it too?,,
 243,朱志香,"私も～……、その、次に機会がある時は、コスプレ撮影って、やっ
 てみよっかなぁって。","I... uh, might also like to do a cosplay photoshoot next time.",,
 246,朱志香,"その時はさ。菜央ちゃんも一緒にやろうぜ？　一緒ならきっと、
@@ -247,7 +248,7 @@ Of course, no one can see her though.","from ""is there",
 313,ヱリカ,"ふふっ。……ただ、別れを惜しむ友人たちがそこにいるだけで、古
 戸ヱリカにはこの程度の挨拶が可能です。如何です、皆様方？","*giggle*...Just with the presence of a few friends that are reluctant to depart, this level of farewell is possible for Erika Furudo. What do you think, everyone?","from ""Simply by the presence of a few friends to depart with, this level of greeting ",
 320,Nao (Casual),グッド！,<Good!>,,
-332,Nao (Casual),……ヱリカさんがもらった手紙は、何なんですか？,...What's with the letter that Erika received?,,
+332,Nao (Casual),……ヱリカさんがもらった手紙は、何なんですか？,...What's with the letter that you received?,,
 334,ヱリカ,"気にしないで下さい。私はただの使い。主への返書を預かったに過
 ぎません。",Don't worry. I am only a messenger. I have merely been entrusted with this message to give to my master.,by the -> to give to my,
 336,ヱリカ,"ベアトリーチェは私のことを良く書いてくれたそうなので。中身が
@@ -292,7 +293,7 @@ Sitting inside, was a small present box that I had never seen before.",with that
 429,ヱリカ,……菜央さんも、なかなかの恰好ですよ。,...Nao-san also has a lovely outfit.,,
 431,ヱリカ,それ、……確か、シエスタ姉妹兵の。,"That is... if I remember correctly, the Chiester Sisters Guard Corps.",,
 434,Nao (シエスタ),"な、……なな、何ですか、この服っ？　え、ちょ、スカート短い！
-　というか前、丸見え？！","Wh... wh-wh-what's with these clothes? Hey, wait, the skirt's too short! I mean, you can see the whole front?!",,
+　というか前、丸見え？！","Wh... wh-wh-what's with these clothes? Hey, wait, this skirt's way too short! I mean, you can see the whole front?!",,
 440,詩音 (バニー),お姉、私たちのこの服……。,"Sis, these clothes of ours...",,
 443,Mion (バニー),"『中秋哀歌～兎たちの悲恋殺人事件～』に出て来た、月兎の衣装
 だぁあぁ！！",It's the costumes of the moon rabbits from Mid-Autumn's Lament: The Heartbroken Rabbits Murder Caasseee!!,,
@@ -312,11 +313,11 @@ Sitting inside, was a small present box that I had never seen before.",with that
 　開けると即座に衣装が変わる、お着換え玉手箱であるぞ！","I wonder if you've been enjoying yourself?
 It instantly changes your clothes when you open it, as it's a Clothes Change Pandora Box!",how to tl 玉手箱,you got it / order change
 484,,"　実はな、３人にそれぞれが最も欲しがっている衣装を贈ってやろ
-うと思い、少し、そなたらのカケラを覗かせてもらったのだ。","The truth is, I thought I'd give the three of you the costumes you wanted the most while giving you all a glimpse at a fragment of yourselves.", ,
+うと思い、少し、そなたらのカケラを覗かせてもらったのだ。","In fact, I thought I'd give the three of you the costumes you wanted the most while giving you all a glimpse at a fragment of yourself.", ,
 485,,"　魅音と詩音については、欲しい衣装のイメージがはっきりしてい
 たのでよかったが、菜央については、わからなかったのだ。","For Mion and Shion, I had a clear image of what they wanted, but I couldn't figure anything out for Nao.",,
 488,Nao (シエスタ),"……服なんて、その時その時でニーズが変わりますし。一番欲しい
-１着なんてイメージ、普段は持ってないし……。","...For clothing, my needs change from time to time. I don't usually have an image of one outfit I want the most.",the -> my,
+１着なんてイメージ、普段は持ってないし……。","...For clothing, my preferences change all the time. I don't usually have an image of one outfit I want the most.",the -> my,
 491,,"　なのでな、考えた。
 　魅音と詩音は、兎たちの悲恋殺人事件の月兎の衣装なのであろ
 う？","So, I thought about it.

@@ -1,4 +1,4 @@
-event01_30_02.bytes,Eri,Lloro - QC/TL,Naegles - QC,
+event01_30_02.bytes,Eri,Lloro - QC/TL,Naegles - QC2,
 index,chara,jp,en,Notes
 33,嘉音,"食後は、コーヒーか紅茶のご用意がありますが、如何いたします
 か……？","After the meal, we usually prepare either tea or coffee. Which would you prefer?",
@@ -47,7 +47,7 @@ index,chara,jp,en,Notes
 127,Mion (Casual),"確かにね！　犯人にプレッシャーを与えれば、勝手に自滅してくれ
 ることもある！","True! If you pressure the culprit enough, there are times they'll give in on their own.",
 129,詩音 (Casual),"何もわかってないのに、さもわかっているかのように振舞うのはお
-姉の得意技ですしね。","My sister's specialty is pretending she understood everything, but, in actuality, she doesn't get anything at all.","from ""It's my sister's speciality to pretend she understood everything, but in actuality doesn't gets anything after all."
+姉の得意技ですしね。","My sister's specialty is pretending she understood everything, even though, in actuality, she didn't get anything at all.","from ""It's my sister's speciality to pretend she understood everything, but in actuality doesn't gets anything after all."
 132,Mion (Casual),"違うよ、ワニャンの得意技なんだよぅ！　手掛かりゼロでさもわ
 かっているかのように振舞い、隙を誘う！","No, it's a specialty of Wanyan's! Even when you have zero hints, act as if you've grasped the truth and aim for the blind spot!",
 137,ヱリカ,"探偵たるもの、常日頃から、何もかもお見通しのようなオーラを
@@ -62,7 +62,7 @@ index,chara,jp,en,Notes
 145,詩音 (Casual),"確かに一理ありますね。解決できればミステリーだけれど、解決で
 きないなら、オカルトになることもありえる。","That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult.",
 147,Mion (Casual),"太古の昔から、神の奇跡とされていたものが、次々に科学で解明さ
-れたからね。","Since ancient times, things that can be considered divine miracles have been proven to exist by scientific research.",
+れたからね。","Since ancient times, things once assumed to be divine miracles have been successfully explained through science.",
 149,Mion (Casual),"神の奇跡は解明できない。イコール、解明できなければ神の奇跡と
 も言えちゃう訳だ。","Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle.",
 154,Nao (Casual),科学とオカルトの、戦いなんですね。,"It's the battle between science and the occult, right?",
@@ -153,9 +153,9 @@ index,chara,jp,en,Notes
 318,Nao (Casual),"お屋敷にあれだけ客室が余ってるのに、わざわざ作る必要があると
 は……。","The mansion already has all of those guest rooms in it too, so needing to go out of your way to make this is...",
 325,ヱリカ,"２００億円の金塊に、未だに集まってくる怨霊たちを、……迎える
-為かもしれませんねぇ……？",Perhaps the 200 million yen worth of gold is still being used to welcome... ghosts... here...?,
+為かもしれませんねぇ……？",Perhaps the 20 billion yen worth of gold is still being used to welcome... ghosts... here...?,
 330,,"　嫌だ、怖い。……ちょっと止めてほしいわ。あたし、ここにこれ
-から２泊するのよ……？","Ugh, this is scary. ...Wait, stop for second. I have to stay here for two nights...?",
+から２泊するのよ……？","Ugh, this is scary. ...Wait, stop for second. Do I really have to stay here for two nights...?",
 334,朱志香,まぁそれで、話を戻すぜ……。,"Well, with that, the conversation comes full circle...",
 336,朱志香,"とにかく、ベアトリーチェってのが何者なのか、祖父さま以外、こ
 の屋敷の誰も知らねぇんだ。","Anyway, other than Grandfather, no one in this mansion knows who Beatrice is.",
@@ -166,9 +166,9 @@ index,chara,jp,en,Notes
 347,Nao (Casual),"……誰だかわからない人の肖像画が、……大広間に、あんなにも堂
 々と飾られているなんて、何だか薄気味悪いかも。……かも。",...A portrait of an unknown person... being boldly hung up in such a wide space might be kind of... uncanny... maybe.,
 349,,"　いつ誰が名付けたのか。……やがて彼女は、黄金の魔女、ベアト
-リーチェと呼ばれるようになる。","When did someone name it? ...She eventually went on to be called the Golden Witch, Beatrice.",
+リーチェと呼ばれるようになる。","When did the portrait get named? ...She eventually went on to be called the Golden Witch, Beatrice, after all.",
 350,,"　屋敷の大広間に飾られた巨大な肖像画は、当主の金蔵を描いたも
-のではなく、黄金の魔女を描いたもの。","The massive portrait hung in a wide space in the mansion isn't something that the head, Kinzo, drew either. It's a drawing of the Golden Witch.",
+のではなく、黄金の魔女を描いたもの。",The massive portrait hung in that wide space in the mansion isn't drawn of the family head Kinzo either; It's a drawing of the Golden Witch.,
 351,,"　……つまりは、屋敷も、この島も、……真の主は、黄金の魔女、
 ベアトリーチェなのではないか。","...This means that the mansion and the island's... real master... is the Golden Witch, Beatrice, isn't it?",
 355,朱志香,"夜。……不思議な人影が、屋敷の中を徘徊しているって噂は、……
@@ -198,7 +198,7 @@ index,chara,jp,en,Notes
 395,朱志香,"……以前、夜の見回りの時に、階段を踏み外して転げ落ちて、大怪
 我をして辞めた使用人がいたんだよ。","...One time at night while doing the rounds, there was a servant who misstepped and fell down the stairs, getting injured horribly before quitting.",
 397,朱志香,"後で紗音に聞いたら、……その人、ベアトリーチェがいるなら現れ
-てみろなんて、言ってた矢先だったらしい……。","Afterwards, Shannon learned... that person said, ""If Beatrice does exist, I'd like to see her."", and seemed to have been targeted...",
+てみろなんて、言ってた矢先だったらしい……。","Shannon later heard... that the servant said, ""If Beatrice does exist, I'd like to see her."", and appeared to have been targeted...",
 399,嘉音,…………僕も、最初は信じていませんでした。,"...I, too, didn't believe in her at first.",
 401,嘉音,"しかし、……ある出来事があり、……それ以来、存在を疑うのを止
 めました。","But then... I had a certain job to do... and since then, I stopped doubting her existence.",
@@ -216,7 +216,7 @@ index,chara,jp,en,Notes
 とは出来ない。",The garden shed can only be opened with that one key. It cannot even be opened with the master key.,
 424,,"　つまり。……園芸倉庫は、彼が施錠してから、翌朝に開錠するま
 で、誰にも開けることが出来ない、密室だったということにな
-る……。","So, in essence... since the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a locked room...",
+る……。","So, in essence... since after the garden shed was locked, until the next morning, no one was able to open it until he unlocked it, making it a closed room...",
 425,朱志香,"翌朝。……嘉音くんが園芸倉庫のシャッターを開けると……、そこ
 にはありえないものがあったんだ……。","The next morning... when Kanon-kun opened the shutters to the garden shed... something that couldn't have been there, was...",
 426,Nao (Casual),ありえないもの、って………？,Something that couldn't have been... there...?,
@@ -229,7 +229,7 @@ index,chara,jp,en,Notes
 451,嘉音,…………………………。,..............................,
 453,嘉音,"……源次さまにこのことをお伝えしたところ、……決して誰にも、
 口外してはならぬと。",...I reported to Genji-sama that... he must never reveal this information to anyone.,
-457,朱志香,魔法陣が、……ベアトリーチェの挨拶なのさ。,The magic circle is... a greeting from Beatrice.,
+457,朱志香,魔法陣が、……ベアトリーチェの挨拶なのさ。,That magic circle was... a greeting from Beatrice.,
 459,朱志香,"ベアトリーチェは……、自分を信じない者のところに訪れ、魔法陣
 を残すんだ……。",Beatrice... left that magic circle there for those of us who didn't believe...,
 464,詩音 (Casual),……それが、警告で済んでいる内はいいけれど。,"...If it's just a warning, then it's nothing to worry about, though.",
@@ -296,7 +296,7 @@ index,chara,jp,en,Notes
 ……きっと思っているのだ。","As Jessica-san and Kanon-san looked at each other... they surely were thinking that, very much so.",
 557,,"　……この小さな客人が、魔女の祟りに遭わないといいのだけれ
 ど、と………！",...That they wish this brat of a visitor wouldn't have a fit over a witch's curse... and...!,
-563,嘉音,……お嬢様。次のお勤めがありますので。,... My lady. You have your next task to do still.,
+563,嘉音,……お嬢様。次のお勤めがありますので。,... Milady. You have your next task to do still.,
 565,朱志香,そ、そうだね。嘉音くん、ありがと。,"Th-that's right. Thanks, Kanon-kun.",
 567,朱志香,じゃあ、私もそろそろ行くよ。,"I'm gonna head out in a bit, then.",
 569,朱志香,"菜央ちゃん、ごめんね？　つまらない話だったよな。忘れて欲しい
@@ -326,7 +326,7 @@ index,chara,jp,en,Notes
 598,,"　貴重な一日を、朝が早かったので眠いから昼寝する、で費やして
 しまうのも、……バカンスなら有りだ。","When the morning goes by so fast, you get sleepy and nap your precious day away... I guess I can owe that to being on vacation.",wording MAYBE
 601,Nao (Casual),"取りあえず、窓が閉まってよかったです。でも、やっぱり、寝る時
-はちゃんと施錠したいです。",I'm glad the windows are shut for now. But I think I do want to properly lock them while I'm sleeping.,
+はちゃんと施錠したいです。",I'm glad the windows are shut for now. But I do think I want to properly lock them while I'm sleeping.,
 604,ヱリカ,……どうしたんです？　窓の施錠、壊れてるんですか？,...Why is that? Are the locks on the windows breaking?,
 610,詩音 (Casual),壊れてるんじゃないです。壊したんです。どっかの誰かが。,They aren't breaking. They were broken... by someone.,
 612,Mion (Casual),"もうちょっと試してみるよ……。謝るのはそれからでも間に合うっ

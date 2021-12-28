@@ -1,7 +1,7 @@
-event01_30_10.bytes,,tessie - TL,Uminetta - TL (I translated it a little bit),Lloro - QC/TL,
+event01_30_10.bytes,,tessie - TL,Uminetta - TL (I translated it a little bit),Lloro - QC/TL,Naegles - QC2
 index,chara,jp,en,,
-32,Nao (Casual),……漫画かアニメに登場したものだと思います。,...I think something like this has been in manga or anime before.,,
-34,ベアトリーチェ,何？　も、もう一度頼む……。,Huh? C-can you run that over once more...?,,
+32,Nao (Casual),……漫画かアニメに登場したものだと思います。,...has been in something like an anime or a manga before.,,
+34,ベアトリーチェ,何？　も、もう一度頼む……。,Huh? C-can you repeat that once more...?,,
 36,Nao (Casual),多分。この魔法陣は、漫画かアニメに登場したものだと思います。,"I think... that this magic circle appeared in some manga or anime before, probably.",,
 39,ベアトリーチェ,何と？！　漫画……ッ？！？！,What'd you say?! Manga...?!?!,,
 43,ヱリカ,ベアトは見てないんですかー？　……名探偵ワニャン。,"Beatrice, haven't you seen it...? Detective Wanyan.",,
@@ -15,7 +15,7 @@ index,chara,jp,en,,
 60,Nao (Casual),"でも、……知っている人には、むしろ微笑ましく思えるかもしれな
 い。","But... for people who know, it might actually make them smile.",even -> actually,
 64,ドラノール,"この魔法陣が……、名探偵ワニャンの中に登場するから、……デス
-カ。",Did the magic circle... appear in Detective WANYAN...?,,
+カ。",Did this magic circle... appear in Detective WANYAN...?,,
 67,ヱリカ,"まだ見てない人は見て下さいよぉ。大人気で上映期間も延長中なん
 ですよぉ……。","If you haven't watched it yet, please do sooo... It's really popular and the screening period has extendeddd...",,
 71,Nao (Casual),"……劇場版アニメ、名探偵ワニャン『中秋哀歌～兎たちの悲恋殺人
@@ -24,20 +24,20 @@ index,chara,jp,en,,
 よぉぉ……。",The serial killer in this movie leaves magic circles on the crime sceneeeee...,,
 75,Nao (Casual),……その連続殺人犯は、……人気あるの？,Is that serial killer... popular?,,
 84,ヱリカ,"ありますよぉおおおおぉおぉお！！　巷じゃ、無頼人（ブライト）
-さまは、１００億の男なんて言われてるんですよぉおぉ！！","UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 100 billion followers in real liiiiifeeeeeee!!!!",pls review,
+さまは、１００億の男なんて言われてるんですよぉおぉ！！","UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion followers in real liiiiifeeeeeee!!!!",pls review,
 86,ヱリカ,"すっごい儚くて美しくて、死でしか結ばれえない悲しき愛の貫き
 方……！！　あぁあぁ、無頼人さまぁあぁぁ……！！","It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!",also mayb review,
 93,ベアトリーチェ,"つ、……つまり。映画に登場する、イケメン犯人が現場に残すサイ
 ン、という訳なのか……。","S... So, this means in the movie, a handsome killer leaves a ""sign"" at the crime scene...?",,
 97,ヱリカ,"魔女から見て、魔法陣がおかしいのはご愛敬ですよぉお！！　作者
 の代官山剛先生はミステリーの専門家で、魔法陣の専門家じゃない
-んですからぁ！","Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Tsuyoshi "" "", is an expert on mystery, not on magic circleeeeeess!!",name,
+んですからぁ！","Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Go Daikanyama, is an expert on mystery, not on magic circleeeeeess!!",name,
 100,ヱリカ,"それでね？　それでね？！　詩音が持ってきた魔法陣、ちょいちょ
 い細かいとこが間違ってんですよぉおぉ！！",And you know what else? You know what elsee?! The magic circle that Shion brought has the details all wroooooonggg!!,,
 104,ヱリカ,"愛が足りない、愛がないから視えてないッ！　とりあえず、１日３
-公演で１ヶ月は映画館に通わなきゃあ！！","There wasn't enough love, no, there wasn't love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!",and this,
+公演で１ヶ月は映画館に通わなきゃあ！！","There wasn't enough love, no, there wasn't any love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!",and this,
 108,ヱリカ,"私が描いた方は完璧です！　代官山剛先生のチーフアシの人を３日
-も監禁して教えてもらったんです！！","The way that I drew it was perfect! Even Mr. "" "" 's Chief Ash character was able to learn it himself in just three days while in confinement!!",name again + this,
+も監禁して教えてもらったんです！！",The way that I drew it was perfect! Even Mr. Go Daikanyama's Chief Ash character was able to learn it himself in just three days while in confinement!!,name again + this,
 114,ベアトリーチェ,さらーりと犯罪をＣＯしてるなぁー。,"No hesitation coming out about doing the crime now, huh?",,
 116,ドラノール,"つまり。……名探偵ワニャンの映画を見ていた紗音や魅音詩音
 は、……一目見ただけで、この魔法陣の意味が、わかっていたとい
@@ -53,12 +53,12 @@ index,chara,jp,en,,
 134,ドラノール,"……紗音が涼し気に、いいえ、ご安心を、という気持ちも、少しは
 わかるというものデス。","...I understand the sentiment behind why Shannon naturally said, ""No, please be at ease."", a little bit more NOW.",,
 136,Nao (Casual),"映画は見ていませんが、恐らく、ベッドの荒れ方も、かなり映画に
-準拠していたでしょう。","I haven't watched the movie, but I suppose the way the bed was laid waste to was likely even based on the movie. ",,
+準拠していたでしょう。","I haven't watched the movie, but I suppose even the way the bed was laid waste to was likely based on the movie. ",,
 138,Nao (Casual),"思えば、ヱリカさんのベッドの毛布や枕の乱れ方は、……まるでお
-手本があるかのように、あたしのベッドの時と瓜二つでした。","Now that I think of it, the way Erika-san's blanket and pillows on her bed were arranged... were almost in a pattern, one in the same with the arrangement on my bed back then.",,
+手本があるかのように、あたしのベッドの時と瓜二つでした。","Now that I think about it, Erika-san's blanket and pillows on her bed were arranged... in a pattern, exactly the same as my bed was back then.",,
 142,ベアトリーチェ,……これは、……名探偵ワニャンを読んでみるしかないなぁ……。,"...Guess I'm... gonna have to read Detective Wanyan, huh...",,
 144,Nao (Casual),"あたしも、今回の事件で興味を持ったわ。……本屋で単行本を探し
-てみるわ。",I also had some interest in this recent incident. ...I'll search for the specific volume in the bookstore.,,
+てみるわ。",I also have some interest in this recent case. ...I'll search for the specific volume in the bookstore.,,
 146,Nao (Casual),"そんな訳で、第一の魔法陣事件は、ヱリカさんの手による、えぇ
 と……、","For that reason, the first magic circle accident was done by Erika-san's hands, aaand, um...",,
 155,ヱリカ,"はいはぁい、リザインですよぉおぉぉ……。私が悪かったです
@@ -99,7 +99,7 @@ index,chara,jp,en,,
 224,ベアトリーチェ,"妾からの、心ばかりのプレゼントを贈っておく。楽しみにして目覚
 めるがよい。",I'll present you with a small token of my thanks. Do look forward to it upon waking up.,,
 226,Nao (Casual),"ありがとう。……あなたとまたゲームが出来るなら、……また六軒
-島に来るのも、悪くないわ。",Thanks. ...If I can play again with you... maybe coming back to Rokkenjima won't be so bad.,,
+島に来るのも、悪くないわ。",Thanks. ...If I can play with you again... maybe coming back to Rokkenjima wouldn't be so bad.,,
 228,ベアトリーチェ,待っておるぞ！　いつでも来るがよい！,I'll be waiting! Come whenever you like!,,
 234,ヱリカ,島の近くで船から落っこちれば、勝手に島に流れ着きますから。,"If you fell off of a boat closeby to the island, you'd drift here on your own anyway.",,
 236,ドラノール,"……菜央。貴女のカケラを覗いた時。……貴女がこれから巡るだろ
@@ -118,8 +118,8 @@ index,chara,jp,en,,
 が見えてくる……。",...I started to hear the sparrows chirping. If I slowly open my eyes... I'll be able to see the ceiling of my room being warmed up by the morning sun......,,
 267,,今日で、六軒島ともお別れか……。,"Today, I'm parting ways with Rokkenjima, huh...?",,
 268,,"　そういえばベアトリーチェは、何かプレゼントがあると言ってな
-かったっけ。","Now that I say that, Beatrice told me she had some sort of present for me, I think.",,
-269,,楽しみにして目覚めるがよい、とか言っていたような………。,"""Do look forward to it upon waking up."", is what she probably told me...",,
+かったっけ。","Now that I've said that, I believe Beatrice told me she had a present for me.",,
+269,,楽しみにして目覚めるがよい、とか言っていたような………。,"""Do look forward to it upon waking up."", is what she told me, I think...",,
 272,,こんな島、来なければよかった……。,I should have never come to this island.,こんな島、来なければよかった。,I should have never come to this island.
 274,Nao (Casual),ひ、……ひ、,N... n......,ひ、……ひ、,N... n......
 275,Nao (Casual),嫌ああぁああぁあぁぁああぁぁぁあッ！！,Nooooooooooooooooo!!,嫌ああぁああぁあぁぁああぁぁぁあッ！！,Nooooooooooooooooo!!
@@ -199,7 +199,7 @@ index,chara,jp,en,,
 347,Nao (Casual),"……向こうも死体だわ。あなたとどちらが完璧か、採点をお願いす
 るわ……。",...Dead bodies over there too. I wish there were grades on these to see who did it better...,,
 351,,"　ヱリカさんは、ズタズタの血塗れゾンビの姿で、不敵に笑いなが
-ら、あたしたちの部屋に飛び込んでいく。","With an intrepid laugh, Erika-san bursted into our room looking like a zombie out of a horror movie.",,
+ら、あたしたちの部屋に飛び込んでいく。","With an intrepid laugh, Erika-san burst into our room looking like a zombie out of a horror movie.",,
 361,ヱリカ,"おおッ！！！　……なかなかの再現度です！　これは確か劇場版
 の……３２分１８秒の……。",Oooohhh!!! ...What a splendid recreation! This must be... if I'm correct... the movie scene at 32 minutes and 18 seconds......,,
 368,Nao (Casual),"これ……映画館で隠し撮りしたの……？　それ犯罪よ。映画泥棒
@@ -215,7 +215,7 @@ index,chara,jp,en,,
 は満点を出しましょう！",But what ties it all together is that reactionary death face!! Truly an amazing facial expression! Just let me give you an A+!,,
 389,詩音 (Casual),"ヒョオウ！　さっすがワニャラー！！　細かいところまでよく見て
 下さりましたね！","Haaaah! That's a Wanyanner if I see one!! You judged it down to every last detail, huh?!",idk if hyoou is a reference pls help,
-396,Nao (Casual),すごいわ。……惨殺死体が上機嫌に跳ね起きたわ……。,Incredible. ...They just sprang up out of their death positions like nothing...,,
+396,Nao (Casual),すごいわ。……惨殺死体が上機嫌に跳ね起きたわ……。,Incredible. ...She just sprang up from out of her death position like it was nothing...,,
 400,ヱリカ,"続きまして魅音さんですね。こちらは町留田（マチルダ）さんの再
 現、これもまたお見事です！！",Now I'll judge Mion-san. This one is a depiction of Matilda-san; very nicely done as well!,,
 402,ヱリカ,"もはや、言うまでもなく完璧なのですが、……ダブルパーフェクト
@@ -227,13 +227,13 @@ index,chara,jp,en,,
 418,ヱリカ,"どうせ見えない部分だからと、適当に誤魔化しちゃうレイヤーさん
 も多いんですが、……さてさて魅音さんは……ッ？！","Since you can't see it at all, lots of cosplayers might lazily gloss over that fact... but with Mion-san...?!",,
 424,ヱリカ,"ありましたぁ！！　しかもすごい原作再現度！！　投げ返された時
-についた傷跡まで完璧！！",She has iiiit!! Absolutely artful remastering of the original work!! It's perfect even down to the scar she got from when she was thrown back!!,,
+についた傷跡まで完璧！！","She has iiiit!! Absolutely artful remastering of the original work!! It's perfect, even down to the scar she got from when she was thrown back!!",,
 431,Nao (Casual),……もう全然意味がわかりません。,...I just don't know what's happening anymore.,,
 435,Mion (Casual),"くっくっく！　細部にこそ神は宿る、見えないところにまでこだ
-わってこそ真のワニャラー！",*cackle*cackle*cackle*! Intense detail is my religion! Being fastidious even over aspects that go unseen is to be a true Wanyanner!,reworded the first part bc i feel like it would be offensive in english,
+わってこそ真のワニャラー！",*cackle*cackle*cackle*! God is in the details! Being fastidious even over aspects that go unseen is to be a true Wanyanner!,reworded the first part bc i feel like it would be offensive in english,
 437,Nao (Casual),……ホントごめんなさい。帰ったら必ず映画館いきます。,...I'm so sorry. Once I get back I'll absolutely go to the movie theaters.,,
 442,詩音 (Casual),"ヱリカさんの衣装を見る限り、どうやら、未来（ミライ）さんの死
-亡現場を再現してたみたいですね！","Even looking at Erika-san's clothes, I can somehow tell that recreated Mirai-san's death scene!",,
+亡現場を再現してたみたいですね！","Even looking at Erika-san's clothes, I can somehow tell she recreated Mirai-san's death scene!",,
 446,Mion (Casual),"ちょっとヱリカさんの部屋に戻ろうよ！　ヱリカさん、見るからも
 う１回死んで死んで！！","Let's go check out Erika-san's room! Erika-san, we wanna see, so just die one more time, one more time!!",,
 451,Nao (Casual),……ホント皆さん、１回死んで下さい……。,"...Really, everyone, just die once......",,
@@ -248,7 +248,7 @@ index,chara,jp,en,,
 460,Nao (Casual),ストップ。……すると、とても当然な疑問に行きつくわ。,"Stop. ...Thereupon, we arrive at a very obvious question.",,
 462,ヱリカ,疑問？　何でしょうか？,A question? And what could that be?,,
 468,詩音 (Casual),"あー、映画を楽しむには、やはり漫画を読了してないとダメか、っ
-てことでしょうか。","Ah-, maybe enjoying the movie is actually impossible without finishing the manga, is what she's talking about?",,
+てことでしょうか。","Ah-, maybe enjoying the movie is actually impossible without finishing the manga first, is that what you mean?",,
 470,Mion (Casual),"さすがに全巻読了は厳しいからね！　６８巻以降でいいんじゃない
 かな。",Finishing the whole series is brutal as I thought! Shouldn't she start off on volume 68?,,
 482,ヱリカ,"ぴぴぴー！　ダメですダメです！　ワニャンを取り巻く人間関係の
@@ -272,7 +272,7 @@ index,chara,jp,en,,
 545,Mion (Casual),"菜央ちゃんの驚きようが……、あんまりに可愛かったもので……つ
 いつい……。",Nao-chan getting surprised was... excessively cute... though unintentional...,,
 550,Nao (Casual),"ハイ、……“あんまりに可愛かったもので、ついつい”。１７文字
-ですね。","{i}Yes{/i}... ""Excessively cute, though unintentional."". 34 letters, right?",IF SOMEONE DOES CHANGE THE ONE ABOVE PLEASE KEEP THE AMOUNT OF LETTERS IN QUOTES AS 34 PLEASE PLEASE,
+ですね。","{i}Yeah{/i}... ""Excessively cute, though unintentional."". 34 letters, right?",IF SOMEONE DOES CHANGE THE ONE ABOVE PLEASE KEEP THE AMOUNT OF LETTERS IN QUOTES AS 34 PLEASE PLEASE,
 552,Nao (Casual),魅音さんと詩音さんは１７分割に切り刻みます。,I'm going to chop you and Shion-san into 34 bits.,PLEASEE ITS PERTINENT TO THE STORY,ok but the fact the bits they would be cut into would amount to 34... lets discuss
 557,Nao (Casual),"続きまして、ヱリカさん。……あなたは本当は、見ていたんですよ
 ね？","Let's continue, Erika-san. ...Did you really watch it?",,
