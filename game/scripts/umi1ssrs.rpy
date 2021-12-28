@@ -19,5 +19,5 @@ label chara462001:
 label chara472001:
     stop music
     call chara472001_01
-    eturn
+    return
 
