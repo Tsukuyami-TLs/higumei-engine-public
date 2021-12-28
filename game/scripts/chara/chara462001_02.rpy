@@ -494,5 +494,5 @@ label chara462001_02:
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active
  satoko "I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!"
- call chapter_end
+ call chapter_end from _call_chapter_end_5
  jump chara462001_03

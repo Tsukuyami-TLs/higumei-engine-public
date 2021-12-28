@@ -69,7 +69,6 @@ label event01_30_04:
  pause 0.0
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -104,7 +103,6 @@ label event01_30_04:
  nao "I may look like I'm still just a kid, but I'll have you know, I'm right in the middle of my rebellious phase!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -116,7 +114,6 @@ label event01_30_04:
  nao 'What a pretentious locked-room trick! All you did was make me more skeptical!! '
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -126,7 +123,6 @@ label event01_30_04:
  nao 'If you are going to claim that you "exist", I\'m going to claim the opposite without fail!!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -138,7 +134,6 @@ label event01_30_04:
  nao 'As if things like you "exist", Beatrice!!!\n'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -156,7 +151,6 @@ label event01_30_04:
  beatrice "First and most importantly, you get to enjoy my greetings! And then, I'll have you subdued, kneeling before me and kissing my shoes!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -248,7 +242,6 @@ label event01_30_04:
  play audio 'audio/sfx/SE_230_charge.wav'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 460)
   parallel:
@@ -258,7 +251,6 @@ label event01_30_04:
  narrator "On top of the table, pieces seemed to have been lined up on a chessboard, but in a way that wasn't like the usual chess setup..."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -760,7 +752,6 @@ label event01_30_04:
  beatrice '{umi_red}No one visited the second floor of the guesthouse from the time you locked the door until you opened it again, except for Shannon.{/umi_red}'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -776,7 +767,6 @@ label event01_30_04:
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -848,7 +838,6 @@ label event01_30_04:
  nao "But I hate losing! I haven't been cornered at all!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -861,7 +850,6 @@ label event01_30_04:
  nao "Your red truths won't shoot through me. I'll launch over this precipice and wedge into the heart of fantasy!!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

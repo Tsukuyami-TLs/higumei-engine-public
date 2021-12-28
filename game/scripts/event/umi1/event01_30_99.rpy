@@ -565,7 +565,6 @@ label event01_30_99:
  shion 'Sis, these clothes of ours...'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -770,7 +769,6 @@ label event01_30_99:
  nao '<Yes!! I need>, ummm.... <Skirt no front!!>'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -780,7 +778,6 @@ label event01_30_99:
  nao 'Give me back the front part of this skirt! At least let me cover the abdomen area!!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

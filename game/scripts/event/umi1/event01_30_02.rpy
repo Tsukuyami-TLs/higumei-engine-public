@@ -705,7 +705,6 @@ label event01_30_02:
  with Dissolve(0.5)
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -715,7 +714,6 @@ label event01_30_02:
  nao "Let's suppose that Beatrice's ghost walks along the halls of the mansion at night, and someone witnesses that!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -725,7 +723,6 @@ label event01_30_02:
  nao "There's a possibility that the evidence was falsified, there was a problem with their eyesight, or even a problem with their head, right? All of these possibilities can deny this! "
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -737,7 +734,6 @@ label event01_30_02:
  nao 'Am I not right, Erika-san?!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

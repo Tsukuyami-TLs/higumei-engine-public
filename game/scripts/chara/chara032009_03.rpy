@@ -366,5 +366,5 @@ label chara032009_03:
  show nao_v002 smile_close at active
  show rika_v002 odoroki at inactive
  nao "But it's just a feeling, yeah? *giggle*"
- call chapter_end
+ call chapter_end from _call_chapter_end_22
  return

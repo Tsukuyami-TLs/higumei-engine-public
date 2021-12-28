@@ -183,7 +183,6 @@ label event01_30_00:
  mion "If you don't want to watch the show or read the manga, I totally get it!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -193,7 +192,6 @@ label event01_30_00:
  mion 'But please! I thought you were just messing with this ol\' man, but the Detective Wanyan movie "Mid-Autumn\'s Lament: The Heartbroken Rabbits Murder Case" is something you absolutely must waaatch!!!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -362,7 +360,6 @@ label event01_30_00:
  erika " <Good>. That's exactly it. So, then, allow me to inquire again."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -378,7 +375,6 @@ label event01_30_00:
  nao 'Me seeing it clearly with my own eyes is proof alone!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

@@ -251,7 +251,6 @@ label event01_30_08:
  play music 'audio/bgm/BGM_TITLE_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -846,7 +845,6 @@ label event01_30_08:
  erika "I'll respond."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -862,7 +860,6 @@ label event01_30_08:
  erika "However, how and when I placed it and how I tricked Shannon-san are things I refuse to answer. I do hope you'll forgive me."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

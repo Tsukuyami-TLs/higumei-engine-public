@@ -249,7 +249,6 @@ camera:
             self.outlines.append(f"""
 camera:
  anchor (0.5,0.5)
- pos (960,540)
  parallel:
   linear {time} pos ({xpos}, {ypos})
  parallel:

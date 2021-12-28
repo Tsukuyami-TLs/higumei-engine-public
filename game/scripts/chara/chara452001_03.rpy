@@ -362,5 +362,5 @@ label chara452001_03:
  beatrice '....Nao, you have my thanks. The time we spent together was short, but it was incredibly fun.'
  show beatrice_v001 smile at active
  beatrice 'The scenery outside the island that I saw through your eyes was quite beautiful...'
- call chapter_end
+ call chapter_end from _call_chapter_end_20
  return

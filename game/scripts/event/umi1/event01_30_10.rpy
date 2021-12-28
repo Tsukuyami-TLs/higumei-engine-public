@@ -112,7 +112,6 @@ label event01_30_10:
  erika 'Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Go Daikanyama, is an expert on mystery, not on magic circleeeeeess!!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -122,7 +121,6 @@ label event01_30_10:
  erika 'And you know what else? You know what elsee?! The magic circle that Shion brought has the details all wroooooonggg!!'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -134,7 +132,6 @@ label event01_30_10:
  erika "There wasn't enough love, no, there wasn't any love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -145,7 +142,6 @@ label event01_30_10:
  erika "The way that I drew it was perfect! Even Mr. Go Daikanyama's Chief Ash character was able to learn it himself in just three days while in confinement!!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -572,7 +568,6 @@ label event01_30_10:
  with Dissolve(0.5)
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -582,7 +577,6 @@ label event01_30_10:
  erika "The bottom edge of this negligee! See how it puffs out a little bit? Right here! There's a ring case hidden here!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -592,7 +586,6 @@ label event01_30_10:
  erika "Since you can't see it at all, lots of cosplayers might lazily gloss over that fact... but with Mion-san...?!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -739,7 +732,6 @@ label event01_30_10:
  mion "Wha-whaaat~...? If you're gonna threaten me, Nao-chan, don't ruin it with having such a cuuuute little face. Okay?"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

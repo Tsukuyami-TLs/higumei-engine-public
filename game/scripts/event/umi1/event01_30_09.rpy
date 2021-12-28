@@ -53,7 +53,6 @@ label event01_30_09:
  beatrice "Alright, then let's get to the heart of the matter!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -375,7 +374,6 @@ label event01_30_09:
  erika "You are the culprit, Shion-san. Despite this, you think this will result in my loss? I don't get what you're saying at all."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -396,7 +394,6 @@ label event01_30_09:
  play music 'audio/bgm/BGM_BOSS1_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -786,7 +783,6 @@ label event01_30_09:
  erika "That's impossible, totally impossible!!!!! Shion is the culprit!!!! She's definitely the culpriiiiiiiit!!!!!"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -798,7 +794,6 @@ label event01_30_09:
  nao '{umi_blue}Erika put a "Bedmaking Not Necessary" tag on her doorknob so that the servants would not enter her room.{/umi_blue}'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -812,7 +807,6 @@ label event01_30_09:
  nao "{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika's traps, was able to prove her innocence.{/umi_blue}"
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -948,7 +942,6 @@ label event01_30_09:
  with Dissolve(0.2)
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 590)
   parallel:
@@ -967,7 +960,6 @@ label event01_30_09:
  with Dissolve(0.2)
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

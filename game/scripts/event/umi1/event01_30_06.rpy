@@ -680,7 +680,6 @@ label event01_30_06:
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -693,7 +692,6 @@ label event01_30_06:
  nao "I... I wasn't thinking like that. I don't want to be treated like a child with some... silly wordplay like that."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

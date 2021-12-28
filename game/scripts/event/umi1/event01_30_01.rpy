@@ -386,7 +386,6 @@ label event01_30_01:
  with Dissolve(1.0)
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (810, 460)
   parallel:
@@ -395,7 +394,6 @@ label event01_30_01:
  pause 1.0
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 1.0 pos (960, 460)
   parallel:
@@ -404,7 +402,6 @@ label event01_30_01:
  pause 1.0
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -972,7 +969,6 @@ label event01_30_01:
  with Dissolve(1.0)
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 1.0 pos (960, 540)
   parallel:
@@ -981,7 +977,6 @@ label event01_30_01:
  pause 1.0
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

@@ -223,5 +223,5 @@ label chara452001_01:
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'Hmm... please forget that nonsense. It seems I am getting a little sentimental.'
- call chapter_end
+ call chapter_end from _call_chapter_end_4
  jump chara452001_02

@@ -520,7 +520,6 @@ label event01_30_07:
  mion 'See this?'
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -530,7 +529,6 @@ label event01_30_07:
  narrator "Mion-san pointed at the keyhole, but I didn't see what she meant."
  camera:
   anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
