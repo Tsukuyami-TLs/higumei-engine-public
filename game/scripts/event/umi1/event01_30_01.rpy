@@ -3,6 +3,9 @@ label event01_30_01:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=2
  $ event_store.current_chapter='event01_30_01'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
@@ -357,7 +360,6 @@ label event01_30_01:
  jessica "It's not great at all. Personally, I wish I could walk to all my friends' houses."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide jessica_v001
@@ -369,7 +371,6 @@ label event01_30_01:
  shion "Sis! Nao-san! Quickly, quickly! Isn't this amazing?!?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide shion_v002
@@ -385,7 +386,6 @@ label event01_30_01:
  show expression 'images/bg/AdvBg_2221.png' as bg
  with Dissolve(1.0)
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (810, 460)
   parallel:
@@ -393,7 +393,6 @@ label event01_30_01:
  pause 0.5
  pause 1.0
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 1.0 pos (960, 460)
   parallel:
@@ -401,7 +400,6 @@ label event01_30_01:
  pause 1.0
  pause 1.0
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -461,7 +459,6 @@ label event01_30_01:
  shion "Absolutely. In a way, it's an affront to the roses..."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
@@ -473,7 +470,6 @@ label event01_30_01:
  mion "Shion~!! Over here!  Wouldn't it be pretty good if I took a picture from this angle?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -577,7 +573,6 @@ label event01_30_01:
  narrator 'It was built right after the war, so some of the facilities are clearly aging, but that gives it an antique taste.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -591,7 +586,6 @@ label event01_30_01:
  mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look, look, Shion!! It's an ocean vieeeewwww!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -669,7 +663,6 @@ label event01_30_01:
  shion "and it turned out there was only one room when we arrived, he'd have no choice but to stay in the same room! Wouldn't that have been nice?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
@@ -684,7 +677,6 @@ label event01_30_01:
  mion 'Shion! Go back right now and switch with Kei-chan!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -723,7 +715,6 @@ label event01_30_01:
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'I would like to present the refreshing taste of the end of autumn, to you who have travelled so far to arrive here...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -733,7 +724,6 @@ label event01_30_01:
  mion "Hwaa~!! This is great! I'd like a refill!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -743,7 +733,6 @@ label event01_30_01:
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Of course, here you are... Speaking of the fruits of autumn--'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -753,7 +742,6 @@ label event01_30_01:
  mion 'Hwaa~!! This really is the stuff! I drank it all in one gulp!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -968,7 +956,6 @@ label event01_30_01:
  show expression 'images/bg/AdvBg_2311.png' as bg
  with Dissolve(1.0)
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 1.0 pos (960, 540)
   parallel:
@@ -976,7 +963,6 @@ label event01_30_01:
  pause 1.0
  pause 1.0
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

@@ -3,6 +3,9 @@ label event01_30_04:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_04'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
@@ -68,7 +71,6 @@ label event01_30_04:
  camera at reset_shader
  pause 0.0
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -83,7 +85,6 @@ label event01_30_04:
  nao 'I\'m Team "Kaneda Case Files", all the way! In the name of my granny, I won\'t acknowledge any witches!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -102,7 +103,6 @@ label event01_30_04:
  show nao_v002 normal_close at active
  nao "I may look like I'm still just a kid, but I'll have you know, I'm right in the middle of my rebellious phase!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -113,7 +113,6 @@ label event01_30_04:
  show nao_v002 sinken at active
  nao 'What a pretentious locked-room trick! All you did was make me more skeptical!! '
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -122,7 +121,6 @@ label event01_30_04:
  show nao_v002 sinken at active
  nao 'If you are going to claim that you "exist", I\'m going to claim the opposite without fail!!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -133,7 +131,6 @@ label event01_30_04:
  show nao_v002 sinken at active
  nao 'As if things like you "exist", Beatrice!!!\n'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -150,7 +147,6 @@ label event01_30_04:
  show beatrice_v001 futeki at active
  beatrice "First and most importantly, you get to enjoy my greetings! And then, I'll have you subdued, kneeling before me and kissing my shoes!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -179,7 +175,6 @@ label event01_30_04:
  narrator 'I pointed at the witch as if I was piercing her, and yelled with all of my strength.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -190,7 +185,6 @@ label event01_30_04:
  nao 'The deciding factors are neither your tricks nor your magic!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -241,7 +235,6 @@ label event01_30_04:
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_230_charge.wav'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 460)
   parallel:
@@ -250,7 +243,6 @@ label event01_30_04:
  narrator 'In between the witch and I, a table and chairs appeared.'
  narrator "On top of the table, pieces seemed to have been lined up on a chessboard, but in a way that wasn't like the usual chess setup..."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -448,7 +440,6 @@ label event01_30_04:
  nao "...How's this, then?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -460,7 +451,6 @@ label event01_30_04:
  nao '{umi_blue}Although it is a locked room, it is possible for a human with a master key to enter and perform the prank.{/umi_blue}'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -751,7 +741,6 @@ label event01_30_04:
  show nao_v002 normal at inactive
  beatrice '{umi_red}No one visited the second floor of the guesthouse from the time you locked the door until you opened it again, except for Shannon.{/umi_red}'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -766,7 +755,6 @@ label event01_30_04:
  beatrice '{umi_red}Going upstairs through any other way than using the stairs, such as sawing through the walls or gliding in from the sky, is not permitted. Any other means of reaching the second floor can therefore be denied.{/umi_red}'
  play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -837,7 +825,6 @@ label event01_30_04:
  show beatrice_v001 futeki at inactive
  nao "But I hate losing! I haven't been cornered at all!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -849,7 +836,6 @@ label event01_30_04:
  show beatrice_v001 futeki at inactive
  nao "Your red truths won't shoot through me. I'll launch over this precipice and wedge into the heart of fantasy!!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

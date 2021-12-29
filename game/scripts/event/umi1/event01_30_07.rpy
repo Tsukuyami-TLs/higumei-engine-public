@@ -3,6 +3,9 @@ label event01_30_07:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_07'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
@@ -292,7 +295,6 @@ label event01_30_07:
  narrator '{umi_red}On this island, there exist people other than Shannon who would look at the situation in that room and determine there is nothing wrong.{/umi_red}'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -306,7 +308,6 @@ label event01_30_07:
  beatrice 'Kanon? Genji? Even Nanjoooo?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -394,7 +395,6 @@ label event01_30_07:
  nao '...Let me see. ...This fabric is... hmm... mm-hmm... very shoddy. ...And how was the inner lining sewed?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide mion_v004
@@ -408,7 +408,6 @@ label event01_30_07:
  shion "What are you, the costume police!? Don't look at the insideeee!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide shion_v012
@@ -427,7 +426,6 @@ label event01_30_07:
  nao 'Well... I happen to know a bit about clothing, so feel free to ask me for help the next time you want to make something.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -441,7 +439,6 @@ label event01_30_07:
  shion "B-but if you start helping, you'll see what we diiiiiiiiidd!!! Ewwwww, it's sooo embarrassiiiiiiiinggggg!!!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide shion_v012
@@ -519,7 +516,6 @@ label event01_30_07:
  show mion_v004 smile at active
  mion 'See this?'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -528,7 +524,6 @@ label event01_30_07:
  with Dissolve(0.2)
  narrator "Mion-san pointed at the keyhole, but I didn't see what she meant."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -762,7 +757,6 @@ label event01_30_07:
  narrator 'There, Erika-san was sunken down on the floor and pointing towards the inside of her wide-open room.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -772,7 +766,6 @@ label event01_30_07:
  erika '...Ahhhh...uwaaaaaa...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -875,7 +868,6 @@ label event01_30_07:
  shion "And at that time, you entered your room, right? You didn't find anything weird inside?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -889,7 +881,6 @@ label event01_30_07:
  erika 'Nothing at all! That would be impossible!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -949,7 +940,6 @@ label event01_30_07:
  narrator "As if we couldn't suspect that clever Erika-san... Even I could guess that right away..."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -959,7 +949,6 @@ label event01_30_07:
  shion "...You're faking this, aren't you?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide shion_v007

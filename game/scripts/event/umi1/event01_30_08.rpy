@@ -3,6 +3,9 @@ label event01_30_08:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_08'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  scene #000
@@ -69,7 +72,6 @@ label event01_30_08:
  narrator 'Erika-san and I remained. In place of where Mion-san and Shion-san vanished... the form of those witches from my dreams appeared...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -80,7 +82,6 @@ label event01_30_08:
  beatrice '<Happy Birthday!!!> Congrats to me! And thank you, everyone! I truly am a lucky person!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -250,7 +251,6 @@ label event01_30_08:
  nao "Very well. If that's the case..."
  play music 'audio/bgm/BGM_TITLE_COLLAB2.ogg'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -271,7 +271,6 @@ label event01_30_08:
  nao "...I'm rather competitive. Win or lose, I won't say I had fun."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -341,7 +340,6 @@ label event01_30_08:
  nao "We're working together?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -353,7 +351,6 @@ label event01_30_08:
  erika 'Not quite. I believe that the culprit is Shion-san.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -435,7 +432,6 @@ label event01_30_08:
  dlanor "Now then, we shall BEGIN. Since it is Lady Beatrice's birthday, she has the privilege of going FIRST."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide dlanor_v001
@@ -448,7 +444,6 @@ label event01_30_08:
  beatrice "When Erika returned, she unlocked her room and entered it, so there must have been a short interval before Nao's group heard her scream."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -544,7 +539,6 @@ label event01_30_08:
  nao '...Thought you might say that. I would have said the same thing if I were you.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -556,7 +550,6 @@ label event01_30_08:
  erika "*giggle*giggle*giggle*. ...Anyway, I'm going to talk about the differences between the two magic circles seen today and yesterday."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -664,7 +657,6 @@ label event01_30_08:
  narrator 'Do repeat this in red: "The two magic circles were drawn onto two separate sheets by different people."'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -676,7 +668,6 @@ label event01_30_08:
  nao '.........?!?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -762,7 +753,6 @@ label event01_30_08:
  erika 'On top of that, you must present it in the form of a blue truth. ...That does it for my turn.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -774,7 +764,6 @@ label event01_30_08:
  beatrice "......That being said... I still don't understand this magic circle at all. ...Just why was it made that way?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -844,7 +833,6 @@ label event01_30_08:
  show erika_v001 normal at active
  erika "I'll respond."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -859,7 +847,6 @@ label event01_30_08:
  show erika_v001 normal at active
  erika "However, how and when I placed it and how I tricked Shannon-san are things I refuse to answer. I do hope you'll forgive me."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -951,7 +938,6 @@ label event01_30_08:
  erika 'Who knows? Well, she is a novice, so we must lend her our support.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -963,7 +949,6 @@ label event01_30_08:
  dlanor '...Mm-HMM. ......I SEE.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide dlanor_v001

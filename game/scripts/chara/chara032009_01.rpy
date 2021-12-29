@@ -3,18 +3,21 @@ label chara032009_01:
  $ event_store.current_event='chara032009'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara032009_01'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_341.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_1
+ call wipeout_routine
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT1.ogg'
  show expression 'images/bg/AdvBg_351.png' as bg
- call wipein_routine from _call_wipein_routine_1
+ call wipein_routine
  show satoko_v002 fuan at mei_right
  show rika_v002 smile at mei_left
  with Dissolve(0.5)
@@ -223,5 +226,5 @@ label chara032009_01:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  nao 'Huh...?'
- call chapter_end from _call_chapter_end_7
+ call chapter_end
  jump chara032009_02

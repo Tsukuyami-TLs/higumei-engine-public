@@ -3,6 +3,9 @@ label event01_30_10:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_10'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
@@ -77,7 +80,6 @@ label event01_30_10:
  nao 'Is that serial killer... popular?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -94,7 +96,6 @@ label event01_30_10:
  erika "It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -111,7 +112,6 @@ label event01_30_10:
  show erika_v001 fuan at active
  erika 'Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Go Daikanyama, is an expert on mystery, not on magic circleeeeeess!!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -120,7 +120,6 @@ label event01_30_10:
  show erika_v001 smile at active
  erika 'And you know what else? You know what elsee?! The magic circle that Shion brought has the details all wroooooonggg!!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -131,7 +130,6 @@ label event01_30_10:
  show erika_v001 fuan at active
  erika "There wasn't enough love, no, there wasn't any love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -141,7 +139,6 @@ label event01_30_10:
  show erika_v001 futeki at active
  erika "The way that I drew it was perfect! Even Mr. Go Daikanyama's Chief Ash character was able to learn it himself in just three days while in confinement!!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -204,7 +201,6 @@ label event01_30_10:
  nao "For that reason, the first magic circle accident was done by Erika-san's hands, aaand, um..."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -216,7 +212,6 @@ label event01_30_10:
  erika 'Yeah, yeah. I resiiiiiignnnnn... It was my faaaaulltttt...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -264,7 +259,6 @@ label event01_30_10:
  beatrice "What's more, in the postscript, I recommended Detective Wanyan to her as well, stating how amusing I find it!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -275,7 +269,6 @@ label event01_30_10:
  erika 'M-Miss Beatrice...!! Thank you for your wordsss!! Ha-, haaaaaahhh!!!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -482,7 +475,6 @@ label event01_30_10:
  pause 2.0
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -494,7 +486,6 @@ label event01_30_10:
  erika "Oooohhh!!! ...What a splendid recreation! This must be... if I'm correct... the movie scene at 32 minutes and 18 seconds......"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -519,7 +510,6 @@ label event01_30_10:
  erika 'But what ties it all together is that reactionary death face!! Truly an amazing facial expression! Just let me give you an A+!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -531,7 +521,6 @@ label event01_30_10:
  shion "Haaaah! That's a Wanyanner if I see one!! You judged it down to every last detail, huh?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide shion_v002
@@ -567,7 +556,6 @@ label event01_30_10:
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -576,7 +564,6 @@ label event01_30_10:
  show erika_v001 smile at active
  erika "The bottom edge of this negligee! See how it puffs out a little bit? Right here! There's a ring case hidden here!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -585,7 +572,6 @@ label event01_30_10:
  show erika_v001 fuan at active
  erika "Since you can't see it at all, lots of cosplayers might lazily gloss over that fact... but with Mion-san...?!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -599,7 +585,6 @@ label event01_30_10:
  erika "She has iiiit!! Absolutely artful remastering of the original work!! It's perfect, even down to the scar she got from when she was thrown back!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -665,7 +650,6 @@ label event01_30_10:
  mion "Finishing the whole series is brutal as I thought! Shouldn't she start off on volume 68?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide mion_v002
@@ -682,7 +666,6 @@ label event01_30_10:
  erika 'Eeeeeee~! Never that, never that! Without knowing the depth surrounding the character relationships in the Wanyan universe, the entertainment level would dramatically decrease!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -694,7 +677,6 @@ label event01_30_10:
  shion 'Riiight?! Nao-san definitely needs to read through the entire thing!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
@@ -705,7 +687,6 @@ label event01_30_10:
  nao "Please cut that out. I'm gonna chop you guys up."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -731,7 +712,6 @@ label event01_30_10:
  show nao_v002 normal at inactive
  mion "Wha-whaaat~...? If you're gonna threaten me, Nao-chan, don't ruin it with having such a cuuuute little face. Okay?"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -748,7 +728,6 @@ label event01_30_10:
  shion 'Taught you... what...?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -766,7 +745,6 @@ label event01_30_10:
  nao 'This was an actual scene from the Wanyan movie! In teaching me that, it stopped being scary to me.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002

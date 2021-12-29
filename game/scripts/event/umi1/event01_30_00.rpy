@@ -3,6 +3,9 @@ label event01_30_00:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=0
  $ event_store.current_chapter='event01_30_00'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  narrator 'I should have never come to this island.'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  nao 'N... n......'
@@ -182,7 +185,6 @@ label event01_30_00:
  show mion_v002 smile at jump_transform,active
  mion "If you don't want to watch the show or read the manga, I totally get it!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -191,7 +193,6 @@ label event01_30_00:
  show mion_v002 fuan at active
  mion 'But please! I thought you were just messing with this ol\' man, but the Detective Wanyan movie "Mid-Autumn\'s Lament: The Heartbroken Rabbits Murder Case" is something you absolutely must waaatch!!!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -359,7 +360,6 @@ label event01_30_00:
  show nao_v002 normal at inactive
  erika " <Good>. That's exactly it. So, then, allow me to inquire again."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -374,7 +374,6 @@ label event01_30_00:
  show erika_v001 futeki at inactive
  nao 'Me seeing it clearly with my own eyes is proof alone!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -450,7 +449,6 @@ label event01_30_00:
  nao '......Huh...?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -482,7 +480,6 @@ label event01_30_00:
  erika "Oh my, do excuse me. That was too advanced for you. It seems I got a little carried away. We're already done here. Please do go stand someplace else."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001

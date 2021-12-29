@@ -3,6 +3,9 @@ label chara472001_03:
  $ event_store.current_event='chara472001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara472001_03'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_103.png' as bg
@@ -116,8 +119,6 @@ label chara472001_03:
  scene black_cover
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -127,7 +128,6 @@ label chara472001_03:
  with Dissolve(1.0)
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -139,7 +139,6 @@ label chara472001_03:
  erika "Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -193,5 +192,5 @@ label chara472001_03:
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor 'YES. ...I am also looking forward to IT.'
- call chapter_end from _call_chapter_end_6
+ call chapter_end
  return

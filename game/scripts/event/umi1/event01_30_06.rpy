@@ -3,6 +3,9 @@ label event01_30_06:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_06'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
@@ -160,7 +163,6 @@ label event01_30_06:
  erika 'Nonetheless, during that whole time period, I was together playing games with you people, so I have a perfect alibi.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -173,7 +175,6 @@ label event01_30_06:
  nao 'I... I would like to hear that directly from Shannon-san.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -530,7 +531,6 @@ label event01_30_06:
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -540,7 +540,6 @@ label event01_30_06:
  erika '............*giggle*.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -679,7 +678,6 @@ label event01_30_06:
  nao '...Nn...... uh......'
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -691,7 +689,6 @@ label event01_30_06:
  show erika_v001 fuan at inactive
  nao "I... I wasn't thinking like that. I don't want to be treated like a child with some... silly wordplay like that."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

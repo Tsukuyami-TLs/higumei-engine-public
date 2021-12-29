@@ -3,6 +3,9 @@ label chara452001_02:
  $ event_store.current_event='chara452001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara452001_02'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_2190.png' as bg
@@ -86,7 +89,6 @@ label chara452001_02:
  nao "Important... person. That's probably true."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -102,7 +104,6 @@ label chara452001_02:
  nao "So, because I don't know her circumstances, I'm afraid I might hurt her if I don't word things correctly, so I don't know what to say."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -174,5 +175,5 @@ label chara452001_02:
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
  rena 'Yup, do your best. Rena will be rooting for you to do well, Nao-chan...!'
- call chapter_end from _call_chapter_end_10
+ call chapter_end
  jump chara452001_03

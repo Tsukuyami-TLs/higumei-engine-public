@@ -3,6 +3,9 @@ label event01_30_09:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_09'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
@@ -52,7 +55,6 @@ label event01_30_09:
  show erika_v001 normal at inactive
  beatrice "Alright, then let's get to the heart of the matter!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -78,7 +80,6 @@ label event01_30_09:
  pause 1.0
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -350,7 +351,6 @@ label event01_30_09:
  shion "...I don't know what's up with you playing detective... but if it involves victory and defeat..."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v007
@@ -362,7 +362,6 @@ label event01_30_09:
  mion "...The Sonozaki sisters... defintely won't lose. ...We'll prove to you that even though it's been split between the two of us, the blood of the next head flows hot and thick through our veins!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v008
@@ -373,7 +372,6 @@ label event01_30_09:
  show erika_v001 normal at active
  erika "You are the culprit, Shion-san. Despite this, you think this will result in my loss? I don't get what you're saying at all."
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -393,7 +391,6 @@ label event01_30_09:
  scene black_cover
  play music 'audio/bgm/BGM_BOSS1_COLLAB2.ogg'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -426,7 +423,6 @@ label event01_30_09:
  dlanor 'I will repeat it in RED.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide dlanor_v001
@@ -442,7 +438,6 @@ label event01_30_09:
  dlanor "{umi_red}Shion Sonozaki's body does not have any fluorescent paint on IT.{/umi_red}"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide dlanor_v001
@@ -483,7 +478,6 @@ label event01_30_09:
  erika "SHUUUUUUUUT THE HELLLLLL UUUUUP, YOU MURDER DOLL!!! IT'S MY TURN NOW!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -501,7 +495,6 @@ label event01_30_09:
  erika "{umi_blue}Shion Sonozaki used a glove when she touched the doorknob! Naturally, this means the fluorescent paint wasn't able to get on her palms!{/umi_blue}"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -580,7 +573,6 @@ label event01_30_09:
  nao "Um, I'd like to come out with some information."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -595,7 +587,6 @@ label event01_30_09:
  erika 'What could a detestable, tasteless child who has no redeeming factors other than being afraid to lose {i}POSSIBLY{/i} come out with now?!?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -618,7 +609,6 @@ label event01_30_09:
  beatrice '...What the... are you... a Voyager witch...!?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -632,7 +622,6 @@ label event01_30_09:
  erika "There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant dumpster diveeeeeeerrrrrrr!!!!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -709,7 +698,6 @@ label event01_30_09:
  dlanor '{umi_red}Nao Houtani has been confirmed to have made contact and interacted with inhuman BEINGS.{/umi_red}'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -721,7 +709,6 @@ label event01_30_09:
  erika 'W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...!?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -747,7 +734,6 @@ label event01_30_09:
  beatrice "Y-you recognize my existence... Nao, I've never had a guest such as yourself..."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -767,7 +753,6 @@ label event01_30_09:
  nao '{umi_blue}The suspect Shion-san is innocent.{/umi_blue}'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -782,7 +767,6 @@ label event01_30_09:
  show nao_v002 normal at inactive
  erika "That's impossible, totally impossible!!!!! Shion is the culprit!!!! She's definitely the culpriiiiiiiit!!!!!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -793,7 +777,6 @@ label event01_30_09:
  show erika_v001 odoroki at inactive
  nao '{umi_blue}Erika put a "Bedmaking Not Necessary" tag on her doorknob so that the servants would not enter her room.{/umi_blue}'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -806,7 +789,6 @@ label event01_30_09:
  show erika_v001 odoroki at inactive
  nao "{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika's traps, was able to prove her innocence.{/umi_blue}"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -821,7 +803,6 @@ label event01_30_09:
  nao "{umi_blue}So therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -835,7 +816,6 @@ label event01_30_09:
  erika "That's not clear at alllllllll!!! Who did it, and where did they come from!?!?!? Don't make a mockery of the blue truuuuuuuth!!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -870,7 +850,6 @@ label event01_30_09:
  dlanor '...I did not hear THAT. Please repeat YOURSELF.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide dlanor_v001
@@ -884,7 +863,6 @@ label event01_30_09:
  erika 'No way... nowaynowaynowaaaaaaaaayy! Shion is absolutely, positively, certainly guilty... so why... so why is there no evidence...anywhere?!?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -941,7 +919,6 @@ label event01_30_09:
  hide nao_v002
  with Dissolve(0.2)
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 590)
   parallel:
@@ -959,7 +936,6 @@ label event01_30_09:
  hide beatrice_v001
  with Dissolve(0.2)
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -1026,7 +1002,6 @@ label event01_30_09:
  nao "I want you to say what I'm about to on your turn. That way, we can both be declared the victors. "
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -1038,7 +1013,6 @@ label event01_30_09:
  erika '...Nnnnnnnggghhh...... why... why do I always lose on Rokkenjimaaaaa...!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001

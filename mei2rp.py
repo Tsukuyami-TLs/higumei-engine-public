@@ -241,14 +241,12 @@ class Compiler:
         if time == 0:
             self.outlines.append(f"""
 camera:
- anchor (0.5,0.5)
  pos ({xpos}, {ypos})
  zoom {mag}
             """.strip())
         else:
             self.outlines.append(f"""
 camera:
- anchor (0.5,0.5)
  parallel:
   linear {time} pos ({xpos}, {ypos})
  parallel:
@@ -415,6 +413,7 @@ camera:
         self.to_show.clear()
 
     def compile_commands(self): 
+        self.outlines.append('camera:\n anchor (0.5, 0.5)\n pos (960, 540)')
         for n, line in enumerate(self.commands): 
             typ, cmd = get_cmd(line)
             is_talk = 'arg0' not in line and 'arg1' in line

@@ -3,6 +3,9 @@ label event01_30_03:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_03'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
@@ -191,7 +194,6 @@ label event01_30_03:
  narrator 'Speaking of which, why are the police in this show just letting an elementary schooler and that big slug stand there on the scene of a murder incident??'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -203,7 +205,6 @@ label event01_30_03:
  mion 'Nonononono! They should have held back on thaat! They revealed the culprit way too faaast!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -383,7 +384,6 @@ label event01_30_03:
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shannon_v001
@@ -394,7 +394,6 @@ label event01_30_03:
  jessica 'Good eveniing~~!! Guess who came to mess around~~!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide jessica_v001
@@ -727,7 +726,6 @@ label event01_30_03:
  shion "The game hasn't reached a result, and we haven't even gotten to enjoy the process. Won't we end it here for today?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v002
@@ -741,7 +739,6 @@ label event01_30_03:
  mion "Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to just end it?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002

@@ -3,6 +3,9 @@ label chara452001_01:
  $ event_store.current_event='chara452001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara452001_01'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
@@ -104,7 +107,6 @@ label chara452001_01:
  nao "...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. "
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -118,7 +120,6 @@ label chara452001_01:
  beatrice "I'm not anything like a kappa, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -132,7 +133,6 @@ label chara452001_01:
  nao "It's entirely possible that there is a witch whose hobby is collecting shirikodama. "
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -145,7 +145,6 @@ label chara452001_01:
  beatrice 'I never thought a little girl like you would say that... *giggle*giggle*, *cackle*cackle*cackle*!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -223,5 +222,5 @@ label chara452001_01:
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'Hmm... please forget that nonsense. It seems I am getting a little sentimental.'
- call chapter_end from _call_chapter_end_4
+ call chapter_end
  jump chara452001_02

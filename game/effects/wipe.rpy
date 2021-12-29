@@ -106,11 +106,10 @@ label wipein_routine:
 image chend_cover = Solid(Color('#000'), xalign=0.5, yalign=0.5, xzoom=2.0, yzoom=2.0)
 label chapter_end:
     camera:
-        align (0.5, 0.5)
-        parallel:
-            linear 1.0 pos (0.5, 0.5)
         parallel:
             linear 1.0 zoom 1.0
+        parallel:
+            linear 1.0 pos (960, 540)
     pause 1.0
     $ timeout = 2.0
     $ timepause = 1.0

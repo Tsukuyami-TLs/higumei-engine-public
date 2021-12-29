@@ -3,6 +3,9 @@ label chara032009_03:
  $ event_store.current_event='chara032009'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara032009_03'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST.ogg'
@@ -56,7 +59,6 @@ label chara032009_03:
  nao "... It's bad taste."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -68,7 +70,6 @@ label chara032009_03:
  beatrice 'Hm, Hm... *cackle*cackle*cackle*, hyyyaaahahahahaha! Is that so, is that so? Bad taste!?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -121,7 +122,6 @@ label chara032009_03:
  nao "I'm sorry, the nature of it is as you say... but me saying it isn't just bad taste is my straightforward opinion."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -135,7 +135,6 @@ label chara032009_03:
  nao "Yeah, I feel like it's intending to give that kind of message."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -172,8 +171,6 @@ label chara032009_03:
  show beatrice_v001 normal_close at inactive
  nao 'Because I can.'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -183,8 +180,6 @@ label chara032009_03:
  show beatrice_v001 normal_close at inactive
  nao 'Like this story... it was really amusing.'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -241,7 +236,6 @@ label chara032009_03:
  beatrice 'Come, try to remember...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -263,7 +257,6 @@ label chara032009_03:
  nao "I'm interested in how it continueeees!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -366,5 +359,5 @@ label chara032009_03:
  show nao_v002 smile_close at active
  show rika_v002 odoroki at inactive
  nao "But it's just a feeling, yeah? *giggle*"
- call chapter_end from _call_chapter_end_22
+ call chapter_end
  return

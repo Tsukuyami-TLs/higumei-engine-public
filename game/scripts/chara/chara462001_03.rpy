@@ -3,18 +3,21 @@ label chara462001_03:
  $ event_store.current_event='chara462001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara462001_03'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_262.png' as bg
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_7
+ call wipeout_routine
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_782.png' as bg
- call wipein_routine from _call_wipein_routine_7
+ call wipein_routine
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at active
@@ -48,8 +51,6 @@ label chara462001_03:
  show kazuho_v002 fuan at active
  kazuho 'Unlike how you say, this master person is a little, as far as I can tell, um...'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -64,8 +65,6 @@ label chara462001_03:
  stop sound
  scene black_cover
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -84,8 +83,6 @@ label chara462001_03:
  show erika_v001 sinken at active
  erika 'And her spitting out, "Why hadn\'t you realized until it was over?" ...with those pitying eyes!!!'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -94,8 +91,6 @@ label chara462001_03:
  show erika_v001 sinken at jump_transform,active
  erika "Because it couldn't have been helped! Not even in ten thousand worlds, nor a hundred million, no, even a trillion, ten quadrillion, one hundred quintillion!!!"
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -104,8 +99,6 @@ label chara462001_03:
  show erika_v001 sinken at active
  erika 'Just like the pebbles in a sandstorm are small, there is a possibility that Rika Furude is my master!'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -116,8 +109,6 @@ label chara462001_03:
  show erika_v001 sinken at active
  erika "As if I couldn't be cleaning this shrine right nooooooooooooowwwwww!!!!!!!!!!"
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -140,7 +131,6 @@ label chara462001_03:
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") '............'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -152,7 +142,6 @@ label chara462001_03:
  erika 'Hold on, Rika Furude!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -186,7 +175,6 @@ label chara462001_03:
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -196,7 +184,6 @@ label chara462001_03:
  erika "Eh, ah... huh? No, it couldn't be...?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -223,7 +210,6 @@ label chara462001_03:
  Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct......... *giggle*. Well, isn't it game over for you?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -241,8 +227,6 @@ label chara462001_03:
  stop sound
  scene black_cover
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -336,5 +320,5 @@ label chara462001_03:
  beatrice 'Hm, I cannot really say that Erika is blessed, but...'
  show beatrice_v001 smile at active
  beatrice 'Either way, it seems she was blessed with a friend.'
- call chapter_end from _call_chapter_end_14
+ call chapter_end
  return

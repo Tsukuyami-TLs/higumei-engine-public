@@ -3,6 +3,9 @@ label chara462001_02:
  $ event_store.current_event='chara462001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara462001_02'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
@@ -31,8 +34,6 @@ label chara462001_02:
  show erika_v001 normal at active
  erika "If it comes to that, getting information about where that girl lives and her current location won't be that difficult either--."
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -42,8 +43,6 @@ label chara462001_02:
  show erika_v001 smile at active
  erika 'Just from one peek at this village, this level of reasoning is possible for Erika Furudo. What do you think, everyone?'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -176,7 +175,6 @@ label chara462001_02:
  rika 'Meep... She has on like a dress or something.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide rika_v002
@@ -190,7 +188,6 @@ label chara462001_02:
  erika 'Ah, ah, ah, aaaaaaaahhhhhhhhhhhhhhhhh...!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -202,7 +199,6 @@ label chara462001_02:
  rika 'What?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide rika_v002
@@ -216,7 +212,6 @@ label chara462001_02:
  play audio 'audio/sfx/SE_408_run.wav'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -245,7 +240,6 @@ label chara462001_02:
  kazuho 'But that person is sprinting over here like a missile...?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide rika_v002
@@ -260,7 +254,6 @@ label chara462001_02:
  erika 'MYYYYY MAAASTERRRRRRRRRRRRRRRRRRR!!!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -291,8 +284,6 @@ label chara462001_02:
  show rika_v002 fuan at inactive
  erika 'W-w-w-w-why would my master ever be in a run-down place like this?!'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -302,8 +293,6 @@ label chara462001_02:
  show rika_v002 fuan at inactive
  erika 'Ah...!? Had you perhaps went out of your way to investigate what I had been doing here...?!'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -313,8 +302,6 @@ label chara462001_02:
  show rika_v002 fuan at inactive
  erika 'Th-thank you so much! For not having reasoned out an expectation of your arrival, I so deeply apologize!!'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -390,7 +377,6 @@ label chara462001_02:
  erika 'Cleaner person?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -410,7 +396,6 @@ label chara462001_02:
  erika "So basically! In this meaning, it's a bonus stage?!?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -451,7 +436,6 @@ label chara462001_02:
  satoko 'And especially not nothing...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide rika_v002
@@ -465,7 +449,6 @@ label chara462001_02:
  erika "So, what you're saying is you literally want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -484,7 +467,6 @@ label chara462001_02:
  rika "...I think that's actually more dirty."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide rika_v002
@@ -494,5 +476,5 @@ label chara462001_02:
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active
  satoko "I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!"
- call chapter_end from _call_chapter_end_5
+ call chapter_end
  jump chara462001_03

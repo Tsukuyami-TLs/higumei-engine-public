@@ -3,6 +3,9 @@ label chara032009_02:
  $ event_store.current_event='chara032009'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara032009_02'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_EVENT6.ogg'
@@ -85,7 +88,6 @@ label chara032009_02:
  nao "Rokkenjima...? I've heard that name somewhere... ah-?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -101,7 +103,6 @@ label chara032009_02:
  nao "...I see. That island was a certain fateful destination for them, wasn't it?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -126,7 +127,6 @@ label chara032009_02:
  play music 'audio/bgm/BGM_EVENT5.ogg'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
@@ -157,7 +157,6 @@ label chara032009_02:
  play music 'audio/bgm/BGM_QUEST.ogg'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v014
@@ -223,7 +222,6 @@ label chara032009_02:
  with Dissolve(1.0)
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -237,7 +235,6 @@ label chara032009_02:
  beatrice "Oh, look, do not make such a face. The story is already beginning. At best, don't be shaken off. "
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
@@ -254,7 +251,6 @@ label chara032009_02:
  beatrice 'Of course, from my game boooard!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v014
@@ -269,7 +265,6 @@ label chara032009_02:
  nao "I-I didn't know there was a type of vehicle like tha-... aaaaaaaaaaat?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v014
@@ -278,5 +273,5 @@ label chara032009_02:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice "Kuhahhahhahhahha! A great scream that tugs on the heartstrings! Let's enjoy this as much as possibleeeeeeeee!!"
- call chapter_end from _call_chapter_end_15
+ call chapter_end
  jump chara032009_03

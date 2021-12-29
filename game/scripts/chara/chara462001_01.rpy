@@ -3,6 +3,9 @@ label chara462001_01:
  $ event_store.current_event='chara462001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara462001_01'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
@@ -72,7 +75,6 @@ label chara462001_01:
  Character('????',ctc="ctcArrow", ctc_position="fixed") "In any case, I'll have to properly reward you for dragging your master's face through the mud, right...?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -91,8 +93,6 @@ label chara462001_01:
  stop sound
  scene black_cover
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -119,8 +119,6 @@ label chara462001_01:
  show erika_v001 sinken at inactive
  dlanor '...If you scatter it in the mountains, will beautiful flowers bloom in SPRING?'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -135,8 +133,6 @@ label chara462001_01:
  show dlanor_v001 normal at inactive
  erika 'LIKE HELLL IT WOUUUUUUUUUUUULDDDDDDD!!!!!!'
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -215,5 +211,5 @@ label chara462001_01:
  dlanor "...Is she GONE? If she didn't have those huge jumps in emotion, she would be quite the outstanding character, HOWEVER..."
  show dlanor_v001 fuan_close at active
  dlanor "...I guess it can't be HELPED."
- call chapter_end from _call_chapter_end_2
+ call chapter_end
  jump chara462001_02

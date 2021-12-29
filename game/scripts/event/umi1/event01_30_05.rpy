@@ -3,6 +3,9 @@ label event01_30_05:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_05'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
@@ -465,7 +468,6 @@ label event01_30_05:
  mion 'It would be someone who was staying on the second floor of the guesthouse last night, besides us...?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide mion_v002
@@ -477,7 +479,6 @@ label event01_30_05:
  erika 'Good morning. I had the pleasure of sleeping in.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -619,7 +620,6 @@ label event01_30_05:
  pause 0.3333333333333333
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide shion_v004
@@ -633,7 +633,6 @@ label event01_30_05:
  jessica "Woah, woah, woaaah, isn't this showing your skin t-too much? Isn't this too sexy?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide jessica_v001

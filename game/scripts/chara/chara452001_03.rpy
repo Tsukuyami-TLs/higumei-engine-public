@@ -3,6 +3,9 @@ label chara452001_03:
  $ event_store.current_event='chara452001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara452001_03'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  show expression 'images/bg/AdvBg_591.png' as bg
@@ -105,7 +108,6 @@ label chara452001_03:
  beatrice '...Hah, preparations are being made now.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -118,7 +120,6 @@ label chara452001_03:
  nao "Wow... that's amazing...! In a single instant, teacups and tea cakes appeared on the table...?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -251,8 +252,6 @@ label chara452001_03:
  stop sound
  scene black_cover
  camera:
-  anchor (0.5,0.5)
-  pos (960,540)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -268,7 +267,6 @@ label chara452001_03:
  miyuki '...Uh...... Nao. Hey, Nao!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide miyuki_v002
@@ -362,5 +360,5 @@ label chara452001_03:
  beatrice '....Nao, you have my thanks. The time we spent together was short, but it was incredibly fun.'
  show beatrice_v001 smile at active
  beatrice 'The scenery outside the island that I saw through your eyes was quite beautiful...'
- call chapter_end from _call_chapter_end_20
+ call chapter_end
  return

@@ -3,6 +3,9 @@ label event01_30_99:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=7
  $ event_store.current_chapter='event01_30_99'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  scene #000
@@ -130,7 +133,6 @@ label event01_30_99:
  narrator 'Erika-san... who wanted to hear the admiration of her magic circle by comrades, was listening... with a cup pressed against the wall... she was listening the whole time!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -146,7 +148,6 @@ label event01_30_99:
  erika 'Nwext, I want to hear your cries of admirationnNNIHIHIHI!!!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -367,7 +368,6 @@ label event01_30_99:
  nao "Definitely. ...Erika's energy and reasoning skills are like a combination of Mion-san and Rena-chan."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -380,7 +380,6 @@ label event01_30_99:
  erika '*giggle*...Just with the presence of a few friends that are reluctant to depart, this level of farewell is possible for Erika Furudo. What do you think, everyone?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -498,7 +497,6 @@ label event01_30_99:
  erika "But, I don't think that Beatrice would give us gold for no reason."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide erika_v001
@@ -509,7 +507,6 @@ label event01_30_99:
  nao "It's very light, so it's probably not gold... It's almost as if it was empty."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -564,7 +561,6 @@ label event01_30_99:
  show mion_v013 smile at inactive
  shion 'Sis, these clothes of ours...'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -579,7 +575,6 @@ label event01_30_99:
  shion "Isn't this great! Me and my sister, we can do the moon rabbit dance together!!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide mion_v013
@@ -595,7 +590,6 @@ label event01_30_99:
  nao 'Is this also a costume from Detective Wanyan?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v014
@@ -642,7 +636,6 @@ label event01_30_99:
  narrator 'So, I thought that if you were a rabbit too, the three of you could be good friends!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -654,7 +647,6 @@ label event01_30_99:
  nao "I don't think soooooooo!!! Give it back! The front part of the skiiiirtt!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v014
@@ -677,7 +669,6 @@ label event01_30_99:
  mion "Nao-chan, why won't you try out some part-time at Angel Mort in that outfit?!"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide mion_v013
@@ -695,7 +686,6 @@ label event01_30_99:
  nao 'Wait, where are the clothes I was wearing just now?! Where are they?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v014
@@ -768,7 +758,6 @@ label event01_30_99:
  show nao_v014 sinken at jump_transform,active
  nao '<Yes!! I need>, ummm.... <Skirt no front!!>'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -777,7 +766,6 @@ label event01_30_99:
  show nao_v014 sinken at active
  nao 'Give me back the front part of this skirt! At least let me cover the abdomen area!!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:

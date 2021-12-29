@@ -3,6 +3,9 @@ label event01_30_02:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_02'
+ camera:
+  anchor (0.5, 0.5)
+  pos (960, 540)
  stop sound
  scene #000
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
@@ -331,7 +334,6 @@ label event01_30_02:
  jessica 'Grandfather is superstitious on his own, though. ...Having an impossibly large mansion is, needless to say, pretty uncanny.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.4
  hide kanon_v001
@@ -343,7 +345,6 @@ label event01_30_02:
  mion 'Those unused rooms... might have something other than people settling in them...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide mion_v002
@@ -427,7 +428,6 @@ label event01_30_02:
  nao 'The mansion already has all of those guest rooms in it too, so needing to go out of your way to make this is...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide nao_v002
@@ -438,7 +438,6 @@ label event01_30_02:
  erika 'Perhaps the 20 billion yen worth of gold is still being used to welcome... ghosts... here...?'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide erika_v001
@@ -662,7 +661,6 @@ label event01_30_02:
  narrator "I didn't come here to panic while counting my remaining days here on my fingers."
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 590)
   zoom 1.3
  hide fade with Dissolve(0.08333333333333333)
@@ -672,7 +670,6 @@ label event01_30_02:
  nao '...Hahahahahaha, aaahahahahahahahaha...'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
-  anchor (0.5,0.5)
   pos (960, 540)
   zoom 1.0
  hide nao_v002
@@ -704,7 +701,6 @@ label event01_30_02:
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -713,7 +709,6 @@ label event01_30_02:
  show nao_v002 sinken at active
  nao "Let's suppose that Beatrice's ghost walks along the halls of the mansion at night, and someone witnesses that!"
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -722,7 +717,6 @@ label event01_30_02:
  show nao_v002 sinken at active
  nao "There's a possibility that the evidence was falsified, there was a problem with their eyesight, or even a problem with their head, right? All of these possibilities can deny this! "
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
@@ -733,7 +727,6 @@ label event01_30_02:
  show nao_v002 sinken at active
  nao 'Am I not right, Erika-san?!'
  camera:
-  anchor (0.5,0.5)
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
