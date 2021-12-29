@@ -17,7 +17,7 @@ label event01_30_03:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '...Oh gosh. As expected, I probably overslept... I guess.'
+ nao '...Oh gosh. As expected, I probably overslept... maybe.'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 fuan_close at mei_left
@@ -46,7 +46,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion 'It was impossible. Please apologize to the servant later.'
+ shion 'It was impossible. Please apologize to a servant later.'
  show mion_v002 fuan_close at active
  show mion_v002 fuan_close:
   linear 0.5 pos (1440,1250)
@@ -470,7 +470,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show shannon_v001 smile at active
  show mion_v002 smile at inactive
- shannon 'The feeling alone is enough for me. I have yet to do all my chores in the mansion...'
+ shannon 'The sentiment alone is enough for me. I have yet to do all my chores in the mansion...'
  show shannon_v001 smile_close at active
  show mion_v002 smile at inactive
  shannon "I'll take my leave for today..."
@@ -628,7 +628,7 @@ label event01_30_03:
  shion 'Did you hear that, Sis? Now reflect on your actions.'
  show mion_v002 fuan at chara_shake_transform,active
  show shion_v002 normal at inactive
- mion "Th-this ol' man only wanted to survey it from the point of view of a strong visitor! Really!!"
+ mion "Th-this ol' man only wanted to test it from the point of view of a strong visitor! Really!!"
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)

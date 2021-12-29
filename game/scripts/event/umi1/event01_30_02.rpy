@@ -646,7 +646,7 @@ label event01_30_02:
  show erika_v001 normal_close at active
  erika 'I am the detective. I am confident that everything in this world can be explained with reasoning.'
  show erika_v001 normal at active
- erika 'But for this reason in particular... Even I may come into contact with "something" through committing blasphemy with my reasoning.'
+ erika 'However, for this reason, sometimes... Even I may come across "something" that would be blasphemous to reason about.'
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
@@ -689,7 +689,7 @@ label event01_30_02:
  show nao_v002 smile at active
  nao 'Besides, in our world today, whatever strange thing it is, it can absolutely be explained!'
  show nao_v002 smile at active
- nao 'Hey, Erika-san. Am I not right?'
+ nao "Hey, Erika-san. Aren't I right?"
  hide nao_v002
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
@@ -725,7 +725,7 @@ label event01_30_02:
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
- nao 'Am I not right, Erika-san?!'
+ nao "Aren't I right, Erika-san?!"
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -742,8 +742,8 @@ label event01_30_02:
  erika 'However, I must have also mentioned this some time ago.'
  hide erika_v001
  with Dissolve(0.2)
- narrator '"But for this reason in particular..."'
- narrator '"...Even I may come into contact with \'something\' through committing blasphemy with my reasoning..." ...she said.'
+ narrator '"However, for this reason, sometimes..."'
+ narrator '"...Even I may come across "something" that would be blasphemous to reason about..." ...she said.'
  show nao_v002 sinken at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -824,7 +824,7 @@ label event01_30_02:
  with Dissolve(0.2)
  narrator 'I just realized that at some point, it had started drizzling outside.'
  narrator "Since the sky is still light, it might stop soon anyway, but it isn't worth it pulling out an umbrella just to set out for the rose garden."
- narrator '...This is a vacation. Relaxation is the goal. This is completely different from the tight scheduling of overseas travel, having to catch busses all over to sightsee.'
+ narrator '...This is a vacation. Relaxation is the goal. This is completely different from the tight scheduling of overseas travel, having to catch buses all over to sightsee.'
  narrator 'Plus, just like Mion-san was saying, morning went by pretty fast.'
  show nao_v002 fuan_close at mei_center
  with Dissolve(0.5)
@@ -874,16 +874,16 @@ label event01_30_02:
  scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
  with Dissolve(1.0)
- narrator "Shion-san began spreading clothing garments from the trunk onto the beds in bunches. It seems like some of the garments haven't been finished in time for the photoshoots."
+ narrator "Shion-san began spreading clothing garments from the trunk onto the beds in bunches. It seems like some of the garments haven't been finished in time for the photo shoots."
  narrator 'After Mion-san fought for a bit with the window lock, she realized it was impossible and stuck her tongue out at it.'
  play audio 'audio/sfx/SE_5037_getup.wav'
  narrator 'I was laid up on my bed, taking off my socks. With just that, I started feeling relaxed.'
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
  narrator 'Even thinking about reading a book is making me... sleepy...'
- narrator "Even being on this wonderful island, even being in this wonderful guesthouse, even with there being such a wonderfully wide rose garden... I'm napping."
- narrator 'Yeah. This is true vacationing. True luxury, maybe, maybe.'
+ narrator "Even on this wonderful island, even in this wonderful guesthouse, even with such a wonderful and expansive rose garden... I'm napping."
+ narrator 'Yeah. This is true vacationing. This is true luxury, maybe. Maybe.'
  narrator "With the Sonozaki sisters' busy chatting serving as a lullaby, my eyelids grew heavier."
- narrator "...The odd atmosphere from the witch ghost story seemed like a lie now. I wonder if that could have been avoided if I didn't absent-mindedly daydream..."
+ narrator '...The odd atmosphere from the witch ghost story seemed like a lie now. It could have all just been an absent-minded daydream...'
  narrator "What I did was akin to saying I didn't believe in Oyashiro-sama while on the Furude shrine grounds. Surely, I had ruined the mood on the island."
  narrator "...And the master of the island's too... surely..."
  narrator '...........................'

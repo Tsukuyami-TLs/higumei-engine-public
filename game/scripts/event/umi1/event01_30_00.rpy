@@ -19,7 +19,7 @@ label event01_30_00:
  narrator "The girl's negligee probably used to be very lovely."
  narrator 'But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.'
  narrator 'The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.'
- narrator 'The other one was in a gown. ...Of course, they were also stained with fresh, bright red blood.'
+ narrator 'The other one was in a gown. ...Of course, it was also stained with fresh, bright red blood.'
  narrator 'Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.'
  narrator 'Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.'
  narrator "And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them..."
@@ -31,9 +31,9 @@ label event01_30_00:
  nao 'Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!'
  play audio 'audio/sfx/SE_526_door_open.wav'
  nao 'Huh...? It opened...?'
- narrator "Even if you turn a doorknob, when it's locked, there's no way it would open."
+ narrator "Even if you turn a doorknob, there's no way it would open if the door was locked."
  narrator 'Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.'
- narrator "...That's why I honestly didn't expect the door to open."
+ narrator "...That's why I didn't actually expect the door to open."
  narrator 'It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.\n'
  narrator "Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......"
  nao 'Erika...san...?'
@@ -52,7 +52,7 @@ label event01_30_00:
  show black_cover as fade with Dissolve(1.0)
  pause 3.0
  scene black_cover
- narrator 'I should have never come to this island... Thinking about it now, the invitation to Rokkenjima island was very sudden.'
+ narrator 'I should have never come to this island... Thinking about it now, the invitation to Rokkenjima was very sudden.'
  window hide None
  stop sound
  scene black_cover
@@ -101,7 +101,7 @@ label event01_30_00:
  mion "...Or so it was! Looks like they're thinking about turning it into a resort in the future."
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao '...So you were invited to survey it?'
+ nao '...So we were invited as trial guests?'
  hide mion_v002
  show shion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -142,15 +142,15 @@ label event01_30_00:
  narrator "The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. "
  narrator "We'll rest up for three days and two nights, then we'll return home Sunday night. The schedule is kind of tight, but the conditions will be well worth it."
  narrator 'That golden ticket was a special raffle prize at some shopping district, so for Mion-san to be the one to have pulled it was...'
- narrator 'At first, I thought that I could help Rena-chan with that stuff and have her go instead.'
- narrator "But the Sonozaki sisters already had it planned out. The three were invited to go, but Rena-chan couldn't make it. And since having that leftover space would be wasteful, I was asked to go in her place."
- narrator 'I was also given the option to turn down the offer if it was a bother. In that situation, the sisters told me they would just go on their own.'
+ narrator 'At first, I thought I would be asked to help Rena-chan with her things.'
+ narrator "But the Sonozaki sisters had no such intentions. The three were invited to go, but Rena-chan couldn't make it. And since having that leftover space would be wasteful, I was asked to go in her place."
+ narrator 'I was also given the option to turn down the offer if it was a bother. In that case, the sisters told me they would just go on their own.'
  narrator "Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there."
  stop music fadeout 2.0
  show black_cover as fade with Dissolve(1.0)
  scene black_cover
- narrator 'So, just like that, I suddenly accepted the trip to Rokkenjima for three days and two nights. ...We were absolutely going to have lots of fun this time.'
- narrator 'But that might have... gotten jinxed at some point...'
+ narrator 'So, just like that, I accepted the trip to Rokkenjima for three days and two nights. ...We were absolutely going to have lots of fun this time.'
+ narrator 'But I might have... gotten jinxed at some point...'
  play audio 'audio/sfx/SE_5053_wind.wav'
  narrator 'It was probably because of {i}that{/i}. When we were heading to Niijima by ferry... the sky started looking weird.'
  narrator "It has to be that unpleasant woman's... Erika Furudo's fault."
@@ -201,7 +201,7 @@ label event01_30_00:
  hide mion_v002
  with Dissolve(0.2)
  narrator '"Detective Wanyan" is a very popular mystery anime.'
- narrator "The movie in particular is really high quality, so much that it's regarded as a masterpiece among their most recent works... is what Mion-san was stressing to me."
+ narrator "The movie in particular is really high quality, so much that it's regarded as a masterpiece among their most recent works... or at least that's what Mion-san was stressing to me."
  show shion_v002 smile at mei_left
  show mion_v002 smile_close at mei_right
  with Dissolve(0.5)
@@ -266,7 +266,7 @@ label event01_30_00:
  with Dissolve(0.2)
  narrator 'At that moment, I saw it clearly. As the child ran past, the girl stuck out her foot and tripped him.'
  play audio 'audio/sfx/SE_5013_down.wav'
- narrator "The child's momentum... made them fall face-first onto the deck with a bang."
+ narrator "The child's momentum... made him fall face-first onto the deck with a bang."
  narrator 'Rather than from the pain, the surprise from the fall made him start bawling a bit after...'
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
@@ -310,7 +310,7 @@ label event01_30_00:
  nao '...So, is the issue whether or not it was done {i}on purpose{/i}...?'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika "<Good>. This extent of the topic does exist, but I'm glad we got the rest out of the way quickly."
+ erika "<Good>. This is the extent of what there is to discuss, so I'm glad we got the rest out of the way quickly."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -390,7 +390,7 @@ label event01_30_00:
  nao 'Huh?! You... you think you can excuse yourself like this?!'
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
- erika 'Allow me to rephrase. On a witnessing level, do you think you can prove whether it was {i}on purpose{/i} or not?'
+ erika 'Allow me to rephrase. As a witness, do you think you can prove whether it was {i}on purpose{/i} or not?'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -569,7 +569,7 @@ label event01_30_00:
  erika "It obviously is a disappointment. If it weren't for my master's orders, no one would go out of their way to Beatrice's party all the way on that island."
  show erika_v001 sinken_close at active
  show dlanor_v001 normal at inactive
- erika "Yeah, it is a disappointment. It's boring. Originally, I was supposed to be the welcoming guest for that witch."
+ erika "Yeah, it is a disappointment. It's boring. Originally, I was supposed to be the one welcomed as a guest by that witch."
  show dlanor_v001 normal_close at active
  show erika_v001 sinken_close at inactive
  dlanor 'Do not worry, ERIKA.'

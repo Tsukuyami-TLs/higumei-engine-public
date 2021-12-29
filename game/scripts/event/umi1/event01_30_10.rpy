@@ -161,9 +161,9 @@ label event01_30_10:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao "Shannon-san should have also been aware that Mion-san's group was doing cosplay photo ops."
+ nao "Shannon-san should have also been aware that Mion-san's group was doing a cosplay photo shoot."
  show nao_v002 normal at active
- nao "And so, as she entered the room to fix the window lock... just as she saw in the movie, the handsome criminal's magic circle sheets were sitting there."
+ nao "And so, as she entered the room to fix the window lock... just as she saw in the movie, the sheets with the handsome criminal's magic circle were sitting there."
  hide nao_v002
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -254,7 +254,7 @@ label event01_30_10:
  show beatrice_v001 futeki at jump_transform,active
  beatrice 'Nao, Erika!! You two have successfully cured me of my boredom.'
  show beatrice_v001 smile at active
- beatrice 'As a reward for Erika for sending me this delightful present, allow me to give you this handwritten letter I put together stating what a wonderful messenger you were, addressed to Lady Bernkastel.'
+ beatrice 'As a reward to Erika for sending me this delightful present, allow me to give you this handwritten letter I put together stating what a wonderful messenger you were, addressed to Lady Bernkastel.'
  show beatrice_v001 smile at active
  beatrice "What's more, in the postscript, I recommended Detective Wanyan to her as well, stating how amusing I find it!"
  show black_cover as fade with Dissolve(0.3333333333333333)
@@ -297,7 +297,7 @@ label event01_30_10:
  nao '...My intention was to embroider while relaxing in the rose garden, though. It became the {i}worst{/i} possible vacation ever.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao 'But... I might have also enjoyed it a little bit... probably.'
+ nao 'But... I might have also enjoyed it a little bit... maybe.'
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
  beatrice 'Dawn will arrive soon. We will part then.'
@@ -406,7 +406,7 @@ label event01_30_10:
  with Dissolve(0.2)
  narrator "Even if you turn a doorknob, when it's locked, there's no way it would open."
  narrator 'Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.'
- narrator "...That's why I honestly didn't expect the door to open."
+ narrator "...That's why I didn't actually expect the door to open."
  narrator 'It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.'
  narrator "Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......"
  show nao_v002 fuan at mei_center
@@ -647,7 +647,7 @@ label event01_30_10:
  shion 'Ah-, maybe enjoying the movie is actually impossible without finishing the manga first, is that what you mean?'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "Finishing the whole series is brutal as I thought! Shouldn't she start off on volume 68?"
+ mion "Finishing the whole series is as brutal as one would expect! Shouldn't she start off on volume 68?"
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -775,10 +775,10 @@ label event01_30_10:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal_close at inactive
- nao "Let's continue, Erika-san. ...Did you really watch it?"
+ nao "Let's continue, Erika-san. ...Did you really see it?"
  show erika_v001 smile at active
  show nao_v002 normal at inactive
- erika "Eh? What? Of course I watched all of Wanyan's broadcast...."
+ erika "Eh? What? Of course I saw all of Wanyan's broadcast...."
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active

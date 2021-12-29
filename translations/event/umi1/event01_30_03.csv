@@ -4,14 +4,14 @@ index,chara,jp,en,,
 定、かなり眠ってしまっていたようだ。","I thought I could just close my eyes for 10 minutes, and sure enough, I fell asleep.",,
 31,,"　魅音さんと詩音さんも眠っていたが、あたしがもぞもぞと起き上
 がる気配で目が覚めたようだった。","Mion-san and Shion-san are asleep too, but I woke up from feeling like I was tossing and turning.",,
-34,Nao (Casual),……いっけない。さすがに寝すぎたかも。……かも。,"...Oh gosh. As expected, I probably overslept... I guess.",,
+34,Nao (Casual),……いっけない。さすがに寝すぎたかも。……かも。,"...Oh gosh. As expected, I probably overslept... maybe.",I guess -> maybe (for nao),
 40,Mion (Casual),"ふぁ～～あぁ！　よっく寝たぁ。おじさん、元気チャージ
 １２０％！",Ha~aah! I slept goood! This ol' man's charged up 120%!,,
 42,詩音 (Casual),今、何時ですか？　え、もう午後６時過ぎなんですか。,"What time is it right now? Huh, it's already after 6:00?",,
 44,Mion (Casual),雨も止んでるね。これは明日は、最高の撮影日和になるよ！,That rain is coming down too. Tomorrow's gonna be big picturesque!,,
 48,Nao (Casual),……窓の鍵。直ったんですか？,...The window lock. Did you manage to fix it?,,
 50,Mion (Casual),ん？　えへへ～………。,Hm? Ehehe~...,,
-54,詩音 (Casual),無理でした。後で使用人さんに謝って下さい。,It was impossible. Please apologize to the servant later.,,
+54,詩音 (Casual),無理でした。後で使用人さんに謝って下さい。,It was impossible. Please apologize to a servant later.,,
 57,Mion (Casual),はあい……。,Okayy...,,
 60,,その時、部屋に置かれた内線電話が鳴った。,"At that moment, the house phone in the room rang.",,
 64,Nao (Casual),あ、えっと、はい、もしもしっ。,"Ah, umm, yes, hello?",,
@@ -178,7 +178,7 @@ index,chara,jp,en,,
 358,Mion (Casual),"みんなでやろうよ！　私、詩音、ヱリカさんに朱志香さん。菜央
 ちゃんも紗音さんも一緒にやろうよ！","Let's get everyone to play! Me, Shion, Erika-san and Jessica-san. Nao-chan and Shannon-san can jump in too!",,
 361,紗音,"お気持ちだけ頂戴させていただきます。お屋敷の方で、まだお仕事
-がありますので……。",The feeling alone is enough for me. I have yet to do all my chores in the mansion...,,
+がありますので……。",The sentiment alone is enough for me. I have yet to do all my chores in the mansion...,feeling -> sentiment,
 363,紗音,それでは、本日は失礼させていただきます……。,I'll take my leave for today...,,Chapter5 D98
 366,,紗音さんはペコリと会釈してから踵を返そうとする。,Shannon-san went off with a slight bow out of consideration.,,
 370,Nao (Casual),魅音さん。窓の鍵の話、しました？,Mion-san. Did you have the conversation with her... about the window lock?,,
@@ -224,7 +224,7 @@ index,chara,jp,en,,
 と助かります。","There's a trick in using it. From tomorrow forward, we would appreciate if you handled it with care.",,
 467,詩音 (Casual),ですってよ、お姉？　反省して下さいな。,"Did you hear that, Sis? Now reflect on your actions.",,
 470,Mion (Casual),"お、おじさんはね、力の強いお客のつもりで、モニターでやったん
-だからね！　ホントだからね！！",Th-this ol' man only wanted to survey it from the point of view of a strong visitor! Really!!,,
+だからね！　ホントだからね！！",Th-this ol' man only wanted to test it from the point of view of a strong visitor! Really!!,,
 476,紗音,ふふ。それでは失礼致します。,"*giggle*. Okay, I'll take my leave now.",,
 478,朱志香,"ありがとな、紗音！　私がこっちで遊んでること、親には内緒
 な……！","Thanks, Shannon! Don't let the adults know that I'm playing over here...!",,

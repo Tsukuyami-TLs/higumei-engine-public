@@ -211,9 +211,9 @@ index,chara,jp,en,,
 506,ドラノール,……ハイ。お待たせしマシタ。応じられマス。,...YES. Sorry for the WAIT. I shall repeat IT.,,
 512,ドラノール,"#ff0000２枚のシーツに描かれた魔法陣は、それぞれ違う製作者によるもの#r
 #ff0000デス。#r",{umi_red}The two magic circles were drawn onto two separate sheets by different PEOPLE.{/umi_red},,
-516,ヱリカ,その上でＣＯします。,Do a C.O. as well.,,
+516,ヱリカ,その上でＣＯします。,I will do a C.O. as well.,,
 521,Nao (Casual),ＣＯって？,C.O.?,,
-523,ドラノール,カミングアウト。自分しか知り得ない情報の開示、告白デス。,"""Coming OUT"".  The disclosure of information that only you aren't aware of, or a CONFESSION.",know -> aren't aware of,
+523,ドラノール,カミングアウト。自分しか知り得ない情報の開示、告白デス。,"""Coming OUT"".  The disclosure of information that others aren't aware of, or a CONFESSION.",know -> aren't aware of,
 528,ヱリカ,第一の魔法陣の製作者は、私、古戸ヱリカです。,"That first magic circle was drawn by me, Erika-san.",,
 534,Nao (Casual),ほら、やっぱりあなたが犯人だったじゃない！！,"See, so you really were the culprit after all!!",,
 536,ヱリカ,"まぁまぁ。ただの悪戯じゃないですか。それに、今回のゲーム以外

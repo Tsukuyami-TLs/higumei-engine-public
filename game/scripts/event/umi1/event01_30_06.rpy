@@ -16,7 +16,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao "Even if you falsely accuse Shannon-san as a cover up, it's over for you. Erika-san, you're the culprit of that prank."
+ nao "Even if try to frame Shannon-san, it's over for you. Erika-san, you're the culprit of that prank."
  show erika_v001 normal at active
  show nao_v002 normal at inactive
  erika "That feels good, doesn't it?"
@@ -25,7 +25,7 @@ label event01_30_06:
  nao 'Excuse me?'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika '"You\'re the culprit." ...The moment you get to speak those words is the ultimate highest peak of pleasure for a detective!'
+ erika '"You\'re the culprit." ...The moment you get to speak those words is the ultimate pleasure for a detective!'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
  erika "Of course, the culprit won't give in to that phrase so easily."
@@ -244,7 +244,7 @@ label event01_30_06:
  jessica "N-, nonono, we, Kanon-kun and I aren't actually toge-..."
  show jessica_v001 smile_blush at active
  show shion_v008 smile at inactive
- jessica "I, I'm, oh, look, it's lunch time!"
+ jessica "I-I-I'm, oh, look, it's lunch time!"
  play audio 'audio/sfx/SE_332_ls_fall.wav'
  show jessica_v001 smile_blush
  show jessica_v001 smile_blush:
@@ -522,7 +522,7 @@ label event01_30_06:
  jessica "Th-then, I'll head out for now...!"
  show nao_v002 smile at nod_transform,active
  show jessica_v001 smile at inactive
- nao 'Thank you very much for that. Nothing really happened, so please do not worry.'
+ nao "Thank you very much for that. Nothing really happened, so please don't worry."
  stop music fadeout 2.0
  hide nao_v002
  hide jessica_v001
@@ -669,7 +669,7 @@ label event01_30_06:
  nao '...Eh......?'
  show erika_v001 fuan at chara_shake_transform,active
  show nao_v002 fuan at inactive
- erika 'Ughhhhh. Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during dessert.'
+ erika '*Sigh* Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during dessert.'
  show erika_v001 fuan at active
  show nao_v002 fuan at inactive
  erika "Since I wasn't directly conspiring with someone, I must have been getting someone involved indirectly. You really thought you could weasel yourself through the red truth like that... huuuuh?!"

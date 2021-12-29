@@ -171,7 +171,7 @@ label event01_30_04:
  with Dissolve(0.2)
  narrator '...Where am I? When did I even end up in this place?'
  narrator 'To make matters worse, the witch from the portrait mocking me like this. Not a chance. Inconceivable.'
- narrator 'Whether she\'s there or not is something for me to settle from here on out. Does Beatrice "exist, or does she not?'
+ narrator 'Whether she\'s there or not is something for me to settle from here on out. Does Beatrice "exist", or does she not?'
  narrator 'I pointed at the witch as if I was piercing her, and yelled with all of my strength.'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
@@ -413,7 +413,7 @@ label event01_30_04:
  dlanor "In the witch's game, the objective is to deny the existence of the WITCH."
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'Even if it is nonsense, if you hypothesize a crime that is possible with human hands, that will end in your WIN.'
+ dlanor 'Even if it is nonsense, if you hypothesize a crime that is possible with human hands, that will end in your VICTORY.'
  show nao_v002 smile at active
  show dlanor_v001 normal at inactive
  nao 'Understood. ...Okay. Since any kind of argument is fine, it is possible that a human did it, somehow.'
@@ -814,7 +814,7 @@ label event01_30_04:
  beatrice 'The outcome of this witch game offers nothing for my side.'
  show beatrice_v001 futeki at active
  show nao_v002 normal at inactive
- beatrice 'Win or lose, the human side has an upper hand. ...*cackle*cackle*cackle*cackle*!'
+ beatrice 'Win or lose, the human side has the upper hand. ...*cackle*cackle*cackle*cackle*!'
  show nao_v002 normal_close at active
  show beatrice_v001 futeki at inactive
  nao "...This is bad. Shannon-san wasn't involved when she entered, and on top of that, absolutely no one else even went up to the second floor."
@@ -848,7 +848,7 @@ label event01_30_04:
  show dlanor_v001 odoroki at mei_center
  with Dissolve(0.5)
  show dlanor_v001 odoroki at active
- dlanor 'How SURPRISING. ...You are insanely GIFTED.'
+ dlanor 'How SURPRISING. ...You are incredibly GIFTED.'
  hide dlanor_v001
  with Dissolve(0.2)
  show beatrice_v001 normal_close at mei_center

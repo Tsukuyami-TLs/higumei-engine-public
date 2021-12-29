@@ -13,7 +13,7 @@ label event01_30_07:
  with Dissolve(1.0)
  narrator 'We returned to the guesthouse, where lunch was being served in the hall.'
  narrator 'Shion-san was going on about how high-quality the silverware was.'
- narrator 'Once you get used to the cuisine on this island, you might never want to go back... ever.'
+ narrator 'Once you get used to the cuisine on this island, you might never want to go back... maybe.'
  show mion_v015 smile at mei_right
  show shion_v008 fuan at mei_left
  with Dissolve(0.5)
@@ -84,7 +84,7 @@ label event01_30_07:
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
- narrator "...I see. Surely I wouldn't be embarrassed wearing a giant slug costume... right?"
+ narrator "...I see. Surely I wouldn't be embarrassed wearing a giant slug costume... maybe?"
  narrator 'Wait, wait, wait, do I even want to be photographed in the first place?'
  narrator "...No, I will NOT be fooling around. I'm on Team Kaneda after all..."
  window hide None
@@ -351,7 +351,7 @@ label event01_30_07:
  call wipein_routine
  narrator 'After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.'
  narrator "Finally, I had the chance to embroider to my heart's content, surrounded by the wonderful roses in the arbor."
- narrator 'The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo op that afternoon.'
+ narrator 'The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo shoot that afternoon.'
  narrator 'There were many ridiculous costumes appearing one after another... Just what kind of mystery {i}was{/i} this?'
  narrator 'I have no idea why the creator decided to make the protagonist Wanyan a giant slug... Maybe that was the real mystery.'
  show mion_v004 smile at mei_right
@@ -909,10 +909,10 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 normal at active
  show shion_v007 normal at inactive
- mion "Yeah. It's no ordinary paint, if I'm right..."
+ mion "Yeah. It's just ordinary watercolor paint, if I'm right..."
  show shion_v007 normal at active
  show mion_v008 normal at inactive
- shion "...The trick behind it is that it's transparent at first, but as time passes, the stain starts to show up more and more."
+ shion "...It's not a trick where it's transparent at first, but as time passes, the stain starts to show up more and more."
  show mion_v008 normal_close at active
  show shion_v007 normal at inactive
  mion 'As far as this crime goes... it could only have been committed immediately after opening the door.'

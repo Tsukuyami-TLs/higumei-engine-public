@@ -5,7 +5,7 @@ index,chara,jp,en,,
 36,,"　詩音さんが言うには、ここで使われている食器は、本当にいいも
 のということだった。",Shion-san was going on about how high-quality the silverware was.,"from ""how amazing the tableware was supposed to be.",
 37,,"　この島の美食に慣れてしまったら、もう島の外には戻れなくなっ
-てしまうかも。……かも。","Once you get used to the cuisine on this island, you might never want to go back... ever.","from ""you never want to go back, perhaps...I hope.",
+てしまうかも。……かも。","Once you get used to the cuisine on this island, you might never want to go back... maybe.","from ""you never want to go back, perhaps...I hope.",ever -> maybe (for nao)
 41,詩音 (ビキニアーマー),"早く着替えてきましょ。さすがにこの格好でランチはしたくないで
 す。",Let's get changed quickly. I don't want to be eating lunch like this.,,
 43,Mion (ウェディング),そーおー？　おじさんは全然、気にしないけどなぁ。,"Reaaally? This ol' man doesn't mind at all, though.","from ""Is that so? Well, this ol' man doesn't mind.",
@@ -26,7 +26,7 @@ index,chara,jp,en,,
 主役！","It's fiiine, it's {i}fiiine{/i}, there's no need to be embarrassed! After all, you can be the star!",edited daijoubus,
 83,詩音 (Casual),ジャーン！　ワニャンの着ぐるみですよ～！,Ta-da! It's a Wanyan costume~!,,
 86,,"　……なるほど。巨大ナメクジの中の人ならば、恥ずかしくもな
-い、……かも？",...I see. Surely I wouldn't be embarrassed wearing a giant slug costume... right?,,
+い、……かも？",...I see. Surely I wouldn't be embarrassed wearing a giant slug costume... maybe?,,I guess -> maybe (for nao)
 87,,"　いやいやいや、それじゃそもそも、あたしが写る意味がないよう
 な……。","Wait, wait, wait, do I even want to be photographed in the first place?",changed order / no x3 -> wait x3,
 88,,"　……いやいや、浮気はダメだわ。あたしはカネダ少年派なんだか
@@ -108,7 +108,7 @@ index,chara,jp,en,,
 最高の薔薇に囲まれた東屋で、心穏やかに刺繍に没頭するという、
 当初の目的を達成するのだった……。","Finally, I had the chance to embroider to my heart's content, surrounded by the wonderful roses in the arbor.",,
 278,,"　園崎姉妹は、午後は「名探偵ワニャン」のコスプレ撮影を堪能し
-ているようだった。",The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo op that afternoon.,,
+ているようだった。",The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo shoot that afternoon.,,
 279,,"　……それにしても、あんなにもおかしな衣装が次々と登場するの
 だが、一体、どういうミステリーなのだろう……。",There were many ridiculous costumes appearing one after another... Just what kind of mystery {i}was{/i} this?,,
 280,,"　そもそも作者は、どうして主人公のワニャンを、巨大ナメクジと
@@ -274,9 +274,9 @@ index,chara,jp,en,,
 650,詩音 (バスタオル),犯行は、施錠してから開けるまで、ってことになりますね？,"The crime was committed between the time the door was locked and the time it was opened, right?",,
 655,Nao (Casual),"……あたしのシーツに描かれた魔法陣と同じで、絵の具で描かれて
 いるようです。","...It looks just like the magic circle that was on my sheets, and it uses the same paint.",,
-660,Mion (バスタオル),うん。普通の水彩絵の具、だねぇ……。,"Yeah. It's no ordinary paint, if I'm right...",,
+660,Mion (バスタオル),うん。普通の水彩絵の具、だねぇ……。,"Yeah. It's just ordinary watercolor paint, if I'm right...",,
 662,詩音 (バスタオル),"……最初は透明で、時間の経過で浮き上がってくるような手品染み
-たものじゃない。","...The trick behind it is that it's transparent at first, but as time passes, the stain starts to show up more and more.",check,"from ""...From the start, this wasn't the kind of magic trick that becomes obvious as time goes on."
+たものじゃない。","...It's not a trick where it's transparent at first, but as time passes, the stain starts to show up more and more.",check,"from ""...From the start, this wasn't the kind of magic trick that becomes obvious as time goes on."
 664,Mion (バスタオル),となると、……犯行は、鍵を開けた直後しか考えられない。,As far as this crime goes... it could only have been committed immediately after opening the door.,"from ""It's impossible, but",
 669,Nao (Casual),……え………？,...Huh......?,,
 674,詩音 (バスタオル),…………ヱリカさん。正直に答えて下さいね。,"...Erika-san. Please give us an honest answer, okay?",,

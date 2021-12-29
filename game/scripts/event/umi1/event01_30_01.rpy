@@ -92,7 +92,7 @@ label event01_30_01:
  shion 'Anyways, Erika! Which Detective Wanyan case is your favorite episode?'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "A strange turn of fate, isn't it? All of our friends on the island are Detective Wanyan fans!"
+ mion "A strange turn of fate, isn't it? All of our friends going to the island are Detective Wanyan fans!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -130,7 +130,7 @@ label event01_30_01:
  mion "Ah! There?! Wow! It's really an island!!"
  show shion_v002 fuan at active
  show mion_v002 odoroki at inactive
- shion "...Sis, please calm down. Everyone's going to think you're a hick seeing the ocean for the first time."
+ shion "...Sis, please calm down. Everyone's going to think you're a country bumpkin seeing the ocean for the first time."
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -195,7 +195,7 @@ label event01_30_01:
  shion "An isolated island with a mysterious Western mansion... I think it'd be popular if you put it that way."
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "We're not just survey guests this time, we're resort consultants too!"
+ shion "We're not just trial guests this time, we're resort consultants too!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -260,7 +260,7 @@ label event01_30_01:
  hide jessica_v001
  with Dissolve(0.2)
  narrator "The Ushiromiya family's daughter and servants had gone out of their way to wait for us at the dock."
- narrator 'I feel sorry about disparaging the island with talk of witches and evil spirits just before being welcomed onto it.'
+ narrator 'I feel sorry for disparaging the island with talk of witches and evil spirits just before being welcomed onto it.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Now then, allow me to take care of your luggage.'
  show shion_v002 smile at mei_left
  show mion_v002 smile at mei_right
@@ -312,7 +312,7 @@ label event01_30_01:
  erika "I don't have any luggage for you to carry."
  show shannon_v001 smile_close at active
  show erika_v001 normal at inactive
- shannon 'Do excuse me. I will now take everyone to the guest house where you will be staying.'
+ shannon 'Do excuse me. I will now take everyone to the guesthouse where you will be staying.'
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)

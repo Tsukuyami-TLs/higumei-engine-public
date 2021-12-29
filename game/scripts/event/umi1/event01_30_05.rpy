@@ -706,7 +706,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 fuan_close at inactive
- erika "Ah, Nao-chama. ...Would you like to sit here too? It's great here."
+ erika "Ah, Nao-chama. ...Would you like to sit here too? It's wonderful here."
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)

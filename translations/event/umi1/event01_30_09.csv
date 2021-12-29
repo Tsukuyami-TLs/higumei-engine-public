@@ -89,10 +89,10 @@ index,chara,jp,en,,3 lines remaining,
 207,,"　言われた通りにすると、ペンライトの灯りが消えた。
 　変わって、薄っすらと青紫色の弱い光が放たれる。","As I did as I was told, the penlight's light went out, and was replaced by a faint blue-purple glow.",,,
 211,Nao (Casual),これは………。,This is...,,,
-213,Mion (バスタオル),ブラックライト、……だね？,A black light... right?,,,
+213,Mion (バスタオル),ブラックライト、……だね？,A blacklight... right?,,,
 221,詩音 (バスタオル),……ちょ、痛い……。もう少し優しく握って下さいっ。,"...Hey, that hurts... Can you please grip me a little more gently?",,,
 223,ヱリカ,"菜央ちゃま。そのブラックライトで、私の手の平を照らしてくれま
-すか？","Nao-chama, can you please shine that black light on my palms?",,,
+すか？","Nao-chama, can you please shine that blacklight on my palms?",,,
 228,Nao (Casual),こうですか？　…………あッ、,Like this? ......Ah.,,,
 233,詩音 (バスタオル),"……チッ。……あんた、こんな道具を旅先に持ち歩いてんです
 か……。","...Tch. ...You've been carrying that around since before you came here, haven't you...?",,,
@@ -100,7 +100,7 @@ index,chara,jp,en,,3 lines remaining,
 ます。","That's because I'm a detective. Even when I'm on vacation, I will at the very least bring a detective's kit with me.",,,
 240,Mion (バスタオル),……蛍光塗料……か……。,...Fluorescent... paint...,,,
 242,,"　ブラックライトに弱々しく照らされたヱリカさんの手の平
-は……、薄い黄緑色に、光っていた……。",I shined the black light on Erika-san's palms... and thin streaks of yellowish-green glimmered in the light...,,,
+は……、薄い黄緑色に、光っていた……。",I shined the blacklight on Erika-san's palms... and thin streaks of yellowish-green glimmered in the light...,,,
 246,ヱリカ,これを、今朝、この部屋のドアノブに塗らせていただきました。,I painted this room's doorknob this morning.,,,
 248,ヱリカ,"特殊な配合で、丸一日は、ドアノブに触れた人全員の手に付着しま
 す。",This paint is specially formulated to stick to the hands of whoever touches the doorknob for the whole day.,,,
@@ -112,7 +112,7 @@ index,chara,jp,en,,3 lines remaining,
 257,詩音 (バスタオル),"……上等じゃないですか。つまり、いくらシャワーを浴びていよう
 と、私の手にはまだその蛍光塗料が残ってるって訳ですよね？","...Isn't that wonderful? In other words, this means that no matter how many showers I take, I will still have that fluorescent paint on my hands?",,excellent -> wonderful,
 259,ヱリカ,"そういうことです。今から、ブラックライトで、貴女の手の平を拝
-見します。","Exactly. Now, I'm going to look at your palms under the black light.",,,
+見します。","Exactly. Now, I'm going to look at your palms under the blacklight.",,,
 261,ヱリカ,"ですが……、探偵の情けです。致命的な証拠を突きつけられる屈辱
 よりは、紳士的に自ら負けを認める機会を与えましょう。","However... I'll give you mercy as a detective. Rather than disgracing you by confronting you with lethal evidence, I'll give you the chance for a gentleman's loss and admit defeat yourself. ",wording could be better.,"from ""as a detective's mercy,",
 263,詩音 (バスタオル),"……貴女の探偵ごっこがどういうものかは知りませんが。……もし
@@ -152,7 +152,7 @@ index,chara,jp,en,,3 lines remaining,
 352,ヱリカ,青き真実！,Blue truth!,,,
 356,ヱリカ,"#4169e1園崎詩音は、手袋を使ってドアノブに触れた！　だから蛍光塗料が#r
 #4169e1手の平に付着しないのは当然のこと！！#r","{umi_blue}Shion Sonozaki used a glove when she touched the doorknob! Naturally, this means the fluorescent paint wasn't able to get on her palms!{/umi_blue}",,,
-363,ドラノール,……有効デス。,...VALID.,,,
+363,ドラノール,……有効デス。,...EFFECTIVE.,,,
 371,ヱリカ,ね？！　塗料が付かないように部屋に入るのは可能なんです！！,See?! It's possible for somebody to open the door to the room without getting my fluorescent paint on them!,,,
 373,ヱリカ,詩音さん、貴女は本当に悪い人ですねぇ……！！！,"Shion-san, you truly are a despicable woman...!!!",,,
 376,ヱリカ,人の部屋に侵入する際に、そこまでの用心が出来るなんてッ。プロ！！　職業的泥棒ッ！！　シューペリアルエクストリーム犯罪者ああぁああぁあぁッ！！,I can't believe you'd be this cautious when breaking into somebody's room. You're a professional!! A career criminal!!!! <A superior extreme feloooooooooooon!!!!!!>,"erika is being really uh. extra with her description. 'pro, professional thief, <superior extreme> criminal' is what she's saying.",believe,
@@ -170,7 +170,7 @@ index,chara,jp,en,,3 lines remaining,
 410,Nao (Casual),えっと、ＣＯします。,"Um, I'd like to come out with some information.",,,
 418,ヱリカ,はあ……ッ？！？！,Huh...?!,,,
 420,ヱリカ,"ただのいけ好かない、負けず嫌い以外に何の取り柄もセンスもない
-お子ちゃまが、何をＣＯするってんですッ？！？！","What could a detestable, tasteless child who has no redeeming factors other than being afraid to lose {i}POSSIBLY{/i} come out with now?!?!",,"from ""Why is a normal, detestable, tasteless brat whose only good point is being stubborn coming out with information!?!?!?",
+お子ちゃまが、何をＣＯするってんですッ？！？！","What could a detestable, tasteless child who has no redeeming factors other than hating to lose {i}POSSIBLY{/i} come out with now?!?!",,"from ""Why is a normal, detestable, tasteless brat whose only good point is being stubborn coming out with information!?!?!?",being afraid -> hating
 428,ベアトリーチェ,菜央よ。一体、何を告白するというのか……？,"Nao, what on earth could you be confessing to doing...?",,are you -> could you be,
 430,Nao (Casual),"あたしは鳳谷菜央。……普通の人間のつもりですが、……実は、
 言っても誰も信じてくれない不思議な経験をしてきました。","I am Nao Houtani. ...I consider myself a normal human... but the truth is, I've had strange experiences that nobody would believe were real if I were to mention them.",,tell -> mention,
@@ -204,7 +204,7 @@ index,chara,jp,en,,3 lines remaining,
 てが、他人に覗き見されているという居心地の悪さだ。","The uncomfortable feeling was as though everything I had ever experienced in my life, my thoughts, my feelings, my emotions, and everything else, was all being watched by another person.",unsure on wording.,"from ""That uncomfortable feeling was everything I'd ever expirienced in my life, my thoughts, my feelings, and my emotions, being watched by a stranger.",
 486,ドラノール,……菜央。ありがとうございマス。終わりマシタ。,...NAO. Thank you very MUCH. I am FINISHED.,,,
 488,ベアトリーチェ,それで……。ドラノールの判定は……。,And with that... Dlanor's verdict is...,,,
-490,ドラノール,有効デス。,VALID.,,,
+490,ドラノール,有効デス。,EFFECTIVE.,,,
 495,ドラノール,"#ff0000……鳳谷菜央が、人ならざる存在との接触や交流を経て来た#r
 #ff0000事実を、確認しマシタ。#r",{umi_red}Nao Houtani has been confirmed to have made contact and interacted with inhuman BEINGS.{/umi_red},,,
 503,ヱリカ,"あ、あんた……ッ、何者なんですかッ！！　フェリーでたまたま出
@@ -236,7 +236,7 @@ index,chara,jp,en,,3 lines remaining,
 576,Nao (Casual),御心配なく。ちゃんと、その上であたしも勝ちますので。,"Don't worry. I'm going to win, too.",,,
 578,Nao (Casual),ドラノールさん。青き真実は有効ですか？,"Dlanor-san, is my blue truth effective?",,,
 582,ドラノール,"有効デス。………ヱリカは、赤き真実か、それに相当する反論か証
-拠の提出が必要デス。","It is VALID. ...In return, Erika must submit either a red truth, equivalent evidence, or a REBUTTAL.",,,
+拠の提出が必要デス。","It is EFFECTIVE. ...In return, Erika must submit either a red truth, equivalent evidence, or a REBUTTAL.",,,
 586,ヱリカ,…………………ぇよ……。,...............ay...,,no -> ay,
 588,ドラノール,……聞こえませんデシタ。もう一度お願いしマス。,...I did not hear THAT. Please repeat YOURSELF.,,,
 597,ヱリカ,"ねぇよ……、ねぇよねぇよ全然ねぇよおッ。詩音が絶対絶対に犯人

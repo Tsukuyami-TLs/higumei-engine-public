@@ -1,11 +1,11 @@
 event01_30_06.bytes,,roux,Lloro - QC/TL,Naegles - QC2
 index,chara,jp,en,notes
 32,Nao (Casual),"紗音さんに濡れ衣を被せようとしてもダメです。あの悪戯の犯人は
-あなたです。ヱリカさん。","Even if you falsely accuse Shannon-san as a cover up, it's over for you. Erika-san, you're the culprit of that prank.",
+あなたです。ヱリカさん。","Even if try to frame Shannon-san, it's over for you. Erika-san, you're the culprit of that prank.",
 34,ヱリカ,それ、気持ちいいでしょう？,"That feels good, doesn't it?",
 36,Nao (Casual),はい？,Excuse me?,
 38,ヱリカ,"“犯人は、あなたです”。……その言葉を口にする瞬間こそが、探
-偵の悦楽の究極にして最高峰！","""You're the culprit."" ...The moment you get to speak those words is the ultimate highest peak of pleasure for a detective!",
+偵の悦楽の究極にして最高峰！","""You're the culprit."" ...The moment you get to speak those words is the ultimate pleasure for a detective!",
 40,ヱリカ,もちろん、犯人がその言葉で簡単に屈することはありません。,"Of course, the culprit won't give in to that phrase so easily.",
 42,ヱリカ,"それこそ、窮鼠猫を噛むの勢いで反論してくるでしょう。しかし、
 それを崩すのがまたいい！","As a cornered rat will bite a cat, the culprit will also surely object with all their might. However, I'll enjoy destroying it again!",*japanese proverb. the last sentence might be referring to events of previous chapters? not sure what she means
@@ -89,7 +89,7 @@ index,chara,jp,en,notes
 189,詩音 (ビキニアーマー),"そういう動機、大歓迎ですよぉ？　美は、見てくれる人のことを想
 って養うものですから♪","A motive like that is highly welcome here! With beauty, the thought of that one person looking at you feeds into your confidence!♪",
 191,朱志香,い、いやいやっ、べ、別に嘉音くんはそういう関係じゃ……、,"N-, nonono, we, Kanon-kun and I aren't actually toge-...",
-193,朱志香,わわ私、そろそろお昼の時間か聞いてくるぜ！,"I, I'm, oh, look, it's lunch time!",
+193,朱志香,わわ私、そろそろお昼の時間か聞いてくるぜ！,"I-I-I'm, oh, look, it's lunch time!",
 199,,"　照れ隠しだと露骨にわかる仕草で、朱志香さんは踵を返して走り
 出す。","While clearly trying to hide her embarrassment, Jessica-san turned away and tried to run off.",
 200,,"　まだ１１時くらいだ。昼食を気にするにはさすがに少し早過ぎ
@@ -219,7 +219,7 @@ index,chara,jp,en,notes
 ないのだ。",Shannon-san simply carried out her orders as she was told.,
 390,朱志香,じゃ、じゃあ、私はこれで失礼するぜ……！,"Th-then, I'll head out for now...!",
 393,Nao (Casual),"ありがとうございました。本当に何でもないので、気にしないで下
-さいね。","Thank you very much for that. Nothing really happened, so please do not worry.",
+さいね。","Thank you very much for that. Nothing really happened, so please don't worry.",
 397,,"　朱志香さんが立ち去るのを見届け、振り返ると、
 東屋のヱリカさんと目が合う……。","After making sure Jessica-san was gone, I turned around... and made eye contact with Erika-san by the arbor...",
 404,ヱリカ,…………ふふん。,............*giggle*.,
@@ -273,7 +273,7 @@ index,chara,jp,en,notes
 #ff0000しをした事実はありません。#r","{umi_red}Through another person or by any other means possible, it is in no way true that Shannon-san was involved behind the scenes.{/umi_red}",
 494,Nao (Casual),………え………。,...Eh......?,
 497,ヱリカ,"はぁぁぁ。残念無念、期待外れの的外れ。……ほらね？　デザート
-にしておけばよかったんです。","Ughhhhh. Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during dessert.",
+にしておけばよかったんです。","*Sigh* Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during dessert.",Ughhh -> Sigh
 499,ヱリカ,"直接示し合わせていないなら、誰かを挟んで間接的に示し合わせれ
 ばいい、これで赤き真実の間隙を縫った！って、……思ったんで
 しょお……？","Since I wasn't directly conspiring with someone, I must have been getting someone involved indirectly. You really thought you could weasel yourself through the red truth like that... huuuuh?!",

@@ -275,7 +275,7 @@ label event01_30_09:
  nao 'This is...'
  show mion_v008 normal at active
  show nao_v002 normal at inactive
- mion 'A black light... right?'
+ mion 'A blacklight... right?'
  hide mion_v008
  hide nao_v002
  with Dissolve(0.2)
@@ -288,7 +288,7 @@ label event01_30_09:
  shion '...Hey, that hurts... Can you please grip me a little more gently?'
  show erika_v001 normal at active
  show shion_v007 fuan at inactive
- erika 'Nao-chama, can you please shine that black light on my palms?'
+ erika 'Nao-chama, can you please shine that blacklight on my palms?'
  hide erika_v001
  hide shion_v007
  with Dissolve(0.2)
@@ -316,7 +316,7 @@ label event01_30_09:
  mion '...Fluorescent... paint...'
  hide mion_v008
  with Dissolve(0.2)
- narrator "I shined the black light on Erika-san's palms... and thin streaks of yellowish-green glimmered in the light..."
+ narrator "I shined the blacklight on Erika-san's palms... and thin streaks of yellowish-green glimmered in the light..."
  show shion_v007 sinken at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -342,7 +342,7 @@ label event01_30_09:
  shion "...Isn't that wonderful? In other words, this means that no matter how many showers I take, I will still have that fluorescent paint on my hands?"
  show erika_v001 normal at active
  show shion_v007 sinken at inactive
- erika "Exactly. Now, I'm going to look at your palms under the black light."
+ erika "Exactly. Now, I'm going to look at your palms under the blacklight."
  show erika_v001 normal at active
  show shion_v007 sinken at inactive
  erika "However... I'll give you mercy as a detective. Rather than disgracing you by confronting you with lethal evidence, I'll give you the chance for a gentleman's loss and admit defeat yourself. "
@@ -503,7 +503,7 @@ label event01_30_09:
  show dlanor_v001 normal_close at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
- dlanor '...VALID.'
+ dlanor '...EFFECTIVE.'
  window hide None
  show black_cover as fade with Dissolve(1.0)
  hide dlanor_v001
@@ -584,7 +584,7 @@ label event01_30_09:
  show erika_v001 odoroki at active
  erika 'Huh...?!'
  show erika_v001 sinken at active
- erika 'What could a detestable, tasteless child who has no redeeming factors other than being afraid to lose {i}POSSIBLY{/i} come out with now?!?!'
+ erika 'What could a detestable, tasteless child who has no redeeming factors other than hating to lose {i}POSSIBLY{/i} come out with now?!?!'
  show black_cover as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -688,7 +688,7 @@ label event01_30_09:
  beatrice "And with that... Dlanor's verdict is..."
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor 'VALID.'
+ dlanor 'EFFECTIVE.'
  show red_cover as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade with Dissolve(0.16666666666666666)
@@ -838,7 +838,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
- dlanor 'It is VALID. ...In return, Erika must submit either a red truth, equivalent evidence, or a REBUTTAL.'
+ dlanor 'It is EFFECTIVE. ...In return, Erika must submit either a red truth, equivalent evidence, or a REBUTTAL.'
  hide nao_v002
  show erika_v001 sinken_close at mei_left
  with Dissolve(0.5)

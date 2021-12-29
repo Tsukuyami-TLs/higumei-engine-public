@@ -79,7 +79,7 @@ label event01_30_99:
  hide shion_v002
  with Dissolve(0.2)
  narrator "For a long time, I was confused as to why Shannon-san wasn't bothered by the magic circle."
- narrator 'But... Mion-san instantly understood. She knew that Shannon was also a deeply engrossed fan of Detective Wanyan.'
+ narrator 'But... Mion-san instantly understood. She knew that Shannon was also deep into the Wanyan swamp.'
  narrator 'Mion remembered the question Erika had asked Shannon after she returned from fixing the lock on the window upstairs.'
  show black_cover as fade with Dissolve(1.0)
  stop sound
@@ -100,10 +100,10 @@ label event01_30_99:
  hide erika_v001
  with Dissolve(0.2)
  narrator 'Mion thought that felt out of place.'
- narrator "It sounded like a sarcastic remark from Erika-san... but if it was meant to be that way, she's saying that to the wrong person."
+ narrator "It sounded like a sarcastic remark from Erika-san... but it only sounded that way if you weren't in the know."
  narrator 'Why did she ask if something happened in the room?'
  narrator 'Mion-san instantly understood. Erika-san knew that Shannon-san was a Wanyanner.'
- narrator 'I heard about it myself after dinner that night when she confessed to me that she was a Wanyanner.'
+ narrator 'I heard about it myself after dinner that night when she came out to me as a Wanyanner.'
  narrator 'So, I wanted to confirm with her that it was indeed the magic circle from the film.'
  show black_cover as fade with Dissolve(1.0)
  camera at reset_shader
@@ -264,11 +264,11 @@ label event01_30_99:
  erika "Today's her day off. It can't be helped. Do give her my regards, for we are comrades under the giant slug!"
  show kanon_v001 normal at active
  show erika_v001 normal at inactive
- kanon '...Um, I think that quote was ..."The truth is always twofold."'
+ kanon '...Um, I think that quote was ..."There are always two truths."'
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 smile at active
  show kanon_v001 normal at inactive
- erika 'The truth is always twofold! Do you read it too?'
+ erika 'There are always two truths! Do you read it too?'
  hide erika_v001
  hide kanon_v001
  with Dissolve(0.2)
@@ -277,7 +277,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show jessica_v001 fuan_blush at active
  show nao_v002 smile at inactive
- jessica 'I... uh, might also like to do a cosplay photoshoot next time.'
+ jessica 'I... uh, might also like to do a cosplay photo shoot next time.'
  show jessica_v001 smile_blush at jump_transform,active
  show nao_v002 smile at inactive
  jessica "You know, when that time comes, why don't we do it together, Nao-chan? I'm sure it won't be as embarrassing if we go together."

@@ -707,7 +707,7 @@ label event01_30_08:
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika 'Do a C.O. as well.'
+ erika 'I will do a C.O. as well.'
  hide erika_v001
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_right
@@ -718,7 +718,7 @@ label event01_30_08:
  nao 'C.O.?'
  show dlanor_v001 normal at active
  show nao_v002 fuan at inactive
- dlanor '"Coming OUT".  The disclosure of information that only you aren\'t aware of, or a CONFESSION.'
+ dlanor '"Coming OUT".  The disclosure of information that others aren\'t aware of, or a CONFESSION.'
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
