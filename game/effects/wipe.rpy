@@ -105,6 +105,7 @@ label wipein_routine:
 
 image chend_cover = Solid(Color('#000'), xalign=0.5, yalign=0.5, xzoom=2.0, yzoom=2.0)
 label chapter_end:
+    window hide None 
     camera:
         parallel:
             linear 1.0 zoom 1.0
