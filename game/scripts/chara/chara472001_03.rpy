@@ -7,8 +7,8 @@ label chara472001_03:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_103.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v001 sinken at mei_center
  with Dissolve(0.5)
@@ -45,15 +45,15 @@ label chara472001_03:
  show kazuho_v001 fuan at inactive
  nao 'I feel like I was having a super fun dream.'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide kazuho_v001
  hide nao_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2190.png' as bg
  pause 1.0
  play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
- show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 normal_close at mei_right
  show dlanor_v001 normal at mei_left
@@ -111,12 +111,12 @@ label chara472001_03:
  dlanor 'Those leftover COOKIES, may I take them back with ME?'
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2180.png' as bg
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  camera:
   parallel:
@@ -124,25 +124,25 @@ label chara472001_03:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- show expression 'images/bg/AdvBg_2180.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at active
  erika "Uuuuuuu, for there to have been TWO people in Hinamizawa that turned out not to be my master; it can't be...!"
  show erika_v001 odoroki_close at chara_shake_transform,active
  erika "Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at mei_right
  show dlanor_v001 normal at mei_left

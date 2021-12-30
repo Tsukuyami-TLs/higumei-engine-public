@@ -7,8 +7,8 @@ label chara452001_03:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_591.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'Several days later...'
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
@@ -26,12 +26,14 @@ label chara452001_03:
  show nao_v002 fuan_close at active
  nao "...It appears I'll just have to be patient. Well then, back to the house--"
  stop music fadeout 0.5
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2211.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
+ show nao_v002 odoroki at active
  nao 'Huh?'
+ show nao_v002 odoroki at active
  nao 'This place...! So that means...?'
  hide nao_v002
  with Dissolve(0.2)
@@ -106,24 +108,24 @@ label chara452001_03:
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
  beatrice '...Hah, preparations are being made now.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_515_tableware.wav'
  show nao_v002 odoroki at jump_transform,active
  nao "Wow... that's amazing...! In a single instant, teacups and tea cakes appeared on the table...?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.5)
@@ -170,13 +172,13 @@ label chara452001_03:
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
  beatrice 'I would like to ask you something.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/card/Card_452001.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  beatrice 'Previously, you said you were on the brink of despair, but were able to find hope after crossing over to that "world".'
  beatrice "However, as a result of that, you've experienced an even greater level of tragedy... Perhaps at this point, the only way forward is straight into hell."
@@ -184,10 +186,10 @@ label chara452001_03:
  nao "...Yeah, I have to keep going. After coming this far, I can't quit halfway through."
  nao 'Besides... whichever "different" result that I come upon, by continuing to the end, there is a possibility I can reach one where things went well.'
  nao 'I will not disregard the existence of that "possibility"... I can\'t ever despair.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2211.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 normal at mei_left
  show nao_v002 smile at mei_right
@@ -245,19 +247,19 @@ label chara452001_03:
  nao 'Yeah... huh, ah... wah!'
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_1161.png' as bg
  camera:
   parallel:
    linear 0.5 pos (960, 540)
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- show expression 'images/bg/AdvBg_1161.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show miyuki_v002 sinken at mei_center
  with Dissolve(0.5)
@@ -265,12 +267,12 @@ label chara452001_03:
  pause 0.0
  show miyuki_v002 sinken at active
  miyuki '...Uh...... Nao. Hey, Nao!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide miyuki_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show nao_v002 odoroki at mei_center
@@ -339,14 +341,14 @@ label chara452001_03:
  nao "I'll brew you some. Please pardon the lack of sweets."
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2190.png' as bg
  pause 1.0
  play music 'audio/bgm/BGM_QUEST9_COLLAB2.ogg'
- show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_center
  with Dissolve(0.5)

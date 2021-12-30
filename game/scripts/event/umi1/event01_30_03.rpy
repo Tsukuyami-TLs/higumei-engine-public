@@ -7,9 +7,9 @@ label event01_30_03:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2281.png' as bg
+ play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'I thought I could just close my eyes for 10 minutes, and sure enough, I fell asleep.'
  play audio 'audio/sfx/SE_5037_getup.wav'
@@ -88,12 +88,12 @@ label event01_30_03:
  show nao_v002 normal at active
  nao '.....................'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'Even though I tried so hard to forget... I was reminded of the ghost story about the witch again. But since I just had that nap, my face relaxed a bit.'
  narrator "Having a dinner I could boast about, I'll be charged up to 120%% too, and starting tomorrow, my mood might even improve on its own."
@@ -127,13 +127,13 @@ label event01_30_03:
  show nao_v002 smile at inactive
  mion 'As expected, meals decide everything, huh?!'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide mion_v002
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2331.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show shannon_v001 smile at mei_center
  with Dissolve(0.5)
@@ -192,23 +192,23 @@ label event01_30_03:
  narrator "After getting pleasantly stuffed from all that food, I got the strange feeling that I had done my best today, even though I haven't done much at all lately."
  narrator 'Of course, "Detective Wanyan" was on TV. The cast on the show has multiplied since the last time I watched it.'
  narrator 'Speaking of which, why are the police in this show just letting an elementary schooler and that big slug stand there on the scene of a murder incident??'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show mion_v002 sinken at active
  mion 'Nonononono! They should have held back on thaat! They revealed the culprit way too faaast!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -382,22 +382,22 @@ label event01_30_03:
  play audio 'audio/sfx/SE_5029_slap_back.wav'
  pause 0.5
  play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide shannon_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show jessica_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show jessica_v001 smile at active
  jessica 'Good eveniing~~!! Guess who came to mess around~~!!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide jessica_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator 'Jessica had appeared in good spirits, holding something.'
  narrator 'To Jessica, us coming here on vacation is probably more like friends coming to sleep over.'
@@ -724,25 +724,25 @@ label event01_30_03:
  show shion_v002 fuan at active
  show erika_v001 normal at inactive
  shion "The game hasn't reached a result, and we haven't even gotten to enjoy the process. Won't we end it here for today?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide shion_v002
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show mion_v002 sinken at active
  mion "Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to just end it?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show jessica_v001 smile at mei_right
  show nao_v002 fuan_close at mei_left
@@ -759,10 +759,10 @@ label event01_30_03:
  narrator 'Since Mion-san would have destroyed all of us ingame had it continued past that point, we called it here and went on our ways.'
  narrator 'Besides, having a punishment game enforced on everyone second place and below was too much... Even for a kid from Hinamizawa... {i}that{/i}... was a little...'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'Jessica-san returned to the mansion. The rest of us dragged ourselves up to the second floor.'
  show erika_v001 normal at mei_right
@@ -854,29 +854,29 @@ label event01_30_03:
  play audio 'audio/sfx/SE_526_door_open.wav'
  narrator 'Erika-san directed a sarcastic laugh at me while disappearing into her room.'
  narrator 'Mion-san, finally remembering which pocket she had left the key in, picked it out and opened the door.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  mion "Who's gonna shower after me?"
  shion 'Nao-san can go after, right?'
  nao "I'd be happy to, but I want to give myself a proper bath."
  play audio 'audio/sfx/SE_5004_lightoff.wav'
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'I hit the light switch. Without breaking the Western-style house feel, the lights revealed some disturbing evidence.'
  window hide None
- scene black_cover as bg
- show black_cover as fade with Dissolve(1.0)
+ show black_cover as bg
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2320.png' as bg
+ play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(2.0)
  pause 1.0
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)

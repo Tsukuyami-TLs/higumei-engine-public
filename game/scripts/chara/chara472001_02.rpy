@@ -7,9 +7,9 @@ label chara472001_02:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v001 normal at mei_right
  show dlanor_v001 normal at mei_left
@@ -20,13 +20,13 @@ label chara472001_02:
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
  nao 'Commandments...?'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v001
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/card/Card_472001.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  dlanor 'YES. Knox\'s 1st: "It is forbidden for the culprit to be anyone not mentioned in the early part of the STORY."'
  dlanor 'Knox\'s 2nd: "It is forbidden for supernatural agencies to be used as a detective TECHNIQUE."'
@@ -40,10 +40,10 @@ label chara472001_02:
  nao 'I see. 10 rules make up the Ten Commandments... wait, what happened to number 5?'
  dlanor 'It is OMITTED. As such, please refrain from referencing IT.'
  nao 'I sort of wanted to hear why it is omitted... but I understand.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v001 normal_close at mei_right
  show beatrice_v001 normal at mei_left

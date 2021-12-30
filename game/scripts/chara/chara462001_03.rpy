@@ -7,32 +7,32 @@ label chara462001_03:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_262.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  pause 1.0
  call wipeout_routine
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_782.png' as bg
+ play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  call wipein_routine
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at active
  erika "I'm so... tired..."
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_161.png' as bg
  camera at sepia_shader
  pause 0.0
- show expression 'images/bg/AdvBg_161.png' as bg
  show satoko_v002 sinken at mei_left
  show rika_v002 fuan at mei_right
+ with Dissolve(0.5)
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show rika_v002 fuan at active
  show satoko_v002 sinken at inactive
@@ -59,11 +59,11 @@ label chara462001_03:
  show kazuho_v002 fuan at active
  kazuho '...does she know the word "kindness"?'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide kazuho_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_782.png' as bg
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -72,7 +72,7 @@ label chara462001_03:
  pause 0.5
  camera at reset_shader
  pause 0.0
- show expression 'images/bg/AdvBg_782.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
@@ -129,23 +129,23 @@ label chara462001_03:
  hide erika_v001
  with Dissolve(0.2)
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") '............'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 sinken at active
  erika 'Hold on, Rika Furude!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") '............?'
  show erika_v001 sinken at mei_center
@@ -173,28 +173,28 @@ label chara462001_03:
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Repaying evil for good, hm? Isn't that a nice hobby."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika "Eh, ah... huh? No, it couldn't be...?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ erika "Eh, ah... huh? N-No, it couldn't be...?!"
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Do you know the type of idiot that would picnic out at a place where bears could come out? You're exactly the same... *giggle*giggle*."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Do you know the type of idiot that would picnic out in a place where bears could come out? You're exactly the same... *giggle*giggle*."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika 'Y-you... n-no... thou, thine highest is...!'
+ erika 'Y-You... n-no... thou, thine highest is...!'
  hide erika_v001
  with Dissolve(0.2)
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you..."
@@ -207,12 +207,12 @@ label chara462001_03:
  erika 'Ah, aaah, ah... thine highness is my... master...?'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct......... *giggle*. Well, isn't it game over for you?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct...... *giggle*. Well, isn't it game over for you?"
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform,reset_shader
@@ -221,11 +221,11 @@ label chara462001_03:
  erika 'Ah, aaah... ah, aaaaAAAAAAAH?!?!!?!??!'
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2190.png' as bg
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -233,14 +233,14 @@ label chara462001_03:
    linear 0.5 zoom 1.0
  pause 0.5
  play music 'audio/bgm/BGM_QUEST11_COLLAB2.ogg'
- show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile at active
- beatrice "Mhm, this is pretty flashy, isn't it?"
+ beatrice "Mmmm, this is pretty flashy, isn't it?"
  show beatrice_v001 smile at active
- beatrice "Nonetheless, Erika's thinking power has deteriorated from exhaustion, and does not have the power to resist on hand."
+ beatrice "Nonetheless, Erika's thinking power has deteriorated from exhaustion, and she does not have the power to resist on hand."
  show beatrice_v001 smile_close at active
  beatrice 'All things considered, she was saved by you... Dlanor.'
  show dlanor_v001 normal at mei_right

@@ -7,9 +7,9 @@ label event01_30_01:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2101.png' as bg
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'To get to Rokkenjima, we transferred onto another boat at Niijima.'
  narrator 'Unlike the ferry, it was a smaller, faster boat, so it shook considerably, but that made it thrilling and interesting.'
@@ -241,11 +241,11 @@ label event01_30_01:
  narrator 'The Sonozaki sisters, excited by the talk of the witch, seemed to be in high spirits even before reaching the island.'
  narrator "It's not like I'm afraid but...\nI'm not particularly fond of taking a vacation on an island of witches and evil spirits. "
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2251.png' as bg
+ play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show shannon_v001 smile at mei_right
  show jessica_v001 smile at mei_left
@@ -294,13 +294,13 @@ label event01_30_01:
  show shion_v002 smile at active
  show mion_v002 futeki at inactive
  shion 'One should be thoroughly prepared for this island.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2261.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'Here, there are no restrictions like tour bus times or group activities. \nEveryone can enjoy things at their own leisurely pace.'
  narrator 'I only brought a change of clothes, toiletries, a book to read, and an embroidery set, so a cutely sized trunk was enough.'
@@ -358,32 +358,32 @@ label event01_30_01:
  show jessica_v001 fuan_close at active
  show mion_v002 smile at inactive
  jessica "It's not great at all. Personally, I wish I could walk to all my friends' houses."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide jessica_v001
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show shion_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  show shion_v002 smile at updown_shake_transform,active
  shion "Sis! Nao-san! Quickly, quickly! Isn't this amazing?!?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide shion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator 'Shion-san, who was free from her luggage, reached the top of the long flight of stairs ahead of the rest of us.'
  narrator 'And so, as the scene spread out before me, I became so overcome with emotion that I almost lost myself...'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2221.png' as bg
+ play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  camera:
   parallel:
@@ -457,35 +457,35 @@ label event01_30_01:
  show shion_v002 smile at active
  show nao_v002 normal at inactive
  shion "Absolutely. In a way, it's an affront to the roses..."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide shion_v002
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  show mion_v002 smile at jump_transform,active
  mion "Shion~!! Over here!  Wouldn't it be pretty good if I took a picture from this angle?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
  erika "The Ushiromiya family doesn't get guests like her much. I'm sure Beato won't be bored."
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2271.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show jessica_v001 smile at mei_left
  show shannon_v001 smile at mei_right
@@ -548,13 +548,13 @@ label event01_30_01:
  hide erika_v001
  with Dissolve(0.2)
  narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. \nI'll give it to Mion."
- show black_cover as fade with Dissolve(1.0)
- scene black_cover
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
+ show black_cover as bg
  play audio 'audio/sfx/SE_5013_down.wav'
  narrator 'We went up to the second floor, entered our rooms, and set down our bags.'
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator "Our room is a three-person room with three beds. \nErika-san's room next to ours is the same, although she's the only one using it."
  show shion_v002 smile at mei_right
@@ -571,11 +571,11 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator 'More than luxurious, the room was calm, and had a sense of refined, quiet beauty.'
  narrator 'It was built right after the war, so some of the facilities are clearly aging, but that gives it an antique taste.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_592_Is_plastic.wav'
@@ -584,12 +584,12 @@ label event01_30_01:
  play audio 'audio/sfx/SE_526_door_open.wav'
  show mion_v002 smile at jump_transform,active
  mion "I wonder what the view from the window is like! Ohh, you can feel the sea breeze!! Look, look, Shion!! It's an ocean vieeeewwww!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_left
  show shion_v002 fuan at mei_right
@@ -661,12 +661,12 @@ label event01_30_01:
  shion 'Sis, you really are an idiot. If you just told him that there were two rooms and called him over,'
  show shion_v002 smile at active
  shion "and it turned out there was only one room when we arrived, he'd have no choice but to stay in the same room! Wouldn't that have been nice?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide shion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
@@ -675,12 +675,12 @@ label event01_30_01:
  mion "Aaaaaaaaaargghhh!! I should've done that!! "
  show mion_v002 fuan at active
  mion 'Shion! Go back right now and switch with Kei-chan!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_left
  show shion_v002 smile at mei_right
@@ -692,60 +692,60 @@ label event01_30_01:
  show shion_v002 smile at inactive
  nao "I-If you did that and he turned it down, I wouldn't know how to respond..."
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2371.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_5007_keyroll.wav'
  narrator 'We left our bags and locked the room.'
  narrator 'Erika-san had also just come out and locked her room.'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2291.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_5049_cup.wav'
  narrator 'When we went downstairs, Gohda-san was setting out some drinks to welcome us.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Welcome, everyone. Please enjoy these beverages.'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'I would like to present the refreshing taste of the end of autumn, to you who have travelled so far to arrive here...'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  show mion_v002 smile at chara_shake_transform,active
  mion "Hwaa~!! This is great! I'd like a refill!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_333_ls_ppuringtea.wav'
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Of course, here you are... Speaking of the fruits of autumn--'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  show mion_v002 smile at chara_shake_transform,active
  mion 'Hwaa~!! This really is the stuff! I drank it all in one gulp!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show shion_v002 fuan at mei_left
  show erika_v001 normal_close at mei_right
@@ -783,11 +783,11 @@ label event01_30_01:
  narrator 'After the refreshments and a little break, Jessica arrived to come get us.'
  narrator "First, we'll go greet the family members that will be taking care of us these next few days.\nThen after that, we'll be shown around the Western-style mansion built right after the war."
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2221.png' as bg
+ play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show jessica_v001 smile at mei_right
  show nao_v002 smile at mei_left
@@ -850,14 +850,14 @@ label event01_30_01:
  show erika_v001 normal at inactive
  nao '...Witch......?'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2301.png' as bg
+ play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'The masters of the house, Krauss Ushiromiya-san and Natsuhi-san, came to greet us.'
  narrator 'Krauss-san was a wealthy looking, well-dressed gentleman. \nHis wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.'
@@ -924,12 +924,12 @@ label event01_30_01:
  show jessica_v001 fuan_close at active
  jessica 'I-I know, mom...'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide jessica_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2161.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'With that, we were shown around the house.'
  narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here and other such indiscreet topics.  '
@@ -946,14 +946,14 @@ label event01_30_01:
  mion 'Who is... this person...'
  stop music fadeout 2.0
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2311.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  camera:
   parallel:
@@ -1022,11 +1022,11 @@ label event01_30_01:
  show nao_v002 normal at active
  show erika_v001 normal_close at inactive
  nao 'The Golden... Witch...'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- scene black_cover
+ show black_cover as bg
  narrator 'That was the first meeting between me and the witch.'
  narrator 'However, this first meeting was preferable to what came next.\nBecause she was still in the portrait......'
  window hide None

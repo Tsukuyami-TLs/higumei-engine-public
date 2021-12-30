@@ -7,9 +7,9 @@ label chara462001_01:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2220.png' as bg
+ play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
@@ -47,7 +47,7 @@ label chara462001_01:
  hide erika_v001
  with Dissolve(0.2)
  Character('????',ctc="ctcArrow", ctc_position="fixed") "Is that so? If that's the case, then I do wonder if it would have been better if you had waited it out instead... have you thought of that?"
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'Once another piece wins, we get off on the wrong track. Your habit of being so conceited as a piece of mine is so pitiful I have to laugh.'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'Once another piece wins, we get off on the wrong track. Your habit of being so conceited as a piece of mine is so pitiful, I have to laugh.'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
@@ -71,13 +71,13 @@ label chara462001_01:
  hide erika_v001
  with Dissolve(0.2)
  Character('????',ctc="ctcArrow", ctc_position="fixed") 'There is no need for explanation. Loss even so, I thought it was ever so entertaining to have seen, although...'
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'I never could have expected you to be a competent mirror of me anyway... *giggle*.'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") '...I never could have expected you to be a competent mirror of me anyway... *giggle*.'
  Character('????',ctc="ctcArrow", ctc_position="fixed") "In any case, I'll have to properly reward you for dragging your master's face through the mud, right...?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
@@ -87,11 +87,11 @@ label chara462001_01:
  erika '... ngyappabrigigeraan, gohaheegagagaaaaa?!!'
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2190.png' as bg
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -99,7 +99,7 @@ label chara462001_01:
    linear 0.5 zoom 1.0
  pause 0.5
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
- show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 sinken at mei_left
  with Dissolve(0.5)
@@ -154,13 +154,13 @@ label chara462001_01:
  show dlanor_v001 fuan at active
  show erika_v001 futeki at inactive
  dlanor '...Why is Erika so boastful of this FACT?'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/card/Card_462001.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  erika 'ANYWAYS! In order to help rid my master of her displeasure, I must absolutely fight a second time!'
  erika "A few days ago was Beatrice's birthday, so I let them have their fun, but..."
@@ -168,10 +168,10 @@ label chara462001_01:
  erika 'Beatrice is securing my one-way ticket to Nao-san, and luckily, those people are in the middle of setting up arrangements for traveling there.'
  erika "If I move now, I will also have no worries of someone getting in my way. In other words, Dlanor, you're coming with me!"
  erika '*cackle*cackle*... This time for sure will be a perfect game; with me as a detective and as a Wanyanner, I will thoroughly crush her!!!'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show dlanor_v001 normal_close at mei_right
  show erika_v001 smile at mei_left
@@ -195,16 +195,16 @@ label chara462001_01:
  dlanor '...As well as this, I have a huge pile of work I should be FINISHING. I ask that the one going will be you and you ONLY.'
  show erika_v001 sinken at chara_shake_transform,active
  show dlanor_v001 fuan_close at inactive
- erika 'H... Very well! I thought that you would understand my feelings as my friend, though...!'
+ erika 'H... Very well! I thought that you would understand my feelings as a friend, though...!'
  show erika_v001 sinken at active
  show dlanor_v001 fuan_close at inactive
- erika 'Now, as for the item here, that I have been lent by my master, that will take me to where Nao-san is...'
+ erika 'Now, as for the item here that I have been lent by my master, it will take me to where Nao-san is...'
  show erika_v001 odoroki at active
  show dlanor_v001 fuan_close at inactive
  erika "Huh? Even though it was supposed to return to my own game board a while ago, it's gone...? No, I can't find it...?"
  show erika_v001 sinken at active
  show dlanor_v001 fuan_close at inactive
- erika 'I wonder if this is also the fault of the "lost child". Haah, this is so annoying... If it\'s like this, I suppose I\'ll have to go directly and summon it back to this space.'
+ erika 'I wonder if this is also the fault of the "{i}lost child{/i}". Haah, this is so annoying... If it\'s like this, I suppose I\'ll have to go directly and summon it back to this space.'
  hide erika_v001
  with Dissolve(0.6)
  show dlanor_v001 fuan at active

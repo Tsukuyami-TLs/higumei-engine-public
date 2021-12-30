@@ -7,9 +7,9 @@ label chara452001_01:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v002 fuan at mei_right
  show beatrice_v001 smile at mei_left
@@ -65,9 +65,9 @@ label chara452001_01:
  hide beatrice_v001
  with Dissolve(0.2)
  narrator '............'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  pause 1.0
- hide fade with Dissolve(1.0)
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_left
  show nao_v002 normal at mei_right
@@ -105,25 +105,25 @@ label chara452001_01:
  show nao_v002 normal at nod_transform,active
  show beatrice_v001 normal at inactive
  nao "...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. "
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice 'Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with.....shirikodama!?!'
+ beatrice 'Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with... shirikodama!?!'
  show beatrice_v001 futeki_close at active
  beatrice "I'm not anything like a kappa, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
@@ -131,24 +131,24 @@ label chara452001_01:
  nao "How can I know you won't? After all, I don't know very much about witches."
  show nao_v002 normal at active
  nao "It's entirely possible that there is a witch whose hobby is collecting shirikodama. "
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 futeki_close at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki_close at chara_shake_transform,active
  beatrice 'Heehehehehehehehehe!!! Hilarious, truly hilarious! '
  show beatrice_v001 futeki_close at active
  beatrice 'I never thought a little girl like you would say that... *giggle*giggle*, *cackle*cackle*cackle*!!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
@@ -173,7 +173,7 @@ label chara452001_01:
  beatrice "It's only natural. Like humans, witches will laugh if they are amused, and retaliate if they are being ridiculed."
  show beatrice_v001 smile_close at active
  show nao_v002 normal at inactive
- beatrice "Though, if you want me to be fearsome, then I can't help but meet that expectation... *cackle*cackle*."
+ beatrice "Although, if you want me to be fearsome, then I can't help but meet that expectation... *cackle*cackle*."
  show nao_v002 fuan at active
  show beatrice_v001 smile_close at inactive
  nao "No kidding. I still have many things I want and need to do. I apologize, but I don't want to go to hell at this age."
@@ -182,10 +182,10 @@ label chara452001_01:
  beatrice '...Hoh? And yet when you first stepped into that "World", it seemed you quickly wanted to fall into despair and die...?'
  show nao_v002 fuan_close at active
  show beatrice_v001 futeki at inactive
- nao "...You can see through all that. I'm no match for you."
+ nao "...You can see through that, even. I'm no match for you."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 fuan_close at inactive
- beatrice "*cackle*cackle*cackle*... I think it's unfortunate that we will never be able to compete on equal footing."
+ beatrice "*cackle*cackle*cackle*... I've been thinking how we'll never be able to compete on equal footing. Oh, how it's a shame, it really is too bad!"
  show beatrice_v001 smile at active
  show nao_v002 fuan_close at inactive
  beatrice 'The experience and knowledge you have is nothing compared to mine as a thousand-year-old Golden Witch.'

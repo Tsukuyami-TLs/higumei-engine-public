@@ -7,9 +7,9 @@ label event01_30_09:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_left
  show beatrice_v001 normal at mei_right
@@ -70,20 +70,20 @@ label event01_30_09:
  show beatrice_v001 futeki at inactive
  erika 'There is clear evidence that Shion-san broke into my room!'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2281.png' as bg
  hide beatrice_v001
  with Dissolve(0.3)
- show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show shion_v007 odoroki at mei_center
  with Dissolve(0.5)
@@ -195,15 +195,15 @@ label event01_30_09:
  show mion_v008 normal at inactive
  nao '...Understood.'
  play audio 'audio/sfx/SE_5004_lightoff.wav'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  hide mion_v008
  with Dissolve(0.2)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop music fadeout 2.0
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2283.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'At this time of year, it would get dark quite early in the day. Once the lights were turned off and the curtains were closed, it was pitch black.'
  narrator 'Erika-san immediately turned on the penlight.'
@@ -349,23 +349,23 @@ label event01_30_09:
  show shion_v007 normal_close at active
  show erika_v001 normal at inactive
  shion "...I don't know what's up with you playing detective... but if it involves victory and defeat..."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide shion_v007
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show mion_v008 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show mion_v008 sinken at active
  mion "...The Sonozaki sisters... defintely won't lose. ...We'll prove to you that even though it's been split between the two of us, the blood of the next head flows hot and thick through our veins!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide mion_v008
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -383,12 +383,12 @@ label event01_30_09:
  erika "Now, the time for pity is over!! Show me your palms!! I'll light them up niiiice and bright for youuuuuuuuu!!!!! Uehehehehehehehehehe!!!!"
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  pause 1.0
  stop sound
- scene black_cover
+ show expression 'images/bg/AdvBg_2190.png' as bg
  play music 'audio/bgm/BGM_BOSS1_COLLAB2.ogg'
  camera:
   parallel:
@@ -396,7 +396,7 @@ label event01_30_09:
   parallel:
    linear 0.5 zoom 1.0
  pause 0.5
- show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show dlanor_v001 normal at mei_right
  show erika_v001 odoroki at mei_left
@@ -421,27 +421,27 @@ label event01_30_09:
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
  dlanor 'I will repeat it in RED.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide dlanor_v001
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show dlanor_v001 normal at mei_center
  with Dissolve(0.08333333333333333)
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor "{umi_red}Shion Sonozaki's body does not have any fluorescent paint on IT.{/umi_red}"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide dlanor_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal at mei_right
  show erika_v001 odoroki at mei_left
@@ -476,13 +476,13 @@ label event01_30_09:
  show erika_v001 sinken at chara_shake_transform,active
  show dlanor_v001 normal at inactive
  erika "SHUUUUUUUUT THE HELLLLLL UUUUUP, YOU MURDER DOLL!!! IT'S MY TURN NOW!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide dlanor_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 sinken at active
@@ -493,24 +493,24 @@ label event01_30_09:
  hide flash with Dissolve(0.2)
  show erika_v001 sinken at active
  erika "{umi_blue}Shion Sonozaki used a glove when she touched the doorknob! Naturally, this means the fluorescent paint wasn't able to get on her palms!{/umi_blue}"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal_close at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  dlanor '...EFFECTIVE.'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 futeki at mei_center
  with Dissolve(0.5)
@@ -540,12 +540,12 @@ label event01_30_09:
  with Dissolve(0.5)
  show nao_v002 normal at active
  nao "If you're still sure that Shion-san is the culprit, I want you to show something besides that."
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
@@ -571,12 +571,12 @@ label event01_30_09:
  with Dissolve(0.5)
  show nao_v002 normal at active
  nao "Um, I'd like to come out with some information."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
@@ -585,12 +585,12 @@ label event01_30_09:
  erika 'Huh...?!'
  show erika_v001 sinken at active
  erika 'What could a detestable, tasteless child who has no redeeming factors other than hating to lose {i}POSSIBLY{/i} come out with now?!?!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_left
  show beatrice_v001 normal at mei_right
@@ -607,25 +607,25 @@ label event01_30_09:
  show beatrice_v001 odoroki at active
  show nao_v002 normal at inactive
  beatrice '...What the... are you... a Voyager witch...!?'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
  erika "There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant dumpster diveeeeeeerrrrrrr!!!!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -689,30 +689,30 @@ label event01_30_09:
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
  dlanor 'EFFECTIVE.'
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
  dlanor '{umi_red}Nao Houtani has been confirmed to have made contact and interacted with inhuman BEINGS.{/umi_red}'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
  hide dlanor_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 sinken at active
  erika 'W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...!?'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_left
  show beatrice_v001 normal at mei_right
@@ -732,13 +732,13 @@ label event01_30_09:
  show beatrice_v001 odoroki at active
  show nao_v002 normal_close at inactive
  beatrice "Y-you recognize my existence... Nao, I've never had a guest such as yourself..."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 normal at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at active
@@ -751,12 +751,12 @@ label event01_30_09:
  hide flash with Dissolve(0.2)
  show nao_v002 normal at active
  nao '{umi_blue}The suspect Shion-san is innocent.{/umi_blue}'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_left
  show erika_v001 odoroki at mei_right
@@ -801,25 +801,25 @@ label event01_30_09:
  show nao_v002 sinken at active
  show erika_v001 odoroki at inactive
  nao "{umi_blue}So therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
  erika "That's not clear at alllllllll!!! Who did it, and where did they come from!?!?!? Don't make a mockery of the blue truuuuuuuth!!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 sinken at mei_left
  show beatrice_v001 normal at mei_right
@@ -848,25 +848,25 @@ label event01_30_09:
  show dlanor_v001 normal at active
  show erika_v001 sinken_close at inactive
  dlanor '...I did not hear THAT. Please repeat YOURSELF.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide dlanor_v001
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
  erika 'No way... nowaynowaynowaaaaaaaaayy! Shion is absolutely, positively, certainly guilty... so why... so why is there no evidence...anywhere?!?!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator 'It seemed that Erika-san went all in on her gambit with the fluorescent paint on the doorknob.'
  narrator 'She had lost the card that was supposed to be her ace in the hole... and was now waiting for the count-out. '
@@ -914,7 +914,7 @@ label event01_30_09:
  show beatrice_v001 normal at inactive
  nao 'Since you just said that, I want you to look at both the first and second magic circles.'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -924,15 +924,16 @@ label event01_30_09:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
+ show beatrice_v001 sinken at mei_center
+ with Dissolve(0.5)
  camera at sepia_shader
  pause 0.0
- hide fade with Dissolve(1.0)
- show beatrice_v001 sinken at mei_center
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 sinken at active
  beatrice "...Even so, I don't understand this circle... I don't know what it's used for."
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  with Dissolve(0.2)
  camera:
@@ -943,7 +944,7 @@ label event01_30_09:
  pause 0.5
  camera at reset_shader
  pause 0.0
- hide fade with Dissolve(1.0)
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator "That itself was an explanation. Perhaps it wasn't a magic circle at all."
  narrator "That line of reasoning explains... why Shannon-san didn't see it as strange, and why Mion-san and Shion-san didn't seem to be too shocked when they saw it...!!"
@@ -1000,23 +1001,23 @@ label event01_30_09:
  show nao_v002 smile at active
  show beatrice_v001 fuan at inactive
  nao "I want you to say what I'm about to on your turn. That way, we can both be declared the victors. "
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at chara_shake_transform,active
  erika '...Nnnnnnnggghhh...... why... why do I always lose on Rokkenjimaaaaa...!!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal at mei_left
  show beatrice_v001 normal at mei_right

@@ -40,7 +40,7 @@ label wipeout_routine:
     show wipeout2 at wipeout_transform
     pause 0.11
 
-    show expression "#000" as fade
+    show expression "#000" as fade onlayer curtain
 
     hide wipeout1
     hide wipeout2
@@ -76,7 +76,7 @@ label wipein_routine:
         xanchor 1.0
         xpos 2420
 
-    hide fade
+    hide fade onlayer curtain
     show wipein4 at wipein_transform
     pause 0.03
     show wipein3 at wipein_transform
@@ -106,19 +106,13 @@ label wipein_routine:
 image chend_cover = Solid(Color('#000'), xalign=0.5, yalign=0.5, xzoom=2.0, yzoom=2.0)
 label chapter_end:
     window hide None 
-    camera:
-        parallel:
-            linear 1.0 zoom 1.0
-        parallel:
-            linear 1.0 pos (960, 540)
-    pause 1.0
     $ timeout = 2.0
     $ timepause = 1.0
     $ timein = 1.0
-    show chend_cover:
+    show chend_cover onlayer curtain as fade:
        alpha 0.0
        linear timeout alpha 1.0
-    show expression "gui/higulogo_mei.png" as logo:
+    show expression "gui/higulogo_mei.png" as logo onlayer curtain:
         alpha 0.0
         zoom 0.4
         align (1.0, 1.0)
@@ -126,8 +120,10 @@ label chapter_end:
         linear timeout alpha 1.0
 
     $ renpy.pause(timeout, hard=True)
+    camera
+    scene
     stop music fadeout 1.0
     $ renpy.pause(timepause, hard=True)
-    show expression "gui/higulogo_mei.png" as logo:
+    show expression "gui/higulogo_mei.png" as logo onlayer curtain:
         linear timein alpha 0.0
     $ renpy.pause(timein)

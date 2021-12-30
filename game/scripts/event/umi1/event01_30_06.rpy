@@ -7,9 +7,9 @@ label event01_30_06:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2341.png' as bg
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -134,9 +134,9 @@ label event01_30_06:
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
  nao "Th-, surely that's... when you think of it, you and Shannon-san are..."
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
@@ -161,24 +161,24 @@ label event01_30_06:
  show erika_v001 normal at active
  show nao_v002 fuan_close at inactive
  erika 'Nonetheless, during that whole time period, I was together playing games with you people, so I have a perfect alibi.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_510_sand_foot.wav'
  show nao_v002 sinken at chara_shake_transform,active
  nao 'I... I would like to hear that directly from Shannon-san.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
@@ -340,13 +340,13 @@ label event01_30_06:
  show nao_v002 normal at inactive
  jessica 'Hm? What?'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2221.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_530_walk_one.wav'
  narrator 'Jessica-san and I walked away from the arbor for a little.'
@@ -529,28 +529,28 @@ label event01_30_06:
  with Dissolve(0.2)
  narrator 'After making sure Jessica-san was gone, I turned around... and made eye contact with Erika-san by the arbor...'
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 normal at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at active
  erika '............*giggle*.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator 'That face probably wants to say that she eavesdropped fully on whatever I was talking about with Jessica-san.'
  narrator 'While Erika-san was having a friendly chat with Mion-san, she observed me the whole time without so much as a hint of effort.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2341.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show mion_v015 smile at mei_right
  show nao_v002 normal at mei_left
@@ -657,9 +657,9 @@ label event01_30_06:
  show nao_v002 normal at inactive
  erika '{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red}'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show nao_v002 normal at inactive

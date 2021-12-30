@@ -7,9 +7,9 @@ label chara462001_02:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_204.png' as bg
+ play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -55,12 +55,12 @@ label chara462001_02:
  show erika_v001 normal at active
  erika 'The shrine also serves as a shelter for when disasters happen, so it must be at a high altitude... Now, shall I go and confirm the result of my reasoning?'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_161.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -70,13 +70,13 @@ label chara462001_02:
  erika "Now, let us find out where that girl's location is."
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_1101.png' as bg
+ play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show kazuho_v002 smile at mei_left
  show rika_v002 smile at mei_right
@@ -173,36 +173,36 @@ label chara462001_02:
  show rika_v002 normal at active
  show satoko_v002 odoroki at inactive
  rika 'Meep... She has on like a dress or something.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide rika_v002
  hide satoko_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
  erika 'Ah, ah, ah, aaaaaaaahhhhhhhhhhhhhhhhh...!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
  show rika_v002 odoroki at active
  rika 'What?!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide rika_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
@@ -210,12 +210,12 @@ label chara462001_02:
  show erika_v001 odoroki at active
  erika 'AAAHHHHHHH---!'
  play audio 'audio/sfx/SE_408_run.wav'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show kazuho_v002 odoroki at mei_center
  with Dissolve(0.5)
@@ -238,13 +238,13 @@ label chara462001_02:
  show kazuho_v002 fuan at active
  show rika_v002 fuan at inactive
  kazuho 'But that person is sprinting over here like a missile...?!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide rika_v002
  hide kazuho_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_224_sliding.wav'
@@ -252,12 +252,12 @@ label chara462001_02:
  pause 0.0
  show erika_v001 odoroki at active
  erika 'MYYYYY MAAASTERRRRRRRRRRRRRRRRRRR!!!!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
@@ -375,13 +375,13 @@ label chara462001_02:
  show erika_v001 sinken at active
  show rika_v002 normal at inactive
  erika 'Cleaner person?'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide rika_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
@@ -394,12 +394,12 @@ label chara462001_02:
  pause 0.0
  show erika_v001 smile at active
  erika "So basically! In this meaning, it's a bonus stage?!?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show kazuho_v002 fuan at mei_left
  show satoko_v002 fuan at mei_right
@@ -434,25 +434,25 @@ label chara462001_02:
  show satoko_v002 fuan at active
  show rika_v002 fuan_close at inactive
  satoko 'And especially not nothing...'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide rika_v002
  hide satoko_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 smile at active
  erika '...Hah! *giggle*, *giggle*giggle*, I see. I get it now.'
  show erika_v001 smile at active
  erika "So, what you're saying is you literally want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show rika_v002 fuan at mei_right
  show kazuho_v002 sinken at mei_left
@@ -465,13 +465,13 @@ label chara462001_02:
  show rika_v002 fuan at active
  show kazuho_v002 sinken at inactive
  rika "...I think that's actually more dirty."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide rika_v002
  hide kazuho_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show satoko_v002 fuan at mei_center
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active

@@ -7,14 +7,14 @@ label chara472001_01:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v001 odoroki at mei_right
  with Dissolve(0.5)
  show nao_v001 odoroki at jump_transform,active
- nao 'T... this place is...!?'
+ nao 'Huh...? ...Th-this place is...?!'
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile at active

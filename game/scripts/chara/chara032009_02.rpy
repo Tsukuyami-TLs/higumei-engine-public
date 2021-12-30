@@ -7,9 +7,9 @@ label chara032009_02:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_EVENT6.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_EVENT6.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_right
  show nao_v002 odoroki at mei_left
@@ -19,7 +19,7 @@ label chara032009_02:
  nao 'Huh...?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice 'Long time no see, Nao. More than anything, you seem to be in good spirits to have returned there.'
+ beatrice 'Long time no see, Nao. You seem to be in good spirits to have returned to that spot more than anything.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
  nao "Wh-who are you... wait, I shouldn't be asking that!"
@@ -31,43 +31,43 @@ label chara032009_02:
  beatrice 'Hoh, you still remember my name?'
  show nao_v002 fuan at nod_transform,active
  show beatrice_v001 smile at inactive
- nao 'Yes. Rather, I less understand why I had forgotten your name up until now. You give off an intense personal experience even considering.'
+ nao 'Yes. Rather, I less understand why I had forgotten your name up until now. You gave me an intense experience after all.'
  show beatrice_v001 normal_close at active
  show nao_v002 fuan at inactive
- beatrice '...I see. Magic was cast on you, wiping all knowledge of you and I from your memory?'
+ beatrice '...I see. Magic was cast on you, wiping all knowledge of myself from your memory?'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 normal_close at inactive
  nao '...Huh? So then, my memory is being tampered with by someone...?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice "Don't make such a hateful face. The alterations on your memory will not do you any harm; I suppose they are steps taken to protect it instead."
+ beatrice "Don't make such a sour face. The alterations on your memory were not to harm you, but measures taken to protect you."
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice 'Since the game this time is irregular, the Game Master figured it would be good to continue to hold onto your memories relating to me.'
+ beatrice 'Since the game was irregular, the Game Master figured it would be good idea to hold onto your memories relating to me.'
  show beatrice_v001 futeki_close at active
  show nao_v002 odoroki at inactive
  beatrice 'Hmm, yes... from me inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!'
  show nao_v002 normal at active
  show beatrice_v001 futeki_close at inactive
- nao '...Ehh, I kind of wish that it had made me continue to forget about you.'
+ nao '...Ehh, I kind of wish that I continued to forget about you.'
  show nao_v002 normal_close at active
  show beatrice_v001 futeki_close at inactive
- nao "Clearly, the battle between Beatrice and Erika-san made my head spin, though... I'm different from that sort of affair."
+ nao "Certainly, the battle between Beatrice and Erika-san gave me a headache, but... it's not going to change who I am."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 normal_close at inactive
- beatrice "*cackle*cackle*cackle*... you don't have to say it. That hesitant behavior... I'm gradually growing an interest in it. "
+ beatrice "*cackle*cackle*cackle*... you don't have to say it. That hesitant attitude... I'm liking it more and more. "
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
- nao '... Anyway, what on earth could you want from me today? Could it be that another logic battle is starting up?'
+ nao '... Anyways, what on earth do you want from me today? Could it be that another logic battle is starting up?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Do not fret; such caution is unnecessary. I have invited you as my boredom has gotten slightly out of hand.'
+ beatrice 'Do not worry, as such caution is unnecessary. I have invited you as my boredom has gotten slightly out of hand.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'What I need, is something to kill time.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao 'Killing time... huh? What an incomprehensible existence witches are, calling me up to places like this just for that one reason.'
+ nao 'Killing time... huh? What an incomprehensible existence witches are, calling me to places like this just for that reason.'
  show beatrice_v001 futeki at active
  show nao_v002 fuan at inactive
  beatrice '*cackle*cackle*cackle*, a reasonable thought! Boredom to witches is a poison... you are not just important to me, you are {i}extremely{/i} valuable.'
@@ -82,31 +82,31 @@ label chara032009_02:
  beatrice 'Mhm. Up until now, I have set up numerous stages on Rokkenjima as game boards. This time will for sure be a different locked-room murder incident.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '...*cackle*cackle*cackle*. My games are entertaining. Not only do I observe my pieces, for I can even move them through the gameboard.'
+ beatrice '...*cackle*cackle*cackle*. My games are entertaining. Not only do I observe my pieces, I move them through the gameboard as well.'
  show nao_v002 odoroki at active
  show beatrice_v001 smile at inactive
  nao "Rokkenjima...? I've heard that name somewhere... ah-?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
- show nao_v002 sinaken at mei_center
+ hide fade onlayer curtain
+ show nao_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 sinken at active
  nao "That's right, I just remembered...! Around October of 1986, a mysterious explosion occurred on one of the islands in the Izu Archipelago..."
  show nao_v002 sinken at active
- nao 'The relatives of a wealthy family had gathered for a meeting on a small island where a massive amount of them lost their lives; the name of it was clearly "Rokkenjima" ... uh...'
+ nao 'The relatives of a wealthy family had gathered for a meeting on a small island where a most of them lost their lives. The name of it was certainly "Rokkenjima" ... uh...'
  show nao_v002 normal at active
- nao "...I see. That island was a certain fateful destination for them, wasn't it?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ nao "...I see. That island was a certain fateful place for them, wasn't it?"
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show beatrice_v001 smile at mei_right
  show nao_v002 normal at mei_left
@@ -125,13 +125,13 @@ label chara032009_02:
  show nao_v002 smile at inactive
  beatrice 'That is, well... look here.'
  play music 'audio/bgm/BGM_EVENT5.ogg'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_230_charge.wav'
@@ -141,12 +141,12 @@ label chara032009_02:
  show nao_v002 odoroki:
   linear 0.5 pos (960,2280)
  pause 0.5
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2201.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v014 odoroki at mei_center
  with Dissolve(0.5)
@@ -155,19 +155,19 @@ label chara032009_02:
  show nao_v014 fuan at active
  nao "I'm, I'm floating...?"
  play music 'audio/bgm/BGM_QUEST.ogg'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v014
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show beatrice_v001 smile at mei_right
  show nao_v014 fuan at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v014 fuan at inactive
- beatrice "You currently are a soldier of the Dragon King Pendragon-- as a host for the Chiester Sisters. Even flying through the sky should be as easy as twisting a baby's hand for you now."
+ beatrice 'You currently are a soldier of the Dragon King Pendragon-- as a host for the Chiester Sisters. Even flying through the sky should be as easy as taking candy from a baby for you now.'
  show nao_v014 fuan at active
  show beatrice_v001 smile at inactive
  nao '...Even Beatrice is floating normally. Just how are you flying?'
@@ -177,85 +177,127 @@ label chara032009_02:
  show nao_v014 normal at active
  show beatrice_v001 futeki at inactive
  nao 'So, witches flew even without brooms... hup!'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2220.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_232_landing.wav'
+ show nao_v014 normal at active
+ show beatrice_v001 futeki at inactive
  nao 'Alright, I landed down here in the courtyard, but what do I do from here?'
+ show beatrice_v001 normal at active
+ show nao_v014 normal at inactive
  beatrice "Now, you wait for the boat from Niijima. You are being taken to Battler Ushiromiya's location."
+ show beatrice_v001 normal at active
+ show nao_v014 normal at inactive
  beatrice "There, from that man's shoes, you can witness the events that occurred on Rokkenjima with your own eyes."
- nao 'I see. In this man "Battler\'s" viewpoint, you can mobilize him on top of the gameboard, right?'
- beatrice "That's right. Having such sharpness and frankness is key. ...Also, Nao, that uniform that you are wearing is battle furniture that has signed a contract to me."
+ show nao_v014 normal at active
+ show beatrice_v001 normal at inactive
+ nao 'I see. In this man "Battler\'s" viewpoint, you can move him on top of the gameboard, right?'
+ show beatrice_v001 smile at nod_transform,active
+ show nao_v014 normal at inactive
+ beatrice "That's right. Having such sharpness and frankness is key. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me."
+ show nao_v014 odoroki at active
+ show beatrice_v001 smile at inactive
  nao 'Huh...?'
- beatrice "If you consider that, you also become my furniture... it can be considered that way, don't you think?"
- nao "If it's said like that, it makes me want to take it off..."
- beatrice '*cackle*cackle*cackle*, I jest, I jest. Now look ahead; the game will begin from here.'
+ show beatrice_v001 smile at active
+ show nao_v014 odoroki at inactive
+ beatrice "If you think about it, that makes you my furniture... Don't you think we can thnk of it like that?"
+ show nao_v014 fuan at active
+ show beatrice_v001 smile at inactive
+ nao 'If iyou put it that way, it makes me want to take it off...'
+ show beatrice_v001 smile_close at active
+ show nao_v014 fuan at inactive
+ beatrice "*cackle*cackle*cackle* It's a joke, it's a joke. Now look ahead. The game will begin from here."
+ show nao_v014 odoroki at active
+ show beatrice_v001 smile_close at inactive
  nao 'Huh-...? Wh-, what should I do?'
+ show beatrice_v001 smile at active
+ show nao_v014 odoroki at inactive
  beatrice "Anything is fine. Whenever you're ready, step up right behind Battler."
+ show beatrice_v001 futeki at active
+ show nao_v014 odoroki at inactive
  beatrice "Enjoy the close-up seat in Battler's fight against me."
- nao "I'm not playing the game? No matter how you say it, whoever plays is really just watching him through his eyes...?"
- beatrice "This is Battler's and my game; therefore, you are not the one who can be called my competition."
- beatrice 'Still, the ones spectating, even up until now, are the Witch of Miracles and the Witch of Certainty. With a little change of plans, I still wanted to hear your thoughts.'
- nao "...If it's a game, I think me playing myself is more fun."
+ show nao_v014 fuan at active
+ show beatrice_v001 futeki at inactive
+ nao "I'm not playing the game? However you put it, aren't I just watching someone else play from behind...?"
+ show beatrice_v001 normal at nod_transform,active
+ show nao_v014 fuan at inactive
+ beatrice 'This is a game between me and Battler. Therefore, you are not the one who can be called my opponent.'
+ show beatrice_v001 normal_close at active
+ show nao_v014 fuan at inactive
+ beatrice "It's just that, the only ones who have spectated up to now are the Witch of Miracles and the Witch of Certainty. I wanted to change things up a bit and hear your thoughts."
+ show nao_v014 fuan_close at active
+ show beatrice_v001 normal_close at inactive
+ nao "...If it's a game, I think playing myself is more fun."
+ show beatrice_v001 normal at active
+ show nao_v014 fuan_close at inactive
  beatrice 'Are you unsatisfied?'
- nao "Yeah, kind of... It's just, I didn't know of any other way of playing a game than playing it yourself."
+ show nao_v014 normal at active
+ show beatrice_v001 normal at inactive
+ nao "No, not at all... It's just, I didn't know of any other way of playing a game than playing it yourself."
+ show nao_v014 smile at active
+ show beatrice_v001 normal at inactive
  nao 'But, well... right. If that type of enjoyment exists, then I will have to try it out.'
- beatrice '*cackle*cackle*cackle*... This open-minded and frank attitude is an irreplaceable element to enjoying the game. Not bad at all.'
+ show beatrice_v001 futeki at active
+ show nao_v014 smile at inactive
+ beatrice '*cackle*cackle*cackle*... This open-minded and frank attitude is an essential element to enjoying the game. Not bad at all.'
+ show nao_v014 sinken at active
+ show beatrice_v001 futeki at inactive
  nao "I'll accept those words of praise. Umm, do people normally wait for the end of the story?"
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v014
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/card/Card_032009.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  nao 'Uuum, *ahem*.'
  nao "Nao Houtani... rightfully spectating the witch Beatrice's game board."
  nao 'Please, if you would kindly begin...'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2220.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice "Hu, hahahahahahahaha... Once you hear Battler's greeting, it begins! How this is so incredibly entertaining!"
+ beatrice "Hu, hahahahahahahaha... Once you hear Battler's greeting, it begins! How incredibly entertaining this is!"
  show beatrice_v001 futeki_close at active
  beatrice 'However, you are unrefined, Nao. If you were Maria, you would be flying around with such vigor. *cackle*cackle*cackle*!'
  show beatrice_v001 smile at active
- beatrice "Oh, look, do not make such a face. The story is already beginning. At best, don't be shaken off. "
- show black_cover as fade with Dissolve(0.3333333333333333)
+ beatrice "Oh, look, don't make such a face. The story is already beginning. As much as you can, try not to get shaken off. "
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v014 fuan at mei_left
  show beatrice_v001 smile at mei_right
  with Dissolve(0.5)
  show nao_v014 fuan at active
  show beatrice_v001 smile at inactive
- nao 'Thank you, w-wait a minute. Just what will I be "shaken off" from?'
+ nao 'Thank you... w-wait a minute. Just what will I be "shaken off" from?'
  show beatrice_v001 futeki at active
  show nao_v014 fuan at inactive
  beatrice 'Of course, from my game boooard!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v014
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v014 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_611_ls_wind.wav'
@@ -263,12 +305,12 @@ label chara032009_02:
  pause 0.0
  show nao_v014 odoroki at active
  nao "I-I didn't know there was a type of vehicle like tha-... aaaaaaaaaaat?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v014
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active

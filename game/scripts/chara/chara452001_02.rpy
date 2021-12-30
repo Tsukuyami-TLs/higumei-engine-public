@@ -7,8 +7,8 @@ label chara452001_02:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v002 normal at mei_right
  show beatrice_v001 normal_close at mei_left
@@ -20,80 +20,128 @@ label chara452001_02:
  show beatrice_v001 normal_close at inactive
  nao 'Eh... ah, wait...?!!'
  play audio 'audio/sfx/SE_230_charge.wav'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  with Dissolve(0.3)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_287.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
  play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ show nao_v002 fuan at active
  nao '...This is... Okinomiya?'
+ show nao_v002 fuan at active
  nao 'Huh, what have I been doing? Or rather... why did I go to Okinomiya?'
  show rena_v002 odoroki at mei_left
  with Dissolve(0.5)
  show rena_v002 odoroki at active
+ show nao_v002 fuan at inactive
  rena '...Huh, Nao-chan?'
+ show nao_v002 smile at jump_transform,active
  show rena_v002 odoroki at inactive
  nao 'Ah, Rena-chan!'
  show rena_v002 smile at active
+ show nao_v002 smile at inactive
  rena 'Ahaha, hello. ...Are you in the middle of shopping?'
+ show nao_v002 smile at nod_transform,active
  show rena_v002 smile at inactive
  nao 'Eh? Ah, y-yeah!'
+ show nao_v002 normal_close at active
  show rena_v002 smile at inactive
  nao '(I see, I was on my way to go shopping.)'
  show rena_v002 smile at active
+ show nao_v002 normal_close at inactive
  rena 'Hau... that looks like a lot for one person to carry. Do you want me to hold some of it?'
+ show nao_v002 smile at active
  show rena_v002 smile at inactive
  nao "No, I'm fine. ...Right, I was buying things for dinner."
  show rena_v002 fuan at active
+ show nao_v002 smile at inactive
  rena "Speaking of which... I wonder why you're not with Kazuho and her friends today... today?"
+ show nao_v002 smile at active
  show rena_v002 fuan at inactive
  nao 'Kazuho is home cleaning, and Miyuki is out walking by herself.'
+ show nao_v002 smile_close at active
  show rena_v002 fuan at inactive
  nao '(...Yeah, I finally remember. So that should be right... I think.)'
  show rena_v002 fuan at active
+ show nao_v002 smile_close at inactive
  rena 'Nao-chan...?'
+ show nao_v002 smile at active
  show rena_v002 fuan at inactive
  nao 'Ah, sorry. Rena-chan, did you come to Okonomiya to do shopping?'
  show rena_v002 smile at nod_transform,active
+ show nao_v002 smile at inactive
  rena "Yup. I just finished, so now I'm on my way back. Do you want to walk back together, Nao-chan?"
+ show nao_v002 smile at active
  show rena_v002 smile at inactive
  nao 'Yes. Thank you, Rena-chan.'
  stop music fadeout 0.5
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
- pause 1.0
  show expression 'images/bg/AdvBg_1352.png' as bg
+ pause 1.0
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ show rena_v002 fuan at active
+ show nao_v002 smile at inactive
  rena "The sun is setting soon...roads can be dangerous when it's dark, so I think it's better to go together with someone else."
+ show nao_v002 smile at active
+ show rena_v002 fuan at inactive
  nao "Yeah, let's do that."
+ show rena_v002 fuan at active
+ show nao_v002 smile at inactive
  rena '...? Did something happen, Nao-chan?'
+ show nao_v002 odoroki at active
+ show rena_v002 fuan at inactive
  nao '"Wh-... what, what do you mean?"'
+ show rena_v002 fuan at active
+ show nao_v002 odoroki at inactive
  rena "Somehow, you're being more reserved than usual... I wonder if something is bothering you, bothering you?"
+ show nao_v002 fuan at active
+ show rena_v002 fuan at inactive
  nao "No, it's not really like that..."
+ show nao_v002 fuan_close at active
+ show rena_v002 fuan at inactive
  nao '...Hey, Rena-chan.'
+ show rena_v002 smile at active
+ show nao_v002 fuan_close at inactive
  rena 'What is it, Nao-chan?'
+ show nao_v002 fuan at active
+ show rena_v002 smile at inactive
  nao "Rena-chan, when you get depressed because you're reminded of something you'll never be able to do no matter how hard you try, what could somebody say to cheer you up?"
+ show rena_v002 fuan at active
+ show nao_v002 fuan at inactive
  rena "Hau, umm... I wonder, does that mean that there's somebody close to Nao-chan that has that problem, that problem?"
+ show nao_v002 fuan_close at active
+ show rena_v002 fuan at inactive
  nao '...Yes.'
+ show nao_v002 normal_close at active
+ show rena_v002 fuan at inactive
  nao "(I don't remember the name or the face, but... yes. I feel... I know somebody like that.)"
+ show rena_v002 normal at active
+ show nao_v002 normal_close at inactive
  rena "And it's not Miyuki-chan or Kazuho-chan..."
+ show nao_v002 fuan at nod_transform,active
+ show rena_v002 normal at inactive
  nao "Yes. I would know what to do if it were those two, so if that was the case, I suppose I wouldn't have been as worried."
+ show rena_v002 smile at active
+ show nao_v002 fuan at inactive
  rena 'But this is an important person to you.'
+ show nao_v002 smile at active
+ show rena_v002 smile at inactive
  nao "Important... person. That's probably true."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide rena_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 normal at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at active
@@ -102,12 +150,12 @@ label chara452001_02:
  nao 'I get the impression that they are a very sensitive, delicate person.'
  show nao_v002 fuan at active
  nao "So, because I don't know her circumstances, I'm afraid I might hurt her if I don't word things correctly, so I don't know what to say."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show rena_v002 normal_close at mei_left
  show nao_v002 fuan at mei_right

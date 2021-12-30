@@ -8,8 +8,8 @@ label event01_30_08:
   pos (960, 540)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_2331.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'That final night on Rokkenjima...'
  narrator 'I was supposed to sleep soundly with my heart and stomach full of happiness after the most wonderful dinner...'
@@ -57,35 +57,35 @@ label event01_30_08:
  show erika_v001 sinken_close at active
  show nao_v002 normal at inactive
  erika '...Hmph.'
- show black_cover as fade with Dissolve(1.0)
- scene black_cover
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
+ show black_cover as bg
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
  narrator '...At that moment, I felt my surroundings growing dim.'
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'Huh? ...Mion-san and Shion-san... disappeared as if they were a mirage the whole time.'
  narrator 'Erika-san and I remained. In place of where Mion-san and Shion-san vanished... the form of those witches from my dreams appeared...'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_610_ls_plosive.wav'
  show beatrice_v001 futeki at active
  beatrice '<Happy Birthday!!!> Congrats to me! And thank you, everyone! I truly am a lucky person!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_381_ls_gaya.wav'
  play audio 'audio/sfx/SE_525_applause.wav'
@@ -269,12 +269,12 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 sinken at active
  nao "...I'm rather competitive. Win or lose, I won't say I had fun."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -338,23 +338,23 @@ label event01_30_08:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao "We're working together?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 futeki at active
  erika 'Not quite. I believe that the culprit is Shion-san.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator 'I see. Three participants, each one claiming a different side.'
  camera at screenshake_transform
@@ -367,18 +367,17 @@ label event01_30_08:
  show dlanor_v001 normal at active
  dlanor 'For you three, I shall explain the SITUATION. ...Please listen CAREFULLY.'
  stop music fadeout 2.0
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide dlanor_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2371.png' as bg
+ play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
  call wipeout_routine
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_2281.png' as bg
  call wipein_routine
  show dlanor_v001 normal at mei_center
@@ -402,21 +401,21 @@ label event01_30_08:
  narrator 'Normally, the crime could have occurred from that point onward... but at that point it became a perfect closed room.'
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}From the point the door is locked until Erika unlocked it, the room was a perfect closed ROOM.{/umi_red}'
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}Nobody existed inside the room at that time, and nobody could have entered by any other METHOD.{/umi_red}'
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}The magic circle prank could not have been completed unless the person entered the ROOM.{/umi_red}'
@@ -430,24 +429,24 @@ label event01_30_08:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  dlanor "Now then, we shall BEGIN. Since it is Lady Beatrice's birthday, she has the privilege of going FIRST."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide dlanor_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at active
  beatrice "Well, happy birthday to me!! Let's get started, then."
  show beatrice_v001 normal at active
  beatrice "When Erika returned, she unlocked her room and entered it, so there must have been a short interval before Nao's group heard her scream."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -468,9 +467,9 @@ label event01_30_08:
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
  dlanor 'Request GRANTED.'
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
@@ -488,9 +487,9 @@ label event01_30_08:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  dlanor 'YES.'
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}After Erika entered her room, placing the magic circle through any kind of method is not DOABLE.{/umi_red}'
@@ -537,23 +536,23 @@ label event01_30_08:
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '...Thought you might say that. I would have said the same thing if I were you.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 normal at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at active
  erika "*giggle*giggle*giggle*. ...Anyway, I'm going to talk about the differences between the two magic circles seen today and yesterday."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_left
  show beatrice_v001 normal at mei_right
@@ -564,20 +563,20 @@ label event01_30_08:
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
  nao '...I thought they were the same circle though......'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2320.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  dlanor 'Over here is the first magic circle, and over there is the SECOND. Please compare THEM.'
  beatrice '...Hmm......? How are they different?'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_right
  show nao_v002 sinken at mei_left
@@ -631,12 +630,12 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  erika 'If you look closely, you can detect many other minute differences.'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide erika_v001
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2190.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show dlanor_v001 normal at mei_left
  show erika_v001 normal at mei_right
@@ -655,23 +654,23 @@ label event01_30_08:
  pause 0.1
  hide flash with Dissolve(0.2)
  narrator 'Do repeat this in red: "The two magic circles were drawn onto two separate sheets by different people."'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
  nao '.........?!?!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 normal at mei_left
  show beatrice_v001 normal at mei_right
@@ -696,9 +695,9 @@ label event01_30_08:
  show dlanor_v001 normal at active
  dlanor '...YES. Sorry for the WAIT. I shall repeat IT.'
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  dlanor '{umi_red}The two magic circles were drawn onto two separate sheets by different PEOPLE.{/umi_red}'
@@ -751,23 +750,23 @@ label event01_30_08:
  show erika_v001 normal_close at active
  show beatrice_v001 normal at inactive
  erika 'On top of that, you must present it in the form of a blue truth. ...That does it for my turn.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show beatrice_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 sinken at active
  beatrice "......That being said... I still don't understand this magic circle at all. ...Just why was it made that way?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
@@ -838,9 +837,9 @@ label event01_30_08:
   parallel:
    linear 0.5 zoom 1.3
  pause 0.5
- show red_cover as fade with Dissolve(0.16666666666666666)
+ show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
- hide fade with Dissolve(0.16666666666666666)
+ hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  erika '{umi_red}The one who created the first magic circle and placed it was Erika Furudo.{/umi_red}'
@@ -936,23 +935,23 @@ label event01_30_08:
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
  erika 'Who knows? Well, she is a novice, so we must lend her our support.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show dlanor_v001 normal_close at mei_center
  with Dissolve(0.08333333333333333)
  show dlanor_v001 normal_close at active
  dlanor '...Mm-HMM. ......I SEE.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide dlanor_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator "My face was pressed against Dlanor-san's as we spoke in hushed tones."
  narrator '...She smelled nice. This was a fragrance I had never experienced before. ...I wanted to press my nose against her hair and take it all in...'

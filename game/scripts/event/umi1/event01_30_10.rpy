@@ -7,9 +7,9 @@ label event01_30_10:
   anchor (0.5, 0.5)
   pos (960, 540)
  stop sound
- scene #000
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
  show expression 'images/bg/AdvBg_2190.png' as bg
+ play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -78,13 +78,13 @@ label event01_30_10:
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
  nao 'Is that serial killer... popular?'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
@@ -94,12 +94,12 @@ label event01_30_10:
  erika "UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion followers in real liiiiifeeeeeee!!!!"
  show erika_v001 smile at active
  erika "It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show beatrice_v001 fuan at mei_center
  with Dissolve(0.5)
@@ -199,23 +199,23 @@ label event01_30_10:
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
  nao "For that reason, the first magic circle accident was done by Erika-san's hands, aaand, um..."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 sinken_close at chara_shake_transform,active
  erika 'Yeah, yeah. I resiiiiiignnnnn... It was my faaaaulltttt...'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show erika_v001 sinken_close at mei_right
  show dlanor_v001 normal at mei_left
@@ -257,22 +257,22 @@ label event01_30_10:
  beatrice 'As a reward to Erika for sending me this delightful present, allow me to give you this handwritten letter I put together stating what a wonderful messenger you were, addressed to Lady Bernkastel.'
  show beatrice_v001 smile at active
  beatrice "What's more, in the postscript, I recommended Detective Wanyan to her as well, stating how amusing I find it!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide beatrice_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 smile at chara_shake_transform,active
  erika 'M-Miss Beatrice...!! Thank you for your wordsss!! Ha-, haaaaaahhh!!!!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at mei_left
  show dlanor_v001 normal_close at mei_right
@@ -334,31 +334,29 @@ label event01_30_10:
  nao "I'm just a little girl who loves her sister. ...Whatever happens, happens. I don't have any fears or expectations."
  hide nao_v002
  with Dissolve(0.2)
- show black_cover as fade with Dissolve(1.0)
- hide fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
+ hide fade onlayer curtain
  with Dissolve(1.0)
  narrator '...Ah. I can feel my vision... slowly darkening.'
  narrator "Morning will come, and I'll probably rise out of bed."
  narrator "...It was fun, here at Rokkenjima. Next time I come... I'll definitely be able to relax and embroider..."
  stop music fadeout 2.0
  window hide None
- show black_cover as fade with Dissolve(3.0)
+ show black_cover onlayer curtain as fade with Dissolve(3.0)
  play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
- show white_cover as fade with Dissolve(2.0)
+ show white_cover onlayer curtain as fade with Dissolve(2.0)
  stop sound
- scene white_cover
  show expression 'images/bg/AdvBg_2221.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
  call wipeout_routine
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_2271.png' as bg
  call wipein_routine
  pause 1.0
  call wipeout_routine
  stop sound
- scene #000
  show expression 'images/bg/AdvBg_2281.png' as bg
  call wipein_routine
  play audio 'audio/sfx/SE_543_bird.wav'
@@ -367,16 +365,16 @@ label event01_30_10:
  narrator "Now that I've said that, I believe Beatrice told me she had a present for me."
  narrator '"Do look forward to it upon waking up.", is what she told me, I think...'
  stop music fadeout 0.5
- scene black_cover as bg
+ show black_cover as bg
  narrator 'I should have never come to this island.'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  nao 'N... n......'
  nao 'Nooooooooooooooooo!!'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
- scene black_cover
- play audio 'audio/sfx/SE_346_ls_blood.wav'
  show expression 'images/bg/AdvBg_1270.png' as bg
+ play audio 'audio/sfx/SE_346_ls_blood.wav'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  narrator 'The poor victims... were on the bed covered in blood.'
@@ -388,15 +386,15 @@ label event01_30_10:
  narrator 'Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.'
  narrator "And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them..."
  narrator 'I wanted to ask "A-Are you okay...?". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
- show black_cover as fade with Dissolve(1.0)
- scene black_cover
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
+ show black_cover as bg
  play audio 'audio/sfx/SE_527_door_close.wav'
  narrator 'I dashed out to the next room over, frantically knocking on the door while trying at the doorknob.'
  nao 'Erika-san, Erika-san!! S-Something awful happened! H-H-Help...!!'
  stop sound
- scene black_cover
- play audio 'audio/sfx/SE_526_door_open.wav'
  show expression 'images/bg/AdvBg_2281.png' as bg
+ play audio 'audio/sfx/SE_526_door_open.wav'
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
@@ -413,12 +411,12 @@ label event01_30_10:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  nao 'Erika...san...?'
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide nao_v002
  with Dissolve(0.2)
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_1270.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_017_TragedyStart.wav'
  narrator 'It was stained... Erika-san was also on the bed... red and bloody......'
@@ -426,8 +424,8 @@ label event01_30_10:
  pause 0.0
  nao 'Noooooooooooooooooooooooooooooooo!!!!!!!!!!!'
  window hide None
- show black_cover as fade with Dissolve(2.0)
- scene black_cover
+ show black_cover onlayer curtain as fade with Dissolve(2.0)
+ show black_cover as bg
  pause 2.0
  stop music
  nao '......Erika-san, good morning.'
@@ -439,8 +437,8 @@ label event01_30_10:
  erika '.......................................'
  erika '............................................................nn--'
  stop sound
- scene black_cover
  show expression 'images/bg/AdvBg_2281.png' as bg
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v002 normal at mei_left
  show erika_v001 odoroki at mei_right
@@ -473,23 +471,23 @@ label event01_30_10:
  call wipeout_routine
  call wipein_routine
  pause 2.0
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
  pause 0.0
  show erika_v001 smile at active
  erika "Oooohhh!!! ...What a splendid recreation! This must be... if I'm correct... the movie scene at 32 minutes and 18 seconds......"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
@@ -508,23 +506,23 @@ label event01_30_10:
  erika "Yeah, that's it, the clothes being perfectly in the right form, just like that! This couldn't be done unless you allowed the character to envelop your soul!"
  show erika_v001 smile at chara_shake_transform,active
  erika 'But what ties it all together is that reactionary death face!! Truly an amazing facial expression! Just let me give you an A+!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show shion_v002 smile_blush at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  show shion_v002 smile_blush at jump_transform,active
  shion "Haaaah! That's a Wanyanner if I see one!! You judged it down to every last detail, huh?!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide shion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
@@ -583,12 +581,12 @@ label event01_30_10:
  pause 0.0
  show erika_v001 smile at active
  erika "She has iiiit!! Absolutely artful remastering of the original work!! It's perfect, even down to the scar she got from when she was thrown back!!"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
@@ -648,13 +646,13 @@ label event01_30_10:
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "Finishing the whole series is as brutal as one would expect! Shouldn't she start off on volume 68?"
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide mion_v002
  hide shion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show erika_v001 sinken at mei_center
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_341_ls_WhistleShort.wav'
@@ -664,40 +662,40 @@ label event01_30_10:
  pause 0.0
  show erika_v001 sinken at active
  erika 'Eeeeeee~! Never that, never that! Without knowing the depth surrounding the character relationships in the Wanyan universe, the entertainment level would dramatically decrease!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide erika_v001
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show shion_v002 smile at mei_center
  with Dissolve(0.5)
  show shion_v002 smile at updown_shake_transform,active
  shion 'Riiight?! Nao-san definitely needs to read through the entire thing!'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide shion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 sinken at active
  nao "Please cut that out. I'm gonna chop you guys up."
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator 'The Wanyanners were taken aback, shrieking with a little "Hee?!"'
  window hide None
- show black_cover as fade with Dissolve(1.0)
+ show black_cover onlayer curtain as fade with Dissolve(1.0)
  pause 1.0
  play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
- hide fade with Dissolve(1.0)
+ hide fade onlayer curtain
  with Dissolve(1.0)
  show mion_v002 fuan at mei_right
  show nao_v002 normal at mei_left
@@ -726,13 +724,13 @@ label event01_30_10:
  show shion_v002 fuan at active
  show nao_v002 sinken at inactive
  shion 'Taught you... what...?'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
   zoom 1.3
  hide nao_v002
  hide shion_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  show nao_v002 sinken at mei_center
  with Dissolve(0.08333333333333333)
  camera at screenshake_transform
@@ -743,12 +741,12 @@ label event01_30_10:
  pause 0.0
  show nao_v002 sinken at active
  nao 'This was an actual scene from the Wanyan movie! In teaching me that, it stopped being scary to me.'
- show black_cover as fade with Dissolve(0.3333333333333333)
+ show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
   zoom 1.0
  hide nao_v002
- hide fade with Dissolve(0.08333333333333333)
+ hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  show mion_v002 fuan at mei_right
  show shion_v002 normal at mei_left
