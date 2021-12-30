@@ -158,7 +158,6 @@ class Compiler:
             '左外': -480,
         }
 
-        self.faded = "#000"
         self.background = None
         self.cam_extras = ""
 
@@ -293,29 +292,18 @@ camera:
 
     def 背景(self, typ, line, cmd):
         bgname = line["arg0"]
-        self.shown.clear()
+        #self.shown.clear()
         if bgname == "暗幕":
-            self.background = f'scene black_cover as bg'
+            self.outlines.append(f'show black_cover as bg')
         else:
             bgname = BACKGROUND[bgname]
             bgname = f"images/{bgname}.png"
             self.outlines.append('stop sound')
-            self.background = f'scene expression {repr(bgname)} as bg'
-
-        if not self.faded:
-            self.outlines.append(self.background)
-        else:
-            self.outlines.append(f'scene {self.faded}')
-            self.background = self.background.replace('scene', 'show', 1)
+            self.outlines.append(f'show expression {repr(bgname)} as bg')
 
     def fadein(self, typ, line, cmd):
         time = int(line['arg0']) / 60
-        if self.background:
-            self.outlines.append(self.background)
-            self.background = None
-        else:
-            self.outlines.append(f'hide fade with Dissolve({time})')
-        self.faded = False
+        self.outlines.append(f'hide fade onlayer curtain')
         
         for showchara in self.to_show.values():
             showchara.transition = None
@@ -326,19 +314,16 @@ camera:
     def fadeout(self, typ, line, cmd):
         color = COLORS[line['arg0']]
         time = int(line['arg1']) / 60
-        self.faded = color
-        self.outlines.append(f'show {color} as fade with Dissolve({time})')
+        self.outlines.append(f'show {color} onlayer curtain as fade with Dissolve({time})')
 
     def wipeout(self, typ, line, cmd):
         self.outlines.append('call wipeout_routine')
-        self.faded = "#000"
 
     def wipein(self, typ, line, cmd):
         if self.background: 
             self.outlines.append(self.background.replace('scene', 'show', 1))
             self.background = None
         
-        self.faded = False
         self.output_shows()
         self.outlines.append('call wipein_routine')
 
@@ -395,7 +380,6 @@ camera:
         self.outlines.append(f'pause {int(line["arg0"])/60}')
 
     def output_shows(self):
-        if self.faded: return
         transition = None
         wait = 0
         for cid, showchara in self.to_show.items():
