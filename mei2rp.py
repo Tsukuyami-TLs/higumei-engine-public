@@ -398,6 +398,7 @@ camera:
 
     def compile_commands(self): 
         self.outlines.append('camera:\n anchor (0.5, 0.5)\n pos (960, 540)')
+        self.outlines.append('scene')
         for n, line in enumerate(self.commands): 
             typ, cmd = get_cmd(line)
             is_talk = 'arg0' not in line and 'arg1' in line
