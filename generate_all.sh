@@ -10,3 +10,4 @@ python3 mei2rp.py chara chara462001_03
 python3 mei2rp.py chara chara472001_01
 python3 mei2rp.py chara chara472001_02
 python3 mei2rp.py chara chara472001_03
+python3 compile_event.py scripts/event/umi1
