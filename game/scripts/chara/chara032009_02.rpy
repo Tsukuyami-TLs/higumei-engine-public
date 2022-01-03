@@ -6,6 +6,8 @@ label chara032009_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+ scene
+ stop music
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
  play music 'audio/bgm/BGM_EVENT6.ogg'

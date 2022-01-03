@@ -6,6 +6,8 @@ label event01_30_00:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+ scene
+ stop music
  narrator 'I should have never come to this island.'
  play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
  nao 'N... n......'

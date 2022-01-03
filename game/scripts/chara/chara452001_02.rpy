@@ -6,6 +6,8 @@ label chara452001_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+ scene
+ stop music
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
  hide fade onlayer curtain

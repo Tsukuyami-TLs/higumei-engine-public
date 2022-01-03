@@ -6,6 +6,8 @@ label event01_30_08:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+ scene
+ stop music
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  stop sound
  show expression 'images/bg/AdvBg_2331.png' as bg
