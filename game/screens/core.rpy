@@ -121,6 +121,16 @@ style button_back_text:
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 screen say(who, what):
+    #Keybinds Ingame
+    key "K_F5" action QuickSave()
+    key "K_F6" action QuickLoad()
+    key "K_b" action ShowMenu('history')
+    key "K_F9" action ShowMenu('save')
+    key "K_F10" action ShowMenu('load')
+
+
+    if event_store.current_event and event_store.current_event in event_store.notes:
+        key "K_n" action ShowMenu('tl_notes')
     style_prefix "say"
 
     window:
@@ -331,16 +341,36 @@ screen navigation():
             textbutton _("Preferences") action ShowMenu("preferences")
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 textbutton _("Help") action ShowMenu("help")
-           
+
             textbutton _("About") action ShowMenu("about")
             if renpy.variant("pc"):
                 ## The quit button is banned on iOS and unnecessary on Android and
                 ## Web.
                 textbutton _("Quit") action Quit(confirm=not main_menu)
         else:
+            #Keybinds Menu
+            if not renpy.get_screen("load"):
+                key "K_F10" action ShowMenu('load')
+            else:
+                key "K_F10" action Return()
+
+            if not renpy.get_screen("save"):
+                key "K_F9" action ShowMenu('save')
+            else:
+                key "K_F9" action Return()
+
+            if not renpy.get_screen("history"):
+                key "K_b" action ShowMenu('history')
+            else:
+                key "K_b" action Return()
+
             if event_store.current_event and event_store.current_event in event_store.notes:
+                if not renpy.get_screen("tl_notes"):
+                    key "K_n" action ShowMenu('tl_notes')
+                else:
+                    key "K_n" action Return()
                 textbutton _("Notes") action ShowMenu("tl_notes")
-            
+
             textbutton _("History") action ShowMenu("history")
             if event_store.current_event and event_store.current_event in event_store.chapters:
                 textbutton _("Chapter Jump") action ShowMenu("chapter_jump")
@@ -350,7 +380,7 @@ screen navigation():
             textbutton _("Preferences") action ShowMenu("preferences")
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 textbutton _("Help") action ShowMenu("help")
-            
+
             textbutton _("About") action ShowMenu("about")
 
 
@@ -433,7 +463,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     vbox:
         style "game_menu_exit_box"
         box_reverse True
-        
+
         if renpy.variant("pc"):
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
@@ -863,9 +893,7 @@ style slider_vbox:
 ## https://www.renpy.org/doc/html/history.html
 
 screen history():
-
     tag menu
-
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
@@ -984,20 +1012,44 @@ screen help():
 screen keyboard_help():
 
     hbox:
-        label _("Enter")
-        text _("Advances dialogue and activates the interface.")
+        label _("Escape")
+        text _("Accesses the game menu.")
 
     hbox:
-        label _("Space")
-        text _("Advances dialogue without selecting choices.")
+        label _("B")
+        text _("Opens/Closes the History.")
+
+    hbox:
+        label _("N")
+        text _("Opens/Closes TL Notes (if available).")
+
+    hbox:
+        label _("F9")
+        text _("Opens/Closes Save Menu.")
+
+    hbox:
+        label _("F10")
+        text _("Opens/Closes Load Menu.")
+
+    hbox:
+        label _("F5")
+        text _("Quick Save.")
+
+    hbox:
+        label _("F6")
+        text _("Quick Load.")
 
     hbox:
         label _("Arrow Keys")
         text _("Navigate the interface.")
 
     hbox:
-        label _("Escape")
-        text _("Accesses the game menu.")
+        label _("Enter/Space")
+        text _("Advances dialogue")
+
+    hbox:
+        label _("A")
+        text _("Activates/Deactivates Auto Mode")
 
     hbox:
         label _("Ctrl")
@@ -1008,12 +1060,8 @@ screen keyboard_help():
         text _("Toggles dialogue skipping.")
 
     hbox:
-        label _("Page Up")
-        text _("Rolls back to earlier dialogue.")
-
-    hbox:
-        label _("Page Down")
-        text _("Rolls forward to later dialogue.")
+        label _(">")
+        text _("Instant Skipping.")
 
     hbox:
         label "H"
@@ -1023,9 +1071,14 @@ screen keyboard_help():
         label "S"
         text _("Takes a screenshot.")
 
-    hbox:
-        label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+    #hbox:
+      #  label _("Page Up")
+       # text _("Rolls back to earlier dialogue.")
+
+    #hbox:
+     #   label _("Page Down")
+      #  text _("Rolls forward to later dialogue.")
+
 
 
 screen mouse_help():

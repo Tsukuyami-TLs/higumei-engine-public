@@ -11,6 +11,10 @@ init offset = -2
 init python:
     gui.init(1920, 1080)
 
+    # Keybindings
+    config.keymap['accessibility'].remove("K_a")
+    config.keymap['accessibility'].append("K_q")
+    config.keymap['toggle_afm'].append("K_a")
 
 
 ################################################################################
