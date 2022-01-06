@@ -347,7 +347,7 @@ label event01_30_09:
  erika "Exactly. Now, I'm going to look at your palms under the blacklight."
  show erika_v001 normal at active
  show shion_v007 sinken at inactive
- erika "However... I'll give you mercy as a detective. Rather than disgracing you by confronting you with lethal evidence, I'll give you the chance for a gentleman's loss and admit defeat yourself. "
+ erika "However... I'll give you my sympathy as a detective. Rather than disgracing you by confronting you with lethal evidence, I'll give you the chance for a gentleman's loss and admit defeat yourself. "
  show shion_v007 normal_close at active
  show erika_v001 normal at inactive
  shion "...I don't know what's up with you playing detective... but if it involves victory and defeat..."
@@ -777,7 +777,7 @@ label event01_30_09:
  play audio 'audio/sfx/SE_391_ls_swing.wav'
  show nao_v002 normal at active
  show erika_v001 odoroki at inactive
- nao '{umi_blue}Erika put a "Bedmaking Not Necessary" tag on her doorknob so that the servants would not enter her room.{/umi_blue}'
+ nao '{umi_blue}Erika-san put a "Bedmaking Not Necessary" tag on her doorknob so that the servants would not enter her room.{/umi_blue}'
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -964,10 +964,10 @@ label event01_30_09:
  beatrice "...This circle looks like it's gathering magical energy from outside of it, but in reality it just passes through the circle without being collected, so it doesn't look like it has any meaning in particular. "
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao "So in the eyes of the Great Witch called Lady Beatrice... the magic circle doesn't make any sense at all?"
+ nao "So, in the eyes of the Great Witch called Lady Beatrice... the magic circle doesn't make any sense at all?"
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
- beatrice 'Nope. ...This thing that appears to be a magic circle is an illegible fake.'
+ beatrice 'Not slightly. ...This thing that appears to be a magic circle is an illegible fake.'
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -984,7 +984,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
- nao "So from that conclusion, you could say... that this magic circle was child's play?"
+ nao "Then from that conclusion... you could say that this magic circle was child's play?"
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice 'Mhm.'
@@ -996,13 +996,13 @@ label event01_30_09:
  beatrice "While the spirals and overlapping circles vary, it's clear that both parties were trying to draw the same magic circle."
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
- nao "So in essence, it's possible this magic scribble was made by several people who shared some sort of common knowledge..."
+ nao "So, in essence, it's possible that this magic scribble was made by several people who had some sort of common knowledge..."
  show beatrice_v001 fuan at active
  show nao_v002 normal_close at inactive
- beatrice "...I... I don't understand what you mean. Can you simplify what you're saying...?"
+ beatrice "...I-I don't understand what you mean. Can you simplify what you're saying...?"
  show nao_v002 smile at active
  show beatrice_v001 fuan at inactive
- nao "I want you to say what I'm about to on your turn. That way, we can both be declared the victors. "
+ nao 'I want to state this on your turn. This way, we can both be declared the victors. '
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -1013,7 +1013,7 @@ label event01_30_09:
  show erika_v001 odoroki_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at chara_shake_transform,active
- erika '...Nnnnnnnggghhh...... why... why do I always lose on Rokkenjimaaaaa...!!'
+ erika '...Nnnnnnnggghhh...... why... why do I always lose on Rokkenjimaaaaa...?!?!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -1026,7 +1026,7 @@ label event01_30_09:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'Dlanor... I would like to respectfully listen to Nao. May I give my turn to her?'
+ beatrice 'Dlanor... In all honesty, I would like to attend to what Nao has to say. May I give my turn to her?'
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
  dlanor 'If that is your request, then it is FINE.'
@@ -1041,12 +1041,12 @@ label event01_30_09:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show erika_v001 odoroki_close at inactive
- nao 'Mercy as a detective, huh, Erika-san?'
+ nao 'Sympathy as a detective, huh, Erika-san?'
  show erika_v001 sinken at active
  show nao_v002 smile at inactive
- erika 'Tch. ...Iost, lost... I lost...'
+ erika 'Gh. ...I Iost, I lost, I lost...'
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
- nao 'Maybe that summoning circle...'
+ nao 'So, maybe that summoning circle...'
  call chapter_end
  call event01_30_10

@@ -62,7 +62,7 @@ label chara472001_03:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
- dlanor 'People do not exist for LAW. Law does not exist for PEOPLE.'
+ dlanor 'People do not exist for the LAW. The law exists for PEOPLE.'
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
  dlanor 'Nevertheless, there are cases borne from bad people hurting others through abusing the power of laws that protect PEOPLE.'
@@ -74,16 +74,16 @@ label chara472001_03:
  beatrice "But if Lady Dlanor and her followers hadn't continued to protect others, mystery itself as a genre would have likely crumbled apart."
  show dlanor_v001 fuan_close at active
  show beatrice_v001 normal at inactive
- dlanor 'AGREED... Although it is also true that there are people who have committed "Knox\'s Decalogue" to memory as well as its origin to keep the mystery genre in CHECK.'
+ dlanor 'AGREED... Although it is true that there are also those who think "Knox\'s Decalogue" serves to constrict the mystery GENRE.'
  show beatrice_v001 normal_close at active
  show dlanor_v001 fuan_close at inactive
- beatrice 'This is true. Since there are definite rules to mystery, this must also apply to the mystery of the lost child being displaced from her original time.'
+ beatrice 'That is true. However, since there are definite rules to mystery, the genre can continue to exist in the time of that lost child.'
  show beatrice_v001 normal at active
  show dlanor_v001 fuan_close at inactive
- beatrice 'I suppose it is a mystery that will temporarily wane, but will never completely blow out.'
+ beatrice 'I suppose it is a mystery is a genre that will temporarily wane, but will never completely blow out.'
  show beatrice_v001 smile at active
  show dlanor_v001 fuan_close at inactive
- beatrice '...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. And then perhaps once more, our union shall be realized.'
+ beatrice '...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. Perhaps then shall we reunite.'
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
  dlanor 'But then... what about Nao forgetting that she had ever been HERE?'

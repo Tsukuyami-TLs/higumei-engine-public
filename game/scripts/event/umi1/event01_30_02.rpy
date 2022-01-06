@@ -72,7 +72,7 @@ label event01_30_02:
  pause 0.0
  show shion_v002 odoroki at active
  show nao_v002 normal at inactive
- shion "Ehhh!? Don't tell me that was you testing their services just now!?"
+ shion "Ehhh!? Don't tell me that was you reviewing their services just now!?"
  show nao_v002 normal at active
  show shion_v002 odoroki at inactive
  nao "For, for sure... If they're going to make it into a resort, high profile guests might come too."
@@ -257,7 +257,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show jessica_v001 odoroki at inactive
- nao '...Hinamizawa was... just a bit too blessed with such a story.'
+ nao '...Hinamizawa was... just a bit {i}too{/i} blessed with such a story.'
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -269,10 +269,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao "...Speaking of which, Erika-san. ...Didn't you say something about the witch doing this and that?"
+ nao "...Speaking of which, Erika-san. ...Didn't you say something about a witch doing this and that?"
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika '*giggle*. ...That conversation should be had with you by someone who lives on this island, like Jessica-san.'
+ erika '*giggle*. ...You should have that conversation with someone who lives on this island, like Jessica-san.'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -281,10 +281,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 smile at inactive
- shion 'Could the witch be the lady in the portrait from earlier?'
+ shion 'Could the "witch" be the lady in the portrait from earlier?'
  show mion_v002 smile at active
  show shion_v002 normal at inactive
- mion "Oh, nice, I like that! Western-style occult mysteries really wouldn't be the same without their westernness."
+ mion 'Ahh, I like that! That really puts the "Western" in Western occult mystery, huh?'
  show mion_v002 futeki at active
  show shion_v002 normal at inactive
  mion "But that's why I shared the secret behind the name of Watanagashi, and how it links the bloodshed in the dam war to Oyashiro-sama's curse."
@@ -297,7 +297,7 @@ label event01_30_02:
  show jessica_v001 futeki at mei_left
  with Dissolve(0.5)
  show jessica_v001 futeki at active
- jessica "If you say that much, even I can't keep quiet about it. She's gonna show you the ace up her sleeve!"
+ jessica "Say that much and even I can't keep quiet about it. She's gonna show you the ace up her sleeve!"
  show kanon_v001 normal at mei_right
  with Dissolve(0.5)
  show kanon_v001 normal at active
@@ -648,7 +648,7 @@ label event01_30_02:
  show erika_v001 normal_close at active
  erika 'I am the detective. I am confident that everything in this world can be explained with reasoning.'
  show erika_v001 normal at active
- erika 'However, for this reason, sometimes... Even I may come across "something" that would be blasphemous to reason about.'
+ erika 'However, on occasion... even I may come across "something" that would be blasphemous to reason about.'
  show nao_v002 fuan at mei_left
  with Dissolve(0.5)
  show nao_v002 fuan at active
@@ -741,11 +741,11 @@ label event01_30_02:
  show erika_v001 normal_close at active
  erika "...You're right. It was when we met on the ferry. I definitely said that then."
  show erika_v001 normal at active
- erika 'However, I must have also mentioned this some time ago.'
+ erika 'Plus, I must have also mentioned this some time ago.'
  hide erika_v001
  with Dissolve(0.2)
- narrator '"However, for this reason, sometimes..."'
- narrator '"...Even I may come across "something" that would be blasphemous to reason about..." ...she said.'
+ narrator '"However, on occasion..."'
+ narrator '"...even I may come across "something" that would be blasphemous to reason about..." ...she said.'
  show nao_v002 sinken at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -836,7 +836,7 @@ label event01_30_02:
  with Dissolve(0.2)
  narrator "I'll nap a bit. And when I wake up, the freshly rained on rose garden will likely make a lovely sight from the window."
  narrator "No, on the flipside, the power could cut out unexpectedly while I'm sleeping..."
- narrator 'When the morning goes by so fast, you get sleepy and nap your precious day away... I guess I can owe that to being on vacation.'
+ narrator 'When morning goes by this fast, you get sleepy and nap your precious day away... I guess I can owe that to being on vacation.'
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
@@ -854,7 +854,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show mion_v002 fuan at inactive
- shion "They aren't breaking. They were broken... by someone."
+ shion "They aren't breaking. They {i}were{/i} broken... by someone."
  show mion_v002 fuan at active
  show shion_v002 fuan at inactive
  mion "I can still try at it... I told you there's still time before I have to apologize."
@@ -885,7 +885,7 @@ label event01_30_02:
  narrator "Even on this wonderful island, even in this wonderful guesthouse, even with such a wonderful and expansive rose garden... I'm napping."
  narrator 'Yeah. This is true vacationing. This is true luxury, maybe. Maybe.'
  narrator "With the Sonozaki sisters' busy chatting serving as a lullaby, my eyelids grew heavier."
- narrator '...The odd atmosphere from the witch ghost story seemed like a lie now. It could have all just been an absent-minded daydream...'
+ narrator '...The odd atmosphere from the witch ghost story seemed like a lie now. I wonder if it was an absent-minded daydream...'
  narrator "What I did was akin to saying I didn't believe in Oyashiro-sama while on the Furude shrine grounds. Surely, I had ruined the mood on the island."
  narrator "...And the master of the island's too... surely..."
  narrator '...........................'

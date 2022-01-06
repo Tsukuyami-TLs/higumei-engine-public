@@ -23,7 +23,7 @@ label chara462001_01:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at active
- erika '... U-um... my master? I do see that the color of your face is quite pale...'
+ erika '... U-um... my master? I do see that your face is quite pale...'
  hide erika_v001
  with Dissolve(0.2)
  Character('????',ctc="ctcArrow", ctc_position="fixed") 'My... is that so? But I am in good health, and my heart is as clear as the darkness of the depths of the ocean.'
@@ -33,8 +33,8 @@ label chara462001_01:
  erika 'That... that is, I am highly honored to know that, but would it happen that you are, um...... angered? '
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") '...Angered? Me? My my, how regrettable. I have been displeasured to the point of lava boiling within my chest; nonetheless, that had not come to mind at all.'
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'Else... I wonder if it could be that you had something else in mind?'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "...Angered? Me? My my, how vexing. I can't think of any reason why I would be angered as if there was hot lava boiling in my chest. "
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'Although... I wonder if it could be that you had something else in mind?'
  Character('????',ctc="ctcArrow", ctc_position="fixed") "Aah... there is, isn't there? Like how my own piece is a shameful loser that has brought public humiliation upon me..."
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
@@ -45,11 +45,11 @@ label chara462001_01:
  show erika_v001 odoroki_close at active
  erika 'N-... no, um, uh! I-I can assure you, that was only a minor playfight with an irrelevant brat...!'
  show erika_v001 sinken at jump_transform,active
- erika 'As, as if I could ever lose! If the game would have continued at that rate, my victory would have been absolutely certain! Not once did it shake me!'
+ erika 'I-I never lost! If the game continued at that rate, my victory would have been absolutely certain! Not once was I shaken!'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") "Is that so? If that's the case, then I do wonder if it would have been better if you had waited it out instead... have you thought of that?"
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'Once another piece wins, we get off on the wrong track. Your habit of being so conceited as a piece of mine is so pitiful, I have to laugh.'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "Is that so? If that's the case, then perhaps it would have been better if you had waited it out instead... did you think of that?"
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'When you win against another piece, you get carried away. Your habit of being so conceited as a piece of mine is so pitiful, I have to laugh.'
  show erika_v001 sinken at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken at active
@@ -69,10 +69,10 @@ label chara462001_01:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika 'N-, AH?! WHO, WHO RATTED ME OU-... I mean! How could word of this nonsense have ever reached your greatness?!'
+ erika 'N-, AH?! W-WHO RATTED ME OU-... I mean! How could word of this nonsense have ever reached your greatness?!'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") 'There is no need for explanation. Loss even so, I thought it was ever so entertaining to have seen, although...'
+ Character('????',ctc="ctcArrow", ctc_position="fixed") 'There is no need for explanation. Even though you lost, I thought it was ever so entertaining to have seen, although...'
  Character('????',ctc="ctcArrow", ctc_position="fixed") '...I never could have expected you to be a competent mirror of me anyway... *giggle*.'
  Character('????',ctc="ctcArrow", ctc_position="fixed") "In any case, I'll have to properly reward you for dragging your master's face through the mud, right...?"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -152,7 +152,7 @@ label chara462001_01:
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 futeki at active
  show dlanor_v001 normal at inactive
- erika 'Exactly that! For me to have been able to receive this punishment here, of course it was done by none other than my master!'
+ erika 'Exactly that! For me to have been able to receive such punishment, of course it was done by none other than my master!'
  show dlanor_v001 fuan at active
  show erika_v001 futeki at inactive
  dlanor '...Why is Erika so boastful of this FACT?'
@@ -167,7 +167,7 @@ label chara462001_01:
  erika 'ANYWAYS! In order to help rid my master of her displeasure, I must absolutely fight a second time!'
  erika "A few days ago was Beatrice's birthday, so I let them have their fun, but..."
  erika "Though I have regrettably departed from my friends, for my master's sake, I must once again show Nao-san my superiority over her!"
- erika 'Beatrice is securing my one-way ticket to Nao-san, and luckily, those people are in the middle of setting up arrangements for traveling there.'
+ erika "Beatrice has securing a route to Nao-san, and luckily, they're are still preparing for travel."
  erika "If I move now, I will also have no worries of someone getting in my way. In other words, Dlanor, you're coming with me!"
  erika '*cackle*cackle*... This time for sure will be a perfect game; with me as a detective and as a Wanyanner, I will thoroughly crush her!!!'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
@@ -188,13 +188,13 @@ label chara462001_01:
  erika 'Huuh? W-why is that?!?'
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
- dlanor 'The Great Court does not acknowledge me participating in my own DUELS. Venting my personal emotions is to be judged as the highest blasphemy against the mystery GENRE.'
+ dlanor 'The Great Court does approve of private DUELS. Venting emotions is to be judged as the highest blasphemy against the mystery GENRE.'
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
- dlanor 'The last time this happened, it was on a game board brought to be due to a MIRACLE. So as to carefully inspect its contents, I simply accompanied YOU.'
+ dlanor 'Last time, the game board was brought about by a MIRACLE. I merely accompanied you to inspect its CONTENTS.'
  show dlanor_v001 fuan_close at active
  show erika_v001 odoroki at inactive
- dlanor '...As well as this, I have a huge pile of work I should be FINISHING. I ask that the one going will be you and you ONLY.'
+ dlanor '...Furthermore, I have a huge pile of work I should be FINISHING. I ask that the one going will be you and only YOU.'
  show erika_v001 sinken at chara_shake_transform,active
  show dlanor_v001 fuan_close at inactive
  erika 'H... Very well! I thought that you would understand my feelings as a friend, though...!'

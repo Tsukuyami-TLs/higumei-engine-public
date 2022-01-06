@@ -63,10 +63,10 @@ index,chara,jp,en,
 妾たちとは異なるわけか。","...Hmm, we don't see eye to eye here. I have heard that you are a bookworm, but the ways in which we enjoy reading are dissimilar.",
 85,ドラノール,"……この戦い、ベアトリーチェ卿の方が
 分が悪いデスネ。
-今回は引くのが賢明デス。","In this argument, Lady Beatrice's side is less UNDERSTANDABLE. Pulling out of this would be wise for YOU.",
+今回は引くのが賢明デス。","...In this argument, the odds are against Lady Beatrice's SIDE. Pulling out of this would be wise for HER.",
 87,Nao,"あ、でも別に、ベアトリーチェの楽しみ方が
 間違ってるなんて絶対に思わないわよ？
-ただ、あたしの今の楽しみ方がこうだってだけで。","Ah, but I wasn't particularly saying that I think Beatrice's method of having fun is certainly wrong? I just wanted to say that my way was different.",
+ただ、あたしの今の楽しみ方がこうだってだけで。","Ah, but I wasn't particularly saying that I think Beatrice's method of having fun is absolutely wrong? I just wanted to say that my way was different.",
 89,Nao,"それに……今の話でわかったわ。
 あたしの今の読書スタイルだったら、
 ミステリー小説はルール無用でも構わない。","And anyways... I understood what she said earlier. If we were to use my reading style, even if mystery novels had no rules, there would be no issue.",
@@ -194,28 +194,28 @@ index,chara,jp,en,
 238,ベアトリーチェ,ほぅ。何をもってそう思った？,Hoh. What does that thought entail?,
 240,Nao,"だって、作者が『ノックス十戒』に従っているって
 最初に宣言すれば、このミステリーは解けるように
-できているってわかる人はわかってくれるでしょ？","Like, if an author worked under ""Knox's Decalogue"" when it was first being announced, people who knew the decalogue would understand the mystery was designed to be solved, right?",?
+できているってわかる人はわかってくれるでしょ？","Like, if an author declared he was following ""Knox's Decalogue"" at the beginning, people who knew the decalogue would understand the mystery was designed to be solved, right?","reworded, check history (next 5-6 lines too)"
 242,Nao,"……なるほど。だから『ノックス十戒』は
 邪魔だって排除されず、作者が書く上での
-ルールとして定着しているのね。","...I see. So, with ""Knox's Decalogue"" being in the way, and with no one getting rid of it, it stuck as a rule for authors to write in.",
+ルールとして定着しているのね。","...I see. So that's why ""Knox's Decalogue"" was not discarded as a hinderance, but stuck as a rule for authors to adhere to.",
 244,Nao,"自分たちは読者に対して
 フェアだって主張できる、
-大事なブランドロゴみたいなものだもの。","Us people who simply read the story were able to declare this as fair, seeing it as a brand logo of sorts.",
+大事なブランドロゴみたいなものだもの。",It's like an important brand logo which guarantees that we're being fair to the readers.,
 248,ドラノール,…………。,............,
 250,Nao,"でもブランドを守るのって大変よね。
-偽物を出されたりしたら、本家の評判に響くし。","But protecting it as a brand is dangerous. If a fake version were to be released, it would have an effect on the reputation of the original.",
+偽物を出されたりしたら、本家の評判に響くし。","But it's hard to protect a brand, because if you have a fake product, it's bad for the reputation of the original.",
 252,Nao,"うちのお母さんも、頭を悩ませてたわ。
 にしても、偽物を売られたら本家本元に
 怒りの矛先が向くって、理不尽な話よね。","My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable thought.",
 256,ベアトリーチェ,"……面白い例え話よ。
 だが、ルールを守った者が損をするのは
-実に理不尽といえよう。","... What an interesting example. However, let's say it would be truly unreasonable for the people following the rules to handicap themselves.",
+実に理不尽といえよう。",... What an interesting analogy. it's unreasonable for those who follow the rules to lose out.,
 258,ベアトリーチェ,"ゆえに、この御仁の仕事はルールを守り
 ミステリーを構築する人を守る。
-粗悪なミステリーを切り捨てることなのだ。","With this, the people crafting mysteries that follow the rules are protected. All faulty mysteries are then cut down completely.",this and the one before just dont flow well
+粗悪なミステリーを切り捨てることなのだ。","Therefore, this person's job is to protect those who craft mysteries following the rules. All faulty mysteries are then cut down completely.",this and the one before just dont flow well
 260,Nao,"へぇ……そうなんだ。
 そんな監視をしてくれる役割の人が
-常駐してるって、羨ましい話よね。","Ohh... is that so? How envious of a story it is, hearing that people have a role to be on permanent lookout for this kind of stuff.",
+常駐してるって、羨ましい話よね。","Ohh... is that so? How envious of a position it is, hearing that people have a role to be on permanent lookout for this kind of stuff.",
 262,Nao,"ファッション業界にも、
 偽ブランド服やバッグを作って売る悪人を
 斬り捨てる組織とかないかしら。","Even in the fashion world, there are fake brands that make and sell clothes and bags, but I wonder if there are organizations who cut these bad guys down.",
@@ -228,10 +228,10 @@ index,chara,jp,en,
 疲弊している時に考え事をするべきではないぞ。
 最終的に死ぬしかなくなってしまうからな。","I am getting tired. I should not think while I am getting exhausted, as I would die permanently.",
 278,Nao,"……ミステリーのルールを守るのも、
-大変なことなのね。","... It's an important rule to protect mystery, right?",
+大変なことなのね。","... They're important rules to protect mystery, right?",
 282,ドラノール,"……ですが、あなたのように
 必要だと言ってくれる人に出会えると、
-とても嬉しいデス。","...Nonetheless, something I must say to you before then, is that meeting with someone like you has made me incredibly HAPPY.",
+とても嬉しいデス。","...Nonetheless, something I must say to you before we part, is that meeting with someone like you has made me incredibly HAPPY.",
 284,ドラノール,あなたに会えて、よかったデス。,I am glad to have been able to meet YOU.,
 286,Nao,"こちらこそ、教えてくれてありがとう。
 おかげでミステリーに興味が湧いてきたわ。","Thank you as well for teaching me. Thanks to you, this has piqued my interest in mysteries even more.",

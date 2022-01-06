@@ -749,7 +749,7 @@ label event01_30_05:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'I guess she means "You\'ve got some guts." ...or something like that.'
- narrator "*Sigh*. ......Even though I'm on vacation in this beautiful rose garden, I feel like I've been forced to make a group with annoying classmates."
+ narrator "*sigh*. ......Even though I'm on vacation in this beautiful rose garden, I feel like I've been forced to make a group with annoying classmates."
  narrator "No. I've already got a choice on my hands. It's one of two things: take the challenge or run."
  narrator 'Besides, she played such a terrible prank on my bed...!'
  show erika_v001 normal at mei_right
@@ -776,10 +776,10 @@ label event01_30_05:
  erika 'But sadly, I am not aware of what happened.'
  show nao_v002 sinken at chara_shake_transform,active
  show erika_v001 normal at inactive
- nao 'W-what a blatant lie....'
+ nao 'W-What a blatant lie....'
  show erika_v001 smile at active
  show nao_v002 sinken at inactive
- erika "Then, would you care to describe what's on your mind in detail, so I can understand too? Eheheheheh!"
+ erika "Then would you care to describe what's on your mind in detail, so I can understand too? Eheheheheh!"
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)

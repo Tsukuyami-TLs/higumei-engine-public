@@ -330,7 +330,7 @@ label event01_30_08:
  nao "What do you mean? This isn't just a fight between the witch and I?"
  show beatrice_v001 futeki at active
  show nao_v002 odoroki at inactive
- beatrice 'Tonight, we have a mêlée à trois! This will truly be entertaining!'
+ beatrice 'Tonight, we have a mêlée à trois! This truly will be entertaining!'
  hide beatrice_v001
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -361,13 +361,13 @@ label event01_30_08:
  narrator 'I see. Three participants, each one claiming a different side.'
  camera at screenshake_transform
  pause 0.0
- narrator "With tonight's magic circle, it was either a magic trick poofed in by the witch, a farce performed by Erika-san, or a crime committed by Shion-san!"
+ narrator "Tonight's magic circle was either a magic trick poofed in by the witch, a farce performed by Erika-san, or a crime committed by Shion-san!"
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  dlanor 'For tonight, I believe I do have the responsibility of READER.'
  show dlanor_v001 normal at active
- dlanor 'For you three, I shall explain the SITUATION. ...Please listen CAREFULLY.'
+ dlanor 'So, I shall explain the situation for you THREE. Please listen CAREFULLY...'
  stop music fadeout 2.0
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide dlanor_v001
@@ -988,7 +988,7 @@ label event01_30_08:
  with Dissolve(0.2)
  narrator 'Alright, <good>. ......Is that how you say it?'
  narrator 'Erika-san, I hate losing. I will win with certainty. And I {i}will{/i} uncover the secrets of these two magic circles.'
- narrator 'Erika-san, I learned it from you. This battle of wits was more like a fistfight.'
+ narrator 'Erika-san, I learned it from you. This battle of wits... was more like a fistfight.'
  narrator 'The victor will be the one who amasses all claims, all logic, and all evidence... so that they can beat the enemy down thoroughly.'
  camera at screenshake_transform
  pause 0.0

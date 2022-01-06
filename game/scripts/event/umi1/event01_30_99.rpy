@@ -129,7 +129,7 @@ label event01_30_99:
  with Dissolve(1.0)
  narrator "...And... from here on it's a world beyond my understanding.\nIt's said that monsters are drawn to each other, but who would've thought that'd turn out to be true..."
  narrator 'Mion-san and Shion-san instantly got a grasp on the situation.\nWhat could Erika, who had drawn this perfect recreation of the circle from the movie, possibly want?'
- narrator 'A compliment? Or a shocked scream? ...Yes, it was an {i}audience{/i}.'
+ narrator 'A compliment? Or a shocked scream? ...No, it was an {i}audience{/i}.'
  narrator "That's right. In that moment, across the wall in Erika-san's room... one more Wanyanner was listening intently, letting out a disgusting laugh."
  camera at screenshake_transform,reset_shader
  pause 0.0
@@ -144,7 +144,7 @@ label event01_30_99:
  show erika_v001 smile at active
  erika "...*giggle*... What do you think? Isn't my magic circle a masterpiece...?\nIsn't it a perfect recreation of Bright-sama's magic circle...?"
  show erika_v001 smile at active
- erika "Now, do allow me to hear your praise, Mion-san, Shion-san!!\nI've already satisfied myself with the screams of Nao-san, who refuses to watch Detective Wanyan."
+ erika "Now, do allow me to hear your praise, Mion-san and Shion-san!!\nI've already satisfied myself with the screams of Nao-san, who refuses to watch Detective Wanyan."
  camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 fuan at active
@@ -164,12 +164,12 @@ label event01_30_99:
  narrator "A bead of cold sweat appeared on Erika's face.\n...As it slowly ran down Erika's forehead... her expression... was colored with... an eerie joy."
  camera at screenshake_transform,reset_shader
  pause 0.0
- narrator 'Th-these people...... really......!?!'
- narrator "That's right. Erika-san, with the cup pressed against the wall, listens to the voice in the next room over, and hears through the wall..."
+ narrator "These... these people...... they couldn't have......!?!"
+ narrator "That's right. As Erika-san listened to the voices in the next room over with the cup pressed against the wall..."
  show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
- narrator "Two sets of creepy laughs, just like Erika's."
+ narrator '...there was {i}a creepy pair of laughs mimicking the exact way Erika-san had just laughed{/i}.'
  show erika_v001 futeki at mei_center
  with Dissolve(0.5)
  show erika_v001 futeki at active
@@ -743,7 +743,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show nao_v014 sinken_blush at active
  show erika_v001 normal at inactive
- nao "This shameplay! I've never heard of something like this!! How could you taint me like this!?"
+ nao "This shameplay! I've never heard of something like this!! How could you taint me!?"
  show nao_v014 sinken_blush at chara_shake_transform,active
  show erika_v001 normal at inactive
  nao "Going home dressed like this is worse than the club's cosplay punishment games!!"

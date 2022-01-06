@@ -107,15 +107,15 @@ index,chara,jp,en,,
 244,ドラノール,そして、ヱリカもまた、プレイヤーデス。,"And so, Erika is a player once AGAIN.",ah -> and so,
 249,Nao (Casual),どういうこと？　あたしと魔女の、二人の戦いじゃないの？,What do you mean? This isn't just a fight between the witch and I?,"from ""Me and that witch are the only ones fighting, right?",
 251,ベアトリーチェ,"今宵はひとつ、三つ巴の戦いと行こうではないか！　妾も楽しみで
-あるぞ！","Tonight, we have a mêlée à trois! This will truly be entertaining!",Melee a trois sounded like a fancier way to state it's a three-way battle,we're having -> we have (for extra old-y effect)
+あるぞ！","Tonight, we have a mêlée à trois! This truly will be entertaining!",Melee a trois sounded like a fancier way to state it's a three-way battle,we're having -> we have (for extra old-y effect)
 255,ヱリカ,私も菜央ちゃまと同じく、ニンゲンに可能な悪戯だと主張します。,Both I and Nao-chama claim that a Human pulled off this prank.,,
 257,Nao (Casual),共闘？,We're working together?,,
 265,ヱリカ,違います。私は犯人を、詩音さんだと主張しますッ。,Not quite. I believe that the culprit is Shion-san.,,
 270,,なるほど。３人が全員、異なる主張をする。,"I see. Three participants, each one claiming a different side.",,
-272,,　今夜の魔法陣は、魔女の仕業か、ヱリカさんの自作自演か、さもなくば詩音さんの犯行か！,"With tonight's magic circle, it was either a magic trick poofed in by the witch, a farce performed by Erika-san, or a crime committed by Shion-san!","from ""With this magic circle, either a witch did it, Erika-san did it, or Shion-san did it!",
+272,,　今夜の魔法陣は、魔女の仕業か、ヱリカさんの自作自演か、さもなくば詩音さんの犯行か！,"Tonight's magic circle was either a magic trick poofed in by the witch, a farce performed by Erika-san, or a crime committed by Shion-san!","from ""With this magic circle, either a witch did it, Erika-san did it, or Shion-san did it!",
 275,ドラノール,それでは、今宵の朗読者は私が担当させていただきマス。,"For tonight, I believe I do have the responsibility of READER.",added believe I do for extra politeness,
 277,ドラノール,"それでは御三方。状況を説明いたしマス。
-御拝聴をよろしくお願い致しマス……。","For you three, I shall explain the SITUATION. ...Please listen CAREFULLY.",now that you three are here -> for you three,
+御拝聴をよろしくお願い致しマス……。","So, I shall explain the situation for you THREE. Please listen CAREFULLY...",now that you three are here -> for you three,
 290,ドラノール,今回の魔法陣は、ヱリカの客室で見つかりマシタ。,"This time, a magic circle was discovered inside of Erika's ROOM.",,
 292,ドラノール,"帰ってきたヱリカが、開錠して入室した後に、荒らされたベッドを
 発見。シーツに魔法陣があるのを発見しマシタ。","When Erika returned and unlocked the door, she discovered her bed was left RANSACKED. A magic circle was found drawn on the SHEETS.",changed order,
@@ -310,7 +310,7 @@ index,chara,jp,en,,
 704,,"　ヱリカさん。あたし、負けず嫌いよ。
 　絶対に勝つ。そして、魔法陣の２つの密室も暴いてみせる。","Erika-san, I hate losing. I will win with certainty. And I {i}will{/i} uncover the secrets of these two magic circles.","from ""I don't want to lose to Erika-san. I must win.",
 705,,"　ヱリカさん。あなたに習ったわ。
-　この、格闘的知恵比べは、……結局は殴り合いも同然。","Erika-san, I learned it from you. This battle of wits was more like a fistfight.","from ""I learned this from Erika-san, after all.",
+　この、格闘的知恵比べは、……結局は殴り合いも同然。","Erika-san, I learned it from you. This battle of wits... was more like a fistfight.","from ""I learned this from Erika-san, after all.",
 706,,"　あらゆる主張や推理、証拠で、徹底的に相手を打ちのめし
 て、……ダウンさせた方が勝者となる。","The victor will be the one who amasses all claims, all logic, and all evidence... so that they can beat the enemy down thoroughly.",reworded but can be worded better probs,
 708,,あたしは勝つ。そして、あなたを負かす！,"I will win, and I WILL defeat her!",,

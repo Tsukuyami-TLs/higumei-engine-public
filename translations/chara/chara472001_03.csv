@@ -10,7 +10,7 @@ index,chara,jp,en,,,,,,,
 50,Nao,"なんだか、
 とっても楽しい夢を見ていた気がするの。",I feel like I was having a super fun dream.,,,,,,,
 62,ドラノール,"法律のために人がいるのではありマセン。
-人のために法律がありマス。",People do not exist for LAW. Law does not exist for PEOPLE.,,,,,,,
+人のために法律がありマス。",People do not exist for the LAW. The law exists for PEOPLE.,fixed meaning,,,,,,
 64,ドラノール,"ですが、人を守るための法律を悪用し、
 人を傷つける悪人が生まれる場合もありマス。","Nevertheless, there are cases borne from bad people hurting others through abusing the power of laws that protect PEOPLE.",,,,,,,
 66,ドラノール,"……ルールとは常に、ある一方を守ると同時に、
@@ -19,15 +19,15 @@ index,chara,jp,en,,,,,,,
 ミステリー自体が崩壊していたやもしれぬ。","But if Lady Dlanor and her followers hadn't continued to protect others, mystery itself as a genre would have likely crumbled apart.",,,,,,,
 70,ドラノール,"ハイ。……とはいえ、『ノックス十戒』などの
 ルールが原因で、ミステリーに窮屈さを覚える人が
-いるのも事実デス。","AGREED... Although it is also true that there are people who have committed ""Knox's Decalogue"" to memory as well as its origin to keep the mystery genre in CHECK.",,,,,,,
+いるのも事実デス。","AGREED... Although it is true that there are also those who think ""Knox's Decalogue"" serves to constrict the mystery GENRE.",fixed meaning,,,,,,
 72,ベアトリーチェ,"それも真理だ。しかし、ルールがあるからこそ
 ミステリーというものは迷い子本来の時代にも
-存在し続けているとも言える。","This is true. Since there are definite rules to mystery, this must also apply to the mystery of the lost child being displaced from her original time.",?,,,,,,
+存在し続けているとも言える。","That is true. However, since there are definite rules to mystery, the genre can continue to exist in the time of that lost child.",?,"fixed meaning, check cell hist",,,,,
 74,ベアトリーチェ,"ミステリーが一時的に衰退したとしても、
-消滅することはないだろう。","I suppose it is a mystery that will temporarily wane, but will never completely blow out.",,,,,,,
+消滅することはないだろう。","I suppose it is a mystery is a genre that will temporarily wane, but will never completely blow out.",,,,,,,
 76,ベアトリーチェ,"……その証拠に、あの少女はきっと
 目が覚めた後にミステリー小説を手に取る。
-そしてまた、相まみえることが叶うだろう。","...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. And then perhaps once more, our union shall be realized.",,,,,,,
+そしてまた、相まみえることが叶うだろう。","...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. Perhaps then shall we reunite.",our union shall be realized -> we shall unite again,changed to this,,,,,
 78,ドラノール,"ただ……その時にはここでのことを、
 菜央は忘れているのデハ？",But then... what about Nao forgetting that she had ever been HERE?,,,,,,,
 80,ベアトリーチェ,"あぁ、忘れているだろうな。

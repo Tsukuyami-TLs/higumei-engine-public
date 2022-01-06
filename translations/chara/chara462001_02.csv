@@ -45,23 +45,23 @@ index,chara,jp,en,
 ……はぁ、おいしい。","Thank you, Rika-chan. ...Wah, it's delicious.",
 83,Rika (Casual),"ありがとうはこちらの台詞なのです。
 ボクの代わりに、一穂がお茶っ葉を
-買ってきてくれて助かったのですよ。","""Thank you"" is my line here. Instead of me going, Kazuho went out and bought these tea leaves for us, saving the day.",
+買ってきてくれて助かったのですよ。",I should be the one thanking you. Kazuho went out in my place and saved the day by buying these tea leaves for us.,"from '""Thank you"" is my line here. Instead of me going, Kazuho went out and bought these tea leaves for us, saving the day.'"
 85,Kazuho (Casual),"この程度のお遣い、お安い御用だよ。
 ……けど、神社の清掃をお願いした
 業者さんって、遅いね？","This kind of errand was easy for me... but the contractor they asked to clean the shrine is pretty slow, huh?",
 87,Rika (Casual),"みー。もう来る時間だから
 不在はまずいと思って、一穂に
-お遣いを頼みましたのですが……。","Meep. He should already be here, so I thought his absence would be bad, and then I had Kazuho run that errand, but...",
+お遣いを頼みましたのですが……。","Meep. I thought it'd be bad if I wasn't here when he came, so I had Kazuho run that errand, but...","from ""Meep. He should already be here, so I thought his absence would be bad, and then I had Kazuho run that errand, but..."""
 91,Satoko (Casual),"こんなことになるのでしたら、
 私が用事を終わらせてから買いに行っても、
-全然間に合いましたわね。","If it comes to it, I could finish that task plus go shopping and I would still completely make it on time.",
+全然間に合いましたわね。",It turns out that I could have finished that and went shopping and I would still have completely make it on time.,"""If it comes to it"" -> ""It turns out that"""
 93,Kazuho (Casual),"うーん、きっと前の仕事が
-長引いているんだと思うよ。","Yeahh, I think the former job is being dragged out.",
+長引いているんだと思うよ。","Yeahh, I think that first job you mentioned is being dragged out.",
 95,Satoko (Casual),"そうかもしれませんが、それなら連絡の
 一本くらいあってもバチが当たらないと
 思いますわ……。","It might be like that, but in that case, even if we call and complain once, I don't think scolding would do much...",
 101,Satoko (Casual),"でも梨花、どうして一穂さんに
-お遣いをお願いしましたの？","But Rika, why did you entrust Kazuho with that task?",
+お遣いをお願いしましたの？","But Rika, why did you entrust Kazuho with that errand?",
 103,Rika (Casual),"みー。お茶がなくて困っている時に
 たまたま一穂に電話をもらったのですよ。","Meep. Whenever I run into trouble with having no tea, I occasionally call Kazuho, like I did this time.",
 107,Kazuho (Casual),"うん。前に梨花ちゃんからもらったりんごで、
@@ -90,7 +90,7 @@ index,chara,jp,en,
 ですがあの方、お掃除をする格好には
 とても見えませんが……。",Huh? But I can't see someone cleaning in those clothes though...,
 139,Rika (Casual),"みー……
-ドレスみたいな服を着てるのです。",Meep... She has on like a dress or something.,
+ドレスみたいな服を着てるのです。",Meep... She's wearing something like a dress.,"from ""Meep... She has on something like a dress."""
 148,ヱリカ,あ、ぁ、あ、ぁああぁあああああああ……！,"Ah, ah, ah, aaaaaaaahhhhhhhhhhhhhhhhh...!",
 155,Rika (Casual),えっ？！,What?!,
 163,ヱリカ,あぁーーーーーーーっ！！,AAAHHHHHHH---!,
@@ -130,9 +130,9 @@ index,chara,jp,en,
 252,Satoko (Casual),一穂さん……それ、本気で言っておりますの？,Kazuho-san... are you seriously saying that?,
 255,Kazuho (Casual),"……ごめんなさい。
 自分で言っててなんだけど、
-あんまり自信ない……うぅっ。","... I'm sorry. I was talking to myself, but I didn't have that much confidence in that... Uuu.",
+あんまり自信ない……うぅっ。","... I'm sorry. I said it myself, but I didn't really believe it all too much... Uuu.",
 258,Kazuho (Casual),"け、けど一度、ちゃんと確かめた方が
-良いと思うよ！","Bu-but, I think it would be a good idea to properly check again!",
+良いと思うよ！",B-But I think we could check it out again to make sure!,
 264,Rika (Casual),"みー。ボクも違うとは思いますが、
 一穂の言うことにも一理あるのです……。","Meep. I also think it's a little different, but Kazuho was right in saying that...",
 266,Rika (Casual),"あの……もしかして喜一郎がお願いした、
@@ -144,7 +144,7 @@ index,chara,jp,en,
 280,ヱリカ,"つまり不快にさせてしまったリベンジに
 この古ぼけた神社の掃除ができたら
 少しは見直してやろうという我が主のお心遣い！！","This is basically revenge for me displeasing her, so if I clean up this timeworn shrine, my master will change her perception of me out of thoughtfulness!!",
-283,ヱリカ,つまり！　これはある意味ボーナスステージ？！？！,"So basically! In this meaning, it's a bonus stage?!?!",
+283,ヱリカ,つまり！　これはある意味ボーナスステージ？！？！,"So basically! This means, it's a bonus stage?!?!","""In this meaning"" -> this means"
 291,Satoko (Casual),……何を言ってるのか、全然わかりませんわ。,"...Whatever you're talking about, I don't get it at all.",
 293,Kazuho (Casual),わ、私もわかんない……。,I-I don't get it either...,
 299,Rika (Casual),みー……。,Meep...,
@@ -154,14 +154,14 @@ index,chara,jp,en,
 304,ヱリカ,さて、掃除道具はどちらにありますか？,"Now, where are the cleaning tools?",
 306,Rika (Casual),"みー。てっきり業者の人が専門の掃除道具を
 持ってくると思って……。",Meep. I certainly thought the contractor guy would have specialized cleaning tools with him...,
-310,Satoko (Casual),特に、何も……。,And especially not nothing...,
+310,Satoko (Casual),特に、何も……。,"Or at least, something...","from ""And especially not nothing"""
 318,ヱリカ,"……はっ！
 ふ、ふふふ、なるほど。わかりましたよ。","...Hah! *giggle*, *giggle*giggle*, I see. I get it now.",
 320,ヱリカ,"文字通り舌で舐めるように
 掃除しろと言うことですね！
-了解致しました、我が主！","So, what you're saying is you literally want me to clean it all up with my tongue! I shall get to it expeditiously, my master!",
+了解致しました、我が主！","So, what you're saying is you want me to clean it all up with my tongue! I shall get to it expeditiously, my master!","remove ""literally"""
 329,Kazuho (Casual),ちっ、違うと思います！,That's... I don't think that's right.,
-331,Rika (Casual),……むしろ逆に汚いと思うのですよ。,...I think that's actually more dirty.,
+331,Rika (Casual),……むしろ逆に汚いと思うのですよ。,...I think that's actually dirtier.,more dirty -> dirtier
 340,Satoko (Casual),"い、今すぐ掃除道具を準備しますわ！
 だから、早まらないで下さいまし！
 お願いですからぁぁぁ！",I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!,

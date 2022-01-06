@@ -359,7 +359,7 @@ label event01_30_04:
  dlanor 'Nao, I am your ALLY. Dlanor is my NAME.'
  show dlanor_v001 normal at active
  show nao_v002 normal_close at inactive
- dlanor "What you are confronted with right now is the witch's GAME. According to the rules, winning is IMPOSSIBLE."
+ dlanor "What you are confronted with right now is the witch's GAME. If you don't follow the rules, winning will be IMPOSSIBLE."
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
  nao "Rules? First it was club tabletops with punishment games, and now it's a witch's game. I hope this won't be too boring."
@@ -554,8 +554,8 @@ label event01_30_04:
  hide nao_v002
  hide dlanor_v001
  with Dissolve(0.2)
- narrator 'From the point we were called out for dinner to the point we left the room, not once did we leave. Of course, by that time, nothing was wrong with my bed.'
- narrator 'And when we left the room, we locked it.'
+ narrator 'We did not leave our room at all until we were called out for dinner. Of course, by that time, nothing was wrong with my bed.'
+ narrator 'And when we did leave the room, we locked it.'
  narrator 'After dinner, Jessica-san joined in, and we played a board game.'
  narrator "Then, when we went back to go to sleep, we unlocked the room. ...That's when we saw the magic circle."
  show dlanor_v001 normal at mei_right
@@ -586,7 +586,7 @@ label event01_30_04:
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator 'What a roundabout way of saying it. Another way of saying this, then, is that someone {i}can perform{/i} the crime of drawing the magic circle...?'
+ narrator 'What a roundabout way of saying it. Another way of saying this, then, is that someone can perform the crime without drawing the magic circle...?'
  show dlanor_v001 normal at mei_right
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
@@ -648,7 +648,7 @@ label event01_30_04:
  show nao_v002 normal at active
  nao 'Moreover, she even came back from the room as soon as we had broached the topic of the window lock.'
  show nao_v002 normal at active
- nao "It just so happened that going upstairs gave her that chance. Even with that chance, it isn't realistic for Shannon-san to be holding the magic circle sheets the entire time."
+ nao "It just so happened that going upstairs gave her that chance. It's unrealistic for Shannon-san to have the magic circle sheets on her the entire time, even with that once chance."
  show nao_v002 normal at active
  nao "...Beatrice. Wouldn't this be too boring if this argument was just about Shannon-san straying from us? Make this clear for me."
  hide nao_v002
@@ -778,7 +778,7 @@ label event01_30_04:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'At first, when they said nonsense was fine, I thought just saying any crime that was possible for a human would result in me winning.'
- narrator 'But despite that... of course, the witch is used to this game.'
+ narrator 'But despite that... of course, this game is something the witch is a c c u s t o m e d to.'
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -819,7 +819,7 @@ label event01_30_04:
  beatrice 'The outcome of this witch game offers nothing for my side.'
  show beatrice_v001 futeki at active
  show nao_v002 normal at inactive
- beatrice 'Win or lose, the human side has the upper hand. ...*cackle*cackle*cackle*cackle*!'
+ beatrice 'Win or lose, the human side has the upper hand. ...*cackle*cackle*!'
  show nao_v002 normal_close at active
  show beatrice_v001 futeki at inactive
  nao "...This is bad. Shannon-san wasn't involved when she entered, and on top of that, absolutely no one else even went up to the second floor."

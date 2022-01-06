@@ -197,7 +197,7 @@ label event01_30_01:
  shion "An isolated island with a mysterious Western mansion... I think it'd be popular if you put it that way."
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "We're not just trial guests this time, we're resort consultants too!"
+ shion "We're not just reviewers this time, we're resort consultants too!"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -284,7 +284,7 @@ label event01_30_01:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao "...I've been thinking you two had trunks way too heavy for just a two night stay."
+ nao "...I've been thinking you two had trunks way too heavy just for a two night stay."
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -411,7 +411,7 @@ label event01_30_01:
  with Dissolve(0.5)
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show nao_v002 smile_blush at jumping_transform,active
- nao 'H....Hwaa.........!'
+ nao 'W-... Woaaah.........!'
  hide nao_v002
  with Dissolve(0.2)
  narrator "The spectacular view truly had me speechless. \n...Aah, and to think I'd been so worried about not being able to have fun because of the incident on the ferry."
@@ -420,7 +420,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show mion_v002 odoroki at active
  show shion_v002 smile at inactive
- mion 'Th-this is fantastic...'
+ mion 'Th-... this is fantastic...'
  show shion_v002 smile at active
  show mion_v002 odoroki at inactive
  shion "St. Lucia also had a rose garden but... it's nothing compared to this."

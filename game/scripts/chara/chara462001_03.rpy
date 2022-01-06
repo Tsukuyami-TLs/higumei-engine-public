@@ -41,7 +41,7 @@ label chara462001_03:
  rika "...I've told you, I'm Rika Furude. I am not your master at all."
  show rika_v002 fuan at active
  show satoko_v002 sinken at inactive
- rika 'I do not know you at all.'
+ rika "I don't know you at all."
  show satoko_v002 sinken at active
  show rika_v002 fuan at inactive
  satoko "I don't know to what extent she looks similar to her, but Rika and your master are completely different people! Different! People!"
@@ -51,7 +51,7 @@ label chara462001_03:
  show kazuho_v002 fuan at mei_center
  with Dissolve(0.5)
  show kazuho_v002 fuan at active
- kazuho 'Unlike how you say, this master person is a little, as far as I can tell, um...'
+ kazuho 'From what you say, this master person is a little, as far as I can tell, um...'
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -83,7 +83,7 @@ label chara462001_03:
  show erika_v001 sinken at active
  erika 'And yet, to make matters worse! Now that you say it, that little girl with the unkempt hair!'
  show erika_v001 sinken at active
- erika 'And her spitting out, "Why hadn\'t you realized until it was over?" ...with those pitying eyes!!!'
+ erika 'And her bluntly saying, "Why hadn\'t you realized until it was over?" ...with those pitying eyes!!!'
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -91,7 +91,7 @@ label chara462001_03:
    linear 0.5 zoom 1.1
  pause 0.5
  show erika_v001 sinken at jump_transform,active
- erika "Because it couldn't have been helped! Not even in ten thousand worlds, nor a hundred million, no, even a trillion, ten quadrillion, one hundred quintillion!!!"
+ erika "It couldn't have been helped! Even if it was one in ten thousand worlds, or a hundred million, no, even a trillion, ten quadrillion, one hundred quintillion!!!"
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -117,11 +117,11 @@ label chara462001_03:
    linear 0.5 zoom 1.0
  pause 0.5
  show erika_v001 sinken_close at active
- erika 'Hah, hah, hah...'
+ erika 'Haah, haah, haaah...'
  show erika_v001 normal_close at active
  erika 'Hooo...'
  show erika_v001 normal at active
- erika 'However, as a result of me getting carried away, I accidentally forgot to hear about where my main target is located.'
+ erika 'However, as a result of me getting carried away, I accidentally forgot to investigate where my main target is located.'
  show erika_v001 sinken at active
  erika 'No matter where I go, the mountains, the forest, the paddies, all of this is why I really HATE the countryside!'
  show erika_v001 normal_close at active
@@ -191,7 +191,7 @@ label chara462001_03:
  hide erika_v001
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Do you know the type of idiot that would picnic out in a place where bears could come out? You're exactly the same... *giggle*giggle*."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "What kind of idiot goes for a picnic in a place with bears? You're exactly the same... *giggle*giggle*."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
@@ -252,7 +252,7 @@ label chara462001_03:
  dlanor 'No, it was not anything CONSIDERABLE.'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'How modest. If you hadn\'t gotten involved, her "goal" would have been forestalled as she escaped to my domain, and she wouldn\'t have been able to be protected.'
+ beatrice 'How modest. If it weren\'t for you, her "target" would not have been able to escape to our domain to be protected.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal at inactive
  beatrice "I've been forgetting who that character is lately, but we had a very fun tea party together."
@@ -270,7 +270,7 @@ label chara462001_03:
  beatrice 'Either way, is Erika going to be okay? She seems to be taking a great beating though.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 fuan at inactive
- dlanor 'It is ALRIGHT. I dare say in that scenario, Erika could not be ABANDONED.'
+ dlanor "It is ALRIGHT. In any case, I don't think Erika will be abandoned like THAT."
  show beatrice_v001 futeki at active
  show dlanor_v001 normal_close at inactive
  beatrice '*cackle*cackle*... So you think so too, Dlanor?'
@@ -291,7 +291,7 @@ label chara462001_03:
  beatrice 'That being said, what is your reason for being friends with Erika? Do opposites really attract?'
  show dlanor_v001 normal_close at active
  show beatrice_v001 normal at inactive
- dlanor '...What becomes of it does not matter to ME. Now, I believe I will be taking my LEAVE.'
+ dlanor '...What you think of it does not matter to ME. Now, I believe I will be taking my LEAVE.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal_close at inactive
  beatrice 'Are you going out to meet her?'
@@ -306,13 +306,13 @@ label chara462001_03:
  beatrice 'Dlanor? How was your time here?'
  show dlanor_v001 smile at active
  show beatrice_v001 normal at inactive
- dlanor '...The cookies were DELICIOUS. Can I come AGAIN?'
+ dlanor '...The cookies were DELICIOUS. May I come AGAIN?'
  show beatrice_v001 smile at active
  show dlanor_v001 smile at inactive
  beatrice 'Of course. Next time, it will be nice if we invite Erika.'
  show beatrice_v001 smile at active
  show dlanor_v001 smile at inactive
- beatrice 'I will always welcome you here.'
+ beatrice 'You are always welcome here.'
  show dlanor_v001 smile_close at active
  show beatrice_v001 smile at inactive
  dlanor '...I am thankful, BEATRICE.'

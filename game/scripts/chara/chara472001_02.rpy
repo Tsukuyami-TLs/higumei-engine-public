@@ -95,10 +95,10 @@ label chara472001_02:
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v001 smile at inactive
- dlanor "In this argument, Lady Beatrice's side is less UNDERSTANDABLE. Pulling out of this would be wise for YOU."
+ dlanor "...In this argument, the odds are against Lady Beatrice's SIDE. Pulling out of this would be wise for HER."
  show nao_v001 odoroki at active
  show dlanor_v001 normal at inactive
- nao "Ah, but I wasn't particularly saying that I think Beatrice's method of having fun is certainly wrong? I just wanted to say that my way was different."
+ nao "Ah, but I wasn't particularly saying that I think Beatrice's method of having fun is absolutely wrong? I just wanted to say that my way was different."
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
  nao 'And anyways... I understood what she said earlier. If we were to use my reading style, even if mystery novels had no rules, there would be no issue.'
@@ -325,13 +325,13 @@ label chara472001_02:
  beatrice 'Hoh. What does that thought entail?'
  show nao_v001 smile at active
  show beatrice_v001 normal at inactive
- nao 'Like, if an author worked under "Knox\'s Decalogue" when it was first being announced, people who knew the decalogue would understand the mystery was designed to be solved, right?'
+ nao 'Like, if an author declared he was following "Knox\'s Decalogue" at the beginning, people who knew the decalogue would understand the mystery was designed to be solved, right?'
  show nao_v001 smile_close at active
  show beatrice_v001 normal at inactive
- nao '...I see. So, with "Knox\'s Decalogue" being in the way, and with no one getting rid of it, it stuck as a rule for authors to write in.'
+ nao '...I see. So that\'s why "Knox\'s Decalogue" was not discarded as a hinderance, but stuck as a rule for authors to adhere to.'
  show nao_v001 smile at active
  show beatrice_v001 normal at inactive
- nao 'Us people who simply read the story were able to declare this as fair, seeing it as a brand logo of sorts.'
+ nao "It's like an important brand logo which guarantees that we're being fair to the readers."
  hide beatrice_v001
  show dlanor_v001 odoroki at mei_left
  with Dissolve(0.5)
@@ -340,7 +340,7 @@ label chara472001_02:
  dlanor '............'
  show nao_v001 fuan at active
  show dlanor_v001 odoroki at inactive
- nao 'But protecting it as a brand is dangerous. If a fake version were to be released, it would have an effect on the reputation of the original.'
+ nao "But it's hard to protect a brand, because if you have a fake product, it's bad for the reputation of the original."
  show nao_v001 fuan_close at active
  show dlanor_v001 odoroki at inactive
  nao "My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable thought."
@@ -349,13 +349,13 @@ label chara472001_02:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v001 fuan_close at inactive
- beatrice "... What an interesting example. However, let's say it would be truly unreasonable for the people following the rules to handicap themselves."
+ beatrice "... What an interesting analogy. it's unreasonable for those who follow the rules to lose out."
  show beatrice_v001 smile at active
  show nao_v001 fuan_close at inactive
- beatrice 'With this, the people crafting mysteries that follow the rules are protected. All faulty mysteries are then cut down completely.'
+ beatrice "Therefore, this person's job is to protect those who craft mysteries following the rules. All faulty mysteries are then cut down completely."
  show nao_v001 smile at active
  show beatrice_v001 smile at inactive
- nao 'Ohh... is that so? How envious of a story it is, hearing that people have a role to be on permanent lookout for this kind of stuff.'
+ nao 'Ohh... is that so? How envious of a position it is, hearing that people have a role to be on permanent lookout for this kind of stuff.'
  show nao_v001 fuan_close at active
  show beatrice_v001 smile at inactive
  nao 'Even in the fashion world, there are fake brands that make and sell clothes and bags, but I wonder if there are organizations who cut these bad guys down.'
@@ -382,13 +382,13 @@ label chara472001_02:
  beatrice 'I am getting tired. I should not think while I am getting exhausted, as I would die permanently.'
  show nao_v001 fuan at active
  show beatrice_v001 smile_close at inactive
- nao "... It's an important rule to protect mystery, right?"
+ nao "... They're important rules to protect mystery, right?"
  hide beatrice_v001
  show dlanor_v001 smile at mei_left
  with Dissolve(0.5)
  show dlanor_v001 smile at active
  show nao_v001 fuan at inactive
- dlanor '...Nonetheless, something I must say to you before then, is that meeting with someone like you has made me incredibly HAPPY.'
+ dlanor '...Nonetheless, something I must say to you before we part, is that meeting with someone like you has made me incredibly HAPPY.'
  show dlanor_v001 smile_close at active
  show nao_v001 fuan at inactive
  dlanor 'I am glad to have been able to meet YOU.'

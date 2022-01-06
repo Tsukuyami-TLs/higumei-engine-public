@@ -24,10 +24,10 @@ label chara032009_01:
  with Dissolve(0.5)
  show rika_v002 smile at active
  show satoko_v002 fuan at inactive
- rika 'Meep. Satoko, did you find the book for your book report?'
+ rika 'Meep. Satoko, did you find the book assigned for your book report?'
  show satoko_v002 fuan at active
  show rika_v002 smile at inactive
- satoko "...Hmm, I can't find it, but I remember seeing the cover of it around here somewhere."
+ satoko "...Hmm, I can't find it, but I think I did catch a glimpse of the title around this area."
  hide rika_v002
  show hanyuu_v002 fuan at mei_left
  with Dissolve(0.5)
@@ -63,19 +63,19 @@ label chara032009_01:
  rika 'Meep. Nao must be very enthusiastic to aim for something like applying for a prefecture contest.'
  show nao_v002 fuan at active
  show rika_v002 odoroki at inactive
- nao "Well, it'd be nice if I had those abilities. It's more so like a goal for me. I'm not actually thinking about applying or anything."
+ nao "Well, it'd be nice if I had that level of work ethic. It's more so a goal for me. I'm not actually thinking about applying or anything."
  show rika_v002 smile at active
  show nao_v002 fuan at inactive
- rika "Don't say that. I think that with Nao's usual strength, it would become a fair fight."
+ rika "Don't say that. I think that with Nao's usual skills, you'd have a good chance."
  show nao_v002 smile_close at active
  show rika_v002 smile at inactive
- nao 'Ahaha, thanks. ...But in my case, I think I would run into issues aside from ability if I were to submit to a contest in "this era".'
+ nao 'Ahaha, thanks. ...But in my case, I think I\'d get wound up in other issues applying to a contest in "this era" even before my work ethic would come into play...'
  show rika_v002 normal at active
  show nao_v002 smile_close at inactive
  rika '...? What did you just say, Nao?'
  show nao_v002 smile at active
  show rika_v002 normal at inactive
- nao "Oh, it's nothing. By the way, didn't you guys come here with Satoko to search for your books for the assignment today?"
+ nao "Oh, nothing. By the way, didn't you guys come here with Satoko to search for your books for the assignment today?"
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
@@ -97,10 +97,10 @@ label chara032009_01:
  with Dissolve(0.5)
  show satoko_v002 odoroki at active
  show nao_v002 odoroki at inactive
- satoko "Wh-, yeah... that's it! So it was Nao-san who was borrowing it. That's finally done with..."
+ satoko "Wh-, yeah... that's it! So it was Nao-san who was borrowing it. You beat me to it..."
  show nao_v002 smile at active
  show satoko_v002 odoroki at inactive
- nao "Ah-, but I just finished reading this book, so I needed to return it to the bookshelf, or so I thought. You can have it if you'd like."
+ nao "Ah-, but I just finished reading this book, so I was thinking I needed to return it to the bookshelf. You can have it if you'd like."
  hide satoko_v002
  show rika_v002 smile at mei_right
  with Dissolve(0.5)
@@ -112,25 +112,25 @@ label chara032009_01:
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show nao_v002 smile at inactive
- satoko "You saved me, Nao-san... ah, but won't this be an inconvenience since Nao-san will have to write her book report without this?"
+ satoko "You saved me, Nao-san... ah, but won't this be an inconvenience since you'll have to write your book report without this?"
  show nao_v002 smile at active
  show satoko_v002 fuan at inactive
- nao "It's alright. Since there was another work that I enjoyed, I can write the book report on that."
+ nao "It's alright. There are other works that I enjoyed, so I can write the book report on one of those."
  show satoko_v002 odoroki at jump_transform,active
  show nao_v002 smile at inactive
  satoko 'Huh... then, why did you even read this book?'
  show nao_v002 smile at active
  show satoko_v002 odoroki at inactive
- nao "I thought I'd pick out a book that Kazuho and Miyuki recommended to me. Even so, it seems like those two haven't chosen anything yet."
+ nao "I thought I'd pick out a book that Kazuho and Miyuki recommended to me. It seems like those two haven't chosen anything yet even so."
  show nao_v002 fuan at active
  show satoko_v002 odoroki at inactive
- nao "Just... going from an underclassman level book to this, I accidentally got absorbed in reading it. It's one of my favorites that I've finished reading."
+ nao "But just so you know... going from an elementary level book to this, I accidentally got absorbed in reading it. It's one of my favorites that I've recently finished reading."
  hide satoko_v002
  show hanyuu_v002 odoroki at mei_right
  with Dissolve(0.5)
  show hanyuu_v002 odoroki at active
  show nao_v002 fuan at inactive
- hanyuu "Aah-, now that you say it, Nao's book mountain at home has underclassman level assignment books mixed in~!"
+ hanyuu "Aah-, now that you say it, Nao's book mountain at home has elementary level assignment books mixed in~!"
  hide hanyuu_v002
  show rika_v002 odoroki at mei_right
  with Dissolve(0.5)
@@ -148,13 +148,13 @@ label chara032009_01:
  satoko "Thank you. At any rate... I'm jealous of Nao-san. I'm quite awful at reading books."
  show satoko_v002 fuan_close at deepbreath_transform,active
  show nao_v002 smile at inactive
- satoko 'Just from following along the lines with my eyes, it makes me sleepy like someone hypnotized me. Thanks to that, I get depressed every time... haaah...'
+ satoko 'Just skimming the lines with my eyes makes me sleepy like someone hypnotized me. Thanks to that, I get depressed every time... haaah...'
  hide nao_v002
  show hanyuu_v002 smile at mei_left
  with Dissolve(0.5)
  show hanyuu_v002 smile at active
  show satoko_v002 fuan_close at inactive
- hanyuu 'Au au, Satoko just has to have it in her hands and open it for her to let out a yawn~.'
+ hanyuu 'Au au, all it takes is to have an open book in her hands for Satoko to let out a yawn~.'
  show satoko_v002 fuan at active
  show hanyuu_v002 smile at inactive
  satoko 'My curse has no chance of lifting...  If each page has at least 3 pictures, no, 5 pictures, I suppose I can put up with reading it.'
@@ -169,7 +169,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show satoko_v002 fuan at inactive
- nao "Ahaha. I'm sure that negative mindset towards books is causing you to having no interest going into it."
+ nao "Ahaha. I'm sure that negative mindset towards books is causing you to having no interest in the first place."
  hide satoko_v002
  show hanyuu_v002 normal at mei_right
  with Dissolve(0.5)
@@ -190,7 +190,7 @@ label chara032009_01:
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show nao_v002 fuan at inactive
- satoko "Clearly... that is so. Especially for me, I get pessimistic feeling whenever I'm told to do an assignment or study."
+ satoko "Clearly... that is so. Especially for me. I get a pessimistic feeling whenever I'm told to do an assignment or study."
  show satoko_v002 fuan_close at active
  show nao_v002 fuan at inactive
  satoko "If I'm told that it's okay to read my own favorite book and write what I think about it as I please, I feel like that would make reading much more fun."
@@ -199,10 +199,10 @@ label chara032009_01:
  nao 'In that case, how about you choose a book completely unrelated to the contest and write a book report on that?'
  show nao_v002 smile at active
  show satoko_v002 fuan_close at inactive
- nao 'Chie-sensei is really understanding and such, so she would surely understand if you discussed that with her, I suppose.'
+ nao "Chie-sensei is a really understanding person, so I'm sure she'd understand if you discussed it with her, I suppose."
  show satoko_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
- satoko "That's a great idea! As soon as tomorrow hits, I'm going to talk with her!"
+ satoko "That's a great idea! I'm going to talk with her as soon as possible tomorrow!"
  hide satoko_v002
  show rika_v002 smile at mei_right
  with Dissolve(0.5)
@@ -214,7 +214,7 @@ label chara032009_01:
  nao "Huh? Ah... I'm sorry, I kind of spoke in a conceited way, didn't I? I'm really just repeating what my advisor told me."
  show nao_v002 smile at active
  show rika_v002 smile at inactive
- nao '"You become good at what you like doing", right? Because that teacher said that to me, I started to like reading and such...'
+ nao '"You become good at what you like doing.", right? \nBecause that advisor said that to me, I started to like reading and such...'
  show nao_v002 smile at active
  show rika_v002 smile at inactive
  nao 'With book reports, instead of them being assignments, I think of them as being pleasantly fun to write.'

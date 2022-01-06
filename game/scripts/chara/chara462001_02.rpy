@@ -91,22 +91,22 @@ label chara462001_02:
  kazuho "Thank you, Rika-chan. ...Wah, it's delicious."
  show rika_v002 smile at active
  show kazuho_v002 smile at inactive
- rika '"Thank you" is my line here. Instead of me going, Kazuho went out and bought these tea leaves for us, saving the day.'
+ rika 'I should be the one thanking you. Kazuho went out in my place and saved the day by buying these tea leaves for us.'
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
  kazuho 'This kind of errand was easy for me... but the contractor they asked to clean the shrine is pretty slow, huh?'
  show rika_v002 fuan at active
  show kazuho_v002 smile at inactive
- rika 'Meep. He should already be here, so I thought his absence would be bad, and then I had Kazuho run that errand, but...'
+ rika "Meep. I thought it'd be bad if I wasn't here when he came, so I had Kazuho run that errand, but..."
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show kazuho_v002 smile at inactive
- satoko 'If it comes to it, I could finish that task plus go shopping and I would still completely make it on time.'
+ satoko 'It turns out that I could have finished that and went shopping and I would still have completely make it on time.'
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho 'Yeahh, I think the former job is being dragged out.'
+ kazuho 'Yeahh, I think that first job you mentioned is being dragged out.'
  show satoko_v002 fuan_close at active
  show kazuho_v002 fuan at inactive
  satoko "It might be like that, but in that case, even if we call and complain once, I don't think scolding would do much..."
@@ -118,7 +118,7 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 normal at active
  show rika_v002 fuan at inactive
- satoko 'But Rika, why did you entrust Kazuho with that task?'
+ satoko 'But Rika, why did you entrust Kazuho with that errand?'
  show rika_v002 smile at active
  show satoko_v002 normal at inactive
  rika 'Meep. Whenever I run into trouble with having no tea, I occasionally call Kazuho, like I did this time.'
@@ -174,7 +174,7 @@ label chara462001_02:
  satoko "Huh? But I can't see someone cleaning in those clothes though..."
  show rika_v002 normal at active
  show satoko_v002 odoroki at inactive
- rika 'Meep... She has on like a dress or something.'
+ rika "Meep... She's wearing something like a dress."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -354,14 +354,14 @@ label chara462001_02:
   linear 0.5 pos (480,1250)
  show satoko_v002 fuan at inactive
  pause 0.5
- kazuho "... I'm sorry. I was talking to myself, but I didn't have that much confidence in that... Uuu."
+ kazuho "... I'm sorry. I said it myself, but I didn't really believe it all too much... Uuu."
  show kazuho_v002 fuan_close
  show kazuho_v002 fuan_close:
   linear 0.5 pos (480,1200)
  pause 0.5
  show kazuho_v002 sinken at active
  show satoko_v002 fuan at inactive
- kazuho 'Bu-but, I think it would be a good idea to properly check again!'
+ kazuho 'B-But I think we could check it out again to make sure!'
  hide satoko_v002
  hide kazuho_v002
  with Dissolve(0.2)
@@ -395,7 +395,7 @@ label chara462001_02:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 smile at active
- erika "So basically! In this meaning, it's a bonus stage?!?!"
+ erika "So basically! This means, it's a bonus stage?!?!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -435,7 +435,7 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show rika_v002 fuan_close at inactive
- satoko 'And especially not nothing...'
+ satoko 'Or at least, something...'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -448,7 +448,7 @@ label chara462001_02:
  show erika_v001 smile at active
  erika '...Hah! *giggle*, *giggle*giggle*, I see. I get it now.'
  show erika_v001 smile at active
- erika "So, what you're saying is you literally want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
+ erika "So, what you're saying is you want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -466,7 +466,7 @@ label chara462001_02:
  kazuho "That's... I don't think that's right."
  show rika_v002 fuan at active
  show kazuho_v002 sinken at inactive
- rika "...I think that's actually more dirty."
+ rika "...I think that's actually dirtier."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)

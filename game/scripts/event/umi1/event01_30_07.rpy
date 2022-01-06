@@ -197,7 +197,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show dlanor_v001 fuan at active
  show beatrice_v001 sinken at inactive
- dlanor "I never thought I'd be opening every box of the Heaven-specialty angel manjuu that I brought as a GIFT."
+ dlanor 'I never thought you would be opening all of your Heaven-Speciality Angel Manjuu boxes that I brought as GIFTS.'
  show beatrice_v001 futeki at active
  show dlanor_v001 fuan at inactive
  beatrice "That's a testament to just how good they are. Angel manjuu really puts a smile on a witch's face! In fact, that should be the catchphrase!"
@@ -582,7 +582,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 fuan at active
  show nao_v002 normal at inactive
- mion "This trick is a secret, alright? If any amateurs try doing this, we're gonna have to batten the hatches."
+ mion "This trick is a secret, alright? If any amateurs try doing it, we're gonna have to batten the hatches."
  show nao_v002 fuan at active
  show mion_v004 fuan at inactive
  nao "I can't come up with something like that and I don't intend to, so don't worry..."

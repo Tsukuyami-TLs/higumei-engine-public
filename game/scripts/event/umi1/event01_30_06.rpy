@@ -224,10 +224,10 @@ label event01_30_06:
  with Dissolve(0.5)
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao '......I got hyped up chatting with Erika-san.'
+ nao '......I got psyched up chatting with Erika-san.'
  show erika_v001 normal at active
  show nao_v002 normal_close at inactive
- erika 'Hyped {i}down{/i} would be a bit more fitting here.'
+ erika 'Psyched {i}down{/i} would be a bit more fitting here.'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -491,7 +491,7 @@ label event01_30_06:
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  narrator '{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red}'
  narrator "This... isn't this a stupid little trick?! There better be something between the lines!"
- narrator 'Erika-san is conspiring with someone. That "someone" she\'s conspiring with is somehow given through this red truth.'
+ narrator 'Erika-san is conspiring with someone. And that "someone" she\'s conspiring with is giving instructions to Shannon-san somehow.'
  narrator 'Like for example... yeah! Cosplay photography!'
  narrator "If you're cosplaying as something scary, you'd want to tell your photographer in advance so that he doesn't get shocked..."
  show nao_v002 sinken at mei_center
@@ -574,7 +574,7 @@ label event01_30_06:
  erika "Saying this is a smidge rude, but I thought you would be like a caveman afraid of fire... You're pretty good, though."
  show mion_v015 smile at updown_shake_transform,active
  show erika_v001 normal at inactive
- mion "Ahaha! If Erika-san says that much, I'll start blushing!!"
+ mion "Ahaha! If you say that much, I'll start blushing!!"
  show mion_v015 smile_close at active
  show erika_v001 normal at inactive
  mion "But you're pretty good too, y'know, Erika-san? There's one thing you might have wrong, though~."
@@ -671,7 +671,7 @@ label event01_30_06:
  nao '...Eh......?'
  show erika_v001 fuan at chara_shake_transform,active
  show nao_v002 fuan at inactive
- erika '*Sigh* Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during dessert.'
+ erika '*sigh*. Regrettably, you missed the mark by a longshot. ...See? It would have been better for me to do it during dessert.'
  show erika_v001 fuan at active
  show nao_v002 fuan at inactive
  erika "Since I wasn't directly conspiring with someone, I must have been getting someone involved indirectly. You really thought you could weasel yourself through the red truth like that... huuuuh?!"

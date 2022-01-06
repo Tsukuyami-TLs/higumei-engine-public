@@ -41,7 +41,7 @@ label chara452001_01:
  nao "The smell is sophisticated and wonderful, there isn't any tartness, and it's just a little sweet...♪"
  show beatrice_v001 smile at active
  show nao_v002 smile_blush at inactive
- beatrice "It's true, it's true. By the way, as of late, the tea has been a personal favorite of mine!"
+ beatrice "It's true, it's true. By the way, as of late, this tea has been a personal favorite of mine!"
  show beatrice_v001 smile_close at active
  show nao_v002 smile_blush at inactive
  beatrice "You could say I'm obsessed with it."
@@ -62,7 +62,7 @@ label chara452001_01:
  nao "Ah... that's right. If that's the case, you could perhaps try putting jam or something on it."
  show beatrice_v001 smile at nod_transform,active
  show nao_v002 smile at inactive
- beatrice "Naturally, it's a good match for Russian tea. Perhaps you can try it next."
+ beatrice 'Of course, it pairs well with Russian tea. Perhaps you can try that next.'
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
@@ -103,7 +103,7 @@ label chara452001_01:
  nao 'Huh...?'
  show beatrice_v001 normal at active
  show nao_v002 odoroki at inactive
- beatrice 'You, as someone originally not meant to be here, have been summoned to have tea with me like this. Does this feel strange to you?'
+ beatrice 'You have been summoned to have tea with me as someone originally not meant to be here. Does that feel strange to you?'
  show nao_v002 normal at nod_transform,active
  show beatrice_v001 normal at inactive
  nao "...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. "

@@ -21,7 +21,7 @@ label event01_30_10:
  nao '...has been in something like an anime or a manga before.'
  show beatrice_v001 fuan at active
  show nao_v002 normal at inactive
- beatrice 'Huh? C-can you repeat that once more...?'
+ beatrice 'Huh? C-Can you repeat that once more...?'
  show nao_v002 normal at active
  show beatrice_v001 fuan at inactive
  nao 'I think... that this magic circle appeared in some manga or anime before, probably.'
@@ -38,7 +38,7 @@ label event01_30_10:
  erika "Beatrice, haven't you seen it...? Detective Wanyan."
  show beatrice_v001 futeki at updown_shake_transform,active
  show erika_v001 sinken_close at inactive
- beatrice "Huh?! Ahahaha, I'm more Team Kaneda Case Files, remember?"
+ beatrice "Huh?! Ahahahaha, I'm more Team Kaneda Case Files, remember?"
  show beatrice_v001 futeki at active
  show erika_v001 sinken_close at inactive
  beatrice "Detective Wanyan is too childish, so I don't watch it. That said, I remember Shannon saying it was interesting and recommending it to me."
@@ -79,7 +79,7 @@ label event01_30_10:
  erika 'The serial killer in this movie leaves magic circles on the crime sceneeeee...'
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
- nao 'Is that serial killer... popular?'
+ nao '...Is that serial killer...... popular?'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -93,7 +93,7 @@ label event01_30_10:
  pause 0.0
  $ event_store.current_progress = 4
  show erika_v001 sinken at active
- erika "UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion followers in real liiiiifeeeeeee!!!!"
+ erika "Um, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion men after him in real liiiiifeeeeeee!!!!"
  show erika_v001 smile at active
  erika "It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -106,7 +106,7 @@ label event01_30_10:
  show beatrice_v001 fuan at mei_center
  with Dissolve(0.5)
  show beatrice_v001 fuan at active
- beatrice 'S... So, this means in the movie, a handsome killer leaves a "sign" at the crime scene...?'
+ beatrice 'S-... So, this means in the movie, a handsome killer leaves a "sign" at the crime scene...?'
  hide beatrice_v001
  with Dissolve(0.2)
  show erika_v001 fuan at mei_center
@@ -281,7 +281,7 @@ label event01_30_10:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  show nao_v002 normal at inactive
- dlanor 'Nao, please do not misunderstand ERIKA. ...Erika plays her part as both an outstanding detective and a pitiable criminal, and does a fine job as an ACTRESS. '
+ dlanor 'Nao, please do not misunderstand ERIKA. ...Erika plays her part both as an outstanding detective and a pitiable criminal, and does a fine job as an ACTRESS. '
  show nao_v002 smile at active
  show dlanor_v001 normal_close at inactive
  nao "...I realize that. She's only pretending to be the villain, but normally, she actually isn't like that."
@@ -778,7 +778,7 @@ label event01_30_10:
  nao "Let's continue, Erika-san. ...Did you really see it?"
  show erika_v001 smile at active
  show nao_v002 normal at inactive
- erika "Eh? What? Of course I saw all of Wanyan's broadcast...."
+ erika "Eh? See what? Of course I saw all of Wanyan's broadcast...."
  camera at screenshake_transform
  pause 0.0
  show nao_v002 sinken at active
@@ -789,10 +789,10 @@ label event01_30_10:
  nao "You checked inside before you locked your room, but you said you found nothing out of the ordinary. ...That was a lie, wasn't it?"
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika "...You were so confused in the case of Shannon-san not caring about the magic circle that I thought that I'd maybe mess around with you a bit...♪"
+ erika "...You were so confused over the case with Shannon-san not batting an eye at the magic circle prank that I thought I'd maybe mess around with you for a little bit...♪"
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao "Your statement in total had 49 vowels including y's and w's... right? I'll do you a favor and make it 50."
+ nao "Your statement in total had 49 vowels... right? I'll do you a favor and make it 50."
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '50 pieces would definitely be painstaking to get to, though, so tossing Erika-san in a food processor would be much more fun.'
@@ -817,7 +817,7 @@ label event01_30_10:
  mion 'Haaaahh. Thank goodnesss! Nao-chan, if you watched Wanyan too it would be awesome!'
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "If you see the movie, you'll ABBB-SO-lutely sink deep into the Wanyan swamp."
+ shion "If you see the movie, you'll AB-SO-lutely sink deep into the Wanyan swamp."
  hide mion_v002
  show erika_v001 smile at mei_right
  with Dissolve(0.5)

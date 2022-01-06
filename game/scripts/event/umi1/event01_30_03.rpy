@@ -184,7 +184,7 @@ label event01_30_03:
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)
- narrator 'Whaaat, I wanna see this hardcore.'
+ narrator 'Whaaat, I totally wanna see this.'
  narrator 'For someone unrelated looking in from a distance, Erika-san might actually seem like a really amusing person.'
  window hide None
  stop music fadeout 2.0
@@ -215,7 +215,7 @@ label event01_30_03:
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'Sometimes mysteries have intellectual puzzles, but others will be entirely about hand-to-hand combat.'
+ erika 'There are mysteries with intellectual puzzles, but sometimes others will be entirely about the competitive nature between the detective and culprit.'
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
@@ -226,14 +226,14 @@ label event01_30_03:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "Shion, you've never learned to give up since way back in the day, huh?"
+ mion "Shion, you've never learned when to give up since way back in the day, huh?"
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
  show erika_v001 normal_close at mei_center
  with Dissolve(0.5)
  show erika_v001 normal_close at active
- erika "*giggle*. Well, seeing a killer that doesn't know when to give up in a mystery can be quite pleasant, though."
+ erika "*giggle*. Well, watching a killer that doesn't know when to give up in a mystery can be quite pleasant, though."
  show erika_v001 normal at active
  erika "If it were me... I would be a pretty tough character; I daresay I'd put my all into it. *giggle*giggle*."
  hide erika_v001
@@ -278,7 +278,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show shannon_v001 smile at inactive
- nao '... I believe I would like a glass to drink after all. A red cola, carbonated, with extra sugar mixed in, please.'
+ nao '...I believe I would like a glass to drink after all. A carbonated red cola with extra sugar mixed in, please.'
  show shannon_v001 smile_close at active
  show nao_v002 smile at inactive
  shannon '*giggle*. As you wish.'
@@ -287,7 +287,7 @@ label event01_30_03:
  nao '........................'
  show nao_v002 normal at active
  show shannon_v001 smile_close at inactive
- nao '...Um... Shannon-san. This is just between you and I, okay?'
+ nao '...Um... Shannon-san. This is just between you and I... okay?'
  show shannon_v001 smile at active
  show nao_v002 normal at inactive
  shannon 'Okay...?'
@@ -295,14 +295,14 @@ label event01_30_03:
  stop music fadeout 2.0
  show nao_v002 fuan at active
  show shannon_v001 smile at inactive
- nao "...Jessica-san and them have been terrified of this island's ghost story about a witch."
+ nao "...Jessica-san and them feel threatened by this island's ghost story about a witch."
  show shannon_v001 normal at active
  show nao_v002 fuan at inactive
  shannon 'Ghost story... about a witch... you say...?'
  hide shannon_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator 'A bewildered expression. ...Yeah, that reaction is fine.'
+ narrator 'A bewildered expression. ...Yeah, that reaction is good.'
  narrator 'Everyone has been claiming that Beatrice, the witch, "exists."'
  narrator "Normally, even I'd be able to read the mood, like how you wouldn't want to indiscriminately deny the existence of Santa Claus."
  narrator '...But I\'m a bit more of the contrarian type. As they join in and declare that Beatrice "exists", I more so get the feeling of wanting to be shown proof.'
@@ -627,10 +627,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 fuan at inactive
- shion 'Did you hear that, Sis? Now reflect on your actions.'
+ shion 'Hear that, Sis? Now go reflect on your actions.'
  show mion_v002 fuan at chara_shake_transform,active
  show shion_v002 normal at inactive
- mion "Th-this ol' man only wanted to test it from the point of view of a strong visitor! Really!!"
+ mion "Th-this ol' man only wanted to review it from the perspective of a heavy-handed guest! Really!!"
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)

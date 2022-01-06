@@ -1,128 +1,128 @@
-chara462001_03.bytes,,Lloro,,
-index,chara,jp,en,
-36,ヱリカ,つ、疲れました……。,I'm so... tired...,
+chara462001_03.bytes,,Lloro,,,
+index,chara,jp,en,,
+36,ヱリカ,つ、疲れました……。,I'm so... tired...,,
 46,Rika (Casual),"……ですから、ボクは古手梨花。
-あなたのご主人様ではないのです。","...I've told you, I'm Rika Furude. I am not your master at all.",
-48,Rika (Casual),ボクはあなたのこと、知らないのですよ。,I do not know you at all.,
+あなたのご主人様ではないのです。","...I've told you, I'm Rika Furude. I am not your master at all.",,
+48,Rika (Casual),ボクはあなたのこと、知らないのですよ。,I don't know you at all.,,
 50,Satoko (Casual),"どれだけそっくりかわかりませんが、
 梨花とあなたのご主人様は全くの別人！
-違う人！　ですわ！","I don't know to what extent she looks similar to her, but Rika and your master are completely different people! Different! People!",
+違う人！　ですわ！","I don't know to what extent she looks similar to her, but Rika and your master are completely different people! Different! People!",,
 55,Kazuho (Casual),"というより、あなたのご主人様って
-ちょっと……話を聞く限り、その……。","Unlike how you say, this master person is a little, as far as I can tell, um...",
-58,Kazuho (Casual),……優しさって言葉、知ってますか？,"...does she know the word ""kindness""?",
+ちょっと……話を聞く限り、その……。","From what you say, this master person is a little, as far as I can tell, um...","""unlike how"" -> from what",
+58,Kazuho (Casual),……優しさって言葉、知ってますか？,"...does she know the word ""kindness""?",,
 69,ヱリカ,"うぅ、神社をピカピカにする前に
 気づいていれば、こんな余計な
-苦労をしなくてすんだのに……！","Uu, until she recognizes that this shrine is shining, this excess of work will never have been worth it, though...!",
+苦労をしなくてすんだのに……！","Uu, until she recognizes that this shrine is shining, this excess of work will never have been worth it, though...!",,
 71,ヱリカ,"しかも、おまけに！
-そう言ったら、あのボサボサ頭の小娘！","And yet, to make matters worse! Now that you say it, that little girl with the unkempt hair!",
+そう言ったら、あのボサボサ頭の小娘！","And yet, to make matters worse! Now that you say it, that little girl with the unkempt hair!",,
 73,ヱリカ,"「むしろ終わるまで、どうして
 気がつかなかったんですか？」……とか、
-可哀想なものを見る目で言い放ちやがって！！！","And her spitting out, ""Why hadn't you realized until it was over?"" ...with those pitying eyes!!!",
+可哀想なものを見る目で言い放ちやがって！！！","And her bluntly saying, ""Why hadn't you realized until it was over?"" ...with those pitying eyes!!!",spitting out -> bluntly saying,
 77,ヱリカ,"だって仕方ないじゃないですか！
 万が一どころか、億が一、
-いや兆が一、京が一、垓が一！","Because it couldn't have been helped! Not even in ten thousand worlds, nor a hundred million, no, even a trillion, ten quadrillion, one hundred quintillion!!!",
+いや兆が一、京が一、垓が一！","It couldn't have been helped! Even if it was one in ten thousand worlds, or a hundred million, no, even a trillion, ten quadrillion, one hundred quintillion!!!",Reworded,
 80,ヱリカ,"砂塵のように小さくとも、
-古手梨花が我が主の可能性があるなら！","Just like the pebbles in a sandstorm are small, there is a possibility that Rika Furude is my master!",
+古手梨花が我が主の可能性があるなら！","Just like the pebbles in a sandstorm are small, there is a possibility that Rika Furude is my master!",,
 84,ヱリカ,"神社を掃除しないわけには
-いかないじゃないですかぁぁあぁあああ！！！",As if I couldn't be cleaning this shrine right nooooooooooooowwwwww!!!!!!!!!!,
-87,ヱリカ,はー、はー、はー……。,"Hah, hah, hah...",
-89,ヱリカ,ふー……。,Hooo...,
+いかないじゃないですかぁぁあぁあああ！！！",As if I couldn't be cleaning this shrine right nooooooooooooowwwwww!!!!!!!!!!,,
+87,ヱリカ,はー、はー、はー……。,"Haah, haah, haaah...",,
+89,ヱリカ,ふー……。,Hooo...,,
 91,ヱリカ,"しかし、勢い余って飛び出したせいで
 肝心のターゲットの居場所を
-聞くのを忘れてしまいました。","However, as a result of me getting carried away, I accidentally forgot to hear about where my main target is located.",
+聞くのを忘れてしまいました。","However, as a result of me getting carried away, I accidentally forgot to investigate where my main target is located.",hear about -> investigate,
 93,ヱリカ,"あてどなく歩いても、山！　森！　田んぼ！
-本ッ当にこれだから田舎は嫌なんです！","No matter where I go, the mountains, the forest, the paddies, all of this is why I really HATE the countryside!",
+本ッ当にこれだから田舎は嫌なんです！","No matter where I go, the mountains, the forest, the paddies, all of this is why I really HATE the countryside!",,
 95,ヱリカ,"……はぁ。というかあの小娘、誰の許可を取って
 我が主に似た姿を取っていたんでしょうか。
-今度会ったら、キッチリと問いたださねば。","...*sigh*. I mean really, whose permission did that little girl get to resemble my master so much? The next time I see her, I'm going to interrogate her on it without fail. ",
-97,ヱリカ,ん？　あそこを歩いているのは……。,Hm? The one walking over there is...,
-101,？？？？,…………。,............,
-108,ヱリカ,ちょっと、古手梨花！,"Hold on, Rika Furude!",
-115,？？？？,…………？,............?,
+今度会ったら、キッチリと問いたださねば。","...*sigh*. I mean really, whose permission did that little girl get to resemble my master so much? The next time I see her, I'm going to interrogate her on it without fail. ",,
+97,ヱリカ,ん？　あそこを歩いているのは……。,Hm? The one walking over there is...,,
+101,？？？？,…………。,............,,
+108,ヱリカ,ちょっと、古手梨花！,"Hold on, Rika Furude!",,
+115,？？？？,…………？,............?,,
 118,ヱリカ,"なんですか、その不思議そうな間抜け面は。
-あんたのことですよ。","What is that strange and foolish look? You, over there.",
+あんたのことですよ。","What is that strange and foolish look? You, over there.",,
 120,ヱリカ,"さっきは言い忘れていましたが、
-私は人を探していたんです。","I forgot to say this earlier, but I am searching for someone.",
-122,ヱリカ,とても生意気な小娘で、名前は……ん？,"She's a super audacious child, and her name is... hm?",
-127,？？？？,くす……くすくす。,*giggle*... *giggle*giggle*.,
-130,ヱリカ,なにがおかしいんですか、古手梨花。,"What's so funny, Rika Furude?",
+私は人を探していたんです。","I forgot to say this earlier, but I am searching for someone.",,
+122,ヱリカ,とても生意気な小娘で、名前は……ん？,"She's a super audacious child, and her name is... hm?",,
+127,？？？？,くす……くすくす。,*giggle*... *giggle*giggle*.,,
+130,ヱリカ,なにがおかしいんですか、古手梨花。,"What's so funny, Rika Furude?",,
 133,ヱリカ,"ん？　……古手梨花？
-フルデ……ん？　んんっ？",Hm? ... Rika Furude? Fu-ru-de... hm? Hmm?,
-137,？？？？,くすくす……おかしいに決まっているじゃない。,*giggle*giggle*... It's obvious what's so funny.,
+フルデ……ん？　んんっ？",Hm? ... Rika Furude? Fu-ru-de... hm? Hmm?,,
+137,？？？？,くすくす……おかしいに決まっているじゃない。,*giggle*giggle*... It's obvious what's so funny.,,
 140,？？？？,"あんたの姿が見えないから、
 わざわざこの姿になって
-様子を見に来てあげたのよ。","I couldn't find you, so I went out of my way to take this form and see what you were up to.",
+様子を見に来てあげたのよ。","I couldn't find you, so I went out of my way to take this form and see what you were up to.",,
 143,？？？？,"恩を仇で返すことにしたってわけね。
-いい趣味じゃない。","Repaying evil for good, hm? Isn't that a nice hobby.",
+いい趣味じゃない。","Repaying evil for good, hm? Isn't that a nice hobby.",,
 146,？？？？,"あんたにしてはなかなか面白いことするわね。
-悪くない、えぇ悪くないわ……ふふふふ……。","That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...",
+悪くない、えぇ悪くないわ……ふふふふ……。","That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...",,
 152,ヱリカ,"えっ、あっ……えっ？
-ま、まさか……？！","Eh, ah... huh? N-No, it couldn't be...?!",
+ま、まさか……？！","Eh, ah... huh? N-No, it couldn't be...?!",,
 159,？？？？,"ピクニックだって、クマが
 出る場所にいくのは馬鹿がすることだわ？
-それと同じよ……くすくす。",Do you know the type of idiot that would picnic out in a place where bears could come out? You're exactly the same... *giggle*giggle*.,
+それと同じよ……くすくす。",What kind of idiot goes for a picnic in a place with bears? You're exactly the same... *giggle*giggle*.,"from ""Do you know the type of idiot that would picnic out in a place where bears could come out? You're exactly the same... *giggle*giggle*.""",
 162,？？？？,"でも、駄目よ？あんたは私の駒。
-歯向かっていい相手は選ぶべきだったわね……？",But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?,
+歯向かっていい相手は選ぶべきだったわね……？",But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?,,
 166,ヱリカ,"あ、あんた……い、いえ……！
-あなたは、あなた様は……！","Y-You... n-no... thou, thine highest is...!",
+あなたは、あなた様は……！","Y-You... n-no... thou, thine highest is...!",,
 170,？？？？,"あんたがいつまでたっても戻ってこないから、
 何をしているのか暇潰しがてら、この私が
-わざわざ見に来てあげたっていうのに……。","No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you...",
+わざわざ見に来てあげたっていうのに……。","No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you...",,
 173,？？？？,"あんたが珍しいことをするから、最初は
 面白かったけど、目に余るわね。別に私はあんたなんて
-いらなくてもいいのよ……くすくすくすくす！！","I saw you doing something strange, so I was enjoying myself at first, but it really was too much. I really don't need something like you... *giggle*giggle*giggle*!!!",
+いらなくてもいいのよ……くすくすくすくす！！","I saw you doing something strange, so I was enjoying myself at first, but it really was too much. I really don't need something like you... *giggle*giggle*giggle*!!!",,
 177,ヱリカ,"あ、あぁっ、ぁっ……
-あなた様は、我が、主……？","Ah, aaah, ah... thine highness is my... master...?",
+あなた様は、我が、主……？","Ah, aaah, ah... thine highness is my... master...?",,
 181,？？？？,"正解よ…………くすくす。
-まぁ、タイムオーバーだけど？","Correct...... *giggle*. Well, isn't it game over for you?",
+まぁ、タイムオーバーだけど？","Correct...... *giggle*. Well, isn't it game over for you?",,
 188,ヱリカ,"あ、あぁ、…………あ。
-ぁぁああーーーーーーーっ？！？！！？！","Ah, aaah... ah, aaaaAAAAAAAH?!?!!?!??!",
-199,ベアトリーチェ,うーむ、派手にやっておるなぁ。,"Mmmm, this is pretty flashy, isn't it?",
+ぁぁああーーーーーーーっ？！？！！？！","Ah, aaah... ah, aaaaAAAAAAAH?!?!!?!??!",,
+199,ベアトリーチェ,うーむ、派手にやっておるなぁ。,"Mmmm, this is pretty flashy, isn't it?",,
 201,ベアトリーチェ,"しかし、ヱリカも
 疲弊から来る思考能力の低下への抵抗力は
-持ち合わせていなかったようであるな。","Nonetheless, Erika's thinking power has deteriorated from exhaustion, and she does not have the power to resist on hand.",
+持ち合わせていなかったようであるな。","Nonetheless, Erika's thinking power has deteriorated from exhaustion, and she does not have the power to resist on hand.",,
 203,ベアトリーチェ,"それにしても、貴殿には助けられたな……
-ドラノール。","All things considered, she was saved by you... Dlanor.",
-206,ドラノール,イイエ。たいしたことはしていマセン。,"No, it was not anything CONSIDERABLE.",
+ドラノール。","All things considered, she was saved by you... Dlanor.",,
+206,ドラノール,イイエ。たいしたことはしていマセン。,"No, it was not anything CONSIDERABLE.",,
 208,ベアトリーチェ,"謙遜だな。そなたからの連絡がなければ、
 あやつの「目標」を先回りして我が領土に避難、
-保護することはできなかった。","How modest. If you hadn't gotten involved, her ""goal"" would have been forestalled as she escaped to my domain, and she wouldn't have been able to be protected.",? nao?
+保護することはできなかった。","How modest. If it weren't for you, her ""target"" would not have been able to escape to our domain to be protected.",? nao?,"from ""How modest. If you hadn't gotten involved, her ""goal"" would have been forestalled as she escaped to my domain, and she wouldn't have been able to be protected."""
 210,ベアトリーチェ,"今頃、あの人物は忘れているであろうが……
-なかなか楽しいティーパーティーであったぞ。","I've been forgetting who that character is lately, but we had a very fun tea party together.",
+なかなか楽しいティーパーティーであったぞ。","I've been forgetting who that character is lately, but we had a very fun tea party together.",,
 212,ドラノール,"一方的に戦うことを強制するのは、
 私の立場からも友の立場からも
-許容できることではありマセン。","When forced into a battle out of the blue, whether it's a position I'm in or a friend's, I am not given permission to do ANYTHING.",
+許容できることではありマセン。","When forced into a battle out of the blue, whether it's a position I'm in or a friend's, I am not given permission to do ANYTHING.",,
 214,ドラノール,"……お茶、ごちそうさまデシタ。
-ミステリー談義も、大変有意義デシタ。",...Thank you for the TEA. The conversation about mysteries was also terribly WORTHWHILE.,
-216,ベアトリーチェ,うむ。満足のいく時間を過ごせたなら何よりだ。,Mhm. What's most important is that you are satisfied with spending your time with me.,
+ミステリー談義も、大変有意義デシタ。",...Thank you for the TEA. The conversation about mysteries was also terribly WORTHWHILE.,,
+216,ベアトリーチェ,うむ。満足のいく時間を過ごせたなら何よりだ。,Mhm. What's most important is that you are satisfied with spending your time with me.,,
 218,ベアトリーチェ,"にしても、ヱリカはいいのか？
-なかなかの仕置きを受けているようであるが。","Either way, is Erika going to be okay? She seems to be taking a great beating though.",
+なかなかの仕置きを受けているようであるが。","Either way, is Erika going to be okay? She seems to be taking a great beating though.",,
 220,ドラノール,"大丈夫デス。おそらくですが、あのまま
-ヱリカが見捨てられることはないデショウ。","It is ALRIGHT. I dare say in that scenario, Erika could not be ABANDONED.",
-222,ベアトリーチェ,くっくっくっ……ドラノールもそう思うか。,"*cackle*cackle*... So you think so too, Dlanor?",
-224,ドラノール,ハイ。きっと戻って来るでショウ。,YES. She will surely RETURN.,
+ヱリカが見捨てられることはないデショウ。","It is ALRIGHT. In any case, I don't think Erika will be abandoned like THAT.","from ""It is ALRIGHT. I dare say in that scenario, Erika could not be ABANDONED.""",
+222,ベアトリーチェ,くっくっくっ……ドラノールもそう思うか。,"*cackle*cackle*... So you think so too, Dlanor?",,
+224,ドラノール,ハイ。きっと戻って来るでショウ。,YES. She will surely RETURN.,,
 226,ドラノール,"それに、「彼女」との再戦は……
 もっときちんとしたルールの下で
-行われるべきデス。","And the rematch with ""her"" as well... there should be rules that are more precisely put in to PLACE.",
+行われるべきデス。","And the rematch with ""her"" as well... there should be rules that are more precisely put in to PLACE.",,
 228,ドラノール,"あの存在の出自がどうであれ、
 ミステリーに対して真摯かつ虚心な姿勢で
-臨まれる姿勢、好感が持てマシタ。","Where that being came from I have no idea, but she has an honest and open-minded approach in regards to mystery, which has given me a good impression of HER.",
-230,ベアトリーチェ,くっくっくっ、その通りだ……！,"*cackle*cackle*, exactly...!",
+臨まれる姿勢、好感が持てマシタ。","Where that being came from I have no idea, but she has an honest and open-minded approach in regards to mystery, which has given me a good impression of HER.",,
+230,ベアトリーチェ,くっくっくっ、その通りだ……！,"*cackle*cackle*, exactly...!",,
 232,ベアトリーチェ,"それにしても、そなたがヱリカの
 友である理由は何だ？
-やはり、自分にはないものに惹かれると？","That being said, what is your reason for being friends with Erika? Do opposites really attract?",
+やはり、自分にはないものに惹かれると？","That being said, what is your reason for being friends with Erika? Do opposites really attract?",,
 234,ドラノール,"……どう取っていただいてもかまいマセン。
-では、私はこれで失礼しようと思いマス。","...What becomes of it does not matter to ME. Now, I believe I will be taking my LEAVE.",
-236,ベアトリーチェ,迎えに行くのか？,Are you going out to meet her?,
+では、私はこれで失礼しようと思いマス。","...What you think of it does not matter to ME. Now, I believe I will be taking my LEAVE.",becomes -> you think,
+236,ベアトリーチェ,迎えに行くのか？,Are you going out to meet her?,,
 238,ドラノール,"ハイ。どうもこちらの盤に
-戻っているようなノデ。","YES. We will return to this board, one way or ANOTHER.",
-240,ドラノール,…………。,............,
-242,ベアトリーチェ,ドラノール？　いかがしたか？,Dlanor? How was your time here?,
+戻っているようなノデ。","YES. We will return to this board, one way or ANOTHER.",,
+240,ドラノール,…………。,............,,
+242,ベアトリーチェ,ドラノール？　いかがしたか？,Dlanor? How was your time here?,,
 244,ドラノール,"……クッキー、おいしかったデス。
-また、来てもいいデスカ？",...The cookies were DELICIOUS. Can I come AGAIN?,
-246,ベアトリーチェ,無論。次はヱリカを誘って来るがいい。,"Of course. Next time, it will be nice if we invite Erika.",
-248,ベアトリーチェ,妾はいつだって、そなたらを歓迎しようぞ。,I will always welcome you here.,
-250,ドラノール,……感謝します、ベアトリーチェ。,"...I am thankful, BEATRICE.",
+また、来てもいいデスカ？",...The cookies were DELICIOUS. May I come AGAIN?,Can -> May,
+246,ベアトリーチェ,無論。次はヱリカを誘って来るがいい。,"Of course. Next time, it will be nice if we invite Erika.",,
+248,ベアトリーチェ,妾はいつだって、そなたらを歓迎しようぞ。,You are always welcome here.,"from ""I will always welcome you here.""",
+250,ドラノール,……感謝します、ベアトリーチェ。,"...I am thankful, BEATRICE.",,
 253,ベアトリーチェ,"ふっ。ヱリカが恵まれているとは
-とても言えぬが……。","Hm, I cannot really say that Erika is blessed, but...",
-255,ベアトリーチェ,どうやら、友には恵まれたようであるな。,"Either way, it seems she was blessed with a friend.",
+とても言えぬが……。","Hm, I cannot really say that Erika is blessed, but...",,
+255,ベアトリーチェ,どうやら、友には恵まれたようであるな。,"Either way, it seems she was blessed with a friend.",,

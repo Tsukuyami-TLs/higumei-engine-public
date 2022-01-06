@@ -25,7 +25,7 @@ label event01_30_00:
  narrator 'Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.'
  narrator 'Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.'
  narrator "And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them..."
- narrator 'I wanted to ask "A-Are you okay...?". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
+ narrator '"A-Are you okay...?", was what I wanted to say, but the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  show black_cover as bg
  play audio 'audio/sfx/SE_527_door_close.wav'
@@ -103,7 +103,7 @@ label event01_30_00:
  mion "...Or so it was! Looks like they're thinking about turning it into a resort in the future."
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao '...So we were invited as trial guests?'
+ nao '...So we were invited as reviewers?'
  hide mion_v002
  show shion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -178,7 +178,7 @@ label event01_30_00:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show nao_v002 fuan at inactive
- shion "That doesn't matteerr!! It's really good, okay?!"
+ shion "That doesn't matter!! It's really good, okay?!"
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)

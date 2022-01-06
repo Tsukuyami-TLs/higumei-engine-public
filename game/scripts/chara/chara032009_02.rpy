@@ -21,7 +21,7 @@ label chara032009_02:
  nao 'Huh...?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice 'Long time no see, Nao. You seem to be in good spirits to have returned to that spot more than anything.'
+ beatrice 'Long time no see, Nao. You seemed to be in good spirits after returning home.'
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
  nao "Wh-who are you... wait, I shouldn't be asking that!"
@@ -33,22 +33,22 @@ label chara032009_02:
  beatrice 'Hoh, you still remember my name?'
  show nao_v002 fuan at nod_transform,active
  show beatrice_v001 smile at inactive
- nao 'Yes. Rather, I less understand why I had forgotten your name up until now. You gave me an intense experience after all.'
+ nao "Yes. Rather, I don't quite understand why I had forgotten about you up until now. You gave me a strong impression after all."
  show beatrice_v001 normal_close at active
  show nao_v002 fuan at inactive
- beatrice '...I see. Magic was cast on you, wiping all knowledge of myself from your memory?'
+ beatrice '...I see. Magic was cast on you, wiping all knowledge of myself from your memory.'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 normal_close at inactive
  nao '...Huh? So then, my memory is being tampered with by someone...?'
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice "Don't make such a sour face. The alterations on your memory were not to harm you, but measures taken to protect you."
+ beatrice "Don't make such a sour face. The alterations on your memory were not meant to harm you, but measures taken to protect you."
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
  beatrice 'Since the game was irregular, the Game Master figured it would be good idea to hold onto your memories relating to me.'
  show beatrice_v001 futeki_close at active
  show nao_v002 odoroki at inactive
- beatrice 'Hmm, yes... from me inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!'
+ beatrice 'Hmm, yes... by inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!'
  show nao_v002 normal at active
  show beatrice_v001 futeki_close at inactive
  nao '...Ehh, I kind of wish that I continued to forget about you.'
@@ -57,13 +57,13 @@ label chara032009_02:
  nao "Certainly, the battle between Beatrice and Erika-san gave me a headache, but... it's not going to change who I am."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 normal_close at inactive
- beatrice "*cackle*cackle*cackle*... you don't have to say it. That hesitant attitude... I'm liking it more and more. "
+ beatrice "*cackle*cackle*cackle*... you don't have to say it. That headstrong attitude... I'm liking it more and more. "
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
  nao '... Anyways, what on earth do you want from me today? Could it be that another logic battle is starting up?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Do not worry, as such caution is unnecessary. I have invited you as my boredom has gotten slightly out of hand.'
+ beatrice 'Do not worry, as such caution is unnecessary. I have merely invited you as my boredom has gotten slightly out of hand.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'What I need, is something to kill time.'
@@ -78,13 +78,13 @@ label chara032009_02:
  beatrice 'Aside from that... Nao, are you up to spectate a story I have prepared?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'Spectating, a story...?'
+ nao 'Spectate, a story...?'
  show beatrice_v001 normal_close at active
  show nao_v002 normal at inactive
  beatrice 'Mhm. Up until now, I have set up numerous stages on Rokkenjima as game boards. This time will for sure be a different locked-room murder incident.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice '...*cackle*cackle*cackle*. My games are entertaining. Not only do I observe my pieces, I move them through the gameboard as well.'
+ beatrice '...*cackle*cackle*cackle*. My games are entertaining. Not only do I watch my pieces, I move them through the gameboard as well.'
  show nao_v002 odoroki at active
  show beatrice_v001 smile at inactive
  nao "Rokkenjima...? I've heard that name somewhere... ah-?!"
@@ -100,7 +100,7 @@ label chara032009_02:
  show nao_v002 sinken at active
  nao "That's right, I just remembered...! Around October of 1986, a mysterious explosion occurred on one of the islands in the Izu Archipelago..."
  show nao_v002 sinken at active
- nao 'The relatives of a wealthy family had gathered for a meeting on a small island where a most of them lost their lives. The name of it was certainly "Rokkenjima" ... uh...'
+ nao 'The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly "Rokkenjima" ... uh...'
  show nao_v002 normal at active
  nao "...I see. That island was a certain fateful place for them, wasn't it?"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -118,7 +118,7 @@ label chara032009_02:
  nao 'Then... the game board that you made, how would one play on it, I wonder?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Oooh, then I have it you would enjoy my game?'
+ beatrice 'Oooh, then I take it you would enjoy my game?'
  show nao_v002 smile at nod_transform,active
  show beatrice_v001 smile at inactive
  nao "Yes. I like games regardless of what they are... So, what are the rules? What's the goal?"
@@ -169,16 +169,16 @@ label chara032009_02:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v014 fuan at inactive
- beatrice 'You currently are a soldier of the Dragon King Pendragon-- as a host for the Chiester Sisters. Even flying through the sky should be as easy as taking candy from a baby for you now.'
+ beatrice 'You currently are a soldier of the Dragon King Pendragon-- as a representative of the Chiester Sisters. Even flying through the sky should be as easy as taking candy from a baby for you now.'
  show nao_v014 fuan at active
  show beatrice_v001 smile at inactive
  nao '...Even Beatrice is floating normally. Just how are you flying?'
  show beatrice_v001 futeki at active
  show nao_v014 fuan at inactive
- beatrice '*cackle*cackle*cackle*... I am a witch! Something like flying through the sky is nothing strange.'
+ beatrice '*cackle*cackle*cackle*... I am a witch! Something like me flying through the sky is nothing strange.'
  show nao_v014 normal at active
  show beatrice_v001 futeki at inactive
- nao 'So, witches flew even without brooms... hup!'
+ nao 'So, witches could fly even without brooms... hup!'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2220.png' as bg
@@ -193,22 +193,22 @@ label chara032009_02:
  beatrice "Now, you wait for the boat from Niijima. You are being taken to Battler Ushiromiya's location."
  show beatrice_v001 normal at active
  show nao_v014 normal at inactive
- beatrice "There, from that man's shoes, you can witness the events that occurred on Rokkenjima with your own eyes."
+ beatrice "There, in that man's shoes, you can witness the events that occurred on Rokkenjima with your own eyes."
  show nao_v014 normal at active
  show beatrice_v001 normal at inactive
- nao 'I see. In this man "Battler\'s" viewpoint, you can move him on top of the gameboard, right?'
+ nao 'I see. You want me to move around on your game board from the perspective of this man, "Battler".'
  show beatrice_v001 smile at nod_transform,active
  show nao_v014 normal at inactive
- beatrice "That's right. Having such sharpness and frankness is key. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me."
+ beatrice "That's right. Your intelligence and honesty is good. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me."
  show nao_v014 odoroki at active
  show beatrice_v001 smile at inactive
  nao 'Huh...?'
  show beatrice_v001 smile at active
  show nao_v014 odoroki at inactive
- beatrice "If you think about it, that makes you my furniture... Don't you think we can thnk of it like that?"
+ beatrice "If you think about it, that makes you my furniture... Don't you think we can think of it like that?"
  show nao_v014 fuan at active
  show beatrice_v001 smile at inactive
- nao 'If iyou put it that way, it makes me want to take it off...'
+ nao 'If you put it that way, it makes me want to take it off...'
  show beatrice_v001 smile_close at active
  show nao_v014 fuan at inactive
  beatrice "*cackle*cackle*cackle* It's a joke, it's a joke. Now look ahead. The game will begin from here."
@@ -223,13 +223,13 @@ label chara032009_02:
  beatrice "Enjoy the close-up seat in Battler's fight against me."
  show nao_v014 fuan at active
  show beatrice_v001 futeki at inactive
- nao "I'm not playing the game? However you put it, aren't I just watching someone else play from behind...?"
+ nao "I'm not playing the game? However you put it, am I not just watching someone else play from behind...?"
  show beatrice_v001 normal at nod_transform,active
  show nao_v014 fuan at inactive
  beatrice 'This is a game between me and Battler. Therefore, you are not the one who can be called my opponent.'
  show beatrice_v001 normal_close at active
  show nao_v014 fuan at inactive
- beatrice "It's just that, the only ones who have spectated up to now are the Witch of Miracles and the Witch of Certainty. I wanted to change things up a bit and hear your thoughts."
+ beatrice "It's just that the Witch of Miracles and the Witch of Certainty are the only ones who have spectated so far. I wanted to shake things up a little and hear your thoughts."
  show nao_v014 fuan_close at active
  show beatrice_v001 normal_close at inactive
  nao "...If it's a game, I think playing myself is more fun."
@@ -241,10 +241,10 @@ label chara032009_02:
  nao "No, not at all... It's just, I didn't know of any other way of playing a game than playing it yourself."
  show nao_v014 smile at active
  show beatrice_v001 normal at inactive
- nao 'But, well... right. If that type of enjoyment exists, then I will have to try it out.'
+ nao 'But, well... alright. If that type of enjoyment exists, then I will have to give it a shot.'
  show beatrice_v001 futeki at active
  show nao_v014 smile at inactive
- beatrice '*cackle*cackle*cackle*... This open-minded and frank attitude is an essential element to enjoying the game. Not bad at all.'
+ beatrice '*cackle*cackle*cackle*... This open-minded and honest attitude is an essential element to enjoying the game. Not bad at all.'
  show nao_v014 sinken at active
  show beatrice_v001 futeki at inactive
  nao "I'll accept those words of praise. Umm, do people normally wait for the end of the story?"
@@ -272,7 +272,7 @@ label chara032009_02:
  show beatrice_v001 futeki at mei_center
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
- beatrice "Hu, hahahahahahahaha... Once you hear Battler's greeting, it begins! How incredibly entertaining this is!"
+ beatrice "Pff, hahahahahahahaha... Once you hear Battler's greeting, it begins! How incredibly entertaining this is!"
  show beatrice_v001 futeki_close at active
  beatrice 'However, you are unrefined, Nao. If you were Maria, you would be flying around with such vigor. *cackle*cackle*cackle*!'
  show beatrice_v001 smile at active
