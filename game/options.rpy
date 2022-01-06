@@ -61,7 +61,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "audio/bgm/BGM_HOME.ogg"
+define config.main_menu_music = "<loop 2.832>audio/bgm/BGM_HOME.ogg"
 
 
 ## Transitions #################################################################

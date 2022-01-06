@@ -30,7 +30,7 @@ label chara452001_02:
  hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST2_COLLAB2.ogg"
  show nao_v002 fuan at active
  nao '...This is... Okinomiya?'
  show nao_v002 fuan at active
@@ -88,7 +88,7 @@ label chara452001_02:
  hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  show rena_v002 fuan at active
  show nao_v002 smile at inactive
  rena "The sun is setting soon...roads can be dangerous when it's dark, so I think it's better to go together with someone else."

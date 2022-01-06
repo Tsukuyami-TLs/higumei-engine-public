@@ -10,7 +10,7 @@ label event01_30_05:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST2_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
@@ -190,7 +190,7 @@ label event01_30_05:
  with Dissolve(0.2)
  stop sound
  show expression 'images/bg/AdvBg_2331.png' as bg
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_515_tableware.wav'
@@ -270,7 +270,7 @@ label event01_30_05:
  hide nao_v002
  with Dissolve(0.2)
  narrator "I'm going to try talking about... that logic battle with the witch in my dream."
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -516,7 +516,7 @@ label event01_30_05:
  pause 2.0
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'After finishing breakfast, we went back to our rooms for a bit.'
@@ -601,7 +601,7 @@ label event01_30_05:
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2221.png' as bg
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_HOME_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show shion_v004 smile at mei_left
@@ -703,7 +703,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show nao_v002 fuan_close at active
  nao 'It seems we had the same idea...'
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active

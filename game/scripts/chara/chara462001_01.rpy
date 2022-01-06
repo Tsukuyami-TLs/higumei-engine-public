@@ -10,7 +10,7 @@ label chara462001_01:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2220.png' as bg
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST6_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 smile at mei_center
@@ -100,7 +100,7 @@ label chara462001_01:
   parallel:
    linear 0.5 zoom 1.0
  pause 0.5
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 sinken at mei_left

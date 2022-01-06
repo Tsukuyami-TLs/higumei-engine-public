@@ -10,7 +10,7 @@ label chara032009_03:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2201.png' as bg
- play music 'audio/bgm/BGM_QUEST.ogg'
+ play music "<loop 3.16>audio/bgm/BGM_QUEST.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  nao "(And so, I landed down on Beatrice's game board.)"
@@ -266,7 +266,7 @@ label chara032009_03:
  hide nao_v002
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- play music 'audio/bgm/BGM_EVENT1.ogg'
+ play music "<loop 2.36>audio/bgm/BGM_EVENT1.ogg"
  show rika_v002 odoroki at mei_center
  with Dissolve(0.5)
  show rika_v002 odoroki at active

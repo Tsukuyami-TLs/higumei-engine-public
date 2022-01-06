@@ -10,7 +10,7 @@ label event01_30_10:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST6_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 normal at mei_right
@@ -345,7 +345,7 @@ label event01_30_10:
  stop music fadeout 2.0
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(3.0)
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  show white_cover onlayer curtain as fade with Dissolve(2.0)
  stop sound
  show expression 'images/bg/AdvBg_2221.png' as bg
@@ -369,7 +369,7 @@ label event01_30_10:
  stop music fadeout 0.5
  show black_cover as bg
  narrator 'I should have never come to this island.'
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
  nao 'N... n......'
  nao 'Nooooooooooooooooo!!'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
@@ -432,7 +432,7 @@ label event01_30_10:
  stop music
  nao '......Erika-san, good morning.'
  narrator "Of course, corpses don't speak."
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST6_COLLAB2.ogg"
  narrator "So, corpses don't need to breathe either."
  play audio 'audio/sfx/SE_5005_grab.wav'
  erika 'Gh......'
@@ -696,7 +696,7 @@ label event01_30_10:
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  pause 1.0
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show mion_v002 fuan at mei_right

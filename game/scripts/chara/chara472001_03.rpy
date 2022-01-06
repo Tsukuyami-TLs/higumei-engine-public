@@ -21,7 +21,7 @@ label chara472001_03:
  nao 'Wait!'
  hide nao_v001
  with Dissolve(0.2)
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_HOME_COLLAB2.ogg"
  show kazuho_v001 normal at mei_left
  show miyuki_v001 normal at mei_right
  with Dissolve(0.5)
@@ -54,7 +54,7 @@ label chara472001_03:
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
  pause 1.0
- play music 'audio/bgm/BGM_QUEST6_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST6_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 normal_close at mei_right
@@ -119,7 +119,7 @@ label chara472001_03:
  with Dissolve(0.2)
  stop sound
  show expression 'images/bg/AdvBg_2180.png' as bg
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
  camera:
   parallel:
    linear 0.5 pos (960, 540)

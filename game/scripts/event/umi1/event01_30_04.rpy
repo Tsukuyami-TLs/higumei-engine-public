@@ -10,7 +10,7 @@ label event01_30_04:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2320.png' as bg
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 2.0
@@ -53,7 +53,7 @@ label event01_30_04:
  hide shion_v002
  with Dissolve(0.2)
  narrator '...That\'s right. Isn\'t it just like what Mion-san and Shion-san said?\nIf something cannot be explained, "it" becomes a miracle... or in this case, a witch.'
- play music 'audio/bgm/BGM_TITLE_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_TITLE_COLLAB2.ogg"
  narrator 'However, if it can be explained, there is no witch. Nor the occult. Nor fantasy.'
  narrator 'Didn\'t I also say it myself? "It\'s the battle between science and the occult, right?" ... and......'
  narrator 'Ah, then Erika-san said...'
@@ -256,7 +256,7 @@ label event01_30_04:
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  stop music fadeout 0.5
  pause 1.0
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
  show nao_v002 normal at mei_left
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
@@ -331,7 +331,7 @@ label event01_30_04:
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
- play music 'audio/bgm/BGM_QUEST4_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST4_COLLAB2.ogg"
  pause 1.0
  show dlanor_v001 normal at mei_center
  with Dissolve(2.0)
@@ -485,7 +485,7 @@ label event01_30_04:
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_5036_glass_break.wav'
  show crack_effect
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
  show beatrice_v001 futeki at active
  show nao_v002 sinken at inactive
  beatrice '{umi_red}Shannon was not involved in performing the act of drawing the magic circle!{/umi_red}'
@@ -758,7 +758,7 @@ label event01_30_04:
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
  beatrice '{umi_red}Going upstairs through any other way than using the stairs, such as sawing through the walls or gliding in from the sky, is not permitted. Any other means of reaching the second floor can therefore be denied.{/umi_red}'
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
  camera:
   parallel:
    linear 0.5 pos (960, 540)

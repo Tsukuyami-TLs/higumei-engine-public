@@ -10,7 +10,7 @@ label chara452001_01:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show nao_v002 fuan at mei_right

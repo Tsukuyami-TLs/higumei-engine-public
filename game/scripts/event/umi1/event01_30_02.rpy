@@ -10,7 +10,7 @@ label event01_30_02:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2291.png' as bg
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show mion_v002 smile at mei_right
@@ -321,7 +321,7 @@ label event01_30_02:
  with Dissolve(0.2)
  narrator 'Just a Beethoven picture being in a music classroom can create a ghost story, never mind an enormous portrait like that one in a completely westernized home.'
  narrator "What's more, it's of a beautiful woman bearing the title of family alchemist. It would be weirder if a ghost story {i}didn't{/i} come out of it."
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
  with Dissolve(0.5)
@@ -585,7 +585,7 @@ label event01_30_02:
  window hide None
  stop sound
  show expression 'images/bg/AdvBg_2320.png' as bg
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 3.0

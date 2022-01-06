@@ -17,7 +17,7 @@ label chara032009_01:
  call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_351.png' as bg
- play music 'audio/bgm/BGM_EVENT1.ogg'
+ play music "<loop 2.36>audio/bgm/BGM_EVENT1.ogg"
  call wipein_routine
  show satoko_v002 fuan at mei_right
  show rika_v002 smile at mei_left

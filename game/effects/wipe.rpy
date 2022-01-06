@@ -109,9 +109,9 @@ label chapter_end:
     $ timeout = 2.0
     $ timepause = 1.0
     $ timein = 1.0
-    show chend_cover onlayer curtain as fade:
-       alpha 0.0
-       linear timeout alpha 1.0
+    show chend_cover:
+        alpha 0.0
+        linear timeout alpha 1.0
     show expression "gui/higulogo_mei.png" as logo onlayer curtain:
         alpha 0.0
         zoom 0.4
@@ -127,3 +127,4 @@ label chapter_end:
     show expression "gui/higulogo_mei.png" as logo onlayer curtain:
         linear timein alpha 0.0
     $ renpy.pause(timein)
+    hide chend_cover

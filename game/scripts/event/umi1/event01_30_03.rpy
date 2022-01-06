@@ -10,7 +10,7 @@ label event01_30_03:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST2_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'I thought I could just close my eyes for 10 minutes, and sure enough, I fell asleep.'
@@ -189,7 +189,7 @@ label event01_30_03:
  window hide None
  stop music fadeout 2.0
  pause 3.0
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  narrator 'After dinner, we all sat down in front of the TV, relaxing on the sofa.'
  narrator "After getting pleasantly stuffed from all that food, I got the strange feeling that I had done my best today, even though I haven't done much at all lately."
  narrator 'Of course, "Detective Wanyan" was on TV. The cast on the show has multiplied since the last time I watched it.'
@@ -322,7 +322,7 @@ label event01_30_03:
  show shannon_v001 smile at active
  show nao_v002 normal at inactive
  shannon 'Right here, right now, she surely "exists".'
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
  hide shannon_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -383,7 +383,7 @@ label event01_30_03:
  shannon 'Nao-sama... Saying things like that can be very--'
  play audio 'audio/sfx/SE_5029_slap_back.wav'
  pause 0.5
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_HOME_COLLAB2.ogg"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -675,7 +675,7 @@ label event01_30_03:
  hide jessica_v001
  with Dissolve(0.2)
  pause 2.0
- play music 'audio/bgm/BGM_QUEST2_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST2_COLLAB2.ogg"
  narrator 'When you play a board game for the first time, you usually spend quite some time going over all of the rules.'
  show jessica_v001 fuan at mei_center
  with Dissolve(0.5)
@@ -871,7 +871,7 @@ label event01_30_03:
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2320.png' as bg
- play music 'audio/bgm/BGM_QUEST7_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(2.0)
  pause 1.0

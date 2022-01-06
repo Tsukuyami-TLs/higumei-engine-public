@@ -10,7 +10,7 @@ label event01_30_09:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST1_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_left
@@ -223,7 +223,7 @@ label event01_30_09:
  erika "You've got a discerning eye. Naturally, this isn't the penlight's only feature."
  show erika_v001 normal_close at active
  erika 'Before explaining its features, let me reveal the secret behind this doorknob.'
- play music 'audio/bgm/BGM_QUEST3_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
  show erika_v001 normal at active
  erika 'Me mentioning that I forgot to lock my door in front of everybody was all a trap designed to draw in the culprit.'
  show erika_v001 normal at active
@@ -391,7 +391,7 @@ label event01_30_09:
  pause 1.0
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
- play music 'audio/bgm/BGM_BOSS1_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_BOSS1_COLLAB2.ogg"
  camera:
   parallel:
    linear 0.5 pos (960, 540)

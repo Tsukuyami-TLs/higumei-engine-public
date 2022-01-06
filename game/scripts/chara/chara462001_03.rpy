@@ -17,7 +17,7 @@ label chara462001_03:
  call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_782.png' as bg
- play music 'audio/bgm/BGM_QUEST5_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
  call wipein_routine
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
@@ -166,7 +166,7 @@ label chara462001_03:
  with Dissolve(0.5)
  show erika_v001 sinken at active
  erika "What's so funny, Rika Furude?"
- play music 'audio/bgm/BGM_QUEST1_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST1_COLLAB2.ogg"
  show erika_v001 sinken_close at active
  erika 'Hm? ... Rika Furude? Fu-ru-de... hm? Hmm?'
  hide erika_v001
@@ -234,7 +234,7 @@ label chara462001_03:
   parallel:
    linear 0.5 zoom 1.0
  pause 0.5
- play music 'audio/bgm/BGM_QUEST11_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST11_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_left

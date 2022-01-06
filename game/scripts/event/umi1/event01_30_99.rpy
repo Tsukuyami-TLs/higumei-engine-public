@@ -54,7 +54,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  nao 'A.........  magic circle.........'
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg"
  hide nao_v002
  with Dissolve(0.2)
  narrator 'I was enraptured by that horrible magic circle. That was when the Sonozakis spoke.'
@@ -124,7 +124,7 @@ label event01_30_99:
  narrator 'While I was cowering in fear at the magic circle... the Wanyan adoring Sonozaki sisters must have been laughing at me with disgusting smiles.'
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg
- play music 'audio/bgm/BGM_BATTLE1_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_BATTLE1_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator "...And... from here on it's a world beyond my understanding.\nIt's said that monsters are drawn to each other, but who would've thought that'd turn out to be true..."
@@ -219,7 +219,7 @@ label event01_30_99:
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2271.png' as bg
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
@@ -398,7 +398,7 @@ label event01_30_99:
  play sound ['audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav','audio/sfx/SE_5043_wave.wav'] fadeout 1.0
  stop sound
  show expression 'images/bg/AdvBg_2101.png' as bg
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_HOME_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show erika_v001 normal at mei_right
@@ -520,7 +520,7 @@ label event01_30_99:
  erika 'Wh... What?! ...What is this?!'
  stop sound
  show expression 'images/bg/AdvBg_2101.png' as bg
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show shion_v011 fuan at mei_left

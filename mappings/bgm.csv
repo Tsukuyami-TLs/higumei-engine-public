@@ -14,7 +14,8 @@
 曲：うみねこコラボWorldenddominator,BGM_BATTLE1_COLLAB2
 曲：うみねこコラボdir,BGM_TITLE_COLLAB2
 曲：うみねこコラボdai_008,BGM_QUEST9_COLLAB2
-曲：クエスト選択,BGM_QUEST
-曲：危険,BGM_EVENT5
-曲：疑惑,BGM_EVENT6
-曲：楽しい,BGM_EVENT1
+曲：クエスト選択,BGM_QUEST,3.16
+曲：危険,BGM_EVENT5,5.836
+曲：疑惑,BGM_EVENT6,1.87
+曲：楽しい,BGM_EVENT1,2.36
+placeholder,BGM_HOME,2.84

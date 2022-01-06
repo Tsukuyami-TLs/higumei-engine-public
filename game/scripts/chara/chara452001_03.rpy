@@ -13,7 +13,7 @@ label chara452001_03:
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'Several days later...'
- play music 'audio/bgm/BGM_HOME_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_HOME_COLLAB2.ogg"
  nao 'Thank you very much----!'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
@@ -39,7 +39,7 @@ label chara452001_03:
  nao 'This place...! So that means...?'
  hide nao_v002
  with Dissolve(0.2)
- play music 'audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg"
  show nao_v002 odoroki at mei_right
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
@@ -170,7 +170,7 @@ label chara452001_03:
  show beatrice_v001 normal at active
  show nao_v002 smile at inactive
  beatrice '............'
- play music 'audio/bgm/BGM_QUEST8_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST8_COLLAB2.ogg"
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
  beatrice 'I would like to ask you something.'
@@ -276,7 +276,7 @@ label chara452001_03:
  hide miyuki_v002
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- play music 'audio/bgm/BGM_GACHA_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v002 odoroki at active
@@ -349,7 +349,7 @@ label chara452001_03:
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
  pause 1.0
- play music 'audio/bgm/BGM_QUEST9_COLLAB2.ogg'
+ play music "<loop 0>audio/bgm/BGM_QUEST9_COLLAB2.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_center

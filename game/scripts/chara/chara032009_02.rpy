@@ -10,7 +10,7 @@ label chara032009_02:
  stop music
  stop sound
  show expression 'images/bg/AdvBg_2190.png' as bg
- play music 'audio/bgm/BGM_EVENT6.ogg'
+ play music "<loop 1.87>audio/bgm/BGM_EVENT6.ogg"
  hide fade onlayer curtain
  with Dissolve(1.0)
  show beatrice_v001 smile at mei_right
@@ -126,7 +126,7 @@ label chara032009_02:
  show beatrice_v001 futeki at active
  show nao_v002 smile at inactive
  beatrice 'That is, well... look here.'
- play music 'audio/bgm/BGM_EVENT5.ogg'
+ play music "<loop 5.836>audio/bgm/BGM_EVENT5.ogg"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -156,7 +156,7 @@ label chara032009_02:
  nao 'Kya... uh, huh?'
  show nao_v014 fuan at active
  nao "I'm, I'm floating...?"
- play music 'audio/bgm/BGM_QUEST.ogg'
+ play music "<loop 3.16>audio/bgm/BGM_QUEST.ogg"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
