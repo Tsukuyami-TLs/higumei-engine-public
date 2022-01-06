@@ -77,6 +77,7 @@ style frame:
 
 
 style button_story:
+    activate_sound "audio/sfx/SE_002_Decision.wav"
     background Frame("gui/button/FrmBlood.png", left=280, top=20, right=240, bottom=None, tile=False)
     xminimum 1300
     yminimum 140
@@ -87,6 +88,7 @@ style button_story_text:
 
 
 style button_back:
+    activate_sound "audio/sfx/SE_003_Cancel.wav"
     idle_background "gui/button/BtnBackBlank.png"
     hover_background "gui/button/BtnBackBlankOn.png"
     xpos 40
@@ -322,7 +324,9 @@ screen navigation():
         spacing gui.navigation_spacing
 
         if main_menu:
-            textbutton _("Start") action ShowMenu("story_select")
+            textbutton _("Start"):
+                activate_sound "audio/sfx/SE_002_Decision.wav"
+                action ShowMenu("story_select")
             textbutton _("Load") action ShowMenu("load")
             textbutton _("Preferences") action ShowMenu("preferences")
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
@@ -354,6 +358,7 @@ style navigation_button is gui_button
 style navigation_button_text is gui_button_text
 
 style navigation_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     size_group "navigation"
     properties gui.button_properties("navigation_button")
 
@@ -437,7 +442,9 @@ screen game_menu(title, scroll=None, yinitial=0.0):
         textbutton _("Main Menu") action MainMenu()
         if _in_replay:
             textbutton _("End Replay") action EndReplay(confirm=True)
-        textbutton _("Return") action Return()
+        textbutton _("Return"):
+            activate_sound "audio/sfx/SE_003_Cancel.wav"
+            action Return()
 
     label title
 
@@ -500,6 +507,7 @@ style game_menu_label_text:
     yalign 0.5
 
 style return_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     xpos gui.navigation_xpos
     yalign 1.0
     yoffset -45
@@ -662,12 +670,15 @@ style page_label_text:
     hover_color gui.hover_color
 
 style page_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("page_button")
 
 style page_button_text:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_text_properties("page_button")
 
 style slot_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("slot_button")
 
 style slot_button_text:
@@ -809,6 +820,7 @@ style radio_vbox:
     spacing gui.pref_button_spacing
 
 style radio_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("radio_button")
     foreground "gui/button/radio_[prefix_]foreground.png"
 
@@ -819,6 +831,7 @@ style check_vbox:
     spacing gui.pref_button_spacing
 
 style check_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("check_button")
     foreground "gui/button/check_[prefix_]foreground.png"
 
@@ -829,6 +842,7 @@ style slider_slider:
     xsize 525
 
 style slider_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("slider_button")
     yalign 0.5
     left_margin 15
@@ -1074,6 +1088,7 @@ style help_label_text is gui_label_text
 style help_text is gui_text
 
 style help_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("help_button")
     xmargin 12
 
@@ -1130,7 +1145,9 @@ screen confirm(message, yes_action, no_action):
                 spacing 150
 
                 textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton _("No"):
+                    activate_sound "audio/sfx/SE_003_Cancel.wav"
+                    action no_action
 
     ## Right-click and escape answer "no".
     key "game_menu" action no_action
@@ -1153,6 +1170,7 @@ style confirm_prompt_text:
     layout "subtitle"
 
 style confirm_button:
+    activate_sound "audio/sfx/SE_004_Tap.wav"
     properties gui.button_properties("confirm_button")
 
 style confirm_button_text:

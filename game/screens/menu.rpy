@@ -97,9 +97,16 @@ screen story_select():
         hbox:
             spacing 18
 
-            imagebutton idle "gui/button/BtnCharaStory.png" action ShowMenu("characters")
-            imagebutton idle "gui/button/BtnTips.png" at grayscale action NullAction()          
-            imagebutton idle "gui/button/BtnEventStory.png" action ShowMenu("events")
+            imagebutton idle "gui/button/BtnCharaStory.png":
+                activate_sound "audio/sfx/SE_002_Decision.wav"
+                action ShowMenu("characters")
+
+
+            imagebutton idle "gui/button/BtnTips.png" at grayscale action NullAction()
+
+            imagebutton idle "gui/button/BtnEventStory.png":
+                activate_sound "audio/sfx/SE_002_Decision.wav"
+                action ShowMenu("events")
 
 
 ## Character Story Select screen ############################################################
