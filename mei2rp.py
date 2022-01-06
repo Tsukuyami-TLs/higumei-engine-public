@@ -37,7 +37,8 @@ with open('mappings/bgm.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
         if len(line) < 2: continue
-        BGM[line[0]] = line[1]
+        loop = 0 if len(line) < 3 else line[2]
+        BGM[line[0]] = line[1], loop
 
 with open('mappings/se.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
@@ -328,9 +329,10 @@ camera:
         self.outlines.append('call wipein_routine')
 
     def bgm2(self, typ, line, cmd):
-        name = BGM[line["arg0"]]
+        name = BGM[line["arg0"]][0]
         name = f"audio/bgm/{name}.ogg"
-        self.outlines.append(f'play music {repr(name)}')
+        looptime = BGM[line["arg0"]][1]
+        self.outlines.append(f'play music "<loop {looptime}>{name}"')
 
     def bgmstop(self, typ, line, cmd):
         if "arg0" in line:
