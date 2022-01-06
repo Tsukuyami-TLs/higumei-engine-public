@@ -144,7 +144,7 @@ Nevertheless, matching up to said high spirits would be just what my opponent wi
 驚かないわ。","Well, I {i}am{/i} facing off with {i}Beatrice{/i} right now. Whoever else appears shouldn't be a surprise.",
 254,ドラノール,菜央。私は味方デス。ドラノールと申しマス。,"Nao, I am your ALLY. Dlanor is my NAME.",
 256,ドラノール,"今、貴女が臨んでいるのは、魔女のゲーム。ルールに則らねば、勝
-つことは出来ないのデス。","What you are confronted with right now is the witch's GAME. According to the rules, winning is IMPOSSIBLE.",
+つことは出来ないのデス。","What you are confronted with right now is the witch's GAME. If you don't follow the rules, winning will be IMPOSSIBLE.",
 258,Nao (Casual),"ルール？　罰ゲームをかけた部活ボードゲームの次は、魔女とのゲ
 ームなのね。退屈しないことだわ。","Rules? First it was club tabletops with punishment games, and now it's a witch's game. I hope this won't be too boring.",
 260,ドラノール,菜央。貴女はヱリカの言葉を覚えているはずデス。,"Nao, you should remember Erika's WORDS.",
@@ -214,8 +214,8 @@ Nevertheless, matching up to said high spirits would be just what my opponent wi
 385,Nao (Casual),まずは状況を、簡単に整理してみるわ。,"First, let's try to get the conditions in order.",
 388,,"　あたしたちは夕食に呼ばれて部屋を出るまで、ずっと室内で過ご
 していた。
-　当然、その時点ではあたしのベッドに異常はない。","From the point we were called out for dinner to the point we left the room, not once did we leave. Of course, by that time, nothing was wrong with my bed.",
-389,,そして部屋から出る時に施錠した。,"And when we left the room, we locked it.",
+　当然、その時点ではあたしのベッドに異常はない。","We did not leave our room at all until we were called out for dinner. Of course, by that time, nothing was wrong with my bed.",
+389,,そして部屋から出る時に施錠した。,"And when we did leave the room, we locked it.",
 390,,"　夕食後、そのまま朱志香さんも加わって、ボードゲームで遊ん
 だ。","After dinner, Jessica-san joined in, and we played a board game.",
 391,,"　そして就寝する為に部屋に戻り、開錠。……そして、そこには魔
@@ -231,7 +231,7 @@ Nevertheless, matching up to said high spirits would be just what my opponent wi
 408,Nao (Casual),ってね。,Right?,
 411,,"　何だか、回りくどい言い方。
 　じゃあ逆に言うなら、魔法陣を描かずに犯行を行なうことは出来
-る……？","What a roundabout way of saying it. Another way of saying this, then, is that someone {i}can perform{/i} the crime of drawing the magic circle...?",
+る……？","What a roundabout way of saying it. Another way of saying this, then, is that someone can perform the crime without drawing the magic circle...?",
 417,Nao (Casual),"#4169e1紗音さんは、魔法陣は描いていないけれど、魔法陣の描いたシーツ#r
 #4169e1を、あたしのベッドに敷くことは出来たわ。#r","{umi_blue}Shannon-san didn't draw the magic circle, but she could have laid the sheets with the magic circle on my bed.{/umi_blue}",
 419,ドラノール,"有効デス。紗音には、予め何者かが用意した魔法陣のシーツを隠し
@@ -265,7 +265,7 @@ at chapter 5, C91 (by Jevil)"
 戻るつもりでいた。","Moreover, she even came back from the room as soon as we had broached the topic of the window lock.",
 455,Nao (Casual),"２階に上がる機会を得たのはたまたまよ。そのたまたまの為に紗音
 さんが、いつも魔法陣のシーツを隠し持っているなんて、現実的
-じゃない。","It just so happened that going upstairs gave her that chance. Even with that chance, it isn't realistic for Shannon-san to be holding the magic circle sheets the entire time.",
+じゃない。","It just so happened that going upstairs gave her that chance. It's unrealistic for Shannon-san to have the magic circle sheets on her the entire time, even with that once chance.",
 457,Nao (Casual),"……ベアトリーチェ。議論が紗音さんだけで迷走してるとつまらな
 いでしょ？　そこをはっきりしてもらうわ。",...Beatrice. Wouldn't this be too boring if this argument was just about Shannon-san straying from us? Make this clear for me.,
 461,ドラノール,そういう時は、復唱を要求するといいデス。私がやりまショウ。,"At times like this, you can have her repeat what you SAY. Allow me to try IT.",
@@ -317,7 +317,7 @@ at chapter 5, C91 (by Jevil)"
 538,Nao (Casual),図星よ……。犯人は外壁を登って、窓から入ったと思ってた……。,Bullseye... I thought the culprit climbed the wall and came in through the window...,
 541,,"　最初は、デタラメでもいいから、人間に可能な犯罪であると屁理
 屈を言い切れれば勝ち、くらいに思っていた。","At first, when they said nonsense was fine, I thought just saying any crime that was possible for a human would result in me winning.",
-542,,ところが、……当たり前だが、魔女はこのゲームに#p慣#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r。,"But despite that... of course, the witch is used to this game.",idk how to transcribe the furigana (nareteiru / used to)
+542,,ところが、……当たり前だが、魔女はこのゲームに#p慣#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r。,"But despite that... of course, this game is something the witch is a c c u s t o m e d to.",idk how to transcribe the furigana (nareteiru / used to)
 545,Nao (Casual),……なるほど。……確かに、ヱリカさんの言う通りですね。,I see... it really is like Erika-san said.,
 548,ドラノール,何がデスカ……？,What is IT...?,
 550,Nao (Casual),ミステリーには、肉体的な格闘技の一面もある、ってところです。,Mysteries have offensive and defensive components.,
@@ -335,7 +335,7 @@ at chapter 5, C91 (by Jevil)"
 566,ベアトリーチェ,そうだ。菜央。……そなたは本当に理解が早い。,"That's right, Nao. ...You really do understand fast.",
 568,ベアトリーチェ,魔女のゲームの勝敗は、妾の側には何もない。,The outcome of this witch game offers nothing for my side.,
 570,ベアトリーチェ,"勝利も、敗北も、全て、人間側の手の平の上にあるのだ。……くっ
-くっくっく！","Win or lose, the human side has the upper hand. ...*cackle*cackle*cackle*cackle*!",
+くっくっく！","Win or lose, the human side has the upper hand. ...*cackle*cackle*!",
 572,Nao (Casual),"……まずいわ。唯一、部屋に入った紗音さんは関わっていなくて、
 その上、他の誰も２階に行っていないと断じられている。","...This is bad. Shannon-san wasn't involved when she entered, and on top of that, absolutely no one else even went up to the second floor.",
 574,Nao (Casual),"一見、人間には無理な犯行に思えてくる。頭が疲れて、魔女を認め

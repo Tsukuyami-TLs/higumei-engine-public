@@ -79,7 +79,7 @@ It's said that monsters are drawn to each other, but who would've thought that'd
 　この見事な、映画の完全再現の魔法陣を描いたヱリカさんは、何
 を欲しているだろう？","Mion-san and Shion-san instantly got a grasp on the situation.
 What could Erika, who had drawn this perfect recreation of the circle from the movie, possibly want?",,,
-123,,賛辞？　あるいは驚きの声？　……そう、オーディエンスだ。,"A compliment? Or a shocked scream? ...Yes, it was an {i}audience{/i}.","from ""Erika was in the audience",,
+123,,賛辞？　あるいは驚きの声？　……そう、オーディエンスだ。,"A compliment? Or a shocked scream? ...No, it was an {i}audience{/i}.","from ""Erika was in the audience",,
 124,,"　そう。その時、壁一枚向こうのヱリカさんの部屋では……、もう
 １人のワニャラーが、めちゃくちゃキモい笑いを浮かべて、じっと
 聞いていたのだ。","That's right. In that moment, across the wall in Erika-san's room... one more Wanyanner was listening intently, letting out a disgusting laugh.",,,
@@ -91,7 +91,7 @@ What could Erika, who had drawn this perfect recreation of the circle from the m
 Isn't it a perfect recreation of Bright-sama's magic circle...?",,,
 134,ヱリカ,"さぁ、聞かせて下さいな、魅音さん、詩音さん！！
 未だに名探偵ワニャンを見ようともしない異教徒、
-菜央さんの悲鳴はたっぷりと楽しみました。","Now, do allow me to hear your praise, Mion-san, Shion-san!!
+菜央さんの悲鳴はたっぷりと楽しみました。","Now, do allow me to hear your praise, Mion-san and Shion-san!!
 I've already satisfied myself with the screams of Nao-san, who refuses to watch Detective Wanyan.",let me -> do allow me to,,
 137,ヱリカ,次はッ、あなたたちの感嘆が聞きたイィイっひひっひっひッ！！！,"Nwext, I want to hear your cries of admirationnNNIHIHIHI!!!",,,
 142,,"　ヱリカさんは耳を澄ます耳を澄ます。魅音さんと詩音さんの反応
@@ -107,11 +107,11 @@ A quiet sound, but... as if it was pressed right up next to ear.",,,
 　……それがゆっくりと滴り落ちようとする時、……ヱリカさんの
 その形相は……、不気味なくらいの……歓喜に彩られていた。","A bead of cold sweat appeared on Erika's face.
 ...As it slowly ran down Erika's forehead... her expression... was colored with... an eerie joy.",,,
-149,,こいつ、……こいつら、……まさか……ッッッ？！？！,Th-these people...... really......!?!,guys -> people,,
+149,,こいつ、……こいつら、……まさか……ッッッ？！？！,These... these people...... they couldn't have......!?!,guys -> people / really -> they couldnt have,,
 150,,"　そう。ヱリカさんがコップを押し付けて隣の部屋の声を
-うかがっている、その壁の反対側では……、","That's right. Erika-san, with the cup pressed against the wall, listens to the voice in the next room over, and hears through the wall...",,,
+うかがっている、その壁の反対側では……、",That's right. As Erika-san listened to the voices in the next room over with the cup pressed against the wall...,editz,,
 152,,"ヱリカさんの形相とまったく同じ不気味な笑みを浮かべた
-#p二#s・#r#p人#s・#r#pの#s・#r#pヱ#s・#r#pリ#s・#r#pカ#s・#rがいた……。","Two sets of creepy laughs, just like Erika's.",,,
+#p二#s・#r#p人#s・#r#pの#s・#r#pヱ#s・#r#pリ#s・#r#pカ#s・#rがいた……。",...there was {i}a creepy pair of laughs mimicking the exact way Erika-san had just laughed{/i}.,"from ""Two sets of creepy laughs, just like Erika's.",,
 155,ヱリカ,ハッ………ハハ……………ッッッ。,Ha...... haha............ nnn.,,,
 157,,こいつら……、#p聞#s・#r#pい#s・#r#pて#s・#r#pや#s・#r#pが#s・#r#pる#s・#r……ッ！！！,Those two... {i}they're listening to me{/i}!!!,,,
 158,,"　私が完璧な魔法陣を描き上げて、その感嘆の声を聴こうとして壁
@@ -352,7 +352,7 @@ I'll see you soon! <See you again. Have a nice day!>",<See you again. Have a nic
 557,Mion (バニー),"まぁまぁ。ウェディングドレス姿で、泣きながらタクシーを停めれ
 ば、ちょっとはオマケしてくれるかもしれないーって♪","Well, I think that if I stopped a taxi while wearing a wedding dress and crying, I might get a bit of a discount♪",,,
 562,ヱリカ,たくましい人たちです。くす。,You two are tireless. *giggle*,Check,just changed it to that so its easier to consume,
-565,Nao (シエスタ),こんな羞恥プレイ！　聞いてないわ！！　どうしてこんな目に！,This shameplay! I've never heard of something like this!! How could you taint me like this!?,shameless -> shameplay,,
+565,Nao (シエスタ),こんな羞恥プレイ！　聞いてないわ！！　どうしてこんな目に！,This shameplay! I've never heard of something like this!! How could you taint me!?,shameless -> shameplay,,
 568,Nao (シエスタ),"この恰好で帰るなんて、部活のコスプレ罰ゲームよりもサイアクだ
 わーッ！！",Going home dressed like this is worse than the club's cosplay punishment games!!,,,
 570,ヱリカ,くっくっくっく……。メイアイヘルプユー？,*giggle*giggle*giggle*. <May I help you?>,,,

@@ -15,7 +15,7 @@ index,chara,jp,en,I'll mark incorperated changes by changing llorona's color to 
 43,Nao (Casual),"香りも上品で素敵だけど、
 渋みが全然なくて少し甘いくらい……♪","The smell is sophisticated and wonderful, there isn't any tartness, and it's just a little sweet...♪",,,,,,,,,
 45,ベアトリーチェ,"そうであろう、そうであろう？
-実は妾も最近この紅茶がお気に入りでなぁ！","It's true, it's true. By the way, as of late, the tea has been a personal favorite of mine!",,,,,,,,,
+実は妾も最近この紅茶がお気に入りでなぁ！","It's true, it's true. By the way, as of late, this tea has been a personal favorite of mine!",the -> this,,,,,,,,
 47,ベアトリーチェ,マイブームと言うやつよ。,You could say I'm obsessed with it.,,,,,,,,,
 49,Nao (Casual),"あ……でも紅茶ってカフェインが
 コーヒー以上に入ってるはずだから、
@@ -31,7 +31,7 @@ index,chara,jp,en,I'll mark incorperated changes by changing llorona's color to 
 それに、この味わいだったらジャムとかを
 入れてみてもいいかもね。","Ah... that's right. If that's the case, you could perhaps try putting jam or something on it.",,,,,,"""... jam or something on it.""",,,
 60,ベアトリーチェ,"もちろん、ロシアンティにも合うぞ。
-次は試すが良い。","Naturally, it's a good match for Russian tea. Perhaps you can try it next.",,,,,,,,,
+次は試すが良い。","Of course, it pairs well with Russian tea. Perhaps you can try that next.",,,,,,,,,
 63,,…………。,............,,,,,,,,,
 70,Nao (Casual),"……ところで、ベアトリーチェ。
 今日あたしをここにまた呼び出したのは、
@@ -50,7 +50,7 @@ index,chara,jp,en,I'll mark incorperated changes by changing llorona's color to 
 87,Nao (Casual),えっ……？,Huh...?,,,,,,,,,
 89,ベアトリーチェ,"本来交わることのなかったそなたが
 ここに呼ばれ、こうして妾と茶を交わす。
-それに奇異を感じているのであろう？","You, as someone originally not meant to be here, have been summoned to have tea with me like this. Does this feel strange to you?",,"this is a weird line; i feel 交わる is dependant on context i don't have, as it basically means to intersect, meet, etc.",,,,,,,"I think this is referring to her being an irregular character (which she mentions she enjoys earlier b/c she's bored), but it could also just be in reference to her not being a witch"
+それに奇異を感じているのであろう？",You have been summoned to have tea with me as someone originally not meant to be here. Does that feel strange to you?,,"this is a weird line; i feel 交わる is dependant on context i don't have, as it basically means to intersect, meet, etc.",,,,,,,"I think this is referring to her being an irregular character (which she mentions she enjoys earlier b/c she's bored), but it could also just be in reference to her not being a witch"
 92,Nao (Casual),"……えぇ。正直言って身構えてるわ。
 いつあたしの尻子玉を抜こうとしてくるのか、って。","...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. ",,"nao says specifically ""pull out my shirikodama"". like the mythical kappa anus ball.",,,,,,,
 101,ベアトリーチェ,"ぷっ……くっくくははははははっ！

@@ -5,7 +5,7 @@ index,chara,jp,en,
 32,？？？？,…………。,............,
 35,ヱリカ,"……あ、あの……我が主？
 なんだかとても、お顔の色がよろしくないように
-お見受けいたしましたが……。",... U-um... my master? I do see that the color of your face is quite pale...,
+お見受けいたしましたが……。",... U-um... my master? I do see that your face is quite pale...,"delete ""the color of"""
 39,？？？？,"あら……そう？
 私はとても健康だし、心は深淵の闇のように
 澄み渡っているんだけど……。","My... is that so? But I am in good health, and my heart is as clear as the darkness of the depths of the ocean.",
@@ -13,9 +13,9 @@ index,chara,jp,en,
 ひょっとしてあの、……怒っておられますか？","That... that is, I am highly honored to know that, but would it happen that you are, um...... angered? ",
 46,？？？？,"……怒る？　私が？　あらあら、それは心外ね。
 この胸のうちで溶岩が煮えくり返るくらいに
-不機嫌になる理由が、まるで思い当たらないんだけれど。","...Angered? Me? My my, how regrettable. I have been displeasured to the point of lava boiling within my chest; nonetheless, that had not come to mind at all.",
+不機嫌になる理由が、まるで思い当たらないんだけれど。","...Angered? Me? My my, how vexing. I can't think of any reason why I would be angered as if there was hot lava boiling in my chest. ","from ""...Angered? Me? My my, how regrettable. I have been displeasured to the point of lava boiling within my chest; nonetheless, that had not come to mind at all."""
 49,？？？？,"それとも……もしかしてあんたには
-何か心当たりでもあるのかしら？",Else... I wonder if it could be that you had something else in mind?,
+何か心当たりでもあるのかしら？",Although... I wonder if it could be that you had something else in mind?,else -> although
 52,？？？？,"ああ…あるわよね。私の駒にしながら
 一人だけ敗者なんてみっともない姿を
 さらしてきたんだもの…。","Aah... there is, isn't there? Like how my own piece is a shameful loser that has brought public humiliation upon me...",
@@ -27,13 +27,13 @@ index,chara,jp,en,
 軽く付き合ってやっただけと申しますか……！","N-... no, um, uh! I-I can assure you, that was only a minor playfight with an irrelevant brat...!",
 61,ヱリカ,"け、決して負けたわけではありませんッ！
 あのままゲームを続けていれば、私の勝利は
-確実で絶対！　小揺るぎもしませんでしたッ！","As, as if I could ever lose! If the game would have continued at that rate, my victory would have been absolutely certain! Not once did it shake me!",
+確実で絶対！　小揺るぎもしませんでしたッ！","I-I never lost! If the game continued at that rate, my victory would have been absolutely certain! Not once was I shaken!","from ""As, as if I could ever lose! If the game would have continued at that rate, my victory would have been absolutely certain! Not once did it shake me!"""
 65,？？？？,"あらそう？
 それなら待ってあげてもよかったかしらね……
-なんていうとでも思った？","Is that so? If that's the case, then I do wonder if it would have been better if you had waited it out instead... have you thought of that?",
+なんていうとでも思った？","Is that so? If that's the case, then perhaps it would have been better if you had waited it out instead... did you think of that?","from ""Is that so? If that's the case, then I do wonder if it would have been better if you had waited it out instead... have you thought of that?"""
 68,？？？？,"一度別の駒に勝って、調子に乗ってんじゃないの。
 あんた私の駒のくせに思い上がるなんて
-情けなくて笑えるわ。","Once another piece wins, we get off on the wrong track. Your habit of being so conceited as a piece of mine is so pitiful, I have to laugh.",
+情けなくて笑えるわ。","When you win against another piece, you get carried away. Your habit of being so conceited as a piece of mine is so pitiful, I have to laugh.","from ""Once another piece wins, we get off on the wrong track. Your habit of being so conceited as a piece of mine is so pitiful, I have to laugh."""
 71,ヱリカ,え？　あの、別の駒とは……？,"Huh? Um, what was that about another piece?",
 75,？？？？,"……話を聞いていないようね？
 私は今、思い上がったかどうか聞いているのだけれど。",...Were you not listening to what I said? Had you or had you not just heard about how conceited you are?,
@@ -41,12 +41,12 @@ index,chara,jp,en,
 お、思い上がるなど決して、そんな……！！","Nn-noooo! I-I would never be anything close to conceited, absolutely not...!!",
 83,？？？？,"……あら、そう。でも、油断したスキをつかれて
 手ひどくしっぺ返しを食らったらしいじゃない。
-『青』でも相手を仕留めきれずに……。","...My, really? But isn't it indicative of conceit how you retaliated so poorly, left an opening for yourself out of negligence, and got eaten up? That ""blue"" couldn't even shoot down your opponent...",?
+『青』でも相手を仕留めきれずに……。","...My, really? But isn't it indicative of conceit how you retaliated so poorly, left an opening for yourself out of negligence, and got eaten up? That ""blue"" couldn't even shoot down your opponent...",
 87,ヱリカ,"んなっ？！　だ、誰がバラし……じゃないっ！
 そのような世迷いし戯言を、あなた様のお耳に
-入れたのはどなたですかっ？！","N-, AH?! WHO, WHO RATTED ME OU-... I mean! How could word of this nonsense have ever reached your greatness?!",
+入れたのはどなたですかっ？！","N-, AH?! W-WHO RATTED ME OU-... I mean! How could word of this nonsense have ever reached your greatness?!",
 91,？？？？,"説明の必要はないわ。負けるにしても、
-もう少し面白いものが見られるかと思っていたのだけれど…。","There is no need for explanation. Loss even so, I thought it was ever so entertaining to have seen, although...",
+もう少し面白いものが見られるかと思っていたのだけれど…。","There is no need for explanation. Even though you lost, I thought it was ever so entertaining to have seen, although...","from ""loss even so"""
 94,？？？？,"あんたにそんな器用な真似が
 できるはずなんてなかったわね……くすくす。",...I never could have expected you to be a competent mirror of me anyway... *giggle*.,
 97,？？？？,"とりあえず、主人である私の顔に
@@ -80,7 +80,7 @@ index,chara,jp,en,
 ベルンカステル卿にお仕置きされたのデスカ？",NO. Nothing in PARTICULAR... Hadn't Lady Bernkastel just punished YOU?,
 143,ヱリカ,"その通りッ！
 この私にここまでの罰を与えることができるのは、
-世界で我が主だけに決まっていますッ！","Exactly that! For me to have been able to receive this punishment here, of course it was done by none other than my master!",
+世界で我が主だけに決まっていますッ！","Exactly that! For me to have been able to receive such punishment, of course it was done by none other than my master!","""this punishment here"" -> ""such punishment"""
 145,ドラノール,……なぜヱリカが誇らしげなのでショウ。,...Why is Erika so boastful of this FACT?,
 151,ヱリカ,"とにかくっ！　我が主のご不興を少しでも
 鎮めるためにも、ここは第２回戦しかありません！","ANYWAYS! In order to help rid my master of her displeasure, I must absolutely fight a second time!",
@@ -90,7 +90,7 @@ index,chara,jp,en,
 あらためて菜央さんには私の優位を見せなければなりません！","Though I have regrettably departed from my friends, for my master's sake, I must once again show Nao-san my superiority over her!",
 154,ヱリカ,"菜央さんのもとへのルートはベアトリーチェが
 確保していますが、
-幸いヤツらは移動のための準備を整えている真っ最中。","Beatrice is securing my one-way ticket to Nao-san, and luckily, those people are in the middle of setting up arrangements for traveling there.",?
+幸いヤツらは移動のための準備を整えている真っ最中。","Beatrice has securing a route to Nao-san, and luckily, they're are still preparing for travel.","from ""Beatrice is securing my route to Nao-san, and luckily, those people are in the middle of setting up arrangements for traveling there."""
 155,ヱリカ,"今なら邪魔が入る心配もありません……。
 というわけでドラノール、あなたも向かいますよ！","If I move now, I will also have no worries of someone getting in my way. In other words, Dlanor, you're coming with me!",
 156,ヱリカ,"くっくっく……今度こそパーフェクトゲームで、
@@ -100,12 +100,12 @@ index,chara,jp,en,
 166,ヱリカ,んなっ？　ど、どうしてですか？！,Huuh? W-why is that?!?,
 168,ドラノール,"大法院は私的な決闘を認めマセン。
 個人的な鬱憤晴らしに判決を下そうなど、
-ミステリーに対する冒涜の極みデス。",The Great Court does not acknowledge me participating in my own DUELS. Venting my personal emotions is to be judged as the highest blasphemy against the mystery GENRE.,
+ミステリーに対する冒涜の極みデス。",The Great Court does approve of private DUELS. Venting emotions is to be judged as the highest blasphemy against the mystery GENRE.,"from ""The Great Court does not acknowledge me participating in my own DUELS. Venting my personal emotions is to be judged as the highest blasphemy against the mystery GENRE."""
 170,ドラノール,"前回は、奇跡により生まれたゲーム盤デシタ。
-内容を吟味するため、あなたに同行しただけデス。","The last time this happened, it was on a game board brought to be due to a MIRACLE. So as to carefully inspect its contents, I simply accompanied YOU.",
+内容を吟味するため、あなたに同行しただけデス。","Last time, the game board was brought about by a MIRACLE. I merely accompanied you to inspect its CONTENTS.","from ""The last time this happened, it was on a game board brought to be due to a MIRACLE. So as to carefully inspect its contents, I simply accompanied YOU."""
 172,ドラノール,"……それに、私は片づけるべき
 仕事が山積みデス。行くのはヱリカ、
-あなたお一人でお願いしマス。","...As well as this, I have a huge pile of work I should be FINISHING. I ask that the one going will be you and you ONLY.",
+あなたお一人でお願いしマス。","...Furthermore, I have a huge pile of work I should be FINISHING. I ask that the one going will be you and only YOU.",
 175,ヱリカ,"っ……わかりましたよっ！
 友人のあなたなら、私のこの気持ちを
 理解してくれると思っていましたのに……！","H... Very well! I thought that you would understand my feelings as a friend, though...!",

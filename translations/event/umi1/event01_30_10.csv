@@ -1,11 +1,11 @@
 event01_30_10.bytes,,tessie - TL,Uminetta - TL (I translated it a little bit),Lloro - QC/TL,Naegles - QC2
 index,chara,jp,en,,
 32,Nao (Casual),……漫画かアニメに登場したものだと思います。,...has been in something like an anime or a manga before.,,
-34,ベアトリーチェ,何？　も、もう一度頼む……。,Huh? C-can you repeat that once more...?,,
+34,ベアトリーチェ,何？　も、もう一度頼む……。,Huh? C-Can you repeat that once more...?,,
 36,Nao (Casual),多分。この魔法陣は、漫画かアニメに登場したものだと思います。,"I think... that this magic circle appeared in some manga or anime before, probably.",,
 39,ベアトリーチェ,何と？！　漫画……ッ？！？！,What'd you say?! Manga...?!?!,,
 43,ヱリカ,ベアトは見てないんですかー？　……名探偵ワニャン。,"Beatrice, haven't you seen it...? Detective Wanyan.",,
-46,ベアトリーチェ,え？！　わっはははは、妾はカネダ少年の事件簿派でなぁ。,"Huh?! Ahahaha, I'm more Team Kaneda Case Files, remember?",,
+46,ベアトリーチェ,え？！　わっはははは、妾はカネダ少年の事件簿派でなぁ。,"Huh?! Ahahahaha, I'm more Team Kaneda Case Files, remember?",,
 48,ベアトリーチェ,"ワニャンは子供っぽいから見ておらぬのだ。そういえば、紗音は面
 白いと言っていて勧めてきたことがあったなぁ。","Detective Wanyan is too childish, so I don't watch it. That said, I remember Shannon saying it was interesting and recommending it to me.",,
 50,ヱリカ,……マジで本当に面白いから見て下さいぃって。,"...It seriously is {i}incredibly{/i} interesting, so do please watch it.",really -> seriously is incredibly (can be more verbose probs),
@@ -22,13 +22,13 @@ index,chara,jp,en,,
 事件～』……。","...The movie, Detective Wanyan's ""Mid-Autumn's Lament: The Heartbroken Rabbits Murder Case""...",gotta find what reference it probably is first,fixed it ;;;)))
 73,ヱリカ,"この中に出てくる連続殺人犯が、現場に残す魔法陣なんです
 よぉぉ……。",The serial killer in this movie leaves magic circles on the crime sceneeeee...,,
-75,Nao (Casual),……その連続殺人犯は、……人気あるの？,Is that serial killer... popular?,,
+75,Nao (Casual),……その連続殺人犯は、……人気あるの？,...Is that serial killer...... popular?,,
 84,ヱリカ,"ありますよぉおおおおぉおぉお！！　巷じゃ、無頼人（ブライト）
-さまは、１００億の男なんて言われてるんですよぉおぉ！！","UH, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion followers in real liiiiifeeeeeee!!!!",pls review,
+さまは、１００億の男なんて言われてるんですよぉおぉ！！","Um, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion men after him in real liiiiifeeeeeee!!!!",pls review,
 86,ヱリカ,"すっごい儚くて美しくて、死でしか結ばれえない悲しき愛の貫き
 方……！！　あぁあぁ、無頼人さまぁあぁぁ……！！","It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!",also mayb review,
 93,ベアトリーチェ,"つ、……つまり。映画に登場する、イケメン犯人が現場に残すサイ
-ン、という訳なのか……。","S... So, this means in the movie, a handsome killer leaves a ""sign"" at the crime scene...?",,
+ン、という訳なのか……。","S-... So, this means in the movie, a handsome killer leaves a ""sign"" at the crime scene...?",,
 97,ヱリカ,"魔女から見て、魔法陣がおかしいのはご愛敬ですよぉお！！　作者
 の代官山剛先生はミステリーの専門家で、魔法陣の専門家じゃない
 んですからぁ！","Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Go Daikanyama, is an expert on mystery, not on magic circleeeeeess!!",name,
@@ -85,7 +85,7 @@ index,chara,jp,en,,
 200,ヱリカ,"ベ、ベアトリーチェ卿……！！　有り難きお言葉！　
 ははぁぁぁ！！","M-Miss Beatrice...!! Thank you for your wordsss!! Ha-, haaaaaahhh!!!!",added haaah / split up the ha's here so it didnt sound like a silly triumphant laugh,
 208,ドラノール,"菜央。ヱリカを誤解しないで下サイ。……ヱリカは優れた探偵も、
-憐れな犯人も同時に演じられる、素晴らしい俳優なのデス。","Nao, please do not misunderstand ERIKA. ...Erika plays her part as both an outstanding detective and a pitiable criminal, and does a fine job as an ACTRESS. ",wording mayb,
+憐れな犯人も同時に演じられる、素晴らしい俳優なのデス。","Nao, please do not misunderstand ERIKA. ...Erika plays her part both as an outstanding detective and a pitiable criminal, and does a fine job as an ACTRESS. ",wording mayb,
 210,Nao (Casual),"……わかってるわ。彼女は普段、悪役を演じているだけで、本当は
 そうじゃないってこと。","...I realize that. She's only pretending to be the villain, but normally, she actually isn't like that.",,
 212,ドラノール,"…………菜央。やはり貴女は、航海者の魔女に並ぶ、特別な人のよ
@@ -237,7 +237,7 @@ index,chara,jp,en,,
 446,Mion (Casual),"ちょっとヱリカさんの部屋に戻ろうよ！　ヱリカさん、見るからも
 う１回死んで死んで！！","Let's go check out Erika-san's room! Erika-san, we wanna see, so just die one more time, one more time!!",,
 451,Nao (Casual),……ホント皆さん、１回死んで下さい……。,"...Really, everyone, just die once......",,
-453,,このワニャラーどもは、すっごく和気藹々と楽しんでいる。,These Wanyanners are having a blast because they're so incredibly compatible.,the flow here could be better maybe,
+453,,このワニャラーどもは、すっごく和気藹々と楽しんでいる。,These Wanyanners are having a blast because they're so incredibly compatible.,,
 454,,"　昨日、何だかギスギスした言葉を交わし合っていた気がするけ
 ど、あれもきっと、ワニャンに出てくる劇中の掛け合いの真似なの
 だろう。","I feel like some pretty edgy words were being exchanged yesterday, but that was also likely... another Wanyan recital they started doing.",,
@@ -276,15 +276,15 @@ index,chara,jp,en,,
 552,Nao (Casual),魅音さんと詩音さんは１７分割に切り刻みます。,I'm going to chop you and Shion-san into 34 bits.,PLEASEE ITS PERTINENT TO THE STORY,ok but the fact the bits they would be cut into would amount to 34... lets discuss
 557,Nao (Casual),"続きまして、ヱリカさん。……あなたは本当は、見ていたんですよ
 ね？","Let's continue, Erika-san. ...Did you really see it?",watch -> see,
-559,ヱリカ,え？　何を？　ワニャンの放送はもちろん全部……、,Eh? What? Of course I saw all of Wanyan's broadcast....,,
+559,ヱリカ,え？　何を？　ワニャンの放送はもちろん全部……、,Eh? See what? Of course I saw all of Wanyan's broadcast....,added see,
 562,Nao (Casual),"あなたの部屋の魔法陣です！　詩音さんの悪戯はお昼前にはもう行
 われていたわ！",The magic circle in your room! Shion-san's prank had already been done before noon!,,
 564,Nao (Casual),"あなたは施錠前に室内を確認したけれど、異常はなかったと言いま
 した。……嘘ですよね？","You checked inside before you locked your room, but you said you found nothing out of the ordinary. ...That was a lie, wasn't it?",,
 566,ヱリカ,"……紗音さんが魔法陣を気にしなかった件で混乱しているようだっ
-たので、ちょっとからかっちゃおうと思いまして……♪",...You were so confused in the case of Shannon-san not caring about the magic circle that I thought that I'd maybe mess around with you a bit...♪,,
+たので、ちょっとからかっちゃおうと思いまして……♪",...You were so confused over the case with Shannon-san not batting an eye at the magic circle prank that I thought I'd maybe mess around with you for a little bit...♪,,
 568,Nao (Casual),"“紗音さんが魔法陣………っちゃおうと思いまして”……。４９文
-字ですね。サービスで切り上げて５０文字です。",Your statement in total had 49 vowels including y's and w's... right? I'll do you a favor and make it 50.,IM PUKIGN,
+字ですね。サービスで切り上げて５０文字です。",Your statement in total had 49 vowels... right? I'll do you a favor and make it 50.,IM PUKIGN,
 570,Nao (Casual),"さすがに５０分割は面倒臭いので、ヱリカさんはフードプロセッ
 サーに放り込んだ方が楽そうです。","50 pieces would definitely be painstaking to get to, though, so tossing Erika-san in a food processor would be much more fun.",LIKE ITS SO GENIUS,
 574,,ひーーッ、猟奇的ぃ！！　３人は悲鳴を上げる。,"""Eeeekkk, how grotesque!!"" The three shrieked.",,
@@ -294,7 +294,7 @@ index,chara,jp,en,,
 ます。","Well, since you three already apologized earnestly, I'll save mincing you up for another day.",,
 584,Mion (Casual),"はーーッ。よかったぁ！　菜央ちゃんも、ワニャンを見てたらいい
 よ！","Haaaahh. Thank goodnesss! Nao-chan, if you watched Wanyan too it would be awesome!",,
-586,詩音 (Casual),ぜーったい、映画見たら、ワニャン沼にズブズブ入りますからぁ。,"If you see the movie, you'll ABBB-SO-lutely sink deep into the Wanyan swamp.",,
+586,詩音 (Casual),ぜーったい、映画見たら、ワニャン沼にズブズブ入りますからぁ。,"If you see the movie, you'll AB-SO-lutely sink deep into the Wanyan swamp.",,
 592,ヱリカ,"ワニャン沼、いいですねぇ。今度、コラボカフェがあるそうです
 よぉ！　一緒に行きましょおー！！","Wanyan swamp, cool term. There's apparently a cafe collabing with them that opened recentlyyy! Let's go togetheeerrrr!!",,
 597,Nao (Casual),……今、最後の謎が浮かんだわ。,...The last mystery has just emerged.,,

@@ -114,7 +114,7 @@ index,chara,jp,en,,3 lines remaining,
 259,ヱリカ,"そういうことです。今から、ブラックライトで、貴女の手の平を拝
 見します。","Exactly. Now, I'm going to look at your palms under the blacklight.",,,
 261,ヱリカ,"ですが……、探偵の情けです。致命的な証拠を突きつけられる屈辱
-よりは、紳士的に自ら負けを認める機会を与えましょう。","However... I'll give you mercy as a detective. Rather than disgracing you by confronting you with lethal evidence, I'll give you the chance for a gentleman's loss and admit defeat yourself. ",wording could be better.,"from ""as a detective's mercy,",
+よりは、紳士的に自ら負けを認める機会を与えましょう。","However... I'll give you my sympathy as a detective. Rather than disgracing you by confronting you with lethal evidence, I'll give you the chance for a gentleman's loss and admit defeat yourself. ",wording could be better.,"from ""as a detective's mercy,",mercy -> my sympathy
 263,詩音 (バスタオル),"……貴女の探偵ごっこがどういうものかは知りませんが。……もし
 それに、勝ち負けがあるものならば。",...I don't know what's up with you playing detective... but if it involves victory and defeat...,,,
 271,Mion (バスタオル),"園崎姉妹は、……絶対に負けないよ。……園崎家次期頭首の血、二
@@ -225,7 +225,7 @@ index,chara,jp,en,,3 lines remaining,
 542,ヱリカ,"そんなはずないそんなはずないッ！！！　詩音が犯人ッ！！　犯人
 だあぁあっちゅゆうてんだぎゃああぁあぁ！！","That's impossible, totally impossible!!!!! Shion is the culprit!!!! She's definitely the culpriiiiiiiit!!!!!",,,
 546,Nao (Casual),"#4169e1ヱリカさんもまた、ドアノブにベッドメイク不要の札を出していま#r
-#4169e1した。つまり、使用人は誰もあの部屋には入りません。#r","{umi_blue}Erika put a ""Bedmaking Not Necessary"" tag on her doorknob so that the servants would not enter her room.{/umi_blue}",,,
+#4169e1した。つまり、使用人は誰もあの部屋には入りません。#r","{umi_blue}Erika-san put a ""Bedmaking Not Necessary"" tag on her doorknob so that the servants would not enter her room.{/umi_blue}",,,
 552,Nao (Casual),"#4169e1そして、唯一、部屋に入れたかもしれない詩音さんも、ヱリカさん#r
 #4169e1の仕掛けが逆に、無実を証明することとなりました。#r","{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika's traps, was able to prove her innocence.{/umi_blue}",,,
 557,Nao (Casual),"#4169e1以上により、第二の魔法陣事件は、ニンゲンには不可能である、魔#r
@@ -279,29 +279,29 @@ index,chara,jp,en,,3 lines remaining,
 658,ベアトリーチェ,"……この魔法陣は、外部から魔力を集めてるように見えつつ、素通
 りしておるし、このサークルに意味がまったくないし……。","...This circle looks like it's gathering magical energy from outside of it, but in reality it just passes through the circle without being collected, so it doesn't look like it has any meaning in particular. ",,,
 660,Nao (Casual),"ベアトリーチェ卿と呼ばれる大魔女のあなたの目から見て、……
-まったく意味がない？",So in the eyes of the Great Witch called Lady Beatrice... the magic circle doesn't make any sense at all?,,,
-662,ベアトリーチェ,うむ。……これは魔法陣風の、よくわからぬ紛い物だ。,Nope. ...This thing that appears to be a magic circle is an illegible fake.,,""" "" -> nope",
+まったく意味がない？","So, in the eyes of the Great Witch called Lady Beatrice... the magic circle doesn't make any sense at all?",,,
+662,ベアトリーチェ,うむ。……これは魔法陣風の、よくわからぬ紛い物だ。,Not slightly. ...This thing that appears to be a magic circle is an illegible fake.,,""" "" -> not slightly",
 667,ドラノール,"朗読役なので黙っていましたが、……魔法陣の周囲に記されている
 文字も、見たことのないものデス。","I am a Reader, so I have kept silent... but I have never seen the letters on the circumference of the summoning circle BEFORE.",reader is the same term featherine uses wrt ange.,,
 669,ドラノール,"天界大法院では膨大な種類の言語を扱いますが、……こんなものは
 一度も見たことがないデス。",The Great Court of Heaven uses a vast number of languages... but I have never seen any like THIS.,,,
-674,Nao (Casual),結論から言うと、……子供騙しの、魔法陣風の何か、ってことね？,"So from that conclusion, you could say... that this magic circle was child's play?",,some kid's trick -> child's play,
+674,Nao (Casual),結論から言うと、……子供騙しの、魔法陣風の何か、ってことね？,Then from that conclusion... you could say that this magic circle was child's play?,,some kid's trick -> child's play,
 676,ベアトリーチェ,うむ。,Mhm.,,""" """,
 678,ベアトリーチェ,しかし、この２つの魔法陣は、異なる人物が作ったのであろう？,"But these two magic circles must have been made by different people, correct?",,,
 680,ベアトリーチェ,"渦巻と二重丸の違いはありつつも、明らかに双方とも、同じ魔法陣
 を描こうとしたことは明白だ。","While the spirals and overlapping circles vary, it's clear that both parties were trying to draw the same magic circle.",,,
 682,Nao (Casual),"つまり、この魔法陣風の落書きが、複数人によって共通認識になっ
-ている可能性……。","So in essence, it's possible this magic scribble was made by several people who shared some sort of common knowledge...",,,
-684,ベアトリーチェ,……よ、よくわからぬぞ。もう少し噛み砕いてはくれぬか……。,...I... I don't understand what you mean. Can you simplify what you're saying...?,,,
+ている可能性……。","So, in essence, it's possible that this magic scribble was made by several people who had some sort of common knowledge...",,,
+684,ベアトリーチェ,……よ、よくわからぬぞ。もう少し噛み砕いてはくれぬか……。,...I-I don't understand what you mean. Can you simplify what you're saying...?,,,
 686,Nao (Casual),"今から言うことを、あなたの手番で発言してほしいの。それで、あ
-なたとあたしは、共に勝者になれる。","I want you to say what I'm about to on your turn. That way, we can both be declared the victors. ",,,
+なたとあたしは、共に勝者になれる。","I want to state this on your turn. This way, we can both be declared the victors. ",,"from ""I want you to say what I'm about to on your turn",
 695,ヱリカ,"………くぅうううぅぅぅッ……、私はなんで……ッ、六軒島では
-いっつも負けンの……ッ……ッッ！！",...Nnnnnnnggghhh...... why... why do I always lose on Rokkenjimaaaaa...!!,,kuu -> ngh,
+いっつも負けンの……ッ……ッッ！！",...Nnnnnnnggghhh...... why... why do I always lose on Rokkenjimaaaaa...?!?!,,kuu -> ngh,
 703,ベアトリーチェ,"ドラノール……。妾も素直に拝聴したい。妾の手番を、菜央に譲っ
-てやれぬか。",Dlanor... I would like to respectfully listen to Nao. May I give my turn to her?,,,
+てやれぬか。","Dlanor... In all honesty, I would like to attend to what Nao has to say. May I give my turn to her?",,"from ""I would like to listen respectfully to Nao",
 705,ドラノール,貴女が望むのなら、構いマセン。,"If that is your request, then it is FINE.",,,
 707,ドラノール,"菜央。私も聞きたいデス。……どうして紗音は、この魔法陣を見過
 ごしたのデスカ。",NAO. I would also like to hear how Shannon overlooked this magic CIRCLE.,,,
-713,Nao (Casual),ヱリカさん。探偵の情け、だったかしら。,"Mercy as a detective, huh, Erika-san?",,"from ""I wonder if Erika-san feels any detective's compassion.",
-715,ヱリカ,けっ。……負けです負けです、負けですよ……。,"Tch. ...Iost, lost... I lost...",,,
-717,Nao (Casual),多分。この魔法陣は………、,Maybe that summoning circle...,,,
+713,Nao (Casual),ヱリカさん。探偵の情け、だったかしら。,"Sympathy as a detective, huh, Erika-san?",,"from ""I wonder if Erika-san feels any detective's compassion.",
+715,ヱリカ,けっ。……負けです負けです、負けですよ……。,"Gh. ...I Iost, I lost, I lost...",,,
+717,Nao (Casual),多分。この魔法陣は………、,"So, maybe that summoning circle...",,,
