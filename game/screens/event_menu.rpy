@@ -25,6 +25,7 @@ screen tl_notes(title="", contents=""):
             
             for ntitle, ncontents in event_store.notes[event_store.current_event][:event_store.current_progress]:
                 textbutton _(ntitle):
+                    activate_sound "audio/sfx/SE_004_Tap.wav"
                     action ShowMenu("tl_notes", ntitle, ncontents)
                     selected title == ntitle
 
@@ -47,6 +48,7 @@ screen chapter_jump():
         vbox:
             for title, label in event_store.chapters[event_store.current_event]:
                 textbutton _(title):
+                    activate_sound "audio/sfx/SE_002_Decision.wav"
                     action Start(label)
                     selected label == event_store.current_chapter
 
