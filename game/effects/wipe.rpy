@@ -120,7 +120,6 @@ label chapter_end:
         linear timeout alpha 1.0
 
     $ renpy.pause(timeout, hard=True)
-    camera
     scene
     stop music fadeout 1.0
     $ renpy.pause(timepause, hard=True)
