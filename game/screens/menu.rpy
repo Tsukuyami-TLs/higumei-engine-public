@@ -4,6 +4,27 @@
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+init -2 python:
+
+    class Start(Action, DictEquality):
+        """
+         :doc: menu_action
+
+         Causes Ren'Py to jump out of the menu context to the named
+         label. The main use of this is to start a new game from the
+         main menu. Common uses are:
+
+         * Start() - Start at the start label.
+         * Start("foo") - Start at the "foo" label.
+         """
+
+        def __init__(self, label="start"):
+            self.label = label
+
+        def __call__(self):
+            renpy.transition(Dissolve(0.3))
+            renpy.jump_out_of_context(self.label)
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
