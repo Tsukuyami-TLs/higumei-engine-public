@@ -126,7 +126,7 @@ default preferences.text_cps = 100
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
 ## to 30 being the valid range.
 
-default preferences.afm_time = 15
+default preferences.afm_time = 7
 
 
 ## Save directory ##############################################################
