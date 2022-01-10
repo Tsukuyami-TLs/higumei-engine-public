@@ -83,12 +83,14 @@ define config.intra_transition = Dissolve(0.3)
 
 ## A transition that is used after a game has been loaded.
 
-define config.after_load_transition = None
+define config.after_load_transition = Dissolve(0.3)
 
 
 ## Used when entering the main menu after the game has ended.
 
-define config.end_game_transition = None
+define config.end_game_transition = Dissolve(0.3)
+define config.main_game_transition = Dissolve(0.3)
+define config.game_main_transition = Dissolve(0.3)
 
 
 ## A variable to set the transition used when the game starts does not exist.
@@ -118,13 +120,13 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 100
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
 ## to 30 being the valid range.
 
-default preferences.afm_time = 15
+default preferences.afm_time = 7
 
 
 ## Save directory ##############################################################
