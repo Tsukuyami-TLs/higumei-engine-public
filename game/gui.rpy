@@ -440,7 +440,9 @@ init python:
         ## Adjust the location of the textbox.
         gui.textbox_height = 360
         gui.name_xpos = 120
+        gui.name_ypos = 0
         gui.dialogue_xpos = 135
+        gui.dialogue_ypos = 80
         gui.dialogue_width = 1650
 
         ## Change the size and spacing of various things.
@@ -448,11 +450,20 @@ init python:
 
         gui.choice_button_width = 1860
 
-        gui.navigation_spacing = 30
+        gui.navigation_spacing = 20
         gui.pref_button_spacing = 15
 
         gui.history_height = 285
-        gui.history_text_width = 1035
+
+        ## The position, width, and alignment of the label giving the name of the
+        ## speaking character.
+        gui.history_name_xpos = 300
+        gui.history_name_width = 300
+
+        ## The position, width, and alignment of the dialogue text.
+        gui.history_text_xpos = 350
+        gui.history_text_width = 900
+
 
         gui.quick_button_text_size = 30
 

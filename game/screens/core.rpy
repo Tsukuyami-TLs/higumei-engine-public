@@ -280,22 +280,22 @@ screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
 
-    if quick_menu:
+    #if quick_menu:
 
-        hbox:
-            style_prefix "quick"
+        #hbox:
+            #style_prefix "quick"
 
-            xalign 0.5
-            yalign 1.0
+            #xalign 0.5
+            #yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            #textbutton _("Back") action Rollback()
+            #textbutton _("History") action ShowMenu('history')
+            #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Auto") action Preference("auto-forward", "toggle")
+            #textbutton _("Save") action ShowMenu('save')
+            #textbutton _("Q.Save") action QuickSave()
+            #textbutton _("Q.Load") action QuickLoad()
+            #textbutton _("Prefs") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -303,7 +303,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = False
+default quick_menu = True
 
 style quick_button is default
 style quick_button_text is button_text
@@ -380,8 +380,8 @@ screen navigation():
             textbutton _("Preferences") action ShowMenu("preferences")
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 textbutton _("Help") action ShowMenu("help")
-
-            textbutton _("About") action ShowMenu("about")
+            if renpy.variant("pc"):
+                textbutton _("About") action ShowMenu("about")
 
 
 style navigation_button is gui_button
@@ -508,6 +508,7 @@ style game_menu_exit_box:
     top_padding 0
     bottom_padding 0
     yoffset -45
+    spacing gui.navigation_spacing
 
 style game_menu_navigation_frame:
     xsize 420
@@ -1448,9 +1449,6 @@ style nvl_button_text:
 ## Mobile Variants
 ################################################################################
 
-style pref_vbox:
-    variant "medium"
-    xsize 675
 
 ## Since a mouse may not be present, we replace the quick menu with a version
 ## that uses fewer and bigger buttons that are easier to touch.
@@ -1497,6 +1495,7 @@ style game_menu_outer_frame:
     variant "small"
     background "gui/phone/overlay/game_menu.png"
 
+
 style game_menu_navigation_frame:
     variant "small"
     xsize 510
@@ -1504,6 +1503,13 @@ style game_menu_navigation_frame:
 style game_menu_content_frame:
     variant "small"
     top_margin 0
+
+style game_menu_exit_box:
+    xpos gui.navigation_xpos
+    yalign 1.0
+    top_padding 0
+    bottom_padding 0
+    yoffset -30
 
 style pref_vbox:
     variant "small"
