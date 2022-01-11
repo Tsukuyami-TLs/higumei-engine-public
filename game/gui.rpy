@@ -422,16 +422,17 @@ init python:
     ## This increases the size of the quick buttons to make them easier to touch
     ## on tablets and phones.
     if renpy.variant("touch"):
+        gui.quick_button_borders = Borders(100, 40, 100, 5)
+        gui.quick_button_text_size = 30
 
-        gui.quick_button_borders = Borders(60, 21, 60, 0)
 
     ## This changes the size and spacing of various GUI elements to ensure they
     ## are easily visible on phones.
     if renpy.variant("small"):
 
         ## Font sizes.
-        gui.text_size = 45
-        gui.name_text_size = 54
+        gui.text_size = 42
+        gui.name_text_size = 50
         gui.notify_text_size = 38
         gui.interface_text_size = 45
         gui.button_text_size = 45
@@ -442,7 +443,7 @@ init python:
         gui.name_xpos = 120
         gui.name_ypos = 0
         gui.dialogue_xpos = 135
-        gui.dialogue_ypos = 80
+        gui.dialogue_ypos = 70
         gui.dialogue_width = 1650
 
         ## Change the size and spacing of various things.
@@ -463,9 +464,6 @@ init python:
         ## The position, width, and alignment of the dialogue text.
         gui.history_text_xpos = 350
         gui.history_text_width = 900
-
-
-        gui.quick_button_text_size = 30
 
         ## File button layout.
         gui.file_slot_cols = 2
