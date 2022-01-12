@@ -569,7 +569,7 @@ screen about():
             text _("[config.version!t]\n")
             text _("""This is a Higurashi Mei Fan Translation Project. All the rights to Higurashi, Higurashi Mei, the narrative and the assets used lie with their original rights holders (07th Expansion, DTechno, Entergram).
 Please support the official release!\n""") style "disclaimer"
-            text _("""{color=ff4d4d}Credits{/color=ff4d4d}""") size 45
+            text _("""{color=cc0000}Credits{/color=cc0000}""") size 45
 
             hbox:
                 spacing 15
