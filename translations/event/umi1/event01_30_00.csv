@@ -7,7 +7,7 @@ index,chara,jp,en,Notes,,
 33,,"　彼女のネグリジェは、本当はとても可愛らしいものだったのだろ
 う。",The girl's negligee probably used to be very lovely.,"from ""The girl's negligee was no doubt actually very lovely.",,
 34,,"　しかし、刃物か何かで執拗に切りつけられて、ズタズタにされて
-しまっている。","But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.",,,
+しまっている。","But... it had been relentlessly cut by a blade or something, and torn to shreds.",,,
 35,,"　そこから溢れ出しただろう鮮血が、ネグリジェもシーツも、元が
 何色だったか思い出せないほどに染めてしまっている。",The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.,,,
 36,,"　もうひとりはガウン姿だった。……もちろん、真っ赤な鮮血に染
@@ -52,20 +52,20 @@ index,chara,jp,en,Notes,,
 79,,"　話は実に唐突だった。
 　レナちゃんから、週末の２泊３日で小さな旅行に行かないかと誘われたのだ。",The conversation came suddenly. Rena-chan asked me if I wanted to go on a short two night trip during the weekend.,,,
 80,,"　そもそも、この旅行は、レナちゃんと魅音さんと詩音さんの、３
-人で行くものだったらしい。","Originally, it was Rena-chan, Mion-san and Shion-san who were supposed to go on this trip.",,,
+人で行くものだったらしい。","Originally, it was Rena-chan, Mion-san, and Shion-san who were supposed to go on this trip.",,,
 81,,"　ところが直前で、親類の用事が出来て、レナちゃんは参加できな
 くなってしまったらしい。","But at just the last minute, a relative had some errands, and Rena-chan wasn't able to participate anymore.",,,
 85,Nao (Casual),六軒島って、個人の方が所有する小さな島……、でしたよね？,"Rokkenjima... It's a small, privately owned island, right?",,,
 88,Mion (Casual),そうそう。うだいかん家っていう、大富豪が所有していてね！,Yeah that's right! It's owned by the super rich Udaikan family!,,,
-93,Shion (Casual),お姉。右代宮（うしろみや）家です。,"Sis, it's the ""{i}Ushiromiya{/i} family"". ",,,
+93,Shion (Casual),お姉。右代宮（うしろみや）家です。,"Sis, it's the {i}Ushiromiya{/i} family. ",,,
 95,,"　伊豆諸島にある、全周１０ｋｍほどの小さな島、六軒島。
 　この島は、大富豪の右代宮家が所有する個人的な島なので、普段
-は旅行者などは立ち入ることが出来ない。","Rokkenjima is a small island with a total circumference of about 10 km, located in the Izu Archipelago. That island is a private property of the wealthy Ushiromiya family, so normally travellers and such are not allowed to go there.",,,
+は旅行者などは立ち入ることが出来ない。","Rokkenjima is a small island with a total circumference of about 10 km, located in the Izu Archipelago. The island is the private property of the wealthy Ushiromiya family, so normally travellers and such are not allowed to go there.",,,
 99,Mion (Casual),"ってことだったんだけどね！　何でも、将来、リゾート地にするこ
 とを考えてるらしくてね。",...Or so it was! Looks like they're thinking about turning it into a resort in the future.,,,
 101,Nao (Casual),……そのモニターに招待された、ということでしょうか。,...So we were invited as reviewers?,,,
 105,Shion (Casual),"最後に簡単なアンケートに答えるだけだそうです。これで、２泊３
-日の小旅行が食事つきでタダなんですから、最高ですよね！","All I have to do is to answer a simple questionnaire at the end. It's a two night trip with free meals, so it'll be great!",,,
+日の小旅行が食事つきでタダなんですから、最高ですよね！","All we have to do is to answer a simple questionnaire at the end. It's a two night trip with free meals, so it'll be great!",,,
 108,,"　右代宮家のシェフは、有名ホテルで料理長の座を争ったこともあ
 るほどの人物らしく、その料理は絶品だという。","They say the Ushiromiya family chef was good enough to have competed for the head chef position at a famous hotel, so his cooking is rumored to be excellent.",,,
 109,,"　また、手入れの行き届いた薔薇庭園も、白い砂浜も絶景との話
@@ -77,7 +77,7 @@ index,chara,jp,en,Notes,,
 117,Nao (Casual),"わかってます。別に、遊ぶことと買い物をするだけが、旅行ではあ
 りませんから。","I understand. After all, traveling isn't just about playing and shopping.",get it -> understand,,
 121,Mion (Casual),"日本人はバカンスってのをわかってないからねぇ。買い物と観光バ
-スだけが旅行だと勘違いしてるよ。","Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing bus tours.",,,
+スだけが旅行だと勘違いしてるよ。","Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing on bus tours.",,,
 123,Nao (Casual),トラベルではなく、バカンスなんですね。,We aren't going there to travel anyway; this is a vacation.,,,
 125,Mion (Casual),"素敵な洋館で、薔薇を眺めながら、しばし心を休める、誰にも急か
 されない時間……。","In this wonderful Western-style house, we can spend time resting our minds while watching the roses, not a soul there to bother us.",,,
@@ -85,7 +85,7 @@ index,chara,jp,en,Notes,,
 　素敵な薔薇を眺めながら、刺繍でもしたら、……心がすっごく、
 穏やかになるかも…、かも。","...Hearing her say that, I started to get in the mood to go a little more. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe.",Now that you say that -> Hearing her say that,,
 129,,"　費用は全て、先方持ち。それで、素敵な洋館にお泊りし、素敵な
-食事まで付いてくる。","The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. ",we can -> we'll be able to,,
+食事まで付いてくる。","The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, and follow it up with even more wonderful meals. ",we can -> we'll be able to,,
 130,,"　２泊３日をのんびり過ごし、日曜の夜には帰って来られる。
 　ちょっと強行軍だが、条件は最高だった。","We'll rest up for three days and two nights, then we'll return home Sunday night. The schedule is kind of tight, but the conditions will be well worth it.",,>,
 131,,"　そんなゴールデンチケットが、どこぞの商店街のクジの特賞にあ
@@ -108,8 +108,8 @@ index,chara,jp,en,Notes,,
 だ。",It was probably because of {i}that{/i}. When we were heading to Niijima by ferry... the sky started looking weird.,,,
 143,,"　あの、いけ好かない女。
 　……古戸ヱリカのせいで。",It has to be that unpleasant woman's... Erika Furudo's fault.,,,
-151,Mion (Casual),菜央ちゃんは見てる？　『名探偵ワニャン』！！,"Nao-chan! Are you watching ""Detective Wanyan""?!",,,
-153,Nao (Casual),……あたしは『カネダ少年の事件簿』派ですので。,"I'm more of a ""Kaneda Case Files"" person.",,,
+151,Mion (Casual),菜央ちゃんは見てる？　『名探偵ワニャン』！！,"Nao-chan! Are you watching ""{note_green}Detective Wanyan{/note_green}""?!",,,
+153,Nao (Casual),……あたしは『カネダ少年の事件簿』派ですので。,"I'm more of a ""{note_green}Kaneda Case Files{/note_green}"" person.",,,
 157,詩音 (Casual),そんなの関係ないですよー！　すっごくいいんですよー？！,"That doesn't matter!! It's really good, okay?!",,,
 163,Mion (Casual),アニメも漫画も、一切読まなくてもわかるから！,"If you don't want to watch the show or read the manga, I totally get it!",,,
 166,Mion (Casual),"だからお願い！　おじさんに騙されたと思って、劇場版ワニャンの
@@ -126,7 +126,7 @@ index,chara,jp,en,Notes,,
 185,Nao (Casual),"……なるほど。今、お二人の中では、洋館ブームが来ているという
 ことですね。","...I see. So, now you're saying the Western-style house craze is coming between you two, huh?",,,
 187,,"　#p雛見沢#sひなみざわ#rは風光明媚で合掌造りの家々が素晴らしい土地だけれど。
-だからこそ、洋風なものに憧れる気風でもあるのだろうか。","The traditional Japanese architecture of the houses paired with the scenic land in Hinamizawa makes for a splendid living area, but I suppose that's the same reason we also have a taste for Western things. ",,,
+だからこそ、洋風なものに憧れる気風でもあるのだろうか。","The traditional Japanese architecture of the houses in Hinamizawa paired with its scenic land makes for a splendid living area, but I suppose that's the same reason we also have a taste for Western things. ",,,
 190,Nao (Casual),"あたしは、雛見沢の美しさの方が素晴らしいと思いますけれ
 ど……。","I think the beauty of Hinamizawa is much more impressive, but...",,,
 192,Nao (Casual),"こういうのって、隣の芝生は何とやら、というものなんでしょう
@@ -148,7 +148,7 @@ index,chara,jp,en,Notes,,
 ている小さい子供か、さもなくば、世捨て人のような雰囲気に浸り
 たい変わり者だけだ。","So, sadly, the little children, who would otherwise be bustling around in excitement, are now submerged in a reclusive and depressing atmosphere.  ",,,
 208,,"　ほら。その後者のような雰囲気の黄昏れた少女が、柵にもたれ掛
-かり、水平線を眺めていた。","Oh, look. Just as I say it, there's a melancholic looking girl hanging onto the railing, looking out into the horizon.",,,
+かり、水平線を眺めていた。","Oh, look. Just as I said it, there was a melancholic looking girl hanging onto the railing, looking out into the horizon.",,,
 211,ヱリカ,…………………。,.....................,,,
 213,,可憐な少女に見えたのだ。……第一印象だけは。,The girl appeared sweet and cute. ...But that was only my first impression.,,,
 214,,"　再び、子供のはしゃぐ声が近付いてくる。
@@ -162,7 +162,7 @@ index,chara,jp,en,Notes,,
 に転んだ。",The child's momentum... made him fall face-first onto the deck with a bang.,,,
 222,,"　そして、ややあってから、痛みより転んだことそのものに驚い
 て、大泣きを始めた……。","Rather than from the pain, the surprise from the fall made him start bawling a bit after...",,,
-225,Nao (Casual),……だ、大丈夫？！　怪我はないわ。落ち着いて。,"...A-are you okay?! You aren't hurt, are you? Please calm down.",,,
+225,Nao (Casual),……だ、大丈夫？！　怪我はないわ。落ち着いて。,"...A-Are you okay?! You aren't hurt, are you? Please calm down.",,,
 227,,柔らかく、そして綺麗に転んでくれたようだ。怪我はない。,"Thankfully, he fell gracefully and gently. He wasn't hurt.",,,
 229,,"　やがて子供は、泣いたまま走り去ってしまう。
 　後に残されたのは、……あたしと、彼女だけだった。","The child eventually ran off, still crying. The only ones left afterwards were... just the girl and I.",,,
@@ -178,7 +178,7 @@ index,chara,jp,en,Notes,,
 ので争点になりません。","Similarly, me sticking out my leg and causing the child to fall isn't an issue as we both have witnessed this.",,,
 250,Nao (Casual),……争点は、“わざと”かどうか、っていうわけ……？,"...So, is the issue whether or not it was done {i}on purpose{/i}...?",,,
 252,ヱリカ,"グッド。この程度のことではありますが、論点の整理が早くて助か
-ります。","<Good>. This is the extent of what there is to discuss, so I'm glad we got the rest out of the way quickly.",,,
+ります。","<Good>. This level of the topic does exist, but I'm glad we got the rest out of the way quickly.",,,
 255,,"　この人は……、何を言っているの……？
 　あぁも堂々と、あからさまに。楽しそうに駆けていた子供の足を
 引っかけておいて、“わざと”じゃないつもり？！","What is this person... even saying...? Ugh, it's already so obvious with how boldly she did it. Is she seriously saying that sticking her leg out in front of a kid who seems like he's having fun {i}isn't{/i} on purpose?!",,,
@@ -242,7 +242,7 @@ index,chara,jp,en,Notes,,
 333,ヱリカ,"結果。敏腕弁護士の手によって、確かな犯行の目撃者であるにもか
 かわらず、証拠能力を否定されることもあるのです。","The result. According to the work of competent lawyers, although there may have been eyewitnesses to a crime, their ability to prove that fact may be rejected as well.",,,
 335,Nao (Casual),……そんなの……、おかしいわ……。,...That's just... insane...,,,
-337,ヱリカ,えぇ、同感です。こんなのはまったくおかしい。ナンセンス！,"Yes, I concur. It's completely insane. It's <Nonsense>!",,,
+337,ヱリカ,えぇ、同感です。こんなのはまったくおかしい。ナンセンス！,"Yes, I concur. It's completely insane. <It's nonsense>!",,,
 339,Nao (Casual),……え……？,......Huh...?,,,
 347,ヱリカ,"確かなる証拠、確かなる目撃のはずなのに、弁護士と裁判官の交渉
 だけで、決定的証拠にも、ただの見間違いにもなり得るなんて！","Even if there is clear evidence or an eyewitness, just with the negotiations between the lawyer and attorney alone, it is possible for them to rule evidence as rejectable or as a misobservation!",,,
@@ -260,7 +260,7 @@ index,chara,jp,en,Notes,,
 それを証明できないなんて！！　ああぁぁあぁ、馬鹿馬鹿しいッ。","YES, I did it on purpose! AND YES, you clearly saw it happen! But you can't even PROVE IT!!!! AAAAAAAAAAAHHH, IT'S SOOOO RIDICULOOOOOUUSSS!!!!",,,
 363,ヱリカ,"……ね？　……こんな世界に生きていることを想う時。私は無性
 に、水平線の向こうにある、美しき知性の世界に羽ばたきたいと思
-うのです。","...Isn't it? ...Reflecting on my time living in this world, as we approach the horizon, I seriously feel as though all I want to do is to flap my wings into that beautifully intellectual world up ahead. ",,,
+うのです。","...Isn't it? ......Reflecting on my time living in this world, as we approach the horizon, I seriously feel as though all I want to do is to flap my wings into that beautifully intellectual world up ahead. ",,,
 365,ヱリカ,"おや、失礼。……高尚な話過ぎて、付いていけなくなったようです
 ね。もう結構ですよ。どこぞへ立ち去って下さいな。","Oh my, do excuse me. That was too advanced for you. It seems I got a little carried away. We're already done here. Please do go stand someplace else.",,,
 372,Nao (Casual),……………………。,........................,Ryukishicore,,
@@ -306,7 +306,7 @@ index,chara,jp,en,Notes,,
 429,ヱリカ,"えぇ、不満ですよ。つまらないです。本来なら、私という客人を、
 あの魔女が持て成すべきなのに。","Yeah, it is a disappointment. It's boring. Originally, I was supposed to be the one welcomed as a guest by that witch.",,,
 431,ドラノール,ご安心を、ヱリカ。,"Do not worry, ERIKA.",,,
-433,ドラノール,貴女は探偵デス。探偵が訪れるところ、事件あり、デス。,"You are a DETECTIVE. When a detective visits, an incident OCCURS.",,,
+433,ドラノール,貴女は探偵デス。探偵が訪れるところ、事件あり、デス。,"You are a DETECTIVE. Where a detective visits, an incident OCCURS.",,,
 435,ドラノール,必ずや、六軒島は貴女を退屈させない事件を、用意してくれマス。,Surely there is an incident stirring up on Rokkenjima that will not leave you BORED.,,,
 437,ヱリカ,"まぁ、そうですよね。私は探偵ですから。どこへ行っても、事件が
 起こってしまう。","Well, I guess you are right. I am the detective after all. Wherever I go, an incident will occur.",,,

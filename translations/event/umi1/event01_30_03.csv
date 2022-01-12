@@ -4,14 +4,14 @@ index,chara,jp,en,,
 定、かなり眠ってしまっていたようだ。","I thought I could just close my eyes for 10 minutes, and sure enough, I fell asleep.",,
 31,,"　魅音さんと詩音さんも眠っていたが、あたしがもぞもぞと起き上
 がる気配で目が覚めたようだった。","Mion-san and Shion-san are asleep too, but I woke up from feeling like I was tossing and turning.",,
-34,Nao (Casual),……いっけない。さすがに寝すぎたかも。……かも。,"...Oh gosh. As expected, I probably overslept... maybe.",I guess -> maybe (for nao),
+34,Nao (Casual),……いっけない。さすがに寝すぎたかも。……かも。,...Oh gosh. I might have... overslept after all... maybe.,I guess -> maybe (for nao),
 40,Mion (Casual),"ふぁ～～あぁ！　よっく寝たぁ。おじさん、元気チャージ
 １２０％！",Ha~aah! I slept goood! This ol' man's charged up 120%!,,
 42,詩音 (Casual),今、何時ですか？　え、もう午後６時過ぎなんですか。,"What time is it right now? Huh, it's already after 6:00?",,
 44,Mion (Casual),雨も止んでるね。これは明日は、最高の撮影日和になるよ！,That rain is coming down too. Tomorrow's gonna be big picturesque!,,
 48,Nao (Casual),……窓の鍵。直ったんですか？,...The window lock. Did you manage to fix it?,,
 50,Mion (Casual),ん？　えへへ～………。,Hm? Ehehe~...,,
-54,詩音 (Casual),無理でした。後で使用人さんに謝って下さい。,It was impossible. Please apologize to a servant later.,,
+54,詩音 (Casual),無理でした。後で使用人さんに謝って下さい。,I guess not. Please apologize to a servant later.,,
 57,Mion (Casual),はあい……。,Okayy...,,
 60,,その時、部屋に置かれた内線電話が鳴った。,"At that moment, the house phone in the room rang.",,
 64,Nao (Casual),あ、えっと、はい、もしもしっ。,"Ah, umm, yes, hello?",,
@@ -33,11 +33,11 @@ index,chara,jp,en,,
 聞こえる。","Through the door, I could hear a grunting voice grappling with those long twintails.",,
 98,,"　あれだけの長さの髪って、ちょっと憧れるけど、やっぱりお手入
 れは大変ね……。","I've been kind of longing for hair as long as that, but it really is a big handful...",,
-102,Mion (Casual),うわ、もういい匂いがするよ～！,"Waahh, I already smell the deliciousness from here~!",,
+102,Mion (Casual),うわ、もういい匂いがするよ～！,"Mmm, I already smell the deliciousness from here~!",,
 104,詩音 (Casual),#p雛見沢#sひなみざわ#rではなかなか嗅げない匂いですねぇ。,"This is definitely a smell you wouldn't get in Hinamizawa, huh?",,
 108,Nao (Casual),"ランチの時点で期待値が最高だから、ディナーもすっごく楽しみで
 す。","Lunch earlier was the absolute best it could have been, so I'm super looking forward to dinner!",,
-111,Mion (Casual),やっぱり、ご飯は大事だよねぇ！,"As expected, meals decide everything, huh?!",,
+111,Mion (Casual),やっぱり、ご飯は大事だよねぇ！,"Meals really do decide everything, huh?!",,
 120,紗音,皆様。お待たせいたしました。お席へご案内致します。,"I apologize for the wait, everyone. I will gladly guide you to your seats.",,
 122,,"　純白のテーブルクロスの上には、見るだけでも満たされそうな、
 美しい盛り付けのフランス料理が……。","Upon the snow white tablecloth, there was a beautiful arrangement of French cuisine that could probably satisfy your appetite just by looking.",,
@@ -58,9 +58,9 @@ index,chara,jp,en,,
 141,ヱリカ,お待たせして申し訳ありません。,I deeply apologize for the wait.,,
 145,？？？？,いえいえ、とんでもない！　さぁ、どうぞ。御着席を！,"No, no, it was no problem! Now, please, have your seat!",,
 149,ヱリカ,あ、私、マイ箸があるので、シルバーは下げてもらって結構です。,"Ah, I have my own chopsticks, so it would be splendid if you took away my silverware.",,
-151,紗音,し、しかし……。スープをお箸では……。,B-but... eating soup with chopsticks is...,,
+151,紗音,し、しかし……。スープをお箸では……。,B-But... eating soup with chopsticks is...,,
 153,ヱリカ,"ヱリカ流お箸術を見くびっていますね？　箸でスープをいただく秘
-技！　ご披露させていただきますっ。","You're underestimating Erika's skill in using chopsticks, aren't you? Allow me to demonstrate my soup eating chopstick technique!",,
+技！　ご披露させていただきますっ。","You're underestimating the refined art of Erika-Chopstick-Jutsu, aren't you? Allow me to demonstrate my soup eating chopstick technique!",,
 156,,何それ。超見たい。,"Whaaat, I totally wanna see this.",,
 157,,"　ヱリカさんという人は、直接の関わりなく遠くから見ている分に
 は、とても面白い人なのかもしれない。","For someone unrelated looking in from a distance, Erika-san might actually seem like a really amusing person.",,
@@ -75,14 +75,15 @@ index,chara,jp,en,,
 172,Mion (Casual),"いやいやいやいや！　まだ言い逃れは出来たでしょ！　犯人、屈す
 るの早ぁい！",Nonononono! They should have held back on thaat! They revealed the culprit way too faaast!,,
 179,ヱリカ,"ミステリーは、知的パズルではありますが、時に肉体的な格闘技の
-一面もあります。","There are mysteries with intellectual puzzles, but sometimes others will be entirely about the competitive nature between the detective and culprit.",,
+一面もあります。","There are mysteries with intellectual puzzles, but sometimes others will entirely be about the competitive nature between the detective and culprit.",,
 182,詩音 (Casual),"確かに。結局のところ、証拠の数々はパンチみたいなもんですし
 ね。いくら突きつけられても、堪えることは可能ですし。","Definitely. In the end, the piles of evidence are just like punches. No matter how many they throw at you, it's possible to put up with all of it.",,
 186,Mion (Casual),詩音、昔っからそういうのの往生際、悪いもんねぇ。,"Shion, you've never learned when to give up since way back in the day, huh?",,
 191,ヱリカ,"くす。まぁ、往生際の悪い犯人というのは、ミステリー的に、見て
 いて愉快ではありませんが。","*giggle*. Well, watching a killer that doesn't know when to give up in a mystery can be quite pleasant, though.",,
 193,ヱリカ,"私くらいになると、……多少はタフな方が、打ち込み甲斐があると
-いうものです。くすくす。",If it were me... I would be a pretty tough character; I daresay I'd put my all into it. *giggle*giggle*.,,
+いうものです。くすくす。","If it were me... I would be a pretty tough character. 
+I daresay I'd put my all into it. *giggle*.",,
 195,,"　ちぇ。……みんなも『カネダ少年の事件簿』、見て欲しいものだ
 わ。すっごい面白いのに","Tch. ...I want everyone to watch ""The Kaneda Case Files"" too. It's suuper interesting, but...",,
 196,,"　疎外感というか、天邪鬼な気分というか。……みんなの輪に入り
@@ -95,20 +96,20 @@ index,chara,jp,en,,
 206,紗音,名探偵ワニャン、面白いですよね。,"Detective Wanyan sure is interesting, huh?",,
 208,紗音,"私も他の使用人の人にも勧めてるんですけど、みんな読んでくれな
 くて……。","I've also been recommended it to the other servants, but nobody has started reading it...",,
-210,Nao (Casual),……あなたもワニャン派ですか。……映画は見ましたか？,... You're also a Wanyan fan? ... Have you seen the movie?,,
+210,Nao (Casual),……あなたもワニャン派ですか。……映画は見ましたか？,...You're also a Wanyan fan? ...Have you seen the movie?,,
 212,紗音,もちろん！　東京の大きな映画館で観ました♪,Of course! I watched it in a huge theater in Tokyo♪,,
-214,Nao (Casual),……カネダ少年の事件簿は読んでる？,... Have you read The Kaneda Case Files?,,
+214,Nao (Casual),……カネダ少年の事件簿は読んでる？,...Have you read The Kaneda Case Files?,,
 217,紗音,"えぇ、そちらも大好きです。結構、ハードだけど、そこがいいです
 よね。","Yeah, I love that one too. It's a pretty difficult choice, but I liked it better.",,
 220,,しゃ、紗音さん………。,"Then, Shannon-san...",,
-224,Nao (Casual),……一杯もらえるかしら。赤コーラ、炭酸砂糖マシマシで。,"...I believe I would like a glass to drink after all. A carbonated red cola with extra sugar mixed in, please.",i think?,
+224,Nao (Casual),……一杯もらえるかしら。赤コーラ、炭酸砂糖マシマシで。,"...I believe I would like a glass to drink after all. A carbonated red cola with extra sugar mixed in, please.",possible Kindaichi Case Files reference,
 226,紗音,くす。かしこまりました。,*giggle*. As you wish.,,
 228,Nao (Casual),……………………。,........................,,
 230,Nao (Casual),"……えっと、……紗音さん。ここだけの話なんだけれど、……いい
 ですか？",...Um... Shannon-san. This is just between you and I... okay?,,
 232,紗音,はい………？,Okay...?,,
 236,Nao (Casual),"……朱志香さんたちに、この島には魔女のオバケが出るって脅され
-たんですけど。",...Jessica-san and them feel threatened by this island's ghost story about a witch.,,
+たんですけど。",...Jessica-san and them have been scaring me with this island's ghost story about a witch.,,
 238,紗音,魔女の、オバケ……、ですか……？,Ghost story... about a witch... you say...?,,
 241,,きょとんとした顔。……うん、その反応でいいの。,"A bewildered expression. ...Yeah, that reaction is good.",,
 242,,"　ベアトリーチェという魔女は“い”ると、みんなに寄ってたかっ
@@ -121,12 +122,12 @@ index,chara,jp,en,,
 245,,"　……証拠？　………冗談じゃない。
 　あたしはこの島でのんびりしたいだけなのに、……どうしてこん
 なことに。","...Proof? ...This is no joke. I just wanted to relax on this island, so why did it have to come to this?",,
-249,Nao (Casual),やっぱり紗音さんも、……信じてるんですか？　ベアトリーチェ。,"As I thought, Shannon-san... believes in her too? In Beatrice.",,
-251,紗音,はい。……“い”ますよ。ベアトリーチェさまは。,"Yes. She ""exists"", Beatrice-sama.",,
+249,Nao (Casual),やっぱり紗音さんも、……信じてるんですか？　ベアトリーチェ。,"As I thought, Shannon-san... believes in Beatrice too?",,
+251,紗音,はい。……“い”ますよ。ベアトリーチェさまは。,"Yes. ...Beatrice-sama ""exists"".",,
 253,Nao (Casual),いるって、どこに？,"When you say exists, where would that be?",,
 255,紗音,今、ここにも、きっと“い”ますよ。,"Right here, right now, she surely ""exists"".",,
 259,,"　紗音さんはにっこりと微笑みながら答えるのだが……、むしろ薄
-気味悪く感じられた。",Shannon-san is sweetly laughing with a smile on her face... but I get the feeling that I've soured her mood instead.,,
+気味悪く感じられた。",Shannon-san is laughing sweetly with a smile on her face... but I get the feeling that I've soured her mood instead.,,
 263,Nao (Casual),いるなら、堂々と出て来ればいいんだわ。,"If she does exist, she'd better impress me with her appearance.",,
 265,Nao (Casual),"勿体ぶって、姿を見せるのを出し惜しみするから、薄気味悪くなっ
 ちゃうんです。","If she shows her form begrudgingly, acting like she owns the place, she'd ruin the experience.",,
@@ -164,17 +165,17 @@ index,chara,jp,en,,
 329,Mion (Casual),やろうやろう、みんなでやろう！　ヱリカさんも一緒にどう？,"Let's go! Let's go! Everyone, let's go!! You wanna play with us too, Erika-san?",,
 331,ヱリカ,私は部屋でのんびりと過ごそうかと。,I do think I will be spending time leisurely in my room.,,
 333,Mion (Casual),"あれぇ？　逃げちゃうぅ？　ボードゲームはね、人と人の頭脳のぶ
-つかり合い！",Whaaat? You're gonna run oooff? Board games are a clash of brains!,,
+つかり合い！",Whaaaat? You're gonna run oooff? Board games are a clash of brains!,,
 335,Mion (Casual),"まぁ、私の頭脳には勝ち目がないだろうからね。逃げちゃうのもア
 リかもねぇ～？","Well, this brain doesn't get me that many wins, though. You still gonna run off~?",,
 337,ヱリカ,"……ふっ。安い挑発ですが、そこまで言われては受けて立たない訳
-にはいきませんね。","...Hnn. Cheap provocation method on your part. But if you say that much, I guess I must accept your offer.",,
+にはいきませんね。","...Hm. Cheap provocation method on your part. But if you say that much, I guess I must accept your offer.",,
 341,詩音 (Casual),"いいんですか？　お姉との勝負には一切の言い訳は通用しません
 よ？","Are you sure? Sis doesn't take any excuses when she plays games with people, okay?",,
 347,朱志香,魅音さんって、ボドゲに詳しいの？,"Mion-san, you know a lot about board games?",,
 349,Nao (Casual),……ボドゲに限らず、勝負事となれば、水を得た魚も同然です。,...Not even just board games. Mion-san and competition are like fish and water.,,
 353,朱志香,"そりゃいいぜ！　私も、こう見えても右代宮金蔵の孫だ！　勝負
-事、大いに望むところだぜ！","Sweet! I'm the grandkid of Kinzo Ushiromiya, so competition is first nature to me as well!",,
+事、大いに望むところだぜ！","Sweet! I'm the grandkid of Kinzo Ushiromiya, so competition is first nature to me too!",,
 358,Mion (Casual),"みんなでやろうよ！　私、詩音、ヱリカさんに朱志香さん。菜央
 ちゃんも紗音さんも一緒にやろうよ！","Let's get everyone to play! Me, Shion, Erika-san and Jessica-san. Nao-chan and Shannon-san can jump in too!",,
 361,紗音,"お気持ちだけ頂戴させていただきます。お屋敷の方で、まだお仕事
@@ -204,17 +205,17 @@ index,chara,jp,en,,
 423,朱志香,"え？！　何々？！　罰ゲームとか賭けちゃう？！　リスクがある方
 が燃えるのが右代宮の血だぜ！","Wait, what?!?! We're running this with punishment games?! Whenever there's risk involved, the Ushiromiya blood inside me gets fired up!",,
 429,ヱリカ,"どうせ勝つのは私ですから。せいぜい、自分が被ってもマシな罰ゲ
-ームに決めて下さいね。","I'll be the winner, in any case. At most, do allow me to choose a serious punishment game myself.",,
+ームに決めて下さいね。","I'll be the winner, in any case. Do allow me to choose a punishment game that would work in my favor.",,
 431,詩音 (Casual),"ヱリカさん、あまりお姉を舐めない方がいいですよ？　この人は、
 勝つ為なら何でもありですので。","Erika-san, you'd best not underestimate Sis, yeah? She'll do anything to win.",,
 435,Nao (Casual),"……とりあえず、爆発とかトラップとか、身体に危害が及ばないゲ
 ームだと嬉しいわ。","...For starters, I'll be glad if we won't be dealing with explosions, traps, or bodily harm.",,
 437,ヱリカ,"おやおや。罰ゲーム以前に、スリリングなゲームになりそうです
-ね。くっくっくっく！","My, my. In the face of these punishment games, this is going to become quite the thrilling game. *cackle*cackle*cackle*!!",,
+ね。くっくっくっく！","My, my. In the face of these punishment games, this is going to become quite the thrilling session. *cackle*cackle*cackle*!!",,
 442,朱志香,"お、おかしーぜ。このゲームって、そんなヤバイゲームだったっ
-け……。","W-, weird. I had no idea this was gonna be such a dangerous kind of game...",,
+け……。",W-Woah. I had no idea it was gonna be {i}that{/i} kind of dangerous...,,
 444,,"　魅音さんにかかれば、どんな遊びも即座に闇のゲームに早変わり
-だ……。","When Mion-san comes into the picture, anytime playing is involved, it transforms into a much darker game...",,
+だ……。","No matter what game it is, if Mion-san comes into the picture, it transforms into a much darker game...",,
 445,,"　初日の夜から屈辱の涙で枕を濡らしたくなどない。みんなで真剣
 にルールを確認するのだった。",No one wanted to get their pillow wet with tears of humiliation on their first night here. Everyone diligently looked over the rules.,,
 450,紗音,鍵、直しておきました。,I've fixed the lock!,,
@@ -235,16 +236,17 @@ index,chara,jp,en,,
 489,,紗音さんは深々とお辞儀をしてから、屋敷に戻っていった。,Shannon-san bowed very deeply and returned to the mansion.,,
 494,朱志香,さあ！！　始めようぜ！！,Alright!! Let's go!!,,
 497,Mion (Casual),"いいね、その気合、気に入ったぁ！　私たちと朱志香さんで、
-六軒島出張部活ッ五凶爆闘だぁ！！！","Yeah, that's the spirit!! Here are Jessica-san and I's ""Rokkenjima Club Activity Business Trip Five-Demon Fire Fiiiiiiiight""!!!",,
+六軒島出張部活ッ五凶爆闘だぁ！！！","Yeah, that's the spirit!! All right, Jessica-san, here's our
+ ""Rokkenjima Club Activity Business Trip Five-Demon Firefiiiiiiiight""!!!",,
 504,,"　初めてプレイするボドゲは、ルールの確認などが伴い、かなりの
 長時間になることが少なくない。","When you play a board game for the first time, you usually spend quite some time going over all of the rules.",,
-508,朱志香,ふぁぁあぁぁぁぁ……ぁぁ。,Haaaaaaaah... aaaah...,,
+508,朱志香,ふぁぁあぁぁぁぁ……ぁぁ。,HaaaAAaaaah... aaaah...,,
 510,,"　朱志香さんが欠伸をすると、つられてあたしも詩音さんも欠伸を
 する。","When Jessica-san yawned, Shion-san and I were caught up in the yawn chain as well.",,
 514,ヱリカ,"待ってください。これは“してもよい”、ですよね？　“しなくて
 もよい”訳ですよね？","Wait a second. This one is saying ""it's okay to do this"", right? Does this mean ""it's okay not to do this"" as well?",,
 516,Mion (Casual),"えっとね、待って待って。まず時計回りで徴収を解決してから、次
-に収入の処理を……。","Umm, wait, wait. First, we settled we'd go in clockwise to collect taxes, and then processing income was...",,
+に収入の処理を……。","Umm, wait, wait. First, we settled we'd go in clockwise to collect taxes, and then income processing was...",,
 520,詩音 (Casual),"お姉、さっき、私の収入を先に処理してから、そこから徴収しまし
 たよね？","Sis, before, I was going to be the first to have my income processed, and then we would collect from there, right?",,
 526,Nao (Casual),"………何だかすみません。魅音さんたち、ゲームには絶対に手を抜
@@ -256,7 +258,7 @@ index,chara,jp,en,,
 538,詩音 (Casual),"ゲームは結果じゃなくて、過程を楽しむものですし。今日はこれで
 お開きにしませんか？","The game hasn't reached a result, and we haven't even gotten to enjoy the process. Won't we end it here for today?",,
 547,Mion (Casual),"あーーッ、何それ何それ！！　おじさんが電力を買い占めた途端に
-お開きとか、ずーるーいーッ！！","Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to just end it?",,
+お開きとか、ずーるーいーッ！！","Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to end it?",,
 555,Nao (Casual),もう眠いわ。……シャワーも浴びたいし。,I'm already getting sleepy. ... I want to take a shower and stuff.,,
 557,朱志香,じゃあ、今日はこれでお開き、ってことで！,"Welp, I guess that settles it.",,
 560,,"　このまま行くと魅音さんの圧勝になりそうだったので、みんなさ
@@ -265,7 +267,7 @@ index,chara,jp,en,,
 ら……。
 　雛見沢っ子でも、……アレは……ちょっと………。","Besides, having a punishment game enforced on everyone second place and below was too much... Even for a kid from Hinamizawa... {i}that{/i}... was a little...",,
 566,,"　朱志香さんは屋敷に帰る。
-　あたしたちは、ぞろぞろと２階へ上がっていく。",Jessica-san returned to the mansion. The rest of us dragged ourselves up to the second floor.,,
+　あたしたちは、ぞろぞろと２階へ上がっていく。",Jessica-san returned to the mansion. The rest of us went up to the second floor in a huddle.,,
 570,詩音 (Casual),どうです？　少しは楽しめましたか？　部活式ゲーム。,What's the verdict? Did we enjoy ourselves a little with that club activity?,,
 572,ヱリカ,やはり私には、ダイス等の運がかかわるゲームは苦手なようです。,"As expected, dice-throwing games relying on luck are not my thing.",,
 574,ヱリカ,"我が主と違って。望む目が出るまで、永遠に振り直すようなこと
@@ -274,7 +276,7 @@ index,chara,jp,en,,
 582,Nao (Casual),"……あれが楽しく感じる頃には、実弾入りロシアンルーレットも、
 へらへら笑って出来る気がします。","...By the time it felt fun, I feel like we could have been laughing carelessly playing Russian roulette with live bullets.",,
 584,Mion (Casual),"朱志香さんも言ってたでしょ？　リスクの狂気の中にこそハイリ
-ターンが潜むって。","Jessica-san said it herself, I guess, how there is a huge prize hidden within the insanity of risk.",,
+ターンが潜むって。","Jessica-san said it herself, didn't she? About how there's a huge prize hidden within the insanity of risk.",,
 587,Mion (Casual),"ここの当主の金蔵さんは、おじさんの部活の狂気を、楽しんでくれ
 るような気がするね。","I feel like the head of this place, Kinzo-san, would enjoy the madness of this ol' man's club activities.",,
 591,詩音 (Casual),えっと、鍵は誰が持ってたんでしたっけ？,"Umm, who has the key?",,
@@ -285,11 +287,11 @@ index,chara,jp,en,,
 606,Nao (Casual),その、菜央ちゃまっての、やめてくれませんか……。,"That 'Nao-chama', would you stop calling me that...?",,
 609,ヱリカ,聞いてましたよ。……さっき、紗音さんと話していたでしょう？,I heard. ...I suppose you had spoken with Shannon-san earlier?,,
 611,ヱリカ,"ベアトリーチェは、自分を信じない人に、悪戯をするのが大好きだ
-とか……。","About how Beatrice loves playing pranks on people who don't believe, and such... ",,
+とか……。","About how Beatrice loves playing pranks on people who don't believe, et cetera... ",,
 613,ヱリカ,"黄金の魔女のことを、あれだけ堂々と、馬鹿馬鹿しいと言い放った
 んですもの。","And how you denounced the Golden Witch outright, even with her having that level of magnificence.",,
 615,ヱリカ,……何か、不気味な悪戯でも、されないといいですねぇ……？,...I do hope that she doesn't play some sort of creepy prank on you because of that...?,,
-617,Nao (Casual),やっぱりヱリカさんは性悪ですね。……人のこと、子供扱いして。,"You really are poorly mannered, Erika-san. ... Treating people like children.",,
+617,Nao (Casual),やっぱりヱリカさんは性悪ですね。……人のこと、子供扱いして。,"You really are poorly mannered, Erika-san... treating people like children.",,
 619,Nao (Casual),あたし、あんな怪談話に、怯えたりなんかしませんから。,I'm not afraid of that ghost story or anything.,,
 621,ヱリカ,グッド。,<Good>.,,
 623,ヱリカ,その覚悟、がんばって持ち続けて下さいね？　くすくすくす……。,Please do keep that determination up for me. *giggle*giggle*giggle*...,,
@@ -308,9 +310,9 @@ index,chara,jp,en,,
 661,,これが……、魔女の存在を認めぬ者への、悪戯。,This is... a prank... geared towards people who don't acknowledge the witch's existence.,,
 664,Nao (Casual),ど、………どういうこと…………。,W-... what is this...,any changes to these last few lines must also be made starting from the top of the last page,
 667,,"　魅音さんと詩音さんのベッドは、……何事もないのに。
-　あたしのベッドだけが……、#p殺#s・#r#pさ#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r……。","Mion-san and Shion-san's beds had... nothing on top of them, but my bed alone was k i l l e d...",furi?,
+　あたしのベッドだけが……、#p殺#s・#r#pさ#s・#r#pれ#s・#r#pて#s・#r#pい#s・#r#pる#s・#r……。","Mion-san and Shion-san's beds had... nothing on top of them, but my bed alone was {i}murdered{/i}...",furi?,
 668,,"　毛布は乱雑に剥ぎ取られて散乱し……、まるで肌のように露出し
-たシーツが……、鮮血に染まっている……。",The blanket was ripped to shreds... almost as if the sheets were skin hanging off of it... and dyed red with blood .,,
+たシーツが……、鮮血に染まっている……。",The blanket was torn off disastrously... exposing the sheets underneath as if they were skin... skin that was... dyed red with blood...,,
 669,,"　違う。ただ染まっているんじゃない。それは………鮮血のような
-赤で描かれていた………。",No. It's not just dyed red. This is... something drawn on with a blood-like substance...,,
+赤で描かれていた………。","No. It's not just dyed red. There is... something drawn on... with a red, blood-like substance...",,
 672,Nao (Casual),ま………………魔法陣………………。,A.........  magic circle.........,,
