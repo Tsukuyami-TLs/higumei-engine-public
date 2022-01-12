@@ -329,7 +329,11 @@ screen navigation():
         style_prefix "navigation"
 
         xpos gui.navigation_xpos
-        yalign 0.5
+
+        if renpy.variant("pc") or main_menu:
+            yalign 0.5
+        else:
+            yalign 0.3
 
         spacing gui.navigation_spacing
 
@@ -380,8 +384,7 @@ screen navigation():
             textbutton _("Preferences") action ShowMenu("preferences")
             if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
                 textbutton _("Help") action ShowMenu("help")
-            if renpy.variant("pc"):
-                textbutton _("About") action ShowMenu("about")
+            textbutton _("About") action ShowMenu("about")
 
 
 style navigation_button is gui_button
