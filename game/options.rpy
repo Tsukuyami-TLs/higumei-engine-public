@@ -28,9 +28,21 @@ define config.version = "0.0.1-build00010"
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
+define gui.about = _p("""This is a Higurashi Mei Fan Translation Project.
+All the rights to Higurashi, Higurashi Mei, the narrative and the assets used lie with their original rights holders (07th Expansion, DTechno, Entergram).
+{b}Please support the official release!{/b} \n
 
-define gui.about = _p("""
+{size=+8}{b}Credits{/b}{/size}
+
+{b}Project Initiator:{/b} UmiNetta \n
+{b}Translation 1:{/b} beanbug, danpmss, eri, hanss314, Jevil, Llorona, Lunik \n
+{b}Translation 2:{/b} OmegaBodega,Pteryon, roux, tessa, Uminetta \n
+{b}Programming:{/b} beanbug, hanss314, Naegles, Pteryon \n
+{b}Quality Check:{/b} hanss314, Llorona, Omegabodega, Pteryon, Naegles \n
+{b}Video Rec{/b}: FistOfMagic, Omegabodega \n
+{b}Official Comms:{/b} Naegles, UmiNetta \n \n
 """)
+
 
 
 ## A short name for the game used for executables and directories in the built
