@@ -184,7 +184,7 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    properties gui.text_properties("name", accent=True)
+    properties gui.text_properties("name", accent=False)
     xalign gui.name_xalign
     yalign 0.5
 
@@ -564,17 +564,62 @@ screen about():
     use game_menu(_("About"), scroll="viewport"):
 
         style_prefix "about"
-
         vbox:
-
             label "[config.name!t]"
-            text _("Version [config.version!t]\n")
+            text _("[config.version!t]\n")
+            text _("""This is a Higurashi Mei Fan Translation Project. All the rights to Higurashi, Higurashi Mei, the narrative and the assets used lie with their original rights holders (07th Expansion, DTechno, Entergram).
+Please support the official release!\n""") style "disclaimer"
+            text _("""{color=ff4d4d}Credits{/color=ff4d4d}""") size 45
 
-            ## gui.about is usually set in options.rpy.
-            if gui.about:
-                text "[gui.about!t]\n"
+            hbox:
+                spacing 15
+                text _("Project Initiator") style "about_small"
+                text _("UmiNetta")
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            null height 15
+
+            hbox:
+                spacing 15
+                text _("Translation") style "about_small"
+                text _("beanbug, danpmss, eri, hanss314, Jevil, Llorona, Lunik, roux")
+
+            hbox:
+                spacing 15
+                text _("") style "about_small"
+                text _("OmegaBodega, Pteryon, tessa, Uminetta")
+
+            null height 20
+
+            hbox:
+                spacing 15
+                text _("Programming") style "about_small"
+                text _("beanbug, hanss314, Naegles, Pteryon")
+
+            null height 15
+
+            hbox:
+                spacing 15
+                text _("Quality Check") style "about_small"
+                text _("hanss314, Llorona, Naegles, Omegabodega, Pteryon")
+
+            null height 15
+
+            hbox:
+                spacing 15
+                text _("Video Rec") style "about_small"
+                text _("FistOfMagic, Omegabodega")
+
+            null height 15
+
+            hbox:
+                spacing 15
+                text _("Official Comms") style "about_small"
+                text _("Naegles, UmiNetta")
+
+
+            text _("\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]")
+            null height 30
+            text _("[renpy.license!t]") size 30
 
 
 style about_label is gui_label
@@ -582,8 +627,19 @@ style about_label_text is gui_label_text
 style about_text is gui_text
 
 style about_label_text:
-    size gui.label_text_size
+    size 45
 
+style about_small:
+    size 25
+    minwidth 260
+    text_align 1.0
+    yalign 0.9
+
+style disclaimer:
+    size 30
+    minwidth 260
+    text_align 0
+    yalign 0.9
 
 ## Load and Save screens #######################################################
 ##

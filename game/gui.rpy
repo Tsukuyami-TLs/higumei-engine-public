@@ -27,7 +27,7 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = u'#ffffff'
+define gui.accent_color = u'#ff4d4d'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = u'#888888'
@@ -43,6 +43,7 @@ define gui.hover_color = u'#e06666'
 ## button is selected if it is the current screen or preference value.
 define gui.selected_color = u'#ffffff'
 
+## The color used for a text button when it cannot be selected.
 ## The color used for a text button when it cannot be selected.
 define gui.insensitive_color = u'#8888887f'
 
@@ -208,7 +209,6 @@ define gui.quick_button_text_selected_color = gui.accent_color
 ## Choice Buttons ##############################################################
 ##
 ## Choice buttons are used in the in-game menus.
-
 define gui.choice_button_width = 1185
 define gui.choice_button_height = None
 define gui.choice_button_tile = False
