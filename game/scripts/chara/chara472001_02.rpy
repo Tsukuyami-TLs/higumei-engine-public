@@ -40,7 +40,7 @@ label chara472001_02:
  dlanor 'Knox\'s 8th: "It is forbidden for the case to be resolved with clues that are not PRESENTED."'
  dlanor 'Knox\'s 9th: "It is permitted for observers to let their own conclusions and explanations be HEARD."'
  dlanor 'Knox\'s 10th: "It is forbidden for a character to disguise themselves as another without CLUES."'
- nao 'I see. Ten rules make up the Ten Commandments... wait, what happened to number 5?'
+ nao 'I see. 10 rules make up the Ten Commandments... wait, what happened to number 5?'
  dlanor 'It is OMITTED. As such, please refrain from referencing IT.'
  nao 'I sort of wanted to hear why it is omitted... but I understand.'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
@@ -53,7 +53,7 @@ label chara472001_02:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v001 normal_close at inactive
- beatrice 'So, Nao, after hearing about "Knox\'s Ten Commandments" for the first time, what are your thoughts?'
+ beatrice 'So, Nao, after hearing about "Knox\'s Ten Commandments" for the first time, what were your thoughts?'
  show nao_v001 fuan at active
  show beatrice_v001 normal at inactive
  nao 'Right... if you want me to speak my thoughts openly, it gave me the impression that they\'re a bit strict. I was like, "Mystery really has those types of limitations?"'
@@ -62,7 +62,7 @@ label chara472001_02:
  beatrice "*cackle*cackle*! I guess that's because when you {i}have{/i} read mystery, you have only done it in the casual sense?"
  show nao_v001 fuan at active
  show beatrice_v001 futeki at inactive
- nao "I'm not so sure about reading casually... but because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story."
+ nao "I'm not so sure about reading casually, but... because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story."
  show beatrice_v001 smile at active
  show nao_v001 fuan at inactive
  beatrice 'Then, in the midst of reading a story, have you never tried to reason out on the spot who the culprit is?'
@@ -87,10 +87,10 @@ label chara472001_02:
  nao 'With a novel, the moment you open the book, your very first "action" is to start reading.'
  show nao_v001 smile at active
  show beatrice_v001 fuan at inactive
- nao "In the midst of the action of reading, however the reader decides to enjoy that process, be it by solving riddles or not, it's their liberty to do as they please, no?"
+ nao 'So, I wonder how you as the reader could willfully enjoy attempting to solve a riddle, or do any other action for that matter, while in the midst of the action of reading.'
  show beatrice_v001 normal at active
  show nao_v001 smile at inactive
- beatrice "...Hmm, we don't see eye to eye here. I've heard that you are a bookworm, but the ways in which we enjoy reading are dissimilar."
+ beatrice "...Hmm, we don't see eye to eye here. I have heard that you are a bookworm, but the ways in which we enjoy reading are dissimilar."
  hide beatrice_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
@@ -108,7 +108,7 @@ label chara472001_02:
  nao "But then, for someone who tackles mystery novels with Beatrice's precise approach, rules are a prerequisite."
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
- nao 'Even in games, if you play without rules, you lose both strategy and tactics... "Knox\'s Decalogue" is for that purpose.'
+ nao 'Even in games, if you play without rules, you lose both stratagem and tact... "Knox\'s Decalogue" is for that purpose.'
  show dlanor_v001 normal at active
  show nao_v001 normal at inactive
  dlanor 'AGREED. For people who let the story do the telling and for people who solve the riddle head-on, "Knox\'s Decalogue" is something necessary to balance the fairness between these two PARTIES.'
@@ -126,10 +126,10 @@ label chara472001_02:
  beatrice 'In a logic battle, "logic errors" are essentially a foul... This is a matter that should be avoided with certainty.'
  show nao_v001 normal at active
  show beatrice_v001 normal at inactive
- nao "...So it's kind of like how it's wrong when two people are playing PvP in an arcade and the loser hits the winner, right?"
+ nao "...So, basically, it's similar to how wrong it is when two people are in PvP in an arcade and the loser hits the winner, right?"
  show beatrice_v001 fuan at active
  show nao_v001 normal at inactive
- beatrice 'Uh, mm...? I have no knowledge of what a PvP is, though, so I cannot really assign meaning to it...'
+ beatrice 'Uh, mm...? I have no knowledge of what a PvP is, so I cannot really assign meaning to it, though...'
  show nao_v001 fuan at active
  show beatrice_v001 fuan at inactive
  nao 'Ah, but... returning to the question of how the structure of "Knox\'s Decalogue" was formed, what ultimately lead to it being made?'
@@ -138,7 +138,7 @@ label chara472001_02:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  show nao_v001 fuan at inactive
- dlanor '...That is due to the fact that the past was an era where mysteries with too much freedom REIGNED.'
+ dlanor '... That is due to the fact that the past was an era where mysteries with too much freedom REIGNED.'
  show nao_v001 normal at active
  show dlanor_v001 normal_close at inactive
  nao 'Mysteries with too much freedom...?'
@@ -147,7 +147,7 @@ label chara472001_02:
  dlanor 'Before "Knox\'s Decalogue" was structured, mysteries that were unsolvable by normal and fair means were a rampant issue... so this completely lowered the quality of the GENRE.'
  show dlanor_v001 normal at active
  show nao_v001 normal at inactive
- dlanor 'For example, culprits would suddenly appear towards the latter half of the story, detectives would use psychic powers to solve mysteries... and secret passageways would exist for locked-room MURDERS.'
+ dlanor 'For example, culprits would suddenly appear towards the latter half of the story, detectives would use psychic powers to solve mysteries... secret passageways would exist for locked-room murders, such things as THIS.'
  show dlanor_v001 normal_close at active
  show nao_v001 normal at inactive
  dlanor 'Furthermore, unimaginable medicines and scientific devices that were unknown to readers would unfairly make their DEBUT...'
@@ -180,7 +180,7 @@ label chara472001_02:
  dlanor 'YES.'
  show nao_v001 fuan at active
  show dlanor_v001 normal at inactive
- nao "So basically, if I'm explaining this correctly, it makes me think that a character in the story can tell a lie and it wouldn't matter, though...?"
+ nao "So basically, if I'm explaining this correctly, it makes me think that a character in the story can tell a lie and it wouldn't matter and such, but...?"
  hide dlanor_v001
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
@@ -257,13 +257,13 @@ label chara472001_02:
  beatrice "*cackle*cackle*cackle*... It's actually something more along the lines of deep-fried gyoza, served as a tea party snack. It goes along tastily with Dinbura specifically."
  show nao_v001 fuan_close at active
  show beatrice_v001 futeki at inactive
- nao 'I see. One time I was inside a huge supermarket, trying to search for whether or not they were selling that. ...After thinking of that, I understood this conversation.'
+ nao 'I see. One time I was inside a huge supermarket, trying to search whether or not they were selling that. ...After thinking of that, I understood this conversation.'
  show nao_v001 normal at active
  show beatrice_v001 futeki at inactive
- nao 'With me as the observer and as the detective, if I believe what Beatrice says and mention it to another person... It cannot be a lie.'
+ nao 'With me as the spectator and as a detective, if I believe what Beatrice says and mention it to another person... It cannot be a lie.'
  show nao_v001 normal at active
  show beatrice_v001 futeki at inactive
- nao "In this case, what's important is the definition of lie. What constitutes a lie... what could it be? Hm..."
+ nao "In this case, what's important is the definition of lie. What does the lie entail... what could it? Hm..."
  hide nao_v001
  hide beatrice_v001
  with Dissolve(0.2)
@@ -278,7 +278,7 @@ label chara472001_02:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v001 smile at inactive
- beatrice 'Nao seems to have a knack for mystery. But most of all, studying it from here on out is a must to keep that up.'
+ beatrice 'Nao seems to have a knack for mystery. But most of all, studying it from here on out is a must to keep that up, however.'
  show nao_v001 smile at active
  show beatrice_v001 smile at inactive
  nao 'My, really? If you say it to me like that, that makes me happy.'
@@ -305,7 +305,7 @@ label chara472001_02:
  beatrice '*cackle*cackle*! Lady Dlanor is quite surprised!'
  show beatrice_v001 futeki_close at active
  show nao_v001 fuan at inactive
- beatrice 'To tell the truth, Lady Dlanor\'s father was the one who created "Knox\'s Decalogue".'
+ beatrice ' I wonder what Lady Dlanor\'s father was trying to hide when he created "Knox\'s Decalogue".'
  show nao_v001 odoroki at jump_transform,active
  show beatrice_v001 futeki_close at inactive
  nao "Huh...? Dlanor's father made this?"
@@ -329,7 +329,7 @@ label chara472001_02:
  nao 'Like, if an author declared he was following "Knox\'s Decalogue" at the beginning, people who knew the decalogue would understand the mystery was designed to be solved, right?'
  show nao_v001 smile_close at active
  show beatrice_v001 normal at inactive
- nao '...I see. So that\'s why "Knox\'s Decalogue" was not discarded as a hindrance, but stuck as a rule for authors to adhere to.'
+ nao '...I see. So that\'s why "Knox\'s Decalogue" was not discarded as a hinderance, but stuck as a rule for authors to adhere to.'
  show nao_v001 smile at active
  show beatrice_v001 normal at inactive
  nao "It's like an important brand logo which guarantees that we're being fair to the readers."
@@ -344,19 +344,19 @@ label chara472001_02:
  nao "But it's hard to protect a brand, because if you have a fake product, it's bad for the reputation of the original."
  show nao_v001 fuan_close at active
  show dlanor_v001 odoroki at inactive
- nao "My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable concept."
+ nao "My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable thought."
  hide dlanor_v001
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v001 fuan_close at inactive
- beatrice "...What an interesting analogy. it's unreasonable for those who follow the rules to lose out."
+ beatrice "... What an interesting analogy. it's unreasonable for those who follow the rules to lose out."
  show beatrice_v001 smile at active
  show nao_v001 fuan_close at inactive
- beatrice "Therefore, this person's job is to protect those who craft mysteries that follow the rules. All faulty mysteries are then cut down completely."
+ beatrice "Therefore, this person's job is to protect those who craft mysteries following the rules. All faulty mysteries are then cut down completely."
  show nao_v001 smile at active
  show beatrice_v001 smile at inactive
- nao 'Ohh... is that so? How enviable of a story it is, hearing that people have a role to be on permanent lookout for this kind of stuff.'
+ nao 'Ohh... is that so? How envious of a position it is, hearing that people have a role to be on permanent lookout for this kind of stuff.'
  show nao_v001 fuan_close at active
  show beatrice_v001 smile at inactive
  nao 'Even in the fashion world, there are fake brands that make and sell clothes and bags, but I wonder if there are organizations who cut these bad guys down.'
@@ -380,10 +380,10 @@ label chara472001_02:
  with Dissolve(0.5)
  show beatrice_v001 smile_close at active
  show nao_v001 odoroki at inactive
- beatrice 'I am getting tired. I should not think while exhausted, as I would end up dying permanently.'
+ beatrice 'I am getting tired. I should not think while I am getting exhausted, as I would die permanently.'
  show nao_v001 fuan at active
  show beatrice_v001 smile_close at inactive
- nao "...Following the rules in a mystery is tough work, isn't it?"
+ nao "... They're important rules to protect mystery, right?"
  hide beatrice_v001
  show dlanor_v001 smile at mei_left
  with Dissolve(0.5)

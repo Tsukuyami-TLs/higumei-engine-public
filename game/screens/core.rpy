@@ -18,7 +18,8 @@ style input:
     adjust_spacing False
 
 style hyperlink_text:
-    properties gui.text_properties("hyperlink", accent=True)
+    properties gui.text_properties("hyperlink", accent=False)
+    color '#0645AD'
     hover_underline True
 
 style gui_text:
@@ -566,8 +567,7 @@ screen about():
         style_prefix "about"
         vbox:
             label "[config.name!t]"
-            text _("[config.version!t]\n")
-            text _("""This is a Higurashi Mei Fan Translation Project. All the rights to Higurashi, Higurashi Mei, the narrative and the assets used lie with their original rights holders (07th Expansion, DTechno, Entergram).
+            text _("""This is an unofficial fan translation created by Tsukuyami Translations. The rights to Higurashi, Higurashi Mei and all used assets belong to their respective owners (DTechno, 07thExpansion, Entergram).
 Please support the official release!\n""") style "disclaimer"
             text _("""{color=cc0000}Credits{/color=cc0000}""") size 45
 
@@ -615,6 +615,9 @@ Please support the official release!\n""") style "disclaimer"
                 spacing 15
                 text _("Official Comms") style "about_small"
                 text _("Naegles, UmiNetta")
+
+
+            text _("\nFor support and announcements follow our {a=https://twitter.com/TsukuyamiTLs}Twitter{/a} or join our {a=https://discord.gg/uKkb6hxYsg}Discord{/a}! \n")
 
 
             text _("\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]")
