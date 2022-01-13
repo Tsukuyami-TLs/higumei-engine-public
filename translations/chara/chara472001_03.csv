@@ -8,11 +8,11 @@ index,chara,jp,en,,,,,,,
 48,Nao,"そうじゃない……けど。
 もう少しだけ、眠っていたかった気がするわ。",I don't think that's it... but I feel like I should have slept just a little more.,,,,,,,
 50,Nao,"なんだか、
-とっても楽しい夢を見ていた気がするの。",It feels like I was having a super fun dream.,,,,,,,
+とっても楽しい夢を見ていた気がするの。",I feel like I was having a super fun dream.,,,,,,,
 62,ドラノール,"法律のために人がいるのではありマセン。
 人のために法律がありマス。",People do not exist for the LAW. The law exists for PEOPLE.,fixed meaning,,,,,,
 64,ドラノール,"ですが、人を守るための法律を悪用し、
-人を傷つける悪人が生まれる場合もありマス。","Nevertheless, there are cases borne from villains hurting others through abusing the power of laws that protect PEOPLE.",,,,,,,
+人を傷つける悪人が生まれる場合もありマス。","Nevertheless, there are cases borne from bad people hurting others through abusing the power of laws that protect PEOPLE.",,,,,,,
 66,ドラノール,"……ルールとは常に、ある一方を守ると同時に、
 もう片方を傷つける刃にもなりえマス。","...With rules that are made to protect, there is always someone on the other end who has already weaponized it against someone ELSE.",,,,,,,
 68,ベアトリーチェ,"だが、ドラノール卿たちが守り続けていなければ
@@ -22,17 +22,17 @@ index,chara,jp,en,,,,,,,
 いるのも事実デス。","AGREED... Although it is true that there are also those who think ""Knox's Decalogue"" serves to constrict the mystery GENRE.",fixed meaning,,,,,,
 72,ベアトリーチェ,"それも真理だ。しかし、ルールがあるからこそ
 ミステリーというものは迷い子本来の時代にも
-存在し続けているとも言える。","That is true. However, since there are definite rules to mystery, the genre can continue to exist in the time of that lost child.",,"fixed meaning, check cell hist",,,,,
+存在し続けているとも言える。","That is true. However, since there are definite rules to mystery, the genre can continue to exist in the time of that lost child.",?,"fixed meaning, check cell hist",,,,,
 74,ベアトリーチェ,"ミステリーが一時的に衰退したとしても、
-消滅することはないだろう。","I suppose mystery is a genre that will temporarily wane, but will never completely blow out.",,,,,,,
+消滅することはないだろう。","I suppose it is a mystery is a genre that will temporarily wane, but will never completely blow out.",,,,,,,
 76,ベアトリーチェ,"……その証拠に、あの少女はきっと
 目が覚めた後にミステリー小説を手に取る。
-そしてまた、相まみえることが叶うだろう。","...As proof of that, that girl will surely gets her hands on a mystery novel once she awakens. Perhaps then we shall reunite.",,,,,,,
+そしてまた、相まみえることが叶うだろう。","...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. Perhaps then shall we reunite.",our union shall be realized -> we shall unite again,changed to this,,,,,
 78,ドラノール,"ただ……その時にはここでのことを、
 菜央は忘れているのデハ？",But then... what about Nao forgetting that she had ever been HERE?,,,,,,,
 80,ベアトリーチェ,"あぁ、忘れているだろうな。
 もし思い出したとしても、
-夢を見たで、済ませるやもしれぬ。","Ah, I guess she is forgetting each time, isn't she? And even if she does remember, she'll see it as a dream that has already ended.",,,,,,,
+夢を見たで、済ませるやもしれぬ。","Ah, I guess she is forgetting each time, huh? And even if she does remember, she'll see it as a dream that has already ended.",,,,,,,
 82,ベアトリーチェ,"だが、面白いという感情は
 心の奥底に深く根付く。","Even so, her feelings of amusement will strike at the depths of her heart.",,,,,,,
 84,ベアトリーチェ,"『ノックス十戒』を
@@ -48,13 +48,13 @@ index,chara,jp,en,,,,,,,
 94,ドラノール,"この残ったクッキー、
 持ち帰っても良いデスカ？","Those leftover COOKIES, may I take them back with ME?",,,,,,,
 109,ヱリカ,"うぅうう、まさか#p雛見沢#sひなみざわ#rに
-我が主とうり二つの別人がいただなんて……！","Uuuuuuu, for me to have fallen for a FAKE version of my master in Hinamizawa; it can't be...!",,,,,,,furigana
+我が主とうり二つの別人がいただなんて……！","Uuuuuuu, for there to have been TWO people in Hinamizawa that turned out not to be my master; it can't be...!",,,,,,,furigana
 112,ヱリカ,"うぅ、もう二度と間違えません！
 うぅ、うぅぅううぅうぅぅぅっ……！","Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!",,,,,,,
 120,ドラノール,ヱリカ卿。,Lady ERIKA.,,,,,,,
 122,ヱリカ,"……ドラノールですか。
 なんですか、我が主からお叱りを受けた私を
-笑いに来たんですか？","...Is that you, Dlanor? What is it? Have you come to laugh at me after I've received a scolding from my master?",,,,,,,
+笑いに来たんですか？","...Is that you, Dlanor? What is it? Have you come to laugh at me after I've received my scolding from my master?",,,,,,,
 124,ドラノール,イイエ。そのようなことはありマセン。,Not at ALL. I wouldn't do something like THAT.,,,,,,,
 126,ヱリカ,"じゃあなんで……
 って、なんですかそのクッキーは。","THEN WHY-... oh, what are those cookies there?",,,,,,,
@@ -71,7 +71,7 @@ index,chara,jp,en,,,,,,,
 またひとり増えたかもしれマセン。",YES. We may have gotten a new mystery READER.,,,,,,,
 140,ヱリカ,"ふぅん？　いいことじゃないですか。
 ミステリーの話ができる人が増えるのは、
-私も大歓迎です。",Hmm? Isn't that nice. I'll also warmly welcome someone new who is capable of talking about mystery.,,,,,,,
+私も大歓迎です。",Hmm? Isn't that good. I'll also warmly welcome someone new who is capable of talking about mystery.,,,,,,,
 142,ヱリカ,"ちょっとかじった程度で、わかった気になった
 半端モノの心を叩き折るのが楽しみです……。","Even just dabbling in this idea a little, I'm getting interested, I find. I'm looking forward to ripping this person's heart in half...",,,,,,,
 144,ドラノール,"そう簡単に折れる相手ではないかも
