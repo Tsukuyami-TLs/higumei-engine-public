@@ -3,6 +3,7 @@ label event01_30_05:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_05'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -28,11 +29,11 @@ label event01_30_05:
  nao 'I had a very... odd dream.'
  hide nao_v002
  with Dissolve(0.2)
- narrator 'It was obviously a dream, but...\nIt was so lucid that I can still recall the details even after waking up.'
- narrator 'In my dream, the witch in the portrait, Beatrice, invited me to a battle of wits... over whether or not that magic circle prank was possible for a human.'
+ narrator 'It was obviously a dream... but it was so lucid that I can still recall the details even after waking up.'
+ narrator 'I was invited by the witch in the portrait, Beatrice... to a battle of wits over whether or not that magic circle prank was possible for a human.'
  narrator "Let's recap what happened last night.\nWhen we returned to our guest room, I found my bed ravaged... and a magic circle was painted onto the sheets."
  narrator "It was a prank that Beatrice plays on those who don't believe in witches."
- narrator 'In my dream I suspected Shannon-san, who went up to our room to check the lock of the window.'
+ narrator 'In my dream, I suspected Shannon-san, who went up to our room to check the window lock.'
  narrator "Thinking about it now, I feel sorry for so diligently suspecting someone who's always helping us."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
@@ -41,12 +42,12 @@ label event01_30_05:
  hide nao_v002
  with Dissolve(0.2)
  narrator "If I were to talk about what happened in my dream with someone else, they'd look at me like I had three heads. Even so, I still believe that it happened."
- narrator 'I accept that a witch came to me in my dream.\nHowever, I refuse to believe that a witch came inside my room and pulled off a magic circle prank on my bed.'
+ narrator 'I accept that a witch appeared in my dream.\nHowever, I refuse to believe that a witch went inside my room and pulled off a magic circle prank on my bed.'
  narrator "Last night, after we found that magic circle, we contacted the servant room and had them change the sheets. I'm not bold enough to sleep on sheets like that..."
  narrator 'After the call, the head of the servants, an older man named Genji-san, brought new sheets for us.'
  narrator 'I gave him the sheets rolled-up in a ball and said they were dirty.\nI wonder what he thought when he unraveled it...?'
  play audio 'audio/sfx/SE_5037_getup.wav'
- Character('Sonozaki Sisters',ctc="ctcArrow", ctc_position="fixed") 'Mmmmm, *yawn*~...'
+ Character('Sonozaki Sisters',ctc="ctcArrow", ctc_position="fixed") 'Mmmmm...... *yawn*~......'
  narrator 'At that moment, both Sonozaki sisters woke up together. Their synchronized awakening amazed me so much, I wanted to record a video of them.'
  show shion_v002 fuan_close at mei_left
  show mion_v002 smile at mei_right
@@ -56,7 +57,7 @@ label event01_30_05:
  mion "Oh, Nao-chan, you're up early. Morning~..."
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion "*Yawn*... I feel like I didn't sleep enough, even though we have a photo session today..."
+ shion "*yawn*... I feel like I didn't sleep enough, even though we have a photo session today..."
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -91,9 +92,9 @@ label event01_30_05:
  narrator '...However, what surprised me even more was that it was only me who was shocked the entire time.'
  narrator 'A few moments after we saw the magic circle, Mion-san started to roar with laughter. It was so sudden, I was speechless and feared that the witch had possessed her.'
  narrator '....But thinking about it again, Mion-san probably understood in an instant that it was just a prank mimicking a curse from the witch.'
- narrator "...But of course, there is no such thing as witches or magic. There's no way to think of it other than a prank being done by a human."
+ narrator "...But of course, there is no such thing as witches or magic. There's no way to think of it as other than a prank being done by a human."
  narrator 'I thought it was a magic circle drawn with blood at first glance.\nBut Mion-san immediately saw it was just paint.'
- narrator 'The suspect had prepared a sheet with a magic circle drawn on it, and when they found the right time, they snuck into our room and replaced the sheet on my bed.'
+ narrator 'The suspect had prepared the magic circle sheets beforehand, and when they found the right time, they snuck into our room and replaced the sheets on my bed.'
  narrator "The real question is... who did it?\nLast night, both Mion-san and Shion-san didn't give any ideas."
  narrator 'In any case... whoever the culprit was, there was no doubt it was the work of a human.'
  narrator 'That\'s why Mion-san can casually grin and say, "They\'ve done it".'
@@ -131,7 +132,7 @@ label event01_30_05:
  narrator 'Mion-san carefully unlocked the window and opened it, taking in the spectacular views of the ocean and the rose garden.'
  narrator "...I think that window is the key to solving this mystery. Shannon-san has a master key to our room, but she wasn't involved with the magic circle at all."
  narrator "It's quite obvious that the window is suspicious, which was left unlocked until Shannon-san fixed it."
- narrator 'But whether by stairs or the window... it was stated in red that nobody went up to the second floor.'
+ narrator 'But whether by stairs or the window... it was stated in red that nobody went up to the second floor...'
  show shion_v002 smile at mei_left
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -228,7 +229,7 @@ label event01_30_05:
  hide nao_v002
  with Dissolve(0.2)
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") "Oh, no, it's nothing special. Nahhahhahaha..."
- narrator "Gohda-san blushed with embarrassment as the young girls praised him.\n...He's a loveable guy."
+ narrator "Gohda-san blushed with embarrassment as the young girls praised him. ...He's a loveable guy."
  narrator 'After serving our food, the servants left, telling us to ring the bell if we needed anything else.'
  narrator "I'm still in a daze... reeling from the shock of last night's magic circle and the logic battle with the witch in my dream."
  narrator 'Meanwhile, the Sonozaki sisters were at full throttle as if yesterday had never happened. They ate as much as they could, even if it was just breakfast.'
@@ -261,7 +262,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile at inactive
- nao "...... Um, Mion-san. I'm not sure what to say, but can I get your thoughts on something?"
+ nao "...Um, Mion-san. I'm not sure what to say, but can I get your thoughts on something?"
  show mion_v002 smile at active
  show nao_v002 normal at inactive
  mion 'Hmm? Go on.'
@@ -274,11 +275,11 @@ label event01_30_05:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'I had this dream last night. I remember it very vividly and...'
+ nao 'I had this dream last night. ...I remember it vividly......'
  hide nao_v002
  with Dissolve(0.2)
  narrator "At first, she made fun of me a little, saying that I was too scared from last night's magic circle incident when I told them that I had dreamed about witches."
- narrator '...No, Mion-san. That magic circle was something that would astonish any person with an ordinary mind.'
+ narrator '...No, Mion-san. That magic circle was something that would astonish any person with normal tastes.'
  narrator "But when we talked about the game with the witch and the battle with the two truths, blue and red, Mion-san's eyes sharpened, and she started to listen to me more carefully."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
@@ -311,7 +312,7 @@ label event01_30_05:
  mion 'Well, yeah, if we think about it normally, it probably was Shannon-san.'
  show shion_v002 normal at active
  show mion_v002 normal at inactive
- shion "{umi_red}Shannon was not involved in any way, directly or indirectly, in the act of laying the sheet with a magic circle on Nao's bed.{/umi_red}"
+ shion "{umi_red}Shannon was not involved in any way, directly or indirectly, in the act of laying the magic circle sheets on Nao's bed.{/umi_red}"
  show shion_v002 fuan at active
  show mion_v002 normal at inactive
  shion "...this one is quite a pain for us. Don't you think so too, Sis?"
@@ -326,15 +327,15 @@ label event01_30_05:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  show mion_v002 smile at inactive
- nao 'What? Do you have any evidence for that?'
+ nao 'What? Do you have a basis for that?'
  play audio 'audio/sfx/SE_326_ls_spacestop.wav'
  show mion_v002 smile at active
  show nao_v002 odoroki at inactive
- mion "I don't think she'd do it."
+ mion "She just doesn't look like she'd do it."
  hide mion_v002
  hide nao_v002
  with Dissolve(0.2)
- narrator "Bam. If it were Mion-san's place, she could say it in red without any basis."
+ narrator "Boom. If it were Mion-san's place, she could say it in red, no basis required."
  show nao_v002 normal at mei_left
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -343,7 +344,7 @@ label event01_30_05:
  mion 'Last night, right before Nao-chan mentioned the window lock, she said "I\'ll take my leave for today."'
  show mion_v002 smile at active
  show nao_v002 normal at inactive
- mion 'That meant she was going to finish her work for the day. In other words, she was going to go back to her quarters or something.'
+ mion 'That meant she was going to finish her work for the day. In other words, she was gonna go back to her quarters or something.'
  show nao_v002 normal at active
  show mion_v002 smile at inactive
  nao "She only went upstairs because... I told her about the window, which wasn't on her schedule..."
@@ -352,13 +353,13 @@ label event01_30_05:
  mion 'Yup. And she only had a few minutes to go in and out of our room.'
  show mion_v002 smile at active
  show nao_v002 normal at inactive
- mion "An unscheduled request and a small amount of time. Logically, Shannon-san wouldn't have any time for playing that prank."
+ mion "An unscheduled request and a small amount of time. Logically, Shannon-san wouldn't have any time to play that prank."
  hide nao_v002
  show shion_v002 normal at mei_left
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 smile at inactive
- shion "Furthermore, in the red truth, it is clearly stated that Shannon-san didn't even touch the sheets, with or without the magic circle."
+ shion "Furthermore, the red truth clearly stated that Shannon-san didn't even touch the sheets, with or without the magic circle."
  show mion_v002 smile at updown_shake_transform,active
  show shion_v002 normal at inactive
  mion "And besides, it's hard for this ol' man to believe that such a fragile, pretty girl would play such a naughty prank!"
@@ -434,7 +435,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show mion_v002 smile at inactive
- nao "B-but Shannon-san isn't involved in this at all, even indirectly, right?"
+ nao "B-But Shannon-san isn't involved in this at all, even indirectly, right?"
  show nao_v002 fuan at active
  show mion_v002 smile at inactive
  nao 'In other words, if the culprit takes advantage of the opportunity when Shannon-san opens and closes the door, that counts as indirectly cooperating with the culprit...'
@@ -458,7 +459,7 @@ label event01_30_05:
  shion 'Well, if this were a club activity, not only Sis, but any member of the club could use it as a foothold.'
  show mion_v002 futeki at updown_shake_transform,active
  show shion_v002 smile at inactive
- mion "The culprit isn't bad at all. *cackle*cackle*. I'd even say I want to invite them to our club activities."
+ mion "The culprit isn't bad at all. *cackle*cackle*. I'd even say I wanna invite them to our club activities."
  hide shion_v002
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
@@ -504,7 +505,7 @@ label event01_30_05:
  erika "I'm thinking of relaxing and reading my books at the arbor in the rose garden."
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika 'I remember Nao-chama saying she was going to do embroidery while looking at the rose garden?'
+ erika 'Now that I say it, Nao-chama was saying she was going to embroider while watching the roses, was it?'
  hide erika_v001
  hide mion_v002
  with Dissolve(0.2)
@@ -533,7 +534,7 @@ label event01_30_05:
  mion "Ah, here's a good luck charm."
  hide mion_v002
  with Dissolve(0.2)
- narrator 'Mion-san hung a tag on the doorknob that said "Bedmaking Not Necessary".\n...I\'m not sure what she called it a charm for.'
+ narrator 'Mion-san hung a tag on the doorknob that said "Bedmaking Not Necessary". ...I\'m not sure what she called it a charm for.'
  play audio 'audio/sfx/SE_5056_toy.wav'
  narrator "She was messing around with the doorknob for a while... but I couldn't quite figure out what she was doing."
  show shion_v002 smile at mei_center
@@ -569,7 +570,7 @@ label event01_30_05:
  erika "I've brought a special mystery book with me today, so I'm planning to relax and read in the rose garden."
  show mion_v002 smile at active
  show erika_v001 normal at inactive
- mion 'Woah! What kind of book?'
+ mion 'Nice! What kind of book?'
  show erika_v001 normal_close at active
  show mion_v002 smile at inactive
  erika "Well, you see, it would typically be classified under the romance genre... yet it's very much a mystery to me."
@@ -632,7 +633,7 @@ label event01_30_05:
  show jessica_v001 odoroki at active
  jessica '...Woah! What are you people doing?! Are you really doing a cosplay photo session?!'
  show jessica_v001 fuan_blush at chara_shake_transform,active
- jessica "Woah, woah, woaaah, isn't this showing your skin t-too much? Isn't this too sexy?!"
+ jessica "Woah, woah, woaaah, isn't this showing your skin t-too much? \nA little too sexy?!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -646,7 +647,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show shion_v004 smile at active
  show jessica_v001 fuan_blush at inactive
- shion "Why don't you come and join, Jessica-san? It can get pretty addictive～♪"
+ shion "Why don't you come and join, Jessica-san? \nIt can get pretty addictive～♪"
  show jessica_v001 smile at active
  show shion_v004 smile at inactive
  jessica "N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!"
@@ -673,23 +674,23 @@ label event01_30_05:
  with Dissolve(0.5)
  show shion_v004 smile at active
  show mion_v005 smile at inactive
- shion "Location is also quite important, you know? There's a big difference between shooting in front of a white backdrop and shooting here."
+ shion 'The location is super important too, you know? Shooting in front of a white backdrop is leagues different than shooting here.'
  show mion_v005 smile at active
  show shion_v004 smile at inactive
- mion "This is another job that my uncle asked me to do. He's going to use it for Angel Mort's next campaign!"
+ mion "This is another job that my uncle asked me to do. He's gonna use it for Angel Mort's next marketing campaign!"
  show shion_v004 smile at active
  show mion_v005 smile at inactive
- shion 'If you order certain menu items on a campaign, you will randomly receive a picture of an enchanting Angel Mort waitress.'
+ shion "If you order certain menu items on promo, you'll randomly receive a picture of an enchanting Angel Mort waitress."
  hide mion_v005
  hide shion_v004
  with Dissolve(0.2)
  show jessica_v001 smile_blush at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile_blush at active
- jessica "Let's take a shoot then! Give me your best pose! W-wow, so bold... so sexy..."
+ jessica "Let's take a shoot then! Give me your best pose! \nW-Wow, so bold... so sexy..."
  hide jessica_v001
  with Dissolve(0.2)
- narrator 'For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be completely different.'
+ narrator 'For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be a breath of fresh air.'
  narrator "If you asked me to name the person who's having the most fun on this vacation, I would have to say it's Jessica-san."
  narrator '...Well, girls will be girls. I should spend some time on my own too.'
  narrator 'Where can I relax and immerse myself in embroidery, surrounded by roses-- oh...?'
@@ -733,7 +734,7 @@ label event01_30_05:
  hide erika_v001
  with Dissolve(0.2)
  narrator "How creepy... She wasn't reading, but instead, she was watching me the whole time...?"
- narrator "After all, I can't get along with this person. I mean, I can clearly sense her hostility."
+ narrator "I can't get along with this person after all. I mean, I can clearly sense her hostility."
  narrator "When you think about it, turning your back on this place feels like admitting defeat. There's no way I'm running away..."
  show erika_v001 normal at mei_right
  show nao_v002 normal at mei_left
@@ -785,4 +786,4 @@ label event01_30_05:
  with Dissolve(0.2)
  narrator "Deal. As Nao Houtani, I'm not going to take an easy compromise..."
  call chapter_end
- call event01_30_06
+ jump event01_30_06

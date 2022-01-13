@@ -3,6 +3,7 @@ label event01_30_07:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_07'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -60,7 +61,7 @@ label event01_30_07:
  shion 'This is the last Angel Mort request, right?'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'Of course! This afternoon, we\'re doing the "Heartbroken Rabbits Murder Case" photo set~!'
+ mion 'Yup! This afternoon, we\'re doing the "Heartbroken Rabbits Murder Case" photo set~!'
  show shion_v002 smile at active
  show mion_v002 smile at inactive
  shion 'Hey, Nao-san, you wanna join?'
@@ -70,7 +71,7 @@ label event01_30_07:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao "Um... I'm a little embarrassed."
+ nao 'Um... thanks, but getting embarrassed like that is gross.'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -167,7 +168,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show erika_v001 normal at inactive
- beatrice 'That "{i}thing{/i}" you brought as a souvenir is very intriguing, isn\'t it?'
+ beatrice "{i}What you brought as a souvenir{/i} is very intriguing, isn't it?"
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
  erika "It's mere child's play compared to the difficulty you had while flirting with Battler-san, though."
@@ -179,19 +180,19 @@ label event01_30_07:
  dlanor "...You really are a great DETECTIVE. You've used your surroundings and adapted to the situation to produce a great MYSTERY."
  show erika_v001 normal_close at active
  show dlanor_v001 normal at inactive
- erika 'It is only right that those who can solve mysteries are able to create them as well.'
+ erika "It's only natural that those who are able to solve mysteries have the ability to create them as well."
  hide dlanor_v001
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show erika_v001 normal_close at inactive
- beatrice 'The mystery of the "{i}first{/i}" magic circle is unfolding, but... Shannon I have yet to understand.'
+ beatrice 'The mystery of the {b}first{/b} magic circle is unfolding... but Shannon I have yet to understand.'
  show beatrice_v001 normal at active
  show erika_v001 normal_close at inactive
  beatrice 'To look at a repulsive magic circle drawn on a bedsheet with such a calm demeanor...'
  show beatrice_v001 sinken at active
  show erika_v001 normal_close at inactive
- beatrice "Hmmmm... there's not enough sugar in my head... Dlanor, another box if you please."
+ beatrice "Hmmmm... there's not enough sugar in my head... Dlanor, I request another box..."
  hide erika_v001
  show dlanor_v001 fuan at mei_left
  with Dissolve(0.5)
@@ -242,7 +243,7 @@ label event01_30_07:
  dlanor '...Even Lady Beatrice mellowed out with TIME. ...Erika, you could stand to do the SAME.'
  show erika_v001 normal at active
  show dlanor_v001 fuan at inactive
- erika "...Very well. So much for being mean. I'll give you the red truth you want."
+ erika "...Yeah, yeah. I'm {i}so{/i} despicable that I'll give you the red truth you desire."
  show red_cover onlayer curtain as fade with Dissolve(0.16666666666666666)
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  hide fade onlayer curtain
@@ -262,10 +263,10 @@ label event01_30_07:
  with Dissolve(0.16666666666666666)
  show erika_v001 normal at active
  show beatrice_v001 sinken at inactive
- erika "{umi_red}After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheet with another that had the magic circle drawn on it in advance.{/umi_red}"
+ erika "{umi_red}After Nao and everyone went to dinner, Erika crawled in through the window and replaced Nao's bedsheets with another that had the magic circle drawn on it in advance.{/umi_red}"
  show beatrice_v001 sinken at nod_transform,active
  show erika_v001 normal at inactive
- beatrice "Even that much was obvious! Even Nao would've figured that out long ago!"
+ beatrice "That was obvious too! Even Nao would've figured that out long ago!"
  hide erika_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
@@ -327,7 +328,7 @@ label event01_30_07:
  show erika_v001 smile at active
  erika '*giggle*giggle* It really is a treat to dangle riddles in front of Beatrice like this♪'
  show erika_v001 futeki at active
- erika 'Keep doing your best, won\'t you? Hadn\'t "{i}they{/i}" seen through everything on their first try...?'
+ erika "Keep doing your best, won't you? Hadn't {b}they{/b} seen through everything on their first try...?"
  stop music fadeout 0.5
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
@@ -352,8 +353,8 @@ label event01_30_07:
  narrator 'After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.'
  narrator "Finally, I had the chance to embroider to my heart's content, surrounded by the wonderful roses in the arbor."
  narrator 'The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo shoot that afternoon.'
- narrator 'There were many ridiculous costumes appearing one after another... Just what kind of mystery {i}was{/i} this?'
- narrator 'I have no idea why the creator decided to make the protagonist Wanyan a giant slug... Maybe that was the real mystery.'
+ narrator '...There were many ridiculous costumes appearing one after another. Just what kind of mystery {i}was{/i} this...?'
+ narrator 'I have no idea why the creator decided to make the protagonist Wanyan a giant slug. Maybe that was the real mystery...'
  show mion_v004 smile at mei_right
  show shion_v012 smile at mei_left
  with Dissolve(0.5)
@@ -385,7 +386,7 @@ label event01_30_07:
  nao 'Are your costumes handmade?'
  show mion_v004 smile at active
  show nao_v002 smile at inactive
- mion "I'm not so sure you could say they're handmaaade~. Well, we did a bit in a ruush~."
+ mion "I wouldn't go so far as to say they're handmaaade~. But well, we did it in a bit of a rush~."
  play audio 'audio/sfx/SE_5037_getup.wav'
  show nao_v002 sinken at active
  show nao_v002 sinken:
@@ -420,7 +421,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 fuan at chara_shake_transform,active
  show nao_v002 smile at inactive
- mion "Even if we don't get fazed wearing something revealing, we couldn't bear looking at the inner lining! Good work, Officer!"
+ mion "Even if we don't get fazed wearing something revealing, we couldn't bear looking at the inner lining...! Spare me, Officer Good Looks!"
  show nao_v002 smile at active
  show mion_v004 fuan at inactive
  nao 'Well... I happen to know a bit about clothing, so feel free to ask me for help the next time you want to make something.'
@@ -436,7 +437,7 @@ label event01_30_07:
  camera at screenshake_transform
  pause 0.0
  show shion_v012 fuan at active
- shion "B-but if you start helping, you'll see what we diiiiiiiiidd!!! Ewwwww, it's sooo embarrassiiiiiiiinggggg!!!!"
+ shion "B-But if you start helping, you'll see iiiiiittttttt!!! Ewwwww, it's sooo embarrassiiiiiiiinggggg!!!!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -498,10 +499,10 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v004 smile at active
  show shion_v012 smile at inactive
- mion "Don't worry, everything was locked up tight! If there really were another magic circle, I think we'd have a closed-room mystery on our hands."
+ mion "Don't worry, everything was locked up tight! If there really was another magic circle, I think we'd have a closed-room mystery on our hands."
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion "Just relax. Nao-san won't have anything to be afraid of anymore."
+ shion "Just relax. You won't have anything to be afraid of anymore, Nao-san."
  hide shion_v012
  hide mion_v004
  with Dissolve(0.2)
@@ -610,7 +611,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show mion_v004 smile at inactive
- nao "P-please don't announce it like that, just open the door quietly..."
+ nao "P-Please don't announce it like that, just open the door quietly..."
  hide mion_v004
  hide nao_v002
  with Dissolve(0.2)
@@ -641,7 +642,7 @@ label event01_30_07:
  hide erika_v001
  hide shion_v012
  with Dissolve(0.2)
- narrator 'I feel like throughout this entire vacation, even while I {i}meant{/i} to spend my free time in the rose garden, Erika-san has constantly been inciting fights with me.'
+ narrator 'I feel like throughout this entire vacation, even while I {i}meant{/i} to spend my free time in the rose garden, Erika-san has constantly been starting fights with me.'
  narrator "Erika-san's provocative attitude combined with the Sonozaki sisters' fighting over their paid visit..."
  narrator "I think I'll write in the questionnaire that this island would be better off reserved..."
  show erika_v001 normal at mei_right
@@ -763,7 +764,7 @@ label event01_30_07:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki at active
- erika '...Ahhhh...uwaaaaaa...'
+ erika '...Ahhhh... uwaaaaaa...'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -859,7 +860,7 @@ label event01_30_07:
  mion "Um... this morning, you said you didn't lock your door... right?"
  show erika_v001 sinken at active
  show mion_v008 normal at inactive
- erika "Y-yes, that's right... But after that, I made very sure to lock my door... nnh."
+ erika "Y-Yes, that's right... But after that, I made very sure to lock my door... nnh."
  hide mion_v008
  show shion_v007 normal at mei_left
  with Dissolve(0.5)
@@ -912,7 +913,7 @@ label event01_30_07:
  mion "Yeah. It's just ordinary watercolor paint, if I'm right..."
  show shion_v007 normal at active
  show mion_v008 normal at inactive
- shion "...It's not a trick where it's transparent at first, but as time passes, the stain starts to show up more and more."
+ shion "...It's a trick where it's transparent at first, but as time passes, the stain starts to show up more and more."
  show mion_v008 normal_close at active
  show shion_v007 normal at inactive
  mion 'As far as this crime goes... it could only have been committed immediately after opening the door.'
@@ -956,4 +957,4 @@ label event01_30_07:
  with Dissolve(0.08333333333333333)
  narrator "I had never seen such a look on Erika-san's face. Her eyes widened, and her expression was one of both shock and dumbfoundedness."
  call chapter_end
- call event01_30_08
+ jump event01_30_08

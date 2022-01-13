@@ -3,6 +3,7 @@ label event01_30_01:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=2
  $ event_store.current_chapter='event01_30_01'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -53,7 +54,7 @@ label event01_30_01:
  erika 'Pleased to meet you. My name is Erika Furudo.'
  hide erika_v001
  with Dissolve(0.2)
- narrator 'It seems that Erika had once drifted near Rokkenjima when she fell out of a pleasure boat.'
+ narrator 'It seems that she had once drifted near Rokkenjima when she fell out of a pleasure boat.'
  narrator 'Then, by coincidence, she washed up on Rokkenjima and was taken care of. And so, she has a small connection with them...'
  show nao_v002 normal at mei_left
  show erika_v001 normal at mei_right
@@ -91,7 +92,7 @@ label event01_30_01:
  shion "She's not seasick is she? I think it'd be best to leave her alone."
  show shion_v002 smile at active
  show mion_v002 fuan at inactive
- shion 'Anyways, Erika! Which Detective Wanyan case is your favorite episode?'
+ shion 'Anyways, Erika-san! Which Detective Wanyan case is your favorite episode?'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
  mion "A strange turn of fate, isn't it? All of our friends going to the island are Detective Wanyan fans!"
@@ -106,7 +107,7 @@ label event01_30_01:
  erika 'The reasoning in the show is admirable. My only gripe with it is that I could have demonstrated even more brilliant deductions were I the detective.'
  hide erika_v001
  with Dissolve(0.2)
- narrator "The Sonozaki sisters and Erika...san have somehow hit it off. \nI'm the only one left out. ...*sigh*."
+ narrator "The Sonozaki sisters and Erika...san have somehow hit it off. \nI'm the only one left out. ......*sigh*."
  narrator "We haven't even made it to Rokkenjima and I'm already getting the feeling that I shouldn't have come."
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
@@ -207,7 +208,7 @@ label event01_30_01:
  show erika_v001 normal at active
  erika 'Although, that story was something I just made up.'
  show erika_v001 normal at active
- erika '...The truth is that the island used to be called Akujikushima (Evil Appetite Island) because the souls of anyone who came near would be eaten by evil spirits.'
+ erika '...The truth is that the island used to be called Akujikishima (Evil Appetite Island) because the souls of anyone who came near would be eaten by evil spirits.'
  hide erika_v001
  with Dissolve(0.2)
  narrator '"You sure know your stuff.", interjected the captain.'
@@ -350,7 +351,7 @@ label event01_30_01:
  erika "It's a simple process of elimination. She and I are acquainted, and two of the three left are twins. The only one left would be Nao-chama, so you'd know who that is."
  hide erika_v001
  with Dissolve(0.2)
- narrator "Just as I thought, there {i}is{/i} some sharpness to her words. It seems I just can't come to like this person, and I sense she doesn't like me either."
+ narrator "Just as I thought, there {i}is{/i} some sharpness to her words. I just can't come to like this person, and I sense she doesn't like me either."
  show jessica_v001 smile at mei_right
  show mion_v002 smile at mei_left
  with Dissolve(0.5)
@@ -428,7 +429,7 @@ label event01_30_01:
  hide mion_v002
  with Dissolve(0.2)
  narrator 'This is what I came for. \nA beautiful rose garden out of this world.'
- narrator '"If I could choose where I die, ...then I would want to be surrounded by these beautiful roses, and fall asleep as if I were taking a nap." \nIt was the type of scene that made you think something like that...'
+ narrator '"If I could choose where I die... then I would want to be surrounded by these beautiful roses, and fall asleep as if I were taking a nap." \nIt was the type of scene that made you think something like that...'
  show jessica_v001 smile at mei_left
  show shannon_v001 smile at mei_right
  with Dissolve(0.5)
@@ -549,7 +550,7 @@ label event01_30_01:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. \nI'll give it to Mion."
+ narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. I'll give it to Mion."
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  show black_cover as bg
  play audio 'audio/sfx/SE_5013_down.wav'
@@ -620,14 +621,14 @@ label event01_30_01:
  shion 'What is it? ...Eeee-, Sis, did you break iiit?!'
  show nao_v002 odoroki at active
  show shion_v002 odoroki at inactive
- nao '...Uh. Just now when you opened the window in excitement... did you break the lock?'
+ nao '...Uh. When you opened the window in excitement just now... did you break the lock?'
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
  show mion_v002 fuan at mei_center
  with Dissolve(0.5)
  show mion_v002 fuan at chara_shake_transform,active
- mion "I-It's not broken! There's just a trick to closing it, isn't there? ......Hmm, let's see....."
+ mion "I-It's not broken! There's just a trick to closing it, isn't there? ......Hmm, let's see..."
  hide mion_v002
  with Dissolve(0.2)
  narrator "That's Mion-san for you. I can't believe she broke the window's lock almost immediately after entering the room, let alone on the first day."
@@ -741,7 +742,7 @@ label event01_30_01:
  show mion_v002 smile at mei_center
  with Dissolve(0.08333333333333333)
  show mion_v002 smile at chara_shake_transform,active
- mion 'Hwaa~!! This really is the stuff! I drank it all in one gulp!'
+ mion 'Hwaa~!! This really is the stuff! I can drink it all in one gulp!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -757,7 +758,7 @@ label event01_30_01:
  erika "...Could you at least wait until Gohda-san's finished his explanation?"
  show shion_v002 fuan at active
  show erika_v001 normal_close at inactive
- shion 'Oh well. Sis is a hick with no table manners after all.'
+ shion 'Oh well. Sis is a country bumpkin with no table manners after all.'
  show erika_v001 normal at active
  show shion_v002 fuan at inactive
  erika 'Oh? It seems like Nao-chama has no problem waiting patiently.'
@@ -881,7 +882,7 @@ label event01_30_01:
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao "...It's a lovely house. ...I wonder if it's the work of Josiah Conder."
+ nao "...It's a lovely house. ...I wonder if it's the work of {note_green}Josiah Conder{/note_green}."
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -924,7 +925,7 @@ label event01_30_01:
  show jessica_v001 fuan_close at mei_center
  with Dissolve(0.5)
  show jessica_v001 fuan_close at active
- jessica 'I-I know, mom...'
+ jessica 'I-I know, Mom...'
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide jessica_v001
@@ -934,15 +935,15 @@ label event01_30_01:
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'With that, we were shown around the house.'
- narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here and other such indiscreet topics.  '
- narrator 'And then, on the way back to the front door, we walked by a great hall.'
+ narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here, among other indiscreet topics.  '
+ narrator 'And then, on the way back to the front door, we walked through a great hall.'
  narrator 'And there... I met the true master of this island.'
  show mion_v002 odoroki at mei_right
  show shion_v002 odoroki at mei_left
  with Dissolve(0.5)
  show shion_v002 odoroki at active
  show mion_v002 odoroki at inactive
- shion '...Uwah, what beautiful blonde hair...'
+ shion '...Woah, what beautiful blonde hair...'
  show mion_v002 odoroki at active
  show shion_v002 odoroki at inactive
  mion 'Who is... this person...'
@@ -978,14 +979,14 @@ label event01_30_01:
  with Dissolve(0.2)
  narrator "I'm not psychic or anything. \n...But, the painting was making me feel something."
  narrator 'It was... a feeling of deep love for the woman in the painting... bordering on or even exceeding... that of madness.'
- narrator "It should only be a beautiful portrait but... that's how it made me feel. \nI wonder if I've also... been poisoned by the cliche of mysteries on isolated islands."
+ narrator "It should only be a beautiful portrait... but that's how it made me feel. \nI wonder if I've also... been poisoned by the cliche of mysteries on isolated islands."
  show jessica_v001 normal at mei_right
  with Dissolve(0.5)
  show jessica_v001 normal at active
  jessica "It's a portrait of our family alchemist."
  $ event_store.current_progress = 3
  show jessica_v001 normal at active
- jessica 'According to Grandfather, the Ushiromiya family would not have prospered if she had not lent him 100 tons of gold.'
+ jessica 'According to Grandfather, the Ushiromiya family would not have prospered if she had not lent him {note_green}100 tons{/note_green} of gold.'
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -1036,6 +1037,6 @@ label event01_30_01:
  play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
  pause 1.0
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
- beatrice '{i}*cackle cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/i}'
+ beatrice '"{i}*cackle*cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/i}"'
  call chapter_end
- call event01_30_02
+ jump event01_30_02

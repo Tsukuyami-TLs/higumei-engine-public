@@ -3,6 +3,7 @@ label chara452001_02:
  $ event_store.current_event='chara452001'
  $ event_store.current_progress=2
  $ event_store.current_chapter='chara452001_02'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -226,4 +227,4 @@ label chara452001_02:
  show nao_v002 smile at inactive
  rena 'Yup, do your best. Rena will be rooting for you, Nao-chan...!'
  call chapter_end
- call chara452001_03
+ jump chara452001_03

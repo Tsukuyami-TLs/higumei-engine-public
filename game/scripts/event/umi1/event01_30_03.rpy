@@ -3,6 +3,7 @@ label event01_30_03:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_03'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -19,7 +20,7 @@ label event01_30_03:
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
- nao '...Oh gosh. As expected, I probably overslept... maybe.'
+ nao '...Oh gosh. I might have... overslept after all... maybe.'
  hide nao_v002
  with Dissolve(0.2)
  show shion_v002 fuan_close at mei_left
@@ -48,7 +49,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 fuan at active
  show mion_v002 smile at inactive
- shion 'It was impossible. Please apologize to a servant later.'
+ shion 'I guess not. Please apologize to a servant later.'
  show mion_v002 fuan_close at active
  show mion_v002 fuan_close:
   linear 0.5 pos (1440,1250)
@@ -115,7 +116,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'Waahh, I already smell the deliciousness from here~!'
+ mion 'Mmm, I already smell the deliciousness from here~!'
  show shion_v002 smile at active
  show mion_v002 smile at inactive
  shion "This is definitely a smell you wouldn't get in Hinamizawa, huh?"
@@ -127,7 +128,7 @@ label event01_30_03:
  nao "Lunch earlier was the absolute best it could have been, so I'm super looking forward to dinner!"
  show mion_v002 smile at jump_transform,active
  show nao_v002 smile at inactive
- mion 'As expected, meals decide everything, huh?!'
+ mion 'Meals really do decide everything, huh?!'
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide mion_v002
@@ -177,10 +178,10 @@ label event01_30_03:
  erika 'Ah, I have my own chopsticks, so it would be splendid if you took away my silverware.'
  show shannon_v001 fuan at active
  show erika_v001 normal at inactive
- shannon 'B-but... eating soup with chopsticks is...'
+ shannon 'B-But... eating soup with chopsticks is...'
  show erika_v001 smile at active
  show shannon_v001 fuan at inactive
- erika "You're underestimating Erika's skill in using chopsticks, aren't you? Allow me to demonstrate my soup eating chopstick technique!"
+ erika "You're underestimating the refined art of Erika-Chopstick-Jutsu, aren't you? Allow me to demonstrate my soup eating chopstick technique!"
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)
@@ -215,7 +216,7 @@ label event01_30_03:
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'There are mysteries with intellectual puzzles, but sometimes others will be entirely about the competitive nature between the detective and culprit.'
+ erika 'There are mysteries with intellectual puzzles, but sometimes others will entirely be about the competitive nature between the detective and culprit.'
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
  show shion_v002 smile at active
@@ -235,7 +236,7 @@ label event01_30_03:
  show erika_v001 normal_close at active
  erika "*giggle*. Well, watching a killer that doesn't know when to give up in a mystery can be quite pleasant, though."
  show erika_v001 normal at active
- erika "If it were me... I would be a pretty tough character; I daresay I'd put my all into it. *giggle*giggle*."
+ erika "If it were me... I would be a pretty tough character. \nI daresay I'd put my all into it. *giggle*."
  hide erika_v001
  with Dissolve(0.2)
  narrator 'Tch. ...I want everyone to watch "The Kaneda Case Files" too. It\'s suuper interesting, but...'
@@ -259,13 +260,13 @@ label event01_30_03:
  shannon "I've also been recommended it to the other servants, but nobody has started reading it..."
  show nao_v002 fuan at active
  show shannon_v001 fuan at inactive
- nao "... You're also a Wanyan fan? ... Have you seen the movie?"
+ nao "...You're also a Wanyan fan? ...Have you seen the movie?"
  show shannon_v001 smile at active
  show nao_v002 fuan at inactive
  shannon 'Of course! I watched it in a huge theater in Tokyo♪'
  show nao_v002 normal at active
  show shannon_v001 smile at inactive
- nao '... Have you read The Kaneda Case Files?'
+ nao '...Have you read The Kaneda Case Files?'
  show shannon_v001 smile at nod_transform,active
  show nao_v002 normal at inactive
  shannon "Yeah, I love that one too. It's a pretty difficult choice, but I liked it better."
@@ -295,7 +296,7 @@ label event01_30_03:
  stop music fadeout 2.0
  show nao_v002 fuan at active
  show shannon_v001 smile at inactive
- nao "...Jessica-san and them feel threatened by this island's ghost story about a witch."
+ nao "...Jessica-san and them have been scaring me with this island's ghost story about a witch."
  show shannon_v001 normal at active
  show nao_v002 fuan at inactive
  shannon 'Ghost story... about a witch... you say...?'
@@ -312,10 +313,10 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show shannon_v001 smile at inactive
- nao 'As I thought, Shannon-san... believes in her too? In Beatrice.'
+ nao 'As I thought, Shannon-san... believes in Beatrice too?'
  show shannon_v001 smile_close at active
  show nao_v002 normal at inactive
- shannon 'Yes. She "exists", Beatrice-sama.'
+ shannon 'Yes. ...Beatrice-sama "exists".'
  show nao_v002 normal at active
  show shannon_v001 smile_close at inactive
  nao 'When you say exists, where would that be?'
@@ -326,7 +327,7 @@ label event01_30_03:
  hide shannon_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator "Shannon-san is sweetly laughing with a smile on her face... but I get the feeling that I've soured her mood instead."
+ narrator "Shannon-san is laughing sweetly with a smile on her face... but I get the feeling that I've soured her mood instead."
  show shannon_v001 smile at mei_right
  show nao_v002 sinken at mei_left
  with Dissolve(0.5)
@@ -432,13 +433,13 @@ label event01_30_03:
  erika 'I do think I will be spending time leisurely in my room.'
  show mion_v002 futeki at active
  show erika_v001 normal_close at inactive
- mion "Whaaat? You're gonna run oooff? Board games are a clash of brains!"
+ mion "Whaaaat? You're gonna run oooff? Board games are a clash of brains!"
  show mion_v002 futeki_close at active
  show erika_v001 normal_close at inactive
  mion "Well, this brain doesn't get me that many wins, though. You still gonna run off~?"
  show erika_v001 normal at active
  show mion_v002 futeki_close at inactive
- erika '...Hnn. Cheap provocation method on your part. But if you say that much, I guess I must accept your offer.'
+ erika '...Hm. Cheap provocation method on your part. But if you say that much, I guess I must accept your offer.'
  hide mion_v002
  show shion_v002 fuan at mei_left
  with Dissolve(0.5)
@@ -460,7 +461,7 @@ label event01_30_03:
  play audio 'audio/sfx/SE_226_shine.wav'
  show jessica_v001 futeki at jump_transform,active
  show nao_v002 fuan at inactive
- jessica "Sweet! I'm the grandkid of Kinzo Ushiromiya, so competition is first nature to me as well!"
+ jessica "Sweet! I'm the grandkid of Kinzo Ushiromiya, so competition is first nature to me too!"
  hide nao_v002
  hide jessica_v001
  with Dissolve(0.2)
@@ -572,7 +573,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shion_v002 smile at inactive
- erika "I'll be the winner, in any case. At most, do allow me to choose a serious punishment game myself."
+ erika "I'll be the winner, in any case. Do allow me to choose a punishment game that would work in my favor."
  show shion_v002 smile at active
  show erika_v001 normal at inactive
  shion "Erika-san, you'd best not underestimate Sis, yeah? She'll do anything to win."
@@ -584,17 +585,17 @@ label event01_30_03:
  nao "...For starters, I'll be glad if we won't be dealing with explosions, traps, or bodily harm."
  show erika_v001 normal_close at active
  show nao_v002 fuan at inactive
- erika 'My, my. In the face of these punishment games, this is going to become quite the thrilling game. *cackle*cackle*cackle*!!'
+ erika 'My, my. In the face of these punishment games, this is going to become quite the thrilling session. *cackle*cackle*cackle*!!'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
  show jessica_v001 odoroki at mei_center
  with Dissolve(0.5)
  show jessica_v001 odoroki at active
- jessica 'W-, weird. I had no idea this was gonna be such a dangerous kind of game...'
+ jessica 'W-Woah. I had no idea it was gonna be {i}that{/i} kind of dangerous...'
  hide jessica_v001
  with Dissolve(0.2)
- narrator 'When Mion-san comes into the picture, anytime playing is involved, it transforms into a much darker game...'
+ narrator 'No matter what game it is, if Mion-san comes into the picture, it transforms into a much darker game...'
  narrator 'No one wanted to get their pillow wet with tears of humiliation on their first night here. Everyone diligently looked over the rules.'
  play audio 'audio/sfx/SE_526_door_open.wav'
  pause 0.5
@@ -668,7 +669,7 @@ label event01_30_03:
  play audio 'audio/sfx/SE_226_shine.wav'
  show mion_v002 futeki at active
  show jessica_v001 smile at inactive
- mion 'Yeah, that\'s the spirit!! Here are Jessica-san and I\'s "Rokkenjima Club Activity Business Trip Five-Demon Fire Fiiiiiiiight"!!!'
+ mion 'Yeah, that\'s the spirit!! All right, Jessica-san, here\'s our\n "Rokkenjima Club Activity Business Trip Five-Demon Firefiiiiiiiight"!!!'
  stop music fadeout 2.0
  window hide None
  hide mion_v002
@@ -680,7 +681,7 @@ label event01_30_03:
  show jessica_v001 fuan at mei_center
  with Dissolve(0.5)
  show jessica_v001 fuan at chara_shake_transform,active
- jessica 'Haaaaaaaah... aaaah...'
+ jessica 'HaaaAAaaaah... aaaah...'
  hide jessica_v001
  with Dissolve(0.2)
  narrator 'When Jessica-san yawned, Shion-san and I were caught up in the yawn chain as well.'
@@ -692,7 +693,7 @@ label event01_30_03:
  erika 'Wait a second. This one is saying "it\'s okay to do this", right? Does this mean "it\'s okay not to do this" as well?'
  show mion_v002 normal at active
  show erika_v001 sinken at inactive
- mion "Umm, wait, wait. First, we settled we'd go in clockwise to collect taxes, and then processing income was..."
+ mion "Umm, wait, wait. First, we settled we'd go in clockwise to collect taxes, and then income processing was..."
  hide erika_v001
  show shion_v002 sinken at mei_left
  with Dissolve(0.5)
@@ -738,7 +739,7 @@ label event01_30_03:
  camera at screenshake_transform
  pause 0.0
  show mion_v002 sinken at active
- mion "Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to just end it?"
+ mion "Aaaah-, come on, come on!! Just as this ol' man charged up all this power, we decide to end it?"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -766,7 +767,7 @@ label event01_30_03:
  show expression 'images/bg/AdvBg_2371.png' as bg
  hide fade onlayer curtain
  with Dissolve(1.0)
- narrator 'Jessica-san returned to the mansion. The rest of us dragged ourselves up to the second floor.'
+ narrator 'Jessica-san returned to the mansion. The rest of us went up to the second floor in a huddle.'
  show erika_v001 normal at mei_right
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
@@ -793,7 +794,7 @@ label event01_30_03:
  nao '...By the time it felt fun, I feel like we could have been laughing carelessly playing Russian roulette with live bullets.'
  show mion_v002 futeki at active
  show nao_v002 fuan at inactive
- mion 'Jessica-san said it herself, I guess, how there is a huge prize hidden within the insanity of risk.'
+ mion "Jessica-san said it herself, didn't she? About how there's a huge prize hidden within the insanity of risk."
  show mion_v002 smile at updown_shake_transform,active
  show nao_v002 fuan at inactive
  mion "I feel like the head of this place, Kinzo-san, would enjoy the madness of this ol' man's club activities."
@@ -831,7 +832,7 @@ label event01_30_03:
  erika 'I heard. ...I suppose you had spoken with Shannon-san earlier?'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika "About how Beatrice loves playing pranks on people who don't believe, and such... "
+ erika "About how Beatrice loves playing pranks on people who don't believe, et cetera... "
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
  erika 'And how you denounced the Golden Witch outright, even with her having that level of magnificence.'
@@ -840,7 +841,7 @@ label event01_30_03:
  erika "...I do hope that she doesn't play some sort of creepy prank on you because of that...?"
  show nao_v002 normal_close at active
  show erika_v001 fuan at inactive
- nao 'You really are poorly mannered, Erika-san. ... Treating people like children.'
+ nao 'You really are poorly mannered, Erika-san... treating people like children.'
  show nao_v002 normal at active
  show erika_v001 fuan at inactive
  nao "I'm not afraid of that ghost story or anything."
@@ -908,9 +909,9 @@ label event01_30_03:
  hide nao_v002
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_017_TragedyStart.wav'
- narrator "Mion-san and Shion-san's beds had... nothing on top of them, but my bed alone was k i l l e d..."
- narrator 'The blanket was ripped to shreds... almost as if the sheets were skin hanging off of it... and dyed red with blood .'
- narrator "No. It's not just dyed red. This is... something drawn on with a blood-like substance..."
+ narrator "Mion-san and Shion-san's beds had... nothing on top of them, but my bed alone was {i}murdered{/i}..."
+ narrator 'The blanket was torn off disastrously... exposing the sheets underneath as if they were skin... skin that was... dyed red with blood...'
+ narrator "No. It's not just dyed red. There is... something drawn on... with a red, blood-like substance..."
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
@@ -918,4 +919,4 @@ label event01_30_03:
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  pause 2.0
  call chapter_end
- call event01_30_04
+ jump event01_30_04

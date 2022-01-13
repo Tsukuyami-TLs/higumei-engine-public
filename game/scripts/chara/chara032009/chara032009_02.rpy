@@ -3,6 +3,7 @@ label chara032009_02:
  $ event_store.current_event='chara032009'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara032009_02'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -318,4 +319,4 @@ label chara032009_02:
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice "Kuhahhahhahhahha! A great scream that tugs on the heartstrings! Let's enjoy this as much as possibleeeeeeeee!!"
  call chapter_end
- call chara032009_03
+ jump chara032009_03

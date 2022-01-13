@@ -3,6 +3,7 @@ label chara032009_01:
  $ event_store.current_event='chara032009'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara032009_01'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -228,4 +229,4 @@ label chara032009_01:
  show nao_v002 odoroki at active
  nao 'Huh...?'
  call chapter_end
- call chara032009_02
+ jump chara032009_02

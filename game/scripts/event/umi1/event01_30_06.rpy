@@ -3,6 +3,7 @@ label event01_30_06:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_06'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -33,7 +34,7 @@ label event01_30_06:
  erika "Of course, the culprit won't give in to that phrase so easily."
  show erika_v001 futeki at active
  show nao_v002 fuan at inactive
- erika "As a cornered rat will bite a cat, the culprit will also surely object with all their might. However, I'll enjoy destroying it again!"
+ erika "As a cornered rat will bite a cat, the culprit will also surely object with all their might. But for me, I'll {i}enjoy{/i} tearing it down once more!"
  show nao_v002 normal at active
  show erika_v001 futeki at inactive
  nao "...In other words, Erika-san will play the part of an exemplary culprit. Is that what you're saying?"
@@ -54,10 +55,10 @@ label event01_30_06:
  nao 'Alibi...?'
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
- erika "Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb creations of Spanish cuisine?"
+ erika "Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb renditions on Spanish cuisine?"
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
- erika "Then, immediately after finishing the meal, I participated in Jessica-san's board game."
+ erika "Then, immediately after finishing the meal, I participated in \nJessica-san's board game."
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
  erika 'After we played late into the night, I surely went upstairs with everyone else.'
@@ -128,7 +129,7 @@ label event01_30_06:
  hide erika_v001
  with Dissolve(0.2)
  narrator 'Since Mion-san and Shion-san have super tough minds, they viewed the prank as a trivial matter.'
- narrator 'But... if they were normal-minded guests, we would all have screamed, running away from the room in fear of the prank.'
+ narrator 'But... if they were guests with normal taste, we would all have screamed, running away from the room in fear of the prank.'
  narrator 'Seeing that, could someone really say, "No. Please be at ease."?'
  show erika_v001 normal at mei_right
  show nao_v002 fuan at mei_left
@@ -153,7 +154,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika 'Therefore, me being involved with Shannon-san prior to this, like telling her to pretend not to see the magic circle, or any extension of that scenario, is impossible.'
+ erika 'Therefore, me being involved with Shannon-san prior to it, like telling her to pretend not to see the magic circle, or any extension of that scenario, is impossible.'
  show nao_v002 fuan_close at active
  show erika_v001 normal at inactive
  nao '......Nn.........'
@@ -196,7 +197,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika "Seems like she's going to be out today and tomorrow, so little Nao-chama returning home on Sunday no longer has a chance to hear her side."
+ erika "Seems like she's going to be out today and tomorrow, so little \nNao-chama returning home on Sunday no longer has a chance to hear her side."
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
  nao 'Gh......'
@@ -243,7 +244,7 @@ label event01_30_06:
  shion 'A motive like that is highly welcome here! With beauty, the thought of that one person looking at you feeds into your confidence!♪'
  show jessica_v001 odoroki_blush at active
  show shion_v008 smile at inactive
- jessica "N-, nonono, we, Kanon-kun and I aren't actually toge-..."
+ jessica "N-Nonono, we, Kanon-kun and I aren't actually toge-..."
  show jessica_v001 smile_blush at active
  show shion_v008 smile at inactive
  jessica "I-I-I'm, oh, look, it's lunch time!"
@@ -262,7 +263,7 @@ label event01_30_06:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "Ah, that mustn't do. ...To me, the incident with the lock on Mion-san's window is no laughing matter."
+ erika "Ah, that won't do. ...To me, the incident with the lock on Mion-san's window is no laughing matter."
  hide erika_v001
  with Dissolve(0.2)
  show shion_v008 smile at mei_left
@@ -302,7 +303,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show jessica_v001 smile at active
  show erika_v001 normal at inactive
- jessica "L-, lunch is actually at 12 o'clock! Haah, haah..."
+ jessica "L-Lunch is actually at 12 o'clock! Haah, haah..."
  show erika_v001 normal at active
  show jessica_v001 smile at inactive
  erika "Well, that's what I thought in the first place, but thank you very much for that information."
@@ -314,7 +315,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show mion_v015 smile at active
  show shion_v008 smile at inactive
- mion 'Shion~. For our next photo shoot, though, like, can we really not replace this prop?'
+ mion 'Shion~. For our next photo shoot, though, can we really not replace this prop?'
  show shion_v008 smile at active
  show mion_v015 smile at inactive
  shion "Ah-, you finally realized, huh? I've been thinking it didn't fit well."
@@ -322,7 +323,7 @@ label event01_30_06:
  pause 0.0
  show mion_v015 sinken at active
  show shion_v008 smile at inactive
- mion "Huuh?! If you've been thinking it, then, like, say something!"
+ mion "Huuh?! If you've been thinking that, then say something!"
  hide shion_v008
  hide mion_v015
  with Dissolve(0.2)
@@ -362,23 +363,23 @@ label event01_30_06:
  nao 'Um, Jessica-san... Is Shannon-san going to be off work from today?'
  show jessica_v001 smile at active
  show nao_v002 normal at inactive
- jessica "Eh? Yeah, that's right! She'll be back on, I think it was, Monday probably?"
+ jessica "Huh? Yeah, that's right! She'll be back on... Monday, I think it was?"
  show nao_v002 fuan at active
  show jessica_v001 smile at inactive
- nao "...Um, truth is I've been wanting to call out to her as quick as possible."
+ nao "...Um, truth is I've been wanting to ask Shannon-san something as quick as possible."
  show jessica_v001 normal at active
  show nao_v002 fuan at inactive
  jessica "What? What's wrong?"
  show nao_v002 fuan at active
  show jessica_v001 normal at inactive
- nao "That's something I can only speak about with Shannon-san... At the very least, can I get on a phone to contact her?"
+ nao "That's something I can only speak about with Shannon-san... \nAt the very least, can I get on a phone to contact her?"
  show jessica_v001 fuan at active
  show nao_v002 fuan at inactive
  jessica "...Uhh. My folks are, y'know, pretty strict..."
  hide jessica_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator "As expected, it's just like Erika-san said."
+ narrator 'It seriously is just like Erika-san said.'
  narrator "Shannon-san is on leave until tomorrow. And since the Ushiromiya family highly values the privacy of their servants, it's looking like I won't be able to get one call in."
  show nao_v002 fuan at mei_left
  show jessica_v001 fuan_close at mei_right
@@ -413,7 +414,7 @@ label event01_30_06:
  nao 'For example, right? Suppose a servant enters a guest room to make the bed or something.'
  show nao_v002 normal at active
  show jessica_v001 smile at inactive
- nao '...In that moment, in the case they were to accidentally see something... private, I guess would there be some sort of confidentiality rule with that?'
+ nao '...In that moment, in the case they were to accidentally see something... private, I guess, would there be some sort of confidentiality rule with that?'
  show jessica_v001 smile at nod_transform,active
  show nao_v002 normal at inactive
  jessica 'Something like that, yeah! According to Genji-san, the servants are like furniture.'
@@ -425,7 +426,7 @@ label event01_30_06:
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  show nao_v002 sinken at active
- nao 'A-, another example, okay? Um, ...okay, Halloween! Suppose some guests who are staying in a hotel room overnight do some Halloween costume shoots in their room.'
+ nao 'A-Another example, okay? Um, ...okay, Halloween! Suppose some guests who are staying in a hotel room overnight do some Halloween costume shoots in their room.'
  show nao_v002 normal at active
  nao 'The Halloween costume is, like, it can be zombie makeup, right? Something pretty bloody and scary. '
  hide nao_v002
@@ -491,13 +492,13 @@ label event01_30_06:
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  narrator '{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red}'
  narrator "This... isn't this a stupid little trick?! There better be something between the lines!"
- narrator 'Erika-san is conspiring with someone. And that "someone" she\'s conspiring with is giving instructions to Shannon-san somehow.'
+ narrator 'Erika-san is conspiring with someone. And that "someone" she\'s conspiring with has been giving instructions to Shannon-san somehow.'
  narrator 'Like for example... yeah! Cosplay photography!'
  narrator "If you're cosplaying as something scary, you'd want to tell your photographer in advance so that he doesn't get shocked..."
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  show nao_v002 sinken at active
- nao '...This same thought applies to the magic circle sheets, which Shannon-san thought was a normal, harmless thing!'
+ nao '...This same thought applies to the magic circle sheets, which \nShannon-san thought was a normal, harmless thing!'
  hide nao_v002
  with Dissolve(0.2)
  narrator 'The thing is... Shannon-san is the type to listen to orders.'
@@ -586,7 +587,7 @@ label event01_30_06:
  hide erika_v001
  with Dissolve(0.2)
  narrator "...I don't know what those two were having a conversation about while I was talking to Jessica-san... but it feels like it was kind of fiery."
- narrator 'Even if that did happen though, Mion-san would probably just be like, "You got me!!", and walk it off.'
+ narrator 'Even if that did happen though, Mion-san would probably just be like, "You ain\'t half bad!", and walk it off.'
  show mion_v015 futeki at mei_right
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
@@ -701,7 +702,7 @@ label event01_30_06:
  erika '*cackle*cackle*cackle*cackle*... <Good>.'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika 'As the detective or as the culprit ...quickly losing heart is for second-rates. The only one who would keel over crying is Battler.'
+ erika 'As the detective or as the culprit ...quickly losing heart is for second-rates. The only person who would keel over crying is Battler.'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
  erika 'First-rates must be tough, and they {i}must{/i} be daring.'
@@ -755,4 +756,4 @@ label event01_30_06:
  narrator 'Uh... what? What does that mean......?'
  narrator "Shion-san's smile was about 90%% reliable... and 10%% daring, with a bit of creepiness mixed in..."
  call chapter_end
- call event01_30_07
+ jump event01_30_07

@@ -3,6 +3,7 @@ label chara452001_03:
  $ event_store.current_event='chara452001'
  $ event_store.current_progress=2
  $ event_store.current_chapter='chara452001_03'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)

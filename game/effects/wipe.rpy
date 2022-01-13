@@ -110,6 +110,8 @@ label chapter_end:
     $ timepause = 1.0
     $ timein = 1.0
     show chend_cover:
+        align (0.5, 0.5)
+        zoom 2.0
         alpha 0.0
         linear timeout alpha 1.0
     show expression "gui/higulogo_mei.png" as logo onlayer curtain:

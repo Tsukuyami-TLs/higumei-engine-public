@@ -3,6 +3,7 @@ label event01_30_00:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=0
  $ event_store.current_chapter='event01_30_00'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -19,7 +20,7 @@ label event01_30_00:
  play audio 'audio/sfx/SE_346_ls_blood.wav'
  narrator 'The poor victims... were on the bed covered in blood.'
  narrator "The girl's negligee probably used to be very lovely."
- narrator 'But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.'
+ narrator 'But... it had been relentlessly cut by a blade or something, and torn to shreds.'
  narrator 'The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.'
  narrator 'The other one was in a gown. ...Of course, it was also stained with fresh, bright red blood.'
  narrator 'Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.'
@@ -74,7 +75,7 @@ label event01_30_00:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'The conversation came suddenly. Rena-chan asked me if I wanted to go on a short two night trip during the weekend.'
- narrator 'Originally, it was Rena-chan, Mion-san and Shion-san who were supposed to go on this trip.'
+ narrator 'Originally, it was Rena-chan, Mion-san, and Shion-san who were supposed to go on this trip.'
  narrator "But at just the last minute, a relative had some errands, and Rena-chan wasn't able to participate anymore."
  show mion_v002 smile at mei_right
  show nao_v002 normal at mei_left
@@ -91,10 +92,10 @@ label event01_30_00:
  show shion_v002 fuan at mei_center
  with Dissolve(0.5)
  show shion_v002 fuan at active
- shion 'Sis, it\'s the "{i}Ushiromiya{/i} family". '
+ shion "Sis, it's the {i}Ushiromiya{/i} family. "
  hide shion_v002
  with Dissolve(0.2)
- narrator 'Rokkenjima is a small island with a total circumference of about 10 km, located in the Izu Archipelago. That island is a private property of the wealthy Ushiromiya family, so normally travellers and such are not allowed to go there.'
+ narrator 'Rokkenjima is a small island with a total circumference of about 10 km, located in the Izu Archipelago. The island is the private property of the wealthy Ushiromiya family, so normally travellers and such are not allowed to go there.'
  show nao_v002 normal at mei_left
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -109,7 +110,7 @@ label event01_30_00:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show nao_v002 normal at inactive
- shion "All I have to do is to answer a simple questionnaire at the end. It's a two night trip with free meals, so it'll be great!"
+ shion "All we have to do is to answer a simple questionnaire at the end. It's a two night trip with free meals, so it'll be great!"
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -130,7 +131,7 @@ label event01_30_00:
  with Dissolve(0.5)
  show mion_v002 fuan at active
  show nao_v002 smile at inactive
- mion "Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing bus tours."
+ mion "Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing on bus tours."
  show nao_v002 normal at active
  show mion_v002 fuan at inactive
  nao "We aren't going there to travel anyway; this is a vacation."
@@ -141,7 +142,7 @@ label event01_30_00:
  hide mion_v002
  with Dissolve(0.2)
  narrator '...Hearing her say that, I started to get in the mood to go a little more. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe.'
- narrator "The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, followed up with even more wonderful meals. "
+ narrator "The payments were all done ahead of time. Now we'll be able to relax ourselves in a wonderful Western-style house, and follow it up with even more wonderful meals. "
  narrator "We'll rest up for three days and two nights, then we'll return home Sunday night. The schedule is kind of tight, but the conditions will be well worth it."
  narrator 'That golden ticket was a special raffle prize at some shopping district, so for Mion-san to be the one to have pulled it was...'
  narrator 'At first, I thought I would be asked to help Rena-chan with her things.'
@@ -168,11 +169,11 @@ label event01_30_00:
  $ event_store.current_progress = 1
  show mion_v002 smile at active
  show nao_v002 smile at inactive
- mion 'Nao-chan! Are you watching "Detective Wanyan"?!'
+ mion 'Nao-chan! Are you watching "{note_green}Detective Wanyan{/note_green}"?!'
  $ event_store.current_progress = 2
  show nao_v002 fuan at active
  show mion_v002 smile at inactive
- nao 'I\'m more of a "Kaneda Case Files" person.'
+ nao 'I\'m more of a "{note_green}Kaneda Case Files{/note_green}" person.'
  hide mion_v002
  show shion_v002 smile at mei_right
  with Dissolve(0.5)
@@ -226,7 +227,7 @@ label event01_30_00:
  nao "...I see. So, now you're saying the Western-style house craze is coming between you two, huh?"
  hide nao_v002
  with Dissolve(0.2)
- narrator "The traditional Japanese architecture of the houses paired with the scenic land in Hinamizawa makes for a splendid living area, but I suppose that's the same reason we also have a taste for Western things. "
+ narrator "The traditional Japanese architecture of the houses in Hinamizawa paired with its scenic land makes for a splendid living area, but I suppose that's the same reason we also have a taste for Western things. "
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -251,7 +252,7 @@ label event01_30_00:
  narrator "The deck didn't have too many people on it. At first, the atmosphere was bright and fun, but the winds got too chilling, so everyone went inside."
  narrator 'So, sadly, the little children, who would otherwise be bustling around in excitement, are now submerged in a reclusive and depressing atmosphere.  '
  play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
- narrator "Oh, look. Just as I say it, there's a melancholic looking girl hanging onto the railing, looking out into the horizon."
+ narrator 'Oh, look. Just as I said it, there was a melancholic looking girl hanging onto the railing, looking out into the horizon.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -273,7 +274,7 @@ label event01_30_00:
  show nao_v002 odoroki at mei_center
  with Dissolve(0.5)
  show nao_v002 odoroki at active
- nao "...A-are you okay?! You aren't hurt, are you? Please calm down."
+ nao "...A-Are you okay?! You aren't hurt, are you? Please calm down."
  hide nao_v002
  with Dissolve(0.2)
  narrator "Thankfully, he fell gracefully and gently. He wasn't hurt."
@@ -312,7 +313,7 @@ label event01_30_00:
  nao '...So, is the issue whether or not it was done {i}on purpose{/i}...?'
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika "<Good>. This is the extent of what there is to discuss, so I'm glad we got the rest out of the way quickly."
+ erika "<Good>. This level of the topic does exist, but I'm glad we got the rest out of the way quickly."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -445,7 +446,7 @@ label event01_30_00:
  nao "...That's just... insane..."
  show erika_v001 normal_close at active
  show nao_v002 fuan at inactive
- erika "Yes, I concur. It's completely insane. It's <Nonsense>!"
+ erika "Yes, I concur. It's completely insane. <It's nonsense>!"
  show nao_v002 odoroki at active
  show erika_v001 normal_close at inactive
  nao '......Huh...?'
@@ -477,7 +478,7 @@ label event01_30_00:
  show erika_v001 fuan at active
  erika "YES, I did it on purpose! AND YES, you clearly saw it happen! But you can't even PROVE IT!!!! AAAAAAAAAAAHHH, IT'S SOOOO RIDICULOOOOOUUSSS!!!!"
  show erika_v001 normal_close at active
- erika "...Isn't it? ...Reflecting on my time living in this world, as we approach the horizon, I seriously feel as though all I want to do is to flap my wings into that beautifully intellectual world up ahead. "
+ erika "...Isn't it? ......Reflecting on my time living in this world, as we approach the horizon, I seriously feel as though all I want to do is to flap my wings into that beautifully intellectual world up ahead. "
  show erika_v001 normal at active
  erika "Oh my, do excuse me. That was too advanced for you. It seems I got a little carried away. We're already done here. Please do go stand someplace else."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -577,7 +578,7 @@ label event01_30_00:
  dlanor 'Do not worry, ERIKA.'
  show dlanor_v001 normal at active
  show erika_v001 sinken_close at inactive
- dlanor 'You are a DETECTIVE. When a detective visits, an incident OCCURS.'
+ dlanor 'You are a DETECTIVE. Where a detective visits, an incident OCCURS.'
  show dlanor_v001 normal at active
  show erika_v001 sinken_close at inactive
  dlanor 'Surely there is an incident stirring up on Rokkenjima that will not leave you BORED.'
@@ -607,4 +608,4 @@ label event01_30_00:
  show dlanor_v001 normal_close at inactive
  erika 'Well, you {i}were{/i} my motive in putting my leg in front of that kid.'
  call chapter_end
- call event01_30_01
+ jump event01_30_01

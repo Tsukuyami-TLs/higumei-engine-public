@@ -3,6 +3,7 @@ label event01_30_08:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_08'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -40,7 +41,7 @@ label event01_30_08:
  hide nao_v002
  hide shion_v002
  with Dissolve(0.2)
- Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'A-as you wish...'
+ Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'A-As you wish...'
  narrator "The atmosphere was heavy, ever since Mion-san exposed Erika-san's charades."
  narrator "At the very least, the culprit behind yesterday's prank was definitely Erika-san."
  narrator 'And Erika-san already knew she was the first to be suspected.'
@@ -49,7 +50,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
- nao "And yet... you put up an act and then made an appeal to us that you weren't the culprit... didn't you...?"
+ nao "And yet... you put up an act and then appealed to us that you weren't the culprit... didn't you...?"
  show erika_v001 sinken at active
  show nao_v002 normal at inactive
  erika "I would never do that. I didn't make that magic circle!"
@@ -81,7 +82,7 @@ label event01_30_08:
  with Dissolve(0.08333333333333333)
  play audio 'audio/sfx/SE_610_ls_plosive.wav'
  show beatrice_v001 futeki at active
- beatrice '<Happy Birthday!!!> Congrats to me! And thank you, everyone! I truly am a lucky person!'
+ beatrice '<Happy Birthday!!!> to me! And thank you, everyone! I truly am a lucky person!!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -130,7 +131,7 @@ label event01_30_08:
  beatrice "Don't fret. Yesterday was just a little test."
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice "Tonight, if you solve the mystery with magic circle in Erika's room, I'll bestow upon you a reward."
+ beatrice "Tonight, if you solve the mystery with the magic circle in Erika's room, I'll present you with a reward."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
@@ -220,7 +221,7 @@ label event01_30_08:
  show beatrice_v001 normal_close at mei_center
  with Dissolve(0.5)
  show beatrice_v001 normal_close at active
- beatrice 'With that said, having the modesty to ask something like, "Please play with me.", is where witches fall short.'
+ beatrice 'With that said, having the modesty to ask something like, \n"Please play with me.", is where witches fall short.'
  show beatrice_v001 smile at active
  beatrice 'It has been awfully fun playing this game with you. It was enough to cure me and bring me great happiness.'
  hide beatrice_v001
@@ -361,7 +362,7 @@ label event01_30_08:
  narrator 'I see. Three participants, each one claiming a different side.'
  camera at screenshake_transform
  pause 0.0
- narrator "Tonight's magic circle was either a magic trick poofed in by the witch, a farce performed by Erika-san, or a crime committed by Shion-san!"
+ narrator "Tonight's magic circle was either magic cast by the witch,\n a farce performed by Erika-san, or a crime committed by Shion-san!"
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
@@ -482,7 +483,7 @@ label event01_30_08:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao 'Umm, so does that include everyone other than Erika-san?'
+ nao 'Umm, so does that also include everyone other than Erika-san?'
  hide nao_v002
  with Dissolve(0.2)
  show dlanor_v001 normal at mei_center
@@ -494,7 +495,7 @@ label event01_30_08:
  hide fade onlayer curtain
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
- dlanor '{umi_red}After Erika entered her room, placing the magic circle through any kind of method is not DOABLE.{/umi_red}'
+ dlanor '{umi_red}After Erika enters her room, placing the magic circle through any kind of method is not DOABLE.{/umi_red}'
  hide dlanor_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -502,7 +503,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika "Thank you very much for clearing up those false accusations for me. See? See how I wasn't acting? I wasn't given enough time."
+ erika "Thank you very much for clearing up those false accusations for me. See? See how I wasn't acting? I just wasn't given enough time to explain."
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
  nao '...How terrible. But this was still the same as what happened to my bed...'
@@ -528,7 +529,7 @@ label event01_30_08:
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show dlanor_v001 normal at inactive
- erika 'Well then. *ahem*'
+ erika 'Well then. *ahem*.'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
  erika "I think this will be much too complicated with three players, so I'll make this quick. Nao-san, you should drop out."
@@ -655,7 +656,7 @@ label event01_30_08:
  show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
- narrator 'Do repeat this in red: "The two magic circles were drawn onto two separate sheets by different people."'
+ narrator 'Repeat this in red: "The two magic circles were drawn onto two separate sheets by different people."'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -1003,4 +1004,4 @@ label event01_30_08:
  show nao_v002 sinken at inactive
  erika '...<Good>.'
  call chapter_end
- call event01_30_09
+ jump event01_30_09

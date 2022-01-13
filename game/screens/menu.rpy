@@ -5,7 +5,7 @@
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 init -2 python:
-
+    persistent.menu_return = ""
     class Start(Action, DictEquality):
         """
          :doc: menu_action
@@ -26,6 +26,18 @@ init -2 python:
             renpy.jump_out_of_context(self.label)
 
 screen main_menu():
+    tag menu
+
+    if persistent.menu_return == "event":
+        $ persistent.menu_return = ""
+        use events
+    elif persistent.menu_return == "chara":
+        $ persistent.menu_return = ""
+        use characters
+    else:
+        use default_main_menu
+
+screen default_main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu

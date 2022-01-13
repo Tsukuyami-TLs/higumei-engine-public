@@ -3,6 +3,7 @@ label chara452001_01:
  $ event_store.current_event='chara452001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara452001_01'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -227,4 +228,4 @@ label chara452001_01:
  show nao_v002 normal at inactive
  beatrice 'Hmm... it was nothing; please forget it. It seems I am getting a little sentimental.'
  call chapter_end
- call chara452001_02
+ jump chara452001_02

@@ -3,6 +3,7 @@ label event01_30_10:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_10'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -93,7 +94,7 @@ label event01_30_10:
  pause 0.0
  $ event_store.current_progress = 4
  show erika_v001 sinken at active
- erika "Um, YEEEEEEEEEEESSSSSSSSS?! They're saying Bright-sama has like 10 billion men after him in real liiiiifeeeeeee!!!!"
+ erika "Um, YEEEEEEEEEEESSSSSSSSS?! They're saying {note_green}Bright-sama{/note_green} has like 10 billion men after him in real liiiiifeeeeeee!!!!"
  show erika_v001 smile at active
  erika "It's just so mysterious, just so beautiful the way that he pierces through the melancholy of love by eternally tying someone to him through death...!! Aaaahhhhhnn, Bright-samaaaaaaaa...!!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -111,8 +112,9 @@ label event01_30_10:
  with Dissolve(0.2)
  show erika_v001 fuan at mei_center
  with Dissolve(0.5)
+ $ event_store.current_progress = 5
  show erika_v001 fuan at active
- erika 'Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, Mr. Go Daikanyama, is an expert on mystery, not on magic circleeeeeess!!'
+ erika 'Looking at it as a witch and thinking that the magic circles are silly is part of its chaaaaaaarrrmm!!! The author, {note_green}Mr. Go Daikanyama{/note_green}, is an expert on mystery, not on magic circleeeeeess!!'
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -130,7 +132,7 @@ label event01_30_10:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 fuan at active
- erika "There wasn't enough love, no, there wasn't any love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the 3 time screening at the theaters a month from nooooowwwww!!"
+ erika "There wasn't enough love, no, there wasn't any love in it at all, so they couldn't see it! In any event, I absolutely HAVE to attend the three-time screening at the theaters a month from nooooowwwww!!"
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -173,7 +175,7 @@ label event01_30_10:
  with Dissolve(0.5)
  show beatrice_v001 fuan at active
  show nao_v002 normal at inactive
- beatrice '...Haaaaahh... So, in place of being afraid of it, she saw it as a fellow fan of the series and began to smile, huh...'
+ beatrice '...*siiiigh*... So, in place of being afraid of it, she saw it as a fellow fan of the series and began to smile, huh...'
  show nao_v002 normal_close at active
  show beatrice_v001 fuan at inactive
  nao "And Erika-san put a suggestive smile on her face after hearing that the room wasn't broken into..."
@@ -182,7 +184,7 @@ label event01_30_10:
  with Dissolve(0.5)
  show dlanor_v001 fuan_close at active
  show nao_v002 normal_close at inactive
- dlanor '...I understand the sentiment behind why Shannon naturally said, "No, please be at ease.", a little bit more NOW.'
+ dlanor '...I understand the sentiment behind why Shannon coolly said, "No, please be at ease.", a little bit more NOW.'
  show nao_v002 normal at active
  show dlanor_v001 fuan_close at inactive
  nao "I haven't watched the movie, but I suppose even the way the bed was laid waste to was likely based on the movie. "
@@ -200,7 +202,7 @@ label event01_30_10:
  nao "I also have some interest in this recent case. ...I'll search for the specific volume in the bookstore."
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
- nao "For that reason, the first magic circle accident was done by Erika-san's hands, aaand, um..."
+ nao "For that reason, the first magic circle accident was done by none other than Erika-san's hands...... *ahem*..."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -241,7 +243,7 @@ label event01_30_10:
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
- dlanor "In that case, through Erika's resign, the winners are Beatrice and NAO. I congratulate the both of YOU."
+ dlanor "In that case, through Erika's resign, the winners are Beatrice and NAO. \nI congratulate the both of YOU."
  hide dlanor_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_5040_handclap.wav'
@@ -333,7 +335,7 @@ label event01_30_10:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao "I'm just a little girl who loves her sister. ...Whatever happens, happens. I don't have any fears or expectations."
+ nao "I'm just a little girl who loves her sister. ...Whatever happens, happens. \nI don't have any fears or expectations."
  hide nao_v002
  with Dissolve(0.2)
  show black_cover onlayer curtain as fade with Dissolve(1.0)
@@ -362,7 +364,7 @@ label event01_30_10:
  show expression 'images/bg/AdvBg_2281.png' as bg
  call wipein_routine
  play audio 'audio/sfx/SE_543_bird.wav'
- narrator "...I started to hear the sparrows chirping. If I slowly open my eyes... I'll be able to see the ceiling of my room being warmed up by the morning sun......"
+ narrator "...I started to hear the sparrows chirping. If I slowly open my eyes...\nI'll be able to see the ceiling of my room being warmed up by the morning sun......"
  narrator "Today, I'm parting ways with Rokkenjima, huh...?"
  narrator "Now that I've said that, I believe Beatrice told me she had a present for me."
  narrator '"Do look forward to it upon waking up.", is what she told me, I think...'
@@ -380,14 +382,14 @@ label event01_30_10:
  with Dissolve(1.0)
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  narrator 'The poor victims... were on the bed covered in blood.'
- narrator "Mion-san's negligee used to be very lovely."
- narrator 'But... it had been relentlessly cut by a blade or something of the sort, and torn to shreds.'
+ narrator "Mion-san's negligee probably used to be very lovely."
+ narrator 'But... it had been relentlessly cut by a blade or something, and torn to shreds.'
  narrator 'The blood that must have poured out from that spot had dyed the negligee and the sheets to the point where I could no longer remember what color they were originally.'
- narrator 'Shion-san was in a gown. ...Of course, she was also stained with fresh, bright red blood.'
- narrator 'Just like the other one, it had been torn to shreds... and was clearly in a pitiful state.'
+ narrator 'Shion-san was in a gown. ...Of course, it was also stained with fresh, bright red blood.'
+ narrator "Just like Mion-san's, it had been torn to shreds... and was clearly in a pitiful state."
  narrator 'Out of three beds, two were covered in blood... But one bed was still as clean as it was last night. That was... my bed.'
  narrator "And I was the only one... who wasn't covered in a single drop of blood... while having slept soundly in the same room as them..."
- narrator 'I wanted to ask "A-Are you okay...?". But the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
+ narrator '"A-Are you okay...?", was what I wanted to say, but the only thing that came out of my mouth was a faint, unsteady groan that was too weak to be called a scream.'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  show black_cover as bg
  play audio 'audio/sfx/SE_527_door_close.wav'
@@ -464,7 +466,7 @@ label event01_30_10:
  erika 'Just through my love for Detective Wanyan, this level of cosplay is possible for Erika Furudo! What do you think, Mion-san and Shion-san?!'
  show nao_v002 fuan_close at active
  show erika_v001 smile at inactive
- nao '...Dead bodies over there too. I wish there were grades on these to see who did it better...'
+ nao '...There are dead bodies over there too. I wish there were grades on these to see who did it better...'
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -500,9 +502,9 @@ label event01_30_10:
  narrator 'From who knows where, Erika-san grabbed out a secret detective gadget with a little screen... which depicted a scene that matched perfectly with what was in this room...'
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
- $ event_store.current_progress = 5
+ $ event_store.current_progress = 6
  show erika_v001 smile at active
- erika 'Firstly, Shion-san, powerful portrayal of Slugger-kun!'
+ erika 'Firstly, Shion-san, powerful portrayal of {note_green}Slugger-kun{/note_green}!'
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show erika_v001 smile at jumping_transform,active
  erika "Yeah, that's it, the clothes being perfectly in the right form, just like that! This couldn't be done unless you allowed the character to envelop your soul!"
@@ -534,9 +536,9 @@ label event01_30_10:
  with Dissolve(0.2)
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
- $ event_store.current_progress = 6
+ $ event_store.current_progress = 7
  show erika_v001 smile at active
- erika "Now I'll judge Mion-san. This one is a depiction of Matilda-san; very nicely done as well!"
+ erika "Now I'll judge Mion-san. This one is a depiction of {note_green}Matilda-san{/note_green}; very nicely done as well!"
  show erika_v001 smile at active
  erika 'I had already called the other one perfect... but this one really has me feeling like this is a <double perfect!!>'
  hide erika_v001
@@ -606,10 +608,10 @@ label event01_30_10:
  hide nao_v002
  show shion_v002 smile at mei_left
  with Dissolve(0.5)
- $ event_store.current_progress = 7
+ $ event_store.current_progress = 8
  show shion_v002 smile at jump_transform,active
  show mion_v002 futeki at inactive
- shion "Even looking at Erika-san's clothes, I can somehow tell she recreated Mirai-san's death scene!"
+ shion "Even looking at Erika-san's clothes, I can somehow tell she recreated {note_green}Mirai-san's{/note_green} death scene!"
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show mion_v002 smile at jumping_transform,active
  show shion_v002 smile at inactive
@@ -792,7 +794,7 @@ label event01_30_10:
  erika "...You were so confused over the case with Shannon-san not batting an eye at the magic circle prank that I thought I'd maybe mess around with you for a little bit...♪"
  show nao_v002 normal_close at active
  show erika_v001 normal at inactive
- nao "Your statement in total had 49 vowels... right? I'll do you a favor and make it 50."
+ nao "Hm, so your statement in total had 49 vowels... right? I'll do you a favor and make it 50."
  show nao_v002 normal at active
  show erika_v001 normal at inactive
  nao '50 pieces would definitely be painstaking to get to, though, so tossing Erika-san in a food processor would be much more fun.'
@@ -824,7 +826,7 @@ label event01_30_10:
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show erika_v001 smile at jumping_transform,active
  show shion_v002 smile at inactive
- erika "Wanyan swamp, cool term. There's apparently a cafe collabing with them that opened recentlyyy! Let's go togetheeerrrr!!"
+ erika "Wanyan swamp, oh, I like that. There's apparently a cafe collabing with them that opened recently! Let's go togetheeerrrr!!"
  hide shion_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -842,6 +844,6 @@ label event01_30_10:
  with Dissolve(0.2)
  narrator "Aah... it's getting more and more clear. For me, my stay on Rokkenjima has been a very mysterious three days and two nights, involving witches, magic circles, and puzzles to solve."
  narrator 'But...'
- narrator 'As I was fearing magic circles and concerned with baffling mysteries... a "{i}preposterous{/i}" secret feud between the girls began to ensue.'
+ narrator 'As I was fearing magic circles and being concerned with baffling mysteries... a {i}preposterous secret feud{/i} between the girls began to ensue.'
  call chapter_end
- call event01_30_99
+ jump event01_30_99

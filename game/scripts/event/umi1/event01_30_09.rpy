@@ -3,6 +3,7 @@ label event01_30_09:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_09'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -34,7 +35,7 @@ label event01_30_09:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao "It's true that Shion was the only one to turn back to search for something at the guesthouse, and thus lost an alibi..."
+ nao "It's true that Shion was the only one to go back to search for something at the guesthouse, and thus lost an alibi..."
  hide nao_v002
  with Dissolve(0.2)
  narrator "But I don't want to let Shion-san be declared the culprit just because she doesn't have an alibi. "
@@ -258,7 +259,7 @@ label event01_30_09:
  erika 'No, no. I used a simpler, clearer, and more obvious method.'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika 'Nao-chama. Can you hold this pen light?'
+ erika 'Nao-chama. Can you hold this penlight?'
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
  nao 'Huh? Okay...'
@@ -338,10 +339,10 @@ label event01_30_09:
  shion '...Gh......'
  show erika_v001 normal_close at active
  show shion_v007 sinken at inactive
- erika "I was the one who made this special chemical mixture. A certain chemical compound is required to remove it. Don't worry, naturally I brought it with me."
+ erika 'I was the one who made this special chemical mixture. A certain chemical compound is required to remove it. Of course, I did bring it with me, so rest assured.'
  show shion_v007 sinken at active
  show erika_v001 normal_close at inactive
- shion "...Isn't that wonderful? In other words, this means that no matter how many showers I take, I will still have that fluorescent paint on my hands?"
+ shion "...Isn't that wonderful? So this means that no matter how many showers I take, I will still have that fluorescent paint on my hands?"
  show erika_v001 normal at active
  show shion_v007 sinken at inactive
  erika "Exactly. Now, I'm going to look at your palms under the blacklight."
@@ -405,13 +406,13 @@ label event01_30_09:
  with Dissolve(0.5)
  show erika_v001 odoroki at active
  show dlanor_v001 normal at inactive
- erika 'Wait, what? Le-let me check agai--...!!'
+ erika 'Wait, what? L-Let me check agai--...!!'
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
  dlanor "Shion Sonozaki's hands do not have any florescent paint on THEM. "
  show erika_v001 sinken at active
  show dlanor_v001 normal at inactive
- erika 'What the hell are you talking about?! Check her again!!!'
+ erika "What the hell are you talking about?! Let's check her again!!!"
  show dlanor_v001 normal at active
  show erika_v001 sinken at inactive
  dlanor "It's not just her HANDS. Shion Sonozaki's body does not have any fluorescent paint on IT. "
@@ -419,7 +420,7 @@ label event01_30_09:
  pause 0.0
  show erika_v001 odoroki at active
  show dlanor_v001 normal at inactive
- erika "WHAT DO YOU MEEEEEEEEEEEAAAAAAANNN????!!!!! YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! "
+ erika "WHAT DO YOU MEEEEEEEEEEEAAAAAAANNN????!!!!! \nYOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! "
  show dlanor_v001 normal at active
  show erika_v001 odoroki at inactive
  dlanor 'I will repeat it in RED.'
@@ -452,7 +453,7 @@ label event01_30_09:
  pause 0.0
  show erika_v001 odoroki at active
  show dlanor_v001 normal at inactive
- erika "N-nonononono, this, this couldn't be!!!! T-there's no way!!!! This is impossible!!!!"
+ erika "N-Nonononono, this, this couldn't be!!!! T-There's no way!!!! This is impossible!!!!"
  hide dlanor_v001
  show beatrice_v001 futeki at mei_right
  with Dissolve(0.5)
@@ -523,7 +524,7 @@ label event01_30_09:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 fuan at active
- erika "I can't believe you'd be this cautious when breaking into somebody's room. You're a professional!! A career criminal!!!! <A superior extreme feloooooooooooon!!!!!!>"
+ erika "I can't believe you'd be this cautious when breaking into somebody's room. You're a professional!! A career criminal!!!! \n<A superior extreme feloooooooooooon!!!!!!>"
  hide erika_v001
  with Dissolve(0.2)
  show mion_v008 normal at mei_right
@@ -534,7 +535,7 @@ label event01_30_09:
  shion "You can say whatever you want about me. And by the way, I'd consider what you just said to be a compliment."
  show mion_v008 normal at active
  show shion_v007 normal_close at inactive
- mion "...Shion definitely doesn't have an alibi, but... doesn't that prove she didn't enter your room?"
+ mion "...Shion definitely doesn't have an alibi... but doesn't that prove she didn't enter your room?"
  hide mion_v008
  hide shion_v007
  with Dissolve(0.2)
@@ -621,7 +622,7 @@ label event01_30_09:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 sinken at active
- erika "There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant dumpster diveeeeeeerrrrrrr!!!!!"
+ erika "There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant DUMPSTER DIVEEEEERRRRRRRR!!!!!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -697,7 +698,7 @@ label event01_30_09:
  with Dissolve(0.16666666666666666)
  show dlanor_v001 normal at active
  show beatrice_v001 normal at inactive
- dlanor '{umi_red}Nao Houtani has been confirmed to have made contact and interacted with inhuman BEINGS.{/umi_red}'
+ dlanor '{umi_red}I have confirmed that Nao Houtani has met and interacted with inhuman BEINGS.{/umi_red}'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -708,7 +709,7 @@ label event01_30_09:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 sinken at active
- erika 'W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...!?'
+ erika 'W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...?!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -733,7 +734,7 @@ label event01_30_09:
  nao "Because of that, I don't deny Beatrice's existence. Her being here is proof enough."
  show beatrice_v001 odoroki at active
  show nao_v002 normal_close at inactive
- beatrice "Y-you recognize my existence... Nao, I've never had a guest such as yourself..."
+ beatrice "Y-You recognize my existence... Nao, I've never had a guest such as yourself..."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -802,7 +803,7 @@ label event01_30_09:
  hide flash with Dissolve(0.2)
  show nao_v002 sinken at active
  show erika_v001 odoroki at inactive
- nao "{umi_blue}So therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}"
+ nao "{umi_blue}Therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -892,7 +893,7 @@ label event01_30_09:
  nao 'The next turn is yours, but before you declare your victory, I want you to make one move for me.'
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao "While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why Shannon-san didn't feel anything strange when she found it."
+ nao "While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why \nShannon-san didn't feel anything strange when she found it."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
@@ -1049,4 +1050,4 @@ label event01_30_09:
  show erika_v001 sinken at inactive
  nao 'So, maybe that summoning circle...'
  call chapter_end
- call event01_30_10
+ jump event01_30_10

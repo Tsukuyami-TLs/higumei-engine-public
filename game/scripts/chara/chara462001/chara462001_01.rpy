@@ -3,6 +3,7 @@ label chara462001_01:
  $ event_store.current_event='chara462001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara462001_01'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -214,4 +215,4 @@ label chara462001_01:
  show dlanor_v001 fuan_close at active
  dlanor "...I guess it can't be HELPED."
  call chapter_end
- call chara462001_02
+ jump chara462001_02

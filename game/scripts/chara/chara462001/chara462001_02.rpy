@@ -3,6 +3,7 @@ label chara462001_02:
  $ event_store.current_event='chara462001'
  $ event_store.current_progress=0
  $ event_store.current_chapter='chara462001_02'
+ $ persistent.menu_return='chara'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -479,4 +480,4 @@ label chara462001_02:
  show satoko_v002 fuan at chara_shake_transform,active
  satoko "I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!"
  call chapter_end
- call chara462001_03
+ jump chara462001_03

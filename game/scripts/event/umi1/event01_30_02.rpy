@@ -3,6 +3,7 @@ label event01_30_02:
  $ event_store.current_event='umi1'
  $ event_store.current_progress=3
  $ event_store.current_chapter='event01_30_02'
+ $ persistent.menu_return='event'
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
@@ -18,7 +19,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show mion_v002 smile at inactive
- kanon 'After the meal, we usually prepare either tea or coffee. Which would you prefer?'
+ kanon 'After meals, we usually prepare either tea or coffee. Which would you prefer?'
  show mion_v002 smile at active
  show kanon_v001 normal at inactive
  mion 'The taste inside my mouth is so sweet after that! Some salted plum kelp tea would wrap things up nicely. You got that here?'
@@ -90,7 +91,7 @@ label event01_30_02:
  erika 'Although this time, they happened to be prepared for that...'
  show erika_v001 normal at active
  show mion_v002 smile at inactive
- erika "I presume what Mion-san wanted to see the most was how they could come up with an excuse so beautiful that, even after failing to be prepared for them, it wouldn't ruin the guest's mood."
+ erika "I presume what Mion-san wanted to see the most was how they could come up with an excuse so beautiful that even after failing to be prepared for them, it wouldn't ruin the guest's mood."
  show mion_v002 smile at active
  show erika_v001 normal at inactive
  mion "Still, Kanon-kun's conduct is definitely deserving of a good score."
@@ -108,7 +109,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile_close at inactive
- nao "What's important is being able to smoothly handle that situation, even if it's something that was not written in the manual..."
+ nao "What's important is being able to handle that situation smoothly, even if it's something that was not written in the manual..."
  hide mion_v002
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
@@ -157,7 +158,7 @@ label event01_30_02:
  mion "True! If you pressure the culprit enough, there are times they'll give in on their own."
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "My sister's specialty is pretending she understood everything, even though, in actuality, she didn't get anything at all."
+ shion "My sister's specialty is pretending she understood everything, when in actuality she didn't get anything at all."
  show mion_v002 sinken at jumping_transform,active
  show shion_v002 smile at inactive
  mion "No, it's a specialty of Wanyan's! Even when you have zero hints, act as if you've grasped the truth and aim for the blind spot!"
@@ -418,7 +419,7 @@ label event01_30_02:
  kanon '.....................'
  show jessica_v001 fuan at chara_shake_transform,active
  show kanon_v001 normal_close at inactive
- jessica "H-hey, hey, you better stop with that...! This is my family you're talking about. I'm really not gonna be able to go to the bathroom at night..."
+ jessica "H-he-hey, you'd better stop with that...! This is my family you're talking about. I'm really not gonna be able to go to the bathroom at night..."
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
@@ -474,7 +475,7 @@ label event01_30_02:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'When did the portrait get named? ...She eventually went on to be called the Golden Witch, Beatrice, after all.'
- narrator "The massive portrait hung in that wide space in the mansion isn't drawn of the family head Kinzo either; It's a drawing of the Golden Witch."
+ narrator "The massive portrait hung in that wide space in the mansion isn't drawn of the family head Kinzo either; it's a drawing of the Golden Witch."
  narrator "...This means that the mansion and the island's... real master... is the Golden Witch, Beatrice, isn't it?"
  show kanon_v001 normal at mei_right
  show jessica_v001 normal at mei_left
@@ -490,7 +491,7 @@ label event01_30_02:
  kanon 'If... in the middle of the night in the mansion, you do see this mysterious figure... never chase after it, let alone call after it.'
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon "On multiple occasions... someone who couldn't have been in the Ushiromiya family nor a servant... that mysterious form of a woman... I've come into contact with her as well."
+ kanon "On multiple occasions... someone who couldn't have been in the Ushiromiya family, nor a servant... that mysterious form of a woman... I've come into contact with her as well."
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
  jessica 'Sometimes, windows unlock at night without the servants touching them, and it terrifies Mom.'
@@ -523,7 +524,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon 'The people who do believe in and respect the existence of Beatrice-sama say she is generous.'
+ kanon 'The people who do believe in and respect the existence of \nBeatrice-sama say she is generous.'
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
  jessica "So... asserting something that makes a fool out of Beatrice, like saying she couldn't exist... seems to result in you being cursed."
@@ -558,7 +559,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show nao_v002 fuan at inactive
- shion "...Meaning... that job led you to believe in Beatrice's existence afterwards... but...?"
+ shion "...Meaning... that job led you to believe in Beatrice's existence afterwards...?"
  show nao_v002 fuan at active
  show shion_v002 normal at inactive
  nao 'What happened... during that job?'
@@ -620,7 +621,7 @@ label event01_30_02:
  show kanon_v001 normal_close at active
  kanon '..............................'
  show kanon_v001 normal at active
- kanon '...I reported to Genji-sama that... he must never reveal this information to anyone.'
+ kanon '...As soon as I reported it to Genji-sama... he told me that I must never reveal this information to anyone.'
  hide kanon_v001
  with Dissolve(0.2)
  show jessica_v001 sinken at mei_center
@@ -653,7 +654,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
- nao "That's a little... no... really... scary... maybe... maybe..."
+ nao 'That might be a little... no... really... scary... maybe...'
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -745,7 +746,7 @@ label event01_30_02:
  hide erika_v001
  with Dissolve(0.2)
  narrator '"However, on occasion..."'
- narrator '"...even I may come across "something" that would be blasphemous to reason about..." ...she said.'
+ narrator '"...even I may come across \'something\' that would be blasphemous to reason about..." ...she said.'
  show nao_v002 sinken at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -883,7 +884,7 @@ label event01_30_02:
  play audio 'audio/sfx/SE_528_unfold_cloth.wav'
  narrator 'Even thinking about reading a book is making me... sleepy...'
  narrator "Even on this wonderful island, even in this wonderful guesthouse, even with such a wonderful and expansive rose garden... I'm napping."
- narrator 'Yeah. This is true vacationing. This is true luxury, maybe. Maybe.'
+ narrator 'Yeah. This is true vacationing. This might be true luxury... maybe.'
  narrator "With the Sonozaki sisters' busy chatting serving as a lullaby, my eyelids grew heavier."
  narrator '...The odd atmosphere from the witch ghost story seemed like a lie now. I wonder if it was an absent-minded daydream...'
  narrator "What I did was akin to saying I didn't believe in Oyashiro-sama while on the Furude shrine grounds. Surely, I had ruined the mood on the island."
@@ -918,7 +919,7 @@ label event01_30_02:
  dlanor "At any rate, today's lunch was quite MAGNIFICENT."
  show erika_v001 smile at active
  show dlanor_v001 smile at inactive
- erika 'With the plate heaping with that much omurice, I simply {i}had{/i} to slurp it up voraciously with chopsticks.'
+ erika 'With a plate heaping with that much omurice, I simply {i}had{/i} to slurp it up voraciously with chopsticks.'
  show dlanor_v001 normal at active
  show erika_v001 smile at inactive
  dlanor 'By the way, that IS...?'
@@ -926,4 +927,4 @@ label event01_30_02:
  show dlanor_v001 normal at inactive
  erika "This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?"
  call chapter_end
- call event01_30_03
+ jump event01_30_03

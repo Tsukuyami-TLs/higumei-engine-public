@@ -4,4 +4,4 @@ init python:
 
 label event_chara032009:
  stop music
- call chara032009_01
+ jump chara032009_01
