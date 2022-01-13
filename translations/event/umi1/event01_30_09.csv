@@ -6,7 +6,7 @@ index,chara,jp,en,,3 lines remaining,
 か？","...If there's something that makes you so sure of that, why don't you show it to me?",,,
 38,ヱリカ,受けてもいいですけれど……。致命傷になりますよ？,"I'll take up that offer if it's what you desire... however, this {i}will{/i} deliver the final blow, you know?",,"from ""If it's fine with you...may I deliver the final blow",
 43,Nao (Casual),"確かにあの時、小道具を探しにゲストハウスへ戻っていた詩音さん
-だけが、アリバイを失ってるけれど……。","It's true that Shion was the only one to go back to search for something at the guesthouse, and thus lost an alibi...",,,
+だけが、アリバイを失ってるけれど……。","It's true that Shion was the only one to turn back to search for something at the guesthouse, and thus lost an alibi...",,,
 45,,"　アリバイがないからというだけの理由で、詩音さんを犯人になん
 かさせない。",But I don't want to let Shion-san be declared the culprit just because she doesn't have an alibi. ,,,
 49,ドラノール,ベアトリーチェ卿。貴女の手番はそれで構わないデスカ。,"Lady Beatrice, do you have no issues in making this MOVE?",unsure on this line.,"from "" is that what you wish to DO?",
@@ -83,7 +83,7 @@ index,chara,jp,en,,3 lines remaining,
 指紋から、詩音さんを特定したとか……！","In addition, Erika-san called herself a detective. Maybe she could identify Shion-san's fingerprints on the doorknob...!",,,
 198,ヱリカ,"いえいえ。もっとシンプルでわかりやすく、そして明白にわかる仕
 掛けです。","No, no. I used a simpler, clearer, and more obvious method.",wording? she says what she uses is easy to understand.,trick -> method,
-200,ヱリカ,菜央ちゃま。このペンライト、持ってくれます？,Nao-chama. Can you hold this penlight?,,,
+200,ヱリカ,菜央ちゃま。このペンライト、持ってくれます？,Nao-chama. Can you hold this pen light?,,,
 202,Nao (Casual),え？　はい……。,Huh? Okay...,,,
 204,ヱリカ,そこのところを、クリッと手応えがあるまで捻って下さい。,Twist it here until there's a click.,,,
 207,,"　言われた通りにすると、ペンライトの灯りが消えた。
@@ -108,9 +108,9 @@ index,chara,jp,en,,3 lines remaining,
 ん。","Furthermore, once the paint has adhered to you, it cannot be removed by washing it off.",erika says washing in the bath specifically as an example.,,
 253,詩音 (バスタオル),……くっ……………。,...Gh......,,,
 255,ヱリカ,"私が自分で作った、特別な配合の薬品です。落とすのにも特殊な薬
-品が必要ですが、もちろん持ってきていますのでご安心を。","I was the one who made this special chemical mixture. A certain chemical compound is required to remove it. Of course, I did bring it with me, so rest assured.",,,
+品が必要ですが、もちろん持ってきていますのでご安心を。","I was the one who made this special chemical mixture. A certain chemical compound is required to remove it. Don't worry, naturally I brought it with me.",,,
 257,詩音 (バスタオル),"……上等じゃないですか。つまり、いくらシャワーを浴びていよう
-と、私の手にはまだその蛍光塗料が残ってるって訳ですよね？","...Isn't that wonderful? So this means that no matter how many showers I take, I will still have that fluorescent paint on my hands?",,excellent -> wonderful,
+と、私の手にはまだその蛍光塗料が残ってるって訳ですよね？","...Isn't that wonderful? In other words, this means that no matter how many showers I take, I will still have that fluorescent paint on my hands?",,excellent -> wonderful,
 259,ヱリカ,"そういうことです。今から、ブラックライトで、貴女の手の平を拝
 見します。","Exactly. Now, I'm going to look at your palms under the blacklight.",,,
 261,ヱリカ,"ですが……、探偵の情けです。致命的な証拠を突きつけられる屈辱
@@ -125,18 +125,17 @@ index,chara,jp,en,,3 lines remaining,
 282,ヱリカ,"さぁ、情けの時間は終わりです！　貴女の両手の手の平！！　照ら
 し出させてもらいますううぅ！！　うへへううぇっうぇっうぇえぇ
 えぇ！！！","Now, the time for pity is over!! Show me your palms!! I'll light them up niiiice and bright for youuuuuuuuu!!!!! Uehehehehehehehehehe!!!!",,"from ""Show them",
-295,ヱリカ,何ですって？　も、もう一度……！！,"Wait, what? L-Let me check agai--...!!",,"wait / from ""O-one more check!",
+295,ヱリカ,何ですって？　も、もう一度……！！,"Wait, what? Le-let me check agai--...!!",,"wait / from ""O-one more check!",
 297,ドラノール,園崎詩音の手に、蛍光塗料の付着はありマセン。,Shion Sonozaki's hands do not have any florescent paint on THEM. ,,,
-299,ヱリカ,だから何ですって？！　もう一度ッ！！！,What the hell are you talking about?! Let's check her again!!!,,,
+299,ヱリカ,だから何ですって？！　もう一度ッ！！！,What the hell are you talking about?! Check her again!!!,,,
 301,ドラノール,"手に限りまセン。園崎詩音の身体には、蛍光塗料の付着は一切あり
 マセン。",It's not just her HANDS. Shion Sonozaki's body does not have any fluorescent paint on IT. ,,trimmed a bit here,
 304,ヱリカ,"ああぁああぁあッ、どぅわからぁア！！　もう一度、はっきりと赤
-で言えッつってんだらあああぁああぁッ！！！","WHAT DO YOU MEEEEEEEEEEEAAAAAAANNN????!!!!! 
-YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
+で言えッつってんだらあああぁああぁッ！！！",WHAT DO YOU MEEEEEEEEEEEAAAAAAANNN????!!!!! YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ,,madge,
 306,ドラノール,繰り返しマス。,I will repeat it in RED.,,,
 317,ドラノール,#ff0000園崎詩音の身体には、蛍光塗料の付着は一切ありマセン。#r,{umi_red}Shion Sonozaki's body does not have any fluorescent paint on IT.{/umi_red},,,
 326,ヱリカ,"い、いやいやそんなそんなッ！！　あッ、あり得ない、あり得ませ
-んッ！！","N-Nonononono, this, this couldn't be!!!! T-There's no way!!!! This is impossible!!!!",,,
+んッ！！","N-nonononono, this, this couldn't be!!!! T-there's no way!!!! This is impossible!!!!",,,
 330,ベアトリーチェ,"おやぁ？　これはおかしいのではないか、ヱリカよ。これでは魔女
 の仕業になってしまうぞぉ？","Hm? Isn't this strange, Erika? Wouldn't this make this... the work of a witch?",,,
 333,ヱリカ,"うるさいうるさい！　うっせえうっせぇッうっせえわああぁああ
@@ -156,12 +155,11 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 363,ドラノール,……有効デス。,...EFFECTIVE.,,,
 371,ヱリカ,ね？！　塗料が付かないように部屋に入るのは可能なんです！！,See?! It's possible for somebody to open the door to the room without getting my fluorescent paint on them!,,,
 373,ヱリカ,詩音さん、貴女は本当に悪い人ですねぇ……！！！,"Shion-san, you truly are a despicable woman...!!!",,,
-376,ヱリカ,人の部屋に侵入する際に、そこまでの用心が出来るなんてッ。プロ！！　職業的泥棒ッ！！　シューペリアルエクストリーム犯罪者ああぁああぁあぁッ！！,"I can't believe you'd be this cautious when breaking into somebody's room. You're a professional!! A career criminal!!!! 
-<A superior extreme feloooooooooooon!!!!!!>","erika is being really uh. extra with her description. 'pro, professional thief, <superior extreme> criminal' is what she's saying.",believe,
+376,ヱリカ,人の部屋に侵入する際に、そこまでの用心が出来るなんてッ。プロ！！　職業的泥棒ッ！！　シューペリアルエクストリーム犯罪者ああぁああぁあぁッ！！,I can't believe you'd be this cautious when breaking into somebody's room. You're a professional!! A career criminal!!!! <A superior extreme feloooooooooooon!!!!!!>,"erika is being really uh. extra with her description. 'pro, professional thief, <superior extreme> criminal' is what she's saying.",believe,
 381,詩音 (バスタオル),"何とでも仰ってください。ちなみに、今のどれもが、私には誉め言
 葉ですので。","You can say whatever you want about me. And by the way, I'd consider what you just said to be a compliment.",,,
 383,Mion (バスタオル),"……詩音にアリバイがないことは間違いないけれど、……これで、
-詩音がこの部屋に入ったという証拠もない訳だね？",...Shion definitely doesn't have an alibi... but doesn't that prove she didn't enter your room?,,,
+詩音がこの部屋に入ったという証拠もない訳だね？","...Shion definitely doesn't have an alibi, but... doesn't that prove she didn't enter your room?",,,
 388,Nao (Casual),"それでも詩音さんが犯人だっていうなら、他の何かを示して欲しい
 わっ。","If you're still sure that Shion-san is the culprit, I want you to show something besides that.",,,
 395,ヱリカ,他の何か、他の何か、あわあわあわ……あぁぁぁぁあぁッ。,"Something besides that, something besides that... aaahh... aaaaahhhhh... ...aaaaaaAAAAHHH!",,,
@@ -182,7 +180,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 434,ベアトリーチェ,"……なんと……。そなたは……航海者の魔女だというの
 か……ッ？！",...What the... are you... a Voyager witch...!?,,,
 443,ヱリカ,"んなワケねぇですぅ！！！　お前はちっぽけな、居てもいなくても
-いい塵芥のガキンチョでしょおがあぁああ！！","There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant DUMPSTER DIVEEEEERRRRRRRR!!!!!",unsure of second sentance.,did some stuffs,
+いい塵芥のガキンチョでしょおがあぁああ！！","There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant dumpster diveeeeeeerrrrrrr!!!!!",unsure of second sentance.,did some stuffs,
 451,Nao (Casual),"ドラノールさん。嘘を吐く気はありません。
 あたしに、赤き真実を使わせて下さい。","Dlanor-san, I am not lying. Please allow me to use the red truth.",,,
 453,ドラノール,どのような内容をデスカ……。,What would you like to use it FOR...?,,,
@@ -208,9 +206,9 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 488,ベアトリーチェ,それで……。ドラノールの判定は……。,And with that... Dlanor's verdict is...,,,
 490,ドラノール,有効デス。,EFFECTIVE.,,,
 495,ドラノール,"#ff0000……鳳谷菜央が、人ならざる存在との接触や交流を経て来た#r
-#ff0000事実を、確認しマシタ。#r",{umi_red}I have confirmed that Nao Houtani has met and interacted with inhuman BEINGS.{/umi_red},,,
+#ff0000事実を、確認しマシタ。#r",{umi_red}Nao Houtani has been confirmed to have made contact and interacted with inhuman BEINGS.{/umi_red},,,
 503,ヱリカ,"あ、あんた……ッ、何者なんですかッ！！　フェリーでたまたま出
-会っただけの、ガキンチョだと思ってたのに……ッ？！",W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...?!,,,
+会っただけの、ガキンチョだと思ってたのに……ッ？！",W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...!?,,,
 511,ベアトリーチェ,"紅茶を飲むならバケモノとに限る、は……、そなたの主の言葉で
 あったか。",Didn't your master once say that black tea is best enjoyed with monsters?,,,
 513,ベアトリーチェ,"……なるほど。魔女がゲーム盤を広げれば、魔女かバケモノ、ある
@@ -220,7 +218,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 517,Nao (Casual),"だからあたしは、ベアトリーチェの存在を、否定しません。ここに
 居ることが、その証なのですから。","Because of that, I don't deny Beatrice's existence. Her being here is proof enough.",,,
 519,ベアトリーチェ,"わ、妾の存在を認めてくれるとは……、菜央、そなたのような客人
-は初めてだ……。","Y-You recognize my existence... Nao, I've never had a guest such as yourself...",,,
+は初めてだ……。","Y-you recognize my existence... Nao, I've never had a guest such as yourself...",,,
 527,Nao (Casual),その上で、第一と第二の魔法陣事件について、改めて主張します。,"In addition, I am going to repeat my claims as to the first and second magic circle incidents. ",,,
 529,Nao (Casual),まず、今、俎上に上がっている第二の魔法陣事件。,"First, let's put the second magic circle incident on the chopping block.",she uses 'on the chopping board' but i think we can word it a little clearer.,,
 533,Nao (Casual),#4169e1容疑者である詩音さんは無実でした。#r,{umi_blue}The suspect Shion-san is innocent.{/umi_blue},,,
@@ -231,7 +229,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 552,Nao (Casual),"#4169e1そして、唯一、部屋に入れたかもしれない詩音さんも、ヱリカさん#r
 #4169e1の仕掛けが逆に、無実を証明することとなりました。#r","{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika's traps, was able to prove her innocence.{/umi_blue}",,,
 557,Nao (Casual),"#4169e1以上により、第二の魔法陣事件は、ニンゲンには不可能である、魔#r
-#4169e1女の悪戯であることが明白となりました。#r","{umi_blue}Therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}",,,
+#4169e1女の悪戯であることが明白となりました。#r","{umi_blue}So therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}",,,
 566,ヱリカ,"ぜッんぜん明白じゃねぇだらッ！！！　どこがッ、誰がッ！！　ふ
 ざけた青を使うんじゃねええぇええッ！！！","That's not clear at alllllllll!!! Who did it, and where did they come from!?!?!? Don't make a mockery of the blue truuuuuuuth!!!",,,
 574,ベアトリーチェ,……菜央よ。妾を利しても良いのか？　そなたが負けになってしまうぞ……？,"...Nao, you realize I'll benefit from this? Are you trying to lose...?",,,
@@ -257,8 +255,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 願いしたいんです。","The next turn is yours, but before you declare your victory, I want you to make one move for me.",,,
 617,Nao (Casual),"第二の魔法陣は魔女の仕業だけれど、……第一の魔法陣は、ヱリカ
 さんが犯人。そして今、ようやく、紗音さんが魔法陣を見ても異常
-を感じなかった理由が、閃きました。","While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why 
-Shannon-san didn't feel anything strange when she found it.","the space is so it displays better ingame, ignore it",,
+を感じなかった理由が、閃きました。","While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why Shannon-san didn't feel anything strange when she found it.",,,
 620,,"　ようやく、謎と推理と思考のスープが……、とろりと仕上が
 る……。","At last, the soup of logic, reasoning, and mystery... had finished thickening.",,,
 624,Nao (Casual),ベアトリーチェ。あなたは魔女ですよね？,"Beatrice. You are a witch, correct?",,,
