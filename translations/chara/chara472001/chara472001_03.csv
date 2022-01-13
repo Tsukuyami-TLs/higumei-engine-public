@@ -1,0 +1,81 @@
+chara472001_03.bytes,,Lloro,,,,,,,,
+index,chara,jp,en,,,,,,,
+32,Nao,待って！,Wait!,,,,,,,
+38,Miyuki,ん、どうしたの菜央。,"Hm? What's up, Nao?",,,,,,,
+40,Kazuho,お昼寝から、目が覚めたの？,Have you woken up from your nap?,,,,,,,
+44,Nao,えぇ……目が覚めたわ。,Yeah... I'm up.,,,,,,,
+46,Kazuho,どうしたの、まだ眠い？,What's up? Still sleepy?,,,,,,,
+48,Nao,"そうじゃない……けど。
+もう少しだけ、眠っていたかった気がするわ。",I don't think that's it... but I feel like I should have slept just a little more.,,,,,,,
+50,Nao,"なんだか、
+とっても楽しい夢を見ていた気がするの。",It feels like I was having a super fun dream.,,,,,,,
+62,ドラノール,"法律のために人がいるのではありマセン。
+人のために法律がありマス。",People do not exist for the LAW. The law exists for PEOPLE.,fixed meaning,,,,,,
+64,ドラノール,"ですが、人を守るための法律を悪用し、
+人を傷つける悪人が生まれる場合もありマス。","Nevertheless, there are cases borne from villains hurting others through abusing the power of laws that protect PEOPLE.",,,,,,,
+66,ドラノール,"……ルールとは常に、ある一方を守ると同時に、
+もう片方を傷つける刃にもなりえマス。","...With rules that are made to protect, there is always someone on the other end who has already weaponized it against someone ELSE.",,,,,,,
+68,ベアトリーチェ,"だが、ドラノール卿たちが守り続けていなければ
+ミステリー自体が崩壊していたやもしれぬ。","But if Lady Dlanor and her followers hadn't continued to protect others, mystery itself as a genre would have likely crumbled apart.",,,,,,,
+70,ドラノール,"ハイ。……とはいえ、『ノックス十戒』などの
+ルールが原因で、ミステリーに窮屈さを覚える人が
+いるのも事実デス。","AGREED... Although it is true that there are also those who think ""Knox's Decalogue"" serves to constrict the mystery GENRE.",fixed meaning,,,,,,
+72,ベアトリーチェ,"それも真理だ。しかし、ルールがあるからこそ
+ミステリーというものは迷い子本来の時代にも
+存在し続けているとも言える。","That is true. However, since there are definite rules to mystery, the genre can continue to exist in the time of that lost child.",,"fixed meaning, check cell hist",,,,,
+74,ベアトリーチェ,"ミステリーが一時的に衰退したとしても、
+消滅することはないだろう。","I suppose mystery is a genre that will temporarily wane, but will never completely blow out.",,,,,,,
+76,ベアトリーチェ,"……その証拠に、あの少女はきっと
+目が覚めた後にミステリー小説を手に取る。
+そしてまた、相まみえることが叶うだろう。","...As proof of that, that girl will surely gets her hands on a mystery novel once she awakens. Perhaps then we shall reunite.",,,,,,,
+78,ドラノール,"ただ……その時にはここでのことを、
+菜央は忘れているのデハ？",But then... what about Nao forgetting that she had ever been HERE?,,,,,,,
+80,ベアトリーチェ,"あぁ、忘れているだろうな。
+もし思い出したとしても、
+夢を見たで、済ませるやもしれぬ。","Ah, I guess she is forgetting each time, isn't she? And even if she does remember, she'll see it as a dream that has already ended.",,,,,,,
+82,ベアトリーチェ,"だが、面白いという感情は
+心の奥底に深く根付く。","Even so, her feelings of amusement will strike at the depths of her heart.",,,,,,,
+84,ベアトリーチェ,"『ノックス十戒』を
+面白いと思ったあの迷い子ならば、
+きっとミステリーに手を伸ばすであろう。","The lost child that found ""Knox's Decalogue"" amusing will surely reach her hands out to mystery.",,,,,,,
+86,ドラノール,"そうだといいデスネ。
+……では、私も失礼しようと思いマス。","I hope that it does become SO... Now, I think I will again take my LEAVE.",,,,,,,
+88,ベアトリーチェ,迎えにいくのか？,Are you going out to meet her?,,,,,,,
+90,ドラノール,"ハイ。今頃、ゴロゴロと部屋で
+転がり回っていると思いマス。
+……ミス・ベアトリーチェ。","YES. Around now, I think she would be lazing around in her ROOM. ...Miss Beatrice?",,,,,,,
+92,ベアトリーチェ,なんだ？,Yes?,,,,,,,
+94,ドラノール,"この残ったクッキー、
+持ち帰っても良いデスカ？","Those leftover COOKIES, may I take them back with ME?",,,,,,,
+109,ヱリカ,"うぅうう、まさか#p雛見沢#sひなみざわ#rに
+我が主とうり二つの別人がいただなんて……！","Uuuuuuu, for me to have fallen for a FAKE version of my master in Hinamizawa; it can't be...!",,,,,,,furigana
+112,ヱリカ,"うぅ、もう二度と間違えません！
+うぅ、うぅぅううぅうぅぅぅっ……！","Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!",,,,,,,
+120,ドラノール,ヱリカ卿。,Lady ERIKA.,,,,,,,
+122,ヱリカ,"……ドラノールですか。
+なんですか、我が主からお叱りを受けた私を
+笑いに来たんですか？","...Is that you, Dlanor? What is it? Have you come to laugh at me after I've received a scolding from my master?",,,,,,,
+124,ドラノール,イイエ。そのようなことはありマセン。,Not at ALL. I wouldn't do something like THAT.,,,,,,,
+126,ヱリカ,"じゃあなんで……
+って、なんですかそのクッキーは。","THEN WHY-... oh, what are those cookies there?",,,,,,,
+128,ドラノール,"いただきものデス。
+よかったら、一緒に食べマショウ。","They are for us to HAVE. If you'd like, we can eat them TOGETHER.",,,,,,,
+130,ヱリカ,……じゃあ、もらいます。,...Then I'll... have some.,,,,,,,
+132,ヱリカ,"ふぅん……悪くありませんね。
+もうすこし甘い方が脳の栄養補給には
+良さそうですが。","Mm... they aren't bad. A little too sweet to be nutritious for my brain, though.",,,,,,,
+134,ドラノール,口に合ったなら良かったデス。,"If you think it's tasty, then I'm HAPPY.",,,,,,,
+136,ヱリカ,"……なんだか機嫌が良いですね。
+良いことでもありました？","...You're in a really good mood, huh? Has something nice happened?",,,,,,,
+138,ドラノール,"ハイ。新しいミステリーの読者が、
+またひとり増えたかもしれマセン。",YES. We may have gotten a new mystery READER.,,,,,,,
+140,ヱリカ,"ふぅん？　いいことじゃないですか。
+ミステリーの話ができる人が増えるのは、
+私も大歓迎です。",Hmm? Isn't that nice. I'll also warmly welcome someone new who is capable of talking about mystery.,,,,,,,
+142,ヱリカ,"ちょっとかじった程度で、わかった気になった
+半端モノの心を叩き折るのが楽しみです……。","Even just dabbling in this idea a little, I'm getting interested, I find. I'm looking forward to ripping this person's heart in half...",,,,,,,
+144,ドラノール,"そう簡単に折れる相手ではないかも
+しれマセン。",This opponent might not be so easily BREAKABLE.,,,,,,,
+146,ヱリカ,"へぇ……珍しく自信ありげですね。
+あんたが見込んだそいつと戦うのが楽しみです。",Woah... what unusual confidence. I'm looking forward to this battle with them now since you seem so sure about it.,,,,,,,
+148,ドラノール,ハイ。……私も、楽しみデス。,YES. ...I am also looking forward to IT.,,,,,,,

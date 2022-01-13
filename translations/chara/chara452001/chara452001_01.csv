@@ -1,0 +1,121 @@
+chara452001_01.bytes,,Beato's SSR--part 1,Beanbug here. My japanese is not very good and i am 100% open to corrections.,"Llorona QC; notating little mistakes, but i'm also open to corrections :D",Omega - QC,? - QC,,,,,,
+index,chara,jp,en,I'll mark incorperated changes by changing llorona's color to this.,,,,,,,,
+28,ベアトリーチェ,"遠慮はいらぬ。
+さぁ、そなたも冷めないうちに飲むといい。",Don't be shy. Drink it before it gets cold.,,,,,,,,,
+30,Nao (Casual),あの……えっと、これは……？,Uhh... um... what is this...?,,,,,,,,,
+32,ベアトリーチェ,"ん……どうした、紅茶は嫌いか？
+なら、このクッキーはどうだ？
+ロノウェが自信作と言っていたぞ。","Mm... what's the matter? Do you dislike black tea? If so, why not try the cookies? Ronove said he was proud of how they came out.",,,,,,,,,
+34,Nao (Casual),"いや、紅茶は好きだけど
+そういうことじゃなくて……その……。","No, that's not what I meant. I love black tea... but...",,,,,,,,,
+36,Nao (Casual),"（……。断るのも失礼だから、
+素直にいただいたほうがよさそうね……）","(...refusing would be rude, so I guess I should just try it...)",,,,,,,,,
+39,Nao (Casual),"じゃあ、いただきます……って、
+ほわぁ……おいしい……！","I'll try a bit, then......
+Woooow... it's delicious...! ",,,,,,,,,
+43,Nao (Casual),"香りも上品で素敵だけど、
+渋みが全然なくて少し甘いくらい……♪","The smell is sophisticated and wonderful, there isn't any tartness, and it's just a little sweet...♪",,,,,,,,,
+45,ベアトリーチェ,"そうであろう、そうであろう？
+実は妾も最近この紅茶がお気に入りでなぁ！","Oh, isn't it? By the way, as of late, this black tea has been a personal favorite of mine!",the -> this,,,,,,,,
+47,ベアトリーチェ,マイブームと言うやつよ。,You could say I'm obsessed with it.,,,,,,,,,
+49,Nao (Casual),"あ……でも紅茶ってカフェインが
+コーヒー以上に入ってるはずだから、
+飲みすぎると夜眠れなくなりそう？","Ah... but since black tea is supposed to have more caffeine than coffee, if I drank too much of it, wouldn't I have trouble sleeping?",,,,,,,"""...since black tea is expected to have more caffeine than coffee, if I drink...""",,
+51,ベアトリーチェ,くっくっくっ、まったくニンゲンとは繊細なものだ。,"*cackle*, Humans truly are delicate creatures.",,,,,,,,,
+53,Nao (Casual),"（ふふっ。あの推理バトルの時は
+威厳と怖さを兼ね備えたすごい魔女だったけど、
+案外親しみやすいところがあるのかも……かも）","(*giggle*. During that logic battle, she was incredibly dignified and frightening, but she seems to be friendlier than you'd think, maybe... maybe.)",,,,,,,ふふ is like a giggle,,"""...than you'd think... maybe.)"" or something to that effect"
+55,ベアトリーチェ,"あと、この紅茶は茶菓子を合間に食べると
+香りがより引き立つ。
+そこのスコーンなどは、相性的にもおすすめだ。","In addition, the aroma of the tea improves if you eat tea cakes in between sips. I would recommend those scones and such over there, as they would compliment it well. ",she says scones are a good match to the tea in the second sentence. i went with complimentary but not sure if that's the best word to use.,,,,,,,,"""I would recommend those scones and such over there, as they would compliment it well."" I think complimentary is a good usage!"
+57,Nao (Casual),"あ……ほんとだ。
+それに、この味わいだったらジャムとかを
+入れてみてもいいかもね。","Ah... you're right. With flavors like this, you could perhaps try putting jam or something on the scone too.",,,,,,"""... jam or something on it.""",,,
+60,ベアトリーチェ,"もちろん、ロシアンティにも合うぞ。
+次は試すが良い。","Of course, it pairs well with Russian tea as well. Perhaps you can try that next.",,,,,,,,,
+63,,…………。,............,,,,,,,,,
+70,Nao (Casual),"……ところで、ベアトリーチェ。
+今日あたしをここにまた呼び出したのは、
+どういうご用件なの？","...By the way, Beatrice. Why did you call me here today?",,,,,,,,,
+72,ベアトリーチェ,どうも何もない、そなたと茶を飲みたいと思っただけだ。,No reason in particular. I just wanted to drink tea with you.,,,,,,,,,
+74,Nao (Casual),……それだけ？,...Just that?,,,,,,,,,
+76,ベアトリーチェ,それだけだが……何の問題があるというのだ？,Is there... a problem with that being the only reason?,,,,,,,,,
+78,Nao (Casual),"ううん。おいしい紅茶が飲めるのは、
+単純に嬉しいからあたしは嬉しいわ。",No. I'm simply glad to enjoy a delicious cup of tea.,,,,"""I'm simply glad to enjoy...""",,,,,
+80,Nao (Casual),"（……どうしたのかしら。
+あの魔女ベアトリーチェが、
+ただお茶を飲むだけのためにあたしを呼んだ？）",(...I wonder. Did the witch Beatrice really call me here just to drink tea with her?),,,,,,,,,
+82,Nao (Casual),"（ちょっと考えにくいわね。
+何か企んでいるのかも……かも）",(I'm doubtful of that. She might be planning something... maybe.),,,,"""She might be planning something... just maybe.)""",,,,,
+84,ベアトリーチェ,……そなたの考えていること、妾にはわかるぞ。,...I know what you're thinking.,,,,,,,,,
+87,Nao (Casual),えっ……？,Huh...?,,,,,,,,,
+89,ベアトリーチェ,"本来交わることのなかったそなたが
+ここに呼ばれ、こうして妾と茶を交わす。
+それに奇異を感じているのであろう？",You have been summoned to have tea with me as someone originally not meant to be here. Does that feel strange to you?,,"this is a weird line; i feel 交わる is dependant on context i don't have, as it basically means to intersect, meet, etc.",,,,,,,"I think this is referring to her being an irregular character (which she mentions she enjoys earlier b/c she's bored), but it could also just be in reference to her not being a witch"
+92,Nao (Casual),"……えぇ。正直言って身構えてるわ。
+いつあたしの尻子玉を抜こうとしてくるのか、って。","...Yes. To be honest, I am a bit on guard. I'm wondering when you're going to pull out my {note_green}shirikodama{/note_green}. ",,"nao says specifically ""pull out my shirikodama"". like the mythical kappa anus ball.",,,,,,,
+101,ベアトリーチェ,"ぷっ……くっくくははははははっ！
+よりにもよって喩えが尻子玉……とな？！","Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with... shirikodama!?!",,,,,,,,,
+103,ベアトリーチェ,"河童でもあるまいし、妾がそのような真似を
+するはずがなかろうっ！
+くっくくくっくく！","I'm not anything like a {note_green}kappa{/note_green}, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!",def just put *cackle*cackle*cackle*!!!,,,,"""I'm not anything like a kappa, so don't anticipate me doing something like that!""",,,,
+110,Nao (Casual),"しないとは言えないでしょ？
+だってあたし、魔女に詳しくないもの。","How can I know you won't? After all, I don't know very much about witches.",,,,,,,,,
+112,Nao (Casual),"尻子玉コレクションを趣味にしてる
+魔女がいるかも知れないじゃない。",It's entirely possible that there is a witch whose hobby is collecting shirikodama. ,,,,,,,,,
+120,ベアトリーチェ,"ひーっひひっひひひひひひひひ！！！
+面白いぞ、実に面白い！","Heehehehehehehehehe!!! Hilarious, truly hilarious! ",,,,"misspelling of ""Fascinating""",,,,,
+122,ベアトリーチェ,"妾がこんな小娘にひぃひぃ言わせられるとはな……
+ふっふふふふふふ、くーっくっくっく！","I never thought a little girl like you would say that... *giggle*giggle*, *cackle*cackle*cackle*!!",,,,,little misspelling of *cackle*,,maybe more onomatopoeia here?,,
+129,Nao (Casual),"（すごい大爆笑してるわね。
+よっぽどツボだったのかしら？）",(That was a powerful roar of laughter. I think I hit her funny bone?),,wording here.......i think the implication is she hit a soft spot with regards to something she would find funny. but all the words i can think of (soft spot) imply weakness.,,,,,,,
+134,ベアトリーチェ,"くっくっくっく！くは、ははは……はぁ、ふぅ……ふー。
+笑わせてもらったぞ。
+妾に冗談で返せる度胸、なかなかやるではないか。","*cackle*cackle*cackle*! Ha, hahaha... haaah, hoooh... hoo. You got me good. The fact you have the bravery to joke back at me is wonderful.",,,,,,,same as above?,,
+136,Nao (Casual),"あたしもよ。
+まさか、ここまで笑ってもらえるなんて
+さすがに思わなかったわ。",You got me too. I didn't expect you to laugh that hard.,,,,,,,,,
+138,Nao (Casual),今思ったことだけど……魔女って感情豊かなのね。,I just realized... that witches are quite emotional.,,,,,,,,,
+140,ベアトリーチェ,"当然であろう。
+魔女も面白ければ笑い、馬鹿にされたなら報復もする。","It's only natural. Like humans, witches will laugh if they are amused, and retaliate if they are being ridiculed.",,,,,,,,,
+142,ベアトリーチェ,"まぁ、そなたが妾に恐怖を求めるというならば
+その期待に応えなくもないがな……くっくっくっ。","Although, if you want me to be fearsome, then I can't help but meet that expectation... *cackle*cackle*.",,not 100% sure if beato is going 'if you ask me for you to be scary' or what i put here.,,,,,"you're right, ""If you want me to be fearsome, then I can't help but meet that expectation...""",,
+144,Nao (Casual),"それこそ冗談じゃないわ。あたしはまだまだ、
+やりたいこととやるべきことがあるんだから……。
+こんな年で地獄行きだなんてまっぴら御免よ。",This isn't a joke. I still have many things I want and need to do. I'm absolutely trying to avoid going to hell at this age.,,,,,,,,,
+146,ベアトリーチェ,"……ほぉ？　そのわりに、あの「世界」に
+足を踏み入れた当初は早急なる死と絶望を
+望んでいたようだが……？","...Hoh? And yet when you first stepped into that ""World"", it seemed you rapidly fell into despair and wished for death, though...?",,no idea if she is referencing going to '83 or another thing here.,This probably is referencing Nao going to '83 since she originally went there to commit suicide,,,,,,
+148,Nao (Casual),"……そんなことまでお見通しなのね。
+とてもかなわないわ。","...You can see through that, even. I'm no match for you.",,,,,,,,,
+151,ベアトリーチェ,"くっくっくっくっく…。
+まさか互角の勝負ができると思っていたとはな、
+残念、お生憎様だ。","*cackle*cackle*cackle*... I've been thinking about how we'll never be able to compete on equal footing. Oh, how it's a shame, it really is too bad!",,,,,,"misspelling of ""unfortunate"" and inconsistency with *cackle*",,,
+153,ベアトリーチェ,"妾はそなたが持つ小さな経験や知識なぞ比べるに値しない、
+千年を生きる黄金の魔女よ。",The experience and knowledge you have is nothing compared to mine as a thousand-year-old Golden Witch.,,,,,,"misspelling of ""experience"" and ""millennia""",,,"""...nothing compared to mine as a..."""
+155,Nao (Casual),"大丈夫。
+そんなふうに脅さなくても、格の違いくらいは
+わかってるつもりよ。反抗する気なんてないわ。",It's fine. You don't need to intimidate me like that; I know the difference in our rank. I'm not going to oppose you.,,,,,,"""...intimidate/threaten me like that;""",,,
+157,Nao (Casual),"あたしにできなくて、あなたにならできることは
+それこそ星の数以上でしょうしね。",I'm sure you can reach for far more stars than I can.,,,,,,,,,
+159,ベアトリーチェ,"あぁ……その通りだ。
+だが、妾にも出来ぬことはある。","Ah... yes, that is true. And yet, there are things that even I cannot do.",,,,,,,,,
+161,ベアトリーチェ,"妾とそなたが出会うという奇縁、
+それをきっかけに生まれた変化をこうして楽しむのも、
+その歪を理解しているからなのかもしれぬな……。","Perhaps it is from this strange coincidence of us meeting that I can enjoy the changes that it sparked, as well as understand its irregularity...",,not sure of this sentence.,,"""Perhaps it is from this strange coincidence of us meeting that I can enjoy the changes that it sparked, as well as understand its irregularity.""",,,,,
+163,Nao (Casual),"……。魔女のベアトリーチェにも、
+できなかったことで悔しかったり
+悲しかったりした思い出があるのね。","...Even the witch Beatrice has memories of being frustrated and sad over things she couldn't do, huh?",,,,,,,,,
+165,ベアトリーチェ,"ふっ……そなたは本当に、怖いもの知らずというものだ。
+他の魔女だと、その質問ひとつで不敬だと
+即座に首が宙を舞うこともあるのだぞ。",Hmm... you truly are fearless. Other witches would have immediately sent your severed head flying across the room out of the disrespect from that single inquiry.,,,,,,,,,
+168,Nao (Casual),……っ……。,......Wh-...,"""...Wh-..."" or something like that",,,,,,,,
+170,ベアトリーチェ,"そう身を固くするでないぞ。別に怒ったわけではない。
+そもそも妾はそなたの「過去」を知っておる。
+今に至った経緯について賞賛も感じているのだ。","Don't be so tense. It's not like I'm angry. I have always been aware of your ""past"". I commend you for reaching this point.",,,,,,,,,
+172,ベアトリーチェ,"生まれてこなければよかった……か。
+そこまでの絶望を味わいながらも
+そなたは這い上がってきた、大したものよ……。","Wishing you were never born... huh? And yet, despite feeling all that despair, you wriggled through it. That's quite significant...",,"not sure of subject of first sentence, if it is about nao or beato",Subject is definitely Nao.,,,"It is a bit ambiguous but she's talking about Nao while thinking about her own feelings in the past around her age. You can put it like, ""Wishing that you were never born, huh?""",,,
+174,Nao (Casual),ベアトリーチェ……？,Beatrice...?,,,,,,,,,
+176,ベアトリーチェ,"ふっ……戯言だったな、忘れて良い。
+妾は少々感傷的になっているのかもしれんな。",Hmm... it was nothing; please forget it. It seems I am getting a little sentimental.,,,,,,,,,

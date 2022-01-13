@@ -8,7 +8,7 @@ index,chara,jp,en,notes
 偵の悦楽の究極にして最高峰！","""You're the culprit."" ...The moment you get to speak those words is the ultimate pleasure for a detective!",
 40,ヱリカ,もちろん、犯人がその言葉で簡単に屈することはありません。,"Of course, the culprit won't give in to that phrase so easily.",
 42,ヱリカ,"それこそ、窮鼠猫を噛むの勢いで反論してくるでしょう。しかし、
-それを崩すのがまたいい！","As a cornered rat will bite a cat, the culprit will also surely object with all their might. However, I'll enjoy destroying it again!",*japanese proverb. the last sentence might be referring to events of previous chapters? not sure what she means
+それを崩すのがまたいい！","As a cornered rat will bite a cat, the culprit will also surely object with all their might. But for me, I'll {i}enjoy{/i} tearing it down once more!",*japanese proverb. the last sentence might be referring to events of previous chapters? not sure what she means
 44,Nao (Casual),"……つまり、ヱリカさんは模範的な犯人役を演じてくれる、という
 ことですよね？","...In other words, Erika-san will play the part of an exemplary culprit. Is that what you're saying?",
 46,ヱリカ,貴女が探偵としての究極の悦楽を得られるか……。,Can you obtain the ultimate pleasure as a detective...?,
@@ -19,9 +19,10 @@ index,chara,jp,en,notes
 52,ヱリカ,非常にシンプルな話です。私にはアリバイがあるからです。,It's an exceedingly simple reason. Because I have an alibi.,
 54,Nao (Casual),アリバイ……？,Alibi...?,
 56,ヱリカ,"お忘れですか？　私は貴女たちと一緒に、郷田さんの素敵な創作ス
-ペイン料理をいただいたではありませんか。","Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb creations of Spanish cuisine?",
+ペイン料理をいただいたではありませんか。","Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb renditions on Spanish cuisine?",
 58,ヱリカ,"そして、食事を終えて、そのまま朱志香さんのボードゲームにも参
-加しました。","Then, immediately after finishing the meal, I participated in Jessica-san's board game.",
+加しました。","Then, immediately after finishing the meal, I participated in 
+Jessica-san's board game.",
 60,ヱリカ,その後、遅くまで遊び、皆さんと一緒に２階へ上がったはずです。,"After we played late into the night, I surely went upstairs with everyone else.",
 62,ヱリカ,"その間、私はわずかの時間でも、皆さんの前から姿を消したことが
 ありましたか？","In that time, was there even the briefest moment when I disappeared from everyone's sight?",
@@ -55,7 +56,7 @@ index,chara,jp,en,notes
 107,,"　魅音さんと詩音さんの心臓がタフ過ぎるから、あんな悪戯、下ら
 ないもののように思える。","Since Mion-san and Shion-san have super tough minds, they viewed the prank as a trivial matter.",
 108,,"　しかし。……普通のセンスの客たちだったなら、全員、絶叫して
-部屋から飛び出すほどの悪戯だった。","But... if they were normal-minded guests, we would all have screamed, running away from the room in fear of the prank.",
+部屋から飛び出すほどの悪戯だった。","But... if they were guests with normal taste, we would all have screamed, running away from the room in fear of the prank.",
 109,,"　それを見て、“いいえ、ご安心を”という言葉が出るだろう
 か……？","Seeing that, could someone really say, ""No. Please be at ease.""?",
 113,Nao (Casual),そ、それはきっと……、考えられることは、貴女と紗音さんが、,"Th-, surely that's... when you think of it, you and Shannon-san are...",
@@ -64,7 +65,7 @@ index,chara,jp,en,notes
 た。",Huh? ...The color of Erika's voice was... somehow... different... just now.,
 122,,根拠を示すことなく、真実を語る言葉に聞こえた……。,They were words that I knew spoke the truth even without it being shown...,
 126,ヱリカ,"よって、私が紗音さんに予め因果を含め、魔法陣の悪戯を見て見ぬ
-フリをしろ、などと言い含めたことはあり得ないということです。","Therefore, me being involved with Shannon-san prior to this, like telling her to pretend not to see the magic circle, or any extension of that scenario, is impossible.",
+フリをしろ、などと言い含めたことはあり得ないということです。","Therefore, me being involved with Shannon-san prior to it, like telling her to pretend not to see the magic circle, or any extension of that scenario, is impossible.",
 128,Nao (Casual),………ん……………。,......Nn.........,
 130,ヱリカ,"よって、私が犯人であるならば、犯行の機会は紗音さんが部屋を出
 てからしかない。","And furthermore, if I were the culprit, my only opportunity to commit the crime would be after Shannon-san had already left the room.",
@@ -78,7 +79,8 @@ index,chara,jp,en,notes
 153,,"　つまり、……昨夜、本当に魔法陣の悪戯がなかったかどうかなど
 を、尋ねることが出来ないということ……？",Which means... I can't confirm with her whether or not the magic circle last night was a prank...?,
 157,ヱリカ,"今日と明日がお休みだそうなので、明日の日曜には帰る菜央ちゃま
-にはもう、話を聞く機会はない、という訳です。","Seems like she's going to be out today and tomorrow, so little Nao-chama returning home on Sunday no longer has a chance to hear her side.",
+にはもう、話を聞く機会はない、という訳です。","Seems like she's going to be out today and tomorrow, so little 
+Nao-chama returning home on Sunday no longer has a chance to hear her side.",
 159,Nao (Casual),く…………………。,Gh......,
 169,Mion (ウェディング),はー、疲れたねぇ！　ちょっと休憩しよっかぁ。,"Haah-, I'm tireeddd! Let's take a break, yeah?",
 171,詩音 (ビキニアーマー),あれ？　菜央さん、刺繍はしてないんですか？,"Huh? Nao-chan, you aren't doing your embroidery?",
@@ -88,7 +90,7 @@ index,chara,jp,en,notes
 に入ってくれるのってどんなカッコだろ……。",I might be starting to get interested in cosplay too now... I wonder what kind of outfit Kanon-kun would like on me... ,
 189,詩音 (ビキニアーマー),"そういう動機、大歓迎ですよぉ？　美は、見てくれる人のことを想
 って養うものですから♪","A motive like that is highly welcome here! With beauty, the thought of that one person looking at you feeds into your confidence!♪",
-191,朱志香,い、いやいやっ、べ、別に嘉音くんはそういう関係じゃ……、,"N-, nonono, we, Kanon-kun and I aren't actually toge-...",
+191,朱志香,い、いやいやっ、べ、別に嘉音くんはそういう関係じゃ……、,"N-Nonono, we, Kanon-kun and I aren't actually toge-...",
 193,朱志香,わわ私、そろそろお昼の時間か聞いてくるぜ！,"I-I-I'm, oh, look, it's lunch time!",
 199,,"　照れ隠しだと露骨にわかる仕草で、朱志香さんは踵を返して走り
 出す。","While clearly trying to hide her embarrassment, Jessica-san turned away and tried to run off.",
@@ -97,7 +99,7 @@ index,chara,jp,en,notes
 201,,"　その時、ヱリカさんが、ポンと手を打って、あ、と何かを思い出
 した仕草をした。","At that moment, a lightbulb appeared above Erika-san's head as she appeared to have remembered something.",
 204,ヱリカ,"あ、いけない。……私、昨日の魅音さんの窓の鍵の件、笑う資格が
-ありませんでした。","Ah, that mustn't do. ...To me, the incident with the lock on Mion-san's window is no laughing matter.",
+ありませんでした。","Ah, that won't do. ...To me, the incident with the lock on Mion-san's window is no laughing matter.",
 209,Mion (ウェディング),どしたの？　ひょっとして、ヱリカさんも壊しちゃった？！,"What do you mean? Wait, did Erika-san's break too?!",
 211,詩音 (ビキニアーマー),お姉じゃあるまいし。何かあったんですか？,"Obviously not, Sis. What happened?",
 216,ヱリカ,"マヌケな話です。私、自分の部屋に施錠をしてくるのを忘れたんで
@@ -107,12 +109,12 @@ index,chara,jp,en,notes
 224,詩音 (ビキニアーマー),"鍵をし忘れたのと、力加減を間違えて壊しちゃうのでは、だいぶ違
 うと思いますけれど？","I feel like forgetting to lock your room and breaking something because you underestimated your strength are two incredibly different things, though?",
 228,,お～～い、と朱志香さんが呼びながら戻ってくる。,"""Heeeeyy!"", Jessica-san called out as she ran back over here.",
-232,朱志香,お、お昼は１２時からだってさ！　はぁ、はぁ！,"L-, lunch is actually at 12 o'clock! Haah, haah...",
+232,朱志香,お、お昼は１２時からだってさ！　はぁ、はぁ！,"L-Lunch is actually at 12 o'clock! Haah, haah...",
 234,ヱリカ,"まぁ普通はそうだと思いますが、お伝え下さりありがとうございま
 す。","Well, that's what I thought in the first place, but thank you very much for that information.",
-240,Mion (ウェディング),詩音～。次の撮影だけどさ。小道具、やっぱ換えない？,"Shion~. For our next photo shoot, though, like, can we really not replace this prop?",
+240,Mion (ウェディング),詩音～。次の撮影だけどさ。小道具、やっぱ換えない？,"Shion~. For our next photo shoot, though, can we really not replace this prop?",
 242,詩音 (ビキニアーマー),あー、ようやく気付きましたか。似合わないと思ってたんです。,"Ah-, you finally realized, huh? I've been thinking it didn't fit well.",
-245,Mion (ウェディング),はぁ？！　思ってたんなら何で言わなかったのさ！,"Huuh?! If you've been thinking it, then, like, say something!",
+245,Mion (ウェディング),はぁ？！　思ってたんなら何で言わなかったのさ！,"Huuh?! If you've been thinking that, then say something!",
 250,ヱリカ,やれやれ。賑やかなことです。,"My, my. How lively it's getting.",
 255,Nao (Casual),……あの、朱志香さん。少しいいですか？,"...Um, Jessica-san. Do you have a moment?",
 257,朱志香,ん？　何？,Hm? What?,
@@ -122,14 +124,15 @@ index,chara,jp,en,notes
 267,,"　あまり遠くまで行くと不審がられる。少しだけ離れて、話し声が
 聞こえない程度の距離を取る。",Going too far away would make it suspicious. I'll move away just enough so that our voices can't be heard.,
 271,Nao (Casual),あの朱志香さん。……今日から、紗音さんはお休みなんですか？,"Um, Jessica-san... Is Shannon-san going to be off work from today?",
-273,朱志香,え？　あぁそうだぜ！　次の出勤は確か、月曜だったかな？,"Eh? Yeah, that's right! She'll be back on, I think it was, Monday probably?",
+273,朱志香,え？　あぁそうだぜ！　次の出勤は確か、月曜だったかな？,"Huh? Yeah, that's right! She'll be back on... Monday, I think it was?",
 275,Nao (Casual),"……あの、実は紗音さんに、どうしても急ぎでお伺いしたいことが
-ありまして。","...Um, truth is I've been wanting to call out to her as quick as possible.",
+ありまして。","...Um, truth is I've been wanting to ask Shannon-san something as quick as possible.",
 277,朱志香,何？　どうしたの？,What? What's wrong?,
 279,Nao (Casual),"それが、紗音さんだけに話したい話なんで……、せめて、電話で連
-絡を取るくらいは出来ませんか。","That's something I can only speak about with Shannon-san... At the very least, can I get on a phone to contact her?",
+絡を取るくらいは出来ませんか。","That's something I can only speak about with Shannon-san... 
+At the very least, can I get on a phone to contact her?",
 281,朱志香,………うーん。ウチさ、そういうのかなり厳しいんだぜ……。,"...Uhh. My folks are, y'know, pretty strict...",
-284,,やはり、ヱリカさんの言っていた通りのようだ。,"As expected, it's just like Erika-san said.",
+284,,やはり、ヱリカさんの言っていた通りのようだ。,It seriously is just like Erika-san said.,
 285,,"　紗音さんは明日までお休み。
 　そして、右代宮家では非番の使用人のプライバシーは最大限尊重
 し、一切の連絡を取らないらしい。","Shannon-san is on leave until tomorrow. And since the Ushiromiya family highly values the privacy of their servants, it's looking like I won't be able to get one call in.",
@@ -145,14 +148,14 @@ index,chara,jp,en,notes
 307,Nao (Casual),"例えばですよ？　使用人の人がベッドメイクか何かで客室に入った
 とします。","For example, right? Suppose a servant enters a guest room to make the bed or something.",
 309,Nao (Casual),"……その時に、何かこう……プライベートなものを見てしまった場
-合、守秘義務というのはあるんでしょうか？","...In that moment, in the case they were to accidentally see something... private, I guess would there be some sort of confidentiality rule with that?",
+合、守秘義務というのはあるんでしょうか？","...In that moment, in the case they were to accidentally see something... private, I guess, would there be some sort of confidentiality rule with that?",
 312,朱志香,そりゃあるさ！　源次さん曰く、使用人は家具なんだとさ。,"Something like that, yeah! According to Genji-san, the servants are like furniture.",
 315,,"　粛々と仕事を、黙して行なう。家具は喋らない。そして無意味に
 存在感を出すこともない。",Furniture does not start conversation. It silently performs its task. It does not needlessly make its presence known.,
 316,,"　だから、業務の合間にプライベートなものを見聞きしてしまって
 も、……決して口外しない。","So, even if they were to bare witness to something private while performing their task... they would never disclose that information.",
 319,Nao (Casual),"た、例えばですよ？　えっと、……そう、ハロウィン！　宿泊客
-が、客室内でハロウィンの仮装撮影をしたとします。","A-, another example, okay? Um, ...okay, Halloween! Suppose some guests who are staying in a hotel room overnight do some Halloween costume shoots in their room.",
+が、客室内でハロウィンの仮装撮影をしたとします。","A-Another example, okay? Um, ...okay, Halloween! Suppose some guests who are staying in a hotel room overnight do some Halloween costume shoots in their room.",
 321,Nao (Casual),"ハロウィンの仮装ってほら、ゾンビメイクとかあるじゃないです
 か？　結構、血まみれな怖い感じの。","The Halloween costume is, like, it can be zombie makeup, right? Something pretty bloody and scary. ",
 323,,"　そういう血まみれのオバケ衣装が、無造作にベッドの上に放って
@@ -200,12 +203,13 @@ index,chara,jp,en,notes
 367,,"　これ……、下らないトリックじゃないの？！　間に仲介者を挟め
 ばいい！",This... isn't this a stupid little trick?! There better be something between the lines!,
 368,,"　ヱリカさんが誰かと示し合わせる。その示し合わせた誰かが、紗
-音さんに、何らかの指示を与える。","Erika-san is conspiring with someone. And that ""someone"" she's conspiring with is giving instructions to Shannon-san somehow.",trying so hard not to say it idk if this makes it obvious or notnjdfghdfjg
+音さんに、何らかの指示を与える。","Erika-san is conspiring with someone. And that ""someone"" she's conspiring with has been giving instructions to Shannon-san somehow.",trying so hard not to say it idk if this makes it obvious or notnjdfghdfjg
 369,,例えば……、そう、コスプレ撮影！,Like for example... yeah! Cosplay photography!,
 370,,"　撮影の為に、ちょっとショッキングな準備がしてあるから、見て
 も驚かないように、なんて風に予め言われていたとしたら……。","If you're cosplaying as something scary, you'd want to tell your photographer in advance so that he doesn't get shocked...",
 373,Nao (Casual),"……あの魔法陣のシーツも、……紗音さんにとっては、事件性のな
-い、プライベートなものとなる！","...This same thought applies to the magic circle sheets, which Shannon-san thought was a normal, harmless thing!",
+い、プライベートなものとなる！","...This same thought applies to the magic circle sheets, which 
+Shannon-san thought was a normal, harmless thing!",
 375,,"　だが……、紗音さんに命令を出せそうな人物はかなり該当が多
 い。",The thing is... Shannon-san is the type to listen to orders.,not totally accurate but better i think
 376,,"　右代宮家の人間は全員そうだろうし、使用人頭や目上の使用人も
@@ -242,7 +246,7 @@ index,chara,jp,en,notes
 436,,"　……朱志香さんと話している間に、二人でどんな会話をしていた
 か知らないが、……何だかバチバチしたものだったようだ。",...I don't know what those two were having a conversation about while I was talking to Jessica-san... but it feels like it was kind of fiery.,
 437,,"　でも、仮にそうだったにせよ、魅音さんにとっては、やるねぇの
-一言で済んでしまう程度なのだろう。","Even if that did happen though, Mion-san would probably just be like, ""You got me!!"", and walk it off.",
+一言で済んでしまう程度なのだろう。","Even if that did happen though, Mion-san would probably just be like, ""You ain't half bad!"", and walk it off.",
 441,ヱリカ,"魅音さん。約束しましょう。いずれ必ず。#p雛見沢#sひなみざわ#rに探偵として訪れ
 ることをお約束します。","Mion-san, let's make a promise. One of these days, I'll definitely visit Hinamizawa as a detective.",
 444,Mion (ウェディング),"うん！　きっとだよ！　部活メンバー全員で大歓迎しちゃうから
@@ -282,7 +286,7 @@ index,chara,jp,en,notes
 子供扱いしないで欲しいわ。",I... I wasn't thinking like that. I don't want to be treated like a child with some... silly wordplay like that.,
 509,ヱリカ,くっくっくっく……。グッド。,*cackle*cackle*cackle*cackle*... <Good>.,
 511,ヱリカ,"探偵であれ、犯人であれ。……すぐに挫けるのは二流です。泣いて
-うずくまるのは戦人です。",As the detective or as the culprit ...quickly losing heart is for second-rates. The only one who would keel over crying is Battler.,trying so hard not to say poors here
+うずくまるのは戦人です。",As the detective or as the culprit ...quickly losing heart is for second-rates. The only person who would keel over crying is Battler.,trying so hard not to say poors here
 513,ヱリカ,一流は、タフでなければ。そして不敵でなければ。,"First-rates must be tough, and they {i}must{/i} be daring.",
 516,,"　本当に嫌な人だけれど、不思議な人。
 　ただの嫌な人というより、……何というか、……ライバルって感
