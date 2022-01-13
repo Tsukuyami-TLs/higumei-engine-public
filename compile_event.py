@@ -34,10 +34,18 @@ def main():
     greencount = 0
     scriptnames = []
     chapter_jump = []
+
+    script_type = ""
+
     for script in scripts:
         scriptname = script.split('.')[0]
         scriptnames.append(scriptname)
         chapter_jump.append((get_chname(scriptname), scriptname))
+
+    if scriptnames[0].startswith('event'):
+        script_type = "event"
+    elif scriptnames[0].startswith('chara'):
+        script_type = "chara"
 
     for n, script, trans in zip(range(len(scripts)), scripts, translations):
         scriptname = scriptnames[n]
@@ -58,6 +66,7 @@ def main():
  $ event_store.current_event={repr(event_name)}
  $ event_store.current_progress={greencount}
  $ event_store.current_chapter={repr(scriptname)}
+ $ persistent.menu_return={repr(script_type)}
                       '''.rstrip()
 
         for scr, line, title, contents in greens:
@@ -70,7 +79,7 @@ def main():
         if n == len(scripts)-1:
             end = 'return'
         else:
-            end = f'call {scriptnames[n+1]}'
+            end = f'jump {scriptnames[n+1]}'
 
         with open(target + scriptname + '.rpy', 'w', encoding='utf8') as outfile:
             outfile.write(header + '\n' + indent(compiled, 1) + '\n call chapter_end\n ' + end)
@@ -85,7 +94,7 @@ init python:
 
 label event_{event_name}:
  stop music
- call {scriptnames[0]}
+ jump {scriptnames[0]}
         """.strip('\n').rstrip())
 
 
