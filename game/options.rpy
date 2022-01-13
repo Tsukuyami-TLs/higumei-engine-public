@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("{color=cc0000}Higurashi When They Cry Mei{/color}")
+define config.name = _("Higurashi When They Cry Mei")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
