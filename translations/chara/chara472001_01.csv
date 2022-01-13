@@ -1,0 +1,87 @@
+chara472001_01.bytes,,beanbug,Lloro - QC,Omega - QC,,,,,,,
+index,chara,jp,en,,,,,,,,
+29,Nao,えっ、……こ、ここは……？！,Huh...? ...Th-this place is...?!,,,,,,,,
+32,ベアトリーチェ,……久しぶりであるな、菜央よ。,"...It's been a while, Nao.",,,,,,,,
+34,Nao,"って、あなたは……
+黄金の魔女、ベアトリーチェね……？",Y-you're... the Golden Witch Beatrice...?,,,,,,,,
+36,ベアトリーチェ,"くっくっくっ……会えば記憶が戻るか。
+まだ覚えていたようで、何よりだ。",*cackle*... so your memory has returned. I'm glad to see that.,,,,,,,,
+38,Nao,"……むしろ、どうして忘れてたのか
+そっちの方が不思議なくらいよ。","...If anything, I'm curious as to how I forgot about all this.",,,,,,,,
+40,ベアトリーチェ,"なに、別に不思議なことではない。
+単に魔法で忘れていただけなのだからな。","Oh, please, it's nothing particularly strange; your memory was simply erased by magic.",,wording could be better.,,"if you switch the order of the sentences it becomes a lil more natural imo, like ""Oh, please, it's nothing particularly strange; your memory was simply erased by magic.""",,,,
+42,Nao,忘れていた……魔法で……？,I forgot because... of magic...?,,,,,,,,
+44,ベアトリーチェ,"そう、魔法だ。
+少々乱暴な招待になったな。許せ。","Yes, magic. Me inviting you here has gotten a little out of hand, so please forgive me.",,can also mean rough as in violent.,,"the violent sense might fit more, like ""Me inviting you here has gotten a little out of hand/chaotic; forgive me.""",,,,
+46,Nao,招待って、いったい……えっ？,You invited... what the... huh?,,,,"if this ^^ does get changed, make sure this line (46) reflects it",,,,
+50,ドラノール,……お久し振りデス。,...Long time no SEE.,,"""Long time no SEE.""",,,,,,
+52,Nao,"あなたは……ドラノールさん？
+ってことは、またあの変態女もここに……？！",You're... Dlanor? Which means that pervert girl is also here...?!,,,,pervert girl,,,,
+54,ドラノール,"ご安心ヲ。ヱリカはいマセン。
+……むしろ会わせると面倒になりそうなので、
+あなたにはこちらに来ていただきマシタ。","RELAX. Erika is not HERE. Since it would be a hassle if you were to meet, we brought you HERE.",,,,,,,,
+56,Nao,えっと……それって、どういうこと？,Um... what do you mean by that?,,,,,,,,
+62,ベアトリーチェ,"細かいことはひとまず置いておくのだ！
+ほらほら、お師匠様の入れてくれた紅茶と
+ロノウェのクッキーがあるぞぉ！","Let's put such trivialities aside! Look here, we have black tea from the Master and cookies from Ronove! ",,,,,,,,
+64,ベアトリーチェ,"そなたがここで茶を飲んでいるうちに
+問題は解決し、全ては終わっている。",Everything will be fine if you just sit and have some tea.,,unsure on this line.,,"""Everything will be fine if you just sit and have some tea.""",,,,
+66,ベアトリーチェ,"その後で、そなたを元の場所へ返すと
+約束しよう。","After that, I promise to return you to where you came from. ",,,,,,,,
+68,Nao,"……。つまり時間まで、ここで
+お茶を飲んでのんびりしてろってこと？","...In other words, I am supposed to quietly drink tea with you until then?",,,,,,,,
+70,ベアトリーチェ,そうだ。不満か？,Exactly. Are you displeased?,,,,,,,,
+72,Nao,"とんでもない、お茶会は大好きだもの。
+じゃあお言葉に甘えて、ゆっくりと
+過ごさせてもらうわね。",Absolutely not; I love tea parties. So I'll take your offer and leisurely drink with you.,,,,,,,,
+76,ドラノール,"このクッキー、とても美味しいデス。
+貴方の口にも合うでショウ……。",These cookies are extremely TASTY. I'm sure thou will enjoy THEM...,,i think there's a weird grammar thing here.,,,anata is what beatrice is referring to a line later bc its awk contextually,,,
+78,Nao,？　なに、どうしたの？,Huh? What do you mean?,,,,,,,,
+82,ベアトリーチェ,"……ふむ。どうやらドラノール卿は、
+そなたの敬称を迷っているようだ。",...Hm. It seems Lady Dlanor is unsure of which title to call you.,,,,Lady,,,,
+84,ベアトリーチェ,"「ミス」とつけるのが通常の習いではあるが、
+そなたの年齢を考えると逆に侮っているようにも
+聞こえることがあるからな。","She typically will use the title of ""miss"", but due to your age, that may come off as insulting.",,,,,,,,
+86,Nao,"別に気にしないんだけど……
+とりあえず、菜央でいいわ。
+……あたしも、ドラノールって呼んでいい？","I don't particuarly mind... for now, just Nao is fine. ...Can I also just call you Dlanor?",,,,,particularly,,,
+90,ドラノール,"ハイ。私はそれで結構デス。
+……では、菜央。
+あなたはベアトリーチェ卿を信用しているのデスカ？","Yes, that is FINE. ...Then, NAO. Do you trust Lady BEATRICE?",,,,,,,,
+93,Nao,"えぇ。だってあたしの危ないところを
+助けてくれたんだもの。
+命の恩人を疑う理由なんてないわ。","Yes. She saved me when I was in danger, and I have no reason to doubt somebody who has saved my life.",,,,,,,,
+95,Nao,"あ、このクッキー本当においしい。
+もう１枚、もらってもいい？","Ah, these cookies are really delicious. May I have another?",,,,,,,,
+100,ベアトリーチェ,うむ、気にせずじゃんじゃん食べるが良い。,"Mhm, you don't need to worry about that. Just eat them.",,,,"Mhm, not muuu",,,,
+105,ドラノール,"……。珍しい光景を見マシタ。
+ミス・ベアトリーチェ、随分と寛容デス。
+例の一件を気に留めたのデスカ？",...This is a rare SIGHT. Lady Beatrice is being quite GENEROUS. Are you still held up over what happened EARLIER?,,,third sentance is giving me trouble but i think it is 'are you keeping in mind the previous incident?',,,,,
+107,ベアトリーチェ,"……僭越な質問ではないか、ドラノール卿。
+この場において、関係のないことであろうが。","...What an arrogant question, Lady Dlanor. That is irrelevant to our current situation.",,,,,,,,
+109,ドラノール,"確かに……失礼な発言デシタ。
+謝罪しマス。",That was... clearly an impolite REMARK. I APOLOGIZE.,,,"That was... clearly an impolite REMARK.""",,,,,
+113,Nao,……？,...?,,,,,,,,
+115,ドラノール,"質問を変えまショウ。
+菜央、あなたはミステリーがお好きデスカ？","I will change my QUESTION. Nao, do you like MYSTERIES?",,,,,,,,
+117,Nao,"ミステリー……
+それって、読み物のミステリーってこと？",Mysteries... you mean like mystery novels?,,,,,,,,
+120,ドラノール,ハイ。率直な感想をお聞かせ下サイ。,YES. I would like to hear your honest THOUGHTS.,,,,,,,,
+122,Nao,"うーん…特に好き嫌いはないかな。
+イギリスの名探偵とか安楽椅子探偵とか、
+有名なやつは一通り読んだしね。","Hm... I don't have a particular favorite. I've read the famous ones, like the great British detective and armchair detective.",,,,,,,,
+124,Nao,"……と言っても、小学校の図書室にあった
+子供向けに編集されたものばかりだけど。","...Is what I'd say, but it's all from the elementary school library, so it's edited so that kids can read it.",,,,,,,,
+126,ドラノール,"では、『ノックスの十戒』……
+こちらの成り立ちについてご存知デスカ？","Then, would you like to know the origin... of the Knox DECALOGUE?",,,,,,,,
+128,Nao,ノックスの十戒の……成り立ち……？,The origin... of the Knox Decalogue...?,,,,,,,,
+130,Nao,"『ノックスの十戒』は、前回の推理対決で
+あなたとヱリカが突きつけてきたものよね。
+あれって結局、何のためのものだったの？","You and Erika used the Knox Decalogue during the last logic battle. In the end, what purpose did that serve?",,could probably word better than 'what is it',,,"""In the end, what purpose did that serve?""",,,
+134,ベアトリーチェ,"何のため、か……ふむ、初歩的な質問だが
+確かにミステリーを楽しむためには
+その存在意義を知っておくべきであろうな。","What purpose it served... hmm... this is a basic question, but if you wish to enjoy mysteries, you should know its reason for existing. ",,,,,,,,
+136,ベアトリーチェ,"喜ぶが良い。ここにいるドラノール卿は
+『ノックスの十戒』についてプロ中のプロだ。",You should be pleased. Lady Dlanor is an expert in Knox's Decalogue. ,,,,,,,,
+138,ベアトリーチェ,時間もある、ここはひとつ教えてもらうと良い。,"We have the time, so granting her this knowledge alone will be fine.",,"since we have time, let's show her this one thing' is my TL but the wording sounds super awkward.\",,,,,,"""We have the time, so granting her this knowledge alone will be fine."""
+143,ドラノール,構いマセン。では……。,I do not MIND. Now THEN...,,,,,,,,

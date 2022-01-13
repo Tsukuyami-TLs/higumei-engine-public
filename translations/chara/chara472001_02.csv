@@ -1,0 +1,241 @@
+chara472001_02.bytes,,Omega - QC,"I'm not really claiming this sheet, I'm just addding tls for the very simple phrases like the Knox rules.",Llo - TL
+index,chara,jp,en,
+29,ドラノール,"『ノックス十戒』とは、
+ミステリーにおいて守るべき約束デス。
+戒律といっても過言ではないでショウ。","""Knox's Ten Commandments"", or ""Knox's Decalogue"", promise to serve and protect MYSTERY. To say they are commandments is no EXAGGERATION.",
+31,Nao,戒律……？,Commandments...?,
+37,ドラノール,"ハイ。ノックス第１条。
+『犯人は物語当初の登場人物以外を禁ズ』","YES. Knox's 1st: ""It is forbidden for the culprit to be anyone not mentioned in the early part of the STORY.""",
+38,ドラノール,"ノックス第２条。
+『探偵方法に超自然能力の使用を禁ズ』","Knox's 2nd: ""It is forbidden for supernatural agencies to be used as a detective TECHNIQUE.""",
+39,ドラノール,"ノックス第３条。
+『秘密の通路の存在を禁ズ』","Knox's 3rd: ""It is forbidden for hidden passages to EXIST.""",
+40,ドラノール,"ノックス第４条。
+『未知の薬物、及び、難解な科学装置の
+使用を禁ズ』","Knox's 4th: ""It is forbidden for unknown drugs or hard to understand scientific devices to be USED.""",
+41,ドラノール,"ノックス第６条。
+『探偵方法に偶然と第六感の使用を禁ズ』","Knox's 6th: ""It is forbidden for accident or intuition to be employed as a detective TECHNIQUE.""",
+42,ドラノール,"ノックス第７条。
+『探偵が犯人であることを禁ズ』","Knox's 7th: ""It is forbidden for the detective to be the CULPRIT.""",
+43,ドラノール,"ノックス第８条。
+『提示されない手掛かりでの解決を禁ズ』","Knox's 8th: ""It is forbidden for the case to be resolved with clues that are not PRESENTED.""",
+44,ドラノール,"ノックス第９条。
+『観測者は自分の判断・解釈を
+主張することが許さレル』","Knox's 9th: ""It is permitted for observers to let their own conclusions and explanations be HEARD.""",
+45,ドラノール,"ノックス第１０条。
+『手掛かりなき他の登場人物への変装を禁ズ』","Knox's 10th: ""It is forbidden for a character to disguise themselves as another without CLUES.""",
+46,Nao,"なるほど。１０個あるから。十戒なのね……
+って、そういえば５条は？","I see. 10 rules make up the Ten Commandments... wait, what happened to number 5?",
+47,ドラノール,"欠番デス。
+よって、こちらの言及はお控え下サイ。","It is OMITTED. As such, please refrain from referencing IT.",
+48,Nao,"どうして欠番なのか、その理由を
+聞いてみたかったんだけど……わかったわ。",I sort of wanted to hear why it is omitted... but I understand.,
+55,ベアトリーチェ,"では、菜央。そなたは『ノックスの十戒』を
+最初に聞いた時、どう思った？","So, Nao, after hearing about ""Knox's Ten Commandments"" for the first time, what were your thoughts?",
+57,Nao,"そうね……素直な感想を言わせてもらうと、
+ちょっと窮屈だなって印象があったわ。
+ミステリーって制約があるものなの？　って。","Right... if you want me to speak my thoughts openly, it gave me the impression that they're a bit strict. I was like, ""Mystery really has those types of limitations?""",
+60,ベアトリーチェ,"くっくっくっ！
+それは、そなたがミステリーを読む時
+ただ漫然と読んでいたからであろう？","*cackle*cackle*! I guess that's because when you {i}have{/i} read mystery, you have only done it in the casual sense?",
+62,Nao,"漫然な読み方かどうかはわからないけど……
+色々と難しい表現や設定が多かったから、
+話を追うだけで精いっぱいだったのは確かね。","I'm not so sure about reading casually, but... because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story.",
+64,ベアトリーチェ,"では、読み進めながら物語内の犯人が誰か、
+推理して当ててみようと考えたことはないか？","Then, in the midst of reading a story, have you never tried to reason out on the spot who the culprit is?",
+66,Nao,"犯人とトリックを聞いて驚くことはあったけど、
+推理はあんまりしたことがなかったかも……かも。","I've been surprised when I finally hear about the culprit or the trick, but I probably haven't really done much reasoning... maybe.",
+68,Nao,"じゃあベアトリーチェはミステリーを読みながら、
+犯人を推理したりするのかしら？","So when Beatrice reads mystery, I wonder if she reasons out who the culprit is?",
+71,ベアトリーチェ,"当然であろう！
+それこそがミステリーの醍醐味であるからな！",But of course! That is the true thrill behind mystery!,
+73,Nao,"なるほど……でも、ページをめくりながら
+探偵から少し遅れて物語を追いかけていくのも、
+それはそれで楽しいものだけどね。",I see... but turning the pages and following along just behind the detective in the story is so fun in and of itself though.,
+75,ベアトリーチェ,"む、むむ……しかし、ミステリーに対しては
+挑む姿勢で臨むというのが通常の礼儀ではないのか？","Ah-, mmm... but is it not common courtesy to go into a mystery with the intention to solve it?",
+77,Nao,"媒体が小説だったら、本を開いた瞬間から
+真っ先に始まるのは読書という「行為」よ。","With a novel, the moment you open the book, your very first ""action"" is to start reading.",
+79,Nao,"その行為の中で謎解きをするかしないか、
+どうやって楽しむのかは読者の自由じゃないかしら。","So, I wonder how you as the reader could willfully enjoy attempting to solve a riddle, or do any other action for that matter, while in the midst of the action of reading.",wording
+81,ベアトリーチェ,"……ふむ、意見が合わぬな。
+そなたは読書家だと聞いていたが、楽しみ方が
+妾たちとは異なるわけか。","...Hmm, we don't see eye to eye here. I have heard that you are a bookworm, but the ways in which we enjoy reading are dissimilar.",
+85,ドラノール,"……この戦い、ベアトリーチェ卿の方が
+分が悪いデスネ。
+今回は引くのが賢明デス。","...In this argument, the odds are against Lady Beatrice's SIDE. Pulling out of this would be wise for HER.",
+87,Nao,"あ、でも別に、ベアトリーチェの楽しみ方が
+間違ってるなんて絶対に思わないわよ？
+ただ、あたしの今の楽しみ方がこうだってだけで。","Ah, but I wasn't particularly saying that I think Beatrice's method of having fun is absolutely wrong? I just wanted to say that my way was different.",
+89,Nao,"それに……今の話でわかったわ。
+あたしの今の読書スタイルだったら、
+ミステリー小説はルール無用でも構わない。","And anyways... I understood what she said earlier. If we were to use my reading style, even if mystery novels had no rules, there would be no issue.",
+91,Nao,"けど、ベアトリーチェのように
+きちんと誠実な姿勢でミステリー小説に
+挑もうとする人にとって、ルールは必須事項。","But then, for someone who tackles mystery novels with Beatrice's precise approach, rules are a prerequisite.",
+93,Nao,"ゲームだって、ルールなしで遊んだら
+戦略も戦術も立てようがなくなっちゃうし……
+『ノックス十戒』は、そのためのものなのね。","Even in games, if you play without rules, you lose both stratagem and tact... ""Knox's Decalogue"" is for that purpose.",
+95,ドラノール,"ハイ。『ノックス十戒』は、
+ミステリーを提示する者や挑む者……
+双方がフェアであるために必要なものデス。","AGREED. For people who let the story do the telling and for people who solve the riddle head-on, ""Knox's Decalogue"" is something necessary to balance the fairness between these two PARTIES.",
+99,ベアトリーチェ,"うむ。ルールがなければ出題側は自由だが、
+挑む探偵は推理の指針がなくなる。
+進め方もわからぬし、ゴールも見えぬ。","Mhm. If there were no rules, you would have complete freedom setting up the mystery, but then the detective who wants to tackle the mystery with reasoning loses his lifeline. He would not understand how to continue, nor be able to see his goal.",
+101,ベアトリーチェ,"ちなみに、このルールにひっかかり
+物語が矛盾することを、妾たちは
+「ロジックエラー」と呼んでおる。","By the way, when there is an inconsistency in the rules related to the story, we call this a ""logic error"".",
+103,ベアトリーチェ,"推理勝負において、
+「ロジックエラー」はまさに禁じ手……
+絶対に忌避すべき事項ということだな。","In a logic battle, ""logic errors"" are essentially a foul... This is a matter that should be avoided with certainty.",
+105,Nao,"……つまり、ゲーセンで対人戦に負けても
+相手を殴るのはダメってことね。","...So, basically, it's similar to how wrong it is when two people are in PvP in an arcade and the loser hits the winner, right?",
+107,ベアトリーチェ,"う、うむ……？
+対人戦のゲームというものが何かわからぬゆえ、
+妾には是非をつけることができぬのだが……。","Uh, mm...? I have no knowledge of what a PvP is, so I cannot really assign meaning to it, though...",
+109,Nao,"あ、でも……『ノックス十戒』の成り立ちが
+どうだったかって質問について戻るけど、
+結局それって、どうして作られることになったの？","Ah, but... returning to the question of how the structure of ""Knox's Decalogue"" was formed, what ultimately lead to it being made?",
+113,ドラノール,"……それは、過去に自由すぎるミステリーが
+跋扈した時代があったからデス。",... That is due to the fact that the past was an era where mysteries with too much freedom REIGNED.,
+115,Nao,自由すぎるミステリー……？,Mysteries with too much freedom...?,
+117,ドラノール,"『ノックス十戒』が制定される前、市井には
+読者に解けるようになっていないミステリー作品が
+濫発していて……全体の質を下げておりマシタ。","Before ""Knox's Decalogue"" was structured, mysteries that were unsolvable by normal and fair means were a rampant issue... so this completely lowered the quality of the GENRE.",
+119,ドラノール,"たとえば、犯人が物語の後半に突然現れたり、
+探偵が超能力で解決したり……
+密室殺人に秘密の通路があったり、デス。","For example, culprits would suddenly appear towards the latter half of the story, detectives would use psychic powers to solve mysteries... secret passageways would exist for locked-room murders, such things as THIS.",
+121,ドラノール,"他にも、読者の想像の及ばない
+アンフェアな未知の薬物や科学装置が登場……。","Furthermore, unimaginable medicines and scientific devices that were unknown to readers would unfairly make their DEBUT...",
+123,ドラノール,"探偵が偶然や第六感で、事件を解決。
+犯人が実は探偵で、視点を偽っていたトリック。","Detectives would solve incidents by coincidence or through the sixth SENSE. The culprit would be the detective in reality, and he would lie in his perspective as a TRICK.",
+125,ドラノール,"さらに、作中で説明がなかった手掛かりが
+突如出現……登場人物のＡさんが
+実はＢさんの変装デシタ、など……。","And moreover, clues would appear out of nowhere with no explanation... a character Mrs. A would actually be Mrs. B in disguise, et CETERA...",
+127,Nao,"……なるほど。そんなことをやられちゃったら、
+読者は推理なんてまともにできないわね。","...I see. With those things being done, someone reading could never make a conjecture through normal means.",
+129,Nao,"……あれ？　でもよく考えたら第９条は
+毛色がちょっと違うわね。","...Oh? But if you really think about it, the logic in the 9th commandment is a bit different in nature, right?",
+131,ドラノール,違う……トハ？,The difference... IS?,
+133,Nao,"だって１０条も含めて、それまでは
+「してはいけない」ことの羅列だったのに、
+９条は「許される」ってあるじゃない。","Like, right next to it is the 10th one, and that one is listed as ""something you shouldn't do"", whereas the 9th is ""something that you are permitted to do"", isn't it?",
+135,Nao,"ノックス第９条。
+『観測者は自分の判断・解釈を
+主張することが許される』","Knox's 9th: ""It is permitted for observers to let their own conclusions and explanations be heard.""",
+137,Nao,"この観測者って、作中の人物って
+認識でいいのよね。","It's okay for the observers in this rule to recognize characters in the story, right?",i might be missing something here
+139,ドラノール,ハイ。,YES.,
+141,Nao,"つまり、これをうまく解釈したら
+作中の人物は嘘をついても構わない、ってことに
+なったりすると思うんだけど……？","So basically, if I'm explaining this correctly, it makes me think that a character in the story can tell a lie and it wouldn't matter and such, but...?",
+145,ベアトリーチェ,"その条文だけを見れば、そうだな。
+……だが、探偵は犯人であってはならない。","If you only look at that rule, I see your point... However, the detective must not be the culprit.",
+147,Nao,"７条に引っかかるものね。
+でも、探偵が嘘をついちゃダメってことは
+ないんでしょ？","Rule 7 prevents it, right? But I wonder if that also prevents the detective from telling lies?",
+151,ドラノール,"イイエ、嘘はいけマセン。
+９条に抵触しマス。","It DOES, they must not tell LIES. Rule 9 impedes this from HAPPENING.",
+154,Nao,"えっ？　でも、自分の判断や解釈を
+主張することが許されるって……あ。",Huh? But for it to be permitted for my own conclusions and explanations to be heard... ah.,
+158,ベアトリーチェ,"くっくっくっ！
+ようやく気づいたようだな。",*cackle*cackle*! She has finally realized.,
+160,Nao,"そうか……観測者は許される。
+けど、探偵は許されない。","Is that so... the observer is permitted, but the detective isn't.",
+164,ドラノール,……その通りデス。よく気付きマシタ。,... Exactly SO. You understood WELL.,
+166,Nao,"なるほど……だとすると、嘘つきは
+探偵になっちゃダメってことね。","I see... with that in place, the detective cannot tell a lie at all.",
+168,ドラノール,"イイエ。例外はありマス。
+本人が嘘をついていると自覚がない場合、
+『ノックス十戒』には抵触しマセン。","Not NECESSARILY. There are EXCEPTIONS. In the case that the detective tells a lie unconsciously, ""Knox's Decalogue"" would allow it.",
+170,Nao,たとえば？,For example?,
+174,ベアトリーチェ,"そうだな。おぬしを探偵だとして……
+そなたはパティスを知っているか？",Right. With you here as the detective... are you familiar with Pâtiss?,
+176,Nao,いえ、知らないわ。なに、それは。,"No, I'm not. What is that?",
+178,ベアトリーチェ,"紅茶の種類だ。黒っぽい色合いと
+ブランデーのような香りが特徴だ。",It is a variety of black tea.,
+180,Nao,へー……。,Ohh...,
+184,ドラノール,嘘デス。,That was a LIE.,
+187,Nao,はぁっ……？,Huhhh...?,
+191,ベアトリーチェ,"くっくっくっ……実際のパティスは
+たとえるなら、揚げ餃子に近いお茶請けだ。
+ディンブラによく合って、うまいぞ。","*cackle*cackle*cackle*... It's actually something more along the lines of deep-fried gyoza, served as a tea party snack. It goes along tastily with Dinbura specifically.",
+193,Nao,"なるほど。一度どこかの大きなスーパーで、
+売ってるかどうか探してみるわね。
+……あと、たとえ話も理解できたわ。","I see. One time I was inside a huge supermarket, trying to search whether or not they were selling that. ...After thinking of that, I understood this conversation.",
+195,Nao,"探偵のあたしが観測者として、ベアトリーチェの
+言うことを信じてそれを別人に伝えても……
+嘘をついたことにはならない。","With me as the spectator and as a detective, if I believe what Beatrice says and mention it to another person... It cannot be a lie.",
+197,Nao,"この場合、重要なのは嘘の定義ね。
+何をもって嘘とするか……か。ふむ……。","In this case, what's important is the definition of lie. What does the lie entail... what could it? Hm...",
+202,ドラノール,"……驚きマシタ。実に飲み込みが早いデス。
+少女ながら聡明、実に面白いデス……。","...I am AMAZED. You have truly grasped this concept QUICKLY. Even as a young girl, your wisdom is truly AMUSING...",
+207,ベアトリーチェ,"菜央には、ミステリーの才能がありそうだな。
+もっともそれは、今後の研鑽次第ではあるが。","Nao seems to have a knack for mystery. But most of all, studying it from here on out is a must to keep that up, however.",wording? i actually cant tell if beatrice is talking about herself or nao
+209,Nao,"あら、そう？
+そんなふうに言ってもらえると、嬉しいわ。","My, really? If you say it to me like that, that makes me happy.",
+211,Nao,"けど、あたしはあなたたちに出会わなければ
+きっと『ノックス十戒』を知ることも
+なかったでしょうね。","But yeah, if I had never met with you guys, I suppose I would have never known about ""Knox's Decalogue"".",
+213,Nao,"ありがとうドラノール、面白いルールを教えてくれて。
+こんなものがあるなら、もっと早く知りたかったわ。","Thank you, Dlanor, for teaching me of such fun rules. If there was something like that all along, I wish I had known sooner.",
+217,ドラノール,…………。,............,
+219,Nao,ドラノール？,Dlanor?,
+223,ベアトリーチェ,"くっくっく！　ドラノール卿は
+驚いているのであろうよ。",*cackle*cackle*! Lady Dlanor is quite surprised!,
+225,ベアトリーチェ,"『ノックス十戒』を定めたのは、
+何を隠そうドラノール卿のお父上であるからな。"," I wonder what Lady Dlanor's father was trying to hide when he created ""Knox's Decalogue"".",
+228,Nao,"えっ……？
+これ、ドラノールのお父さんが作ったの？",Huh...? Dlanor's father made this?,
+232,ドラノール,……ハイ、そうデス。,"...Yes, that is RIGHT.",
+234,Nao,"そう。『ノックス十戒』は
+読者が作ったのかと思ったけど……
+そうか、作者の味方でもあるのね。","I see. I thought that some reader made ""Knox's Decalogue"", but... right, there are also people on the author's side.",
+238,ベアトリーチェ,ほぅ。何をもってそう思った？,Hoh. What does that thought entail?,
+240,Nao,"だって、作者が『ノックス十戒』に従っているって
+最初に宣言すれば、このミステリーは解けるように
+できているってわかる人はわかってくれるでしょ？","Like, if an author declared he was following ""Knox's Decalogue"" at the beginning, people who knew the decalogue would understand the mystery was designed to be solved, right?","reworded, check history (next 5-6 lines too)"
+242,Nao,"……なるほど。だから『ノックス十戒』は
+邪魔だって排除されず、作者が書く上での
+ルールとして定着しているのね。","...I see. So that's why ""Knox's Decalogue"" was not discarded as a hinderance, but stuck as a rule for authors to adhere to.",
+244,Nao,"自分たちは読者に対して
+フェアだって主張できる、
+大事なブランドロゴみたいなものだもの。",It's like an important brand logo which guarantees that we're being fair to the readers.,
+248,ドラノール,…………。,............,
+250,Nao,"でもブランドを守るのって大変よね。
+偽物を出されたりしたら、本家の評判に響くし。","But it's hard to protect a brand, because if you have a fake product, it's bad for the reputation of the original.",
+252,Nao,"うちのお母さんも、頭を悩ませてたわ。
+にしても、偽物を売られたら本家本元に
+怒りの矛先が向くって、理不尽な話よね。","My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable thought.",
+256,ベアトリーチェ,"……面白い例え話よ。
+だが、ルールを守った者が損をするのは
+実に理不尽といえよう。",... What an interesting analogy. it's unreasonable for those who follow the rules to lose out.,
+258,ベアトリーチェ,"ゆえに、この御仁の仕事はルールを守り
+ミステリーを構築する人を守る。
+粗悪なミステリーを切り捨てることなのだ。","Therefore, this person's job is to protect those who craft mysteries following the rules. All faulty mysteries are then cut down completely.",this and the one before just dont flow well
+260,Nao,"へぇ……そうなんだ。
+そんな監視をしてくれる役割の人が
+常駐してるって、羨ましい話よね。","Ohh... is that so? How envious of a position it is, hearing that people have a role to be on permanent lookout for this kind of stuff.",
+262,Nao,"ファッション業界にも、
+偽ブランド服やバッグを作って売る悪人を
+斬り捨てる組織とかないかしら。","Even in the fashion world, there are fake brands that make and sell clothes and bags, but I wonder if there are organizations who cut these bad guys down.",
+266,ドラノール,…………。,............,
+268,Nao,どうしたの、ドラノール。,"What's wrong, Dlanor?",
+270,ドラノール,いえ……ありがとうございマス。,Nothing... thank you so MUCH.,
+272,Nao,"は……？
+あたし、お礼を言われるようなことを言った？",Huh...? Did you just thank me?,
+276,ベアトリーチェ,"疲れているのであろう。
+疲弊している時に考え事をするべきではないぞ。
+最終的に死ぬしかなくなってしまうからな。","I am getting tired. I should not think while I am getting exhausted, as I would die permanently.",
+278,Nao,"……ミステリーのルールを守るのも、
+大変なことなのね。","... They're important rules to protect mystery, right?",
+282,ドラノール,"……ですが、あなたのように
+必要だと言ってくれる人に出会えると、
+とても嬉しいデス。","...Nonetheless, something I must say to you before we part, is that meeting with someone like you has made me incredibly HAPPY.",
+284,ドラノール,あなたに会えて、よかったデス。,I am glad to have been able to meet YOU.,
+286,Nao,"こちらこそ、教えてくれてありがとう。
+おかげでミステリーに興味が湧いてきたわ。","Thank you as well for teaching me. Thanks to you, this has piqued my interest in mysteries even more.",
+290,ベアトリーチェ,ふむ……宴もたけなわだが、そろそろだな。,"Mhm... While I'm still having fun, we'll have to part soon.",
+292,Nao,えっ、もうお開き？,"Eh-, we're already finished?",
+294,ベアトリーチェ,そうだ。また会おうぞ、菜央よ。,"That's right. Let us meet again, Nao.",
+297,Nao,えっ、あっ……！！,"Eh, aahhh...!!",
