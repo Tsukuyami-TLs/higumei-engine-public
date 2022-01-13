@@ -45,7 +45,7 @@ label chara462001_03:
  rika "I don't know you at all."
  show satoko_v002 sinken at active
  show rika_v002 fuan at inactive
- satoko "I don't know to what extent she looks similar to her, but Rika and your master are completely different people! Different! People!"
+ satoko "I don't know how much she looks like her, but Rika and your master are completely different people! Different! People!"
  hide satoko_v002
  hide rika_v002
  with Dissolve(0.2)
@@ -80,9 +80,9 @@ label chara462001_03:
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at chara_shake_transform,active
- erika 'Uu, until she recognizes that this shrine is shining, this excess of work will never have been worth it, though...!'
+ erika "Uu, if only I had realized it before I made the shrine sparkle, I wouldn't have had to go through such an excess of work...!"
  show erika_v001 sinken at active
- erika 'And yet, to make matters worse! Now that you say it, that little girl with the unkempt hair!'
+ erika 'And yet, to make matters worse! Now that I say it, that little girl with the unkempt hair!'
  show erika_v001 sinken at active
  erika 'And her bluntly saying, "Why hadn\'t you realized until it was over?" ...with those pitying eyes!!!'
  camera:
@@ -100,7 +100,7 @@ label chara462001_03:
    linear 0.5 zoom 1.2
  pause 0.5
  show erika_v001 sinken at active
- erika 'Just like the pebbles in a sandstorm are small, there is a possibility that Rika Furude is my master!'
+ erika 'Just like the pebbles in a sandstorm are small, there was a possibility that Rika Furude is my master!'
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -110,7 +110,7 @@ label chara462001_03:
  camera at screenshake_transform,reset_shader
  pause 0.0
  show erika_v001 sinken at active
- erika "As if I couldn't be cleaning this shrine right nooooooooooooowwwwww!!!!!!!!!!"
+ erika "As if I wouldn't have cleaned that shriiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiine!!!!!!!!!!"
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -169,12 +169,12 @@ label chara462001_03:
  erika "What's so funny, Rika Furude?"
  play music "<loop 0>audio/bgm/BGM_QUEST1_COLLAB2.ogg"
  show erika_v001 sinken_close at active
- erika 'Hm? ... Rika Furude? Fu-ru-de... hm? Hmm?'
+ erika 'Hm?... Rika Furude? Fu-ru-de... hm? Hmm?'
  hide erika_v001
  with Dissolve(0.2)
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "*giggle*giggle*... It's obvious what's so funny."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
- Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Repaying evil for good, hm? Isn't that a nice hobby."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Returning evil for good, hm? Isn't that a nice hobby."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
@@ -192,7 +192,7 @@ label chara462001_03:
  hide erika_v001
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "What kind of idiot goes for a picnic in a place with bears? You're exactly the same... *giggle*giggle*."
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Do you know the kind of idiot that goes for a picnic in a place with bears? You're exactly the same... *giggle*giggle*."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "But isn't it hopeless for you here? You're my piece. Shouldn't you have picked a better opponent to strike at...?"
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
@@ -256,7 +256,7 @@ label chara462001_03:
  beatrice 'How modest. If it weren\'t for you, her "target" would not have been able to escape to our domain to be protected.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal at inactive
- beatrice "I've been forgetting who that character is lately, but we had a very fun tea party together."
+ beatrice 'That character will have already forgotten around now, but we had a very fun tea party together.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 smile at inactive
  dlanor "When forced into a battle out of the blue, whether it's a position I'm in or a friend's, I am not given permission to do ANYTHING."
@@ -268,10 +268,10 @@ label chara462001_03:
  beatrice "Mhm. What's most important is that you are satisfied with spending your time with me."
  show beatrice_v001 fuan at active
  show dlanor_v001 normal at inactive
- beatrice 'Either way, is Erika going to be okay? She seems to be taking a great beating though.'
+ beatrice 'Either way, is Erika going to be okay? She seems to be taking a great beating.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 fuan at inactive
- dlanor "It is ALRIGHT. In any case, I don't think Erika will be abandoned like THAT."
+ dlanor "It is ALRIGHT. Although I am unsure, I don't think Erika will be abandoned like THAT."
  show beatrice_v001 futeki at active
  show dlanor_v001 normal_close at inactive
  beatrice '*cackle*cackle*... So you think so too, Dlanor?'
@@ -280,7 +280,7 @@ label chara462001_03:
  dlanor 'YES. She will surely RETURN.'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
- dlanor 'And the rematch with "her" as well... there should be rules that are more precisely put in to PLACE.'
+ dlanor 'And the rematch with "her" as well... there should be rules that are more precisely put into PLACE.'
  show dlanor_v001 normal at active
  show beatrice_v001 futeki at inactive
  dlanor 'Where that being came from I have no idea, but she has an honest and open-minded approach in regards to mystery, which has given me a good impression of HER.'
@@ -292,7 +292,7 @@ label chara462001_03:
  beatrice 'That being said, what is your reason for being friends with Erika? Do opposites really attract?'
  show dlanor_v001 normal_close at active
  show beatrice_v001 normal at inactive
- dlanor '...What you think of it does not matter to ME. Now, I believe I will be taking my LEAVE.'
+ dlanor '...However it may turn out does not matter to ME. Now, I believe I will be taking my LEAVE.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal_close at inactive
  beatrice 'Are you going out to meet her?'
@@ -313,7 +313,7 @@ label chara462001_03:
  beatrice 'Of course. Next time, it will be nice if we invite Erika.'
  show beatrice_v001 smile at active
  show dlanor_v001 smile at inactive
- beatrice 'You are always welcome here.'
+ beatrice 'I will always welcome you two here.'
  show dlanor_v001 smile_close at active
  show beatrice_v001 smile at inactive
  dlanor '...I am thankful, BEATRICE.'

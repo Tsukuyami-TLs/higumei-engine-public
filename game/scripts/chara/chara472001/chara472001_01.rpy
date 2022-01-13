@@ -25,10 +25,10 @@ label chara472001_01:
  beatrice "...It's been a while, Nao."
  show nao_v001 normal at active
  show beatrice_v001 smile at inactive
- nao "Y-you're... the Golden Witch Beatrice...?"
+ nao "Y-You're... the Golden Witch, Beatrice...?"
  show beatrice_v001 smile_close at active
  show nao_v001 normal at inactive
- beatrice "*cackle*... so your memory has returned. I'm glad to see that."
+ beatrice "*cackle*...So your memory has returned. I'm glad to see that."
  show nao_v001 fuan at active
  show beatrice_v001 smile_close at inactive
  nao "...If anything, I'm curious as to how I forgot about all this."
@@ -52,10 +52,10 @@ label chara472001_01:
  dlanor '...Long time no SEE.'
  show nao_v001 sinken at active
  show dlanor_v001 normal at inactive
- nao "You're... Dlanor? Which means that pervert girl is also here...?!"
+ nao "You're... Dlanor-san? Which means that pervert girl is also here...?!"
  show dlanor_v001 normal_close at active
  show nao_v001 sinken at inactive
- dlanor 'RELAX. Erika is not HERE. Since it would be a hassle if you were to meet, we brought you HERE.'
+ dlanor 'RELAX. Erika is not HERE. Since it would be a hassle if thou were to meet, we brought thou HERE.'
  show nao_v001 fuan at active
  show dlanor_v001 normal_close at inactive
  nao 'Um... what do you mean by that?'
@@ -65,7 +65,7 @@ label chara472001_01:
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show beatrice_v001 smile at jumping_transform,active
  show nao_v001 fuan at inactive
- beatrice "Let's put such trivialities aside! Look here, we have black tea from the Master and cookies from Ronove! "
+ beatrice "Let's put such trivialities aside! Look here, we have black tea from my teacher and cookies from Ronove! "
  show beatrice_v001 smile at active
  show nao_v001 fuan at inactive
  beatrice 'Everything will be fine if you just sit and have some tea.'
@@ -80,13 +80,13 @@ label chara472001_01:
  beatrice 'Exactly. Are you displeased?'
  show nao_v001 smile at active
  show beatrice_v001 smile at inactive
- nao "Absolutely not; I love tea parties. So I'll take your offer and leisurely drink with you."
+ nao "Absolutely not; I love tea parties. So I'll take your offer and drink with you at ease."
  hide beatrice_v001
  show dlanor_v001 normal_close at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  show nao_v001 smile at inactive
- dlanor "These cookies are extremely TASTY. I'm sure thou will enjoy THEM..."
+ dlanor "These cookies are extremely TASTY. I'm sure thou shalt enjoy THEM..."
  show nao_v001 normal at active
  show dlanor_v001 normal_close at inactive
  nao 'Huh? What do you mean?'
@@ -95,13 +95,13 @@ label chara472001_01:
  with Dissolve(0.5)
  show beatrice_v001 smile_close at active
  show nao_v001 normal at inactive
- beatrice '...Hm. It seems Lady Dlanor is unsure of which title to call you.'
+ beatrice '...Hm. It seems Lady Dlanor is unsure of what to refer to you as.'
  show beatrice_v001 normal at active
  show nao_v001 normal at inactive
- beatrice 'She typically will use the title of "miss", but due to your age, that may come off as insulting.'
+ beatrice 'She typically will use the title of "Miss", but due to your age, that may come off as insulting.'
  show nao_v001 smile at active
  show beatrice_v001 normal at inactive
- nao "I don't particuarly mind... for now, just Nao is fine. ...Can I also just call you Dlanor?"
+ nao "I don't particularly mind... but for now, just Nao is fine. ...Can I also just call you Dlanor?"
  hide beatrice_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
@@ -134,7 +134,7 @@ label chara472001_01:
  beatrice '...What an arrogant question, Lady Dlanor. That is irrelevant to our current situation.'
  show dlanor_v001 normal_close at active
  show beatrice_v001 smile_close at inactive
- dlanor 'That was... clearly an impolite REMARK. I APOLOGIZE.'
+ dlanor 'That was... clearly an impolite REMARK. My APOLOGIES.'
  hide beatrice_v001
  show nao_v001 normal at mei_right
  with Dissolve(0.5)
@@ -170,13 +170,13 @@ label chara472001_01:
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v001 normal at inactive
- beatrice 'What purpose it served... hmm... this is a basic question, but if you wish to enjoy mysteries, you should know its reason for existing. '
+ beatrice 'What purpose it served... hmm... this is a basic question, but if you wish to enjoy mysteries, you should be aware of how significant it is. '
  show beatrice_v001 smile at active
  show nao_v001 normal at inactive
- beatrice "You should be pleased. Lady Dlanor is an expert in Knox's Decalogue. "
+ beatrice "So rejoice. Lady Dlanor is an expert in Knox's Decalogue. "
  show beatrice_v001 smile at active
  show nao_v001 normal at inactive
- beatrice 'We have the time, so granting her this knowledge alone will be fine.'
+ beatrice 'We have the time, so granting you this knowledge alone will be fine.'
  hide nao_v001
  hide beatrice_v001
  with Dissolve(0.2)

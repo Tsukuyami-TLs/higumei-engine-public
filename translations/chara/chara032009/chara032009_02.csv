@@ -2,14 +2,14 @@ chara032009_02.bytes,,Llorona; I deeply welcome any and all feedback to my inter
 index,chara,jp,en,,
 29,Nao (Casual),えっ……？,Huh...?,,
 31,ベアトリーチェ,"久しぶりよの、菜央。
-そちらに戻った後も元気そうでなによりだ。","Long time no see, Nao. You seemed to be in good spirits after returning home.","from ""You seem to be in good spirits to have returned to that spot more than anything.""",
+そちらに戻った後も元気そうでなによりだ。","Long time no see, Nao. You seem to be in good spirits after returning home from your trip.",,
 33,Nao (Casual),あ、あなたは誰……じゃ、なくて！,"Wh-who are you... wait, I shouldn't be asking that!",,
 35,Nao (Casual),"あたし……あなたのこと、知ってる……？
 黄金の魔女、ベアトリーチェ……？！","I... I know about you...? The Golden Witch, Beatrice...?!",,
 37,ベアトリーチェ,ほぅ、まだ妾の名前を憶えていたのか。,"Hoh, you still remember my name?",,
 40,Nao (Casual),"えぇ。むしろ、なんで今まで忘れていたのか
 よくわからないわ。
-あんなに強烈な体験をしたってのに……。","Yes. Rather, I don't quite understand why I had forgotten about you up until now. You gave me a strong impression after all.",less -> don't quite,
+あんなに強烈な体験をしたってのに……。","Yes. Rather, I don't quite understand why I had forgotten about you up until now. You gave me a strong impression after all...",less -> don't quite,
 42,ベアトリーチェ,"……なるほど。そなたの記憶から、
 妾たちに関することを忘れるように
 魔法がかかっていたというわけか。","...I see. Magic was cast on you, wiping all knowledge of myself from your memory.",,
@@ -24,14 +24,14 @@ index,chara,jp,en,,
 51,ベアトリーチェ,"ふむふむ…妾がここへそなたを招待したことで
 それは効果が消えたようだ。くっくくくくくくくくくく！","Hmm, yes... by inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!",from me -> by,
 53,Nao (Casual),"……。別に、あなたのことを忘れるように
-してくれなくてもよかったのに。","...Ehh, I kind of wish that I continued to forget about you.",,
+してくれなくてもよかったのに。","...Ehh, I kind of wish that I hadn't forgotten about you in the first place, though.",,
 55,Nao (Casual),"確かに、ベアトリーチェやヱリカさんとのバトルでは
 色々と頭を悩ませるものだったけど……
-あの程度の出来事であたしは変わらないわ。","Certainly, the battle between Beatrice and Erika-san gave me a headache, but... it's not going to change who I am.",,
+あの程度の出来事であたしは変わらないわ。",The battle between Beatrice and Erika-san certainly gave me a headache... but it's not going to change who I am.,,
 58,ベアトリーチェ,"くっくっくっ……言うではないか。
-その臆せぬ態度……ますます気に入ったぞ。",*cackle*cackle*cackle*... you don't have to say it. That headstrong attitude... I'm liking it more and more. ,hesitant -> headstrong (meaning),
+その臆せぬ態度……ますます気に入ったぞ。",*cackle*cackle*cackle*... you said it. That headstrong attitude... I'm liking it more and more. ,hesitant -> headstrong (meaning),
 60,Nao (Casual),"……ところで、今日ははいったい何の用？
-ひょっとして、また推理バトルでも始まるのかしら。","... Anyways, what on earth do you want from me today? Could it be that another logic battle is starting up?","*red, might be a duplicate",
+ひょっとして、また推理バトルでも始まるのかしら。","...Anyways, what could you possibly want from me today? Could it be that another logic battle is starting up?","*red, might be a duplicate",
 62,ベアトリーチェ,"案ずるな、そう警戒しなくても良い。
 妾がそなたを招待したのはな、少々退屈がすぎたのでな。","Do not worry, as such caution is unnecessary. I have merely invited you as my boredom has gotten slightly out of hand.",,
 64,ベアトリーチェ,要するに、暇潰しというやつだ。,"What I need, is something to kill time.",,
@@ -42,14 +42,14 @@ index,chara,jp,en,,
 魔女にとっては退屈とは毒……そなたにとっては
 大したことではなくとも、妾にとっては大事なことなのだ。","*cackle*cackle*cackle*, a reasonable thought! Boredom to witches is a poison... you are not just important to me, you are {i}extremely{/i} valuable.",,
 70,ベアトリーチェ,"それはともかくとして……
-菜央よ、妾の用意した物語を観劇する気はないか？","Aside from that... Nao, are you up to spectate a story I have prepared?",,
-72,Nao (Casual),物語の、観劇……？,"Spectate, a story...?",,
+菜央よ、妾の用意した物語を観劇する気はないか？","Aside from that... Nao, are you up to spectate a story that I have prepared?",,
+72,Nao (Casual),物語の、観劇……？,Spectate... a story...?,,
 74,ベアトリーチェ,"うむ。妾はこれまで、六軒島を舞台に
 様々なゲーム盤を用意してきたのだ。
-それこそ、今回とは違う密室殺人事件というものだがな。","Mhm. Up until now, I have set up numerous stages on Rokkenjima as game boards. This time will for sure be a different locked-room murder incident.",,
+それこそ、今回とは違う密室殺人事件というものだがな。","Mhm. Up until now, I have set up numerous stages on Rokkenjima as game boards. Although this time will be a different locked-room murder incident.",,
 76,ベアトリーチェ,"……くっくくくく。妾のゲームは楽しいぞぉ。
 妾も駒を眺めてるだけじゃなく
-ゲーム盤で駒として動くこともある位だ。","...*cackle*cackle*cackle*. My games are entertaining. Not only do I watch my pieces, I move them through the gameboard as well.",,
+ゲーム盤で駒として動くこともある位だ。",...*cackle*cackle*cackle*. My games are entertaining. Not only do I watch my pieces; I move them through the gameboard as well.,,
 78,Nao (Casual),"六軒島……？
 その名前、どこかで聞いたような……あっ？！",Rokkenjima...? I've heard that name somewhere... ah-?!,,
 86,Nao (Casual),"そうだ、思い出したわ……！
@@ -57,24 +57,24 @@ index,chara,jp,en,,
 謎の爆発事故が起こって……。","That's right, I just remembered...! Around October of 1986, a mysterious explosion occurred on one of the islands in the Izu Archipelago...",,
 88,Nao (Casual),"会合でそこを訪れていた、資産家の親族たちの
 多くが命を落としたという小さな島の名が、
-確か「六軒島」……っ……。","The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly ""Rokkenjima"" ... uh...",,
+確か「六軒島」……っ……。","The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly ""Rokkenjima""... nn...",,
 90,Nao (Casual),"……なるほど。あの島って、
-そういう因縁のある場所だったのね。","...I see. That island was a certain fateful place for them, wasn't it?",,
+そういう因縁のある場所だったのね。","...I see. That island was a fateful place for them, wasn't it?",,
 98,Nao (Casual),"それで……あなたの作ったゲーム盤って、
 どうやって遊べばいいのかしら？","Then... the game board that you made, how would one play on it, I wonder?",,
 100,ベアトリーチェ,おぉ、それは妾のゲームを楽しむ、という事だな？,"Oooh, then I take it you would enjoy my game?",,
 103,Nao (Casual),"えぇ。あたし、どんなゲームでも好きだから。
-……で、ルールは？　目的は？","Yes. I like games regardless of what they are... So, what are the rules? What's the goal?",,
+……で、ルールは？　目的は？","Yeah. I like games regardless of what they are... So, what are the rules? What's the goal?",,
 106,ベアトリーチェ,それはだな……ほれっ。,"That is, well... look here.",,
 117,Nao (Casual),"えっ、ちょっ、なにこの大穴……！
-お、落ち……きゃぁあああああぁああっ！！","Huh-, wai-, what is this huge hole...! I'm, I'm fal-... kyaaaaaaaaaaaa-!!",,
-126,Nao (シエスタ),きゃぁ……っ、て、えっ？,"Kya... uh, huh?",,
+お、落ち……きゃぁあああああぁああっ！！","Huh-, wa-, what is this huge hole...?! I'm, I'm fal-... kyaaaaaaaaaaaa-!!",,
+126,Nao (シエスタ),きゃぁ……っ、て、えっ？,Kya... uh... huh?,,
 128,Nao (シエスタ),う、浮いてる……？,"I'm, I'm floating...?",,
 137,ベアトリーチェ,"今のそなたは、竜王ペンドラゴンの兵士――
 シエスタ姉妹を依り代としている。
-空を飛ぶ程度、赤子の手を捻るより簡単であろう。",You currently are a soldier of the Dragon King Pendragon-- as a representative of the Chiester Sisters. Even flying through the sky should be as easy as taking candy from a baby for you now.,Translating idioms wheee,host for -> representative of
+空を飛ぶ程度、赤子の手を捻るより簡単であろう。","Currently, you are a soldier of the Dragon King Pendragon-- as a representative of the Chiester Sisters. Even flying through the sky should be as easy as taking candy from a baby for you now.",Translating idioms wheee,host for -> representative of
 139,Nao (シエスタ),"……ベアトリーチェも、普通に浮いてるわね。
-いったいあなたは、どうやって飛んでるの？",...Even Beatrice is floating normally. Just how are you flying?,,
+いったいあなたは、どうやって飛んでるの？",...Even Beatrice is floating normally. What are you using to fly?,,
 141,ベアトリーチェ,"くっくっくっ……妾は魔女だ！
 空を飛ぶことに何の不思議もないわ。",*cackle*cackle*cackle*... I am a witch! Something like me flying through the sky is nothing strange.,,
 143,Nao (シエスタ),魔女って、箒がなくても飛べたのね……っと！,"So, witches could fly even without brooms... hup!",flew -> could fly,
@@ -85,17 +85,17 @@ index,chara,jp,en,,
 153,ベアトリーチェ,"そこで、その男の背後から、
 この六軒島で起きる出来事を見届けてもらおう。","There, in that man's shoes, you can witness the events that occurred on Rokkenjima with your own eyes.",from -> in,
 155,Nao (シエスタ),"なるほど。その「戦人」という男性の目線に立って、
-あなたの作ったゲーム盤上で行動しろってことね。","I see. You want me to move around on your game board from the perspective of this man, ""Battler"".","from ""I see. In this man ""Battler's"" perspective, you can move him atop of the gameboard, right?""",
+あなたの作ったゲーム盤上で行動しろってことね。","I see. You want me to move around on your game board from the perspective of this man, ""Battler"", right?","from ""I see. In this man ""Battler's"" perspective, you can move him atop of the gameboard, right?""",
 158,ベアトリーチェ,"そうだ。なかなか聡い上に素直なのは良いぞ。
 ……そして、菜央。そなたが着ているその制服は
-妾が契約を結んでいる武具のもの。","That's right. Your intelligence and honesty is good. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me.","from ""Having such sharpness and frankness is key.""",
+妾が契約を結んでいる武具のもの。","That's right. Being sharp and straight-forward is key. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me.",she isnt directly complimenting her here so i changed it back,
 160,Nao (シエスタ),えっ……？,Huh...?,,
 162,ベアトリーチェ,"そう考えたら、そなたも我の武具になっている…
-というように考えられるとも思わないか？","If you think about it, that makes you my furniture... Don't you think we can think of it like that?",,
+というように考えられるとも思わないか？","Considering this, that would make you my furniture too... wouldn't it?",,
 164,Nao (シエスタ),そんなことを言われるなら、脱ぎたいわね…,"If you put it that way, it makes me want to take it off...",,
 166,ベアトリーチェ,"くっくくくく、冗談冗談。
-ほれほれ、これよりゲームが始まるぞ。","*cackle*cackle*cackle* It's a joke, it's a joke. Now look ahead. The game will begin from here.",,
-168,Nao (シエスタ),えっ……？ あ、あたしはどうすればいいの？,"Huh-...? Wh-, what should I do?",,
+ほれほれ、これよりゲームが始まるぞ。","*cackle*cackle*cackle*, I jest, I jest. Now look ahead. The game will begin from here.",,
+168,Nao (シエスタ),えっ……？ あ、あたしはどうすればいいの？,Huh...? Wh-what should I do?,,
 170,ベアトリーチェ,"何もせずとも良い。
 準備ができたところで向かう先は戦人の後ろだ。","Anything is fine. Whenever you're ready, step up right behind Battler.",,
 172,ベアトリーチェ,戦人と妾の戦いを特等席で楽しめるぞぉ。,Enjoy the close-up seat in Battler's fight against me.,,
@@ -132,12 +132,13 @@ index,chara,jp,en,,
 真里亞だったら勢いよく飛び込んでおるわ。くっくくくく！","However, you are unrefined, Nao. If you were Maria, you would be flying around with such vigor. *cackle*cackle*cackle*!",,
 213,ベアトリーチェ,"ほらほらそんな顔をするでない。
 物語はもう始まるぞ。
-せいぜい、振り落とされぬようにな。","Oh, look, don't make such a face. The story is already beginning. As much as you can, try not to get shaken off. ",,
+せいぜい、振り落とされぬようにな。","Oh, look, don't make such a face. The story is already beginning. 
+If anything, try not to get shaken off. ",,
 221,Nao (シエスタ),"ありがと……って、ちょっと待って。
 いったい何から「振り落とされる」って？","Thank you... w-wait a minute. Just what will I be ""shaken off"" from?",,
 223,ベアトリーチェ,無論、妾のゲーム盤からだッ！,"Of course, from my game boooard!",,
 233,Nao (シエスタ),"そ、そういう乗り物系だとは
-さすがに聞いてなっ……んきゃぁぁぁあぁっ？！",I-I didn't know there was a type of vehicle like tha-... aaaaaaaaaaat?!,,
+さすがに聞いてなっ……んきゃぁぁぁあぁっ？！",I-I didn't know there was a type of vehicle like tha-... AAAAAAATT?!,,
 241,ベアトリーチェ,"くっひゃっひゃっひゃっひゃっ！
 琴線に触れる良い叫びだ！
 目一杯楽しんでこいよぉおおおぉぉっっ！！",Kuhahhahhahhahha! A great scream that tugs on the heartstrings! Let's enjoy this as much as possibleeeeeeeee!!,,

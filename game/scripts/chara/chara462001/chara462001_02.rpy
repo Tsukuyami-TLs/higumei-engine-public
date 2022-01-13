@@ -29,11 +29,11 @@ label chara462001_02:
  show erika_v001 normal at active
  erika "Let's try to reason this out... We'll restrict it to a place where kids would be gathering in a desolate countryside like this."
  show erika_v001 normal_close at active
- erika "School... considering the time, it would be afterschool hours. A park... I don't think this village has one, right? I do suppose it would be difficult even to manage playground equipment without having a budget."
+ erika "School... considering the time, it would be afterschool hours. A park... I don't think this village has one, right? I do suppose it would be difficult to even manage playground equipment without the budget for it."
  show erika_v001 normal at active
- erika 'With that in mind, the place with the highest possibility would be the substitute for a playground... the shrine.'
+ erika 'With that in mind, the place with the highest possibility to be the substitute for a playground would be... the shrine.'
  show erika_v001 normal at active
- erika "And if they aren't there, this village is deserted. I don't anticipate the number of kids here to be huge anyway."
+ erika "And even if they aren't there, this village is deserted. I don't anticipate the number of kids here to be huge anyway."
  show erika_v001 normal at active
  erika "If it comes to that, getting information about where that girl lives and her current location won't be that difficult either--."
  camera:
@@ -68,7 +68,7 @@ label chara462001_02:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'Ah, I can hear the voices of children. It seems somehow my reasoning hit the nail on the head... Well, but of course it would.'
+ erika 'Ah, I can hear the voices of children. It seems my reasoning hit the nail on the head... Well, but of course it would.'
  show erika_v001 normal at active
  erika "Now, let us find out where that girl's location is."
  stop music fadeout 0.5
@@ -89,7 +89,7 @@ label chara462001_02:
  rika "Okay, Kazuho, Satoko, here's your tea."
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
- kazuho "Thank you, Rika-chan. ...Wah, it's delicious."
+ kazuho "Thank you, Rika-chan. ......Wow, it's delicious."
  show rika_v002 smile at active
  show kazuho_v002 smile at inactive
  rika 'I should be the one thanking you. Kazuho went out in my place and saved the day by buying these tea leaves for us.'
@@ -98,19 +98,19 @@ label chara462001_02:
  kazuho 'This kind of errand was easy for me... but the contractor they asked to clean the shrine is pretty slow, huh?'
  show rika_v002 fuan at active
  show kazuho_v002 smile at inactive
- rika "Meep. I thought it'd be bad if I wasn't here when he came, so I had Kazuho run that errand, but..."
+ rika "Meep. I thought it'd be bad if I wasn't here when he came, so I had Kazuho run that errand..."
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)
  show satoko_v002 fuan at active
  show kazuho_v002 smile at inactive
- satoko 'It turns out that I could have finished that and went shopping and I would still have completely make it on time.'
+ satoko 'It turns out that I could have finished that and went shopping and I still would have made it completely on time.'
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
  kazuho 'Yeahh, I think that first job you mentioned is being dragged out.'
  show satoko_v002 fuan_close at active
  show kazuho_v002 fuan at inactive
- satoko "It might be like that, but in that case, even if we call and complain once, I don't think scolding would do much..."
+ satoko "It might be that way, but even if we call and complain, I don't think scolding would do much..."
  hide kazuho_v002
  hide satoko_v002
  with Dissolve(0.2)
@@ -131,7 +131,7 @@ label chara462001_02:
  kazuho 'Yep. Earlier, Rika gave me an apple and Miyuki made me a compote, or some snack like that, so I thought it would be nice to share all of this stuff with everyone.'
  show kazuho_v002 smile at active
  show rika_v002 smile at inactive
- kazuho 'With all of this stuff in hand, I took that opportunity to get tea leaves.'
+ kazuho 'With all of this stuff in hand already, I took the opportunity to get some tea leaves as well.'
  show rika_v002 smile at active
  show kazuho_v002 smile at inactive
  rika "Compotes are so delicious when they're chilled. Let's enjoy it for dessert tonight!"
@@ -143,13 +143,13 @@ label chara462001_02:
  satoko 'My, that would be fun. ...But where is Miyuki-san?'
  show kazuho_v002 fuan_close at active
  show satoko_v002 smile at inactive
- kazuho "Even now, she's attentively sitting in front of the pan making the compote. The whole inside of her house is full of sweet scents..."
+ kazuho "Even now, she's attentively sitting in front of the pan making compote. The whole inside of our house is full of sweet scents..."
  show satoko_v002 fuan at active
  show kazuho_v002 fuan_close at inactive
- satoko "Hanyuu-san is taking a nap at home right now, isn't she? If she were to hear this conversation, she would be breaking into a sprint running to Miyuki's house~."
+ satoko "Hanyuu-san is taking a nap at home right now, isn't she? If she were to hear this conversation, she would be breaking into a sprint running towards Miyuki-san's house~."
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho "Y-yep. If it was Hanyuu-chan, I think she would love those smells... but for me, it's so sickeningly sweet it gives me a headache."
+ kazuho "Y-Yep. If it was Hanyuu-chan, I think she would love those smells... but for me, it's so sickeningly sweet it gives me a headache."
  hide satoko_v002
  show rika_v002 fuan at mei_right
  with Dissolve(0.5)
@@ -162,9 +162,9 @@ label chara462001_02:
  show kazuho_v002 smile at mei_center
  with Dissolve(0.5)
  show kazuho_v002 smile at active
- kazuho 'It seems like Nao-chan is okay with it, though. Napping soundly right in the midst of that smell... huh?'
+ kazuho 'It seems like Nao-chan is okay with it, though. Napping soundly right in the midst of all that smell... huh?'
  show kazuho_v002 normal at active
- kazuho "That person there under the torii... isn't that the contractor?"
+ kazuho 'That person there under the shrine gate... Is that the contractor?'
  hide kazuho_v002
  with Dissolve(0.2)
  show rika_v002 normal at mei_right
@@ -172,7 +172,7 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 odoroki at active
  show rika_v002 normal at inactive
- satoko "Huh? But I can't see someone cleaning in those clothes though..."
+ satoko "Huh? But I can't see someone cleaning in those clothes..."
  show rika_v002 normal at active
  show satoko_v002 odoroki at inactive
  rika "Meep... She's wearing something like a dress."
@@ -231,7 +231,7 @@ label chara462001_02:
  with Dissolve(0.5)
  show satoko_v002 odoroki at jump_transform,active
  show rika_v002 fuan at inactive
- satoko "Ri, Rikaa! Isn't she someone you know?!"
+ satoko 'Ri-Rikaa! Is she someone you know?!'
  show rika_v002 fuan at active
  show satoko_v002 odoroki at inactive
  rika "I-I don't know her!"
@@ -294,7 +294,7 @@ label chara462001_02:
  pause 0.5
  show erika_v001 sinken at active
  show rika_v002 fuan at inactive
- erika 'Ah...!? Had you perhaps went out of your way to investigate what I had been doing here...?!'
+ erika "Ah...!? Have you perhaps gone out of your way to investigate what I've been doing here...?!"
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -312,7 +312,7 @@ label chara462001_02:
  pause 0.5
  show rika_v002 fuan at active
  show erika_v001 smile at inactive
- rika 'U-um...'
+ rika 'U-Um...'
  play audio 'audio/sfx/SE_311_ls_cutejump.wav'
  show erika_v001 smile at jump_transform,active
  show rika_v002 fuan at inactive
@@ -328,7 +328,7 @@ label chara462001_02:
  rika 'Not at all.'
  show erika_v001 odoroki at chara_shake_transform,active
  show rika_v002 normal at inactive
- erika 'Huh?! N-no, that sort of joke is...'
+ erika 'Huh?! N-No, that sort of joke is...'
  hide rika_v002
  hide erika_v001
  with Dissolve(0.2)
@@ -337,16 +337,16 @@ label chara462001_02:
  with Dissolve(0.5)
  show kazuho_v002 normal at active
  show satoko_v002 fuan at inactive
- kazuho "Hey, Rika-chan. Maybe this person... isn't... the cleaner guy?"
+ kazuho "Hey, Rika-chan. Maybe this person... isn't... the cleaner?"
  show satoko_v002 fuan at active
  show kazuho_v002 normal at inactive
  satoko 'She\'s saying "my master" and stuff too?'
  show kazuho_v002 fuan at active
  show satoko_v002 fuan at inactive
- kazuho "Uhh... it's, it's that kind of service?"
+ kazuho 'Uhh... so, is it like that kind of service?'
  show kazuho_v002 sinken at active
  show satoko_v002 fuan at inactive
- kazuho "Lo-look! Doesn't she look like a waitress from Angel Mort wearing that cute uniform, dealing with customers by calling them master? ...She does, right?!"
+ kazuho "L-Look! Doesn't she look just like a waitress from Angel Mort wearing that cute uniform, dealing with customers by calling them master? ...She does, right?!"
  show satoko_v002 fuan at active
  show kazuho_v002 sinken at inactive
  satoko 'Kazuho-san... are you seriously saying that?'
@@ -362,7 +362,7 @@ label chara462001_02:
  pause 0.5
  show kazuho_v002 sinken at active
  show satoko_v002 fuan at inactive
- kazuho 'B-But I think we could check it out again to make sure!'
+ kazuho 'B-But I think we should check it out again to make sure!'
  hide satoko_v002
  hide kazuho_v002
  with Dissolve(0.2)
@@ -374,10 +374,10 @@ label chara462001_02:
  rika "Meep. I also think it's a little different, but Kazuho was right in saying that..."
  show rika_v002 normal at active
  show erika_v001 smile at inactive
- rika 'Um... are you maybe the cleaner person that Kiichirou requested for?'
+ rika 'Um... are you maybe the cleaner that Kiichirou requested?'
  show erika_v001 sinken at active
  show rika_v002 normal at inactive
- erika 'Cleaner person?'
+ erika 'Cleaner?'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -396,7 +396,7 @@ label chara462001_02:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 smile at active
- erika "So basically! This means, it's a bonus stage?!?!"
+ erika "So basically! This means it's a bonus stage?!?!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -447,7 +447,7 @@ label chara462001_02:
  show erika_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 smile at active
- erika '...Hah! *giggle*, *giggle*giggle*, I see. I get it now.'
+ erika '...Hah! *giggle*... *giggle*giggle*, I see. I get it now.'
  show erika_v001 smile at active
  erika "So, what you're saying is you want me to clean it all up with my tongue! I shall get to it expeditiously, my master!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)

@@ -19,51 +19,51 @@ label chara452001_01:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice "Don't be shy. Now, drink it before it gets cold."
+ beatrice "Don't be shy. Drink it before it gets cold."
  show nao_v002 fuan at active
  show beatrice_v001 smile at inactive
- nao 'Um... uhh... what is this?'
+ nao 'Uhh... um... what is this...?'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice "Mm... what's the matter; do you dislike black tea? If so, why not try the cookies? Ronove said he was proud of how they came out."
+ beatrice "Mm... what's the matter? Do you dislike black tea? If so, why not try the cookies? Ronove said he was proud of how they came out."
  show nao_v002 fuan at active
  show beatrice_v001 normal at inactive
- nao "No, that's not what I meant. I love black tea... But..."
+ nao "No, that's not what I meant. I love black tea... but..."
  show nao_v002 normal_close at active
  show beatrice_v001 normal at inactive
  nao '(...refusing would be rude, so I guess I should just try it...)'
  play audio 'audio/sfx/SE_5049_cup.wav'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
- nao "Down the hatch, then... Woooow... it's delicious...! "
+ nao "I'll try a bit, then......\nWoooow... it's delicious...! "
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show nao_v002 smile_blush at jumping_transform,active
  show beatrice_v001 normal at inactive
  nao "The smell is sophisticated and wonderful, there isn't any tartness, and it's just a little sweet...♪"
  show beatrice_v001 smile at active
  show nao_v002 smile_blush at inactive
- beatrice "It's true, it's true. By the way, as of late, this tea has been a personal favorite of mine!"
+ beatrice "Oh, isn't it? By the way, as of late, this black tea has been a personal favorite of mine!"
  show beatrice_v001 smile_close at active
  show nao_v002 smile_blush at inactive
  beatrice "You could say I'm obsessed with it."
  show nao_v002 fuan at active
  show beatrice_v001 smile_close at inactive
- nao "Ah... but since black tea is supposed to have more caffeine than coffee, if I drink too much of it, won't I have trouble sleeping?"
+ nao "Ah... but since black tea is supposed to have more caffeine than coffee, if I drank too much of it, wouldn't I have trouble sleeping?"
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice '*cackle* Humans truly are delicate creatures.'
+ beatrice '*cackle*, Humans truly are delicate creatures.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
  nao "(*giggle*. During that logic battle, she was incredibly dignified and frightening, but she seems to be friendlier than you'd think, maybe... maybe.)"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
- beatrice 'In addition, the aroma of the tea is improved if you eat tea cakes in between sips. I would recommend those scones and such over there, as they would compliment it well. '
+ beatrice 'In addition, the aroma of the tea improves if you eat tea cakes in between sips. I would recommend those scones and such over there, as they would compliment it well. '
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao "Ah... that's right. If that's the case, you could perhaps try putting jam or something on it."
+ nao "Ah... you're right. With flavors like this, you could perhaps try putting jam or something on the scone too."
  show beatrice_v001 smile at nod_transform,active
  show nao_v002 smile at inactive
- beatrice 'Of course, it pairs well with Russian tea. Perhaps you can try that next.'
+ beatrice 'Of course, it pairs well with Russian tea as well. Perhaps you can try that next.'
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
@@ -86,13 +86,13 @@ label chara452001_01:
  nao '...Just that?'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
- beatrice 'Just calling you here for this... is there a problem with that?'
+ beatrice 'Is there... a problem with that being the only reason?'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
  nao "No. I'm simply glad to enjoy a delicious cup of tea."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao '(...I wonder about this. Did the witch Beatrice really call me here just to drink tea with her?)'
+ nao '(...I wonder. Did the witch Beatrice really call me here just to drink tea with her?)'
  show nao_v002 sinken at active
  show beatrice_v001 normal at inactive
  nao "(I'm doubtful of that. She might be planning something... maybe.)"
@@ -105,9 +105,10 @@ label chara452001_01:
  show beatrice_v001 normal at active
  show nao_v002 odoroki at inactive
  beatrice 'You have been summoned to have tea with me as someone originally not meant to be here. Does that feel strange to you?'
+ $ event_store.current_progress = 1
  show nao_v002 normal at nod_transform,active
  show beatrice_v001 normal at inactive
- nao "...Yes. To be honest, I'm already on guard. I'm wondering when you're going to pull out my shirikodama. "
+ nao "...Yes. To be honest, I am a bit on guard. I'm wondering when you're going to pull out my {note_green}shirikodama{/note_green}. "
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -119,8 +120,9 @@ label chara452001_01:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice 'Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with... shirikodama!?!'
+ $ event_store.current_progress = 2
  show beatrice_v001 futeki_close at active
- beatrice "I'm not anything like a kappa, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
+ beatrice "I'm not anything like a {note_green}kappa{/note_green}, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -179,16 +181,16 @@ label chara452001_01:
  beatrice "Although, if you want me to be fearsome, then I can't help but meet that expectation... *cackle*cackle*."
  show nao_v002 fuan at active
  show beatrice_v001 smile_close at inactive
- nao "No kidding. I still have many things I want and need to do. I apologize, but I don't want to go to hell at this age."
+ nao "This isn't a joke. I still have many things I want and need to do. I'm absolutely trying to avoid going to hell at this age."
  show beatrice_v001 futeki at active
  show nao_v002 fuan at inactive
- beatrice '...Hoh? And yet when you first stepped into that "World", it seemed you quickly wanted to fall into despair and die...?'
+ beatrice '...Hoh? And yet when you first stepped into that "World", it seemed you rapidly fell into despair and wished for death, though...?'
  show nao_v002 fuan_close at active
  show beatrice_v001 futeki at inactive
  nao "...You can see through that, even. I'm no match for you."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 fuan_close at inactive
- beatrice "*cackle*cackle*cackle*... I've been thinking how we'll never be able to compete on equal footing. Oh, how it's a shame, it really is too bad!"
+ beatrice "*cackle*cackle*cackle*... I've been thinking about how we'll never be able to compete on equal footing. Oh, how it's a shame, it really is too bad!"
  show beatrice_v001 smile at active
  show nao_v002 fuan_close at inactive
  beatrice 'The experience and knowledge you have is nothing compared to mine as a thousand-year-old Golden Witch.'
@@ -206,10 +208,10 @@ label chara452001_01:
  beatrice 'Perhaps it is from this strange coincidence of us meeting that I can enjoy the changes that it sparked, as well as understand its irregularity...'
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
- nao "...It seems even the witch Beatrice has memories of being frustrated and sad over things she couldn't do."
+ nao "...Even the witch Beatrice has memories of being frustrated and sad over things she couldn't do, huh?"
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Hmm... you truly are fearless. Other witches would have immediately sent your severed head flying across the room out of disrespect for that single inquiry.'
+ beatrice 'Hmm... you truly are fearless. Other witches would have immediately sent your severed head flying across the room out of the disrespect from that single inquiry.'
  show nao_v002 fuan at chara_shake_transform,active
  show beatrice_v001 smile at inactive
  nao '......Wh-...'
@@ -218,12 +220,12 @@ label chara452001_01:
  beatrice 'Don\'t be so tense. It\'s not like I\'m angry. I have always been aware of your "past". I commend you for reaching this point.'
  show beatrice_v001 normal_close at active
  show nao_v002 fuan at inactive
- beatrice "Wishing you were never born...huh? And yet, despite feeling all that despair, you wriggled through it. That's quite significant."
+ beatrice "Wishing you were never born... huh? And yet, despite feeling all that despair, you wriggled through it. That's quite significant..."
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
  nao 'Beatrice...?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Hmm... please forget that nonsense. It seems I am getting a little sentimental.'
+ beatrice 'Hmm... it was nothing; please forget it. It seems I am getting a little sentimental.'
  call chapter_end
  jump chara452001_02

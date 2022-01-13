@@ -1,7 +1,7 @@
 label chara452001_02:
  show black_background onlayer black
  $ event_store.current_event='chara452001'
- $ event_store.current_progress=0
+ $ event_store.current_progress=2
  $ event_store.current_chapter='chara452001_02'
  $ persistent.menu_return='chara'
  camera:
@@ -21,7 +21,7 @@ label chara452001_02:
  beatrice 'It seems like our time is up. ...We will meet again, lost child.'
  show nao_v002 odoroki at jump_transform,active
  show beatrice_v001 normal_close at inactive
- nao 'Eh... ah, wait...?!!'
+ nao 'Eh... ah, wait...?!'
  play audio 'audio/sfx/SE_230_charge.wav'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
@@ -35,12 +35,12 @@ label chara452001_02:
  show nao_v002 fuan at active
  nao '...This is... Okinomiya?'
  show nao_v002 fuan at active
- nao 'Huh, what have I been doing? Or rather... why did I go to Okinomiya?'
+ nao 'Wait, what have I been doing up until now...? Or rather... why did I go to Okinomiya...?'
  show rena_v002 odoroki at mei_left
  with Dissolve(0.5)
  show rena_v002 odoroki at active
  show nao_v002 fuan at inactive
- rena '...Huh, Nao-chan?'
+ rena '...Wait, Nao-chan?'
  show nao_v002 smile at jump_transform,active
  show rena_v002 odoroki at inactive
  nao 'Ah, Rena-chan!'
@@ -61,10 +61,10 @@ label chara452001_02:
  nao "No, I'm fine. ...Right, I was buying things for dinner."
  show rena_v002 fuan at active
  show nao_v002 smile at inactive
- rena "Speaking of which... I wonder why you're not with Kazuho and her friends today... today?"
+ rena "Speaking of which... I wonder why you're not with Kazuho and her friend today... today?"
  show nao_v002 smile at active
  show rena_v002 fuan at inactive
- nao 'Kazuho is home cleaning, and Miyuki is out walking by herself.'
+ nao 'Kazuho is home cleaning, and Miyuki is out for a walk by herself.'
  show nao_v002 smile_close at active
  show rena_v002 fuan at inactive
  nao '(...Yeah, I finally remember. So that should be right... I think.)'
@@ -73,7 +73,7 @@ label chara452001_02:
  rena 'Nao-chan...?'
  show nao_v002 smile at active
  show rena_v002 fuan at inactive
- nao 'Ah, sorry. Rena-chan, did you come to Okonomiya to do shopping?'
+ nao 'Ah, sorry. Rena-chan, did you come to Okinomiya to do shopping?'
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
  rena "Yup. I just finished, so now I'm on my way back. Do you want to walk back together, Nao-chan?"
@@ -92,25 +92,25 @@ label chara452001_02:
  play music "<loop 0>audio/bgm/BGM_GACHA_COLLAB2.ogg"
  show rena_v002 fuan at active
  show nao_v002 smile at inactive
- rena "The sun is setting soon...roads can be dangerous when it's dark, so I think it's better to go together with someone else."
+ rena "The sun is setting soon... The roads can be dangerous when it's dark, so I think it's better having someone with you when you shop."
  show nao_v002 smile at active
  show rena_v002 fuan at inactive
- nao "Yeah, let's do that."
+ nao "Okay, I'll do that from now on."
  show rena_v002 fuan at active
  show nao_v002 smile at inactive
  rena '...? Did something happen, Nao-chan?'
  show nao_v002 odoroki at active
  show rena_v002 fuan at inactive
- nao '"Wh-... what, what do you mean?"'
+ nao 'Wh-... what, what do you mean?'
  show rena_v002 fuan at active
  show nao_v002 odoroki at inactive
- rena "Somehow, you're being more reserved than usual... I wonder if something is bothering you, bothering you?"
+ rena "Somehow you're being more reserved than usual... I wonder if something is bothering you, bothering you?"
  show nao_v002 fuan at active
  show rena_v002 fuan at inactive
- nao "No, it's not really like that..."
+ nao "No, it's not really like that, but..."
  show nao_v002 fuan_close at active
  show rena_v002 fuan at inactive
- nao '...Hey, Rena-chan.'
+ nao '......um, Rena-chan?'
  show rena_v002 smile at active
  show nao_v002 fuan_close at inactive
  rena 'What is it, Nao-chan?'
@@ -119,19 +119,19 @@ label chara452001_02:
  nao "Rena-chan, when you get depressed because you're reminded of something you'll never be able to do no matter how hard you try, what could somebody say to cheer you up?"
  show rena_v002 fuan at active
  show nao_v002 fuan at inactive
- rena "Hau, umm... I wonder, does that mean that there's somebody close to Nao-chan that has that problem, that problem?"
+ rena "Hau, umm... I wonder if that means that there's somebody close to Nao-chan that has that problem, that problem?"
  show nao_v002 fuan_close at active
  show rena_v002 fuan at inactive
- nao '...Yes.'
+ nao '......There is.'
  show nao_v002 normal_close at active
  show rena_v002 fuan at inactive
- nao "(I don't remember the name or the face, but... yes. I feel... I know somebody like that.)"
+ nao "(I don't remember the name or the face, but... yes. I feel like... I do know somebody like that.)"
  show rena_v002 normal at active
  show nao_v002 normal_close at inactive
- rena "And it's not Miyuki-chan or Kazuho-chan..."
+ rena "And it's not Miyuki-chan or Kazuho-chan, right...?"
  show nao_v002 fuan at nod_transform,active
  show rena_v002 normal at inactive
- nao "Yes. I would know what to do if it were those two, so if that was the case, I suppose I wouldn't have been as worried."
+ nao "Right. I would know what to do if it were those two, so if that was the case, I suppose I wouldn't have been as worried."
  show rena_v002 smile at active
  show nao_v002 fuan at inactive
  rena 'But this is an important person to you.'
@@ -148,11 +148,11 @@ label chara452001_02:
  show nao_v002 normal at mei_center
  with Dissolve(0.08333333333333333)
  show nao_v002 normal at active
- nao "This person is extremely prideful and it's not easy to figure out what they're really feeling..."
+ nao "This person is extremely prideful, and it's not easy to figure out what they're really feeling..."
  show nao_v002 normal at active
  nao 'I get the impression that they are a very sensitive, delicate person.'
  show nao_v002 fuan at active
- nao "So, because I don't know her circumstances, I'm afraid I might hurt her if I don't word things correctly, so I don't know what to say."
+ nao "So, because I don't know their circumstances, I'm afraid I might hurt them if I don't word things correctly, so I don't know what to say."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -168,13 +168,13 @@ label chara452001_02:
  rena '............'
  show nao_v002 fuan at active
  show rena_v002 normal_close at inactive
- nao "Sorry, Rena-chan. I'm dragging you into my weird problems."
+ nao "Sorry, Rena-chan. I'm dragging you into my silly issues."
  show rena_v002 smile at active
  show nao_v002 fuan at inactive
- rena "No, that's not the case. ...I've got it. Would you like to hear Rena's opinion?"
+ rena "Noo, you aren't at all. ...I've got it. Would you like to hear Rena's opinion?"
  show nao_v002 smile at nod_transform,active
  show rena_v002 smile at inactive
- nao "O-of course! I'm listening!"
+ nao "O-Of course! I'm listening!"
  show rena_v002 smile_close at active
  show nao_v002 smile at inactive
  rena 'Ahaha, thanks. Umm, right...'
@@ -186,7 +186,7 @@ label chara452001_02:
  rena "Sometimes, when you're trying your best to recover and keep at it, that support may feel like a hindrance depending on your current feelings. "
  show nao_v002 fuan at active
  show rena_v002 smile at inactive
- nao "It's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like trying to do the opposite... I think?"
+ nao "So it's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like trying to do the opposite... I guess?"
  show rena_v002 smile at nod_transform,active
  show nao_v002 fuan at inactive
  rena 'Yeah, in that ballpark.'
@@ -201,7 +201,7 @@ label chara452001_02:
  nao '...What do you mean?'
  show rena_v002 smile at active
  show nao_v002 odoroki at inactive
- rena 'Whether or not you have the ability to stand up on your own, putting on a bright and fun aura can help...'
+ rena 'Whether or not one has the ability to stand up on their own, putting on a bright and fun aura for them can help...'
  show rena_v002 smile at active
  show nao_v002 odoroki at inactive
  rena 'What do you think, you think?'
@@ -219,12 +219,12 @@ label chara452001_02:
  rena 'Do you know what this person likes?'
  show nao_v002 smile at nod_transform,active
  show rena_v002 smile at inactive
- nao 'Ah, I understand. I see, bringing her refreshments...'
+ nao "Yeah, I do. So it's bringing refreshments......"
  show nao_v002 smile at active
  show rena_v002 smile at inactive
- nao "Thanks, Rena-chan. I don't know what they'll think of it, but... I'll give it a try."
+ nao "Thanks, Rena-chan. I don't know what they'll think of it... but I'll give it a try."
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
- rena 'Yup, do your best. Rena will be rooting for you to do well, Nao-chan...!'
+ rena 'Yup, do your best. Rena will be rooting for you, Nao-chan...!'
  call chapter_end
  jump chara452001_03

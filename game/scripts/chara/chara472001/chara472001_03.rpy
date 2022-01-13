@@ -46,7 +46,7 @@ label chara472001_03:
  nao "I don't think that's it... but I feel like I should have slept just a little more."
  show nao_v001 smile_close at active
  show kazuho_v001 fuan at inactive
- nao 'I feel like I was having a super fun dream.'
+ nao 'It feels like I was having a super fun dream.'
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide kazuho_v001
@@ -66,7 +66,7 @@ label chara472001_03:
  dlanor 'People do not exist for the LAW. The law exists for PEOPLE.'
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
- dlanor 'Nevertheless, there are cases borne from bad people hurting others through abusing the power of laws that protect PEOPLE.'
+ dlanor 'Nevertheless, there are cases borne from villains hurting others through abusing the power of laws that protect PEOPLE.'
  show dlanor_v001 normal at active
  show beatrice_v001 normal_close at inactive
  dlanor '...With rules that are made to protect, there is always someone on the other end who has already weaponized it against someone ELSE.'
@@ -81,16 +81,16 @@ label chara472001_03:
  beatrice 'That is true. However, since there are definite rules to mystery, the genre can continue to exist in the time of that lost child.'
  show beatrice_v001 normal at active
  show dlanor_v001 fuan_close at inactive
- beatrice 'I suppose it is a mystery is a genre that will temporarily wane, but will never completely blow out.'
+ beatrice 'I suppose mystery is a genre that will temporarily wane, but will never completely blow out.'
  show beatrice_v001 smile at active
  show dlanor_v001 fuan_close at inactive
- beatrice '...As proof of that, that girl will surely awaken once she gets her hands on a mystery novel. Perhaps then shall we reunite.'
+ beatrice '...As proof of that, that girl will surely gets her hands on a mystery novel once she awakens. Perhaps then we shall reunite.'
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
  dlanor 'But then... what about Nao forgetting that she had ever been HERE?'
  show beatrice_v001 normal_close at active
  show dlanor_v001 normal at inactive
- beatrice "Ah, I guess she is forgetting each time, huh? And even if she does remember, she'll see it as a dream that has already ended."
+ beatrice "Ah, I guess she is forgetting each time, isn't she? And even if she does remember, she'll see it as a dream that has already ended."
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
  beatrice 'Even so, her feelings of amusement will strike at the depths of her heart.'
@@ -137,7 +137,7 @@ label chara472001_03:
  show erika_v001 odoroki_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at active
- erika "Uuuuuuu, for there to have been TWO people in Hinamizawa that turned out not to be my master; it can't be...!"
+ erika "Uuuuuuu, for me to have fallen for a FAKE version of my master in Hinamizawa; it can't be...!"
  show erika_v001 odoroki_close at chara_shake_transform,active
  erika "Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -155,7 +155,7 @@ label chara472001_03:
  dlanor 'Lady ERIKA.'
  show erika_v001 sinken at active
  show dlanor_v001 normal at inactive
- erika "...Is that you, Dlanor? What is it? Have you come to laugh at me after I've received my scolding from my master?"
+ erika "...Is that you, Dlanor? What is it? Have you come to laugh at me after I've received a scolding from my master?"
  show dlanor_v001 normal_close at active
  show erika_v001 sinken at inactive
  dlanor "Not at ALL. I wouldn't do something like THAT."
@@ -182,7 +182,7 @@ label chara472001_03:
  dlanor 'YES. We may have gotten a new mystery READER.'
  show erika_v001 normal at active
  show dlanor_v001 smile at inactive
- erika "Hmm? Isn't that good. I'll also warmly welcome someone new who is capable of talking about mystery."
+ erika "Hmm? Isn't that nice. I'll also warmly welcome someone new who is capable of talking about mystery."
  show erika_v001 futeki at active
  show dlanor_v001 smile at inactive
  erika "Even just dabbling in this idea a little, I'm getting interested, I find. I'm looking forward to ripping this person's heart in half..."
