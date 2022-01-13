@@ -16,6 +16,8 @@ init python:
     config.keymap['accessibility'].append("K_q")
     config.keymap['toggle_afm'].append("K_a")
 
+    renpy.language_tailor('-', 'GL')
+
 
 ################################################################################
 ## GUI Configuration Variables
