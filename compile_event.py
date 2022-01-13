@@ -22,10 +22,13 @@ def main():
     translations = list(map(lambda x: x.replace('.bytes', '.csv'), scripts))
     
     greens = []
-    with open(tl_source+'/green.csv', 'r') as tsvfile:
-        for line in tsvfile:
-            line = line.split('\t')
-            greens.append((line[1], int(line[2]), line[0].strip('"'), line[3]))
+    try:
+        with open(tl_source+'/green.csv', 'r') as tsvfile:
+            for line in tsvfile:
+                line = line.split('\t')
+                greens.append((line[1], int(line[2]), line[0].strip('"'), line[3]))
+    except FileNotFoundError:
+        pass
     
     greens.sort()
     greencount = 0
