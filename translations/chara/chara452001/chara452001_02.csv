@@ -15,9 +15,9 @@ index,chara,jp,en,,,,,
 よかったら少し持ってあげようか？",Hau... that looks like a lot for one person to carry. Do you want me to hold some of it?,,,,,
 59,Nao (Casual),"ううん、平気。
 ……そっか、あたしは夕飯の食材の
-買い出しに来たんだった。","No, I'm fine. ...Right, I was buying things for dinner.",,,,,
+買い出しに来たんだった。","No, I'm fine. ...Right, I came here to buy the ingredients for dinner.",,,,,
 61,Rena (Casual),"そういえば、今日は一穂ちゃんたちと
-一緒じゃないのかな……かな？",Speaking of which... I wonder why you're not with Kazuho and her friend today... today?,,,,,
+一緒じゃないのかな……かな？",Speaking of which... I wonder why you're not with Kazuho-chan and Miyuki-chan today... today?,,,,,
 63,Nao (Casual),"一穂は家でお掃除。
 美雪は１人で散歩に出かけてるわ。","Kazuho is home cleaning, and Miyuki is out for a walk by herself.",,,,,
 65,Nao (Casual),"（……うん、ようやく思い出してきた。
@@ -58,7 +58,7 @@ index,chara,jp,en,,,,,
 123,Nao (Casual),"その人、すごくプライドが高くて、
 簡単には本音を見せてくれないんだけど……。","This person is extremely prideful, and it's not easy to figure out what they're really feeling...",,,,,
 125,Nao (Casual),"本当はすごく繊細で、
-傷つきやすい人じゃないかって感じるの。","I get the impression that they are a very sensitive, delicate person.",,,,,
+傷つきやすい人じゃないかって感じるの。","I get the impression that they're a very sensitive, delicate person.",,,,,
 127,Nao (Casual),"だから、詳しい事情も理解してないのに
 変に慰めの言葉をかけても傷つけそうで、
 なんて言えばいいのかわかんなくて……。","So, because I don't know their circumstances, I'm afraid I might hurt them if I don't word things correctly, so I don't know what to say.",,,,,
@@ -67,7 +67,8 @@ index,chara,jp,en,,,,,
 あたしの変な悩みに巻き込んじゃったりして。","Sorry, Rena-chan. I'm dragging you into my silly issues.",,,,,
 139,Rena (Casual),"ううん、そんなことないよ。
 ……そうだね。レナの意見でよければ
-聞いてくれる？","Noo, you aren't at all. ...I've got it. Would you like to hear Rena's opinion?",,,,,
+聞いてくれる？","Noo, you aren't at all. 
+...I've got it. Would you like to hear Rena's opinion?",,,,,
 142,Nao (Casual),う、うん、もちろんよ！　聞かせて！,O-Of course! I'm listening!,,,,,
 144,Rena (Casual),"あはは、ありがとう。
 えっと、そうだね……。","Ahaha, thanks. Umm, right...",,,,,
@@ -78,7 +79,7 @@ index,chara,jp,en,,,,,
 その応援が邪魔に感じちゃうこともあるかもね。","Sometimes, when you're trying your best to recover and keep at it, that support may feel like a hindrance depending on your current feelings. ",,,,,
 150,Nao (Casual),"勉強しようとしてる時に
 勉強しろって言われると、
-逆に反発する……みたいな？","So it's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like trying to do the opposite... I guess?",,,,,
+逆に反発する……みたいな？","So it's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like doing the opposite... I guess?",,,,,
 153,Rena (Casual),そうそう、そんな感じ。,"Yeah, in that ballpark.",,,,,
 155,Nao (Casual),だとしたら、どうしたらいいのかしら……。,"If that's the case, I wonder what I can do...",,,,,
 157,Rena (Casual),"……別に、立ち上がらせようと考えなくても
@@ -86,11 +87,11 @@ index,chara,jp,en,,,,,
 159,Nao (Casual),……どういうこと？,...What do you mean?,,,,,
 161,Rena (Casual),"立ち上がるための力じゃなくて、
 立ち上がるための力が出るように、
-明るく楽しい気分になれるよう協力する……。","Whether or not one has the ability to stand up on their own, putting on a bright and fun aura for them can help...","Whether or not you have the ability to stand up, putting on a bright and fun aura will help...",not very sure on this sentence.,,"This might be incorrect but this is how I interpreted it since it's Rena, ""Whether or not you have the ability to get up/recover (your mood), putting on a bright and fun aura will help..."", something like that",
+明るく楽しい気分になれるよう協力する……。","Whether or not one has the ability to stand up on their own, putting on a bright and fun aura can help...","Whether or not you have the ability to stand up, putting on a bright and fun aura will help...",not very sure on this sentence.,,"This might be incorrect but this is how I interpreted it since it's Rena, ""Whether or not you have the ability to get up/recover (your mood), putting on a bright and fun aura will help..."", something like that",
 163,Rena (Casual),なんて、どうかな？　かな？,"What do you think, you think?",,,,,
 165,Nao (Casual),"ごめんなさい、レナちゃん。
 その説明だと、ちょっと想像しにくくて……
-よかったら具体例を教えてくれる？","I'm sorry Rena-chan, but I'm having trouble picturing what you're saying... could you give me an example?",,,,"vvv I would say, ""Okay, right... Say there was someone who seemed like they were really into their studies, and you brought them sweets as refreshments. How about that, about that?""",
+よかったら具体例を教えてくれる？","I'm sorry, Rena-chan, but I'm having trouble picturing what you're saying... could you give me an example?",,,,"vvv I would say, ""Okay, right... Say there was someone who seemed like they were really into their studies, and you brought them sweets as refreshments. How about that, about that?""",
 167,Rena (Casual),"うーん、そうだね……。
 勉強のやる気を出そうとした人に、
 お菓子を差し入れする、なんてどうかな？　かな？","Okay, right... Say there was someone who seemed like they were really into their studies, and you brought them sweets as refreshments. How about that, about that?",,i don't know if this is 'as motivation to study' or 'to somebody motivated to study',"""benkyou no yaruki wo dasou toshita hito"" to me is like, ""Someone who seemed like they were really into studying"" in that moment",,

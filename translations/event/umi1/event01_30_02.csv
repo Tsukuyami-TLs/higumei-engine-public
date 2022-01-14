@@ -3,8 +3,8 @@ index,chara,jp,en,Notes
 33,嘉音,"食後は、コーヒーか紅茶のご用意がありますが、如何いたします
 か……？","After meals, we usually prepare either tea or coffee. Which would you prefer?",
 35,Mion (Casual),"口の中が甘ったるくなったからね！　ここは梅塩昆布茶でキュッと
-締めたいんだけど、あるかなぁ？",The taste inside my mouth is so sweet after that! Some salted plum kelp tea would wrap things up nicely. You got that here?,"from ""So I'd like to finish things up with a salted plum kelp tea, do you have it?"
-41,Nao (Casual),て、天衣無縫、ここに極まれりだわ……。,This... this is perfection at its finest...,Not sure how to translate this one yet.
+締めたいんだけど、あるかなぁ？",The taste inside my mouth is so sweet! Some salted plum kelp tea would wrap things up nicely. You got that here?,"from ""So I'd like to finish things up with a salted plum kelp tea, do you have it?"
+41,Nao (Casual),て、天衣無縫、ここに極まれりだわ……。,T-This is perfection at its finest...,Not sure how to translate this one yet.
 43,詩音 (Casual),ウチの姉が本当にすみません。田舎者なもので……。,Sorry about my older sister. She's quite a country bumpkin...,
 49,嘉音,"……お屋敷の方に準備があるかもしれません。お時間をいただけれ
 ば、確認いたします。","... Maybe it is available at the mansion. If you allow me some time, I can go check.",
@@ -17,7 +17,7 @@ index,chara,jp,en,Notes
 70,詩音 (Casual),"えーーッ？！　今の、モニターとしてサービスを試してたっていう
 んですかぁ？！",Ehhh!? Don't tell me that was you reviewing their services just now!?,
 72,Nao (Casual),"た、確かに……。リゾート地にするなら、それなりの賓客が来る
-こともあるわ。","For, for sure... If they're going to make it into a resort, high profile guests might come too.",
+こともあるわ。","C-Clearly... if they're going to make it into a resort, high profile guests might come too.",
 74,Nao (Casual),"賓客のささやかな要望に、杓子定規で対応しているようでは、彼ら
 の満足は得られない……。","If they aren't able to fulfill such a small request for the guests in a natural manner, they won't be able to have anyone satisfied...",
 80,ヱリカ,今回はたまたま、用意が出来ましたが……。,"Although this time, they happened to be prepared for that...","from ""they just happened to have it"
@@ -26,7 +26,7 @@ index,chara,jp,en,Notes
 だったのでしょうね。","I presume what Mion-san wanted to see the most was how they could come up with an excuse so beautiful that even after failing to be prepared for them, it wouldn't ruin the guest's mood.","from ""I'm presuming that what Mion-san wanted to see the most was how they would they come up with a beautiful refusal in case they were unable to have it ready, without offending the guest."
 84,Mion (Casual),でも、嘉音くんの所作は十分、及第点以上だったと思うよ。,"Still, Kanon-kun's conduct is definitely deserving of a good score.",
 88,詩音 (Casual),"確かに。……少しでも言い淀みがあったら、お客は、困らせてし
-まったと申し訳なく感じてしまいますものね。","Right... Had he taken too long to take action, the guest could've felt bad for troubling them.",
+まったと申し訳なく感じてしまいますものね。","Definitely. ...Had he taken too long to take action, the guest could've felt bad for troubling them.",
 90,Mion (Casual),"どんな無茶ぶりにも、淀みなく、清流のように対応するのがプロ
 フェッショナルってもんなのさ！","No matter how unreasonable of a situation it is, working in a consistent flow without making a single mistake is true professionalism!","from ""behaving without showing any waver is what a true professional is!"
 94,Nao (Casual),"大事なのは、マニュアル外のことが起こっても、涼やかに対応でき
@@ -34,16 +34,16 @@ index,chara,jp,en,Notes
 98,ヱリカ,臨機応変。あるいは、さも想定内の事態であるかのように振舞う。,"Being flexible. In other words, acting as if that itself is the expectation.","from ""Putting it in other words, to act as if that too is something that's under your expectations."
 100,ヱリカ,ある種のハッタリが大事、ということでもありますね。,"It also means that bluffing can be important, to some extent.",
 104,詩音 (Casual),"確かに、ベテラン感のある店員さんだと、何があっても安心感があ
-りますよね。","Definitely, in the same way that a clerk who appears to be a senior seems more competent.","from Definitely, like how a clerk that seems like a veteran feels more trustworthy."
+りますよね。","For sure, in the same way that a clerk who appears to be experienced seems more competent.","from Definitely, like how a clerk that seems like a veteran feels more trustworthy."
 109,Mion (Casual),"そうそう。逆に、いつもあわあわしている店員さんだと、例えベテ
-ランと同じことをしていても、頼りなく感じられてしまう。","Yep, yep. In contrast, if a clerk appears anxious while performing their duties, even though they are performing the same tasks as the senior, you can't help but feel that you can't rely on them.","from Yep, yep. And in comparison, if it's a clerk that seems to get flustered doing their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them.fro"
+ランと同じことをしていても、頼りなく感じられてしまう。","Yep, yep. In contrast, if a clerk appears anxious while performing their duties, even though they are performing the same tasks as the experienced one, you can't help but feel that you can't rely on them.","from Yep, yep. And in comparison, if it's a clerk that seems to get flustered doing their work, even if they're doing the same things as the veteran one, you just can't help but feel like you can't rely on them.fro"
 113,Nao (Casual),"……堂々とした態度は、お客に信頼感を与え、それ自体が、優れた
 サービスのひとつになるのね。","...A dignified attitude is essential for building a sense of trust with the guest, and that itself is the first step in proving the excellency in your services.",
 118,ヱリカ,ま。平たく言えば、舐められたらおしまい、ってことです。,"To put it simply, mess around too much and it's all over.","from ""Well, to put it simply, if you underestimate things too much, then it's all over."
 120,ヱリカ,"古今東西の名探偵たちも、貫禄とリスペクトがあるからこそ、その
 推理に圧倒的な絶対性が宿るのです。","It's the same for the greatest detectives all over; because of how dignified and respected they are, there lies an overwhelming absoluteness in their reasoning.","from ""It's the same for the greatest detectives from east to west- because of their dignity and how respected they were, there's overwhelming certainty in their reasonings."
 122,ヱリカ,"まぁ、十分な貫禄さえあれば、穴だらけの推理でも、犯人が勝手に
-観念することもありますので。","Well, there {i}are{/i} also cases in which the culprit gave in just because the detective was very dignified, even while their reasoning was full of holes.","from ""Weell, there's cases at which the culprit gives in exactly because the detective had more than enough dignity, even if their reasoning is full of holes."
+観念することもありますので。","Well, there {i}are{/i} also cases in which the detective was dignified enough to make the culprit give in on their own, even while their reasoning was full of holes.","from ""Weell, there's cases at which the culprit gives in exactly because the detective had more than enough dignity, even if their reasoning is full of holes."
 127,Mion (Casual),"確かにね！　犯人にプレッシャーを与えれば、勝手に自滅してくれ
 ることもある！","True! If you pressure the culprit enough, there are times they'll give in on their own.",
 129,詩音 (Casual),"何もわかってないのに、さもわかっているかのように振舞うのはお
@@ -62,9 +62,9 @@ index,chara,jp,en,Notes
 145,詩音 (Casual),"確かに一理ありますね。解決できればミステリーだけれど、解決で
 きないなら、オカルトになることもありえる。","That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult.",
 147,Mion (Casual),"太古の昔から、神の奇跡とされていたものが、次々に科学で解明さ
-れたからね。","Since ancient times, things once assumed to be divine miracles have been successfully explained through science.",
+れたからね。","Since ancient times, things once assumed to be divine miracles have successfully been explained through science.",
 149,Mion (Casual),"神の奇跡は解明できない。イコール、解明できなければ神の奇跡と
-も言えちゃう訳だ。","Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle.",
+も言えちゃう訳だ。","Divine miracles cannot be explained. The idea here being, whatever you can't explain gets written off as a divine miracle.",
 154,Nao (Casual),科学とオカルトの、戦いなんですね。,"It's the battle between science and the occult, right?",
 157,ヱリカ,"そこは優雅に、ミステリー、バーサス、ファンタジーと言って頂き
 たいです。","More gracefully put, it's <Mystery versus Fantasy>.",
@@ -99,7 +99,7 @@ index,chara,jp,en,Notes
 でしょう。","*giggle*. ...You should have that conversation with someone who lives on this island, like Jessica-san.",
 216,詩音 (Casual),"魔女って、ひょっとしてさっきの肖像画のご婦人のこと、です
 か？","Could the ""witch"" be the lady in the portrait from earlier?",
-218,Mion (Casual),いいねいいねぇ、やっぱり洋館のオカルトは洋風じゃないとねぇ。,"Ahh, I like that! That really puts the ""Western"" in Western occult mystery, huh?","PLS REVIEW: the ""じゃないと"" is tripping me up // my other interpretation of this is ""As I thought, the Western house's occult mystery isn't so Western after all.."" or something, but i feel like that makes less sense here"
+218,Mion (Casual),いいねいいねぇ、やっぱり洋館のオカルトは洋風じゃないとねぇ。,"Ooo, nice! That really does put the ""Western"" in Western occult mystery, huh?","PLS REVIEW: the ""じゃないと"" is tripping me up // my other interpretation of this is ""As I thought, the Western house's occult mystery isn't so Western after all.."" or something, but i feel like that makes less sense here"
 220,Mion (Casual),"でも、こっちは流血のダム戦争から連なるオヤシロさまの祟りに、
 秘祭、#p綿流#sわたなが#rしの秘密まで話したんだからねぇ。","But that's why I shared the secret behind the name of Watanagashi, and how it links the bloodshed in the dam war to Oyashiro-sama's curse.",
 222,詩音 (Casual),"肖像画のご婦人が夜中に瞬きした、って程度では、ちょっと釣り合
@@ -158,7 +158,7 @@ index,chara,jp,en,Notes
 から２泊するのよ……？","Ugh, this is scary. ...Wait, stop for second. Do I really have to stay here for two nights...?",
 334,朱志香,まぁそれで、話を戻すぜ……。,"Well, with that, the conversation comes full circle...",
 336,朱志香,"とにかく、ベアトリーチェってのが何者なのか、祖父さま以外、こ
-の屋敷の誰も知らねぇんだ。","Anyway, other than Grandfather, no one in this mansion knows who Beatrice is.",
+の屋敷の誰も知らねぇんだ。","Anyways, other than Grandfather, no one in this mansion knows who Beatrice is.",
 338,嘉音,お館様の大恩人である、とのこと以上は、誰も……。,Other than the fact that she is to whom the master is greatly indebted... no one...,
 340,朱志香,"生きてるのか死んでいるのか。生きていたら何歳なのか。どこに住
 んでいるのか……。","Is she alive or is she dead? If she's alive, how old is she? Where could she be living...?",
@@ -187,8 +187,7 @@ index,chara,jp,en,Notes
 か。","Still, the window locks opening as a prank isn't very cute.",
 378,Nao (Casual),……確かに。,...Clearly.,
 383,嘉音,"ベアトリーチェさまは、その存在を信じて敬う者には、寛大だと言
-われています。","The people who do believe in and respect the existence of 
-Beatrice-sama say she is generous.",
+われています。",The people who do believe in and respect the existence of Beatrice-sama say she is generous.,
 385,朱志香,"だから。……ベアトリーチェのことを馬鹿にして、いる訳がないな
 んて言い張ると、……祟られるらしいんだ。","So... asserting something that makes a fool out of Beatrice, like saying she couldn't exist... seems to result in you being cursed.",
 388,,"　右代宮家には、少なくない人数の使用人が出入りしており、時
@@ -209,7 +208,7 @@ Beatrice-sama say she is generous.",
 414,嘉音,………………………。,...........................,
 420,,"　ある日。薔薇の手入れを主な仕事とする嘉音さんは、園芸倉庫に
 施錠した後、鍵をポケットに入れたまま、就寝してしまったとい
-う。","One day, Kanon was appointed to trim the roses. After locking up the garden shed, he left the key in his pocket, and retired for the day.",
+う。","One day, Kanon-san was appointed to trim the roses. After locking up the garden shed, he left the key in his pocket, and retired for the day.",
 421,,"　本来は、勤務時間中に使用した鍵は、勤務が終わる時に、使用人
 室のキーボックスに戻さなければならない。","Normally, the key gets used during a job, and then after that job is done, it must be returned to the keybox in the servant room. ",
 422,,それを戻さずに、嘉音さんは一日を終えてしまったのだという。,"That day, Kanon-san finished the job without returning the key.",
@@ -253,7 +252,7 @@ Beatrice-sama say she is generous.",
 んじゃない……。",I didn't come here to panic while counting my remaining days here on my fingers.,
 489,Nao (Casual),……はははははは、あっははははははは。,"...Hahahahahaha, aaahahahahahahahaha...",
 494,,"　とにかく、誤魔化すかのように笑えば、誰かも一緒に笑ってくれ
-て、場の空気を換えられるのだ。","Anyways, if I fake laugh like this, everyone will laugh with me, and then I can change the mood.",
+て、場の空気を換えられるのだ。","Anyway, if I fake laugh like this, everyone will laugh with me, and then I can change the mood.",
 495,,"　だから、何も面白くないのに、あたしはケタケタと笑い続けるの
 だ。","But nothing is funny at the moment, so I'm just laughing out of place.",
 497,,"　でも、………どうして？！　誰も、あたしと一緒に笑ってはくれ
@@ -303,7 +302,7 @@ Beatrice-sama say she is generous.",
 569,朱志香,"菜央ちゃん、ごめんね？　つまらない話だったよな。忘れて欲しい
 ぜっ。……じゃ、じゃあな！","Nao-chan, can you forgive me? It was a boring conversation. I want you to forget it. ...All right, see ya!",
 573,,"　朱志香さんたちは、気まずそうにしながら退出していく。
-　ヱリカさんも、肩を竦めながら立ち上がる。",Jessica-san and Kanon walked off with perturbed looks. Erika-san simply stood there while shrugging her shoulders.,
+　ヱリカさんも、肩を竦めながら立ち上がる。",Jessica-san and Kanon-san walked off with perturbed looks. Erika-san simply stood there while shrugging her shoulders.,
 576,ヱリカ,私は部屋へ戻ろうと思いますが、皆さんは？,"I do think I will return to my room, but what will everyone else do?",
 581,詩音 (Casual),"私たちは明日の準備があるので、同じく部屋に戻って、ちょっと仕
 事をしようと思います。","I think since we have to prepare for tomorrow, we should go back to our rooms too to get some work done.",

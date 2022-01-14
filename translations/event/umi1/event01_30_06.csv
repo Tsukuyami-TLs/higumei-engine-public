@@ -21,8 +21,7 @@ index,chara,jp,en,notes
 56,ヱリカ,"お忘れですか？　私は貴女たちと一緒に、郷田さんの素敵な創作ス
 ペイン料理をいただいたではありませんか。","Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb renditions on Spanish cuisine?",
 58,ヱリカ,"そして、食事を終えて、そのまま朱志香さんのボードゲームにも参
-加しました。","Then, immediately after finishing the meal, I participated in 
-Jessica-san's board game.",
+加しました。","Then, immediately after finishing the meal, I participated in Jessica-san's board game.",
 60,ヱリカ,その後、遅くまで遊び、皆さんと一緒に２階へ上がったはずです。,"After we played late into the night, I surely went upstairs with everyone else.",
 62,ヱリカ,"その間、私はわずかの時間でも、皆さんの前から姿を消したことが
 ありましたか？","In that time, was there even the briefest moment when I disappeared from everyone's sight?",
@@ -50,7 +49,7 @@ Jessica-san's board game.",
 が何事もなく帰ってくると思いますか……？","If she found your bed in that wonderfully {i}sublime{/i} state, do you really think she'd return uneventfully?",added wonderfully and italics
 98,Nao (Casual),……………………………。,.................................,
 100,ヱリカ,"私は紗音さんが戻ってきた時。ふざけて、窓から泥棒が入って部屋
-を荒らしたりはしていなかったかと聞いたのを覚えていますか？","Do you not remember when I jokingly asked Shannon, ""Has a robber broken into the window or anything?"", when she came back?",event 03 line 484
+を荒らしたりはしていなかったかと聞いたのを覚えていますか？","Do you not remember when I jokingly asked Shannon-san, ""Has a robber broken into the window or anything?"", when she came back?",event 03 line 484
 102,Nao (Casual),……そんなこと……言ったような……。,...I guess... you did say that...,
 104,ヱリカ,それに対する彼女の返事が、“いいえ、ご安心を”でした。,"And then, she said word for word, ""No. Please be at ease."".",
 107,,"　魅音さんと詩音さんの心臓がタフ過ぎるから、あんな悪戯、下ら
@@ -62,7 +61,7 @@ Jessica-san's board game.",
 113,Nao (Casual),そ、それはきっと……、考えられることは、貴女と紗音さんが、,"Th-, surely that's... when you think of it, you and Shannon-san are...",
 118,ヱリカ,#ff0000私と紗音さんは、示し合わせてなどいません。#r,{umi_red}Shannon-san and I are not conspiring together in any way.{/umi_red},
 121,,"　え？　……今、ヱリカさんの声色が、何かとても……不思議だっ
-た。",Huh? ...The color of Erika's voice was... somehow... different... just now.,
+た。",Huh? ...The color of Erika-san's voice was... somehow... different... just now.,
 122,,根拠を示すことなく、真実を語る言葉に聞こえた……。,They were words that I knew spoke the truth even without it being shown...,
 126,ヱリカ,"よって、私が紗音さんに予め因果を含め、魔法陣の悪戯を見て見ぬ
 フリをしろ、などと言い含めたことはあり得ないということです。","Therefore, me being involved with Shannon-san prior to it, like telling her to pretend not to see the magic circle, or any extension of that scenario, is impossible.",
@@ -79,8 +78,7 @@ Jessica-san's board game.",
 153,,"　つまり、……昨夜、本当に魔法陣の悪戯がなかったかどうかなど
 を、尋ねることが出来ないということ……？",Which means... I can't confirm with her whether or not the magic circle last night was a prank...?,
 157,ヱリカ,"今日と明日がお休みだそうなので、明日の日曜には帰る菜央ちゃま
-にはもう、話を聞く機会はない、という訳です。","Seems like she's going to be out today and tomorrow, so little 
-Nao-chama returning home on Sunday no longer has a chance to hear her side.",
+にはもう、話を聞く機会はない、という訳です。","Seems like she's going to be out today and tomorrow, so little Nao-chama returning home on Sunday no longer has a chance to hear her side.",
 159,Nao (Casual),く…………………。,Gh......,
 169,Mion (ウェディング),はー、疲れたねぇ！　ちょっと休憩しよっかぁ。,"Haah-, I'm tireeddd! Let's take a break, yeah?",
 171,詩音 (ビキニアーマー),あれ？　菜央さん、刺繍はしてないんですか？,"Huh? Nao-chan, you aren't doing your embroidery?",
@@ -208,15 +206,14 @@ At the very least, can I get on a phone to contact her?",
 370,,"　撮影の為に、ちょっとショッキングな準備がしてあるから、見て
 も驚かないように、なんて風に予め言われていたとしたら……。","If you're cosplaying as something scary, you'd want to tell your photographer in advance so that he doesn't get shocked...",
 373,Nao (Casual),"……あの魔法陣のシーツも、……紗音さんにとっては、事件性のな
-い、プライベートなものとなる！","...This same thought applies to the magic circle sheets, which 
-Shannon-san thought was a normal, harmless thing!",
+い、プライベートなものとなる！","...This same thought applies to the magic circle sheets, which Shannon-san thought was a normal, harmless thing!",
 375,,"　だが……、紗音さんに命令を出せそうな人物はかなり該当が多
 い。",The thing is... Shannon-san is the type to listen to orders.,not totally accurate but better i think
 376,,"　右代宮家の人間は全員そうだろうし、使用人頭や目上の使用人も
 命令は可能だろう。",I'm led to believe the whole family is like that. You could probably give orders to the servant head and the older servants as well.,shes so mean i swear
 377,,"　でも、……今はこれで十分。
 　これで、紗音さんがあの魔法陣を見ても、何事もなかったかのよ
-うに振舞う可能性が見えてくる……！","But... that's just it. Even if Shannon did see the magic circle, I can see her acting as if nothing had happened...!",is it my job to revise the japanese wording to make this sound more exciting
+うに振舞う可能性が見えてくる……！","But... that's just it. Even if Shannon-san did see the magic circle, I can see her acting as if nothing had happened...!",is it my job to revise the japanese wording to make this sound more exciting
 381,朱志香,……何か、ウチの使用人がやらかしたりした……？,...Did one of our servants mess up somehow......?,
 383,Nao (Casual),いえ、そんなことはありません。むしろ、多分、逆です。,"No, not at all. It might be the opposite in fact.",
 386,,"　紗音さんは、命令された通りに、使用人の仕事を全うしたに過ぎ

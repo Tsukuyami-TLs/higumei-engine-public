@@ -6,7 +6,7 @@ index,chara,jp,en,,3 lines remaining,
 か？","...If there's something that makes you so sure of that, why don't you show it to me?",,,
 38,ヱリカ,受けてもいいですけれど……。致命傷になりますよ？,"I'll take up that offer if it's what you desire... however, this {i}will{/i} deliver the final blow, you know?",,"from ""If it's fine with you...may I deliver the final blow",
 43,Nao (Casual),"確かにあの時、小道具を探しにゲストハウスへ戻っていた詩音さん
-だけが、アリバイを失ってるけれど……。","It's true that Shion was the only one to go back to search for something at the guesthouse, and thus lost an alibi...",,,
+だけが、アリバイを失ってるけれど……。","It's true that Shion-san was the only one to go back to search for something at the guesthouse, and thus lost an alibi...",,,
 45,,"　アリバイがないからというだけの理由で、詩音さんを犯人になん
 かさせない。",But I don't want to let Shion-san be declared the culprit just because she doesn't have an alibi. ,,,
 49,ドラノール,ベアトリーチェ卿。貴女の手番はそれで構わないデスカ。,"Lady Beatrice, do you have no issues in making this MOVE?",unsure on this line.,"from "" is that what you wish to DO?",
@@ -37,7 +37,7 @@ index,chara,jp,en,,3 lines remaining,
 108,ヱリカ,園崎詩音さん。こちらへ。,Shion Sonozaki-san. This way.,,,
 112,詩音 (バスタオル),……犯人扱いは心外ですけど、変に断っても疑われますし。,"...Being treated like a criminal is upsetting, but if I refuse, she's just going to suspect me more.",,,
 116,,"　詩音さんが歩み出ると、……まるで手錠のように、……ガシリと、
-ヱリカさんは詩音さんの手首を掴んだ。","As Shion stepped forward... Erika-san grabbed her wrist in a vice-like grip, almost like it was a pair of handcuffs.",,,
+ヱリカさんは詩音さんの手首を掴んだ。","As Shion-san stepped forward... Erika-san grabbed her wrist in a vice-like grip, almost like it was a pair of handcuffs.",,,
 119,ヱリカ,チェックメイトですよ？　詩音さん。,"I do believe this is checkmate, Shion-san?",,,
 124,Mion (バスタオル),"ヱリカさんは、部屋の鍵を忘れたと言った後に、ゲストハウスに
 戻った為、アリバイがないからって詩音を疑ってるんでしょ？！","Erika-san, you're suspecting Shion just because she went back to the guesthouse after she told us she forgot her room key, aren't you?!",,,
@@ -55,7 +55,7 @@ index,chara,jp,en,,3 lines remaining,
 144,,"　ペンライトとは言うが、傍目には少し太めの万年筆にしか見えな
 い。","She called it a penlight, but from an outsider's perspective, it looked like a rather plump fountain pen.",,,
 145,,"　しかしヱリカさんが片手で操作すると、確かにライトの機能があ
-ることがわかった……。","However, when Erika fiddled with it using her free hand, it became clear that it did indeed have a light function...",,,
+ることがわかった……。","However, when Erika-san fiddled with it using her free hand, it became clear that it did indeed have a light function...",,,
 149,Mion (バスタオル),"ふん……。詩音がやったっていう証拠があるなら、見せてもらおう
 じゃない。","Hmmm... if you say that you have evidence that Shion did it, then let's see it.",,,
 151,Mion (バスタオル),菜央ちゃん。消してくれる？,"Nao-chan, can you turn off the lights?",,,
@@ -186,7 +186,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 451,Nao (Casual),"ドラノールさん。嘘を吐く気はありません。
 あたしに、赤き真実を使わせて下さい。","Dlanor-san, I am not lying. Please allow me to use the red truth.",,,
 453,ドラノール,どのような内容をデスカ……。,What would you like to use it FOR...?,,,
-456,,ドラノールさんの耳元で、それを囁く。,I whisper into Dlanor's ear.,,,
+456,,ドラノールさんの耳元で、それを囁く。,I whisper into Dlanor-san's ear.,,,
 460,ドラノール,"……わ、わかりマシタ。……それには、貴女の手札を拝見させてい
 ただかなくてはなりマセン……。","...I-I UNDERSTAND. ...However, in order to do that, I will need to see your HAND.",,,
 462,Nao (Casual),手札って？,My hand?,,,
@@ -229,7 +229,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 546,Nao (Casual),"#4169e1ヱリカさんもまた、ドアノブにベッドメイク不要の札を出していま#r
 #4169e1した。つまり、使用人は誰もあの部屋には入りません。#r","{umi_blue}Erika-san put a ""Bedmaking Not Necessary"" tag on her doorknob so that the servants would not enter her room.{/umi_blue}",,,
 552,Nao (Casual),"#4169e1そして、唯一、部屋に入れたかもしれない詩音さんも、ヱリカさん#r
-#4169e1の仕掛けが逆に、無実を証明することとなりました。#r","{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika's traps, was able to prove her innocence.{/umi_blue}",,,
+#4169e1の仕掛けが逆に、無実を証明することとなりました。#r","{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika-san's traps, was able to prove her innocence.{/umi_blue}",,,
 557,Nao (Casual),"#4169e1以上により、第二の魔法陣事件は、ニンゲンには不可能である、魔#r
 #4169e1女の悪戯であることが明白となりました。#r","{umi_blue}Therefore, the second magic circle was impossible for a Human to make, so it's clearly a witch's prank.{/umi_blue}",,,
 566,ヱリカ,"ぜッんぜん明白じゃねぇだらッ！！！　どこがッ、誰がッ！！　ふ
@@ -257,8 +257,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 願いしたいんです。","The next turn is yours, but before you declare your victory, I want you to make one move for me.",,,
 617,Nao (Casual),"第二の魔法陣は魔女の仕業だけれど、……第一の魔法陣は、ヱリカ
 さんが犯人。そして今、ようやく、紗音さんが魔法陣を見ても異常
-を感じなかった理由が、閃きました。","While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why 
-Shannon-san didn't feel anything strange when she found it.","the space is so it displays better ingame, ignore it",,
+を感じなかった理由が、閃きました。","While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why Shannon-san didn't feel anything strange when she found it.","the space is so it displays better ingame, ignore it",,
 620,,"　ようやく、謎と推理と思考のスープが……、とろりと仕上が
 る……。","At last, the soup of logic, reasoning, and mystery... had finished thickening.",,,
 624,Nao (Casual),ベアトリーチェ。あなたは魔女ですよね？,"Beatrice. You are a witch, correct?",,,

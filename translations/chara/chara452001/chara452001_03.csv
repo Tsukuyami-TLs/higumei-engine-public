@@ -4,7 +4,7 @@ index,chara,jp,en,,,,,,,
 28,Nao (Casual),ありがとうございましたーっ！,Thank you very much--!,,,,,,,
 31,Nao (Casual),"……まさか、こんなに早く
 手に入れられるとは思わなかったわ。
-魅音さんには今度お礼をしなきゃ。",...I didn't think I would get my hands on that this soon. I need to thank Mion next time I see her.,,,,,,,
+魅音さんには今度お礼をしなきゃ。",...I didn't think I would get my hands on that this soon. I need to thank Mion-san next time I see her.,,,,,,,
 33,Nao (Casual),"とりあえず目的の品は揃ったから、
 あとはどうやって連絡を取るのかって
 ことだけど……。","Now that I have what I wanted to get, the next step is getting in touch with them...",,,,,,,
@@ -68,7 +68,7 @@ index,chara,jp,en,,,,,,,
 この茶を淹れて、茶会としようではないか。
 しばしの間、妾に付き合うが良い。","Since you are here, let's brew this and have a tea party. We can hang out for a short while.",,,,,,,
 95,Nao (Casual),"ありがとう。……じゃあ、ご馳走になろうかしら。
-あ、でもティーカップとかはどこに……？","Thank you. ...In that case, I'll accept your treat. Ah, but where are the teacups...?",,,,,,,
+あ、でもティーカップとかはどこに……？","Thank you. ...I believe I'll accept your treat then. Ah, but where are the teacups...?",,,,,,,
 97,ベアトリーチェ,…なに、用意はできている。,"...Hah, preparations are being made now.",,,,,,,
 107,Nao (Casual),"ほわっ……す、すごい……！
 一瞬でティーカップとお茶菓子が、
@@ -79,15 +79,15 @@ index,chara,jp,en,,,,,,,
 ここは女同士の語らい、妾がもてなすのが道理よ。","Well, if we're talking about skill in teamaking, I'm not as talented as my furniture, Ronove, but between you and me, it's only right that I be your host.",,,,,,,
 118,ベアトリーチェ,"ふぅむ……相変わらず面白い茶よの。
 レモンを入れると、鮮やかな青から赤に変わる。
-まさしく魔法の紅茶である。","Mm-mmm... this tea is as fascinating as ever. When you add lemon, it turns from a vivid blue into a red color. It surely is a magical tea.",,,,,,,
+まさしく魔法の紅茶である。","Hmm... this tea is as fascinating as ever. When you add lemon, it turns from a vivid blue into a red color. It certainly is a magical tea.",,,,,,,
 123,Nao (Casual),"といっても、リトマス液みたいな
-化学反応でこうなってるらしいけどね。","Although, I heard that it is caused by a chemical reaction called a Litmus solution.",,,,,misspelling of solution,,
+化学反応でこうなってるらしいけどね。","You say that, but I heard that it's caused by a chemical reaction called a Litmus solution.",,,,,misspelling of solution,,
 125,ベアトリーチェ,"化学も、立派な魔法であるぞ。
 ただ、その構造を説明する文言が
 数字に代わったに過ぎぬ。",Chemistry is also a form of magic. The difference is that numbers have replaced the words explaining how it works.,,,,,,,
 127,ベアトリーチェ,"だが、その化学はやがて反魔法の毒素へと
 変貌した……大本は同じなはずが、
-どこで枝分かれしたのやら。","Nonetheless, eventually that chemistry morphed into an anti-magic toxin... Their roots are the same, but I don't know where the two diverged.",,,,,,,
+どこで枝分かれしたのやら。","Nonetheless, chemistry eventually morphed into anti-magic toxin... Their roots are the same, but I don't know where the two diverged.",,,,,,,
 129,Nao (Casual),"そういえば、昔は化学を含めた科学と魔法は
 同じような研究をしていた、って聞いたことが
 あったわ。","Now that you mention it, I've heard that magic and science, including chemistry, used to be studied in similar ways.",,,,,,,
@@ -97,7 +97,7 @@ index,chara,jp,en,,,,,,,
 134,ベアトリーチェ,"しかし、魔法は脆い。
 誰にでも使えるわけではないのだ…","However, magic is delicate, and not everyone can use it...",,,,,,,
 136,ベアトリーチェ,"科学は物と手順さえ揃えば誰にでもたやすいという。
-科学と魔法は相反するもの。魔力は弱まり力は失う――",They say that science can be easy for anybody to do so long as they have the proper equipment and procedures. Science and magic are polar opposites. Magic loses its power from--,,,,,,,
+科学と魔法は相反するもの。魔力は弱まり力は失う――","On the other hand, they say that science can be easy for anybody to do, so long as they have the proper equipment and procedures. This is because science and magic are polar opposites. Magic loses its power from--",,,,,,,
 138,Nao (Casual),"でも……魔法はある。
 少なくとも、私を助けてくれたわ。
 黄金の魔女、ベアトリーチェがね。","But... magic does exist. At the very least, the Golden Witch, Beatrice, was able to help me.",,,,,,,
@@ -111,16 +111,17 @@ index,chara,jp,en,,,,,,,
 進む先には地獄しかないやもしれぬ。","However, as a result of that, you've experienced an even greater level of tragedy... Perhaps at this point, the only way forward is straight into hell.",,,,,,,experienced
 152,ベアトリーチェ,"それでも、そなたは前に行くのか？
 最初の絶望で終わっていた方が
-安らかな終焉を迎えていたとしても……？","And even so, you continue to push forward? Wouldn't it have been more peaceful to have snuffed your life out with that initial despair?",,,,,,,
+安らかな終焉を迎えていたとしても……？","And even so, you continue to push forward? Wouldn't it have been more peaceful to have met your demise with that initial despair...?",,,,,,,
 153,Nao (Casual),"……えぇ、行くわ。
 ここまで来たんだから、中途半端に
 引き返すことなんてできない。","...No, I have to keep going. After coming this far, I can't quit halfway through.",,,,,,,
 154,Nao (Casual),"それに……どんな形でも「変わる」結果が
 見つかったんだから、うまくいけば
-いい方向に進むことだってあるかもしれない。","Besides... whichever ""different"" result that I come upon, by continuing to the end, there is a possibility I can reach one where things went well.",,,,,,,
+いい方向に進むことだってあるかもしれない。","Besides... thanks to all of the ""different"" results that I've come upon, I understand that there is a possibility I can reach one where things went well by continuing to the end.",,,,,,,
 155,Nao (Casual),"その「可能性」の存在を、あたしは
 まだまだ無視したくない。
-……絶望は、いつだってできるわ。","I will not disregard the existence of that ""possibility"". ...I can't ever despair.",,,,,,,
+……絶望は、いつだってできるわ。","I will not disregard the existence of that ""possibility"". 
+...I can't ever despair.",,,,,,,
 162,Nao (Casual),それに、友達ができちゃったから。,"And aside from that, I've made friends.",,,,,,,
 164,ベアトリーチェ,友達？,Friends?,,,,,,,
 167,Nao (Casual),"えぇ。年上だけど、あの子たちって
@@ -136,7 +137,7 @@ index,chara,jp,en,,,,,,,
 いずれまたそなたの村に顔を出すつもりゆえ、
 その時はよろしく頼むぞ。","*cackle*cackle*... this truly was a pleasantly strange coincidence. I plan to show my face in your village in the future, so I hope you receive me well then.",,not sure on wording of the 'receive me then'--could probably reword,,,,sounds good to me,
 180,Nao (Casual),"えぇ、もちろん……って、#p雛見沢#sひなみざわ#rに来るの？
-魔女のあなたが？　どうやって？","Yes, of course... but wait you're going to Hinamizawa? As a witch? How?",,,,,,,
+魔女のあなたが？　どうやって？","Yes, of course... but wait, you're going to Hinamizawa? As a witch? How?",,,,,,,
 182,ベアトリーチェ,"そこはほれ、魔法でな。
 ……ただ、そこでそなたは妾のことを
 覚えているやもしれぬし、忘れているやもしれぬ。","That would be through magic, of course... but I do not know if you will remember me or have forgotten about me at that point.",,,,,,,
@@ -168,7 +169,8 @@ index,chara,jp,en,,,,,,,
 ちょっとぼーっとしてたら、
 いつの間にか日が落ちてただけよ。","...No, it's nothing. I just spaced out, and before I realized it, the sun had set.",,,,,,,
 244,Miyuki (Casual),"目が悪くなるから、電気ぐらいつけなよ……
-って、あれ？　このティーカップって誰の？",I can't see well since the lights are off... wh-what? Whose teacup is that?,,,,,,,
+って、あれ？　このティーカップって誰の？","I can't see well since the lights are off... 
+Wh-what? Whose teacup is that?",,,,,,,
 248,Kazuho (Casual),もしかしてお客さんが来てたの？,Did you have a visitor by any chance?,,,,,,,
 253,Nao (Casual),……ううん、来てないわ。,"...No, no one came.",,,,,,,
 255,Nao (Casual),（そう、そのはず……たぶん……）,"(Yeah, that's... probably it...)",,,,,,,
