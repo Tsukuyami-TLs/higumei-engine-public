@@ -456,7 +456,7 @@ init python:
         gui.navigation_spacing = 20
         gui.pref_button_spacing = 15
 
-        gui.history_height = 285
+        gui.history_height = 450
 
         ## The position, width, and alignment of the label giving the name of the
         ## speaking character.

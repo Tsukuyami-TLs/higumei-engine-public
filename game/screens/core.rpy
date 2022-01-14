@@ -577,18 +577,17 @@ Please support the official release!\n""") style "disclaimer"
                 text _("UmiNetta")
 
             null height 15
+            if renpy.variant("mobile"):
+                null height 10
 
             hbox:
                 spacing 15
                 text _("Translation") style "about_small"
-                text _("beanbug, danpmss, eri, hanss314, Jevil, Llorona, Lunik, roux")
-
-            hbox:
-                spacing 15
-                text _("") style "about_small"
-                text _("OmegaBodega, Pteryon, tessa, Uminetta")
+                text _("beanbug, danpmss, eri, hanss314, Jevil, Llorona, Lunik, roux, OmegaBodega, Pteryon, tessa, Uminetta")
 
             null height 20
+            if renpy.variant("mobile"):
+                null height 10
 
             hbox:
                 spacing 15
@@ -596,6 +595,8 @@ Please support the official release!\n""") style "disclaimer"
                 text _("beanbug, hanss314, Naegles, Pteryon")
 
             null height 15
+            if renpy.variant("mobile"):
+                null height 10
 
             hbox:
                 spacing 15
@@ -603,6 +604,8 @@ Please support the official release!\n""") style "disclaimer"
                 text _("hanss314, Llorona, Naegles, Omegabodega, Pteryon")
 
             null height 15
+            if renpy.variant("mobile"):
+                null height 10
 
             hbox:
                 spacing 15
@@ -610,6 +613,8 @@ Please support the official release!\n""") style "disclaimer"
                 text _("FistOfMagic, Omegabodega")
 
             null height 15
+            if renpy.variant("mobile"):
+                null height 10
 
             hbox:
                 spacing 15
