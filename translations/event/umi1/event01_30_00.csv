@@ -1,7 +1,7 @@
 event01_30_00.bytes,Uminetta - TL,Lloro - QC/TL,Naegles - QC2,Pteryon - QC3,Omega: QC4,
 index,chara,jp,en,Notes,,
 25,,こんな島、来なければよかった。,I should have never come to this island.,"any changes made to this pink highlighted section must also be made in chapter 10, starting from sheets line 71",,
-27,Nao (Casual),ひ、……ひ、,N... n......,,,
+27,Nao (Casual),ひ、……ひ、,N-... n-......,,,
 28,Nao (Casual),嫌ああぁああぁあぁぁああぁぁぁあッ！！,Nooooooooooooooooo!!,,,
 32,,哀れな犠牲者たちは、……ベッドの上で、血まみれだった。,The poor victims... were on the bed covered in blood.,,,
 33,,"　彼女のネグリジェは、本当はとても可愛らしいものだったのだろ
@@ -33,8 +33,7 @@ index,chara,jp,en,Notes,,
 50,,"　……だから、扉が開いてしまうことは、まったく想定しなかった
 のだ。",...That's why I didn't actually expect the door to open.,Added truly for まったく,changed to honestly,changed to actually -hanss
 51,,"　その異常が……、あたしの心を瞬時に凍らせ、……ナイフのよう
-に鋭く尖らせる。","It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.
-",I had to improvise here so it'll make sense with the next sentence welp,,
+に鋭く尖らせる。",It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.,I had to improvise here so it'll make sense with the next sentence welp,,
 52,,"　極限の恐怖は、感情の全てを殺し、五感を限界まで研ぎ澄ます。
 　だが、所詮は氷のナイフ。
 　……どんなに鋭くても、脆く、砕け散る……。","Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......",,,
@@ -45,7 +44,8 @@ index,chara,jp,en,Notes,,
 59,Nao (Casual),嫌あああぁあぁぁあぁあぁあぁぁぁぁぁッ！！！,Noooooooooooooooooooooooooooooooo!!!!!!!!!!!,,,
 66,,"　こんな島、来なければよかった。
 　#p六軒島#sろっけんじま#rに招かれた経緯は、
-……今、思い返すと、本当に唐突だった。","I should have never come to this island... Thinking about it now, the invitation to Rokkenjima was very sudden.",,Rokkenjima island -> Rokkenjima,
+……今、思い返すと、本当に唐突だった。","I should have never come to this island... 
+Thinking about it now, the invitation to Rokkenjima was very sudden.",,Rokkenjima island -> Rokkenjima,
 74,Nao (Casual),あ、はい。レナちゃんから聞いてますけど……。,"Ah, yes, I heard about it from Rena-chan...",,,
 76,Mion (Casual),"それはよかったよ！　貴重なチケット、余らせるのも惜しかったか
 らさ！",That's good to hear! Wouldn't want these precious tickets to be wasted!,,,
@@ -62,7 +62,7 @@ index,chara,jp,en,Notes,,
 　この島は、大富豪の右代宮家が所有する個人的な島なので、普段
 は旅行者などは立ち入ることが出来ない。","Rokkenjima is a small island with a total circumference of about 10 km, located in the Izu Archipelago. The island is the private property of the wealthy Ushiromiya family, so normally travellers and such are not allowed to go there.",,,
 99,Mion (Casual),"ってことだったんだけどね！　何でも、将来、リゾート地にするこ
-とを考えてるらしくてね。",...Or so it was! Looks like they're thinking about turning it into a resort in the future.,,,
+とを考えてるらしくてね。",...Or so it used to be! Looks like they're thinking about turning it into a resort in the future.,,,
 101,Nao (Casual),……そのモニターに招待された、ということでしょうか。,...So we were invited as reviewers?,,,
 105,Shion (Casual),"最後に簡単なアンケートに答えるだけだそうです。これで、２泊３
 日の小旅行が食事つきでタダなんですから、最高ですよね！","All we have to do is to answer a simple questionnaire at the end. It's a two night trip with free meals, so it'll be great!",,,
@@ -78,9 +78,9 @@ index,chara,jp,en,Notes,,
 りませんから。","I understand. After all, traveling isn't just about playing and shopping.",get it -> understand,,
 121,Mion (Casual),"日本人はバカンスってのをわかってないからねぇ。買い物と観光バ
 スだけが旅行だと勘違いしてるよ。","Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing on bus tours.",,,
-123,Nao (Casual),トラベルではなく、バカンスなんですね。,We aren't going there to travel anyway; this is a vacation.,,,
+123,Nao (Casual),トラベルではなく、バカンスなんですね。,We aren't going there to travel anyways; this is a vacation.,,,
 125,Mion (Casual),"素敵な洋館で、薔薇を眺めながら、しばし心を休める、誰にも急か
-されない時間……。","In this wonderful Western-style house, we can spend time resting our minds while watching the roses, not a soul there to bother us.",,,
+されない時間……。","In those wonderful Western-style houses, we can spend time resting our minds while watching the roses, not a soul there to bother us.",,,
 128,,"　……そう言われたら、少しあたしも乗り気になってきた。
 　素敵な薔薇を眺めながら、刺繍でもしたら、……心がすっごく、
 穏やかになるかも…、かも。","...Hearing her say that, I started to get in the mood to go a little more. Doing some embroidery as I watch the roses... my heart might finally know some peace... maybe.",Now that you say that -> Hearing her say that,,
@@ -99,7 +99,7 @@ index,chara,jp,en,Notes,,
 で行くから。そう言われる。","I was also given the option to turn down the offer if it was a bother. In that case, the sisters told me they would just go on their own.",,,
 135,,"　レナちゃんが、せっかくあたしに譲ってくれたのだ。
 　無下にしないで、土産話が持って帰れるよう、たくさん満喫して
-こよう。","Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there.",,,
+こよう。","Rena-chan kindly gave her invitation up to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there.",,,
 139,,"　こうして唐突に、２泊３日の六軒島旅行が決定するのだった。
 　……この時点では、楽しい気持ちしかなかった。","So, just like that, I accepted the trip to Rokkenjima for three days and two nights. ...We were absolutely going to have lots of fun this time.","removed ""suddenly"" for flow",,
 140,,それが……、どこから、ケチが付いたのだろう……。,But I might have... gotten jinxed at some point...,that -> I,,
@@ -118,11 +118,11 @@ index,chara,jp,en,Notes,,
 170,,"　特に、劇場版はクオリティが高く、最新作は歴代最高の傑作と名
 高いのだ、……と魅音さんは力説してくれる。","The movie in particular is really high quality, so much that it's regarded as a masterpiece among their most recent works... or at least that's what Mion-san was stressing to me.",,,
 174,Mion (Casual),"洋館って本当にロマンスが似合うんだよねぇ！　おじさん、ようや
-く梨花ちゃんがルチーアに憧れた理由がわかったね。",Western-style houses are really romantic! This old man finally gets why Rika-chan has been yearning to go to St. Lucia so much.,,,
+く梨花ちゃんがルチーアに憧れた理由がわかったね。",Western-style houses are really romantic! This ol’ man finally gets why Rika-chan has been yearning to go to St. Lucia so much.,,,
 176,詩音 (Casual),"とにかく舞台の洋館が、美しくってミステリアスなんですよ
 ねぇ～！","In any case, our stay in question has a beautifully mysterious aura to it~!",,,
 180,詩音 (Casual),"私もあんな洋館で悟史くんに、愛してるから死んでくれって囁かれ
-たら、命捧げちゃうかも～！　きゅんきゅん☆","If Satoshi-kun whispered that he'd love me until death in that house, I would have to dedicate my life to him~! Unnnnfff~☆",kyunkyun/dokidoki is kind of hard to translate into eng so i just put that for now,,
+たら、命捧げちゃうかも～！　きゅんきゅん☆","If Satoshi-kun whispered, ""I love you, so die for me."", to me in that house, I'd just {i}have{/i} to hand my life over to him~! Unnnnfff~☆",kyunkyun/dokidoki is kind of hard to translate into eng so i just put that for now,,
 185,Nao (Casual),"……なるほど。今、お二人の中では、洋館ブームが来ているという
 ことですね。","...I see. So, now you're saying the Western-style house craze is coming between you two, huh?",,,
 187,,"　#p雛見沢#sひなみざわ#rは風光明媚で合掌造りの家々が素晴らしい土地だけれど。
@@ -148,12 +148,12 @@ index,chara,jp,en,Notes,,
 ている小さい子供か、さもなくば、世捨て人のような雰囲気に浸り
 たい変わり者だけだ。","So, sadly, the little children, who would otherwise be bustling around in excitement, are now submerged in a reclusive and depressing atmosphere.  ",,,
 208,,"　ほら。その後者のような雰囲気の黄昏れた少女が、柵にもたれ掛
-かり、水平線を眺めていた。","Oh, look. Just as I said it, there was a melancholic looking girl hanging onto the railing, looking out into the horizon.",,,
+かり、水平線を眺めていた。","Oh, look. Fitting with that thought, there was a melancholic looking girl hanging onto the railing, looking out into the horizon.",,,
 211,ヱリカ,…………………。,.....................,,,
 213,,可憐な少女に見えたのだ。……第一印象だけは。,The girl appeared sweet and cute. ...But that was only my first impression.,,,
 214,,"　再び、子供のはしゃぐ声が近付いてくる。
 　どうやら興奮して、デッキを何周もぐるぐると回っているよう
-だ。","Once again, the frolicking voice of a child approaches. He was excited for some reason, running around the deck in bunches of laps. ",,,
+だ。","Once again, the frolicking voice of a child approaches. He's excited for some reason, running around the deck in bunches of laps. ",,,
 217,Nao (Casual),………あ、,...Ah.,,,
 219,,"　その時、あたしははっきりと見たのだ。
 　子供が走り抜けていく時、その少女が、足をわずかに突き出し
@@ -222,9 +222,7 @@ index,chara,jp,en,Notes,,
 309,Nao (Casual),"目撃者って……、そんなに無力なの？　無意味なの？！　おかしい
 わ、そんなの！",Are witnesses... this powerless? Meaningless?! That's just stupid!,,,
 311,ヱリカ,"ノックス第９条。観測者は自分の判断、解釈を主張することが許さ
-れる。","Knox's 9th, it is permitted for observers to let their own conclusions and explanations be heard.
-
-",,,
+れる。","Knox's 9th, it is permitted for observers to let their own conclusions and explanations be heard.",,,
 313,Nao (Casual),え……？,Huh...?,,,
 315,ヱリカ,貴女は、子供が私の足に引っ掛かり、転ぶところを観測しました。,You observed me kicking my leg out in front of the child and watched him fall.,,,
 317,ヱリカ,"その観測を元に、貴女はこう解釈し、主張しました。“この知的少
@@ -287,7 +285,7 @@ index,chara,jp,en,Notes,,
 を惜しまなければよかっただけの話デス。","If the noisy children were bothering you in the first place, you should have taken the time to move to another LOCATION.",,,
 405,ヱリカ,私は、アンタと水平線を眺めながらお喋りがしたかったんです。,I had wanted to chat with you while watching the horizon.,,,
 407,ヱリカ,"それを邪魔されたので、腹が立った。……犯行動機は十分じゃない
-ですか。",I'm a bit annoyed since I was interrupted. ...Is the motive for the crime not enough?,,,
+ですか。",I'm a bit annoyed since I was interrupted. ...Isn't the motive for the crime enough?,,,
 409,ドラノール,その上、足を掛けたところを見られての開き直りトハ……。,"Moreover, being defiant about being seen sticking your leg out WAS...",,,
 411,ドラノール,"そのような人物に、私のお友達と呼ばれても、心にまったく響かな
 いデス。",For me to even call a character like that a friend of mine doesn't sit well in my HEART.,,,

@@ -34,17 +34,17 @@ index,chara,jp,en,
 最初に聞いた時、どう思った？","So, Nao, after hearing about ""Knox's Ten Commandments"" for the first time, what are your thoughts?",
 57,Nao,"そうね……素直な感想を言わせてもらうと、
 ちょっと窮屈だなって印象があったわ。
-ミステリーって制約があるものなの？　って。","Right... if you want me to speak my thoughts openly, it gave me the impression that they're a bit strict. I was like, ""Mystery really has those types of limitations?""",
+ミステリーって制約があるものなの？　って。","Right... if you want me to speak my thoughts openly, it gave me the impression that they're a bit strict. I was like, ""Mystery really has those types of limitations?"".",
 60,ベアトリーチェ,"くっくっくっ！
 それは、そなたがミステリーを読む時
 ただ漫然と読んでいたからであろう？","*cackle*cackle*! I guess that's because when you {i}have{/i} read mystery, you have only done it in the casual sense?",
 62,Nao,"漫然な読み方かどうかはわからないけど……
 色々と難しい表現や設定が多かったから、
-話を追うだけで精いっぱいだったのは確かね。","I'm not so sure about reading casually... but because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story.",
+話を追うだけで精いっぱいだったのは確かね。","I'm not so sure about reading casually... because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story.",
 64,ベアトリーチェ,"では、読み進めながら物語内の犯人が誰か、
 推理して当ててみようと考えたことはないか？","Then, in the midst of reading a story, have you never tried to reason out on the spot who the culprit is?",
 66,Nao,"犯人とトリックを聞いて驚くことはあったけど、
-推理はあんまりしたことがなかったかも……かも。","I've been surprised when I finally hear about the culprit or the trick, but I probably haven't really done much reasoning... maybe.",
+推理はあんまりしたことがなかったかも……かも。","I've been surprised when I finally hear about the culprit or the trick, but I might not have done much reasoning... maybe.",
 68,Nao,"じゃあベアトリーチェはミステリーを読みながら、
 犯人を推理したりするのかしら？","So when Beatrice reads mystery, I wonder if she reasons out who the culprit is?",
 71,ベアトリーチェ,"当然であろう！
@@ -87,21 +87,22 @@ index,chara,jp,en,
 「ロジックエラー」と呼んでおる。","By the way, when there is an inconsistency in the rules related to the story, we call this a ""logic error"".",
 103,ベアトリーチェ,"推理勝負において、
 「ロジックエラー」はまさに禁じ手……
-絶対に忌避すべき事項ということだな。","In a logic battle, ""logic errors"" are essentially a foul... This is a matter that should be avoided with certainty.",
+絶対に忌避すべき事項ということだな。","In a logic battle, ""logic errors"" are essentially a foul... 
+This is a matter that should be avoided with certainty.",
 105,Nao,"……つまり、ゲーセンで対人戦に負けても
-相手を殴るのはダメってことね。","...So it's kind of like how it's wrong when two people are playing PvP in an arcade and the loser hits the winner, right?",
+相手を殴るのはダメってことね。","...So it's kind of like how it's wrong when two people are playing a PvP game in an arcade and the loser hits the winner, right?",
 107,ベアトリーチェ,"う、うむ……？
 対人戦のゲームというものが何かわからぬゆえ、
 妾には是非をつけることができぬのだが……。","Uh, mm...? I have no knowledge of what a PvP is, though, so I cannot really assign meaning to it...",
 109,Nao,"あ、でも……『ノックス十戒』の成り立ちが
 どうだったかって質問について戻るけど、
-結局それって、どうして作られることになったの？","Ah, but... returning to the question of how the structure of ""Knox's Decalogue"" was formed, what ultimately lead to it being made?",
+結局それって、どうして作られることになったの？","Ah, but... returning to the question of how the structure of ""Knox's Decalogue"" was formed, what ultimately led to it being made?",
 113,ドラノール,"……それは、過去に自由すぎるミステリーが
 跋扈した時代があったからデス。",...That is due to the fact that the past was an era where mysteries with too much freedom REIGNED.,
 115,Nao,自由すぎるミステリー……？,Mysteries with too much freedom...?,
 117,ドラノール,"『ノックス十戒』が制定される前、市井には
 読者に解けるようになっていないミステリー作品が
-濫発していて……全体の質を下げておりマシタ。","Before ""Knox's Decalogue"" was structured, mysteries that were unsolvable by normal and fair means were a rampant issue... so this completely lowered the quality of the GENRE.",
+濫発していて……全体の質を下げておりマシタ。","Before ""Knox's Decalogue"" was structured, mysteries that were unsolvable by normal and fair means were a rampant issue... so this lowered the quality of the entire GENRE.",
 119,ドラノール,"たとえば、犯人が物語の後半に突然現れたり、
 探偵が超能力で解決したり……
 密室殺人に秘密の通路があったり、デス。","For example, culprits would suddenly appear towards the latter half of the story, detectives would use psychic powers to solve mysteries... and secret passageways would exist for locked-room MURDERS.",
@@ -119,35 +120,36 @@ index,chara,jp,en,
 131,ドラノール,違う……トハ？,The difference... IS?,
 133,Nao,"だって１０条も含めて、それまでは
 「してはいけない」ことの羅列だったのに、
-９条は「許される」ってあるじゃない。","Like, right next to it is the 10th one, and that one is listed as ""something you shouldn't do"", whereas the 9th is ""something that you are permitted to do"", isn't it?",
+９条は「許される」ってあるじゃない。","Like, right next to it is the 10th one, and that one is listed as ""something you shouldn't do"", whereas the 9th is ""something that you are permitted to do"", right?",
 135,Nao,"ノックス第９条。
 『観測者は自分の判断・解釈を
 主張することが許される』","Knox's 9th: ""It is permitted for observers to let their own conclusions and explanations be heard.""",
 137,Nao,"この観測者って、作中の人物って
-認識でいいのよね。","It's okay for the observers in this rule to recognize characters in the story, right?",i might be missing something here
+認識でいいのよね。","The ""observers"" can be seen as characters in the story, right?",
 139,ドラノール,ハイ。,YES.,
 141,Nao,"つまり、これをうまく解釈したら
 作中の人物は嘘をついても構わない、ってことに
-なったりすると思うんだけど……？","So basically, if I'm explaining this correctly, it makes me think that a character in the story can tell a lie and it wouldn't matter, though...?",
+なったりすると思うんだけど……？","So basically, if I'm explaining this correctly, it makes me think that a character can tell a lie and it wouldn't matter, though...?",
 145,ベアトリーチェ,"その条文だけを見れば、そうだな。
-……だが、探偵は犯人であってはならない。","If you only look at that rule, I see your point... However, the detective must not be the culprit.",
+……だが、探偵は犯人であってはならない。","If you only look at that rule, I see your point... 
+However, the detective must not be the culprit.",
 147,Nao,"７条に引っかかるものね。
 でも、探偵が嘘をついちゃダメってことは
 ないんでしょ？","Rule 7 prevents it, right? But I wonder if that also prevents the detective from telling lies?",
 151,ドラノール,"イイエ、嘘はいけマセン。
 ９条に抵触しマス。","It DOES, they must not tell LIES. Rule 9 impedes this from HAPPENING.",
 154,Nao,"えっ？　でも、自分の判断や解釈を
-主張することが許されるって……あ。",Huh? But for it to be permitted for my own conclusions and explanations to be heard... ah.,
+主張することが許されるって……あ。",Huh? But for it to be permitted for one's own conclusions and explanations to be heard... ah.,
 158,ベアトリーチェ,"くっくっくっ！
 ようやく気づいたようだな。",*cackle*cackle*! She has finally realized.,
 160,Nao,"そうか……観測者は許される。
-けど、探偵は許されない。","Is that so... the observer is permitted, but the detective isn't.",
-164,ドラノール,……その通りデス。よく気付きマシタ。,... Exactly SO. You understood WELL.,
+けど、探偵は許されない。","Okay, so... the observers are permitted, but the {i}detective{/i} isn't.",
+164,ドラノール,……その通りデス。よく気付きマシタ。,...Exactly SO. You understood WELL.,
 166,Nao,"なるほど……だとすると、嘘つきは
 探偵になっちゃダメってことね。","I see... with that in place, the detective cannot tell a lie at all.",
 168,ドラノール,"イイエ。例外はありマス。
 本人が嘘をついていると自覚がない場合、
-『ノックス十戒』には抵触しマセン。","Not NECESSARILY. There are EXCEPTIONS. In the case that the detective tells a lie unconsciously, ""Knox's Decalogue"" would allow it.",
+『ノックス十戒』には抵触しマセン。","Not NECESSARILY. There are EXCEPTIONS. In the case that the detective tells a lie unconsciously, ""Knox's Decalogue"" would allow IT.",
 170,Nao,たとえば？,For example?,
 174,ベアトリーチェ,"そうだな。おぬしを探偵だとして……
 そなたはパティスを知っているか？",Right. With you here as the detective... are you familiar with Pâtiss?,
@@ -194,7 +196,7 @@ index,chara,jp,en,
 238,ベアトリーチェ,ほぅ。何をもってそう思った？,Hoh. What does that thought entail?,
 240,Nao,"だって、作者が『ノックス十戒』に従っているって
 最初に宣言すれば、このミステリーは解けるように
-できているってわかる人はわかってくれるでしょ？","Like, if an author declared he was following ""Knox's Decalogue"" at the beginning, people who knew the decalogue would understand the mystery was designed to be solved, right?",
+できているってわかる人はわかってくれるでしょ？","Like, if an author declared he was following ""Knox's Decalogue"" at the beginning, people who know the decalogue would understand the mystery was designed to be solved, right?",
 242,Nao,"……なるほど。だから『ノックス十戒』は
 邪魔だって排除されず、作者が書く上での
 ルールとして定着しているのね。","...I see. So that's why ""Knox's Decalogue"" was not discarded as a hindrance, but stuck as a rule for authors to adhere to.",
@@ -203,10 +205,10 @@ index,chara,jp,en,
 大事なブランドロゴみたいなものだもの。",It's like an important brand logo which guarantees that we're being fair to the readers.,
 248,ドラノール,…………。,............,
 250,Nao,"でもブランドを守るのって大変よね。
-偽物を出されたりしたら、本家の評判に響くし。","But it's hard to protect a brand, because if you have a fake product, it's bad for the reputation of the original.",
+偽物を出されたりしたら、本家の評判に響くし。","But it's hard to protect a brand; because if you have a fake product, it's bad for the reputation of the original.",
 252,Nao,"うちのお母さんも、頭を悩ませてたわ。
 にしても、偽物を売られたら本家本元に
-怒りの矛先が向くって、理不尽な話よね。","My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable concept.",
+怒りの矛先が向くって、理不尽な話よね。","My mom has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable concept.",
 256,ベアトリーチェ,"……面白い例え話よ。
 だが、ルールを守った者が損をするのは
 実に理不尽といえよう。",...What an interesting analogy. it's unreasonable for those who follow the rules to lose out.,

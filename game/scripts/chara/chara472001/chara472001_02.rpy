@@ -411,5 +411,5 @@ label chara472001_02:
  show nao_v001 odoroki at chara_shake_transform,active
  show beatrice_v001 smile at inactive
  nao 'Eh, aahhh...!!'
- call chapter_end
+ call chapter_end from _call_chapter_end_15
  jump chara472001_03

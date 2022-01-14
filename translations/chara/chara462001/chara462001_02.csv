@@ -20,9 +20,9 @@ index,chara,jp,en,
 43,ヱリカ,"だとしたら、一番可能性の高い場所は
 遊び場の代わりとなる……神社。","With that in mind, the place with the highest possibility to be the substitute for a playground would be... the shrine.",
 45,ヱリカ,"よしんばいなかったとしても、この寒村。
-子どもの数はそう多くないはず。","And even if they aren't there, this village is deserted. I don't anticipate the number of kids here to be huge anyway.",
+子どもの数はそう多くないはず。","And if they aren't there, this village is deserted. I don't anticipate the number of kids here to be huge anyway.",
 47,ヱリカ,"となれば、あの小娘の居場所や家を聞き出すのは
-造作もないこと――。","If it comes to that, getting information about where that girl lives and her current location won't be that difficult either--.",
+造作もないこと――。","If it comes to it, getting information about where that girl lives and her current location won't be that difficult either--.",
 51,ヱリカ,"ただ村を一瞥しただけで、
 古戸ヱリカはこの程度の推理が可能です。
 いかがですか、皆さん。","Just from one peek at this village, this level of reasoning is possible for Erika Furudo. What do you think, everyone?",
@@ -34,10 +34,10 @@ index,chara,jp,en,
 とっとと引きずり込むことにしますか。","Well, whatever. For now, I will find that girl quickly and drag her away.",
 58,ヱリカ,"神社は災害時の避難所を兼ねますから、
 高い場所にあると相場は決まっています。
-……さて、推理の結果を確認しに行くとしますか。","The shrine also serves as a shelter for when disasters happen, so it must be at a high altitude... Now, shall I go and confirm the result of my reasoning?",
+……さて、推理の結果を確認しに行くとしますか。","The shrine also serves as a shelter for when disasters happen, so it must be at a high altitude. ...Now, shall I go and confirm the result of my reasoning?",
 66,ヱリカ,"おや、子どもの声がしますね。
 どうやら推理は的中していたようです。
-……まぁ、当然ですが。","Ah, I can hear the voices of children. It seems my reasoning hit the nail on the head... Well, but of course it would.",
+……まぁ、当然ですが。","Ah, I can hear the voices of children. It seems my reasoning hit the nail on the head. ...Well, but of course it would.",
 68,ヱリカ,さて、あの小娘の居場所を聞き出すとしましょう。,"Now, let us find out where that girl's location is.",
 79,Rika (Casual),"はい、一穂。沙都子。
 お茶をどうぞなのです。","Okay, Kazuho, Satoko, here's your tea.",
@@ -54,19 +54,19 @@ index,chara,jp,en,
 お遣いを頼みましたのですが……。","Meep. I thought it'd be bad if I wasn't here when he came, so I had Kazuho run that errand...","from ""Meep. He should already be here, so I thought his absence would be bad, and then I had Kazuho run that errand, but..."""
 91,Satoko (Casual),"こんなことになるのでしたら、
 私が用事を終わらせてから買いに行っても、
-全然間に合いましたわね。",It turns out that I could have finished that and went shopping and I still would have made it completely on time.,
+全然間に合いましたわね。","It turns out that I could have finished that, {i}and{/i} went shopping, {i}and{/i} I still would have made it completely on time.",
 93,Kazuho (Casual),"うーん、きっと前の仕事が
 長引いているんだと思うよ。","Yeahh, I think that first job you mentioned is being dragged out.",
 95,Satoko (Casual),"そうかもしれませんが、それなら連絡の
 一本くらいあってもバチが当たらないと
 思いますわ……。","It might be that way, but even if we call and complain, I don't think scolding would do much...",
 101,Satoko (Casual),"でも梨花、どうして一穂さんに
-お遣いをお願いしましたの？","But Rika, why did you entrust Kazuho with that errand?",
+お遣いをお願いしましたの？","But Rika, why did you entrust Kazuho-san with that errand?",
 103,Rika (Casual),"みー。お茶がなくて困っている時に
 たまたま一穂に電話をもらったのですよ。","Meep. Whenever I run into trouble with having no tea, I occasionally call Kazuho, like I did this time.",
 107,Kazuho (Casual),"うん。前に梨花ちゃんからもらったりんごで、
 美雪ちゃんがコンポート？　ってお菓子を
-作ったから、お裾分けしようと思ってね。","Yep. Earlier, Rika gave me an apple and Miyuki made me a compote, or some snack like that, so I thought it would be nice to share all of this stuff with everyone.",
+作ったから、お裾分けしようと思ってね。","Yep. Earlier, Rika-chan gave me an apple and Miyuki-chan made me a compote, or some snack like that, so I thought it would be nice to share all of this stuff with everyone.",
 109,Kazuho (Casual),"それを持ってくるついでに、
 お茶っ葉のお遣いをしてきたんだよ。","With all of this stuff in hand already, I took the opportunity to get some tea leaves as well.",
 111,Rika (Casual),"コンポートは冷やした方がおいしいそうなので、
@@ -83,9 +83,10 @@ index,chara,jp,en,
 私はちょっと、頭が痛くなってきちゃって。","Y-Yep. If it was Hanyuu-chan, I think she would love those smells... but for me, it's so sickeningly sweet it gives me a headache.",
 125,Rika (Casual),みー。匂いは好き嫌いが出やすいのです。,Meep. You tend to be picky with smells.,i think this is about kazuho but its unclear
 130,Kazuho (Casual),"菜央ちゃんは大丈夫みたいなんだけどね。
-あの匂いの中でも、ぐっすりお昼寝……あれ？","It seems like Nao-chan is okay with it, though. Napping soundly right in the midst of all that smell... huh?",
+あの匂いの中でも、ぐっすりお昼寝……あれ？","It seems like Nao-chan is okay with it, though. Napping soundly right in the midst of all those smells... huh?",
 132,Kazuho (Casual),"あの鳥居の下にいる人って……
-もしかして業者さんじゃない？",That person there under the shrine gate... Is that the contractor?,
+もしかして業者さんじゃない？","That person there under the shrine gate... 
+Is that the contractor?",
 137,Satoko (Casual),"えっ？
 ですがあの方、お掃除をする格好には
 とても見えませんが……。",Huh? But I can't see someone cleaning in those clothes...,
@@ -121,7 +122,7 @@ index,chara,jp,en,
 235,Rika (Casual),違うのです。,Not at all.,
 238,ヱリカ,は？！　い、いや、そんなご冗談を……。,"Huh?! N-No, that sort of joke is...",
 244,Kazuho (Casual),"ねぇ、梨花ちゃん。もしかしてこの方が
-清掃業者の人……じゃないの？","Hey, Rika-chan. Maybe this person... isn't... the cleaner?",
+清掃業者の人……じゃないの？","Hey, Rika-chan. Maybe this... isn't... the cleaner they hired?",
 246,Satoko (Casual),我が主とか、言ってますわよ？,"She's saying ""my master"" and stuff too?",
 248,Kazuho (Casual),えっと……そ、そういうサービス、とか？,"Uhh... so, is it like that kind of service?",
 250,Kazuho (Casual),"ほ、ほら！　エンジェルモートみたいに
@@ -130,7 +131,7 @@ index,chara,jp,en,
 252,Satoko (Casual),一穂さん……それ、本気で言っておりますの？,Kazuho-san... are you seriously saying that?,
 255,Kazuho (Casual),"……ごめんなさい。
 自分で言っててなんだけど、
-あんまり自信ない……うぅっ。","... I'm sorry. I said it myself, but I didn't really believe it all too much... Uuu.",
+あんまり自信ない……うぅっ。","...I'm sorry. I said it myself, but I didn't really believe it all too much... Uuu.",
 258,Kazuho (Casual),"け、けど一度、ちゃんと確かめた方が
 良いと思うよ！",B-But I think we should check it out again to make sure!,
 264,Rika (Casual),"みー。ボクも違うとは思いますが、
@@ -138,9 +139,9 @@ index,chara,jp,en,
 266,Rika (Casual),"あの……もしかして喜一郎がお願いした、
 清掃業者の方ですか？",Um... are you maybe the cleaner that Kiichirou requested?,
 268,ヱリカ,清掃業者？,Cleaner?,
-276,ヱリカ,…………はっ？！,...Huh?!,
+276,ヱリカ,…………はっ？！,......AH?!,
 278,ヱリカ,"なるほど、そういうことですか。
-これも我が主の暇潰し。いえ、慈悲！","I see, it's like that? This is also one of my master's time killing games. No, this is mercy!",
+これも我が主の暇潰し。いえ、慈悲！","I see, so it's like that? This is also one of my master's time killing games. No, this is mercy!",
 280,ヱリカ,"つまり不快にさせてしまったリベンジに
 この古ぼけた神社の掃除ができたら
 少しは見直してやろうという我が主のお心遣い！！","This is basically revenge for me displeasing her, so if I clean up this timeworn shrine, my master will change her perception of me out of thoughtfulness!!",
@@ -156,11 +157,12 @@ index,chara,jp,en,
 持ってくると思って……。",Meep. I certainly thought the contractor guy would have specialized cleaning tools with him...,
 310,Satoko (Casual),特に、何も……。,"Or at least, something...","from ""And especially not nothing"""
 318,ヱリカ,"……はっ！
-ふ、ふふふ、なるほど。わかりましたよ。","...Hah! *giggle*... *giggle*giggle*, I see. I get it now.",
+ふ、ふふふ、なるほど。わかりましたよ。","...Ah! *giggle*... *giggle*giggle*, I see. I get it now.",
 320,ヱリカ,"文字通り舌で舐めるように
 掃除しろと言うことですね！
-了解致しました、我が主！","So, what you're saying is you want me to clean it all up with my tongue! I shall get to it expeditiously, my master!","remove ""literally"""
-329,Kazuho (Casual),ちっ、違うと思います！,That's... I don't think that's right.,
+了解致しました、我が主！","So, what you're saying is you want me to clean it all up with my tongue! 
+I shall get to it expeditiously, my master!","remove ""literally"""
+329,Kazuho (Casual),ちっ、違うと思います！,That's... I don't think that's right!,
 331,Rika (Casual),……むしろ逆に汚いと思うのですよ。,...I think that's actually dirtier.,more dirty -> dirtier
 340,Satoko (Casual),"い、今すぐ掃除道具を準備しますわ！
 だから、早まらないで下さいまし！

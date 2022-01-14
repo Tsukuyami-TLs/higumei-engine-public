@@ -9,20 +9,21 @@ index,chara,jp,en,Notes,,
 37,Nao (Casual),別に、そういう訳じゃないです……。,It's not that...,,,
 40,,あたしの表情が晴れないのは、……アイツのせいなのだ。,The reason I'm so gloomy is... because of {i}her{/i}.,,,
 44,ヱリカ,"まぁ、本当に偶然なんですけれどね。あの時はもう、溺れて死ぬか
-と思いました。","Well, it really is just a coincidence. I thought I was going to drown back there.",,,
+と思いました。","Well, it really is just a coincidence. I thought I was going to drown back then.",,,
 46,詩音 (Casual),"それで流れ着いた先が、洋館の孤島だったなんて、何だか素敵な偶
-然ですねー！",Then you ended up washing up on an isolated island with a western mansion. What a wonderful coincidence!,,,
+然ですねー！","What a wonderful coincidence you ended up washing up on an isolated island with a western mansion, though!",,,
 50,詩音 (Casual),"それで、洋館に住む美青年なんかに見初められたら、もう！　その
-まんま、ロマンス小説みたいですよねー！","And then the handsome young man living in the mansion would fall in love with you at first sight, and ugh! At that rate it'd be just like a romance novel!",,,
+まんま、ロマンス小説みたいですよねー！","If a handsome young man living in the mansion fell in love with you at first sight, ugh! At that rate, it'd be just like a romance novel!",,,
 53,,"　彼女は……、あたしたちと同じ、六軒島に２泊３日で招かれた客
-人だったのだ。",She is... coming with us... as another guest invited to stay at Rokkenjima for two nights.,,,
+人だったのだ。",Just... like us... she's coming as a guest invited to stay at Rokkenjima for two nights.,,,
 54,,"　お互い、二度と会うことはないでしょう的な捨て台詞を言い合っ
-たのに……、気まずいったらありゃしない。",We even said we'd never see each other again. ...This couldn't get any more awkward.,"Man, this is really awkward -> This couldn't get any more awkward",,
+たのに……、気まずいったらありゃしない。","We even said we'd never see each other again... 
+This couldn't get any more awkward...","Man, this is really awkward -> This couldn't get any more awkward",,
 57,ヱリカ,よろしく。私は古戸ヱリカと申します。,Pleased to meet you. My name is Erika Furudo.,,,
 59,,"　彼女は以前、六軒島の近くで、プレジャーボートから転落して漂
 流するという目に遭ったらしい。",It seems that she had once drifted near Rokkenjima when she fell out of a pleasure boat.,,,
 60,,"　そして、偶然、六軒島に流れ着いて保護してもらい、それ以来、
-ささやかな縁があるのだという……。","Then, by coincidence, she washed up on Rokkenjima and was taken care of. And so, she has a small connection with them...",,,
+ささやかな縁があるのだという……。","Then, by coincidence, she washed up on Rokkenjima and was taken care of. Since then, she's had a small connection with them...",,,
 64,ヱリカ,"こちらの瓜二つな双子姉妹のお二人にはお名前をもううかがいまし
 た。そちらの小さなお嬢さんの、貴女の名前を聞かせて下さいな？","The twins have already given me their names. Little girl, if would you allow me to hear your name as well, please?",,,
 66,Nao (Casual),………………。,..................,,,
@@ -59,7 +60,7 @@ I'm the only one left out. ......*sigh*.",,,
 でしょう？","Now, I have a question... Why do you think the island is called Rokkenjima (Six House Island)?",,,
 123,,"　……大昔、家が６軒あったから、何て謂れだったら、簡単過ぎ
 る。","...If it's just because there were six houses on the island a long time ago , then it'd be too easy.",,,
-124,,同じことを魅音さんが口にしてくれた。,But it's also the exact answer that comes out of Mion's mouth.,,,
+124,,同じことを魅音さんが口にしてくれた。,But it's also the exact answer that comes out of Mion-san's mouth.,,,
 128,ヱリカ,"半分正解です。最も繁栄した時でも、６軒までしか棲みつけなかっ
 たということに由来します。","That's half right. The name comes from the fact that even in its most prosperous times, there were no more than six houses on the island.",,,
 133,詩音 (Casual),棲みつけなかったって？,No more than six houses?,,,
@@ -108,7 +109,7 @@ Maybe it's not a big deal when you're constantly living under Oyashiro-sama's cu
 　魔女だの悪霊だのの島を、わざわざバカンスの先に選ぶ趣味は、
 ないんだから。","It's not like I'm afraid but...
 I'm not particularly fond of taking a vacation on an island of witches and evil spirits. ","from ""I'm not particularly afraid",,
-207,朱志香,皆様、ようこそ六軒島へ！,Welcome to Rokkenjima everyone!,,,
+207,朱志香,皆様、ようこそ六軒島へ！,"Welcome to Rokkenjima, everyone!",,,
 209,紗音,長い船旅を、本当にお疲れ様でございました。,You must all be exhausted from the long boat ride.,,,
 212,,"　右代宮家の御令嬢と使用人たちが、わざわざ船着き場で待ってい
 てくれた。",The Ushiromiya family's daughter and servants had gone out of their way to wait for us at the dock.,,,
@@ -172,7 +173,7 @@ A beautiful rose garden out of this world.",,,
 It was the type of scene that made you think something like that...",,,
 332,紗音,お褒めの言葉をありがとうございます。,Thank you very much for the words of praise.,,,
 334,朱志香,"へへ。嘉音くんの手入れがいいから、今年も最高の薔薇が咲いた
-ぜ！","Heheh. Thanks to Kanon-kun's wonderful care, we've had the best roses ever this year!",,,
+ぜ！","Heheh. Thanks to Kanon-kun's handiwork, we've had the best roses ever this year!",,,
 338,ヱリカ,"ぜひ、嘉音さんに直接、労いの言葉が掛けたいのですが、お呼びい
 ただくことは出来ますか？",I would like to express my gratitude to Kanon-san directly. Is there any way you could call him?,,,
 340,紗音,勿体ないお言葉です。本人に伝えさせていただきますね。,Your words are too kind. I will pass your message on to him.,,,
@@ -187,7 +188,7 @@ It was the type of scene that made you think something like that...",,,
 375,朱志香,自分の家だと思って寛いでね！　部屋は２階だよ。,"Think of it as your own home! The rooms are on the second floor, by the way.",,,
 378,紗音,お足元に注意を。どうぞ、こちらへ。,Watch your step. Please come this way.,,,
 384,Mion (Casual),……園崎本家も、こんな感じの洋館に立て直してくれたらなぁ。,...I sure wish they'd renovate the Sonozaki main house into a Western mansion like this.,,,
-386,詩音 (Casual),鬼婆が許すと思います？　お母さんだって許すか怪しいです。,Do you think the old hag would be fine with that? I can't even see mother letting that happen. ,,,
+386,詩音 (Casual),鬼婆が許すと思います？　お母さんだって許すか怪しいです。,Do you think the old hag would be fine with that? I can't even see Mother letting that happen. ,,,
 393,ヱリカ,はい、菜央ちゃま。お部屋の鍵だそうです。,"Here, Nao-chama. It looks like that's your room key.",,,
 395,Nao (Casual),……ちゃまは止めて下さい。ありがとうございます。,"...Please stop calling me ""chama"", thank you very much.",,,
 397,Nao (Casual),鍵は１つ、ですか？,Is there only one key?,,,
@@ -200,7 +201,7 @@ It was the type of scene that made you think something like that...",,,
 スターキーを持っていますので。",Don't worry. Please kindly tell one of the servants if that happens. They have master keys.,,,
 411,,"　何れにせよ、大切な鍵だ。ここは年長者に預けておくべきだろ
 う。
-　魅音さんに預けておくことにする。","In any case, it's an important key. I'd better leave it in the hands of my seniors. I'll give it to Mion.",,,
+　魅音さんに預けておくことにする。","In any case, it's an important key. I'd better leave it in the hands of my seniors. I'll give it to Mion-san.",,,
 415,,"　あたしたちは２階にあがり、それぞれの部屋に入り、
 荷物を置く。","We went up to the second floor, entered our rooms, and set down our bags.",,,
 418,,"　あたしたちの部屋は、３つのベッドが並ぶ３人部屋だ。
@@ -258,7 +259,7 @@ Erika-san's room next to ours is the same, although she's the only one using it.
 550,？？？？,はいはい、どうぞ。……それで秋の果物と言えば、,"Of course, here you are... Speaking of the fruits of autumn--",,,
 557,Mion (Casual),くぁーーー！！　これホント旨いね！　一気に飲めちゃうよ！,Hwaa~!! This really is the stuff! I can drink it all in one gulp!,,,
 565,ヱリカ,"……せめて、郷田さんのうんちくを聞き終わるまではお預けできま
-せんか？",...Could you at least wait until Gohda-san's finished his explanation?,,,
+せんか？",...Could you at least wait until Gohda-san has finished with his explanation?,,,
 567,詩音 (Casual),仕方ないです。お姉はテーブルマナーと無縁の田舎者ですので。,Oh well. Sis is a country bumpkin with no table manners after all.,,,
 569,ヱリカ,おや。菜央ちゃまはお預けが出来ているみたいですね。,Oh? It seems like Nao-chama has no problem waiting patiently.,Review request next 3 lines. Not sure if this is natural,,
 571,ヱリカ,…………貴女。いいところのお嬢様だったりします？,......You. Do you happen to be from a good family?,"when jp people use ""anata"" it's strictly ""you"" unless its referring to a lover // from ""Do you happen to be a young lady from a good family, dear?",,
@@ -266,11 +267,10 @@ Erika-san's room next to ours is the same, although she's the only one using it.
 577,ヱリカ,ふふん……。,"Hmm, I see...",,,
 582,紗音,皆様。お屋敷の方へご案内させていただきます。,"Everyone, I would like to show you the mansion.",,,
 584,,"　ご馳走になり、ひと息ついたところで、朱志香さんが迎えに来
-る。","After the refreshments and a little break, Jessica arrived to come get us.",,,
+る。","After the refreshments and a little break, Jessica-san arrived to come get us.",,,
 585,,"　まずは、２泊３日をお世話になる右代宮家の人にご挨拶だ。
 　それから、戦後すぐに建てられたという贅沢な洋館を案内しても
-らうのだ。","First, we'll go greet the family members that will be taking care of us these next few days.
-Then after that, we'll be shown around the Western-style mansion built right after the war.","from ""go meet the Ushiromiya family that invited us.  ",,
+らうのだ。","First, we'll go greet the family members that will be taking care of us these next few days. Then after that, we'll be shown around the Western-style mansion built right after the war.","from ""go meet the Ushiromiya family that invited us.  ",,
 594,Nao (Casual),……朱志香さんは、この島にずっと住んでいるんですか？,"...Jessica-san, have you always been living on this island?",,,
 596,朱志香,"まぁね。生まれた時からそうだったから、初めは気にならなかった
 けど……。",Pretty much. I didn't mind at first because that's how it's been since I was born but...,,,
@@ -299,14 +299,14 @@ Then after that, we'll be shown around the Western-style mansion built right aft
 非の打ちどころのない淑女だった。","Krauss-san was a wealthy looking, well-dressed gentleman. 
 His wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of the Meiji and Taisho periods.",,,
 643,Mion (Casual),"すっごいお屋敷ですね……。一代でこんなお屋敷を建てちゃうなん
-て、本当に尊敬します！","What an amazing mansion... To build a house like this in one generation, I really admire it!",,,
+て、本当に尊敬します！","What an amazing mansion... To build a house like this in one generation, I really admire that!",,,
 647,？？？？,はっはっは。この屋敷を建てたのは父でね。,Hahaha. It was my father who built this mansion.,,,
 650,？？？？,"本来ならば、父も挨拶に来るべきなのだが、高尚な研究でお忙しい
 らしくてね。無礼を許してくれたまえ。","Normally, we'd expect my father to come and greet you, but he has been busy with some advanced research. Please forgive our rudeness.",,,
 653,詩音 (Casual),"若者目線から、リゾートコンサルタントを頑張りますので！　どう
 かお任せ下さいな！",We'll do our best to give a young person's point of view as resort consultants! Please leave it to us!,,,
 657,？？？？,"そんなに気負われなくてもよいのですよ。どうか当家での滞在を、
-ゆっくりとお楽しみ下さい。",You don't have to be so formal about it. Please take your time and enjoy your stay at our house.,,,
+ゆっくりとお楽しみ下さい。",You don't have to be so formal about it. Please take your time and enjoy your stay at this house.,,,
 660,Nao (Casual),"……素敵なお屋敷ですね。……ジョサイア・コンドルの仕事でしょ
 うか。",...It's a lovely house. ...I wonder if it's the work of {note_green}Josiah Conder{/note_green}.,,,
 663,ヱリカ,"この屋敷が建てられたのは戦後ですよ？　コンドルは１９２０年に
@@ -321,17 +321,17 @@ His wife Natsuhi-san was an impeccable lady, reminiscent of the aristocracy of t
 目を瞑るだけでいくらでも浮かんできそうですね。","It might be inappropriate to say this about someone's home, but if you just close your eyes, all sorts of mysteries and suspenseful things come to mind.",,,
 683,Nao (Casual),確かに。……めちゃくちゃ不謹慎ですが。,That's certainly... quite inappropriate.,,,
 688,？？？？,"朱志香、紗音。お客様のご案内をよろしくお願いしますね。……朱
-志香は、礼儀を忘れないように。","Jessica, Shannon. I'll leave the guests to you two. ...Jessica, please don't forget your manners.",,,
-691,朱志香,わ、わかってるぜ……。,"I-I know, Mom...",,,
+志香は、礼儀を忘れないように。","Jessica, Shannon. I'll leave the guests to you two. ...Jessica, do not forget your manners.",,,
+691,朱志香,わ、わかってるぜ……。,I-I know...,,,
 697,,それから、あたしたちはぐるりと、屋敷の中を案内された。,"With that, we were shown around the house.",,,
 698,,"　最初は緊張していたが、最後の辺りでは、園崎姉妹もすっかりリ
 ラックスし、ここでこんな事件があったらステキ！　等と不謹慎に
-盛り上がっていた。","At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here, among other indiscreet topics.  ","and other such -> , among other",,
-699,,そして。玄関に戻る時に、大きなホールを横切る。,"And then, on the way back to the front door, we walked through a great hall.",,,
+盛り上がっていた。","We were nervous at first, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here, among other indiscreet topics.  ","and other such -> , among other",,
+699,,そして。玄関に戻る時に、大きなホールを横切る。,"Then, on the way back to the front door, we walked through a great hall.",,,
 700,,そこであたしは、……この島の真の主に、出会うのだ。,And there... I met the true master of this island.,,,
 704,詩音 (Casual),……うわ、すっごい金髪美人……。,"...Woah, what beautiful blonde hair...",,,
 706,Mion (Casual),誰ですか、……この人……。,Who is... this person...,,,
-720,Nao (Casual),……………………。,……………………,,,
+720,Nao (Casual),……………………。,........................,,,
 722,,"　別に霊感とかがある訳じゃない。
 　……でも、あたしには何かが感じられた。","I'm not psychic or anything. 
 ...But, the painting was making me feel something.",,,
@@ -358,4 +358,4 @@ I wonder if I've also... been poisoned by the cliche of mysteries on isolated is
 　だって、肖像画の中にいたのだから………。","However, this first meeting was preferable to what came next.
 Because she was still in the portrait......",,,
 766,ベアトリーチェ,"くっくっく、我が六軒島へよくぞ来た！　歓迎しようぞ、ニンゲン
-ども……！！","""{i}*cackle*cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/i}""",,,
+ども……！！","""{b}*cackle*cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/b}""",,,

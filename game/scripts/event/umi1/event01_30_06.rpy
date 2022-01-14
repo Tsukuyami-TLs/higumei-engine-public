@@ -755,5 +755,5 @@ label event01_30_06:
  with Dissolve(0.2)
  narrator 'Uh... what? What does that mean......?'
  narrator "Shion-san's smile was about 90%% reliable... and 10%% daring, with a bit of creepiness mixed in..."
- call chapter_end
+ call chapter_end from _call_chapter_end_6
  jump event01_30_07

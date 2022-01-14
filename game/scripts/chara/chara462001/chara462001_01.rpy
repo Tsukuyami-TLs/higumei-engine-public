@@ -214,5 +214,5 @@ label chara462001_01:
  dlanor "...Is she GONE? If she didn't have those huge jumps in emotion, she would be quite the outstanding character; HOWEVER..."
  show dlanor_v001 fuan_close at active
  dlanor "...I guess it can't be HELPED."
- call chapter_end
+ call chapter_end from _call_chapter_end_20
  jump chara462001_02

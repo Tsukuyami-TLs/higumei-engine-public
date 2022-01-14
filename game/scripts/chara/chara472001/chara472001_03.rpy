@@ -195,5 +195,5 @@ label chara472001_03:
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor 'YES. ...I am also looking forward to IT.'
- call chapter_end
+ call chapter_end from _call_chapter_end_22
  return

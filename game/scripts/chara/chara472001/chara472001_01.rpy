@@ -184,5 +184,5 @@ label chara472001_01:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  dlanor 'I do not MIND. Now THEN...'
- call chapter_end
+ call chapter_end from _call_chapter_end_14
  jump chara472001_02

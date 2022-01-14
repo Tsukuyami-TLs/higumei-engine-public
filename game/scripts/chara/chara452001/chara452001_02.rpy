@@ -226,5 +226,5 @@ label chara452001_02:
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
  rena 'Yup, do your best. Rena will be rooting for you, Nao-chan...!'
- call chapter_end
+ call chapter_end from _call_chapter_end_19
  jump chara452001_03

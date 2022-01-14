@@ -926,5 +926,5 @@ label event01_30_02:
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
  erika "This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?"
- call chapter_end
+ call chapter_end from _call_chapter_end_17
  jump event01_30_03

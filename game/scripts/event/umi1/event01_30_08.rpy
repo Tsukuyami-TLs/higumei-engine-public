@@ -379,10 +379,10 @@ label event01_30_08:
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
- call wipeout_routine
+ call wipeout_routine from _call_wipeout_routine_7
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg
- call wipein_routine
+ call wipein_routine from _call_wipein_routine_7
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
@@ -1003,5 +1003,5 @@ label event01_30_08:
  show erika_v001 futeki at active
  show nao_v002 sinken at inactive
  erika '...<Good>.'
- call chapter_end
+ call chapter_end from _call_chapter_end_13
  jump event01_30_09

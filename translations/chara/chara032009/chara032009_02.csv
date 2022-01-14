@@ -20,7 +20,7 @@ index,chara,jp,en,,
 むしろ守るための措置なのだろう。","Don't make such a sour face. The alterations on your memory were not meant to harm you, but measures taken to protect you.",,
 49,ベアトリーチェ,"此度のゲームはイレギュラーゆえ、
 ゲームマスターはそなたが妾に関係する記憶を
-保持し続けることを良しとしなかったのであろう。","Since the game was irregular, the Game Master figured it would be good idea to hold onto your memories relating to me.",,
+保持し続けることを良しとしなかったのであろう。","Since the game was irregular, the Game Master figured it would be a good idea to hold onto your memories relating to me.",,
 51,ベアトリーチェ,"ふむふむ…妾がここへそなたを招待したことで
 それは効果が消えたようだ。くっくくくくくくくくくく！","Hmm, yes... by inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!",from me -> by,
 53,Nao (Casual),"……。別に、あなたのことを忘れるように
@@ -29,7 +29,8 @@ index,chara,jp,en,,
 色々と頭を悩ませるものだったけど……
 あの程度の出来事であたしは変わらないわ。",The battle between Beatrice and Erika-san certainly gave me a headache... but it's not going to change who I am.,,
 58,ベアトリーチェ,"くっくっくっ……言うではないか。
-その臆せぬ態度……ますます気に入ったぞ。",*cackle*cackle*cackle*... you said it. That headstrong attitude... I'm liking it more and more. ,hesitant -> headstrong (meaning),
+その臆せぬ態度……ますます気に入ったぞ。","*cackle*cackle*cackle*... you said it. 
+That headstrong attitude... I'm liking it more and more. ",hesitant -> headstrong (meaning),
 60,Nao (Casual),"……ところで、今日ははいったい何の用？
 ひょっとして、また推理バトルでも始まるのかしら。","...Anyways, what could you possibly want from me today? Could it be that another logic battle is starting up?","*red, might be a duplicate",
 62,ベアトリーチェ,"案ずるな、そう警戒しなくても良い。
@@ -57,7 +58,7 @@ index,chara,jp,en,,
 謎の爆発事故が起こって……。","That's right, I just remembered...! Around October of 1986, a mysterious explosion occurred on one of the islands in the Izu Archipelago...",,
 88,Nao (Casual),"会合でそこを訪れていた、資産家の親族たちの
 多くが命を落としたという小さな島の名が、
-確か「六軒島」……っ……。","The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly ""Rokkenjima""... nn...",,
+確か「六軒島」……っ……。","The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly ""Rokkenjima""... ah...",,
 90,Nao (Casual),"……なるほど。あの島って、
 そういう因縁のある場所だったのね。","...I see. That island was a fateful place for them, wasn't it?",,
 98,Nao (Casual),"それで……あなたの作ったゲーム盤って、
@@ -88,7 +89,8 @@ index,chara,jp,en,,
 あなたの作ったゲーム盤上で行動しろってことね。","I see. You want me to move around on your game board from the perspective of this man, ""Battler"", right?","from ""I see. In this man ""Battler's"" perspective, you can move him atop of the gameboard, right?""",
 158,ベアトリーチェ,"そうだ。なかなか聡い上に素直なのは良いぞ。
 ……そして、菜央。そなたが着ているその制服は
-妾が契約を結んでいる武具のもの。","That's right. Being sharp and straight-forward is key. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me.",she isnt directly complimenting her here so i changed it back,
+妾が契約を結んでいる武具のもの。","That's right. Being sharp and straight-forward is key. 
+...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me.",she isnt directly complimenting her here so i changed it back,
 160,Nao (シエスタ),えっ……？,Huh...?,,
 162,ベアトリーチェ,"そう考えたら、そなたも我の武具になっている…
 というように考えられるとも思わないか？","Considering this, that would make you my furniture too... wouldn't it?",,
@@ -118,10 +120,12 @@ index,chara,jp,en,,
 試させてもらおうかしら。","But, well... alright. If that type of enjoyment exists, then I will have to give it a shot.",,
 189,ベアトリーチェ,"くっくっくっ……
 柔軟で素直な思考と姿勢は、ゲームを楽しむ上で
-欠かせぬ要素だ。なかなか悪くないぞ。",*cackle*cackle*cackle*... This open-minded and honest attitude is an essential element to enjoying the game. Not bad at all.,frank ->honest,
+欠かせぬ要素だ。なかなか悪くないぞ。","*cackle*cackle*cackle*... 
+This open-minded and honest attitude is an essential element to enjoying the game. Not bad at all.",frank ->honest,
 191,Nao (シエスタ),"褒め言葉として受け取っておくわ。
-えっと、この物語の先には普通に人が待っているのよね……っ！","I'll accept those words of praise. Umm, do people normally wait for the end of the story?",,
-197,Nao (シエスタ),えーっと……こほん。,"Uuum, *ahem*.",,
+えっと、この物語の先には普通に人が待っているのよね……っ！","I'll accept those words of praise. 
+Umm, so do people normally have wait for this story to begin...?",,
+197,Nao (シエスタ),えーっと……こほん。,Uuum... *ahem*.,,
 198,Nao (シエスタ),"鳳谷菜央……魔女ベアトリーチェの、
 ゲーム盤を観劇させていただきます。",Nao Houtani... rightfully spectating the witch Beatrice's game board.,,
 199,Nao (シエスタ),どうぞ、お手柔らかにお願い致します……。,"Please, if you would kindly begin...",,
