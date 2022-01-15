@@ -7,6 +7,7 @@ label chara032009_03:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -364,5 +365,5 @@ label chara032009_03:
  show nao_v002 smile_close at active
  show rika_v002 odoroki at inactive
  nao "But it's just a feeling, you know? *giggle*"
- call chapter_end from _call_chapter_end_18
+ call chapter_end
  return

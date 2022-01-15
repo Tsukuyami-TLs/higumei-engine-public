@@ -7,6 +7,7 @@ label chara032009_01:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -15,11 +16,11 @@ label chara032009_01:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_543_bird.wav'
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_5
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_351.png' as bg
  play music "<loop 2.36>audio/bgm/BGM_EVENT1.ogg"
- call wipein_routine from _call_wipein_routine_5
+ call wipein_routine
  show satoko_v002 fuan at mei_right
  show rika_v002 smile at mei_left
  with Dissolve(0.5)
@@ -228,5 +229,5 @@ label chara032009_01:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  nao 'Huh...?'
- call chapter_end from _call_chapter_end_10
+ call chapter_end
  jump chara032009_02

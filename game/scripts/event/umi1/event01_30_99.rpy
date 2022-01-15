@@ -7,6 +7,7 @@ label event01_30_99:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
@@ -224,15 +225,15 @@ label event01_30_99:
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_8
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_2221.png' as bg
- call wipein_routine from _call_wipein_routine_8
+ call wipein_routine
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_9
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_2251.png' as bg
- call wipein_routine from _call_wipein_routine_9
+ call wipein_routine
  show jessica_v001 smile at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile at active
@@ -780,5 +781,5 @@ label event01_30_99:
  nao "What's with this outfit!! It's tasteless!! It's pervy! It's the worstttttttt!!!"
  show black_cover onlayer curtain as fade with Dissolve(3.0)
  pause 1.5
- call chapter_end from _call_chapter_end_23
+ call chapter_end
  return

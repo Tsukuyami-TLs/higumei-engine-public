@@ -7,6 +7,7 @@ label chara032009_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -318,5 +319,5 @@ label chara032009_02:
  with Dissolve(0.08333333333333333)
  show beatrice_v001 futeki at updown_shake_transform,active
  beatrice "Kuhahhahhahhahha! A great scream that tugs on the heartstrings! Let's enjoy this as much as possibleeeeeeeee!!"
- call chapter_end from _call_chapter_end
+ call chapter_end
  jump chara032009_03

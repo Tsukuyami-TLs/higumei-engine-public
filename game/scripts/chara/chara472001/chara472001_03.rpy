@@ -7,6 +7,7 @@ label chara472001_03:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -195,5 +196,5 @@ label chara472001_03:
  show dlanor_v001 smile at active
  show erika_v001 normal at inactive
  dlanor 'YES. ...I am also looking forward to IT.'
- call chapter_end from _call_chapter_end_22
+ call chapter_end
  return

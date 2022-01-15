@@ -7,6 +7,7 @@ label chara462001_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -479,5 +480,5 @@ label chara462001_02:
  with Dissolve(0.08333333333333333)
  show satoko_v002 fuan at chara_shake_transform,active
  satoko "I-I'll bring out some cleaning tools right now! Please do not be so hasty! PLEASEEEE!"
- call chapter_end from _call_chapter_end_8
+ call chapter_end
  jump chara462001_03

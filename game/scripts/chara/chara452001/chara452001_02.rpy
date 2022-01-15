@@ -7,6 +7,7 @@ label chara452001_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -226,5 +227,5 @@ label chara452001_02:
  show rena_v002 smile at nod_transform,active
  show nao_v002 smile at inactive
  rena 'Yup, do your best. Rena will be rooting for you, Nao-chan...!'
- call chapter_end from _call_chapter_end_19
+ call chapter_end
  jump chara452001_03

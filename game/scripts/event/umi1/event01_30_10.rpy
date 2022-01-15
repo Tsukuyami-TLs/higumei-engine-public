@@ -7,6 +7,7 @@ label event01_30_10:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -354,15 +355,15 @@ label event01_30_10:
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_2
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_2271.png' as bg
- call wipein_routine from _call_wipein_routine_2
+ call wipein_routine
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_3
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg
- call wipein_routine from _call_wipein_routine_3
+ call wipein_routine
  play audio 'audio/sfx/SE_543_bird.wav'
  narrator "...I started to hear the sparrows chirping. If I slowly open my eyes...\nI'll be able to see the ceiling of my room being warmed up by the morning sun......"
  narrator "Today, I'm parting ways with Rokkenjima, huh...?"
@@ -472,8 +473,8 @@ label event01_30_10:
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_408_run.wav'
  narrator 'With an intrepid laugh, Erika-san burst into our room looking like a zombie out of a horror movie.'
- call wipeout_routine from _call_wipeout_routine_4
- call wipein_routine from _call_wipein_routine_4
+ call wipeout_routine
+ call wipein_routine
  pause 2.0
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
@@ -845,5 +846,5 @@ label event01_30_10:
  narrator "Aah... it's getting more and more clear. For me, my stay on Rokkenjima has been a very mysterious three days and two nights, involving witches, magic circles, and puzzles to solve."
  narrator 'But...'
  narrator 'As I was fearing magic circles and being concerned with baffling mysteries... a {i}preposterous secret feud{/i} between the girls began to ensue.'
- call chapter_end from _call_chapter_end_7
+ call chapter_end
  jump event01_30_99

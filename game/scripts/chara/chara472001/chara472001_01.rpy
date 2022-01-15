@@ -7,6 +7,7 @@ label chara472001_01:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -184,5 +185,5 @@ label chara472001_01:
  with Dissolve(0.5)
  show dlanor_v001 normal_close at active
  dlanor 'I do not MIND. Now THEN...'
- call chapter_end from _call_chapter_end_14
+ call chapter_end
  jump chara472001_02

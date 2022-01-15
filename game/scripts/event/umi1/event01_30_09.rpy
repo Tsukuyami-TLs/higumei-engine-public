@@ -7,6 +7,7 @@ label event01_30_09:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -1049,5 +1050,5 @@ label event01_30_09:
  show nao_v002 normal at active
  show erika_v001 sinken at inactive
  nao 'So, maybe that summoning circle...'
- call chapter_end from _call_chapter_end_9
+ call chapter_end
  jump event01_30_10

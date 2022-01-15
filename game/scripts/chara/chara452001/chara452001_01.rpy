@@ -7,6 +7,7 @@ label chara452001_01:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -227,5 +228,5 @@ label chara452001_01:
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'Hmm... it was nothing; please forget it. It seems I am getting a little sentimental.'
- call chapter_end from _call_chapter_end_2
+ call chapter_end
  jump chara452001_02

@@ -7,6 +7,7 @@ label event01_30_01:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -1038,5 +1039,5 @@ label event01_30_01:
  pause 1.0
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  beatrice '"{b}*cackle*cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/b}"'
- call chapter_end from _call_chapter_end_3
+ call chapter_end
  jump event01_30_02

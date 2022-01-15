@@ -7,6 +7,7 @@ label chara472001_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -411,5 +412,5 @@ label chara472001_02:
  show nao_v001 odoroki at chara_shake_transform,active
  show beatrice_v001 smile at inactive
  nao 'Eh, aahhh...!!'
- call chapter_end from _call_chapter_end_15
+ call chapter_end
  jump chara472001_03

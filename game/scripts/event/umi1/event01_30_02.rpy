@@ -7,6 +7,7 @@ label event01_30_02:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -926,5 +927,5 @@ label event01_30_02:
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
  erika "This is my birthday present for Beatrice. See? I do wonder if she'll come to like it?"
- call chapter_end from _call_chapter_end_17
+ call chapter_end
  jump event01_30_03

@@ -7,6 +7,7 @@ label event01_30_07:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -341,15 +342,15 @@ label event01_30_07:
  hide fade onlayer curtain
  with Dissolve(1.0)
  pause 2.0
- call wipeout_routine from _call_wipeout_routine
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_2271.png' as bg
- call wipein_routine from _call_wipein_routine
+ call wipein_routine
  pause 2.0
- call wipeout_routine from _call_wipeout_routine_1
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_2221.png' as bg
- call wipein_routine from _call_wipein_routine_1
+ call wipein_routine
  narrator 'After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.'
  narrator "Finally, I had the chance to embroider to my heart's content, surrounded by the wonderful roses in the arbor."
  narrator 'The Sonozaki sisters seemed to enjoy their Detective Wanyan cosplay photo shoot that afternoon.'
@@ -956,5 +957,5 @@ label event01_30_07:
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
  narrator "I had never seen such a look on Erika-san's face. Her eyes widened, and her expression was one of both shock and dumbfoundedness."
- call chapter_end from _call_chapter_end_4
+ call chapter_end
  jump event01_30_08

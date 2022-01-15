@@ -7,6 +7,7 @@ label event01_30_00:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  narrator 'I should have never come to this island.'
@@ -607,5 +608,5 @@ label event01_30_00:
  show erika_v001 fuan at active
  show dlanor_v001 normal_close at inactive
  erika 'Well, you {i}were{/i} my motive in putting my leg in front of that kid.'
- call chapter_end from _call_chapter_end_16
+ call chapter_end
  jump event01_30_01

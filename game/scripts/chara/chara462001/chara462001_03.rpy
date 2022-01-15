@@ -7,6 +7,7 @@ label chara462001_03:
  camera:
   anchor (0.5, 0.5)
   pos (960, 540)
+  matrixcolor IdentityMatrix()
  scene
  stop music
  stop sound
@@ -15,11 +16,11 @@ label chara462001_03:
  with Dissolve(1.0)
  play audio 'audio/sfx/SE_501_crow.wav'
  pause 1.0
- call wipeout_routine from _call_wipeout_routine_6
+ call wipeout_routine
  stop sound
  show expression 'images/bg/AdvBg_782.png' as bg
  play music "<loop 0>audio/bgm/BGM_QUEST5_COLLAB2.ogg"
- call wipein_routine from _call_wipein_routine_6
+ call wipein_routine
  show erika_v001 sinken_close at mei_center
  with Dissolve(0.5)
  show erika_v001 sinken_close at active
@@ -323,5 +324,5 @@ label chara462001_03:
  beatrice 'Hm, I cannot really say that Erika is blessed, but...'
  show beatrice_v001 smile at active
  beatrice 'Either way, it seems she was blessed with a friend.'
- call chapter_end from _call_chapter_end_11
+ call chapter_end
  return
