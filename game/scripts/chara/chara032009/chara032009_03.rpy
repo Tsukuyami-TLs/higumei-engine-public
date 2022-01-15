@@ -337,7 +337,7 @@ label chara032009_03:
  nao '...Hey, Satoko. If it takes you a long time to write your report, could I go check out a book maybe?'
  show satoko_v002 fuan at active
  show nao_v002 normal at inactive
- satoko 'Instead of saying the story "was brought to an end", the saying "has incidentally reached the end" would be more appropriate.'
+ satoko 'I was the one following along with you, but sure... \nWas there a book you wanted to read?'
  show nao_v002 smile at nod_transform,active
  show satoko_v002 fuan at inactive
  nao 'Yes, I believe I would like to read a mystery.'
