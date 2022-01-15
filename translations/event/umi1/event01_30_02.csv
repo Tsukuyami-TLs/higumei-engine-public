@@ -4,10 +4,10 @@ index,chara,jp,en,Notes
 か……？","After meals, we usually prepare either tea or coffee. Which would you prefer?",
 35,Mion (Casual),"口の中が甘ったるくなったからね！　ここは梅塩昆布茶でキュッと
 締めたいんだけど、あるかなぁ？",The taste inside my mouth is so sweet! Some salted plum kelp tea would wrap things up nicely. You got that here?,"from ""So I'd like to finish things up with a salted plum kelp tea, do you have it?"
-41,Nao (Casual),て、天衣無縫、ここに極まれりだわ……。,T-This is perfection at its finest...,Not sure how to translate this one yet.
-43,詩音 (Casual),ウチの姉が本当にすみません。田舎者なもので……。,Sorry about my older sister. She's quite a country bumpkin...,
+41,Nao (Casual),て、天衣無縫、ここに極まれりだわ……。,S-Sophistication is rare with this one...,Not sure how to translate this one yet.
+43,詩音 (Casual),ウチの姉が本当にすみません。田舎者なもので……。,Sorry about my older sister. She's a country bumpkin...,
 49,嘉音,"……お屋敷の方に準備があるかもしれません。お時間をいただけれ
-ば、確認いたします。","... Maybe it is available at the mansion. If you allow me some time, I can go check.",
+ば、確認いたします。","...Maybe it is available at the mansion. If you allow me some time, I can go check.",
 52,Mion (Casual),あ、ホント？！　ありがと！　じゃあ、お願いしちゃおっかなぁ。,"Ah, really!? Thanks! I'll be counting on you, then.",
 54,嘉音,……確か、熊沢さんが私物で鯖昆布茶を持っていたような……。,"...If I'm not wrong, Kumasawa-san had mackerel kelp tea of her own...",
 60,ヱリカ,"魅音さん、なかなかやりますね。タダで泊まらせてもらう分、きっ
@@ -30,7 +30,7 @@ index,chara,jp,en,Notes
 90,Mion (Casual),"どんな無茶ぶりにも、淀みなく、清流のように対応するのがプロ
 フェッショナルってもんなのさ！","No matter how unreasonable of a situation it is, working in a consistent flow without making a single mistake is true professionalism!","from ""behaving without showing any waver is what a true professional is!"
 94,Nao (Casual),"大事なのは、マニュアル外のことが起こっても、涼やかに対応でき
-ることって訳ね……。","What's important is being able to handle that situation smoothly, even if it's something that was not written in the manual...",
+ることって訳ね……。","What's important is being able to handle the situation smoothly, even if it's something not written in the manual...",
 98,ヱリカ,臨機応変。あるいは、さも想定内の事態であるかのように振舞う。,"Being flexible. In other words, acting as if that itself is the expectation.","from ""Putting it in other words, to act as if that too is something that's under your expectations."
 100,ヱリカ,ある種のハッタリが大事、ということでもありますね。,"It also means that bluffing can be important, to some extent.",
 104,詩音 (Casual),"確かに、ベテラン感のある店員さんだと、何があっても安心感があ
@@ -60,7 +60,7 @@ index,chara,jp,en,Notes
 141,,"　この頃には、ミステリーから未解決事件、都市伝説と話題は移
 り、最後にはオカルトにまで至っていた……。","By then, the topic had went from unresolved cases to urban legends, and at the very end, we even ended up talking about the occult.",
 145,詩音 (Casual),"確かに一理ありますね。解決できればミステリーだけれど、解決で
-きないなら、オカルトになることもありえる。","That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult.",
+きないなら、オカルトになることもありえる。","That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult.",chapter 4
 147,Mion (Casual),"太古の昔から、神の奇跡とされていたものが、次々に科学で解明さ
 れたからね。","Since ancient times, things once assumed to be divine miracles have successfully been explained through science.",
 149,Mion (Casual),"神の奇跡は解明できない。イコール、解明できなければ神の奇跡と
@@ -79,7 +79,7 @@ index,chara,jp,en,Notes
 　まぁ、確かに、オヤシロさまの祟りなんてフレーズ、#p雛見沢#sひなみざわ#rの人
 以外には、ちょっと面白そうに聞こえるかもしれない……。","Oh, I'll bite. Well, for someone not from Hinamizawa, hearing the phrase ""Oyashiro-sama's curse"" clearly might be a bit silly...",
 180,ヱリカ,"……毎年、村の祭の日に、１人が死に、１人が行方不明にな
-る、……ですか。","... Every year, on the day of the village festival, one person dies, and then one person disappears... right?",
+る、……ですか。","...Every year, on the day of the village festival, one person dies, and then one person disappears... right?",
 183,朱志香,"何それ、めちゃめちゃ怖ぇぜ……？！　足音が付けてくるなんて、
 私、今夜、ひとりでトイレ行けねぇぜぇ……！！","What the hell, that's mad creepy...?! I won't {i}bother{/i} going to the bathroom alone tonight thinking about footsteps following me like that...!!",
 189,Mion (Casual),"そもそも園崎の園という字は……、人間の内臓を示していて、崎と
@@ -109,7 +109,7 @@ index,chara,jp,en,Notes
 230,嘉音,……お嬢様。よろしいのですか？,...My lady. Are you fine with saying that?,
 232,朱志香,ぇ、あ、えーと……。,"Eh, ah, umm...",
 234,朱志香,"私がここでこんな話をしたってのは、絶対に内緒で頼むぜ？　母さ
-んに知られたら怒られるぜ……。","The conversation that we had here absolutely stays between us, alright? Mother would be terrifying if she found out. ",
+んに知られたら怒られるぜ……。","The conversation that we had here absolutely stays between us, alright? Mom would be terrifying if she found out. ",
 239,ヱリカ,くすくすくす。,*giggle*giggle*giggle*.,
 242,,"　音楽室に、ベートーベンの絵があるだけで、怪談が生まれるの
 だ。
@@ -172,7 +172,7 @@ index,chara,jp,en,Notes
 351,,"　……つまりは、屋敷も、この島も、……真の主は、黄金の魔女、
 ベアトリーチェなのではないか。","...This means that the mansion and the island's... real master... is the Golden Witch, Beatrice, isn't it?",
 355,朱志香,"夜。……不思議な人影が、屋敷の中を徘徊しているって噂は、……
-使用人の間では、結構、有名だったんだ。……な？",At night... the rumor of a mysterious figure wandering around inside the mansion while the servants are working has gotten pretty popular. ...Right?,
+使用人の間では、結構、有名だったんだ。……な？",The rumor... of a mysterious figure wandering around inside the mansion while the servants are working at night has gotten pretty popular. ...Right?,
 357,嘉音,………はい。,...Yes.,
 359,嘉音,"もし。……夜の屋敷の中で、不思議な人影を見ても、……決して後
 を追ったり、ましてや、声を掛けてもならないと。","If... in the middle of the night in the mansion, you do see this mysterious figure... never chase after it, let alone call after it.",
@@ -300,7 +300,7 @@ index,chara,jp,en,Notes
 565,朱志香,そ、そうだね。嘉音くん、ありがと。,"Th-that's right. Thanks, Kanon-kun.",
 567,朱志香,じゃあ、私もそろそろ行くよ。,"I'm gonna head out in a bit, then.",
 569,朱志香,"菜央ちゃん、ごめんね？　つまらない話だったよな。忘れて欲しい
-ぜっ。……じゃ、じゃあな！","Nao-chan, can you forgive me? It was a boring conversation. I want you to forget it. ...All right, see ya!",
+ぜっ。……じゃ、じゃあな！","Nao-chan, can you forgive me? It was a dumb conversation. I want you to forget it. ...Alright, see ya!",
 573,,"　朱志香さんたちは、気まずそうにしながら退出していく。
 　ヱリカさんも、肩を竦めながら立ち上がる。",Jessica-san and Kanon-san walked off with perturbed looks. Erika-san simply stood there while shrugging her shoulders.,
 576,ヱリカ,私は部屋へ戻ろうと思いますが、皆さんは？,"I do think I will return to my room, but what will everyone else do?",
@@ -333,7 +333,8 @@ index,chara,jp,en,Notes
 て。",I can still try at it... I told you there's still time before I have to apologize.,
 622,,"　あたしたち４人は、ぞろぞろと２階へあがる。
 　そして、それぞれの部屋の施錠を、それぞれの鍵で開き、入っ
-た。","The four of us went up to the second floor. And so, we unlocked each of our rooms with our respective keys and entered.",
+た。","The four of us went up to the second floor. 
+Then, we unlocked each of our rooms with our respective keys and entered.",
 626,,"　詩音さんは、トランクから、たくさんの衣装を取り出してベッド
 の上に広げ始める。
 　撮影の時に使うお手製の衣装の一部が、まだ未完成らしい。",Shion-san began spreading clothing garments from the trunk onto the beds in bunches. It seems like some of the garments haven't been finished in time for the photo shoots.,

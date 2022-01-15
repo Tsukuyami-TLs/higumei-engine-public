@@ -16,7 +16,7 @@ index,chara,jp,en,,3 lines remaining,
 62,ヱリカ,それでは、お受けいたします。,Very well. I will take this chance to state this.,,"from ""If that is the case, please accept this.",
 64,ヱリカ,"詩音さんには、私の部屋に侵入したことを示す、明白な証拠が残っ
 ているからです！",There is clear evidence that Shion-san broke into my room!,,,
-78,詩音 (バスタオル),え？！　な、何ですか、一体……！,Huh? Wha-what on earth...!?,,,
+78,詩音 (バスタオル),え？！　な、何ですか、一体……！,Huh? W-What on earth...!?,,,
 80,,"　自分の部屋に魔法陣が現れて、
 ヱリカさんは恐怖に震えているものだとばかり思っていた。","Since a magic circle had just appeared in her room, I thought Erika-san would have been shaking in fear.",,,
 81,,"　その彼女が突然、罠にかかったな馬鹿めッ、と書いてあるかのよ
@@ -168,7 +168,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 398,ヱリカ,"大丈夫です、我が主……！　私の推理は完璧ですっ。あぁあぁあぁ
 だから怒らないで怒らないで……。","It's fine, my master...! My reasoning is flawless. Aaaaaahhh, so don't get mad, don't get mad...",,,
 403,ベアトリーチェ,次の手番は、菜央であるな。進めても問題はなかろう？,"The next turn is Nao's. You probably won't have any issues going forward, right?",,"from ""What line of reasoning will you put forward?",
-405,ドラノール,どうぞ、菜央。貴女の手番デス。,"Now, NAO. It is your TURN.",,,
+405,ドラノール,どうぞ、菜央。貴女の手番デス。,"Please, NAO. It is your TURN.",,,
 410,Nao (Casual),えっと、ＣＯします。,"Um, I'd like to come out with some information.",,,
 418,ヱリカ,はあ……ッ？！？！,Huh...?!,,,
 420,ヱリカ,"ただのいけ好かない、負けず嫌い以外に何の取り柄もセンスもない
@@ -178,9 +178,9 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 言っても誰も信じてくれない不思議な経験をしてきました。","I am Nao Houtani. ...I consider myself a normal human... but the truth is, I've had strange experiences that nobody would believe were real if I were to mention them.",,tell -> mention,
 432,Nao (Casual),"あたしは実際に、神や『ツクヤミ』といった超常の存在と出会い、
 この世がニンゲンの考える世界だけで構成されてはいないことを、
-身をもって体験しています。","I have physically encountered paranormal phenomena such as gods and ""Tsukuyami"", and know firsthand that this world doesn't just contain what Humans think it does.",not sure on second half here,added firsthand,
+身をもって体験しています。","I have physically encountered paranormal phenomena such as gods and {b}Tsukuyami{/b}, and know firsthand that this world doesn't just contain what Humans think it does.",not sure on second half here,added firsthand,
 434,ベアトリーチェ,"……なんと……。そなたは……航海者の魔女だというの
-か……ッ？！",...What the... are you... a Voyager witch...!?,,,
+か……ッ？！",...What the... are you... a Voyager Witch...!?,,,
 443,ヱリカ,"んなワケねぇですぅ！！！　お前はちっぽけな、居てもいなくても
 いい塵芥のガキンチョでしょおがあぁああ！！","There's no WAY that's truee!!! You're just a teensy, {i}tiny{/i}, little insignificant DUMPSTER DIVEEEEERRRRRRRR!!!!!",unsure of second sentance.,did some stuffs,
 451,Nao (Casual),"ドラノールさん。嘘を吐く気はありません。
@@ -190,7 +190,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 460,ドラノール,"……わ、わかりマシタ。……それには、貴女の手札を拝見させてい
 ただかなくてはなりマセン……。","...I-I UNDERSTAND. ...However, in order to do that, I will need to see your HAND.",,,
 462,Nao (Casual),手札って？,My hand?,,,
-467,ベアトリーチェ,……そなたのカケラを、ドラノールが見たがっている。,...Dlanor wants to see your Fragment.,,,
+467,ベアトリーチェ,……そなたのカケラを、ドラノールが見たがっている。,...Dlanor wants to see your Fragments.,,,
 472,ドラノール,"もちろん、貴女の赤き真実にかかわる範囲でしか拝見はしマセン。
 また、それ以外に知った事実も、天界大法院の名にかけて、生涯の
 守秘義務を誓いマス。","Of course, I will only need to observe that which is involved with your red TRUTH. Furthermore, it is through my oath of confidentiality with the Great Court of Heaven that I shall never reveal any other truths I have LEARNED.",wording. dlanor only needs to see her fragment to the degree that concerns her red truth is what she is saying.,"from  ""Of course, I will only need to see the parts having to do with your red truth. In addition, I swear an oath of confidentiality to the great court of heaven that I will never reveal any other truths I have learned.",
@@ -210,7 +210,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 495,ドラノール,"#ff0000……鳳谷菜央が、人ならざる存在との接触や交流を経て来た#r
 #ff0000事実を、確認しマシタ。#r",{umi_red}I have confirmed that Nao Houtani has met and interacted with inhuman BEINGS.{/umi_red},,,
 503,ヱリカ,"あ、あんた……ッ、何者なんですかッ！！　フェリーでたまたま出
-会っただけの、ガキンチョだと思ってたのに……ッ？！",W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...?!,,,
+会っただけの、ガキンチョだと思ってたのに……ッ？！",W-... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...?!,,,
 511,ベアトリーチェ,"紅茶を飲むならバケモノとに限る、は……、そなたの主の言葉で
 あったか。",Didn't your master once say that black tea is best enjoyed with monsters?,,,
 513,ベアトリーチェ,"……なるほど。魔女がゲーム盤を広げれば、魔女かバケモノ、ある
@@ -242,7 +242,7 @@ YOU'D BETTER SAY IT IN REEEEEEEEEEEEDDDDDDD!!!!!! ",,madge,
 586,ヱリカ,…………………ぇよ……。,...............ay...,,no -> ay,
 588,ドラノール,……聞こえませんデシタ。もう一度お願いしマス。,...I did not hear THAT. Please repeat YOURSELF.,,,
 597,ヱリカ,"ねぇよ……、ねぇよねぇよ全然ねぇよおッ。詩音が絶対絶対に犯人
-なのに、何で証拠が……証拠がねぇ…よオ……ッ！！","No way... nowaynowaynowaaaaaaaaayy! Shion is absolutely, positively, certainly guilty... so why... so why is there no evidence...anywhere?!?!",,inflection editz,
+なのに、何で証拠が……証拠がねぇ…よオ……ッ！！","No way... nowaynowaynowaaaaaaaaayy! Shion is absolutely, positively, certainly guilty... so why... so why is there no evidence... anywhere?!?!",,inflection editz,
 602,,"　ヱリカさんは、ドアノブの蛍光塗料の仕掛けに
 オールインしていたのだろう。",It seemed that Erika-san went all in on her gambit with the fluorescent paint on the doorknob.,,,
 603,,"　唯一にして究極のはずだった切り札が失われ、……テンカウント

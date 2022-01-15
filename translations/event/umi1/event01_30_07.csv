@@ -45,7 +45,7 @@ index,chara,jp,en,,
 127,詩音 (Casual),くす。ヱリカさんって、面白い人ですね。,"*giggle*. Erika-san's an interesting person, huh?",,
 130,,"　あたしは、面白くない人でいいから、のんびりと刺繍をさせてく
 れる同宿者がよかったわ……。",I think I would've preferred an uninteresting roommate who would let me relax and embroider instead.,,
-144,ベアトリーチェ,そなたが土産に持ってきた#pコ#s・#r#pレ#s・#rは、なかなかに面白いではないか。,"{i}What you brought as a souvenir{/i} is very intriguing, isn't it?",,
+144,ベアトリーチェ,そなたが土産に持ってきた#pコ#s・#r#pレ#s・#rは、なかなかに面白いではないか。,"{b}What you brought as a souvenir{/b} is very intriguing, isn't it?",,
 146,ヱリカ,"貴女が戦人さんとイチャついてた頃の難易度に比べれば、子供騙し
 ではありますが。","It's mere child's play compared to the difficulty you had while flirting with Battler-san, though.",,
 150,ドラノール,"……さすがは名探偵デス。状況を臨機応変に利用し、謎を生み出し
@@ -99,9 +99,9 @@ index,chara,jp,en,,
 253,ドラノール,"く、苦しいデス……。私の首を絞めても、ヒントは出ないのデ
 ス……。",Th-This is DIFFICULT... This hint has only served to restrain ME...,,
 257,ヱリカ,"うっふっふっふ。ベアトリーチェを、謎解きでいじめられるなん
-て、本当に役得です♪",*giggle*giggle* It really is a treat to dangle riddles in front of Beatrice like this♪,,
+て、本当に役得です♪",*giggle*giggle*. It really is a treat to dangle riddles in front of Beatrice like this♪,,
 259,ヱリカ,"せいぜい頑張ってくださいね？　#pア#s・#r#pイ#s・#r#pツ#s・#r#pら#s・#rは、初見で謎を全て、見
-抜きやがりましたよ……？","Keep doing your best, won't you? Hadn't {b}they{/b} seen through everything on their first try...?",,
+抜きやがりましたよ……？","Keep doing your best, won't you? Hadn't {b}they{/b} seen through everything on their first look...?",,
 276,,"　お昼の後は、ヱリカさんはひとりになりたいと言って、どこかに
 散策に行ってしまった。","After lunch, Erika-san said she wanted to be alone and went on a walk somewhere.",,
 277,,"　こうして、あたしはついにようやく、
@@ -139,7 +139,7 @@ index,chara,jp,en,,
 336,詩音 (水着),"お、お手伝いの余地があるって評価されてぁああぁあ、いやあぁ
 あぁん、恥ずかしいぃいいぃ！！","B-But if you start helping, you'll see iiiiiittttttt!!! Ewwwww, it's sooo embarrassiiiiiiiinggggg!!!!","from ""Oh my, the verdict is there's room for help? How embarassing!",
 341,,"　屋外でさんざん、セクシーなコスプレ撮影をしておいて、裏側の
-処理を見られたくらいで照れるなんて、よくわからないわ……。",I seriously don't know how you can be embarrassed at people looking at the inner lining of your outfit when you've been doing sexy cosplay photo shoots outdoors...,""" """,
+処理を見られたくらいで照れるなんて、よくわからないわ……。",I seriously don't know how you can be embarrassed by people looking at the inner lining of your outfit when you've been doing sexy cosplay photo shoots outdoors...,""" """,
 342,,"　まぁ、そんな話をしながら、あたしたちはゲストハウスに戻るの
 だった。",We chatted on as we returned to the guesthouse.,,
 345,Nao (Casual),２泊３日なんて、あっという間ですね。,"Three days and two nights went by in the blink of an eye, huh?",,
@@ -164,7 +164,7 @@ index,chara,jp,en,,
 399,Mion (探偵),"知らないなら、敢えて詳細は伏せるけど。……これ、実はささやか
 な細工がしてあるんだよ。","If you don't get it, you don't need to know the details... but there's actually a tiny device I set here.",this is a neat little thing. -> there's actually a tiny device I set here.,
 401,Nao (Casual),え？　どういうことですか？,Huh? What do you mean?,,
-405,詩音 (水着),詳しくは言えませんけれど。細工を外さないで鍵を挿し込むと、シリンダーが詰まって壊れるんです。,"I can't go into specifics, but if you insert the key while it's inside, the cylinder will jam and break.",something else is -> it's,
+405,詩音 (水着),詳しくは言えませんけれど。細工を外さないで鍵を挿し込むと、シリンダーが詰まって壊れるんです。,"I can't go into specifics, but if you insert a key while it's inside, the cylinder will jam and break.",something else is -> it's,
 407,Mion (探偵),"傍目にはわからないよ。つまり、細工をした本人が細工を外すま
 で、絶対にこの扉は開かないということ。","An onlooker wouldn't realize it's there. Basically, until the person who created the device takes it out, the door will absolutely not open.","from ""You can't really see it. In short, if this trick is used on the the door, then absolutely no one can open it.",
 409,詩音 (水着),"仮に、細工に気付いたところで、外そうとすればそれ、形が変わっ
@@ -210,7 +210,7 @@ index,chara,jp,en,,
 たって、書いておこう……。",I think I'll write in the questionnaire that this island would be better off reserved...,survey -> questionnaire,
 480,Nao (Casual),……ヱリカさんも、自分の部屋の鍵穴、確認するんですね。,"...Erika-san, did you also inspect the lock to your room?",,
 482,ヱリカ,"お昼まで錠を忘れていた不用心な私が、今頃になって用心深くする
-というのも滑稽な話ですけれどね。","It's funny. I carelessly left my door unlocked until noon, and now I'm being cautious about yours.",check,"this is fine, maybe could be tailored to erika more"
+というのも滑稽な話ですけれどね。","I do find it funny. I carelessly left my door unlocked until noon, and now I'm being cautious about yours.",check,"this is fine, maybe could be tailored to erika more"
 486,,いやに慎重なヱリカさんを残して、あたしたちは客室に入る。,"Leaving behind that terribly cautious Erika-san, the rest of us entered our room.",,
 493,Mion (探偵),はーー！　やっとこれ脱げるねぇ！,"Haaaah! Finally, I can take this off!",,
 495,詩音 (水着),くぅ～疲れました！　これにて撮影旅行も完結です！,"Aaahhh, I'm so tired! That does it for our photography trip!",,
@@ -229,7 +229,7 @@ index,chara,jp,en,,
 520,,"　念入りに、枕をひっくり返してみたり、ベッドの下を覗きこんだ
 りと調べてみたが、おかしな悪戯はなかった。",I carefully turned over my pillow and looked under my bed. No sign of any ridiculous pranks.,,
 523,Nao (Casual),………最後の夜くらい、……ゆっくりと眠れそうだわ……。,...I think I can sleep in peace... on this final night...,,
-529,ヱリカ,キャアアアアアアァアァアァァアァァ……！！！,KYAAAAAAAA...!!!,,
+529,ヱリカ,キャアアアアアアァアァアァァアァァ……！！！,KYAAAAAAAAAAAAAAA...!!!,,
 531,,"　それは紛れもなく隣室のヱリカの声だった。
 　あまり厚くないとはいえ、壁越しにもわかるほどの……、悲鳴
 だった。","That was undoubtedly Erika's voice coming from the next room. The walls aren't very thick, so it was easy to realize... that it was a scream.","from ""That scream could be heard through the walls, thin as they were.",
@@ -250,7 +250,7 @@ index,chara,jp,en,,
 　これは突っ込んだら負けか……。","Wait a minute, she just ran out of the bathroom with a towel! Why does she have a stun gun...?! I give up...",,
 591,ヱリカ,……わ、私のベッドに……ベッドに…………。,...M-My bed... my bed has...,,
 596,Mion (バスタオル),くっくっく。……これはこれは、……やられたねぇ？,"*cackle*cackle* ...Well, well, well... did they get ya?",what have we here -> did they get ya,
-598,Nao (Casual),これ……、あたしのと同じ魔法陣……。,This is... the same magic circle I saw...,,
+598,Nao (Casual),これ……、あたしのと同じ魔法陣……。,This is... the same magic circle I saw on mine...,,
 603,詩音 (バスタオル),ここにもシャワー室にも、誰もいません。,There's no one in here or in the bathroom.,,
 608,ヱリカ,こんな……こんなことって、……ひぃ……ひぃ………。,This is... this is... hic... hic......,,
 610,,あのヱリカさんが取り乱すなんて……。,Erika-san was visibly upset.,,

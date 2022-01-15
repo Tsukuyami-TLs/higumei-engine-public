@@ -56,7 +56,7 @@ I wonder what he thought when he unraveled it...?",,
 　あの時は、突然の笑いに、魔女が憑依したのかと絶句してしまっ
 た。","A few moments after we saw the magic circle, Mion-san started to roar with laughter. It was so sudden, I was speechless and feared that the witch had possessed her.",,
 91,,"　だが違う。恐らく魅音さんは、魔女の#p祟#sたた#rりを装った悪戯であるこ
-とを、瞬時に見抜いたのだ。","....But thinking about it again, Mion-san probably understood in an instant that it was just a prank mimicking a curse from the witch.",,
+とを、瞬時に見抜いたのだ。","...But thinking about it again, Mion-san probably understood in an instant that it was just a prank mimicking a curse from the witch.",,
 92,,"　……当然だ。魔女も魔法もある訳がない。ならば、誰かの悪戯で
 ある以外に考えつくことはない。","...But of course, there is no such thing as witches or magic. There's no way to think of it as other than a prank being done by a human.",,
 93,,"　あたしは血で描いた魔法陣だと勝手に思い込んだけれど。魅音さ
@@ -80,7 +80,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 思って、怯えてしまっていた。","Meanwhile, I was frightened at the thought that it was really done by a witch...",,
 101,,"　……いや、でも。あんな性質の悪い悪戯をされたら、誰だって絶
 句して当然だと思うけれど……。","...Although, I think anyone would be at a loss for words if they were subject to a prank like this.",,
-102,,……………うーーん……。,......Yeaaaah...,,
+102,,……………うーーん……。,......Hmmmm...,,
 105,Nao (Casual),"……あたしも二人を見習って、もっと打たれ強くならないといけな
 いかしら……。",......Maybe I should learn to be as stoic like those two...,,
 107,,だから。その怯えを魔女に付け込まれて、あんな夢を見る……。,"Because of that fear, I let the witch impose on my dreams...",,
@@ -144,7 +144,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 233,,"　最初は、魔女の夢を見たとの話に、昨夜のことを怖がり過ぎだ
 よ～と、ちょっと小馬鹿にもされた。","At first, she made fun of me a little, saying that I was too scared from last night's magic circle incident when I told them that I had dreamed about witches.",,
 234,,"　……いやいや、魅音さん。あの魔法陣は、普通のセンスの人な
-ら、引っ繰り返って当然です。","...No, Mion-san. That magic circle was something that would astonish any person with normal tastes.","Changed to ""Ordinary taste"" instead of ""Ordinary mind""",
+ら、引っ繰り返って当然です。","...No, Mion-san. That magic circle was something that would astonish any person with normal taste.","Changed to ""Ordinary taste"" instead of ""Ordinary mind""",
 235,,"　だが、魔女とのゲームの話になり、青と赤の、２つの真実を使っ
 た戦いの話になると、魅音さんは目付きを鋭くして話に聞き入って
 くれた……。","But when we talked about the game with the witch and the battle with the two truths, blue and red, Mion-san's eyes sharpened, and she started to listen to me more carefully.",,
@@ -167,7 +167,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 262,Mion (Casual),"間接的の範囲が、かなり広いからね。……紗音さんの入室行為をト
 リックに絡めようとしたら、間接的って部分に抵触しちゃうよ？","The definition of ""indirectly"" is pretty huge. If you include Shannon-san entering the room as part of the trick, you violate the indirect part, right?",,
 264,Mion (Casual),というか、元々、おじさんは紗音さんを疑ってなんかないし。,"I mean, this ol' man never suspected Shannon-san in the first place.",,
-268,Nao (Casual),え？　何かその根拠、あるんですか？,What? Do you have a basis for that?,,
+268,Nao (Casual),え？　何かその根拠、あるんですか？,What? Do you have a basis behind that?,,
 271,Mion (Casual),やらなさそうだから。,She just doesn't look like she'd do it.,,
 274,,"　ババーン。魅音さん空間だったら、何の根拠もなく赤き真実で言
 えてしまいそうだ……。","Boom. If it were Mion-san's place, she could say it in red, no basis required.",,
@@ -198,7 +198,7 @@ Last night, both Mion-san and Shion-san didn't give any ideas.",conclusions -> i
 315,詩音 (Casual),"#ff0000そなたたちが施錠してから、再び開錠するまでの間、紗音を除い#r
 #ff0000て、ゲストハウス２階に訪れた者はいない、#r","{umi_red}No one visited the second floor of the guesthouse from the time you locked the door until you opened it again, except for Shannon.{/umi_red}",Chapter 4 D165,
 317,詩音 (Casual),でしたよね？,"...was what the witch said, wasn't it?",,
-319,Mion (Casual),訪れた者はいなくても、待機していた者はいるかもねぇ？,"Maybe no one went up, but someone could have been waiting in the room, right?",,
+319,Mion (Casual),訪れた者はいなくても、待機していた者はいるかもねぇ？,"Maybe no one went up, but someone could have been {i}waiting{/i} in the room, right?",,
 324,Nao (Casual),え、待機………。,"Huh, waiting...?",,
 329,詩音 (Casual),施錠から開錠までの間、２階に行っちゃいけない訳ですよね？,"From the time the room was locked until it was unlocked, the red doesn't allow going upstairs, right?","from ""You can't go upstairs between locking and unlocking the door, right?",
 331,Mion (Casual),それ以前に、２階に行っちゃってればいい。,But someone could have gone upstairs before then.,,
@@ -215,7 +215,7 @@ The culprit had been lurking upstairs all along, waiting for the opportunity to 
 的に幇助したことになってしまう……。","In other words, if the culprit takes advantage of the opportunity when Shannon-san opens and closes the door, that counts as indirectly cooperating with the culprit...",aiding and abetting -> cooperating with,
 348,Mion (Casual),窓は、入れたでしょ？,Or... they could've gotten in through the window?,,
 350,Nao (Casual),"じゃあ……、犯人は、２階の他の部屋に潜み……、外壁を伝うか何
-かして、窓から侵入したってことですか……？！","So... the culprit climbed up the wall outside... broke in through the window, and hid in another room on the second floor...?!","from ""So, ......, the culprit hid in another room on the second floor, ......, climbed through an exterior wall or something, and broke in through the window...?!",
+かして、窓から侵入したってことですか……？！","So... the culprit hid in another room on the second floor... used the outer wall somehow, and {i}then{/i} broke in through the window...?!","from ""So, ......, the culprit hid in another room on the second floor, ......, climbed through an exterior wall or something, and broke in through the window...?!",
 352,Mion (Casual),"昨夜は真っ暗だったからわからなかったけれど。おじさんは朝、窓
 を開けて、外壁を確認したんだよ。","I couldn't tell last night because it was dark. But in the morning, this ol' man opened the window and checked the outer wall.",,
 354,Mion (Casual),"露骨な痕跡はなかったけれど、下の階の庇がいい感じの足場になっ
@@ -241,13 +241,13 @@ The culprit had been lurking upstairs all along, waiting for the opportunity to 
 たっけ？","Now that I say it, Nao-chama was saying she was going to embroider while watching the roses, was it?",,
 396,,"　清々しい笑顔？　……違うわ、この笑みは。
 　昨日のアレ、お楽しみいただけました？　という問い掛けの笑み
-だ。","A refreshing smile? ...No, it wasn't like that.
-It was a smile that asked, ""Did you enjoy what you saw yesterday?""","No, it's not like that -> No, it wasn't like that.",
+だ。","A refreshing smile? ...No, it's different than that.
+It's a smile that asked, ""Did you enjoy what you saw yesterday?"".","No, it's not like that -> No, it wasn't like that.",
 397,,"　……ヱリカさん、……あなたですね、あの性質の悪い悪戯をした
-のは……。","...Erika-san, you were the one who played that nasty prank, weren't you...",,
+のは……。","...Erika-san, you were the one who played that nasty prank, weren't you...?",,
 405,,朝食を先に終えたあたしたちは、一度部屋に戻る。,"After finishing breakfast, we went back to our rooms for a bit.","from ""We finished breakfast first and went back to our room.",
 409,,"　そして、今日を過ごす為のそれぞれの持ち物を手に、再び階段を
-降りた。","Then, with each of our belongings for the day in hand, we came back downstairs.","from ""Then, with our respective belongings for the day in hand, we came downstairs again.",
+降りた。","Then, with each of our belongings for the day in hand, we started to head back downstairs.","from ""Then, with our respective belongings for the day in hand, we came downstairs again.",
 410,,"　あたしは、刺繍の道具と、読みかけの本をバッグに入れて。
 　園崎姉妹は、あのバカでかいトランクを持って。","I had my embroidery tools and a book I was reading in my bag, while the Sonozaki sisters were carrying that giant trunk.",,
 413,Mion (Casual),あと、これは御守りね。,"Ah, here's a good luck charm.",we have -> here's,
@@ -296,8 +296,8 @@ A little too sexy?!",,
 よ～♪","Why don't you come and join, Jessica-san? 
 It can get pretty addictive～♪",,
 501,朱志香,"い、いやいや！　私は見てるだけでいーぜ！　っていうか、カメラ
-変わろっか？　二人を撮るぜ？","N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!",,
-505,Mion (エンジェルモート),え？　ホント？！　それは助かるなぁ！　一眼レフ、扱えるぅ？,What? Really? That would be great! Can you handle an SLR camera?,,
+変わろっか？　二人を撮るぜ？","N-No, no! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!",,
+505,Mion (エンジェルモート),え？　ホント？！　それは助かるなぁ！　一眼レフ、扱えるぅ？,What? Really?! That would be great! Can you work an SLR camera?,,
 508,朱志香,任せろよ！　親父のカメラ、一時は親父よりいじってたんだぜ。,"Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him even.",I got it! -> Leave it to me!,
 513,Nao (Casual),"……てっきり、薔薇の写真を撮るのだと思ってました。まさか、コ
 スプレ撮影とは。",...I thought you were going to take pictures of roses. I had no idea it was a cosplay shoot.,,
@@ -308,7 +308,7 @@ It can get pretty addictive～♪",,
 522,詩音 (エンジェルモート),"キャンペーン対象メニューを頼むと、ランダムで魅惑のエンジェル
 モートウェイトレスの写真がもらえるんだそうです。","If you order certain menu items on promo, you'll randomly receive a picture of an enchanting Angel Mort waitress.",,
 527,朱志香,"じゃあ撮るぜー！　好きなポーズで頼むぜ！　わ、大胆っ、せく
-しぃ……。","Let's take a shoot then! Give me your best pose! 
+しぃ……。","Let's shoot then! Gimme your best pose! 
 W-Wow, so bold... so sexy...","from ""Any pose you like, please! / amorous -> sexy",
 529,,"　六軒島で孤独に生きて来た朱志香さんにとって、魅音さんたちの
 世界は、まさに異世界なのだろう。","For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be a breath of fresh air.",,
@@ -320,7 +320,7 @@ W-Wow, so bold... so sexy...","from ""Any pose you like, please! / amorous -> se
 う……？","Where can I relax and immerse myself in embroidery, surrounded by roses-- oh...?",,
 539,Nao (Casual),となれば、……同じところに行きつく訳ね。,It seems we had the same idea...,,
 543,ヱリカ,おや、菜央ちゃま。……貴女も如何です？　ここは最高ですよ。,"Ah, Nao-chama. ...Would you like to sit here too? It's wonderful here.",,
-546,,薔薇庭園の絶景に囲まれた、最高のロケーション。………東屋。,The perfect location was surrounded by a spectacular view of the rose garden... the arbor.,,
+546,,薔薇庭園の絶景に囲まれた、最高のロケーション。………東屋。,"Surrounded by a spectacular view of the rose garden, the perfect location was... the arbor.",,
 547,,"　そこに洒落たテーブルと椅子があるのだが、……サイアクの先客
 がいた……。","A fancy table and chairs are set there, but the {i}worst{/i} guest made it there before me...",,
 551,ヱリカ,別に話し掛けたりしませんので。座ったらどうです？,I'm not going to talk to you or anything. Why not just sit here?,,

@@ -190,11 +190,11 @@ index,chara,jp,en,,
 448,ヱリカ,写真記憶。……探偵には必須の能力です。,A photographic memory... an invaluable tool for a detective.,,
 450,Nao (Casual),昨日はショックで冷静じゃなかったし、今日も同じ魔法陣と思い込んでいたから気付き損ねたけど……。,"I was panicking yesterday and I was in shock, so I assumed that today's magic circle was the exact same...",,
 452,Nao (Casual),"ほら。魔法陣を丸く囲むように描かれた、……魔法文字？　が、こ
-の１文字だけ違うわ。",There. See these letters surrounding the magic circle in a ring? ... This one specifically is different.,"from ""See this letter in the ring surrounding the magic circle? It's different.",
+の１文字だけ違うわ。",There. See these letters surrounding the magic circle in a ring? ...This one specifically is different.,"from ""See this letter in the ring surrounding the magic circle? It's different.",
 456,ベアトリーチェ,"むむ。確かに。……こっちは渦のような文字だが、こっちでは二重
 丸のような文字になっておるぞ？","Hmmm, I see... This letter should be a little swirl, but instead, it's two circles.",,
 458,Nao (Casual),"そういうこと。ここだけなら、書き間違いを疑うところだけれど。
-この魔法陣に同じ文字は３ヶ所登場するわ。",Indeed. I doubt this was a simple drawing error. This same symbol appears in 3 other places.,,
+この魔法陣に同じ文字は３ヶ所登場するわ。",Indeed. I doubt this was a simple drawing error. This same symbol appears in three other places.,,
 460,ベアトリーチェ,"３ヶ所とも、こっちは渦、こっちは二重丸になっておるぞ！　……
 これは一体？！",That there are! There are double circles in three spots where there should be swirls! ...What on earth is this?!,,
 465,ヱリカ,"より細かく観察すれば、他には小さな差異をいくつも発見すること
@@ -203,7 +203,7 @@ index,chara,jp,en,,
 す。","After putting together these clues, I would like to request you to repeat something, Dlanor.","from ""I am making a repetition request,",
 475,ドラノール,どうぞ、ヱリカ。,"Go ahead, ERIKA.",,
 480,,"　復唱要求。“２枚のシーツに描かれた魔法陣は、それぞれ違う製
-作者によるものである”","Repeat this in red: ""The two magic circles were drawn onto two separate sheets by different people.""","from ""That repetition request: ""Each magic circle drawn on the two sheets were drawn by different people.","erika says this, but her name isnt on the line?"
+作者によるものである”","Repeat this in red: ""The two magic circles were drawn onto two separate sheets by different people."".","from ""That repetition request: ""Each magic circle drawn on the two sheets were drawn by different people.","erika says this, but her name isnt on the line?"
 487,Nao (Casual),………？！？！,.........?!?!,,
 495,ベアトリーチェ,なるほど……。自作自演ではないことを完全に証明したい訳か。,I see... So you want to prove that this all wasn't an act.,"from ""that you didn't draw this.",
 497,ベアトリーチェ,しかし、だとすると……、認める必要が生じるぞ……？,But if that's the case... won't you have to to admit it...?,check,"from ""you want to admit it"
@@ -299,7 +299,7 @@ index,chara,jp,en,,
 鼻を押し付けて、スーハーしたくなるわ……。",...She smelled nice. This was a fragrance I had never experienced before. ...I wanted to press my nose against her hair and take it all in...,,
 685,ヱリカ,ドラノールって、生意気にすっごくいい匂いがするんですよねぇ。,"Dlanor gives off an audaciously bewitching scent, doesn't she?","from ""Dlanor smells pretty good, doesn't she",i wanted to say heavenly so bad but having an adverb there makes it awkward sounding :C
 687,ヱリカ,"私、鼻がいいんで、ドラノールの気配は匂いでわかります。うふふ
-ふ。","I have a good nose, so I can smell her from a mile away. *giggle*giggle*",,
+ふ。","I have a good nose, so I can smell her from a mile away. *giggle*giggle*.",,
 692,ドラノール,……菜央。問題ありマセン。,"...Nao, there is no issue at ALL.","from ""I have a question",
 694,ドラノール,"第一の魔法陣がニンゲンの仕業であると証明し、しかし第二の魔法
 陣がニンゲンには不可能であると証明できたナラ……。","The first magic circle was proven to be possible for a Human, but if the second magic circle was proven IMPOSSIBLE...",,
