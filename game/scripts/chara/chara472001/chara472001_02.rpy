@@ -235,7 +235,7 @@ label chara472001_02:
  nao "No, I'm not. What is that?"
  show beatrice_v001 smile at active
  show nao_v001 normal at inactive
- beatrice 'It is a variety of black tea.'
+ beatrice 'It is a variety of black tea. It has a dark shade and a distinct smell of brandy.'
  show nao_v001 odoroki at active
  show beatrice_v001 smile at inactive
  nao 'Ohh...'
