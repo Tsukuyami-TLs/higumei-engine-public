@@ -399,7 +399,7 @@ camera:
         self.to_show.clear()
 
     def compile_commands(self): 
-        self.outlines.append('camera:\n anchor (0.5, 0.5)\n pos (960, 540)')
+        self.outlines.append('camera:\n anchor (0.5, 0.5)\n pos (960, 540)\n matrixcolor IdentityMatrix()')
         self.outlines.append('scene')
         self.outlines.append('stop music')
         for n, line in enumerate(self.commands): 
