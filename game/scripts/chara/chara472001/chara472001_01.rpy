@@ -152,7 +152,7 @@ label chara472001_01:
  dlanor 'YES. I would like to hear your honest THOUGHTS.'
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
- nao "Hm... I don't have a particular favorite. I've read the famous ones, like the great British detective and armchair detective."
+ nao "Hm... I don't have a particular favorite. I've read the famous ones, like the great British detective and the Armchair detective."
  show nao_v001 fuan at active
  show dlanor_v001 normal at inactive
  nao "...Is what I'd say, but it's all from the elementary school library, so it's edited so that kids can read it."
@@ -164,7 +164,7 @@ label chara472001_01:
  nao 'The origin... of the Knox Decalogue...?'
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
- nao 'You and Erika used the Knox Decalogue during the last logic battle. In the end, what purpose did that serve?'
+ nao 'You and Erika used the Knox Decalogue during the last logic battle. \nIn the end, what purpose did that serve?'
  hide dlanor_v001
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)

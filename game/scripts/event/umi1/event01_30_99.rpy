@@ -59,7 +59,7 @@ label event01_30_99:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'I was enraptured by that horrible magic circle. That was when the Sonozakis spoke.'
- narrator "Heee?!?! S-sis...!! \n...They've... done it..."
+ narrator "Heee?!?! S-Sis...!! \n...They've... done it..."
  narrator "The following is an exchange that only the Sonozaki sisters can hear. I was so terrified that I couldn't even hear it."
  show mion_v002 futeki at mei_right
  show shion_v002 sinken at mei_left
@@ -82,8 +82,8 @@ label event01_30_99:
  hide shion_v002
  with Dissolve(0.2)
  narrator "For a long time, I was confused as to why Shannon-san wasn't bothered by the magic circle."
- narrator 'But... Mion-san instantly understood. She knew that Shannon was also deep into the Wanyan swamp.'
- narrator 'Mion remembered the question Erika had asked Shannon after she returned from fixing the lock on the window upstairs.'
+ narrator 'But... Mion-san instantly understood. She knew that Shannon-san was also deep into the Wanyan swamp.'
+ narrator 'Mion-san remembered the question Erika-san had asked Shannon-san after she returned from fixing the lock on the window upstairs.'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2331.png' as bg
@@ -103,7 +103,7 @@ label event01_30_99:
  hide shannon_v001
  hide erika_v001
  with Dissolve(0.2)
- narrator 'Mion thought that felt out of place.'
+ narrator 'Mion-san thought that felt out of place.'
  narrator "It sounded like a sarcastic remark from Erika-san... but it only sounded that way if you weren't in the know."
  narrator 'Why did she ask if something happened in the room?'
  narrator 'Mion-san instantly understood. Erika-san knew that Shannon-san was a Wanyanner.'
@@ -120,7 +120,7 @@ label event01_30_99:
  narrator 'And at the same time, it would have been a fun joke to share with her fellow Wanyanners, Mion-san and Shion-san.'
  narrator 'However, since Shannon-san is also a hardcore Wanyanner, she immediately understood the meaning of the magic circle, so she just smiled and ignored it.'
  narrator 'This fact was confirmed by Erika-san when she asked Shannon-san after coming down the stairs.'
- narrator 'Mion-san understood it instantly.\nBoth why Shannon-san could ignore it and that the culprit was Erika were answers that could be derived in seconds.'
+ narrator 'Mion-san understood it instantly.\nBoth why Shannon-san could ignore it and that the culprit was Erika-san were answers that could be derived in seconds.'
  narrator 'In other words, the moment the magic circle was discovered, the Sonozaki sisters knew everything, from the meaning of the magic circle, to the culprit being Erika-san.'
  narrator 'While I was cowering in fear at the magic circle... the Wanyan-adoring Sonozaki sisters must have been laughing at me with disgusting smiles.'
  stop sound
@@ -129,12 +129,12 @@ label event01_30_99:
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator "...And... from here on it's a world beyond my understanding.\nIt's said that monsters are drawn to each other, but who would've thought that'd turn out to be true..."
- narrator 'Mion-san and Shion-san instantly got a grasp on the situation.\nWhat could Erika, who had drawn this perfect recreation of the circle from the movie, possibly want?'
+ narrator 'Mion-san and Shion-san instantly got a grasp on the situation.\nWhat could Erika-san, who had drawn this perfect recreation of the circle from the movie, possibly want?'
  narrator 'A compliment? Or a shocked scream? ...No, it was an {i}audience{/i}.'
  narrator "That's right. In that moment, across the wall in Erika-san's room... one more Wanyanner was listening intently, letting out a disgusting laugh."
  camera at screenshake_transform,reset_shader
  pause 0.0
- narrator 'Erika-san... who wanted to hear the admiration of her magic circle by comrades, was listening... with a cup pressed against the wall... \nShe was listening the whole time!!'
+ narrator 'Erika-san... who wanted to hear the admiration of her magic circle by comrades, was listening... with a cup pressed against the wall... She was listening the whole time!!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -143,7 +143,7 @@ label event01_30_99:
  show erika_v001 smile at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 smile at active
- erika "...*giggle*... What do you think? Isn't my magic circle a masterpiece...?\nIsn't it a perfect recreation of Bright-sama's magic circle...?"
+ erika "*giggle*... What do you think? Isn't my magic circle a masterpiece...?\nIsn't it a perfect recreation of Bright-sama's magic circle...?"
  show erika_v001 smile at active
  erika "Now, do allow me to hear your praise, Mion-san and Shion-san!!\nI've already satisfied myself with the screams of Nao-san, who refuses to watch Detective Wanyan."
  camera at screenshake_transform,reset_shader
@@ -157,12 +157,12 @@ label event01_30_99:
  hide erika_v001
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- narrator "Erika strains her ears more and more. She wants to know Mion-san and Shion-san's reactions, so she focuses all of her attention into her hearing...!!"
+ narrator "Erika-san strains her ears more and more. She wants to know Mion-san and Shion-san's reactions, so she focuses all of her attention into her hearing...!!"
  play audio 'audio/sfx/SE_5046_scratch.wav'
  narrator '...Ssskk......'
  narrator 'It was a small, strange sound.\nIt was almost inaudible... but it was {i}as if it was pressed right up against her ear{/i}.'
  narrator "...No way. ......No, it can't be..."
- narrator "A bead of cold sweat appeared on Erika's face.\n...As it slowly ran down Erika's forehead... her expression... was colored with... an eerie joy."
+ narrator "A bead of cold sweat appeared on Erika-san's face.\n...As it slowly ran down Erika-san's forehead... her expression... was colored with... an eerie joy."
  camera at screenshake_transform,reset_shader
  pause 0.0
  narrator "These... these people...... they couldn't have......!?!"
@@ -184,13 +184,13 @@ label event01_30_99:
  camera at screenshake_transform,reset_shader
  pause 0.0
  narrator '<G-Good>, <Gooderrrrrr>... <Goodeeeeeeeesssssstttt!!!>'
- narrator 'The next day, as if to say "Now it\'s your turn", Erika-san purposely forgot to lock the door.'
+ narrator 'The next day, as if to say, "Now it\'s your turn.", Erika-san purposely forgot to lock the door.'
  narrator 'Even though they knew it was a trap, the Sonozaki sisters decided to take advantage of this... so Shion-san returned to the guesthouse under the guise of retrieving some luggage.'
  narrator "And then, she went into Erika-san's room to set up the prank with the magic circle."
  narrator 'Furthermore, the sheet with the magic circle was prepared in advance. ...The Sonozaki sisters worked all night on it after I had used the sleeping pills to fall asleep!'
  narrator 'Then, Shion-san falls for the trap with the fluorescent paint on the doorknob.'
  narrator 'Shion-san exercised a certain amount of caution, but as expected, she was unaware of the substance Erika had prepared herself.'
- narrator "So, there should certainly have been fluorescent paint on Shion's hands. Erika-san should have been able to checkmate her with that!"
+ narrator "So, there should certainly have been fluorescent paint on Shion-san's hands. Erika-san should have been able to checkmate her with that!"
  narrator "But... the Sonozaki sisters were not so naive after all.\nThat's right. After we returned, the two fought and ran into the shower together."
  narrator 'I was just smiling at how close the two were, fighting over who would go first in the shower.'
  narrator '...But the two of them, were doing this deliberately.'
@@ -201,10 +201,10 @@ label event01_30_99:
  narrator 'When nothing came up after shining on Shion-san\'s hand with the blacklight, and she started crying out, "That\'s impossible!"... it wasn\'t frenzied scream of despair, but rather, of great delight.'
  narrator 'In Erika-san\'s words... "Knox\'s 10th: It is forbidden to disguise yourself as another person without any clues."'
  narrator 'However, Erika-san had met the sisters, introduced herself, and knew that they were identical twins.'
- narrator '"Identical twin sisters", Erika-san had said herself on the boat to Rokkenjima.'
- narrator "Therefore, EFFECTIVE.\nA disguise that does not violate Knox's 10th. No, a swap...!"
+ narrator '"Identical twin sisters.", Erika-san had said herself on the boat to Rokkenjima.'
+ narrator 'Therefore, "It is EFFECTIVE.".\nA disguise that does not violate Knox\'s 10th. No, a swap...!'
  narrator "At that moment, Erika-san could have immediately illuminated Mion's hand with her blacklight."
- narrator "If she did that, I would've seen Mion's hands illuminated with fluorescent paint."
+ narrator "If she did that, I would've seen Mion-san's hands illuminated with fluorescent paint."
  narrator "But she didn't... why? Isn't she supposed to be tougher than that?"
  camera at screenshake_transform,reset_shader
  pause 0.0
@@ -267,7 +267,7 @@ label event01_30_99:
  $ event_store.current_progress = 9
  show kanon_v001 normal at active
  show erika_v001 normal at inactive
- kanon '...Um, I think that quote was ..."{note_green}There are always two truths.{/note_green}"'
+ kanon '...Um, I think that quote was... "{note_green}There are always two truths.{/note_green}"'
  play audio 'audio/sfx/SE_226_shine.wav'
  show erika_v001 smile at active
  show kanon_v001 normal at inactive
@@ -368,7 +368,7 @@ label event01_30_99:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao "Definitely. ...Erika's energy and reasoning skills are like a combination of Mion-san and Rena-chan."
+ nao "Definitely. ...Erika-san's energy and reasoning skills are like a combination of Mion-san and Rena-chan."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -408,7 +408,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show nao_v002 smile at active
  show erika_v001 normal at inactive
- nao "...What's with the letter that you received?"
+ nao "...What's with the letter that you received, Erika-san?"
  show erika_v001 normal_close at active
  show nao_v002 smile at inactive
  erika 'Do ignore it. I am only the messenger. I have merely been entrusted with this message to give to my master.'
@@ -438,7 +438,7 @@ label event01_30_99:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika "Actually, I think the witch's present for Nao was intended for all three of you."
+ erika "Actually, I think the witch's present for Nao-san was intended for all three of you."
  show erika_v001 normal at active
  erika "Why don't you have a look in your luggage?"
  hide erika_v001
@@ -519,7 +519,7 @@ label event01_30_99:
  stop music fadeout 0.5
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
  show white_cover onlayer curtain as fade with Dissolve(1.0)
- erika 'Wh... What?! ...What is this?!'
+ erika 'Wh-... What?! ...What is this?!'
  stop sound
  show expression 'images/bg/AdvBg_2101.png' as bg
  play music "<loop 0>audio/bgm/BGM_EVENT_TOP_COLLAB2.ogg"
@@ -553,7 +553,7 @@ label event01_30_99:
  erika 'That is... if I remember correctly, the Chiester Sisters Guard Corps.'
  show nao_v014 odoroki_blush at chara_shake_transform,active
  show erika_v001 normal at inactive
- nao "Wh... wh-wh-what's with these clothes? Hey, wait, this skirt's way too short! I mean, you can see the whole front?!"
+ nao "Wh-... wh-wh-what's with these clothes? Hey, wait, this skirt's way too short! I mean, you can see the whole front?!"
  hide erika_v001
  hide nao_v014
  with Dissolve(0.2)
@@ -625,7 +625,7 @@ label event01_30_99:
  hide nao_v014
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_006_WindowScroll.wav'
- narrator "I wonder if you've been enjoying yourself?\nIt instantly changes your clothes when you open it, \nas it's a Clothes Change Pandora Box!"
+ narrator "I wonder if you've been enjoying yourself?\nIt instantly changes your clothes when you open it, as it's a Clothes Change Pandora Box!"
  narrator "In fact, I thought I'd give the three of you the costumes you wanted the most while giving you all a glimpse at a fragment of yourself."
  narrator "For Mion and Shion, I had a clear image of what they wanted, but I couldn't figure anything out for Nao."
  show nao_v014 fuan at mei_center
@@ -636,7 +636,7 @@ label event01_30_99:
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_006_WindowScroll.wav'
  narrator 'So, I thought about it.\nMion and Shion have the moon rabbit costumes from The Heartbroken Rabbits Murder Case, right?'
- narrator 'So, I thought that if you were a rabbit too, the three of you could be good friends!'
+ narrator 'I thought that if you were a rabbit too, the three of you could be good friends!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -666,7 +666,7 @@ label event01_30_99:
  with Dissolve(0.5)
  show shion_v011 smile at active
  show mion_v013 smile at inactive
- shion "Wait, these are a bit like Angel Mort's outfits!"
+ shion "Wait, it's kind of like an Angel Mort outfit!"
  show mion_v013 smile at active
  show shion_v011 smile at inactive
  mion "Nao-chan, why won't you try out some part-time at Angel Mort in that outfit?!"
@@ -682,7 +682,7 @@ label event01_30_99:
  camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 sinken at active
- nao '{i}Hinamizawa--{/i}!!! I re-fu-seeeeeee!!!'
+ nao '{i}Hinamizawa--{/i}?!?! I re-fu-seeeeeee!!!'
  camera at screenshake_transform,reset_shader
  pause 0.0
  show nao_v014 sinken at active
@@ -697,7 +697,7 @@ label event01_30_99:
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'Ah, there are more words on the message card... I do wonder what it says? ...Hm?'
+ erika 'Ah, there are more words on the message card. ...I do wonder what it says?'
  hide erika_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_006_WindowScroll.wav'
@@ -727,7 +727,7 @@ label event01_30_99:
  erika "Why don't you wear that bloody one from the murder scene reenactment?"
  show shion_v011 fuan_close at active
  show erika_v001 normal at inactive
- shion "But, I think it'd be hard to avoid getting questioned if we did that..."
+ shion "But I think it'd be hard to avoid getting questioned if we did that..."
  hide erika_v001
  show mion_v013 smile at mei_right
  with Dissolve(0.5)
@@ -740,7 +740,7 @@ label event01_30_99:
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
  show erika_v001 normal at active
- erika 'You two are tireless. *giggle*'
+ erika 'You two are tireless. *giggle*.'
  show nao_v014 sinken_blush at mei_left
  with Dissolve(0.5)
  show nao_v014 sinken_blush at active

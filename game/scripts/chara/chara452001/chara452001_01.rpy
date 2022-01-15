@@ -51,10 +51,10 @@ label chara452001_01:
  nao "Ah... but since black tea is supposed to have more caffeine than coffee, if I drank too much of it, wouldn't I have trouble sleeping?"
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice '*cackle*, Humans truly are delicate creatures.'
+ beatrice '*cackle*, humans truly are delicate creatures.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao "(*giggle*. During that logic battle, she was incredibly dignified and frightening, but she seems to be friendlier than you'd think, maybe... maybe.)"
+ nao "(*giggle*. She was incredibly dignified and frightening during that logic battle, but she seems like she might be friendlier than you'd think... maybe.)"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
  beatrice 'In addition, the aroma of the tea improves if you eat tea cakes in between sips. I would recommend those scones and such over there, as they would compliment it well. '
@@ -63,7 +63,7 @@ label chara452001_01:
  nao "Ah... you're right. With flavors like this, you could perhaps try putting jam or something on the scone too."
  show beatrice_v001 smile at nod_transform,active
  show nao_v002 smile at inactive
- beatrice 'Of course, it pairs well with Russian tea as well. Perhaps you can try that next.'
+ beatrice 'Of course, it pairs nicely with Russian tea as well. Perhaps you can try that next.'
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)
@@ -122,7 +122,7 @@ label chara452001_01:
  beatrice 'Pfff... Khhahahahahaha!!! Out of all the metaphors you could have chosen, you went with... shirikodama!?!'
  $ event_store.current_progress = 2
  show beatrice_v001 futeki_close at active
- beatrice "I'm not anything like a {note_green}kappa{/note_green}, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
+ beatrice "I'm no {note_green}kappa{/note_green}, so don't anticipate me doing something like that! *cackle*cackle*cackle*!!!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)

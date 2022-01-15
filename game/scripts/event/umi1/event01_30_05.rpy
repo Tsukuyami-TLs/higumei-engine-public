@@ -91,7 +91,7 @@ label event01_30_05:
  narrator 'Us three were... very surprised... last night when we saw that ominous magic circle painted on my bedsheet.'
  narrator '...However, what surprised me even more was that it was only me who was shocked the entire time.'
  narrator 'A few moments after we saw the magic circle, Mion-san started to roar with laughter. It was so sudden, I was speechless and feared that the witch had possessed her.'
- narrator '....But thinking about it again, Mion-san probably understood in an instant that it was just a prank mimicking a curse from the witch.'
+ narrator '...But thinking about it again, Mion-san probably understood in an instant that it was just a prank mimicking a curse from the witch.'
  narrator "...But of course, there is no such thing as witches or magic. There's no way to think of it as other than a prank being done by a human."
  narrator 'I thought it was a magic circle drawn with blood at first glance.\nBut Mion-san immediately saw it was just paint.'
  narrator 'The suspect had prepared the magic circle sheets beforehand, and when they found the right time, they snuck into our room and replaced the sheets on my bed.'
@@ -102,7 +102,7 @@ label event01_30_05:
  narrator 'And when Shion-san heard that, she also started laughing. Both Sonozaki sisters relished in the timing of the prank.'
  narrator 'Meanwhile, I was frightened at the thought that it was really done by a witch...'
  narrator '...Although, I think anyone would be at a loss for words if they were subject to a prank like this.'
- narrator '......Yeaaaah...'
+ narrator '......Hmmmm...'
  show nao_v002 fuan at mei_center
  with Dissolve(0.5)
  show nao_v002 fuan at active
@@ -279,7 +279,7 @@ label event01_30_05:
  hide nao_v002
  with Dissolve(0.2)
  narrator "At first, she made fun of me a little, saying that I was too scared from last night's magic circle incident when I told them that I had dreamed about witches."
- narrator '...No, Mion-san. That magic circle was something that would astonish any person with normal tastes.'
+ narrator '...No, Mion-san. That magic circle was something that would astonish any person with normal taste.'
  narrator "But when we talked about the game with the witch and the battle with the two truths, blue and red, Mion-san's eyes sharpened, and she started to listen to me more carefully."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
@@ -327,7 +327,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show nao_v002 odoroki at active
  show mion_v002 smile at inactive
- nao 'What? Do you have a basis for that?'
+ nao 'What? Do you have a basis behind that?'
  play audio 'audio/sfx/SE_326_ls_spacestop.wav'
  show mion_v002 smile at active
  show nao_v002 odoroki at inactive
@@ -341,7 +341,7 @@ label event01_30_05:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show nao_v002 normal at inactive
- mion 'Last night, right before Nao-chan mentioned the window lock, she said "I\'ll take my leave for today."'
+ mion 'Last night, right before Nao-chan mentioned the window lock, Shannon-san said, "I\'ll take my leave for today."'
  show mion_v002 smile at active
  show nao_v002 normal at inactive
  mion 'That meant she was going to finish her work for the day. In other words, she was gonna go back to her quarters or something.'
@@ -398,7 +398,7 @@ label event01_30_05:
  shion "...was what the witch said, wasn't it?"
  show mion_v002 futeki at active
  show shion_v002 smile at inactive
- mion 'Maybe no one went up, but someone could have been waiting in the room, right?'
+ mion 'Maybe no one went up, but someone could have been {i}waiting{/i} in the room, right?'
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -444,7 +444,7 @@ label event01_30_05:
  mion "Or... they could've gotten in through the window?"
  show nao_v002 odoroki at active
  show mion_v002 smile at inactive
- nao 'So... the culprit climbed up the wall outside... broke in through the window, and hid in another room on the second floor...?!'
+ nao 'So... the culprit hid in another room on the second floor... used the outer wall somehow, and {i}then{/i} broke in through the window...?!'
  show mion_v002 smile at active
  show nao_v002 odoroki at inactive
  mion "I couldn't tell last night because it was dark. But in the morning, this ol' man opened the window and checked the outer wall."
@@ -490,7 +490,7 @@ label event01_30_05:
  narrator 'At that moment, Erika-san came down the stairs. She smiled at us with a refreshing face.'
  narrator 'When Erika-san rang the bell, Kanon-san arrived a little later.'
  play audio 'audio/sfx/SE_515_tableware.wav'
- narrator 'When Erika-san asked Kanon-san to prepare her breakfast, Erika-san brushed aside her knife and fork, and took out her prided chopsticks.'
+ narrator 'After asking Kanon-san to prepare her breakfast, Erika-san brushed aside her knife and fork, and took out her prided chopsticks.'
  show erika_v001 normal at mei_right
  show mion_v002 smile at mei_left
  with Dissolve(0.5)
@@ -509,8 +509,8 @@ label event01_30_05:
  hide erika_v001
  hide mion_v002
  with Dissolve(0.2)
- narrator 'A refreshing smile? ...No, it wasn\'t like that.\nIt was a smile that asked, "Did you enjoy what you saw yesterday?"'
- narrator "...Erika-san, you were the one who played that nasty prank, weren't you..."
+ narrator 'A refreshing smile? ...No, it\'s different than that.\nIt\'s a smile that asked, "Did you enjoy what you saw yesterday?".'
+ narrator "...Erika-san, you were the one who played that nasty prank, weren't you...?"
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop music fadeout 0.5
@@ -526,7 +526,7 @@ label event01_30_05:
  show expression 'images/bg/AdvBg_2371.png' as bg
  hide fade onlayer curtain
  with Dissolve(1.0)
- narrator 'Then, with each of our belongings for the day in hand, we came back downstairs.'
+ narrator 'Then, with each of our belongings for the day in hand, we started to head back downstairs.'
  narrator 'I had my embroidery tools and a book I was reading in my bag, while the Sonozaki sisters were carrying that giant trunk.'
  show mion_v002 smile at mei_center
  with Dissolve(0.5)
@@ -650,13 +650,13 @@ label event01_30_05:
  shion "Why don't you come and join, Jessica-san? \nIt can get pretty addictive～♪"
  show jessica_v001 smile at active
  show shion_v004 smile at inactive
- jessica "N-No, No! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!"
+ jessica "N-No, no! I'm fine with just looking! Oh, actually, do you want me to hold the camera? I can capture both of you then!"
  hide shion_v004
  show mion_v005 odoroki at mei_left
  with Dissolve(0.5)
  show mion_v005 odoroki at active
  show jessica_v001 smile at inactive
- mion 'What? Really? That would be great! Can you handle an SLR camera?'
+ mion 'What? Really?! That would be great! Can you work an SLR camera?'
  show jessica_v001 smile at nod_transform,active
  show mion_v005 odoroki at inactive
  jessica "Leave it to me! In the past, I messed around a bit with my dad's camera and used it a lot, more than him even."
@@ -687,7 +687,7 @@ label event01_30_05:
  show jessica_v001 smile_blush at mei_center
  with Dissolve(0.5)
  show jessica_v001 smile_blush at active
- jessica "Let's take a shoot then! Give me your best pose! \nW-Wow, so bold... so sexy..."
+ jessica "Let's shoot then! Gimme your best pose! \nW-Wow, so bold... so sexy..."
  hide jessica_v001
  with Dissolve(0.2)
  narrator 'For Jessica-san, who has been living in solitude on Rokkenjima, the world of the Sonozaki sisters must be a breath of fresh air.'
@@ -713,7 +713,7 @@ label event01_30_05:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator 'The perfect location was surrounded by a spectacular view of the rose garden... the arbor.'
+ narrator 'Surrounded by a spectacular view of the rose garden, the perfect location was... the arbor.'
  narrator 'A fancy table and chairs are set there, but the {i}worst{/i} guest made it there before me...'
  show nao_v002 fuan_close at mei_left
  show erika_v001 normal at mei_right

@@ -169,13 +169,13 @@ label chara462001_03:
  erika "What's so funny, Rika Furude?"
  play music "<loop 0>audio/bgm/BGM_QUEST1_COLLAB2.ogg"
  show erika_v001 sinken_close at active
- erika 'Hm?... Rika Furude? Fu-ru-de... hm? Hmm?'
+ erika 'Hm?... Rika Furude? Furude, Rika...\nFu-ru-de, Frede-... hm? Hmm?'
  hide erika_v001
  with Dissolve(0.2)
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "*giggle*giggle*... It's obvious what's so funny."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "I couldn't find you, so I went out of my way to take this form and see what you were up to."
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "Returning evil for good, hm? Isn't that a nice hobby."
- Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? Not bad, yeah, not bad at all... *giggle*giggle*giggle*...'
+ Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") 'That sort of thing is pretty amusing for you, hm? \nNot bad, yeah, not bad at all... *giggle*giggle*giggle*...'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -197,7 +197,7 @@ label chara462001_03:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.5)
  show erika_v001 odoroki at chara_shake_transform,active
- erika 'Y-You... n-no... thou, thine highest is...!'
+ erika 'Y-You... n-no... thou...!\nThine highest is...!'
  hide erika_v001
  with Dissolve(0.2)
  Character('Rika Furude',ctc="ctcArrow", ctc_position="fixed") "No matter how long I stood there, you wouldn't come back. I wondered what you were doing, killing time just like you happened to be, so I went out of my way to come see you..."
@@ -210,7 +210,7 @@ label chara462001_03:
  erika 'Ah, aaah, ah... thine highness is my... master...?'
  hide erika_v001
  with Dissolve(0.2)
- Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct...... *giggle*. Well, isn't it game over for you?"
+ Character('????',ctc="ctcArrow", ctc_position="fixed") "Correct...... *giggle*. \nWell, isn't it game over for you?"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -253,7 +253,7 @@ label chara462001_03:
  dlanor 'No, it was not anything CONSIDERABLE.'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
- beatrice 'How modest. If it weren\'t for you, her "target" would not have been able to escape to our domain to be protected.'
+ beatrice 'How modest. If it wasn\'t for you, her "target" would not have been able to escape to our domain to be protected.'
  show beatrice_v001 smile at active
  show dlanor_v001 normal at inactive
  beatrice 'That character will have already forgotten around now, but we had a very fun tea party together.'

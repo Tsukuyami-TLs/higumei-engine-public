@@ -46,7 +46,7 @@ label chara032009_02:
  beatrice "Don't make such a sour face. The alterations on your memory were not meant to harm you, but measures taken to protect you."
  show beatrice_v001 smile at active
  show nao_v002 odoroki at inactive
- beatrice 'Since the game was irregular, the Game Master figured it would be good idea to hold onto your memories relating to me.'
+ beatrice 'Since the game was irregular, the Game Master figured it would be a good idea to hold onto your memories relating to me.'
  show beatrice_v001 futeki_close at active
  show nao_v002 odoroki at inactive
  beatrice 'Hmm, yes... by inviting you here, it seems that effect has worn off. *cackle*cackle*cackle*cackle*cackle*!!!'
@@ -58,7 +58,7 @@ label chara032009_02:
  nao "The battle between Beatrice and Erika-san certainly gave me a headache... but it's not going to change who I am."
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v002 normal_close at inactive
- beatrice "*cackle*cackle*cackle*... you said it. That headstrong attitude... I'm liking it more and more. "
+ beatrice "*cackle*cackle*cackle*... you said it. \nThat headstrong attitude... I'm liking it more and more. "
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
  nao '...Anyways, what could you possibly want from me today? Could it be that another logic battle is starting up?'
@@ -101,7 +101,7 @@ label chara032009_02:
  show nao_v002 sinken at active
  nao "That's right, I just remembered...! Around October of 1986, a mysterious explosion occurred on one of the islands in the Izu Archipelago..."
  show nao_v002 sinken at active
- nao 'The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly "Rokkenjima"... nn...'
+ nao 'The relatives of a wealthy family had gathered for a meeting on a small island where most of them lost their lives. The name of it was certainly "Rokkenjima"... ah...'
  show nao_v002 normal at active
  nao "...I see. That island was a fateful place for them, wasn't it?"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -200,7 +200,7 @@ label chara032009_02:
  nao 'I see. You want me to move around on your game board from the perspective of this man, "Battler", right?'
  show beatrice_v001 smile at nod_transform,active
  show nao_v014 normal at inactive
- beatrice "That's right. Being sharp and straight-forward is key. ...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me."
+ beatrice "That's right. Being sharp and straight-forward is key. \n...Also, Nao, that uniform that you are wearing is that of battle furniture which has signed a contract to me."
  show nao_v014 odoroki at active
  show beatrice_v001 smile at inactive
  nao 'Huh...?'
@@ -245,10 +245,10 @@ label chara032009_02:
  nao 'But, well... alright. If that type of enjoyment exists, then I will have to give it a shot.'
  show beatrice_v001 futeki at active
  show nao_v014 smile at inactive
- beatrice '*cackle*cackle*cackle*... This open-minded and honest attitude is an essential element to enjoying the game. Not bad at all.'
+ beatrice '*cackle*cackle*cackle*... \nThis open-minded and honest attitude is an essential element to enjoying the game. Not bad at all.'
  show nao_v014 sinken at active
  show beatrice_v001 futeki at inactive
- nao "I'll accept those words of praise. Umm, do people normally wait for the end of the story?"
+ nao "I'll accept those words of praise. \nUmm, so do people normally have wait for this story to begin...?"
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide beatrice_v001
  hide nao_v014
@@ -257,7 +257,7 @@ label chara032009_02:
  show expression 'images/card/Card_032009.png' as bg
  hide fade onlayer curtain
  with Dissolve(1.0)
- nao 'Uuum, *ahem*.'
+ nao 'Uuum... *ahem*.'
  nao "Nao Houtani... rightfully spectating the witch Beatrice's game board."
  nao 'Please, if you would kindly begin...'
  show black_cover onlayer curtain as fade with Dissolve(1.0)

@@ -58,10 +58,10 @@ label chara452001_02:
  rena 'Hau... that looks like a lot for one person to carry. Do you want me to hold some of it?'
  show nao_v002 smile at active
  show rena_v002 smile at inactive
- nao "No, I'm fine. ...Right, I was buying things for dinner."
+ nao "No, I'm fine. ...Right, I came here to buy the ingredients for dinner."
  show rena_v002 fuan at active
  show nao_v002 smile at inactive
- rena "Speaking of which... I wonder why you're not with Kazuho and her friend today... today?"
+ rena "Speaking of which... I wonder why you're not with Kazuho-chan and Miyuki-chan today... today?"
  show nao_v002 smile at active
  show rena_v002 fuan at inactive
  nao 'Kazuho is home cleaning, and Miyuki is out for a walk by herself.'
@@ -150,7 +150,7 @@ label chara452001_02:
  show nao_v002 normal at active
  nao "This person is extremely prideful, and it's not easy to figure out what they're really feeling..."
  show nao_v002 normal at active
- nao 'I get the impression that they are a very sensitive, delicate person.'
+ nao "I get the impression that they're a very sensitive, delicate person."
  show nao_v002 fuan at active
  nao "So, because I don't know their circumstances, I'm afraid I might hurt them if I don't word things correctly, so I don't know what to say."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
@@ -171,7 +171,7 @@ label chara452001_02:
  nao "Sorry, Rena-chan. I'm dragging you into my silly issues."
  show rena_v002 smile at active
  show nao_v002 fuan at inactive
- rena "Noo, you aren't at all. ...I've got it. Would you like to hear Rena's opinion?"
+ rena "Noo, you aren't at all. \n...I've got it. Would you like to hear Rena's opinion?"
  show nao_v002 smile at nod_transform,active
  show rena_v002 smile at inactive
  nao "O-Of course! I'm listening!"
@@ -186,7 +186,7 @@ label chara452001_02:
  rena "Sometimes, when you're trying your best to recover and keep at it, that support may feel like a hindrance depending on your current feelings. "
  show nao_v002 fuan at active
  show rena_v002 smile at inactive
- nao "So it's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like trying to do the opposite... I guess?"
+ nao "So it's sort of like... when you're trying to study, and then somebody tells you to go study, so you feel like doing the opposite... I guess?"
  show rena_v002 smile at nod_transform,active
  show nao_v002 fuan at inactive
  rena 'Yeah, in that ballpark.'
@@ -201,13 +201,13 @@ label chara452001_02:
  nao '...What do you mean?'
  show rena_v002 smile at active
  show nao_v002 odoroki at inactive
- rena 'Whether or not one has the ability to stand up on their own, putting on a bright and fun aura for them can help...'
+ rena 'Whether or not one has the ability to stand up on their own, putting on a bright and fun aura can help...'
  show rena_v002 smile at active
  show nao_v002 odoroki at inactive
  rena 'What do you think, you think?'
  show nao_v002 fuan at active
  show rena_v002 smile at inactive
- nao "I'm sorry Rena-chan, but I'm having trouble picturing what you're saying... could you give me an example?"
+ nao "I'm sorry, Rena-chan, but I'm having trouble picturing what you're saying... could you give me an example?"
  show rena_v002 smile at active
  show nao_v002 fuan at inactive
  rena 'Okay, right... Say there was someone who seemed like they were really into their studies, and you brought them sweets as refreshments. How about that, about that?'

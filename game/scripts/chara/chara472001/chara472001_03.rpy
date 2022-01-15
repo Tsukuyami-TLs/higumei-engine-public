@@ -105,7 +105,7 @@ label chara472001_03:
  beatrice 'Are you going out to meet her?'
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor 'YES. Around now, I think she would be lazing around in her ROOM. ...Miss Beatrice?'
+ dlanor 'YES. Around now, I think she would be lazing around in her ROOM. \n...Miss Beatrice?'
  show beatrice_v001 normal at active
  show dlanor_v001 normal at inactive
  beatrice 'Yes?'
@@ -137,7 +137,7 @@ label chara472001_03:
  show erika_v001 odoroki_close at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 odoroki_close at active
- erika "Uuuuuuu, for me to have fallen for a FAKE version of my master in Hinamizawa; it can't be...!"
+ erika "Uuuuuuu, for me to have mistaken my master for another person in Hinamizawa {i}TWICE IN A ROW{/i}; it can't be...!"
  show erika_v001 odoroki_close at chara_shake_transform,active
  erika "Uuuu, I won't ever make that mistake again! Uuuu... WAAAAHHhhHHHHAHHH...!"
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)

@@ -125,7 +125,7 @@ label chara032009_01:
  nao "I thought I'd pick out a book to recommend to Kazuho and Miyuki. It seems like those two haven't chosen anything yet."
  show nao_v002 fuan at active
  show satoko_v002 odoroki at inactive
- nao "But for reference... coming from an underclassman level book, you'll carelessly get absorbed in reading this. It's one of my favorites that I've recently finished."
+ nao "But for reference... coming from an underclassman level book, I carelessly got absorbed in reading this. It's one of my favorites that I've recently finished."
  hide satoko_v002
  show hanyuu_v002 odoroki at mei_right
  with Dissolve(0.5)
@@ -140,7 +140,7 @@ label chara032009_01:
  rika "And she's finished reading all of those? ...What an amazing reading level. Nao is such a bookworm, inch inch~."
  show nao_v002 smile at active
  show rika_v002 odoroki at inactive
- nao "You say bookworm, but wasn't that more like an inchworm? Well anyway... here you go, Satoko."
+ nao "You say bookworm, but wasn't that more like an inchworm? \nWell, anyways... here you go, Satoko."
  hide rika_v002
  show satoko_v002 fuan at mei_right
  with Dissolve(0.5)

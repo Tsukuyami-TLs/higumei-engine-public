@@ -22,7 +22,7 @@ label event01_30_02:
  kanon 'After meals, we usually prepare either tea or coffee. Which would you prefer?'
  show mion_v002 smile at active
  show kanon_v001 normal at inactive
- mion 'The taste inside my mouth is so sweet after that! Some salted plum kelp tea would wrap things up nicely. You got that here?'
+ mion 'The taste inside my mouth is so sweet! Some salted plum kelp tea would wrap things up nicely. You got that here?'
  hide mion_v002
  hide kanon_v001
  with Dissolve(0.2)
@@ -31,10 +31,10 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 fuan at active
  show shion_v002 fuan at inactive
- nao 'This... this is perfection at its finest...'
+ nao 'S-Sophistication is rare with this one...'
  show shion_v002 fuan at active
  show nao_v002 fuan at inactive
- shion "Sorry about my older sister. She's quite a country bumpkin..."
+ shion "Sorry about my older sister. She's a country bumpkin..."
  hide shion_v002
  hide nao_v002
  with Dissolve(0.2)
@@ -43,7 +43,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal_close at active
  show mion_v002 smile at inactive
- kanon '... Maybe it is available at the mansion. If you allow me some time, I can go check.'
+ kanon '...Maybe it is available at the mansion. If you allow me some time, I can go check.'
  show mion_v002 smile at jump_transform,active
  show kanon_v001 normal_close at inactive
  mion "Ah, really!? Thanks! I'll be counting on you, then."
@@ -76,7 +76,7 @@ label event01_30_02:
  shion "Ehhh!? Don't tell me that was you reviewing their services just now!?"
  show nao_v002 normal at active
  show shion_v002 odoroki at inactive
- nao "For, for sure... If they're going to make it into a resort, high profile guests might come too."
+ nao "C-Clearly... if they're going to make it into a resort, high profile guests might come too."
  show nao_v002 normal_close at active
  show shion_v002 odoroki at inactive
  nao "If they aren't able to fulfill such a small request for the guests in a natural manner, they won't be able to have anyone satisfied..."
@@ -100,7 +100,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show mion_v002 smile at inactive
- shion "Right... Had he taken too long to take action, the guest could've felt bad for troubling them."
+ shion "Definitely. ...Had he taken too long to take action, the guest could've felt bad for troubling them."
  show mion_v002 smile_close at active
  show shion_v002 smile at inactive
  mion 'No matter how unreasonable of a situation it is, working in a consistent flow without making a single mistake is true professionalism!'
@@ -109,7 +109,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show mion_v002 smile_close at inactive
- nao "What's important is being able to handle that situation smoothly, even if it's something that was not written in the manual..."
+ nao "What's important is being able to handle the situation smoothly, even if it's something not written in the manual..."
  hide mion_v002
  show erika_v001 normal_close at mei_right
  with Dissolve(0.5)
@@ -124,13 +124,13 @@ label event01_30_02:
  with Dissolve(0.5)
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'Definitely, in the same way that a clerk who appears to be a senior seems more competent.'
+ shion 'For sure, in the same way that a clerk who appears to be experienced seems more competent.'
  hide erika_v001
  show mion_v002 smile at mei_right
  with Dissolve(0.5)
  show mion_v002 smile at nod_transform,active
  show shion_v002 smile at inactive
- mion "Yep, yep. In contrast, if a clerk appears anxious while performing their duties, even though they are performing the same tasks as the senior, you can't help but feel that you can't rely on them."
+ mion "Yep, yep. In contrast, if a clerk appears anxious while performing their duties, even though they are performing the same tasks as the experienced one, you can't help but feel that you can't rely on them."
  hide shion_v002
  show nao_v002 normal at mei_left
  with Dissolve(0.5)
@@ -147,7 +147,7 @@ label event01_30_02:
  show erika_v001 normal at active
  erika "It's the same for the greatest detectives all over; because of how dignified and respected they are, there lies an overwhelming absoluteness in their reasoning."
  show erika_v001 normal_close at active
- erika 'Well, there {i}are{/i} also cases in which the culprit gave in just because the detective was very dignified, even while their reasoning was full of holes.'
+ erika 'Well, there {i}are{/i} also cases in which the detective was dignified enough to make the culprit give in on their own, even while their reasoning was full of holes.'
  hide erika_v001
  with Dissolve(0.2)
  show shion_v002 smile at mei_left
@@ -182,10 +182,10 @@ label event01_30_02:
  shion "That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult."
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'Since ancient times, things once assumed to be divine miracles have been successfully explained through science.'
+ mion 'Since ancient times, things once assumed to be divine miracles have successfully been explained through science.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle."
+ mion "Divine miracles cannot be explained. The idea here being, whatever you can't explain gets written off as a divine miracle."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -231,7 +231,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show jessica_v001 normal at inactive
- erika '... Every year, on the day of the village festival, one person dies, and then one person disappears... right?'
+ erika '...Every year, on the day of the village festival, one person dies, and then one person disappears... right?'
  show jessica_v001 fuan at chara_shake_transform,active
  show erika_v001 normal_close at inactive
  jessica "What the hell, that's mad creepy...?! I won't {i}bother{/i} going to the bathroom alone tonight thinking about footsteps following me like that...!!"
@@ -285,7 +285,7 @@ label event01_30_02:
  shion 'Could the "witch" be the lady in the portrait from earlier?'
  show mion_v002 smile at active
  show shion_v002 normal at inactive
- mion 'Ahh, I like that! That really puts the "Western" in Western occult mystery, huh?'
+ mion 'Ooo, nice! That really does put the "Western" in Western occult mystery, huh?'
  show mion_v002 futeki at active
  show shion_v002 normal at inactive
  mion "But that's why I shared the secret behind the name of Watanagashi, and how it links the bloodshed in the dam war to Oyashiro-sama's curse."
@@ -309,7 +309,7 @@ label event01_30_02:
  jessica 'Eh, ah, umm...'
  show jessica_v001 fuan_close at active
  show kanon_v001 normal at inactive
- jessica 'The conversation that we had here absolutely stays between us, alright? Mother would be terrifying if she found out. '
+ jessica 'The conversation that we had here absolutely stays between us, alright? Mom would be terrifying if she found out. '
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
@@ -455,7 +455,7 @@ label event01_30_02:
  jessica 'Well, with that, the conversation comes full circle...'
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica 'Anyway, other than Grandfather, no one in this mansion knows who Beatrice is.'
+ jessica 'Anyways, other than Grandfather, no one in this mansion knows who Beatrice is.'
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
  kanon 'Other than the fact that she is to whom the master is greatly indebted... no one...'
@@ -482,7 +482,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
- jessica 'At night... the rumor of a mysterious figure wandering around inside the mansion while the servants are working has gotten pretty popular. ...Right?'
+ jessica 'The rumor... of a mysterious figure wandering around inside the mansion while the servants are working at night has gotten pretty popular. ...Right?'
  show kanon_v001 normal_close at active
  show jessica_v001 normal at inactive
  kanon '...Yes.'
@@ -524,7 +524,7 @@ label event01_30_02:
  with Dissolve(0.5)
  show kanon_v001 normal at active
  show jessica_v001 normal at inactive
- kanon 'The people who do believe in and respect the existence of \nBeatrice-sama say she is generous.'
+ kanon 'The people who do believe in and respect the existence of Beatrice-sama say she is generous.'
  show jessica_v001 normal at active
  show kanon_v001 normal at inactive
  jessica "So... asserting something that makes a fool out of Beatrice, like saying she couldn't exist... seems to result in you being cursed."
@@ -576,7 +576,7 @@ label event01_30_02:
  play sound ['audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav','audio/sfx/SE_5053_wind.wav'] fadeout 1.0
  show black_cover as bg
  play audio 'audio/sfx/SE_5020_key.wav'
- narrator 'One day, Kanon was appointed to trim the roses. After locking up the garden shed, he left the key in his pocket, and retired for the day.'
+ narrator 'One day, Kanon-san was appointed to trim the roses. After locking up the garden shed, he left the key in his pocket, and retired for the day.'
  narrator 'Normally, the key gets used during a job, and then after that job is done, it must be returned to the keybox in the servant room. '
  narrator 'That day, Kanon-san finished the job without returning the key.'
  narrator 'The garden shed can only be opened with that one key. It cannot even be opened with the master key.'
@@ -678,7 +678,7 @@ label event01_30_02:
  hide nao_v002
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- narrator 'Anyways, if I fake laugh like this, everyone will laugh with me, and then I can change the mood.'
+ narrator 'Anyway, if I fake laugh like this, everyone will laugh with me, and then I can change the mood.'
  narrator "But nothing is funny at the moment, so I'm just laughing out of place."
  camera at screenshake_transform
  pause 0.0
@@ -798,12 +798,12 @@ label event01_30_02:
  jessica "I'm gonna head out in a bit, then."
  show jessica_v001 fuan at active
  show kanon_v001 normal at inactive
- jessica 'Nao-chan, can you forgive me? It was a boring conversation. I want you to forget it. ...All right, see ya!'
+ jessica 'Nao-chan, can you forgive me? It was a dumb conversation. I want you to forget it. ...Alright, see ya!'
  hide jessica_v001
  hide kanon_v001
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_530_walk_one.wav'
- narrator 'Jessica-san and Kanon walked off with perturbed looks. Erika-san simply stood there while shrugging her shoulders.'
+ narrator 'Jessica-san and Kanon-san walked off with perturbed looks. Erika-san simply stood there while shrugging her shoulders.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -871,7 +871,7 @@ label event01_30_02:
  play audio 'audio/sfx/SE_536_up_stairs.wav'
  pause 2.5
  play audio 'audio/sfx/SE_5007_keyroll.wav'
- narrator 'The four of us went up to the second floor. And so, we unlocked each of our rooms with our respective keys and entered.'
+ narrator 'The four of us went up to the second floor. \nThen, we unlocked each of our rooms with our respective keys and entered.'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2281.png' as bg

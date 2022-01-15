@@ -289,7 +289,7 @@ label event01_30_10:
  nao "...I realize that. She's only pretending to be the villain, but normally, she actually isn't like that."
  show dlanor_v001 smile at active
  show nao_v002 smile at inactive
- dlanor '......Nao, you really are an extraordinary person, even coming up to par with voyager WITCHES.'
+ dlanor '......Nao, you really are an extraordinary person, even coming up to par with Voyager WITCHES.'
  hide dlanor_v001
  show beatrice_v001 smile at mei_right
  with Dissolve(0.5)
@@ -372,7 +372,7 @@ label event01_30_10:
  show black_cover as bg
  narrator 'I should have never come to this island.'
  play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
- nao 'N... n......'
+ nao 'N-... n-......'
  nao 'Nooooooooooooooooo!!'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound

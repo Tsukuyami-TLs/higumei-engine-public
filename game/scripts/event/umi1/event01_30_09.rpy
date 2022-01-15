@@ -35,7 +35,7 @@ label event01_30_09:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao "It's true that Shion was the only one to go back to search for something at the guesthouse, and thus lost an alibi..."
+ nao "It's true that Shion-san was the only one to go back to search for something at the guesthouse, and thus lost an alibi..."
  hide nao_v002
  with Dissolve(0.2)
  narrator "But I don't want to let Shion-san be declared the culprit just because she doesn't have an alibi. "
@@ -91,7 +91,7 @@ label event01_30_09:
  show shion_v007 odoroki at mei_center
  with Dissolve(0.5)
  show shion_v007 odoroki at jump_transform,active
- shion 'Huh? Wha-what on earth...!?'
+ shion 'Huh? W-What on earth...!?'
  hide shion_v007
  with Dissolve(0.2)
  narrator 'Since a magic circle had just appeared in her room, I thought Erika-san would have been shaking in fear.'
@@ -143,7 +143,7 @@ label event01_30_09:
  hide shion_v007
  with Dissolve(0.2)
  play audio 'audio/sfx/SE_229_grap.wav'
- narrator 'As Shion stepped forward... Erika-san grabbed her wrist in a vice-like grip, almost like it was a pair of handcuffs.'
+ narrator 'As Shion-san stepped forward... Erika-san grabbed her wrist in a vice-like grip, almost like it was a pair of handcuffs.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -184,7 +184,7 @@ label event01_30_09:
  hide erika_v001
  with Dissolve(0.2)
  narrator "She called it a penlight, but from an outsider's perspective, it looked like a rather plump fountain pen."
- narrator 'However, when Erika fiddled with it using her free hand, it became clear that it did indeed have a light function...'
+ narrator 'However, when Erika-san fiddled with it using her free hand, it became clear that it did indeed have a light function...'
  show nao_v002 normal at mei_left
  show mion_v008 sinken at mei_right
  with Dissolve(0.5)
@@ -566,7 +566,7 @@ label event01_30_09:
  beatrice "The next turn is Nao's. You probably won't have any issues going forward, right?"
  show dlanor_v001 normal at active
  show beatrice_v001 smile at inactive
- dlanor 'Now, NAO. It is your TURN.'
+ dlanor 'Please, NAO. It is your TURN.'
  hide dlanor_v001
  hide beatrice_v001
  with Dissolve(0.2)
@@ -606,10 +606,10 @@ label event01_30_09:
  nao "I am Nao Houtani. ...I consider myself a normal human... but the truth is, I've had strange experiences that nobody would believe were real if I were to mention them."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'I have physically encountered paranormal phenomena such as gods and "Tsukuyami", and know firsthand that this world doesn\'t just contain what Humans think it does.'
+ nao "I have physically encountered paranormal phenomena such as gods and {b}Tsukuyami{/b}, and know firsthand that this world doesn't just contain what Humans think it does."
  show beatrice_v001 odoroki at active
  show nao_v002 normal at inactive
- beatrice '...What the... are you... a Voyager witch...!?'
+ beatrice '...What the... are you... a Voyager Witch...!?'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -642,7 +642,7 @@ label event01_30_09:
  hide dlanor_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator "I whisper into Dlanor's ear."
+ narrator "I whisper into Dlanor-san's ear."
  show nao_v002 normal at mei_left
  show dlanor_v001 odoroki at mei_right
  with Dissolve(0.5)
@@ -658,7 +658,7 @@ label event01_30_09:
  show beatrice_v001 normal_close at mei_center
  with Dissolve(0.5)
  show beatrice_v001 normal_close at active
- beatrice '...Dlanor wants to see your Fragment.'
+ beatrice '...Dlanor wants to see your Fragments.'
  hide beatrice_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left
@@ -709,7 +709,7 @@ label event01_30_09:
  show erika_v001 odoroki at mei_center
  with Dissolve(0.08333333333333333)
  show erika_v001 sinken at active
- erika 'W... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...?!'
+ erika 'W-... who the hell are you?! I thought you were just some bratty kid I happened to meet on the ferry...?!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -790,7 +790,7 @@ label event01_30_09:
  play audio 'audio/sfx/SE_391_ls_swing.wav'
  show nao_v002 normal at active
  show erika_v001 odoroki at inactive
- nao "{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika's traps, was able to prove her innocence.{/umi_blue}"
+ nao "{umi_blue}Because of this, the only person who would be able to get into the room would be Shion-san, who, despite Erika-san's traps, was able to prove her innocence.{/umi_blue}"
  camera:
   parallel:
    linear 0.5 pos (960, 540)
@@ -863,7 +863,7 @@ label event01_30_09:
  camera at screenshake_transform
  pause 0.0
  show erika_v001 odoroki at active
- erika 'No way... nowaynowaynowaaaaaaaaayy! Shion is absolutely, positively, certainly guilty... so why... so why is there no evidence...anywhere?!?!'
+ erika 'No way... nowaynowaynowaaaaaaaaayy! Shion is absolutely, positively, certainly guilty... so why... so why is there no evidence... anywhere?!?!'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -893,7 +893,7 @@ label event01_30_09:
  nao 'The next turn is yours, but before you declare your victory, I want you to make one move for me.'
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
- nao "While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why \nShannon-san didn't feel anything strange when she found it."
+ nao "While the second magic circle is a witch's deed, Erika-san was the culprit for the first one. And just now, it finally occured to me why Shannon-san didn't feel anything strange when she found it."
  hide nao_v002
  hide beatrice_v001
  with Dissolve(0.2)

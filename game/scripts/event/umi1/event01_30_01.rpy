@@ -35,19 +35,19 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show shion_v002 smile at inactive
- erika 'Well, it really is just a coincidence. I thought I was going to drown back there.'
+ erika 'Well, it really is just a coincidence. I thought I was going to drown back then.'
  show shion_v002 smile at active
  show erika_v001 normal at inactive
- shion 'Then you ended up washing up on an isolated island with a western mansion. What a wonderful coincidence!'
+ shion 'What a wonderful coincidence you ended up washing up on an isolated island with a western mansion, though!'
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show shion_v002 smile_blush at jumping_transform,active
  show erika_v001 normal at inactive
- shion "And then the handsome young man living in the mansion would fall in love with you at first sight, and ugh! At that rate it'd be just like a romance novel!"
+ shion "If a handsome young man living in the mansion fell in love with you at first sight, ugh! At that rate, it'd be just like a romance novel!"
  hide shion_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator 'She is... coming with us... as another guest invited to stay at Rokkenjima for two nights.'
- narrator "We even said we'd never see each other again. ...This couldn't get any more awkward."
+ narrator "Just... like us... she's coming as a guest invited to stay at Rokkenjima for two nights."
+ narrator "We even said we'd never see each other again... \nThis couldn't get any more awkward..."
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -55,7 +55,7 @@ label event01_30_01:
  hide erika_v001
  with Dissolve(0.2)
  narrator 'It seems that she had once drifted near Rokkenjima when she fell out of a pleasure boat.'
- narrator 'Then, by coincidence, she washed up on Rokkenjima and was taken care of. And so, she has a small connection with them...'
+ narrator "Then, by coincidence, she washed up on Rokkenjima and was taken care of. Since then, she's had a small connection with them..."
  show nao_v002 normal at mei_left
  show erika_v001 normal at mei_right
  with Dissolve(0.5)
@@ -144,7 +144,7 @@ label event01_30_01:
  hide erika_v001
  with Dissolve(0.2)
  narrator "...If it's just because there were six houses on the island a long time ago , then it'd be too easy."
- narrator "But it's also the exact answer that comes out of Mion's mouth."
+ narrator "But it's also the exact answer that comes out of Mion-san's mouth."
  play music "<loop 0>audio/bgm/BGM_QUEST4_COLLAB2.ogg"
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
@@ -255,7 +255,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show jessica_v001 smile at active
  show shannon_v001 smile at inactive
- jessica 'Welcome to Rokkenjima everyone!'
+ jessica 'Welcome to Rokkenjima, everyone!'
  show shannon_v001 smile at active
  show jessica_v001 smile at inactive
  shannon 'You must all be exhausted from the long boat ride.'
@@ -438,7 +438,7 @@ label event01_30_01:
  shannon 'Thank you very much for the words of praise.'
  show jessica_v001 smile at active
  show shannon_v001 smile at inactive
- jessica "Heheh. Thanks to Kanon-kun's wonderful care, we've had the best roses ever this year!"
+ jessica "Heheh. Thanks to Kanon-kun's handiwork, we've had the best roses ever this year!"
  hide jessica_v001
  show erika_v001 normal at mei_left
  with Dissolve(0.5)
@@ -514,7 +514,7 @@ label event01_30_01:
  mion "...I sure wish they'd renovate the Sonozaki main house into a Western mansion like this."
  show shion_v002 fuan at active
  show mion_v002 fuan at inactive
- shion "Do you think the old hag would be fine with that? I can't even see mother letting that happen. "
+ shion "Do you think the old hag would be fine with that? I can't even see Mother letting that happen. "
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -550,7 +550,7 @@ label event01_30_01:
  hide nao_v002
  hide erika_v001
  with Dissolve(0.2)
- narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. I'll give it to Mion."
+ narrator "In any case, it's an important key. I'd better leave it in the hands of my seniors. I'll give it to Mion-san."
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  show black_cover as bg
  play audio 'audio/sfx/SE_5013_down.wav'
@@ -755,7 +755,7 @@ label event01_30_01:
  with Dissolve(0.5)
  show erika_v001 normal_close at active
  show shion_v002 fuan at inactive
- erika "...Could you at least wait until Gohda-san's finished his explanation?"
+ erika '...Could you at least wait until Gohda-san has finished with his explanation?'
  show shion_v002 fuan at active
  show erika_v001 normal_close at inactive
  shion 'Oh well. Sis is a country bumpkin with no table manners after all.'
@@ -783,8 +783,8 @@ label event01_30_01:
  shannon 'Everyone, I would like to show you the mansion.'
  hide shannon_v001
  with Dissolve(0.2)
- narrator 'After the refreshments and a little break, Jessica arrived to come get us.'
- narrator "First, we'll go greet the family members that will be taking care of us these next few days.\nThen after that, we'll be shown around the Western-style mansion built right after the war."
+ narrator 'After the refreshments and a little break, Jessica-san arrived to come get us.'
+ narrator "First, we'll go greet the family members that will be taking care of us these next few days. Then after that, we'll be shown around the Western-style mansion built right after the war."
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
@@ -867,7 +867,7 @@ label event01_30_01:
  show mion_v002 smile at mei_center
  with Dissolve(0.5)
  show mion_v002 smile at active
- mion 'What an amazing mansion... To build a house like this in one generation, I really admire it!'
+ mion 'What an amazing mansion... To build a house like this in one generation, I really admire that!'
  hide mion_v002
  with Dissolve(0.2)
  Character('Krauss Ushiromiya',ctc="ctcArrow", ctc_position="fixed") 'Hahaha. It was my father who built this mansion.'
@@ -878,7 +878,7 @@ label event01_30_01:
  shion "We'll do our best to give a young person's point of view as resort consultants! Please leave it to us!"
  hide shion_v002
  with Dissolve(0.2)
- Character('Natsuhi Ushiromiya',ctc="ctcArrow", ctc_position="fixed") "You don't have to be so formal about it. Please take your time and enjoy your stay at our house."
+ Character('Natsuhi Ushiromiya',ctc="ctcArrow", ctc_position="fixed") "You don't have to be so formal about it. Please take your time and enjoy your stay at this house."
  show nao_v002 smile at mei_left
  with Dissolve(0.5)
  show nao_v002 smile at active
@@ -921,11 +921,11 @@ label event01_30_01:
  hide shion_v002
  hide nao_v002
  with Dissolve(0.2)
- Character('Natsuhi Ushiromiya',ctc="ctcArrow", ctc_position="fixed") "Jessica, Shannon. I'll leave the guests to you two. ...Jessica, please don't forget your manners."
+ Character('Natsuhi Ushiromiya',ctc="ctcArrow", ctc_position="fixed") "Jessica, Shannon. I'll leave the guests to you two. ...Jessica, do not forget your manners."
  show jessica_v001 fuan_close at mei_center
  with Dissolve(0.5)
  show jessica_v001 fuan_close at active
- jessica 'I-I know, Mom...'
+ jessica 'I-I know...'
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide jessica_v001
@@ -935,8 +935,8 @@ label event01_30_01:
  hide fade onlayer curtain
  with Dissolve(1.0)
  narrator 'With that, we were shown around the house.'
- narrator 'At first, we were nervous, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here, among other indiscreet topics.  '
- narrator 'And then, on the way back to the front door, we walked through a great hall.'
+ narrator 'We were nervous at first, but around the end, the Sonozaki sisters were totally relaxed. They started getting excited and talking about how great it would be if some kind of incident occurred here, among other indiscreet topics.  '
+ narrator 'Then, on the way back to the front door, we walked through a great hall.'
  narrator 'And there... I met the true master of this island.'
  show mion_v002 odoroki at mei_right
  show shion_v002 odoroki at mei_left
@@ -974,7 +974,7 @@ label event01_30_01:
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
- nao '……………………'
+ nao '........................'
  hide nao_v002
  with Dissolve(0.2)
  narrator "I'm not psychic or anything. \n...But, the painting was making me feel something."
@@ -1037,6 +1037,6 @@ label event01_30_01:
  play audio 'audio/sfx/SE_324_ls_thundercroud.wav'
  pause 1.0
  play audio 'audio/sfx/SE_325_ls_thunderfall.wav'
- beatrice '"{i}*cackle*cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/i}"'
+ beatrice '"{b}*cackle*cackle* Welcome to my Rokkenjima! Enjoy your stay, Humans...!!{/b}"'
  call chapter_end from _call_chapter_end_3
  jump event01_30_02

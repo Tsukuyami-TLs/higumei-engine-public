@@ -98,10 +98,10 @@ label event01_30_03:
  show expression 'images/bg/AdvBg_2371.png' as bg
  hide fade onlayer curtain
  with Dissolve(1.0)
- narrator 'Even though I tried so hard to forget... I was reminded of the ghost story about the witch again. But since I just had that nap, my face relaxed a bit.'
+ narrator 'Even though I tried so hard to forget... I was reminded of the ghost story about the witch again. But since I just had that nap, my face eased up a bit.'
  narrator "Having a dinner I could boast about, I'll be charged up to 120%% too, and starting tomorrow, my mood might even improve on its own."
  play audio 'audio/sfx/SE_5034_knock.wav'
- narrator "Before I go down, I'll knock on the door to Erika's room as well."
+ narrator "Before I go down, I'll knock on the door to Erika-san's room as well."
  show nao_v002 normal at mei_center
  with Dissolve(0.5)
  show nao_v002 normal at active
@@ -159,10 +159,10 @@ label event01_30_03:
  with Dissolve(0.2)
  Character('Gohda',ctc="ctcArrow", ctc_position="fixed") 'Dear me. ... I do wonder if Erika-sama is still in her room?'
  narrator 'Gohda-san had appeared at the best possible moment to introduce his own cooking.'
- narrator 'In that moment, everyone wanted to sit and listen. But he seemed to be worried that Erika was still missing.'
+ narrator 'In that moment, everyone wanted to sit and listen. But he seemed to be worried that Erika-san was still missing.'
  narrator 'However, if we were to wait for Erika-san, we would miss our chance to eat while the food was still at its most ideal.'
  narrator "With a cough to clear his throat, Gohda-san had begun his explanation on tonight's cuisine."
- narrator 'By the time we had finished a subtle appetizer and even gotten through a deliciously light-flavored soup, Erika had finally gone down the stairs.'
+ narrator 'By the time we had finished a subtle appetizer and even gotten through a deliciously light-flavored soup, Erika-san had finally gone down the stairs.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -241,7 +241,7 @@ label event01_30_03:
  with Dissolve(0.2)
  narrator 'Tch. ...I want everyone to watch "The Kaneda Case Files" too. It\'s suuper interesting, but...'
  narrator "I'm not sure if this is a feeling of alienation or if this is me being a contrarian. ...I just feel left out of the circle."
- narrator 'I got up from the sofa. Over near the bar table, Shannon was there cleaning up.'
+ narrator 'I got up from the sofa. Over near the bar table, Shannon-san was there cleaning up.'
  play audio 'audio/sfx/SE_515_tableware.wav'
  show nao_v002 smile at mei_left
  show shannon_v001 smile at mei_right
@@ -304,7 +304,7 @@ label event01_30_03:
  hide nao_v002
  with Dissolve(0.2)
  narrator 'A bewildered expression. ...Yeah, that reaction is good.'
- narrator 'Everyone has been claiming that Beatrice, the witch, "exists."'
+ narrator 'Everyone has been claiming that Beatrice, the witch, "exists".'
  narrator "Normally, even I'd be able to read the mood, like how you wouldn't want to indiscriminately deny the existence of Santa Claus."
  narrator '...But I\'m a bit more of the contrarian type. As they join in and declare that Beatrice "exists", I more so get the feeling of wanting to be shown proof.'
  narrator '...Proof? ...This is no joke. I just wanted to relax on this island, so why did it have to come to this?'
@@ -313,7 +313,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show shannon_v001 smile at inactive
- nao 'As I thought, Shannon-san... believes in Beatrice too?'
+ nao 'As I thought, Shannon-san... you believe in Beatrice too?'
  show shannon_v001 smile_close at active
  show nao_v002 normal at inactive
  shannon 'Yes. ...Beatrice-sama "exists".'
@@ -339,7 +339,7 @@ label event01_30_03:
  nao "If she shows her form begrudgingly, acting like she owns the place, she'd ruin the experience."
  show shannon_v001 normal_close at active
  show nao_v002 normal at inactive
- shannon '... It seems like you are quite poisoned with anti-magic toxin.'
+ shannon '...It seems like you are quite poisoned with anti-magic toxin.'
  show nao_v002 odoroki at active
  show shannon_v001 normal_close at inactive
  nao 'Anti-magic... toxin...?'
@@ -402,8 +402,8 @@ label event01_30_03:
  hide jessica_v001
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- narrator 'Jessica had appeared in good spirits, holding something.'
- narrator 'To Jessica, us coming here on vacation is probably more like friends coming to sleep over.'
+ narrator 'Jessica-san had appeared in good spirits, holding something.'
+ narrator 'To Jessica-san, us coming here on vacation is probably more like friends coming to sleep over.'
  show jessica_v001 smile at mei_right
  show mion_v002 odoroki at mei_left
  with Dissolve(0.5)
@@ -495,7 +495,7 @@ label event01_30_03:
  with Dissolve(0.5)
  show shion_v002 normal at active
  show mion_v002 fuan at inactive
- shion "Sis. Wouldn't it be best to apologize outright for something like this?"
+ shion "Sis. Wouldn't it be best to apologize right away for something like this?"
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)
@@ -613,7 +613,7 @@ label event01_30_03:
  mion 'Woah! That was real fast! To think you had gone up just now, jeez!'
  show nao_v002 smile at active
  show mion_v002 odoroki at inactive
- nao "Right? But anyways, this is a relief. You've fixed it in quite a flash."
+ nao "Right? But anyway, this is a relief. You've fixed it in quite a flash."
  hide nao_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -806,7 +806,7 @@ label event01_30_03:
  shion 'Umm, who has the key?'
  show mion_v002 smile at active
  show shion_v002 normal at inactive
- mion 'I have iiit~. Opening it now~.'
+ mion "This ol' man has iiit~. Opening it now~."
  hide mion_v002
  hide shion_v002
  with Dissolve(0.2)

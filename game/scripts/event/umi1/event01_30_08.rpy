@@ -362,7 +362,7 @@ label event01_30_08:
  narrator 'I see. Three participants, each one claiming a different side.'
  camera at screenshake_transform
  pause 0.0
- narrator "Tonight's magic circle was either magic cast by the witch,\n a farce performed by Erika-san, or a crime committed by Shion-san!"
+ narrator "Tonight's magic circle was either magic cast by the witch, a farce performed by Erika-san, or a crime committed by Shion-san!"
  show dlanor_v001 normal at mei_center
  with Dissolve(0.5)
  show dlanor_v001 normal at active
@@ -613,7 +613,7 @@ label event01_30_08:
  nao "I was panicking yesterday and I was in shock, so I assumed that today's magic circle was the exact same..."
  show nao_v002 normal at active
  show erika_v001 normal at inactive
- nao 'There. See these letters surrounding the magic circle in a ring? ... This one specifically is different.'
+ nao 'There. See these letters surrounding the magic circle in a ring? ...This one specifically is different.'
  hide erika_v001
  show beatrice_v001 sinken at mei_right
  with Dissolve(0.5)
@@ -622,7 +622,7 @@ label event01_30_08:
  beatrice "Hmmm, I see... This letter should be a little swirl, but instead, it's two circles."
  show nao_v002 smile at active
  show beatrice_v001 sinken at inactive
- nao 'Indeed. I doubt this was a simple drawing error. This same symbol appears in 3 other places.'
+ nao 'Indeed. I doubt this was a simple drawing error. This same symbol appears in three other places.'
  show beatrice_v001 sinken at active
  show nao_v002 smile at inactive
  beatrice 'That there are! There are double circles in three spots where there should be swirls! ...What on earth is this?!'
@@ -656,7 +656,7 @@ label event01_30_08:
  show white_cover as flash with Dissolve(0.1)
  pause 0.1
  hide flash with Dissolve(0.2)
- narrator 'Repeat this in red: "The two magic circles were drawn onto two separate sheets by different people."'
+ narrator 'Repeat this in red: "The two magic circles were drawn onto two separate sheets by different people.".'
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 590)
@@ -963,7 +963,7 @@ label event01_30_08:
  show erika_v001 normal at active
  erika "Dlanor gives off an audaciously bewitching scent, doesn't she?"
  show erika_v001 smile at active
- erika 'I have a good nose, so I can smell her from a mile away. *giggle*giggle*'
+ erika 'I have a good nose, so I can smell her from a mile away. *giggle*giggle*.'
  hide erika_v001
  with Dissolve(0.2)
  show nao_v002 normal at mei_left

@@ -28,7 +28,7 @@ label event01_30_06:
  nao 'Excuse me?'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika '"You\'re the culprit." ...The moment you get to speak those words is the ultimate pleasure for a detective!'
+ erika '"You\'re the culprit.". ...The moment you get to speak those words is the ultimate pleasure for a detective!'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
  erika "Of course, the culprit won't give in to that phrase so easily."
@@ -37,7 +37,7 @@ label event01_30_06:
  erika "As a cornered rat will bite a cat, the culprit will also surely object with all their might. But for me, I'll {i}enjoy{/i} tearing it down once more!"
  show nao_v002 normal at active
  show erika_v001 futeki at inactive
- nao "...In other words, Erika-san will play the part of an exemplary culprit. Is that what you're saying?"
+ nao "...So, essentially, you'll play the part of an exemplary culprit. Is that what you're saying?"
  show erika_v001 normal_close at active
  show nao_v002 normal at inactive
  erika 'Can you obtain the ultimate pleasure as a detective...?'
@@ -55,10 +55,10 @@ label event01_30_06:
  nao 'Alibi...?'
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
- erika "Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb renditions on Spanish cuisine?"
+ erika "Oh, did you forget? Along with you and the others, didn't I sample Gohda-san's superb rendition on Spanish cuisine?"
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
- erika "Then, immediately after finishing the meal, I participated in \nJessica-san's board game."
+ erika "Then, immediately after finishing the meal, I participated in Jessica-san's board game."
  show erika_v001 normal at active
  show nao_v002 odoroki at inactive
  erika 'After we played late into the night, I surely went upstairs with everyone else.'
@@ -118,7 +118,7 @@ label event01_30_06:
  nao '.................................'
  show erika_v001 normal at active
  show nao_v002 fuan at inactive
- erika 'Do you not remember when I jokingly asked Shannon, "Has a robber broken into the window or anything?", when she came back?'
+ erika 'Do you not remember when I jokingly asked Shannon-san, "Has a robber broken into the window or anything?", when she came back?'
  show nao_v002 fuan at active
  show erika_v001 normal at inactive
  nao '...I guess... you did say that...'
@@ -147,7 +147,7 @@ label event01_30_06:
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
- narrator "Huh? ...The color of Erika's voice was... somehow... different... just now."
+ narrator "Huh? ...The color of Erika-san's voice was... somehow... different... just now."
  narrator 'They were words that I knew spoke the truth even without it being shown...'
  show nao_v002 fuan at mei_left
  show erika_v001 normal at mei_right
@@ -197,7 +197,7 @@ label event01_30_06:
  with Dissolve(0.5)
  show erika_v001 normal at active
  show nao_v002 sinken at inactive
- erika "Seems like she's going to be out today and tomorrow, so little \nNao-chama returning home on Sunday no longer has a chance to hear her side."
+ erika "Seems like she's going to be out today and tomorrow, so little Nao-chama returning home on Sunday no longer has a chance to hear her side."
  show nao_v002 sinken at active
  show erika_v001 normal at inactive
  nao 'Gh......'
@@ -426,7 +426,7 @@ label event01_30_06:
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  show nao_v002 sinken at active
- nao 'A-Another example, okay? Um, ...okay, Halloween! Suppose some guests who are staying in a hotel room overnight do some Halloween costume shoots in their room.'
+ nao 'A-Another example, okay? Um... okay, Halloween! Suppose some guests who are staying in a hotel room overnight do some Halloween costume shoots in their room.'
  show nao_v002 normal at active
  nao 'The Halloween costume is, like, it can be zombie makeup, right? Something pretty bloody and scary. '
  hide nao_v002
@@ -498,12 +498,12 @@ label event01_30_06:
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  show nao_v002 sinken at active
- nao '...This same thought applies to the magic circle sheets, which \nShannon-san thought was a normal, harmless thing!'
+ nao '...This same thought applies to the magic circle sheets, which Shannon-san thought was a normal, harmless thing!'
  hide nao_v002
  with Dissolve(0.2)
  narrator 'The thing is... Shannon-san is the type to listen to orders.'
  narrator "I'm led to believe the whole family is like that. You could probably give orders to the servant head and the older servants as well."
- narrator "But... that's just it. Even if Shannon did see the magic circle, I can see her acting as if nothing had happened...!"
+ narrator "But... that's just it. Even if Shannon-san did see the magic circle, I can see her acting as if nothing had happened...!"
  show nao_v002 smile at mei_left
  show jessica_v001 fuan at mei_right
  with Dissolve(0.5)

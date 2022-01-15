@@ -56,19 +56,19 @@ label chara472001_02:
  beatrice 'So, Nao, after hearing about "Knox\'s Ten Commandments" for the first time, what are your thoughts?'
  show nao_v001 fuan at active
  show beatrice_v001 normal at inactive
- nao 'Right... if you want me to speak my thoughts openly, it gave me the impression that they\'re a bit strict. I was like, "Mystery really has those types of limitations?"'
+ nao 'Right... if you want me to speak my thoughts openly, it gave me the impression that they\'re a bit strict. I was like, "Mystery really has those types of limitations?".'
  show beatrice_v001 futeki at updown_shake_transform,active
  show nao_v001 fuan at inactive
  beatrice "*cackle*cackle*! I guess that's because when you {i}have{/i} read mystery, you have only done it in the casual sense?"
  show nao_v001 fuan at active
  show beatrice_v001 futeki at inactive
- nao "I'm not so sure about reading casually... but because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story."
+ nao "I'm not so sure about reading casually... because there were so many difficult expressions and settings, I would clearly be giving it my all just trying to read along with the story."
  show beatrice_v001 smile at active
  show nao_v001 fuan at inactive
  beatrice 'Then, in the midst of reading a story, have you never tried to reason out on the spot who the culprit is?'
  show nao_v001 fuan_close at active
  show beatrice_v001 smile at inactive
- nao "I've been surprised when I finally hear about the culprit or the trick, but I probably haven't really done much reasoning... maybe."
+ nao "I've been surprised when I finally hear about the culprit or the trick, but I might not have done much reasoning... maybe."
  show nao_v001 normal at active
  show beatrice_v001 smile at inactive
  nao 'So when Beatrice reads mystery, I wonder if she reasons out who the culprit is?'
@@ -123,16 +123,16 @@ label chara472001_02:
  beatrice 'By the way, when there is an inconsistency in the rules related to the story, we call this a "logic error".'
  show beatrice_v001 normal at active
  show nao_v001 normal at inactive
- beatrice 'In a logic battle, "logic errors" are essentially a foul... This is a matter that should be avoided with certainty.'
+ beatrice 'In a logic battle, "logic errors" are essentially a foul... \nThis is a matter that should be avoided with certainty.'
  show nao_v001 normal at active
  show beatrice_v001 normal at inactive
- nao "...So it's kind of like how it's wrong when two people are playing PvP in an arcade and the loser hits the winner, right?"
+ nao "...So it's kind of like how it's wrong when two people are playing a PvP game in an arcade and the loser hits the winner, right?"
  show beatrice_v001 fuan at active
  show nao_v001 normal at inactive
  beatrice 'Uh, mm...? I have no knowledge of what a PvP is, though, so I cannot really assign meaning to it...'
  show nao_v001 fuan at active
  show beatrice_v001 fuan at inactive
- nao 'Ah, but... returning to the question of how the structure of "Knox\'s Decalogue" was formed, what ultimately lead to it being made?'
+ nao 'Ah, but... returning to the question of how the structure of "Knox\'s Decalogue" was formed, what ultimately led to it being made?'
  hide beatrice_v001
  show dlanor_v001 normal_close at mei_left
  with Dissolve(0.5)
@@ -144,7 +144,7 @@ label chara472001_02:
  nao 'Mysteries with too much freedom...?'
  show dlanor_v001 normal at active
  show nao_v001 normal at inactive
- dlanor 'Before "Knox\'s Decalogue" was structured, mysteries that were unsolvable by normal and fair means were a rampant issue... so this completely lowered the quality of the GENRE.'
+ dlanor 'Before "Knox\'s Decalogue" was structured, mysteries that were unsolvable by normal and fair means were a rampant issue... so this lowered the quality of the entire GENRE.'
  show dlanor_v001 normal at active
  show nao_v001 normal at inactive
  dlanor 'For example, culprits would suddenly appear towards the latter half of the story, detectives would use psychic powers to solve mysteries... and secret passageways would exist for locked-room MURDERS.'
@@ -168,25 +168,25 @@ label chara472001_02:
  dlanor 'The difference... IS?'
  show nao_v001 normal at active
  show dlanor_v001 odoroki at inactive
- nao 'Like, right next to it is the 10th one, and that one is listed as "something you shouldn\'t do", whereas the 9th is "something that you are permitted to do", isn\'t it?'
+ nao 'Like, right next to it is the 10th one, and that one is listed as "something you shouldn\'t do", whereas the 9th is "something that you are permitted to do", right?'
  show nao_v001 normal at active
  show dlanor_v001 odoroki at inactive
  nao 'Knox\'s 9th: "It is permitted for observers to let their own conclusions and explanations be heard."'
  show nao_v001 normal at active
  show dlanor_v001 odoroki at inactive
- nao "It's okay for the observers in this rule to recognize characters in the story, right?"
+ nao 'The "observers" can be seen as characters in the story, right?'
  show dlanor_v001 normal at active
  show nao_v001 normal at inactive
  dlanor 'YES.'
  show nao_v001 fuan at active
  show dlanor_v001 normal at inactive
- nao "So basically, if I'm explaining this correctly, it makes me think that a character in the story can tell a lie and it wouldn't matter, though...?"
+ nao "So basically, if I'm explaining this correctly, it makes me think that a character can tell a lie and it wouldn't matter, though...?"
  hide dlanor_v001
  show beatrice_v001 normal at mei_left
  with Dissolve(0.5)
  show beatrice_v001 normal at active
  show nao_v001 fuan at inactive
- beatrice 'If you only look at that rule, I see your point... However, the detective must not be the culprit.'
+ beatrice 'If you only look at that rule, I see your point... \nHowever, the detective must not be the culprit.'
  show nao_v001 normal at active
  show beatrice_v001 normal at inactive
  nao 'Rule 7 prevents it, right? But I wonder if that also prevents the detective from telling lies?'
@@ -198,7 +198,7 @@ label chara472001_02:
  dlanor 'It DOES, they must not tell LIES. Rule 9 impedes this from HAPPENING.'
  show nao_v001 odoroki at jump_transform,active
  show dlanor_v001 normal at inactive
- nao 'Huh? But for it to be permitted for my own conclusions and explanations to be heard... ah.'
+ nao "Huh? But for it to be permitted for one's own conclusions and explanations to be heard... ah."
  hide dlanor_v001
  show beatrice_v001 futeki at mei_left
  with Dissolve(0.5)
@@ -207,19 +207,19 @@ label chara472001_02:
  beatrice '*cackle*cackle*! She has finally realized.'
  show nao_v001 sinken at active
  show beatrice_v001 futeki at inactive
- nao "Is that so... the observer is permitted, but the detective isn't."
+ nao "Okay, so... the observers are permitted, but the {i}detective{/i} isn't."
  hide beatrice_v001
  show dlanor_v001 normal at mei_left
  with Dissolve(0.5)
  show dlanor_v001 normal at active
  show nao_v001 sinken at inactive
- dlanor '... Exactly SO. You understood WELL.'
+ dlanor '...Exactly SO. You understood WELL.'
  show nao_v001 normal at active
  show dlanor_v001 normal at inactive
  nao 'I see... with that in place, the detective cannot tell a lie at all.'
  show dlanor_v001 normal_close at active
  show nao_v001 normal at inactive
- dlanor 'Not NECESSARILY. There are EXCEPTIONS. In the case that the detective tells a lie unconsciously, "Knox\'s Decalogue" would allow it.'
+ dlanor 'Not NECESSARILY. There are EXCEPTIONS. In the case that the detective tells a lie unconsciously, "Knox\'s Decalogue" would allow IT.'
  show nao_v001 odoroki at active
  show dlanor_v001 normal_close at inactive
  nao 'For example?'
@@ -326,7 +326,7 @@ label chara472001_02:
  beatrice 'Hoh. What does that thought entail?'
  show nao_v001 smile at active
  show beatrice_v001 normal at inactive
- nao 'Like, if an author declared he was following "Knox\'s Decalogue" at the beginning, people who knew the decalogue would understand the mystery was designed to be solved, right?'
+ nao 'Like, if an author declared he was following "Knox\'s Decalogue" at the beginning, people who know the decalogue would understand the mystery was designed to be solved, right?'
  show nao_v001 smile_close at active
  show beatrice_v001 normal at inactive
  nao '...I see. So that\'s why "Knox\'s Decalogue" was not discarded as a hindrance, but stuck as a rule for authors to adhere to.'
@@ -341,10 +341,10 @@ label chara472001_02:
  dlanor '............'
  show nao_v001 fuan at active
  show dlanor_v001 odoroki at inactive
- nao "But it's hard to protect a brand, because if you have a fake product, it's bad for the reputation of the original."
+ nao "But it's hard to protect a brand; because if you have a fake product, it's bad for the reputation of the original."
  show nao_v001 fuan_close at active
  show dlanor_v001 odoroki at inactive
- nao "My mother has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable concept."
+ nao "My mom has also worried about this. Even if a fake version is sold, the focal point of the anger would be on the original seller. It's such an unreasonable concept."
  hide dlanor_v001
  show beatrice_v001 smile at mei_left
  with Dissolve(0.5)

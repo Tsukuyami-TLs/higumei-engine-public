@@ -19,7 +19,7 @@ label chara452001_03:
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao "...I didn't think I would get my hands on that this soon. I need to thank Mion next time I see her."
+ nao "...I didn't think I would get my hands on that this soon. I need to thank Mion-san next time I see her."
  show nao_v002 normal at active
  nao 'Now that I have what I wanted to get, the next step is getting in touch with them...'
  show nao_v002 fuan at active
@@ -107,7 +107,7 @@ label chara452001_03:
  beatrice "Since you are here, let's brew this and have a tea party. We can hang out for a short while."
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao "Thank you. ...In that case, I'll accept your treat. Ah, but where are the teacups...?"
+ nao "Thank you. ...I believe I'll accept your treat then. Ah, but where are the teacups...?"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
  beatrice '...Hah, preparations are being made now.'
@@ -137,7 +137,7 @@ label chara452001_03:
  show beatrice_v001 smile at active
  beatrice "Well, if we're talking about skill in teamaking, I'm not as talented as my furniture, Ronove, but between you and me, it's only right that I be your host."
  show beatrice_v001 normal at active
- beatrice 'Mm-mmm... this tea is as fascinating as ever. When you add lemon, it turns from a vivid blue into a red color. It surely is a magical tea.'
+ beatrice 'Hmm... this tea is as fascinating as ever. When you add lemon, it turns from a vivid blue into a red color. It certainly is a magical tea.'
  hide beatrice_v001
  with Dissolve(0.2)
  show beatrice_v001 normal at mei_left
@@ -145,13 +145,13 @@ label chara452001_03:
  with Dissolve(0.5)
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao 'Although, I heard that it is caused by a chemical reaction called a Litmus solution.'
+ nao "You say that, but I heard that it's caused by a chemical reaction called a Litmus solution."
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'Chemistry is also a form of magic. The difference is that numbers have replaced the words explaining how it works.'
  show beatrice_v001 fuan_close at active
  show nao_v002 normal at inactive
- beatrice "Nonetheless, eventually that chemistry morphed into an anti-magic toxin... Their roots are the same, but I don't know where the two diverged."
+ beatrice "Nonetheless, chemistry eventually morphed into anti-magic toxin... Their roots are the same, but I don't know where the two diverged."
  show nao_v002 normal at active
  show beatrice_v001 fuan_close at inactive
  nao "Now that you mention it, I've heard that magic and science, including chemistry, used to be studied in similar ways."
@@ -163,7 +163,7 @@ label chara452001_03:
  beatrice 'However, magic is delicate, and not everyone can use it...'
  show beatrice_v001 normal at active
  show nao_v002 normal at inactive
- beatrice 'They say that science can be easy for anybody to do so long as they have the proper equipment and procedures. Science and magic are polar opposites. Magic loses its power from--'
+ beatrice 'On the other hand, they say that science can be easy for anybody to do, so long as they have the proper equipment and procedures. This is because science and magic are polar opposites. Magic loses its power from--'
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
  nao 'But... magic does exist. At the very least, the Golden Witch, Beatrice, was able to help me.'
@@ -185,10 +185,10 @@ label chara452001_03:
  with Dissolve(1.0)
  beatrice 'Previously, you said you were on the brink of despair, but you were able to find hope after crossing over to that "World".'
  beatrice "However, as a result of that, you've experienced an even greater level of tragedy... Perhaps at this point, the only way forward is straight into hell."
- beatrice "And even so, you continue to push forward? Wouldn't it have been more peaceful to have snuffed your life out with that initial despair?"
+ beatrice "And even so, you continue to push forward? Wouldn't it have been more peaceful to have met your demise with that initial despair...?"
  nao "...No, I have to keep going. After coming this far, I can't quit halfway through."
- nao 'Besides... whichever "different" result that I come upon, by continuing to the end, there is a possibility I can reach one where things went well.'
- nao 'I will not disregard the existence of that "possibility". ...I can\'t ever despair.'
+ nao 'Besides... thanks to all of the "different" results that I\'ve come upon, I understand that there is a possibility I can reach one where things went well by continuing to the end.'
+ nao 'I will not disregard the existence of that "possibility". \n...I can\'t ever despair.'
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  stop sound
  show expression 'images/bg/AdvBg_2211.png' as bg
@@ -223,7 +223,7 @@ label chara452001_03:
  beatrice '*cackle*cackle*... this truly was a pleasantly strange coincidence. I plan to show my face in your village in the future, so I hope you receive me well then.'
  show nao_v002 smile at active
  show beatrice_v001 smile at inactive
- nao "Yes, of course... but wait you're going to Hinamizawa? As a witch? How?"
+ nao "Yes, of course... but wait, you're going to Hinamizawa? As a witch? How?"
  show beatrice_v001 smile at active
  show nao_v002 smile at inactive
  beatrice 'That would be through magic, of course... but I do not know if you will remember me or have forgotten about me at that point.'
@@ -322,7 +322,7 @@ label chara452001_03:
  with Dissolve(0.5)
  show miyuki_v002 fuan at active
  show nao_v002 normal at inactive
- miyuki "I can't see well since the lights are off... wh-what? Whose teacup is that?"
+ miyuki "I can't see well since the lights are off... \nWh-what? Whose teacup is that?"
  hide nao_v002
  show kazuho_v002 odoroki at mei_right
  with Dissolve(0.5)

@@ -28,7 +28,7 @@ label event01_30_07:
  mion "Reaaally? This ol' man doesn't mind at all, though."
  show shion_v008 sinken at active
  show mion_v015 smile at inactive
- shion "Sis, you might be okay with it, but I'd prefer to be modest. Anyway, I'm going upstairs to change."
+ shion "Sis, you might be okay with it, but I'd prefer to be modest. Anyways, I'm going upstairs to change."
  hide mion_v015
  hide shion_v008
  with Dissolve(0.2)
@@ -168,7 +168,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show beatrice_v001 smile at active
  show erika_v001 normal at inactive
- beatrice "{i}What you brought as a souvenir{/i} is very intriguing, isn't it?"
+ beatrice "{b}What you brought as a souvenir{/b} is very intriguing, isn't it?"
  show erika_v001 normal at active
  show beatrice_v001 smile at inactive
  erika "It's mere child's play compared to the difficulty you had while flirting with Battler-san, though."
@@ -326,9 +326,9 @@ label event01_30_07:
  show erika_v001 smile at mei_center
  with Dissolve(0.5)
  show erika_v001 smile at active
- erika '*giggle*giggle* It really is a treat to dangle riddles in front of Beatrice like this♪'
+ erika '*giggle*giggle*. It really is a treat to dangle riddles in front of Beatrice like this♪'
  show erika_v001 futeki at active
- erika "Keep doing your best, won't you? Hadn't {b}they{/b} seen through everything on their first try...?"
+ erika "Keep doing your best, won't you? Hadn't {b}they{/b} seen through everything on their first look...?"
  stop music fadeout 0.5
  window hide None
  show black_cover onlayer curtain as fade with Dissolve(1.0)
@@ -373,7 +373,7 @@ label event01_30_07:
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
  show nao_v002 smile at active
- nao "...I guess I'll leave too. The wind was beginning to get cold anyway."
+ nao "...I think I'll leave too then. The wind was beginning to get cold anyway."
  hide nao_v002
  with Dissolve(0.2)
  narrator "At any rate, I don't know how the Sonozakis can take pictures outside in such revealing costumes when it's almost winter."
@@ -445,7 +445,7 @@ label event01_30_07:
  hide shion_v012
  hide fade onlayer curtain
  with Dissolve(0.08333333333333333)
- narrator "I seriously don't know how you can be embarrassed at people looking at the inner lining of your outfit when you've been doing sexy cosplay photo shoots outdoors..."
+ narrator "I seriously don't know how you can be embarrassed by people looking at the inner lining of your outfit when you've been doing sexy cosplay photo shoots outdoors..."
  narrator 'We chatted on as we returned to the guesthouse.'
  show nao_v002 smile at mei_center
  with Dissolve(0.5)
@@ -545,7 +545,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show shion_v012 smile at active
  show mion_v004 smile at inactive
- shion "I can't go into specifics, but if you insert the key while it's inside, the cylinder will jam and break."
+ shion "I can't go into specifics, but if you insert a key while it's inside, the cylinder will jam and break."
  show mion_v004 smile at active
  show shion_v012 smile at inactive
  mion "An onlooker wouldn't realize it's there. Basically, until the person who created the device takes it out, the door will absolutely not open."
@@ -653,7 +653,7 @@ label event01_30_07:
  nao '...Erika-san, did you also inspect the lock to your room?'
  show erika_v001 normal at active
  show nao_v002 normal at inactive
- erika "It's funny. I carelessly left my door unlocked until noon, and now I'm being cautious about yours."
+ erika "I do find it funny. I carelessly left my door unlocked until noon, and now I'm being cautious about yours."
  hide erika_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -720,7 +720,7 @@ label event01_30_07:
  hide nao_v002
  with Dissolve(0.2)
  show black_cover as bg
- erika 'KYAAAAAAAA...!!!'
+ erika 'KYAAAAAAAAAAAAAAA...!!!'
  play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
  narrator "That was undoubtedly Erika's voice coming from the next room. The walls aren't very thick, so it was easy to realize... that it was a scream."
  stop sound
@@ -820,7 +820,7 @@ label event01_30_07:
  mion '*cackle*cackle* ...Well, well, well... did they get ya?'
  show nao_v002 fuan at active
  show mion_v008 futeki at inactive
- nao 'This is... the same magic circle I saw...'
+ nao 'This is... the same magic circle I saw on mine...'
  hide nao_v002
  hide mion_v008
  with Dissolve(0.2)
@@ -892,7 +892,7 @@ label event01_30_07:
  with Dissolve(0.5)
  show mion_v008 normal at active
  show shion_v007 normal at inactive
- mion "If that's the case, then when you left your door unlocked, there were no pranks left there at all."
+ mion "If that's the case, Erika-san, then when you left your door unlocked, there were no pranks left there at all."
  show shion_v007 normal at active
  show mion_v008 normal at inactive
  shion 'The crime was committed between the time the door was locked and the time it was opened, right?'

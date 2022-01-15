@@ -17,7 +17,7 @@ label chara032009_03:
  nao "(And so, I landed down on Beatrice's game board.)"
  nao '(The title is "Ougon no Majo no Densetsu" ...Legend of the Golden Witch.)'
  nao '(There, I lurked in "Battler Ushiromiya-san\'s" shadow, being allowed to spectate what he sees and hears from start to finish.)'
- nao '(Through his eyes and ears, I bare witness to the Rokkenjima of the 4th and 5th of October in 1986...)'
+ nao '(Through his eyes and ears, I bear witness to the Rokkenjima of the 4th and 5th of October in 1986...)'
  nao "(The mysterious epitaph written below the portrait imitates the locked-room murder incidents, containing various prophecies regarding the pursuit of the witch's gold, including...)"
  nao "(--the island's hidden Golden Land...)"
  window hide None
@@ -48,7 +48,7 @@ label chara032009_03:
  beatrice '*cackle*cackle*cackle*, I get what you\'re trying to say. It was essentially a "Time Over" ending where the clock ran out.'
  show beatrice_v001 smile at active
  show nao_v002 fuan at inactive
- beatrice 'Instead of saying the story "was brought to an end", the saying "incidentally reached the end" would be more appropriate.'
+ beatrice 'Instead of saying the story "was brought to an end", the saying "has incidentally reached the end" would be more appropriate.'
  show beatrice_v001 normal at active
  show nao_v002 fuan at inactive
  beatrice 'And thus... how was my game board?'
@@ -99,7 +99,7 @@ label chara032009_03:
  beatrice '...Hm, are you saying my existence is a lie?'
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
- nao "I don't think so. But after having spectated the game board through Battler's eyes..."
+ nao "I don't think so. But after having spectated the game board through Battler-san's eyes..."
  show nao_v002 normal at active
  show beatrice_v001 normal at inactive
  nao "In essence, they aren't my own eyes. Someone else's perspectives and biases are also included."
@@ -136,7 +136,7 @@ label chara032009_03:
  show nao_v002 normal at active
  nao "The story's purpose is to tell a possible truth of what might have occurred on the island..."
  show nao_v002 normal_close at active
- nao "Well, I think it's trying to convey some sort of message."
+ nao "Well, I feel like it's trying to convey some sort of message."
  show black_cover onlayer curtain as fade with Dissolve(0.3333333333333333)
  camera:
   pos (960, 540)
@@ -164,13 +164,13 @@ label chara032009_03:
  nao 'Basically, stories require a theme, right?'
  show nao_v002 fuan_close at active
  show beatrice_v001 normal at inactive
- nao "But, if I can't find the theme, then it was likely hidden in a clever way... it means I'm lacking in some way."
+ nao "But, if I can't find the theme, then it was likely hidden in a clever way... which means that I'm lacking in some way."
  show nao_v002 smile at active
  show beatrice_v001 normal at inactive
  nao "Maybe if I reread the story few times I'll understand. Ah, unless there's more I can read?"
  show beatrice_v001 normal_close at active
  show nao_v002 smile at inactive
- beatrice '... How can you be so sure a theme has been hidden?'
+ beatrice '...How can you be so sure that a theme has been hidden?'
  show nao_v002 normal at active
  show beatrice_v001 normal_close at inactive
  nao 'Because I can.'
@@ -318,7 +318,7 @@ label chara032009_03:
  with Dissolve(0.5)
  show hanyuu_v002 normal at active
  show nao_v002 fuan at inactive
- hanyuu 'At any rate, "I want to know how it continues"... what was that about?'
+ hanyuu 'At any rate, "I want to know how it continues."... what was that about?'
  show nao_v002 odoroki at active
  show hanyuu_v002 normal at inactive
  nao 'Huh? U-Umm... I wonder what that was too. Somehow I feel like I was reading an interesting book in my dream, though.'
@@ -336,7 +336,7 @@ label chara032009_03:
  nao '...Hey, Satoko. If it takes you a long time to write your report, could I go check out a book maybe?'
  show satoko_v002 fuan at active
  show nao_v002 normal at inactive
- satoko 'I was the one following along with you, but sure... Was there a book you wanted to read?'
+ satoko 'Instead of saying the story "was brought to an end", the saying "has incidentally reached the end" would be more appropriate.'
  show nao_v002 smile at nod_transform,active
  show satoko_v002 fuan at inactive
  nao 'Yes, I believe I would like to read a mystery.'

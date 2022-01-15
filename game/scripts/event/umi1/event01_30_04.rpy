@@ -45,10 +45,10 @@ label event01_30_04:
  shion "That's true. When you're able to solve it, it's considered a mystery, but unresolved ones often become part of the occult."
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion 'Since ancient times, things once assumed to be divine miracles have been successfully explained through science.'
+ mion 'Since ancient times, things once assumed to be divine miracles have successfully been explained through science.'
  show mion_v002 smile at active
  show shion_v002 smile at inactive
- mion "Divine miracles cannot be explained. The theory here being, whatever you can't explain suddenly gets written off as a divine miracle."
+ mion "Divine miracles cannot be explained. The idea here being, whatever you can't explain gets written off as a divine miracle."
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  hide mion_v002
  hide shion_v002
@@ -219,7 +219,7 @@ label event01_30_04:
  nao "I'm going to put an end to the mystery of your worthless pranks!! \nIn the name of my granny!!!"
  show beatrice_v001 futeki at active
  show nao_v002 sinken at inactive
- beatrice "Hyaaahhhahahahaha!!! Spatter as much as you like! I'll make you surrender!! In the name of {i}my{/i} granny!!!"
+ beatrice "Hyaaahhhahahahaha!!! Spatter as much as you like! I'll make you surrender!! In the name of my granny!!!"
  hide beatrice_v001
  hide nao_v002
  with Dissolve(0.2)
@@ -272,7 +272,7 @@ label event01_30_04:
  nao 'Oh, really? Next time, drawing the circle with goat blood would make it a bit more convincing.'
  show nao_v002 normal at active
  show beatrice_v001 futeki at inactive
- nao 'This magic circle prank has already been seen through, thanks to \nMion-san.'
+ nao 'This magic circle prank has already been seen through, thanks to Mion-san.'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
  beatrice 'Hoh? Why is it that just through the sheets, you can deny my existence as a witch?'
@@ -300,7 +300,7 @@ label event01_30_04:
  beatrice '*cackle*cackle*cackle*!! I see, I see. This prank has human spelled all over it, huh?'
  show beatrice_v001 smile at active
  show nao_v002 normal at inactive
- beatrice 'Allow me to say this outright, then. My magic paint circle was drawn with my faithful servants in mind.'
+ beatrice 'Allow me to say this upfront, then. My magic paint circle was drawn with my faithful servants in mind.'
  show nao_v002 normal at active
  show beatrice_v001 smile at inactive
  nao "...I see? You didn't want to burden Shannon-san and the rest of the servants who believe in you."
@@ -567,7 +567,7 @@ label event01_30_04:
  nao 'Thinking about it normally, the crime could have been done while we were having dinner.'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao 'The only person who could have entered at that time... \nwas Shannon-san.'
+ nao 'The only person who could have entered at that time... was Shannon-san.'
  show dlanor_v001 normal at active
  show nao_v002 normal at inactive
  dlanor 'When you requested her to check out the window lock, Shannon-san went up to the second floor and unlocked your room with the master KEY.'
@@ -580,7 +580,7 @@ label event01_30_04:
  play audio 'audio/sfx/SE_113_hit_flash.wav'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
- nao '{umi_red}Shannon was not involved in performing the act of drawing the magic circle.{/umi_red}'
+ nao '{umi_red}Shannon-san was not involved in performing the act of drawing the magic circle.{/umi_red}'
  show nao_v002 normal at active
  show dlanor_v001 normal at inactive
  nao 'Right?'
@@ -628,8 +628,8 @@ label event01_30_04:
  with Dissolve(0.2)
  narrator "So, this means... Shannon-san hasn't even cooperated with the culprit unknowingly."
  narrator 'For example, though, the culprit could have prepared some unique sheets beforehand.'
- narrator 'But by the time the paint was on, it was transparent, so this magic circle could have been drawn with paint that fades over time. In that sense, these sheets are just any old sheets.'
- narrator "Suppose Shannon-san entered in order to lay on some normal white sheets, but afterwards, the color set in, and they became the magic circle sheets. In this case, a third party could have done this in good faith, and she wouldn't have been involved at all."
+ narrator 'But by the time the paint was on, it was transparent, so this magic circle could have been drawn with paint that fades in over time. In that sense, these sheets are just any old sheets.'
+ narrator "Suppose Shannon-san entered in order to lay on some normal white sheets, but afterwards, the color set in, and they became the magic circle sheets. In this case, she as a third party could have done this in good faith, and she wouldn't have been involved at all."
  show dlanor_v001 normal at mei_left
  show beatrice_v001 normal at mei_right
  with Dissolve(0.5)

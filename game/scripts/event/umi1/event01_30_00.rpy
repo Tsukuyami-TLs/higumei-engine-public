@@ -11,7 +11,7 @@ label event01_30_00:
  stop music
  narrator 'I should have never come to this island.'
  play music "<loop 0>audio/bgm/BGM_QUEST7_COLLAB2.ogg"
- nao 'N... n......'
+ nao 'N-... n-......'
  nao 'Nooooooooooooooooo!!'
  stop sound
  show expression 'images/bg/AdvBg_1270.png' as bg
@@ -37,7 +37,7 @@ label event01_30_00:
  narrator "Even if you turn a doorknob, there's no way it would open if the door was locked."
  narrator 'Rattling the doorknob like that was just my unconscious way of informing her of my confusion and the abnormality of the situation.'
  narrator "...That's why I didn't actually expect the door to open."
- narrator 'It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.\n'
+ narrator 'It was so unexpected... that it made my heart stop for a second... sharpening my senses like a knife.'
  narrator "Extreme fear can numb our emotions and sharpen our senses to the limit. But... it's a blade of ice in the end. ...No matter how sharp it is, it's fragile and easily shattered......"
  nao 'Erika...san...?'
  stop sound
@@ -55,7 +55,7 @@ label event01_30_00:
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  pause 3.0
  show black_cover as bg
- narrator 'I should have never come to this island... Thinking about it now, the invitation to Rokkenjima was very sudden.'
+ narrator 'I should have never come to this island... \nThinking about it now, the invitation to Rokkenjima was very sudden.'
  window hide None
  stop sound
  show expression 'images/bg/AdvBg_541.png' as bg
@@ -101,7 +101,7 @@ label event01_30_00:
  with Dissolve(0.5)
  show mion_v002 smile at active
  show nao_v002 normal at inactive
- mion "...Or so it was! Looks like they're thinking about turning it into a resort in the future."
+ mion "...Or so it used to be! Looks like they're thinking about turning it into a resort in the future."
  show nao_v002 normal at active
  show mion_v002 smile at inactive
  nao '...So we were invited as reviewers?'
@@ -134,10 +134,10 @@ label event01_30_00:
  mion "Japanese people just don't get what vacations are, y'know? It's not just about shopping or sightseeing on bus tours."
  show nao_v002 normal at active
  show mion_v002 fuan at inactive
- nao "We aren't going there to travel anyway; this is a vacation."
+ nao "We aren't going there to travel anyways; this is a vacation."
  show mion_v002 smile_close at active
  show nao_v002 normal at inactive
- mion 'In this wonderful Western-style house, we can spend time resting our minds while watching the roses, not a soul there to bother us.'
+ mion 'In those wonderful Western-style houses, we can spend time resting our minds while watching the roses, not a soul there to bother us.'
  hide nao_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -148,7 +148,7 @@ label event01_30_00:
  narrator 'At first, I thought I would be asked to help Rena-chan with her things.'
  narrator "But the Sonozaki sisters had no such intentions. The three were invited to go, but Rena-chan couldn't make it. And since having that leftover space would be wasteful, I was asked to go in her place."
  narrator 'I was also given the option to turn down the offer if it was a bother. In that case, the sisters told me they would just go on their own.'
- narrator "Rena-chan kindly gave up her invitation to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there."
+ narrator "Rena-chan kindly gave her invitation up to me, so I won't let it go to waste. I'll make sure I have a blast, so I can bring back a bunch of stories of my time there."
  stop music fadeout 2.0
  show black_cover onlayer curtain as fade with Dissolve(1.0)
  show black_cover as bg
@@ -210,14 +210,14 @@ label event01_30_00:
  with Dissolve(0.5)
  show mion_v002 smile_close at active
  show shion_v002 smile at inactive
- mion 'Western-style houses are really romantic! This old man finally gets why Rika-chan has been yearning to go to St. Lucia so much.'
+ mion 'Western-style houses are really romantic! This ol’ man finally gets why Rika-chan has been yearning to go to St. Lucia so much.'
  show shion_v002 smile at active
  show mion_v002 smile_close at inactive
  shion 'In any case, our stay in question has a beautifully mysterious aura to it~!'
  play audio 'audio/sfx/SE_215_heartgrow.wav'
  show shion_v002 smile_blush at jumping_transform,active
  show mion_v002 smile_close at inactive
- shion "If Satoshi-kun whispered that he'd love me until death in that house, I would have to dedicate my life to him~! Unnnnfff~☆"
+ shion 'If Satoshi-kun whispered, "I love you, so die for me.", to me in that house, I\'d just {i}have{/i} to hand my life over to him~! Unnnnfff~☆'
  hide shion_v002
  hide mion_v002
  with Dissolve(0.2)
@@ -252,7 +252,7 @@ label event01_30_00:
  narrator "The deck didn't have too many people on it. At first, the atmosphere was bright and fun, but the winds got too chilling, so everyone went inside."
  narrator 'So, sadly, the little children, who would otherwise be bustling around in excitement, are now submerged in a reclusive and depressing atmosphere.  '
  play music "<loop 0>audio/bgm/BGM_QUEST3_COLLAB2.ogg"
- narrator 'Oh, look. Just as I said it, there was a melancholic looking girl hanging onto the railing, looking out into the horizon.'
+ narrator 'Oh, look. Fitting with that thought, there was a melancholic looking girl hanging onto the railing, looking out into the horizon.'
  show erika_v001 normal at mei_center
  with Dissolve(0.5)
  show erika_v001 normal at active
@@ -260,7 +260,7 @@ label event01_30_00:
  hide erika_v001
  with Dissolve(0.2)
  narrator 'The girl appeared sweet and cute. ...But that was only my first impression.'
- narrator 'Once again, the frolicking voice of a child approaches. He was excited for some reason, running around the deck in bunches of laps. '
+ narrator "Once again, the frolicking voice of a child approaches. He's excited for some reason, running around the deck in bunches of laps. "
  show nao_v002 sinken at mei_center
  with Dissolve(0.5)
  show nao_v002 sinken at active
@@ -408,7 +408,7 @@ label event01_30_00:
  nao "Are witnesses... this powerless? Meaningless?! That's just stupid!"
  show erika_v001 normal_close at active
  show nao_v002 sinken at inactive
- erika "Knox's 9th, it is permitted for observers to let their own conclusions and explanations be heard.\n\n"
+ erika "Knox's 9th, it is permitted for observers to let their own conclusions and explanations be heard."
  show nao_v002 odoroki at active
  show erika_v001 normal_close at inactive
  nao 'Huh...?'
@@ -539,7 +539,7 @@ label event01_30_00:
  erika 'I had wanted to chat with you while watching the horizon.'
  show erika_v001 normal at active
  show dlanor_v001 normal at inactive
- erika "I'm a bit annoyed since I was interrupted. ...Is the motive for the crime not enough?"
+ erika "I'm a bit annoyed since I was interrupted. ...Isn't the motive for the crime enough?"
  show dlanor_v001 fuan at active
  show erika_v001 normal at inactive
  dlanor 'Moreover, being defiant about being seen sticking your leg out WAS...'
