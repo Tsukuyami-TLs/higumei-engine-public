@@ -1,0 +1,438 @@
+event01_33_03.bytes,Character Names,Japanese Text,Translation,Notes TL,Notes QC
+30,,昭和５８年１２月――。,"December 12th, 1983--",,
+42,Mion (冬服),"みんな～、飲み物は行き渡った？
+自分のグラス、持ちあげてみてー！","Alright everyone~, have you gotten your drinks?
+We're gonna do a toast!",,
+49,Kazuho (冬服),は、はいっ……！,O-Okay...!,yes -> ok,
+51,,"私が両手に持ったグラスを掲げると、
+魅音さんの隣に立った詩音さんが「よし」と
+頷いて、魅音さんに声をかけていった。","As I held the two cups in my hands up, Shion-san nodded with an ""Alright."", and called out to Mion-san.",,
+55,詩音 (冬服),"全員に行き渡ったみたいですよ、お姉。
+準備ＯＫです。","It looks like everyone's gotten one, Sis.
+Preparations are complete.",,
+58,Mion (冬服),それじゃ、改めまして……コホン！,"Alright, let's do this formally... *ahem*!",,
+60,Mion (冬服),みんな、ほんっとうにお疲れ様でした！,"Everyone, we did a suuuuper great job!",,
+62,詩音 (冬服),"みんなが手伝ってくれたおかげで、
+なんとかエンジェルモートのクリスマスフェア……
+もとい、修羅場を乗り越えることができました。","Thanks to everyone's help, we've somehow gotten past the Angel Mort Christmas Fair... or rather, the crunch beforehand!",,
+64,詩音 (冬服),"というわけで、この会はお店と私たちからの
+ささやかなお礼です。","So, for that, this gathering is a small thanks from us and the restaurant.",,
+72,Mion (冬服),"もうイブが明けて１２月２５日の夜だけど、
+私たちのクリスマスはこれからだッ！","Christmas Eve has already passed, but our Christmas starts here!",edit ((i reedited over this edit,
+74,Mion (冬服),"だから思う存分、飲み食いしちゃって！
+それでは――。","So, let's eat and drink as much as we like! And without further ado--",,
+77,Mion (冬服),メリークリスマース！,Merry Christmas!,,
+85,？？？？,メリークリスマース！！,Merry Christmas!!,,
+90,Miyuki (冬服),"んぐ、んぐ、んぐ……っぷ、はぁ！！
+労働のあとの一杯はおいしいね！　もう一杯！","*gulp*, *gulp*, *gulp*... *burp*, haaahh!!
+A full glass is great after a hard few days at work! Another one for me!",,
+92,Kazuho (冬服),"そ、そんなに急に飲んだら
+変なところに入っちゃうよ？","I-If you drink that much at once, won't it take you off somewhere strange?",,
+94,Miyuki (冬服),"大丈夫、ちゃんと気をつけてる。
+……それに、昨日からずーっと働きっぱなしで
+喉乾いてたから、まだ足りないくらいだよ。","No worries, I'm minding my limits.
+...And besides, yesterday I was parched the whooooole time we were sweating it up on the job, so I'm still catching up.",,
+96,Miyuki (冬服),"っていうか、クリスマスのファミレスって
+水飲む暇すらないくらい忙しいものなの？
+家でパーティーする人が大多数じゃないの？","Speaking of, the people at the family restaurant weren't even given the chance to take a water break because we were so busy over Christmas, right? But not many people are even here partying...",changed ? to ...,
+98,Miyuki (冬服),"今度からクリスマスじゃなくて、
+クルシミマスに改名するべきだと
+私は提案してやりたいね……。",We should call it Cursedmas instead of Christmas...,shortened,
+102,Nao (冬服),"世の中には、色々なクリスマスの過ごし方が
+あるのよ……気持ちはわからないでもないけど。",There are various ways of celebrating Christmas all around... so it's not like I don't understand why.,,
+104,Nao (冬服),"ほんっと、ここしばらく大変だったもんね……
+クリームを絞りすぎて、もう腕があがらないわ。","It really was tough work for a while though, wasn't it...?
+My arm won't even lift after whisking cream so much.",,
+107,,"コップをテーブルに置いたまま、
+ストローを使ってジュースを飲んでいた
+菜央ちゃんがそう言って、腕を少し持ちあげる。","After taking a sip of her juice with a straw and placing her cup on the table, Nao-chan said that while lifting her arm a little.",,
+108,,"彼女には珍しく、行儀の悪い格好の上……
+その細く小さな腕は、何もしていないのに
+ぷるぷると震えていた。","It's rare for her to be anything less than composed... but even so, that thin, tiny arm was trembling without her doing a single thing.",,
+112,Rena (冬服),"あはははっ。菜央ちゃんにはいっぱい
+ケーキ作りを手伝ってもらったからね。",Ahahaha. Nao-chan helped out with making a bunch of cakes after all.,,
+114,Rena (冬服),"でも、そのおかげでレナはすっごく助かったよ。
+だからケーキは、レナがあーんしてあげるねっ。","But thanks to that, you saved Rena a lot.
+Now Rena can forkfeed some cakes into your mouth!",,
+118,Nao (冬服),"ほわぁ？！　い、いいのっ？！
+じゃ、じゃあ……あ、あーん！",Whaa-?! C-Can you really?! Th-then... a-ahh!,,
+122,Rena (冬服),"はぅ～、菜央ちゃんのちっちゃいお口に
+ちっちゃい歯……かぁいいよ～！","Hau~, Nao-chan's wittle mouf and her wittle teefs... so kyuuuute~!!",,
+127,詩音 (冬服),……それ、褒め言葉なんですか？,...Was that a compliment?,,
+130,Miyuki (冬服),"あ、もうほっとくのが一番の思いやりだよ。
+もう２人の世界に入っちゃってるからさ。","Ah, it'd be thoughtful to leave it as is. Those two are already lost in their own world, y'know?",,
+134,Kazuho (冬服),あ、あはは……。,A-Ahaha...,,
+137,,苦笑しながら、周囲に視線を巡らせる。,"As I laughed nervously, I took in my surroundings.",,
+142,Hanyuu (冬服),あぅあぅ～……働き続けて疲れたのです～……。,Au au~... Working non-stop got me all worn out~...,,
+144,Rika (冬服),"羽入、いつまでもグッタリはよくないのです。
+少しは沙都子を見習うのですよ。","Hanyuu, it's no good to limp around forever. Just look at Satoko.",,
+153,Satoko (冬服),"はむっ、んぐっ、んむっ……！
+このケーキ、ほんとに絶品ですわぁ～！
+羽入さんも召し上がってはいかがですの？","*om*, *chomp*, *munch*...!
+These cakes are quite the masterpiece, if I must say~!
+Why doesn't Hanyuu-san also dig in?",,
+160,Hanyuu (冬服),"た、食べたいのですが、手が震えて……
+今はフォークを持つことすら辛いのです……。","I-I want to eat, but my hands are trembling... it's too painful even to hold a fork like this...",,
+162,Hanyuu (冬服),"あぅあぅ……だ、誰か僕にケーキを
+あーんしてくださいなのですよ……。",Au au... s-someone please feed me the cake...,,
+165,Rika (冬服),はい、羽入。あーんなのですよ。,"Here, Hanyuu. Say ""aah"".",,
+167,Hanyuu (冬服),梨花……！　あーん……もぐもぐ。,Rika...! Aah... *munch*munch*.,,
+170,Rika (冬服),キムチチャーハンなのです。,It's fried rice with kimchi.,noooo!!! D;     ;w;,
+173,Hanyuu (冬服),むぐがーっ？！,Mugaaah?!,,
+182,Mion (冬服),見えているオチに自ら突っ込んでいったね……。,You brought that one upon yourself...,,
+184,詩音 (冬服),"ある意味、予想を裏切らないお２人ですねぇ。
+お約束というものをわかっていると言いますか。","Those two never betray expectations.
+Are they... aware of how predictable they are?",,
+187,,"悶絶する羽入ちゃんを、しみじみと眺める園崎姉妹。
+彼女たちの顔にもやりきった達成感と同時に、
+かなりの疲弊感が色濃く浮かんでいるようだ……。","The Sonozaki sisters gazed at Hanyuu-chan, who was now fainting in agony. They had looks of accomplishment on their faces, paired with the noticeable presense of exhaustion...",,
+190,Kazuho (冬服),あの、魅音さん、詩音さん……。,"Um, Mion-san, Shion-san...",,
+192,Kazuho (冬服),"どうしてクリスマスの真っただ中に
+#p興宮#sおきのみや#rのウェイトレスさんたちの大半が突然
+穀倉の店に駆り出される、なんてことになったの？",Why did the majority of the waitresses in Okinomiya get rounded up by that store in Gogura during the height of all that Christmas stuff?,,
+196,Satoko (冬服),"そう言えば、詳細を知らされておりませんでしたわね。
+何があったのかは、教えていただいてもよろしくて？","Now that you say it, I was never informed of the specifics on that either. Could you allow me to hear what happened?",,
+199,Mion (冬服),"いやー、ほら。
+例の和風デザートセットのこと、覚えている？","Uhhhh, alright. You remember that Japanese dessert set from earlier?",,
+201,Satoko (冬服),"魅音さんたちが提案したという、
+エンジェルモートの新メニューですわよね。
+それがどうかしましたの？","That was a suggestion you guys put in for Angel Mort's new menu, right? What happened with it?",,
+203,Mion (冬服),"もちろん興宮店でも人気商品なんだけど、
+穀倉店の方じゃ売り切れ日が出るくらい
+売れ行きがすごいことになっていてさ……。","Of course, it's a popular order at the Angel Mort in Okinomiya, but it's in such high demand at the one in Gogura that it sold out in a day, making it a huge issue, y'know...?",,
+207,詩音 (冬服),"しかも、噂が噂を呼んで全体的に売り上げが
+急上昇しているそうでして。","What's more, it looks like rumors have been calling about even more rumors, and it's been causing their overall sales to skyrocket.",,
+209,Mion (冬服),"「ここは一気に売り出して知名度アップ！」って
+穀倉店の店長が気合入れて宣伝を仕掛けたら、
+お客さんが詰めかけて大変なことになって……。","The manager in Gogura also came out with the promotion catchphrase, ""Instant sellouts at this shop; get our renown to the top!"", and customers went going hog wild flocking to their door...",,
+213,Kazuho (冬服),う、うわぁ……。,U-Uwaah...,,
+215,Mion (冬服),"で、興宮店のバイトの子たちを
+穀倉店へ派遣する必要が出ちゃったってわけ。","So, the girls working part time in Okinomiya needed to be sent out to work part time in Gogura.",,
+219,詩音 (冬服),"おかげで興宮店がピンチになるなんて、
+本末転倒もいいところですよ……。
+まさに「ありがとうでばかやろう」の気分です。","And thanks to that, Okinomiya Angel Mort ended up getting in a pinch. Talk about getting your priorities backwards...
+It feels more like a, ""Thanks, dumbass!"", than anything.",,
+221,詩音 (冬服),"ですから、皆さんが手伝ってくれて助かりました。
+ふらふら状態で帰宅した店長に代わって、お礼を
+言わせてもらいますね。","But because of that, everyone coming together to help saved the day. I'd like to extend my thanks to you guys for taking the manager's place after he went home all flabberghasted.",,
+226,Kazuho (冬服),"あ、ううん。お礼なんてそんな……。
+困った時はまぁ、お互い様だしね。","Ah, no. You don't have to thank us...
+It should be, well, reciprocal in troubled times.",,
+231,詩音 (冬服),"そう言ってくれると助かります。
+……まぁ、悪いことばかりでもありませんが。","Thanks for sparing me the effort in having to.
+...Well, it wasn't too awful through and through, though.",,
+233,Mion (冬服),"迷惑料としてご祝儀を山ほどふんだくったから
+こうして店を借り切って、打ち上げという名の
+クリスマスパーティーができているわけだしね！","We snatched up a boatload of money as a reward, so we got to reserve this store for tonight and throw a Christmas party to congratulate all of our hard work!",,
+237,Kazuho (冬服),あはは……それもそうだね。,Ahaha... That's also true.,,
+239,Mion (冬服),"ま、そういうわけだから。みんな遠慮なく食べて
+飲んで、思いっきり騒いじゃって！！","Well, isn't that right everyone?! Make sure you eat, drink, and bustle around to your heart's content!!",,
+245,？？？？,おーっ！,Yeaaaah!,,
+250,,"……そして私たちは、働いた分を
+取り戻す勢いで盛大に食べて、飲んで……。","...And so, we regained all of that energy we spent working by enjoying ourselves, eating, drinking...",,
+256,Kazuho (冬服),はぁ、お腹いっぱい……おいしかったね。,"Haah, I'm so full... That was delicious.",,
+260,Nao (冬服),"ちょっと食べ過ぎたかも……かも。
+お腹いっぱいで動けないわ。","I might have eaten a little too much... maybe.
+I'm so full, I can't move.",,
+263,Miyuki (冬服),ついさっきまで、疲れて動けないって言ってたのに？,Even though you were just saying you were so tired that you couldn't move?,,
+265,Nao (冬服),"美味しいご飯とデザートとレナちゃんを前にして、
+抗える人間なんていると思う？",Do you really think there's a person out there who can resist being fed delicious food and desserts with Rena-chan in front of them?,,
+270,Kazuho (冬服),（最後のは菜央ちゃんだけだと思うけど……）,"(I feel like that last part only applies to Nao-chan, though...)",,
+272,,"満腹気分を満喫しながら、
+あとは帰って寝るだけだとのんびりまったりと
+私たちが考えていると……。","Since we were so full and content, all that was left to do was sit back with a smile thinking about going home and sleeping with a full belly. But then...",,
+278,Mion (冬服),"さてと。
+そろそろ宴もたけなわといったところで……。","Alright, guys. Now that the party is about to be in full swing...",,
+280,Mion (冬服),"ここで、みんなにサンタのオジサンから
+プレゼントがありまーす！！","Tonight, an ol' Santa brought presents here for everyoooone!!",,
+288,Miyuki (冬服),えっ……魅音からのプレゼント？,Woah... a present from Mion?,,
+290,Mion (冬服),"残念～。おじさんはおじさんでも、
+義郎おじさんからでした！","Noooope~! This ol' man is an ol' man, but these were actually from ol' man Yoshiro!",,
+294,Rena (冬服),はぅ～、エンジェルモートの店長さん？,"Hau~, Angel Mort's manager?",,
+298,詩音 (冬服),"えぇ、そうです。義郎おじさん、
+クリスマスの臨時アルバイトを皆さんに
+お願いした時、たまたま東京にいたそうで。","Yep, that's right. Uncle Yoshiro happened to be out in Tokyo by chance while he requested everyone to work part time temporarily over Christmas.",,
+300,詩音 (冬服),"バイト代がわりの追加ボーナスってことで、
+全員分を買ってきてくれたそうですよ。","Instead of an additional bonus for all of us working overtime, he went out and brought these back for everyone.",,
+304,Kazuho (冬服),えっ……そ、そうなのっ？,Eh... R-Really?,,
+307,詩音 (冬服),"はい。本人曰く、本当はバイト代を上乗せして
+払うつもりだったそうですが、
+梨花ちゃまたちにも、となると別の問題が……。","Yes. According to him, he actually did mean to tack on a bonus to it, but with Rika-chama and kids, that becomes a different issue...",mayb,
+311,Rika (冬服),"みー。お手伝い程度ならともかく、
+本格的にボクたちが働くのは色々と
+アウトなことがあるのですよー。","Meep. Setting helping out aside, there are too many issues in giving us honest labor.",mayb      eri: they're talking about how minors aren't supposed to work lel,
+316,Kazuho (冬服),そ、それもそうだよね……年齢的にとか、ね。,Th-that's also true... considering your age and stuff.,OH LMAO i was figuring but not too sure,
+321,Rena (冬服),"はぅ……だとしたら今さらだけど、
+そもそも魅ぃちゃんと詩ぃちゃんが働くのも
+問題があるんじゃないかな……かな？","Hau... but then at this point, I wonder if there would have been issues with Mii-chan and Shii-chan working too... working too?",,
+324,Mion (冬服),そこは……ほら、一応親戚だし！,"No, that's, uh... It's okay because we're relatives!",,
+328,詩音 (冬服),"そうそう。
+ということで、プレゼントを配りますよ～！","Yep, yep. Anyway, we're giving out presents now~!",,
+332,Miyuki (冬服),おぅ、露骨にごまかした。,"Woah, dodging the question I see.",,
+336,Nao (冬服),"まぁ、いいじゃない。
+細かいことをいちいち指摘するのは、
+こういう席ではかえって無粋よ。","Well, that's okay. Pointing out every little thing is more boorish on our end.",,
+341,Satoko (冬服),"では、ありがたく受け取らせてもらいますわ。
+パーティーのみでお茶を濁すつもりでしたら、
+後々の貸しにさせてもらうつもりでしたが……。","Well then, I will gladly accept some presents. If we were only going to make do with the party, I would have planned on having the favor returned to me in the future, but...",,
+344,Satoko (冬服),"そういう事情であれば、プレゼントの
+内容次第で理解して差し上げましてよ～！
+をーっほっほっほっ！",I'd probably reconsider that scenario depending on the contents of the presents anyway~! Ohohohoho!,,
+349,Hanyuu (冬服),あぅあぅ、ところで何があるのですか？,"Au au, speaking of, what's in those presents?",,
+351,Mion (冬服),"色々あるよ～。全部ラッピングされているし、
+預かった私たちも何が入っているかは
+特に聞いていないんだけどね。","A bunch of stuff~. They were already wrapped when he handed them to us, so we never actually figured out what they had inside.",,
+355,詩音 (冬服),じゃ、早速適当に配っちゃいましょう！,"So, let's get to unwrapping them right away!",,
+359,Rena (冬服),"はぅ～！　どんなプレゼントなのか
+すっごくわくわくしてきちゃうね～！",Hau~! My heart is super thumping thinking about what type of present I got~!,,
+362,Mion (冬服),"はい、レナにはこのかぁいい包装紙のをあげよう。
+一穂、は……これなんかどう？","Here, let's give Rena the one with the kyute wrapping paper.
+And Kazuho... what about this one?",,
+366,Kazuho (冬服),あ、ありがとう。,Th-thanks.,,
+369,,"ぽん、と渡された包みを受け取る。
+……落ち着いた模様のデザインが、
+なんとなく私好みだ。","{i}Boop{/i}, I accept the present that was handed to me.
+...The subdued pattern of the design somehow suits my tastes.",,
+372,Mion (冬服),"美雪、菜央ちゃんはこれとこれ。
+あとは、羽入と、梨花と沙都子……と、
+残りは詩音と私で……。","Miyuki, here's yours, and Nao-chan, here's yours.
+Next is Hanyuu, Rika, Satoko... and all's that's left is Shion and I...",I purposefully put alls here bc mion,
+375,詩音 (冬服),"私は残ったほうでいいですよ。
+……みんな、受け取りましたか？","I'm fine being last.
+...Has everyone received one?",,
+381,Rika (冬服),"みー。ぱっと見だと、何が入っているか
+全然わからないのですよ。","Meep. Just from a glance, I can't tell what's inside at all.",,
+383,Hanyuu (冬服),あぅあぅ、さっそく開けてみるのですよ！,Au au. Let's try opening it right away!,,
+387,,羽入ちゃんの声を合図に、それぞれ包みを開く。,"Following along with Hanyuu's voice, everyone tore into their gifts.",,
+390,Miyuki (冬服),"一穂、菜央。
+キミたちの中身は何だった？","Kazuho, Nao. What was in yours?",,
+395,Nao (冬服),"あたしはオシャレなキャンドルだったわ……
+なかなかセンスあるわね。","Mine was a stylish candle... 
+Quite tasteful if you ask me.",,
+397,Kazuho (冬服),私は……あ、ポーチだ。,"Mine was... ah, a purse.",,
+400,,"包みの中から出てきたのは、
+おしゃれなポーチだった。",Inside my gift was a fashionable purse.,,
+403,Miyuki (冬服),おー、２人とも大人っぽくていいじゃん！,"Oooh, cool, yours give off a mature feel!",,
+406,Kazuho (冬服),美雪ちゃんは？,And what about Miyuki-chan?,,
+409,Miyuki (冬服),靴下！　暖かそうでいいでしょ！,Socks! They look so nice and warm!,,
+413,Nao (冬服),"ウール？　結構質がいいじゃない。
+なかなか値が張りそうね。",Wool? They're very high quality. These look really expensive.,,
+415,Miyuki (冬服),"お、おぅ……気になるのはわかるけど、
+折角のクリスマスプレゼントだし
+お値段を推測するのはやめてくれる……？","O-Oh... I know you're interested in them, but it's a Christmas present, so don't try to guess what the price is, yeah...?",,
+421,Rena (冬服),"はぅ～、レナのはオルゴールだよ！
+かぁいい～～！！","Hau~, Rena got a music box! So kyute~~!!",,
+425,Mion (冬服),"おじさんのは……
+げっ、レースのハンカチ……？","This ol' man got a... geh, a lace handkerchief...?",,
+428,詩音 (冬服),"あら、いいじゃないですか。
+今日からレースのハンカチが似合う
+淑女でも目指したらどうです？","My, isn't that nice? How about you use that lace handkerchief to turn yourself into a wonderful lady from today forward?",,
+431,Mion (冬服),"目指さない！　身の程知らずのおしゃれは、
+もうこの間のでお腹いっぱいだよっ！",Hell no! I've already had my fill of styles outside of my usual charm!,,
+433,詩音 (冬服),"じゃ、私のプレゼントと交換します？
+ブランド物の香水ですけど。","Should we exchange presents, then?
+Mine was a namebrand perfume, though.",,
+435,Mion (冬服),"もっと使い道わかんないでしょ？！
+どこでつけるのっ？　いつ使うのさ？！",Isn't that worse?! Where would I use that? And when?!,,
+437,Mion (冬服),"なんか今回のプレゼントのチョイス、
+どれもこれも大人っぽすぎでしょっ！
+おじさんって東京のどこに行ったのさー？","Aren't the present choices this time around way too mature?!
+Where did Uncle even go in Tokyo?",,
+443,Hanyuu (冬服),"あぅあぅ！　僕はおしゃれな
+陶器の器に入った、金平糖なのですよ～♪",Au au! Mine had an elegant porcelain bowl inside with konpeito~♪,,
+446,Nao (冬服),"あ……これ、銀座にあるお店の金平糖ね。
+現場の差し入れで見たことがあるわ。","Ah... that's konpeito from a store in Ginza, Tokyo. I've seen it before; they serve it as a refreshment in that area.",,
+450,詩音 (冬服),"見たことがあるのもすごいですけど、
+よく覚えていますね……。","The fact that you've seen it is amazing by itself, but to remember it this well...",,
+455,Satoko (冬服),"なかなかバリエーション豊かなプレゼントですわね。
+さてさて、私のはいったい何かしら……。","There's quite the variety among these presents, isn't there? 
+Now then, I wonder what mine is...",,
+458,,そう言って沙都子ちゃんは、自分の包みを開き……。,"As she said that, Satoko-chan opened her package...",,
+461,Satoko (冬服),…………。,............,,
+463,,包みを開けた体勢のまま、固まった。,She froze in the position she opened the package in.,,
+466,Kazuho (冬服),（沙都子ちゃん？　どうしたのかな……？）,(Satoko-chan? I wonder what's wrong...?),,
+468,,"声をかけるべきか迷っていると、
+沙都子ちゃんはプレゼントをさっと足元に隠して
+梨花ちゃんへと向き直った。","I was wondering if I should ask her, but then she quickly hid the present next to her feet and faced Rika-chan.",,
+472,Satoko (冬服),"り、梨花は何をいただいたんですの？
+もったいぶらずに、早く見せてくださいませ！","R-Rika, what did you get? Come on, show it to us already!",,
+474,Rika (冬服),みー？　えーっと、ボクのは……。,"Meep? Umm, mine is...",,
+478,,"沙都子ちゃんに急かされて、
+梨花ちゃんは未開封だったプレゼントの包みに
+手をかけて開く。","Hastened by Satoko-chan, Rika-chan takes to opening her present, which had still been left unopen.",editz,
+479,,そして、綺麗な包み紙の中から現れたのは……。,And what she brought out from the package was...,,
+483,Rika (冬服),……みー。マフラーなのですよ。,...Meep. It's a scarf.,,
+485,Satoko (冬服),"あら、狐の尻尾みたいな柄のマフラーですわね！
+梨花、さっそく着けてはいかがでして？","Oh my, it looks like a fox tail! How about you wear it right away, Rika?",editz,
+487,Rika (冬服),"みー。
+その前に、沙都子は何をもらったのですか？","Meep. Before I do that, what did you get, Satoko?",,
+489,Satoko (冬服),……え、えっと。,...U-Um.,,
+493,Kazuho (冬服),沙都子ちゃん、どうしたの？,"Satoko-chan, what's wrong?",,
+496,,"声をかけると、沙都子ちゃんは
+困ったような顔で私を見て、梨花ちゃんを見て……。","After I called out to her, Satoko-chan looked at me and Rika-chan with a troubled expression on her face...",,
+497,,"やがて諦めたように、足元に押し込んだ
+プレゼントの包みから中身を取り出した。","As if giving in, she pulled out the present from the package hidden next to her feet.",,
+500,Satoko (冬服),私は……この手袋でしたわ。,Mine was... these gloves.,,
+503,Kazuho (冬服),"わぁ、あったかそうでおしゃれな手袋だね。
+ね、梨花ちゃんもそう思うよね……梨花ちゃん？","Wow, they look warm and fashionable. Don't you think so, Rika-chan? ...Rika-chan?",,
+508,Rika (冬服),…………。,............,,
+510,,"振り返った梨花ちゃんは、なんとも言えない
+複雑そうな表情で黙り込んでいた。","I turned over to Rika-chan, but she kept silent with a complicated look on her face.",,
+514,Kazuho (冬服),"え、えっと……
+２人とも、どうしてそんな顔をしてるの？
+その手袋、気に入らなかった？",U-Um... why are you making those faces? Do you not like the gloves?,look like that -> faces,
+516,Rika (冬服),"みー、そうではなくて……沙都子はこの前、
+新しい手袋を買ったばかりだったのですよ。","Meep, that's not it... Satoko actually bought new gloves not too long ago.",,
+518,Kazuho (冬服),あっ……。,Ah...,,
+521,,"それを聞いて、さすがの私も
+２人の気持ちを慮って口をつぐむ。","After hearing that, I shut my mouth in consideration for those two's feelings.",edited,
+522,,"手袋が２種類あるのは、別に損というわけじゃない。
+……ただ、新しく手袋を買ったばかりの状況で
+もうひとつ新品が手に入っても、嬉しさは微妙だろう。","There's no real harm in having two pairs of gloves.
+...But just after buying new gloves, it's iffy receiving another brand-new pair.",,
+525,Satoko (冬服),"あ、えっと……まぁ、問題ありませんわ。
+気分によって、２つのどちらかを選んで使えば
+いいだけの話でしてよ！","Ah, um... well, there's no issue. Now I have two gloves I can choose between depending on how I feel!",,
+528,Rika (冬服),沙都子……。,Satoko...,,
+530,Satoko (冬服),"それにほらこの手袋、ちょっと大人っぽくて
+私にぴったりの素敵なデザインですわ～！","And look, these gloves give off a bit of a grown-up aura to them, and the design fits me beautifully~!",,
+533,,"そう言って沙都子ちゃんは、嬉々として
+手袋に手を入れる。……私たちを気遣って
+無理をしているのが、丸わかりだった。",Satoko-chan merrily held the gloves as she said that. ...But it bothered us as we were fully aware that she was pushing herself.,edited 'doing the impossible' -> 'pushing herself',
+537,Satoko (冬服),"あ、あら……？　少し、大きいですわね。
+でもきっと、数年もすればぴったりに……。","O-Oh my...? They're a bit big. But surely I'll grow into them, and they'll...",,
+539,Rika (冬服),"……沙都子。
+よかったら、ボクのこれと交換しませんか？",...Satoko. Would you like to swap mine for yours?,,
+541,Satoko (冬服),えっ……？,Huh...?,,
+543,Rika (冬服),"このマフラーと、沙都子の手袋を
+交換すれば、丸く収まるのですよ。","If we exchange that scarf and those gloves, it'll all end well.",,
+545,Satoko (冬服),"で、でも……梨花はそのマフラーが
+気に入ったのではありませんの？
+さっき見た時、嬉しそうでしたし……。","B-But... you liked that scarf, didn't you?
+When you saw it earlier you looked really happy...",,
+547,Rika (冬服),"みー。でもこのマフラーは、
+きっとボクよりも沙都子の方が
+似合うと思うのですよ。",Meep. But I think this scarf would certainly look better on you than me.,,
+549,Rika (冬服),"それに、実は沙都子の買った手袋を
+見た時から、ボクも新しい手袋が欲しいなと
+思っていたのですよ。","Plus, since the day you bought those gloves, I also felt like I wanted new ones myself.",,
+551,Rika (冬服),だから、それと交換したいのですよ。にぱー。,"So, I'd like to trade with you. Nipah~",,
+553,Satoko (冬服),梨花……。,Rika...,,
+556,,"沙都子ちゃんは手袋を握りながら、
+答えを探すように周囲を見渡して……
+そしてぱちち、と私と目が合う。","While holding the gloves, Satoko looked all over the room searching for an answer... then she finally met my gaze with a few blinks.",,
+557,,"それを見て私は、私は少し迷ってから……
+素直に自分の気持ちを口にすることにした。",I was kind of lost for words watching it... but I shared what I had to say.,,
+561,Kazuho (冬服),……交換、してもいいんじゃないかな？,...Wouldn't it be nice to trade?,editz,
+563,Satoko (冬服),"で、ですがそのプレゼントは
+梨花がいただいたもので……。",B-But... this was something that was gifted to Rika...,,
+568,Kazuho (冬服),"それはそうだけど、このプレゼントって
+魅音さんが無作為に選んで渡したものだし……。","That's true, but Mion-san handed out these presents randomly...",,
+570,Kazuho (冬服),"もしかしたら本当は、梨花ちゃんのところに
+手袋が行って、沙都子ちゃんにマフラーが
+渡されるはず……だったのかもしれないしね。","So instead, maybe Rika-chan should have actually gotten the gloves... and Satoko-chan should have gotten the scarf.",,
+572,Kazuho (冬服),"運命がイタズラして、
+入れ替わっちゃっただけ……
+そう考えてみるのは、どうかな？","Fate only played a prank on you, switching out both of your presents... Why not try thinking about it that way?",,
+577,？？？？,…………。,............,,
+580,,"言い終わった後、梨花ちゃんと沙都子ちゃんが
+ぽかん……と私を見つめている。","After I finished saying that, Rika-chan and Satoko-chan... just stare at me blankly.",,
+586,Kazuho (冬服),あ、あっ、あっ……！,"Ah, um, aaah...!",,
+591,,"それに気づいた途端、自分がものすごく
+恥ずかしいことを言ったような気持ちが
+沸き上がって、ぶわっと顔が熱くなった。","It made me realize that I had said something terrifyingly embarrassing. That feeling rose up to my face, making it heat up with a puff of steam.",,
+595,Kazuho (冬服),"あ、え、っと……こ、この前見たドラマで
+そんな話をしてて、その、えっと……！","Ah, uh, um... I must have heard that in a TV soap, um, uhhh...!",,
+597,,"言いたいことが段々わからなくなり、
+あわあわと慌ててしどろもどろになる私に、
+梨花ちゃんが柔らかく微笑んでいった。",I was panicking and flustered and grasping for literally anything to say next when Rika-chan smiled softly at me.,,
+601,Rika (冬服),"……みー。一穂の言う通りなのですよ。
+きっと運命のイタズラで、ボクたちのプレゼントは
+入れ替わってしまったのです。",...Meep. Kazuho is right. Our presents were switched since fate played a prank on us.,,
+603,Rika (冬服),"だから、このマフラーは
+沙都子が受け取っても全然おかしくないのですよ♪","So, it's okay for Satoko to receive this scarf♪",,
+605,Satoko (冬服),"……わかりましたわ。
+では、ありがたく受け取らせて
+いただくことにしますのよ。",...I understand. I'll accept it gratefully then.,,
+607,Rika (冬服),"それじゃ沙都子、こっちに来てください。
+ボクが巻いてあげるのです。","Okay, Satoko, please come closer. I'll put it around you.",,
+609,Satoko (冬服),"え？　い、いいですわ。
+マフラーくらいは、自分で……。",Eh? I-It's okay. I can do that myself...,,
+611,Rika (冬服),みー、大人しく座るのですよ。,Meep. Just behave and sit down.,editz,
+614,,"沙都子ちゃんをやや強引に座らせて、
+梨花ちゃんは手早くその首にマフラーを
+巻きつけていく。","Forcefully making her sit down, Rika-chan swiftly wraps the scarf around Satoko-chan's neck.",,
+620,Satoko (冬服),…………。,............,,
+625,,"長めのマフラーは、沙都子ちゃんには
+少し大きくて顔が半分埋まってしまったけど……
+彼女は恥ずかしそうに笑みを浮かべていった。",The long scarf was a little too big and covered about half of Satoko-chan's face... but she smiled shyly.,,
+629,Satoko (冬服),……とても、あったかいですわ。,...It's very warm.,,
+631,Rika (冬服),"みー。
+やっぱり、沙都子にとても似合っているのですよ。",Meep. It looks good on you after all.,,
+634,,"そう言いながら、梨花ちゃんはポンポンと
+沙都子ちゃんの頭を撫でる。","While saying that, she pats Satoko's head.",,
+637,Satoko (冬服),…………。,............,,
+639,,"そして、頭を撫でる手と、もう片方の手を
+沙都子ちゃんはそっと握り……目の前に下ろした。","Then, Satoko-chan softly grabbed ahold of both Rika-chan's free hand and the one that had been caressing her head and brought them in front of the two of them.",,
+642,Satoko (冬服),では、お返しですわ。,"Okay, and in return...",,
+644,,"沙都子ちゃんは優しい手つきで、
+梨花ちゃんの両手に片方ずつ手袋をはめていく。",Satoko-chan gently slides Rika-chan's hands into the gloves.,,
+645,,"その手袋は、やっぱり梨花ちゃんにも
+少し大きかったけれど……。","Those gloves were a little bit too big for Rika-chan as well, but...",,
+646,,"パズルのピースがぴたりとはまるような、
+まるで最初から梨花ちゃんのものだったような。","As if they were puzzle pieces being slotted into place, they looked like they were meant to be Rika-chan's from the beginning.",editz,
+647,,"そんな印象を与えるという意味では、
+ぴったりだった。",They were so perfect for her that that idea came to mind.,editz,
+651,Satoko (冬服),"この手袋、梨花に似合いますわね……
+やはり、入れ替わっていたみたいですわ。","These gloves really do suit you, Rika... 
+Maybe the presents actually were switched.",editz,
+654,Rika (冬服),はい……でも、これで元通りなのですよ。,"Yes... but now, they're back to where they belong.",,
+657,,微笑み合う２人を前に、自然と口元が緩む。,My mouth naturally loosened into a smile as I watched the two of them grinning at each other.,,
+660,Kazuho (冬服),よかったね、２人とも……わぁっ？！,What a relief; you two have... wah!?,editz,
+663,,"その時、突然トラックに跳ね飛ばされたような
+衝撃が私を襲って……？！","All of a sudden, something flung into me and hit me like a truck...?!",shortened,
+669,Kazuho (冬服),わぁーっ？！,Waaah?!,,
+672,Miyuki (冬服),おぅ、っと！,O-Oof!,,
+675,,"突き飛ばされた私は、
+そのまま美雪ちゃんがキャッチしてくれた。","As I flew back from the impact, Miyuki-chan caught me.",,
+679,Miyuki (冬服),"びっくり……一穂が飛んできたよ。
+ソリから振り落とされたサンタを
+受け止めた気分だねー。","Woah... you flew over here, Kazuho. You were like Santa getting thrown off his sleigh.",,
+681,Kazuho (冬服),"えっ、えっ？
+私、いつの間にサンタになったの？",H-Huh? When did I become Santa?,,
+685,Mion (冬服),"まぁ、暴走トナカイじゃないけど……
+暴走の巻き添えを食ったのは確実だね。","Well, it wasn't a reindeer running buck wild... but it's safe to say {i}something{/i} running buck wild is involved.",,
+688,,ほれ、と魅音さんが指し示す先には……。,"""Check it"", and what Mion-san pointed to was...",,
+696,Rena (冬服),"はうぅっ！！
+梨花ちゃんも沙都子ちゃんもかぁいいよ～！！","Hauu!! Rika-chan, Satoko-chan, you two are so kyute~!!",,
+701,,"梨花ちゃんと沙都子ちゃんを両腕に抱え、
+満面の笑みを浮かべるレナさんがいた。",Rika-chan and Satoko-chan were stuffed into Rena-san's arms as she was grinning from ear to ear.,,
+704,Kazuho (冬服),な、何があったの……？,W-What happened...?,,
+709,Mion (冬服),悪く思わないでやってよ、一穂。,"Don't think bad of her, okay, Kazuho?",editz,
+711,詩音 (冬服),"梨花ちゃまと沙都子を見て、
+レナさんの頭のネジが何本か
+吹っ飛んじゃったみたいなんです。",It seems that seeing Rika-chama and Satoko made some of Rena-san's loose screws fall off completely.,,
+716,Kazuho (冬服),そ、それはわかったけど……。,"Th-that I understood, but...",,
+722,Nao (冬服),ほ、ほわぁ……。,H-Howahh...,,
+725,Hanyuu (冬服),あ、あぅあぅ……。,A-Au au...,,
+730,Kazuho (冬服),"な、なんで菜央ちゃんと羽入ちゃんは
+あっちで目を回してるの……？",W-Why are Nao-chan and Hanyuu-chan over there with their eyes spinning...?,,
+733,Miyuki (冬服),レナが堪能した残骸。,The destruction in Rena's wake.,,
+736,,"……もうその言葉だけで、
+何が起こったのかが把握できてしまった。","...Just with those few words, I caught onto what happened.",,
+743,Rena (冬服),"はぅ～、このままみーんなまとめて
+レナのクリスマスプレゼントとして
+おっ持ち帰り～したぃ～っ！","Hau~, at this rate, I'm gonna want to take eeeeveryone here home with me as a Christmas preseeeenttt~!",,
+746,Satoko (冬服),ぐえっ？！　ちょっ、レナさん！,"Gweh?! Hol-, Rena-san!",,
+748,Rika (冬服),そ、そんなに抱きしめたら苦しいのです……！,D-Don't hold us so tightly...!,,
+753,Rena (冬服),だってだって、かぁいいんだもーん！,"But, but, you're so kyuuuuutee!",,
+760,,"ぎゅぅっ、とレナさんの腕の中にとらえられた
+梨花ちゃんと、沙都子ちゃん。","{i}Squeeeeze{/i}, Rena-san had Rika-chan and Satoko-chan tight in her clutches.",,
+761,,"ちょっと苦しそうだけど……
+でも、隙間なくぴったりくっついた２人は
+少しだけ楽しそうでもあった。","It looked a little bit painful... but the two of them looked like they were having fun being held together perfectly, no gaps between them.",,
+765,Satoko (冬服),"まったく、いつものこととはいえ、
+困ったものですわね……。","Jeez, how troublesome this is, even if this is the same old pattern...",editz,
+767,Rika (冬服),……くすっ。,...*giggle*.,,
+769,Satoko (冬服),ふふっ……。,*chuckle*...,,
+771,？？？？,あははははっ……。,Ahahahaha...,,

@@ -1,0 +1,157 @@
+chara062008_02.bytes,chara,jp,en,
+40,Satoko,"あー、もう！
+何度やっても全くもってわかりませんわ！
+この問題がなぜ、こんな答えになるんですのー？","Oh, come ooon!
+No matter how many times I do this, I still can't understand it!
+How do you even get an answer like that on this question?",
+48,Mion,"ちょっと沙都子……いくら自習でも、今は授業中だよ。
+もう少し声を落とさないと、知恵先生に怒られても
+しらないからね。","Uh, Satoko... we might be self-studying right now, but we're still in the middle of class. Chie-sensei might get angry at us if you don't quiet down.",self-studying instead of self-teach
+51,Satoko,"そう言われましても、こんなチンプンカンプンな
+難問を前にすれば叫びたくもなりましてよ！
+だいたいこんなもの、いったい何の役に立ちますのっ？",But still! This question written in gibberish is going to make me scream! How is this supposed to be useful to learn in the first place?,"""Even if you tell me that"" is a bit mre natural? (((i changed it to despite for now"
+53,Mion,"そりゃ、まぁ……この公式と計算方法を覚えておくと
+学力成績が上がって、高校や大学の入試に役立つ。
+そして学歴を得て、いい会社に入ることができる……。","That's, well... remembering these formulas and calculation methods will help raise your grades as well as help you on high school and college entrance exams. And then that'll net you an academic background, which can get you into a nice job...",
+55,Mion,……といいなぁ、って私は聞いているよ。,"...hopefully anyways, since that's just what I hear.",
+59,Kazuho,"願望の上に、伝聞……？　えっと魅音さん、
+そんな言い方じゃまるで説得力ないし、
+沙都子ちゃんも納得できないと思うんだけど……。","On top of it being wishful thinking, it's hearsay...? Uh, Mion-san, saying it that way isn't too convincing, and I also doubt you've convinced Satoko-chan...",
+63,Satoko,"全くですわ！　ＴＶでも雑誌でも、勉強すれば
+いい会社に入って給料をたくさんもらって、
+幸せになれるとよく申しておりますけど……。","You said it! Be it on TV or in magazines, they're always saying that if you study, you'll get into a good company, get paid well, and become happy, but...",
+65,Satoko,"だったら、世の中でお金持ちになっている方は
+みんな、勉強がおできになるんですのっ？
+そうじゃない例もたくさんありますわよね？！","If so, does every single rich person on Earth have good study skills?
+No way; plenty without those skills also exist, don't they?!",
+69,Miyuki,"んー、まぁ確かに。アイドルやタレント、
+スポーツ選手とかだといい学校を出てなくても、
+才能にあふれてる人がたくさんいるよねー。","Mmm, yeah, true. The world is full of idols, TV personalities, athletes, and much more who didn't go to a good school but are bursting with talent.",
+73,Nao,"むしろ、いい学校に行ってなくても知識と経験が
+豊富にある人って、優秀な上に頼もしい印象よね。
+だから一概には言えないかも……かも。","Yet even without going to a good school, these people who are rich with intelligence and experience give off a reliable and outstanding impression. So there might not be such a strict rule behind it... maybe.",
+75,Satoko,"ほらっ、このお２人もこう申しておられましてよ！
+だったら勉強を無理に頑張る必要なんて、
+全然ないということではありませんのっ？","See, those two agree with me! So isn't there no need at all to push yourself to study past your limits?",
+79,Rena,"はぅ……でも、そんな美雪ちゃんと菜央ちゃんは
+すっごく勉強ができるよね。テストはいい点で、
+宿題も欠かしたことがないし……。","Hau... but Miyuki-chan and Nao-chan can study extremely well.
+They get great scores on tests, and they never miss out on homework either...",
+81,Rena,"それなのに、役に立たないと決めつけちゃったら
+２人もいい気分にはならないんじゃないかな……かな。","But if you go and decide that it's all useless regardless of that, they probably won't feel great about it either... it either.",
+84,Satoko,あっ……そ、それは……。,Ah... th-that's...,
+88,Miyuki,"あははは、レナは優しいねぇ。そんなふうに
+気遣ってもらえると、なんだか照れちゃうよ。","Ahahaha, you're too kind, Rena. I'll get embarrassed if you worry about me like that.",
+90,Miyuki,"でも、私は自分の将来の役に立つから学校で
+勉強をする、って考えたことはあんまりないんだよ。
+何かに使えたら、とは思うけどね。",But the thought of my studies being useful for the future hasn't crossed my mind that much. Maybe I'll use it for something someday.,
+94,Rika,"みー。
+では美雪、あなたはどうして勉強をするのですか？","Meep. Then why do you study, Miyuki?",
+96,Miyuki,"んー、そうだね……色々あるけど、１番は
+わかった時の爽快感が気持ちいいから、かな。
+ゲームをクリアするのとほぼ同じ感覚だよ。","Mmm, good question... I have a lot of reasons, but the biggest one is probably the feeling of exhilaration once you figure something out.
+It's almost the same feeling as clearing a game.",
+101,Satoko,"算数の問題や漢字の書き取りが、ゲームぅ……？
+美雪さんの感性は独特で、とても共感できませんわ。","Writing down math equations and kanji is a {i}game{/i} to you...?
+Your sensibility with that is so unique, I can't sympathize at all, Miyuki-san.",
+103,Miyuki,"え、そう？　だってパズルは、配置する場所や
+その順番通り進めないと完成させられないし……
+クイズだって答えるには、知識が必要でしょ？","Huh, really? But just like how puzzles can't be completed without putting the pieces in the right place... you need knowledge to answer a quiz, right?",
+105,Miyuki,"ＴＶゲームだって、反射神経もそうだけど
+敵の攻撃パターンとか、隠しアイテムの場所とかを
+覚えなきゃ先に進めないしねー。","And besides, even video games require you to memorize your opponent's attack patterns and where hidden items are and stuff.
+It's just a matter of training your reflexes, y'know?",
+107,Satoko,それは、まぁ……その通りですけど。,"That, well... you are right there.",
+111,Nao,"その点については、美雪と同意見ね。
+あと、それに加えてあたしは高い得点を取って
+他の子に勝ちたい、って思いがあるから……。","I have the same view as Miyuki here.
+And plus, contrary to what we were talking about earlier, I actually do want to get high grades to compete with the other kids...",
+113,Nao,"難しい問題が相手になると、燃えてくるのよ。
+これをクリアして他の子と差をつけたい、ってね。","Pair me up against a difficult question, my heart races.
+I want to solve things better and faster than the other kids.",
+118,Mion,"あっはっはっはっ、なるほどー！
+ＴＶゲームでも勉強でも、菜央ちゃんは
+根っからのゲーマー気質ってことか～！","Ahahahaha, I see! Be it video games or studies, Nao-chan is a true gamer at heart~!",
+122,Miyuki,"確かに……！　私も定期テストとかで幼馴染と
+競い合って、勝ったほうがコーヒーをおごる、
+なんてやってるのが楽しいんだよね～。","For sure...! I also regularly compete with my childhood friend over test grades and stuff, and then the winner gets treated with coffee.
+Stuff like that is fun, y'know~?",
+124,Nao,"……学生間の賭け事はご法度よ。
+警察官志望なんだから、順法精神は
+しっかり身につけなさい。","...It's forbidden to gamble as a student.
+You aspire to be a police officer, so you’d better start having some respect for the law.",
+126,Miyuki,"えー、お金賭けてるわけじゃないんだから
+固いこと言いっこなしだよー、ぶーぶー。","Woahh, we're not betting money or anything, so keep that strict stuff to yourself. Hmph.",
+131,Satoko,…………。,............,
+135,Hanyuu,"あぅあぅ、どうしたのですか沙都子？
+急に黙ってしまいましたが……。","Au au, what's the matter, Satoko? You got quiet all of a sudden...",
+137,Satoko,"あ、いえ……私にはとても、勉強をそのように
+考えて楽しむことができませんので……。","Ah, no... it's just incredibly hard for me to think of studying in a fun way like that...",
+139,Satoko,"やはり、頭の出来が違うんですのね。
+美雪さんと菜央さんが羨ましいですわ……。",Our abilities really are different. I'm jealous of Miyuki-san and Nao-san...,
+143,Miyuki,"……。ねぇ沙都子、それって本当？
+むしろそうだと思い込んでたりしてない？","...Hey, Satoko, is that actually true? Isn't that just an assumption?",edited
+145,Satoko,えっ……？　ど、どういう意味ですの？,Huh...? Wh-what do you mean?,
+147,Miyuki,"言ったようにゲームには、解き方と答えがある。
+そして、学校の勉強にもその２つがあって……
+ついでにハイスコアも存在する。","The games I mentioned before have both an answer and a way to solve them. And incidentally, those two things also exist in school studies... alongside getting high scores.",
+149,Miyuki,だったら、この両者にある違いって……説明できる？,But... can you explain the difference between the two to me?,
+151,Satoko,それは、……。,That's...,
+155,Nao,"違いなら、はっきりしてるわ。
+そのゲームが好きか、そうじゃないか……でしょ？","If they are different, then it's clear how.
+It's whether or not you enjoy the game... right?",*
+157,Nao,"勉強を好きになれるかどうかなんて、
+野菜の好き嫌いと同じで人それぞれだもんね。
+だから……。",Whether or not you can enjoy studying is just like how every person has their own preferences on vegetables. So...,
+159,Nao,"あたしはたまたま、勉強が嫌いじゃなかった。
+頭の良し悪しじゃなくて、ただそれだけのことよ。","I've never had points where I hated studying.
+It's not a matter of good or bad in my head, it just is what it is.",
+161,Satoko,菜央さん……。,Nao-san...,
+163,Nao,"だけどね、沙都子。つまんないゲームは
+自分から進んでやりたくないから、放り投げて
+別のゲームを遊ぶことができる……。","But, you know, Satoko? When I don't want to put up with a boring game, I can just toss it aside and pick up a different game...",added a 'just' there ((changed just position
+165,Nao,"でも、あいにく今のあたしたちは手持ちが少なくて、
+次のお小遣いがもらえるまでそれしか遊べない。","Though unfortunately, the options we have now are slim and few, so we'll have to make do with what we have without another round of allowances.",edited (plus added a 'but') ((changed but to though
+167,Nao,"だったらせいぜい、やりこまなきゃ勿体ないでしょ。
+もちろん、自分なりの楽しみ方を探して……ね？","So, it'd be a waste not to play them with your all.
+And of course, you can always find out how to enjoy them in your own way too... right?","So it'd be a waste to not play them with your all.'
+is how i'd translate the first part before the 'of course,'"
+169,Satoko,…………。,............,
+173,Miyuki,"あと……ずっと気になってたんだけど、
+どうして沙都子はひたすら問題の数を
+こなそうとするの？",Also... this has been on my mind for a while now... but why don't you try looking at each part of this question individually?,
+175,Miyuki,"解き方や答えがわからないゲームをやって、
+面白いはずがないじゃん。だったらそれを見てから
+問題をこなした方が効率的だと思うけどな。","It can't be fun picking up a game you don't know how to find an answer or solution to while playing. So, I think looking at those first and working backwards on the problem would be much more efficient.","instead of 'so looking at is from that angle...' it's ""So I think it would be more efficient to see the answer and then solve the problem."""
+178,Satoko,"えぇっ？　答えを最初に見るなんて、
+そんなのはズルの典型でしてよっ？",Huuuh? But wouldn't looking at the answer first be cheating?,"is zuru supposed to be puzzle here? typo? not a typo, zuru here means 'cheating' -> ""Oh? But wouldn't looking at the answer be a prime example of cheating?"""
+182,Nao,"そうかしら？　プラモデルだって、完成予想図を
+見ただけで組み上げることは難しいんだから……
+みんな設計書を見ながら作るでしょ？","You think? Like even with a plastic model of something, trying to recreate it just by seeing the end product would be hard... so people usually put those together while looking at the instructions, right?",instead of 'I suppose?' would change to 'You think?'
+184,Nao,"だったら、自分の出した答えが解いた後で
+間違ってる、ってがっかりするよりも
+その答えを出すにはどうすればいいか……。","So, rather than being disappointed that your answer is wrong, you have to contemplate how you'd reach the correct answer...","shortened kind of/ / would change this all to 'Then, instead of being disappointed when finding out your answer was wrong after trying to unravel it, you must think of what to do to reach that answer...' ((this?"
+186,Nao,"その繰り返しを続けるほうが、正解への道を
+見つけるスキルを磨き上げられるんじゃないかしら。",I believe rinsing and repeating that process is the road to getting the correct answer through polishing up your skills.,
+190,Kazuho,"確かに……２人の考え方は、ゲームに近いね。
+答えを覚えてから解くのは、邪道かもしれないけど。","The way you two look at it... is definitely game-like.
+Solving something by remembering the answer is kind of twisted, though.",
+194,Miyuki,"あはははは、邪道呼ばわりは大歓迎！
+手元にあるゲームが普通に遊んでもつまんないなら、
+遊び方を変えるしかないじゃんか！","Ahahahaha! Please denounce it as twisted!
+If you find the games you have on hand boring to play normally, then there's no other way but to change how you play!",
+196,Miyuki,"だから沙都子も、見方を変えてみなよ。
+勉強は我慢大会じゃないんだから、
+少しでも楽しめる方法でやらないと……でしょ？","So, you should try changing your viewpoint on it, Satoko.
+Studying isn't a race to see who can put up with it the longest, so why not trying to find ways you can enjoy doing it... y'know?",
+209,Satoko (高校生夏服),……。ふふっ、あははは……。,"...*chuckle*, ahahaha...",
+211,Rika (高校生),"っ……ど、どうしたの沙都子？
+急に笑い出したりして……。","Ah-... wh-what's wrong, Satoko? You suddenly started laughing...",
+213,Satoko (高校生夏服),"いえ……ふふっ、あの時美雪さんたちと話した
+内容を思い出していたんですのよ。","No... *chuckle*, I was just remembering what Miyuki-san and them were saying to me back then.",
+215,Satoko (高校生夏服),"普通に遊んだらクソゲー、だったら遊び方を
+変えてしまえばいい……だったかしら。","When played normally, it's just a dumb old game, so all you have to do is change the way you play it... huh?",
+224,Satoko (高校生夏服),"……面白いですわ。
+この北条沙都子、勉強はともかく遊びに関しては
+他の誰にも負けるつもりはありませんのよ……！","...How interesting.
+Never mind studying; this Satoko Houjou doesn't intend to lose to anyone while playing a game!",

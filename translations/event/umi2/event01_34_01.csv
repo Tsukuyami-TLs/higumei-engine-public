@@ -1,0 +1,371 @@
+event01_34_01.bytes,,Llorona - TL,,
+index,chara,jp,en,
+35,,――とある、休日。,--On a certain holiday.,
+37,,"私たちは葛西さんが運転する車に乗って、
+ある場所を目指していた。",Kasai-san was driving us to that place.,
+38,,"場所的には、そう遠いところじゃない。
+ただ、車でまとまって移動しているのは
+目的地が急な坂を越えた向こう側にあるからだ。","Relatively speaking, it wasn't that far away. We just agreed to go there by car because it is across a steep hill.",
+45,Rena (Casual),"魅ぃちゃん！
+#p雛見沢#sひなみざわ#r温泉リゾート、完成おめでとー！",Mii-chan! Congrats on finishing the Hinamizawa hot spring resort!,
+47,Mion (Casual),"あはは、どーもどーも……って、
+別に手柄顔で胸を張れる立場じゃないよ。
+単純に、余った土地を売っただけだしさ。","Ahaha, thank you, thank you... but I'm not really in a position where I can power pose with a triumphant face. All we did was sell the leftover land.",
+51,Kazuho (Casual),"でも、この辺りって
+全部園崎家のものだったってことだよね？
+それはそれで、すごいことだと思うけど……。","But the area all around here is the Sonozaki family's, right? I think that's awesome on it's own...",
+55,Satoko (Casual),"それに、魅音さんのお婆さんが温泉街を作る、なんて
+大プロジェクトをよく許可して下さいましたのね……
+それも驚きですわ。",And to think Mion-san's grandma gave the word to start this massive project... that itself is surprising too.,
+59,Rika (Casual),"みー。東京のリゾート開発会社から、
+企画を持ち込まれたのがきっかけと
+聞きましたのですよ。",Meep. I heard that a Tokyo resort construction company took the chance to propose their plans to her.,
+64,Mion (Casual),"そうそう、その会社が
+「ウチが出資するから雛見沢に温泉街を
+作りませんか？」って言ってきたんだよ。","Yep, yep. That company came and was like, ""Can we build a hot spring district here if we finance it?""",
+70,Hanyuu (Casual),"あぅあぅ。確かこの辺りには、
+共同の温泉施設がありましたのですよ。",Au au. I think I remember that there was a community hot spring settlement around this area.,
+72,Miyuki (Casual),"村の人がたまに利用する程度のやつだね。
+私もたまに使わせてもらってるけど、
+気持ちよくてすっごくお気に入りだよ～♪","The people in the village would use it from time to time. I only got to use it a few times myself, but when I did use it, it felt so nice that it became one of my favorite things ever~♪",adjusted to past tense
+77,Mion (Casual),"そこの源泉とほぼ同じところだよ。
+で、最近専門家が調査したら、
+泉質がすごくいいってことが判明したんだ。","The district's around about the same spot where that hot spring is. When the specialist came by recently to survey it, he confirmed that the quality of the water was incredibly good.",added district here for clarity
+79,Mion (Casual),"ダム建設の関係で国と揉めたことがあるし、
+外部業者の手が入ることについては
+寄合の間でも賛否両論だったんだけどね。","But since there was the political dispute over the dam being built, the village council had a mixed reception on whether they should let contractors get involved.",
+83,Mion (Casual),"「すったらん、村が発展するには
+観光業にも力を入れてやりゃなぁ言うんね！！」","""Screw that! I say for the village to grow, we must also focus on tourism!!""",
+86,Mion (Casual),"……って婆っちゃの鶴の一声で、
+村ごと動くことになったってわけさ。","...With that one phrase, Granny persuaded the entire village to be in support of it.",
+90,圭一 (Casual),"一言で温泉街を作ることが決まるって……
+やっぱり魅音の婆さんって、すげぇな。","Just one phrase making it so a whole hot spring district gets built... your grandma is the real deal, Mion.",
+93,Miyuki (Casual),"で、その一部エリアが完成して
+プレオープンが行われるってわけだね。","And when that one area was finished, they started the pre-opening for it.",
+95,Miyuki (Casual),"温泉か～！　楽しみだな～！！
+最近トラブルが多くて大変だったし、
+今日はのんびりするぞ～！","Hot spriiing~! It's gonna be so much fun~! It's been hard trying to travel these days, so I'm gonna kick my feet back and relax~!",
+99,Hanyuu (Casual),あぅあぅ、のんびり楽しむのですよ～！,"Au au, we'll have lots of fun relaxing~!",
+103,Rena (Casual),"はぅ……でも、前から話は聞いていたけど、
+プレオープンまで１年もかからないなんて
+すごい動きの速さだね。","Hau... but from hearing that conversation earlier, this was super fast compared to the whole year they said it would take to finally open.",
+107,Rika (Casual),"みー。温泉施設の周辺は元々集落があったので、
+電気や水道のライフラインの設備をある程度
+転用することができたそうなのです。","Meep. Since the area around the hot spring facility used to be a settlement, it seems they were able to repurpose the electricity and water supply there.",
+112,Mion (Casual),"まぁ、いずれは送迎バスとかを用意して
+県外からのツアー客を集める予定だから、
+道路の整備とかも行わないとだけどね。","Well, in any event, we need to start developing highways since we plan to set up tour buses to get tourists here.",typo fix busses -> buses
+114,Mion (Casual),"しばらくは関係者とかその家族とか、
+雛見沢・#p興宮#sおきのみや#rの住人を中心に利用してもらって……。","For the time being, we're just focusing on families and relatives of the Hinamizawa and Okinomiya inhabitants...",
+116,Mion (Casual),"それで、今後の運営方針を決めるんだって。
+運営会社も結構いい感じの人たちでさ、
+地元の人も気軽に利用できるようにしたいって話だよ。",The plan of operation will depend on that from here on out. The people from the management company are pretty chill too. They mentioned how they wanted people who live here using it freely.,
+121,Nao (Casual),"それであたしたちが、モニターとして呼ばれたのね。
+若い世代の意見が欲しいってわけか……。",That's where we come in as reviewers. They're going to want the opinions of the youngest generation...,
+123,Kazuho (Casual),"だから、宿泊費とかがタダなんだ……
+せ、責任重大だね。","So, that's why the lodging expenses are free of charge...
+I-It's a huge responsibility, huh?",
+125,Kazuho (Casual),"（けど、今まで土地開発の話なんてあったっけ？
+ましてや、雛見沢に温泉街を作ってるなんて……）","(But was there actually a conversation about a land development plan up until recently? More specifically, a hot spring district being built in Hinamizawa is...)",
+127,Kazuho (Casual),（……私が話を聞き逃していただけかな……？）,(...Was there something I missed...?),
+129,Nao (Casual),"別に責任なんて、意識しなくてもいいでしょ。
+普通に一泊して楽しんで、気になったことを
+しっかりメモしておく……それで十分よ。",There aren't really any responsibilities; we don't have to pay much mind to that. All we're doing is having fun staying overnight and taking notes whenever we find something we like... That's it.,
+133,圭一 (Casual),"げっ。俺、メモのことすら考えてなかったぜ……
+やばいやばい、仕事はちゃんとしないとな。","Geh. I didn't even think we'd have to take memos... 
+Maaan, I'm actually gonna have to put some work in.",
+137,Rena (Casual),"はぅ、そうだね。
+あと、詩ぃちゃんも来られたらよかったのにね。","Hau, yeah. It'd be nice if Shii-chan came too, wouldn't it?",
+142,Mion (Casual),"なんか用事あるとか言ってたからさ。
+……でも、詩音がいない方がのんびりできるよ。
+あの子がいるとうるさくてさ。","She said she had some errands to do.
+...It'll will be way more relaxing without Shion. She'd never shut up if she were here.",
+147,Rika (Casual),"みー。
+向こうも同じことを思っていそうなのですよ。",Meep. I think she could say the same about you.,
+150,Mion (Casual),ええっ？！,Whaa-?!,
+155,葛西,……魅音さん、もう間もなく目的地です。,"...Mion-san, we should be reaching the destination very soon.",
+160,圭一 (Casual),おっ、意外に近いんだな。,"Oh, it's surprisingly close, huh?",
+162,Rena (Casual),はぅ……なんだかドキドキしちゃうね。,Hau... my heart's pounding from the excitement.,
+169,,"そんなことを話していると、
+車は森を抜けた先へと到達する。","As we had that conversation, the car made it out of the forest, arriving at our destination.",
+170,,そして、そこに広がっていたのは……！,"And so, what spread out in front of us was...!",
+182,Rena (Casual),わぁ～～！！　すっご～い！,Wooaaah~!! Coool~!,
+184,Miyuki (Casual),おぅ、想像以上に温泉街だよ……！,"Yeah, the hot spring district is better than I imagined...!",
+187,,"みんなが歓声とともに次々と車を降り、
+四方の目についたところへと駆けていく。","Everyone cheered as they got out of the car one by one, eyes darting around in every direction.",
+190,Satoko (Casual),"す、すごいですわ……！
+雛見沢に、こんな立派な温泉街ができるなんて……！",Th-this is amazing...! To think Hinamizawa could make a hot spring district as impressive as this...!,
+193,Hanyuu (Casual),"あぅあぅあぅ！
+まるで有名な観光地みたいなのですよ～！",Au au au! It's almost gives off the appearance of a famous sightseeing area~!,
+197,Mion (Casual),"これから有名な観光地にしていくんだよ。
+みんなで力を合わせてねっ！","From here on out, it's {i}going{/i} to be a famous sightseeing area. This is the fruit of our labor!",
+201,Nao (Casual),ほわぁ……それも、夢ではなさそうね……。,Wow... my dreams probably couldn't even top this...,
+204,,"菜央ちゃんですらそんな言葉をこぼすくらい、
+目の前の光景は圧巻だった。",The scenery was so stunning that even Nao-chan was spouting words like that.,
+205,,"立ち並ぶ建物は、
+ぱっと見で古めかしさがあるけれど……
+どうやらそれは外見だけらしい。","Judging from a glance, the buildings lined up together looked a bit old-fashioned... but that was just the outwards appearance.",
+206,,"屋内を覗き込んでみると、中は真新しさと
+清潔感……そして、高級感に満ちていた。","Taking a peek inside, you could see how clean and brand-new it looked... It was brimming with class.",
+209,圭一 (Casual),おっ……？　なんだか、いい匂いがするな。,Oh...? I smell something good.,
+212,Mion (Casual),"温泉まんじゅうじゃないかな？
+専用の屋台を作ったそうだから。",That might be the hot spring manjuu? Looks like one of the dedicated stands made it.,
+218,Kazuho (Casual),お、おまんじゅう……！,M-Manjuu...!,
+222,圭一 (Casual),"そりゃーいい！　温泉の湯気で蒸かした
+ふかふかあつあつのおまんじゅう！
+一穂ちゃん、食べに行こうぜ！","Hell yeah! Piping hot, fluffy manjuu steamed in a hot spring! C'mon, Kazuho-chan, let's eat some!",
+225,Kazuho (Casual),う……うんっ！,O-...Okay!!,
+231,Nao (Casual),けど、その屋台ってどこにあるの？,But where could that stand be?,
+233,Miyuki (Casual),匂いはするけど、店が見つからないね……。,"I can smell it, but the stand is nowhere in sight...",
+241,Kazuho (Casual),私、探してくるっ！,I'll look right now!,
+246,,"目に見える範囲に見当たらないということは、
+きっとこの道の先にあるのだろう。","We couldn't see it in our field of view, but surely it has to be down this road somewhere.",
+247,,"温泉街はプレオープンをした後だからか、
+鋪装されたまっすぐな道しかない。
+走っていれば、見つかるはずだ……。","Since the hot spring district already started its pre-opening, this road definitely has to be paved in a straight line. If we run, we should be able to find it...",
+250,Kazuho (Casual),いってきまーす！,Here we gooo!,
+259,Kazuho (Casual),あ、あれっ……？,H-Huh...?,
+261,,"真っ先に駆け出したけど、温泉の匂いが
+濃いせいか……おまんじゅうの気配が
+だんだんわからなくなってきた。","I ran ahead of everyone, but the hot spring smell started deepening...? The presense of the manjuu in the air began to fade gradually.",
+264,Kazuho (Casual),おまんじゅう、どこで売ってるんだろう……？,Where are they selling the manjuu...?,
+267,,私は足を動かしながら、左右を見渡して……。,"While I was walking, I was looking left and right when...",
+272,Kazuho (Casual),きゃっ？！,Kya?!,
+274,,"そのまま、柔らかいような固いようなものに
+身体ごとぶつかってしまった。","In that moment, I collided with something sort of both soft and hard.",
+277,戦人,……お、っと。,...Oof.,
+278,,"ぶつかったものから声がして、
+人に当たってしまったことに気がつき……
+思わず息をのんで、その場に固まる。","What I run into starts talking, so I realize I hit a person... 
+I gasp as I come to understand the situation I'm in.",
+282,Kazuho (Casual),ご、ごめんなさい……！,I-I'm sorry...!,
+287,Miyuki (Casual),"一穂、大丈夫？！
+ごめんなさい、うちの子がご迷惑かけました！","Kazuho, are you okay?!
+I'm sorry; our friend caused you trouble!",
+289,Nao (Casual),"あんた、よそ見しちゃダメじゃない……
+すみません、大丈夫ですか？","You shouldn't look away from where you're running, you know...
+My apologies; are you okay?",
+292,,"後ろから走ってきた美雪ちゃんと菜央ちゃんが
+そう言って駆け寄りながら、謝ってくれる。",Miyuki-chan and Nao-chan rush up from behind and start apologizing.,
+293,,"相手の人は、それをぽかん、と
+受け止めてから……すぐに穏やかな笑みで
+手を振ってくれた。",The person reacted blankly... but quickly gave a calm smile and waved.,
+297,戦人,"あぁ、気にすんなって。
+俺もしっかり前を見てなかったし、悪いな。","Nah, don't worry about it. I wasn't looking straight ahead either. My bad.",
+299,,"うっかりぶつかった相手は、
+大学生くらい……だろうか。",This person I carelessly bumped into was probably... high school age.,
+300,,"背の高い……男の子と呼ぶには年上だけど、
+男の人と呼ぶには若すぎる。そんな感じだった。","He was tall... and looked too old to be called a boy, yet too young to be called a man at the same time. That's what he looked like.",
+303,圭一 (Casual),"大丈夫か、一穂ちゃん？
+……って、その人は？","You okay, Kazuho-chan? ...Wait, who's this guy?",
+308,Miyuki (Casual),"一穂がぶつかっちゃってさ……
+あの、この辺りで見ないお顔ですけど
+観光で来られた方ですか？","Kazuho-chan bumped into him...
+Um, I haven't seen your face around these parts, so are you actually a sightseer?",
+311,戦人,"ってことは、君たちは地元の子か？
+ははっ、こんな場所がいきなりできたら
+テンションが上がっちまって当然だよなー！","So that means you guys are from this area?
+Hahah, of course I'd get pumped to go when this place popped up so suddenly!",
+314,戦人,"と、質問の答えになってなかったな。
+観光……いや、ちょっと違うか？","I didn't really answer your question, though.
+Sightseeing... nah, it's a bit different, I think?",
+318,Kazuho (Casual),……？,...?,
+321,戦人,"地元の子なら、ちょうどいいか。
+俺は、右代宮戦人だ。よろしくな。","But this is perfect timing if you guys are from around here. 
+I'm Battler Ushiromiya. Nice to meet you.",
+323,戦人,"単刀直入に聞きたいんだけどよ。
+この温泉地で、何か気になる話とか
+聞いたことがないか？",I'll be straightforward. Have you guys heard anything interesting about this hot spring?,
+325,戦人,"地元の人たちは、この温泉施設ができることを
+快く思ってなかった、とかさ……。",I didn't think the inhabitants here would build this place so readily... and stuff...,
+329,圭一 (Casual),えっ……？,Huh...?,
+332,,"戦人さんと名乗った人からの
+想定外の問いかけに、私たちは顔を見合わせる。",We exchanged glances as this person named Battler-san inquired about something wildly beyond our expectations.,
+333,,"魅音さんの話を聞く限り、多少の慎重論が
+出たくらいで……村としては歓迎と考えて
+差し支えはないと思う。",I had a bit of doubt after hearing Mion-san's story... but I don't think the village would be hesitant in welcoming it.,
+336,Miyuki (Casual),いえ、そんなことはないと思いますけど……。,"No, I don't think that's the case...",
+339,圭一 (Casual),"ここの地主の娘……でいいんだよな、魅音は。
+そいつは観光客をたくさん呼んで村を
+盛り上げるぞー、って意気込んでましたよ。","The landlord's daughter... Mion, is okay with it. She was so eager about it, she called over a bunch of tourists and livened up the village.",
+343,Nao (Casual),他の子たちも、普通に受け入れてたわよね？,"The other kids have been taking it pretty normally too, you know?",
+347,戦人,……そうか。歓迎されてるならよかったぜ。,"...I see. If they're open to it, then that’s cool.",
+350,,"どこか安堵したように息を吐く戦人さんに
+美雪ちゃんがにこにこと問いかける。","Battler-san let out what could be assumed to be a breath of relief, which caused Miyuki-chan to smile cheerily; a question coming to her mind.",
+351,,"……こういう表情をした時の彼女は、
+探りを入れる思考に切り替わっている時が多い。
+おそらく彼の素性が少し気になったのだろう。",...She spent a while having nosy thoughts after making this face. She may have gotten a bit curious about his background.,
+355,Miyuki (Casual),"事情があるなら、教えてもらえませんか？
+協力できることがあるかもしれませんし。","If you have anything going on, would you mind telling us?
+We might be able to lend you a hand.",
+357,戦人,"……実は俺、いとこと一緒に来たんだけど、
+そいつ、この温泉施設のスポンサーの娘なんだ。","...I actually came here with my cousin, but she's the daughter of the sponsor of this hot spring facility.",
+361,Nao (Casual),"スポンサーのお嬢さん……？
+つまり、雛見沢に視察とかで来たってことですか？",The daughter of... the sponsor...? So she came to Hinamizawa for an inspection?,
+370,Kazuho (Casual),"つ、つまり視察の結果次第で
+この温泉街なくなっちゃうかもしれないって
+ことだったりするんですか？！","D-Does this mean that depending on the result of the inspection, this hot spring district might have to close down?!",
+378,圭一 (Casual),なっ……？！,Wha-...?!,
+381,戦人,"いや、いやいやっ！
+別に視察と言っても、仰々しいものに
+するつもりはないって！",N-Nonono! That would be an overstatement!,
+383,戦人,"ただ、まぁ家庭の問題で来たって感じで……
+それに、思ったよりも感じのいい場所だったから
+正直俺も、ほっとしてたところだぜ！","Just, well, I feel like we came due to a family issue... but the fact that this place is much nicer than I thought honestly puts me at ease!",
+387,Kazuho (Casual),そ、それはよかったです……。,Th-that's relieving...,
+390,,"戦人さんの言葉に、
+今度は私たちが胸をなで下ろす。",Battler-san's words let us loosen up.,
+393,Kazuho (Casual),"（あ……でも家庭の問題で視察って、
+どういうこと……？）",(Ah... but an inspection due to family issues... what's that about...?),
+395,,"不思議に思う間もなく、
+菜央ちゃんが質問を続ける。","Just as I thought how weird that was, Nao-chan asked another question.",
+399,Nao (Casual),そのいとこさんは、どちらに？,Where is that cousin you mentioned?,
+401,戦人,"あぁ、あいつは今、メインの温泉に行ってる。
+その間に俺は、この辺りを見て回ろうと
+考えてたところでさ。","Oh, she went to the main hot spring area earlier. After that, I thought I’d take a look around, y'know?",
+403,戦人,"最初は不安だったけど、
+地元の人からも歓迎されてるって知ったら、
+きっとあいつも安心すると思うぜ。","She was nervous at first, but if she knew that the villagers are open to it, she would probably feel relieved too.",
+405,戦人,"ありがとな、話を聞けて助かったぜ。
+んじゃな、シーユーアゲイン、ハバナイスディ。","So, thanks. That was reassuring.
+I'll head out now. <See you again. Have a nice day.>",
+409,,"ひらひらと手を振りながら、
+戦人さんは温泉街の奥へと入っていく。
+その背中を、私たちはぼんやりと見送っていた。","With a wave of his hand, Battler-san disappeared off into the back of the hot spring district. We absentmindedly watched him go.",
+413,圭一 (Casual),……戦人さん、なんかかっこよかったよな。,"...Battler-san was... kind of a cool dude, huh?",
+418,Nao (Casual),前原さんって、あぁいうのに憧れるの？,"You want to be like him, Maebara-san? He was kinda eh, though.",
+420,Kazuho (Casual),えっ……？,Huh...?,
+425,圭一 (Casual),"あぁ、まぁな……って、
+菜央ちゃんは好きじゃなかったりするのか？","Yeah, I do kinda... wait, so you didn't like him that much then, Nao-chan?",
+427,Nao (Casual),"……憧れるのはかまわないけど、
+あぁいうタイプを目指すのは
+やめておいた方がいいわよ。","...I don't care if you {i}want{/i} to be like him, but it'd be better if you didn't try becoming like that type of person.",
+429,Nao (Casual),"嫌いじゃないけど、ナチュラルに
+女を惹きつけるタイプっぽいのよね。
+……ついでに、女絡みのトラブルも。","Not that I dislike it, but it's that type that naturally has women flocking to them... and incidentally, a type that gets tied up in women problems.",
+431,圭一 (Casual),なんでそんなこと、あの短時間でわかるんだ？,How could you figure something like that in such a short amount of time?,
+433,Nao (Casual),"なんで、と聞かれると答えに困るけど……
+経験則、ってものかしら。",The reason behind it would be troubling to have to explain... but I'll say it's a rule of thumb.,
+437,Kazuho (Casual),しょ、初対面の人にそれは失礼だと……。,I-Isn't that a bit rude to someone you just met...?,
+441,Miyuki (Casual),"んー……あの人がそうかはともかく、
+本人に自覚がないけどモテるタイプって
+確かにいるよね。","Mmm... even if that guy is that way, he looks unaware that he's a lady killer type though, doesn't he?",
+443,Miyuki (Casual),"悪い人じゃないとは思うけど、
+無意識にモテるタイプって
+思わぬトラブルを呼び込みやすいんだよ。","I don't think he's a bad guy, but being unconscious of your popularity with the other sex is just asking for trouble.",
+445,Miyuki (Casual),"本人に自覚も非もないから、
+気がつきにくいんだけどさ。","But it's hard for him to realize, so it's not his fault, y'know?",
+451,圭一 (Casual),"俺にはよくわからないけど、女の勘ってやつか。
+……一穂ちゃんはどう思う？","I had no idea, but I guess it's just women's instinct. 
+...What do you think, Kazuho-chan?",
+453,Kazuho (Casual),わ、私もよくわからない、けど……。,"I-I don't really know, but...",
+456,,"でも菜央ちゃんと美雪ちゃんが同じ意見なら、
+そういう人はいるんだろう……
+無知な私が知らないだけだ。","If Nao-chan and Miyuki-chan have the same view on it, then that sort of person might actually exist... even if I know nothing about it.",
+461,圭一 (Casual),"けど、モテる男ってのには憧れるよな！
+俺も数年後はあんな感じに気取ってない、
+自然体のカッコイイモテ男になりたいぜ！","Still, I aspire to be a man popular with the ladies! A few years down the line, I wanna be cool without even trying like he does!",
+466,Nao (Casual),……逆恨みでお腹刺されたい？,"...So, you'd take the double edge of being resented by women too, then?","""So you want to get stabbed in the stomach with resentment?""???"
+468,圭一 (Casual),そ、それは……勘弁願いたいな。,Th-that's... no thanks.,
+472,Miyuki (Casual),"モテるけどお腹に雑誌入れる生活か、
+モテないけど普通に暮らせる生活……どっちがいい？","Living a popular life having your every action on spotlight, or living a normal life in obscurity... I wonder which is better?",
+476,Kazuho (Casual),モ、モテる人ってそんな生活をしてるの？,D-Do popular people really have that sort of lifestyle?,
+480,Nao (Casual),"なりたくなくても、条件を満たしちゃうと
+結果的になったりするのよ。","Even if you don't want that, if you fit the bill, you'll end up there anyway.",
+484,圭一 (Casual),なんか達観してるな、菜央ちゃん……。,"That's pretty philosophical of you, Nao-chan...",
+486,Nao (Casual),アパレル系の業界には、色々とあるから。,"Well, this does happen a lot in the world of fashion too.",
+489,,"前原くんじゃないけど、本当に達観してる……
+しかも、美雪ちゃんの方も理解できるらしい。",Everyone is getting pretty philosophical aside from Maebara-kun... although I understand Miyuki-chan's point best.,
+490,,"自分だけが世の中を知らないのだと思うと、
+ちょっと情けなくなってくる……。","I feel like I'm the only person who isn't with the times, and it makes me feel pathetic...",
+496,Mion (Casual),ちょっとちょっと、先に行かないでよ！,"Hey, hey, don't run off without me like that!",
+502,,その時、魅音さんたちが背後から駆けてくる。,"At that moment, Mion-san approached us from behind.",
+505,Miyuki (Casual),"ごめんごめん！
+けど、追いつくのが遅かったね？","Sorry, sorry! But you took a while to catch up to us, y'know?",
+508,Rika (Casual),"みー、レナと羽入があちこち寄り道するので、
+追いつくまで時間がかかったのですよ。","Meep. Rena and Hanyuu kept looking around everywhere, so it took us a while to catch up.",
+514,Rena (Casual),"は、はぅ～。だってかぁいいお土産が
+いっぱいあったから……。",Ha-... hau~. There were lots and lots of kyute souvenirs everywhere...,
+516,Hanyuu (Casual),"あぅあぅっ！
+それに梨花も、色々見入ってたのですよー！",Au au! Rika was looking around a lot too~!,
+522,Satoko (Casual),"ところで一穂さんたちはどうしたんですの？
+なにやら、困った顔で話をされていたように
+見受けられましたけど。","Anyway, what's the matter with Kazuho-san and everyone? You look like you've been having a troubling conversation.",
+524,Kazuho (Casual),え、えっと……。,U-Um...,
+530,Nao (Casual),一穂が旅行してた人にぶつかったのよ。,Kazuho bumped into a tourist.,
+532,Miyuki (Casual),"で、そこから話が飛躍して……
+モテる男について話をしてたんだ。","So, the conversation took off from there... about men that are popular with ladies.",
+536,Satoko (Casual),……話の繋がりが見えませんわね。,...I don't see how that's related at all.,
+540,Hanyuu (Casual),"あぅあぅ、
+文字通り話が飛躍しているのですよ。",Au au. The conversation literally took off.,
+544,Rika (Casual),"中間が抜けているからそう感じるだけで、
+きっと流れを聞けば納得できるのですよ。","We just feel that way because we missed the bulk of it, but surely we'll understand as the flow of it goes on.",
+549,Mion (Casual),そ、そうかなぁ……？,I-I guess...?,
+551,Mion (Casual),"にしても、モテる男の条件について、ね。
+一般的な条件で言うと、背が高いとか……？","But regardless, something that'd make a man popular with the ladies, huh? The most obvious thing is being tall, right...?",
+555,Rena (Casual),"はぅ……レナは好きになったら
+身長とか関係ないと思うけどな。","Hau... If Rena fell in love, I think height wouldn't matter much, though.",
+558,Miyuki (Casual),"好きになったらそうかもだけど、
+好きになってもらうための条件だからねー。","That might be true if you fell in love, but we're talking about the {i}prerequisites{/i} to falling in love, y'know?",
+562,Satoko (Casual),でしたら、やはり優しい方だと思いますわ。,"In that case, I believe someone kind really is the way to go.",
+566,Hanyuu (Casual),"あぅあぅ、僕もそう思うのですよ。
+男女問わず、優しい人が一番好かれると思うのです。","Au au, I think so too. I think no matter the gender, a kind person would be the most loveable.",
+571,圭一 (Casual),"背の高い優しい男か……
+内面はともかく、身長はどうすりゃいいんだ？","A kind, tall man, huh...? Setting the mental part aside, what can you do about height?",
+576,Rika (Casual),みー。内面を変える方が大変だと思うのですよ。,Meep. I think it would be difficult to change who you are on the inside.,(*%()(@#)
+578,Nao (Casual),……そうね、中身を変える方が大変だと思うわ。,"...Yeah, it {i}would{/i} be pretty difficult to change around your insides.",
+584,圭一 (Casual),"うっ……？！
+そ、そういうものなのか……？",Uuuh...?! Y-You can do that...?,
+590,Mion (Casual),"あっはっは！　頑張れ圭ちゃん！
+目指せ、モテ男！","Ahaha! Good luck, Kei-chan! Kill some ladies!",
+592,Kazuho (Casual),あはは。前原くんなら大丈夫だよ、きっと。,"Ahaha. If it's Maebara-kun, I think he'll be fine.",
+595,,なんて笑っていると……。,And just as we laugh to that...,
+599,戦人,"う、うおおぉぉぉおおっ？！
+な、なんだこいつらぁあああ？！","U-Uuuuuoooooooohhhhh?!
+Wh-what are you guuuyyyssss?!",
+604,Nao (Casual),今の声って……。,That voice just now was...,
+606,圭一 (Casual),さっきの、戦人って人のかっ？,Was that Battler-san?,
+611,Kazuho (Casual),ま、まさか……っ！,N-No way...!,
+614,,"嫌な予感がして突き動かされるように、
+私たちは声の聞こえた方向へと駆け出した。","With a bad feeling stirring in the air, we dashed towards the direction his voice came from.",
+619,,"声が聞こえてきたのは、
+本通りから一本脇にそれた方角だった。",The voice came from a branch off of the main road.,
+622,Kazuho (Casual),確か、こっちの方から……あっ？！,I think it came from there... ah?!,
+628,？？？？,『ギィイイイイィイイイイイ！！』,{b}Giiiiiiiiiiiiiiiiii!!{/b},
+632,戦人,ひ、ひぃいいぃぃぃぃいいい！！,"Hiiih, hiiiiiiiiiihhhh!!",
+637,,"ギチギチと関節を鳴らす『ツクヤミ』たちの前で、
+地面に尻餅をついているのは……。",The {b}Tsukuyamis'{/b} joints creaked and rattled as they creeped towards someone fallen over on the ground...,the jp wording is kind of hard to do in english
+644,戦人,"な、なんだこれ？！
+いや本当に、なんなんだよ？！","Wh-what is this?! No, seriously, what is going on?!?",
+651,Kazuho (Casual),ばっ、戦人さん！,Ba-Battler-san!,
+658,戦人,うぉっ？！,Uooh?!,
+663,,"声をかけると、戦人さんが振り返り
+私を見つけると目に涙を浮かべながら叫んだ。","When I called out to Battler-san, he turned his head to find me, yelling out with tears in his eyes.",
+667,戦人,"あ、あんたはさっきの……？！
+こ、こっちに来るんじゃねぇ！！
+逃げろ、早く――っ！！！",Y-You're the one from before...?! D-Don't come any closer!! Run! Noooow!!!!,
+669,Kazuho (Casual),"（自分が襲われそうなのに、
+私の心配をしてくれてる……？）","(Even when he's about to get attacked, he's worried about my wellbeing...?)",
+671,Kazuho (Casual),"（い……いい人だ、やっぱりいい人だよ！
+こんな人を死なせたら、絶対に駄目だッ！）",(He... He's a great person. He's actually a great person! I absolutely cannot sit here and let someone like that die!),
+673,Kazuho (Casual),大丈夫です！　任せてください！,It's alright! Just leave it to us!,
+675,戦人,"ま、任せるって……
+こんなのどうするつもりなんだ？！",L-Leave it to you...? What could you possibly do against that?!,
+679,,"悲鳴めいた叫び声が聞こえた直後、
+背後から複数の足音が響いてくる。","The very second after he cried out those words, I hear the sound of numerous footsteps coming from behind.",
+683,圭一 (Casual),うわっ、うじゃうじゃいるぞ？！,"Woah, they're coming in hordes?!",
+685,Nao (Casual),モテてるわね……『ツクヤミ』に。,Guess he's pretty popular with {b}Tsukuyami{/b}... never mind ladies.,
+689,Satoko (Casual),"こんな時に、ジョークを飛ばしている
+場合ではございませんわーっ！",Are you really joking around at a time like this?!,
+693,Rika (Casual),そこの人、下がるのですよ！,"You over there, get out of there, now!",
+698,戦人,な……なんだ、なんだぁ？！,Wh-... what is this?! What is thiiis?!,
+705,Mion (Casual),"みんな、戦闘準備っ！
+あの人を助けるよっ！！","Battle positions, everyone!
+We're saving this guy!!",
+712,？？？？,おーっっ！！,Yeaaaahhhhhh!!!,
+715,戦人,えっ、えっ？,Wh-... huh?,
+719,戦人,えぇぇぇえええぇぇえええええーっ？！,HHHUUUUUUUUUUUUUUHHHHH?!?!,
+728,縁寿,ちょっ、ちょっと待って……！,W-Wait a sec...!,
+730,縁寿,"魔女や黒山羊より、下手するとあれの方が
+ずっとファンタジーじゃない……！",This comes nowhere close to the kind of fantasy with witches and goats...!,
+732,縁寿,どうなってるのよ、この世界は……？,What is happening in this world...?,

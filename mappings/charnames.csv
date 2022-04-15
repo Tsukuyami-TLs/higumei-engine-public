@@ -1,24 +1,82 @@
 jp,id,en
+一穂,kazuho,Kazuho Kimiyoshi
+美雪,miyuki,Miyuki Akasaka
+菜央,nao,Nao Houtani
+圭一,keiichi,Keiichi Maebara
+沙都子,satoko,Satoko Houjou
+梨花,rika,Rika Furude
+古手梨花,rika,Rika Furude
+レナ,rena,Rena
+詩音,shion,Shion Sonozaki
+魅音,mion,Mion Sonozaki
+羽入,hanyuu,Hanyuu Furude
+田村媛命,tamurahime,Tamurahime
+赤坂,akasaka,Mamoru Akasaka
+葛西,kasai,Tatsuyoshi Kasai
+入江,irie,Kyousuke Irie
+エウア,eua,Eua
+ツクヤミ,tsukuyami,Tsukuyami
+バケモノ,monster, Monster
+
+？？？,unknown,????
+電話,phone,Phone
+
+梨花＆沙都子,rika_satoko,Rika and Satoko
+梨花・沙都子,rika_satoko,Rika and Satoko
+美雪・菜央, miyuki_nao,Miyuki and Nao
+園崎姉妹,mion_shion,Sonozaki Sisters
+魅音・詩音,mion_shion,Mion and Shion
+圭一・魅音, keiichi_mion,Keiichi and Mion
+
+
+みんな,everyone,Everyone
+全員,everyone,Everyone
+3人,kazuho_miyuki_nao,The Three
+戦人＆圭一,battler_keiichi,Battler and Keiichi
+圭一＆戦人,keiichi_battler,Keiichi and Battler
+
+
+
+船長,captain,Captain
+護衛,bodyguard,Bodyguard
+ウェイトレス,waitress,Waitress
+車に乗った男,carman,Man in the Car
+後部座席の少女,backseat,Girl in the Back Seat
+謎の女,todo,Mysterious Woman
+
+女生徒,classmate,Classmate
+生徒会長,president,President
+女子生徒,upper,Upperclassman
+1年生Ａ,fresh_A,Freshman A
+2年生Ａ,soph_A,Sophomore A
+1年生Ｂ,fresh_Ｂ,Freshman B
+2年生Ｂ,soph_Ｂ,Sophomore B
+2年生B,soph_B2,Sophomore B
+担任,teacher,Homeroom Teacher 
+日直,duty,Day Duty
+
 ドラノール,dlanor,Dlanor
 ベアトリーチェ,beatrice,Beatrice
-ヱリカ,erika,Erika
+ヱリカ,erika,Erika Furudo
+#p古手梨花#sふるでりか#r,frederika,Furude Rika
+#p古手梨花#sふるでりか#r？,frederika,Furude Rika?
 嘉音,kanon,Kanon
-朱志香,jessica,Jessica
+朱志香,jessica,Jessica Ushiromiya
 紗音,shannon,Shannon
-菜央,nao,Nao
-詩音,shion,Shion
-魅音,mion,Mion
-一穂,kazuho,Kazuho
-梨花,rika,Rika
-沙都子,satoko,Satoko
-美雪,miyuki,Miyuki
-羽入,hanyuu,Hanyuu
-郷田,gohda,Gohda
+郷田,gohda,Toshiro Gohda
+#p郷田#sごうだ#r,gohda,Toshiro Gohda
 右代宮蔵臼,krauss,Krauss Ushiromiya
+#p右代宮蔵臼#sうしろみやくらうす#r,krauss,Krauss Ushiromiya
 右代宮夏妃,natsuhi,Natsuhi Ushiromiya
-船長,captain,Captain
-電話,phone,Phone
-園崎姉妹,sonozakis,Sonozaki Sisters
-レナ,rena,Rena
-？？？,unknown,????
-古手梨花,rika,Rika Furude
+#p右代宮夏妃#sうしろみやなつひ#r,natsuhi,Natsuhi Ushiromiya
+縁寿,ange,Ange Ushiromiya
+戦人,battler,Battler Ushiromiya
+
+ケーイチ,K-1,K-1
+レディ・ミー,LadyMeep,Lady Meep
+男の子,boy,Boy
+女の子,girl,Girl
+不良A,defA, Delinquent A
+不良B,defB, Delinquent B
+不良C,defC, Delinquent C
+仮面のヒーロー,hero, Masked Hero

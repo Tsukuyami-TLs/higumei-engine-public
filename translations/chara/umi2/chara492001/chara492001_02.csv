@@ -1,0 +1,123 @@
+chara492001_02.bytes,,,,
+index,chara,jp,en,
+32,縁寿,"……なるほどね。あなたたちがこの村にいる経緯が
+なんとなくわかったわ。
+だから深く突っ込むな、ってわけね……。","...I see. I more or less understand the details behind you three getting sent to this village. So that's why you told me not to pry too deep, huh...?",
+34,Miyuki (Casual),"いやー、失言失言。
+キミが同じ立場の人じゃなかったら、
+かなりヤバい発言になってたかもね。","Nooo, I misspoke, I misspoke. If you weren't in the same position as us, that might have been a pretty reckless thing to say.",
+38,Nao (Casual),"「かも」じゃないわよ。
+あんたってほんとに口が軽いっていうか、
+無用心っていうか……。","Not just ""might have"". Are you seriously light-lipped or are you just careless...?",
+40,Miyuki (Casual),"はいはい、お小言はあとでゆっくり聞きますよ。
+……で、キミはこの後どうするつもり？","Yeah, yeah, I'll listen nice and carefully to your complaints after.
+...So, what do you plan on doing next?",
+44,縁寿,"どうって言っても…
+とりあえず、元の「世界」に戻る手段を探して
+とっとと帰るつもりよ。","You're asking me...
+Meanwhile, my goal is figuring out how to get back to my original ""World"", and fast.",
+46,Miyuki (Casual),"んー、確かにそれが最善策には違いないけど……
+なんでここに来たのかがわからないままじゃ、
+手がかりがなさすぎだと思うけどなぁ。","Mmm, that would clearly be your best option... but while you're stuck not knowing how you got here, it doesn't look like there are many clues either, y'know?",
+48,縁寿,………それは……………、,...That's.........,
+50,縁寿,"でも、だからと言ってのんびりしていられないの。
+私には元の「世界」でやらなきゃいけないことが
+あるのよ。","But like I said, I can't just sit here all willy nilly. I have things I need to do back in my original ""World"".",
+54,Nao (Casual),やるべきこと？　それってどういう――。,Things you should do? What would that--,
+64,戦人,"ん？　何だよお前ら、ここにいたんだな。
+どこに行ったのかと思ってたぜ。","Hm? Wow, so you guys were over here. I've been wondering where you went.",
+71,Kazuho (Casual),あ、戦人さん。おはようございます。,"Ah, Battler-san. Good morning.",
+79,縁寿,……っ……？！,...gh......?!,
+88,戦人,"おお、おはよう。………ん？
+そこにいるあんたとは初対面だよな。
+一穂ちゃんたちの友人か？","Yeah, morning. ...Hm?
+You're a new face. You a friend of Kazuho-chan's?",
+90,縁寿,えっと……。わ、私は……。,Um... I-I'm...,
+98,朱志香,"……はぁ、………はぁ、……はぁ……！！
+ふざけやがれ戦人ぁ！
+病院内を勝手に動くんじゃねーぜ！","...Haah... haahh... haaahhh...! Don't screw around with me, Battleeerr! Don't just run off to the clinic on your own!",
+106,戦人,"あ、悪い悪い。
+でも、ここにみんなが居たからよ。
+ちょうどいいじゃねぇか？","Yeah, my bad, my bad. But now we're all here. Isn't this perfect?",
+108,朱志香,"まぁ……確かにな。
+ん？　何だよその子。ウチの腕章を
+付けてるけど…。","Well... I guess.
+Huh? Who's that girl? She's wearing our armband too...",
+110,戦人,"そう言えば、あんたの服の腕章……
+よく見たらその指輪も、『片翼の鷲』だよな。
+さすがに祖父さまがはめてる当主の証とは違うよな？","Now that you say it, the armband on her outfit...
+Also if you look closely, that ring she's wearing does have the {b}one-winged eagle{/b} on it too. It's the same as the one Grandfather designated as the symbol of the family head, right?",
+112,朱志香,"片翼の鷲があるってことは、私が知らないけど
+祖父さまが認めた親戚ってことか？うーん。","I have no idea, but does her having the one-winged eagle mean our grandfather recognized her as a relative? Hmm.",
+117,縁寿,これは……。,This is...,
+119,縁寿,"……右代宮家がリゾート地にするって言うから、
+お土産用に作った試作の腕章で商品展開を
+視野に入れたデザイン…って言えばいいかしら。",...a prototype design for a souvenir manufacturing line from the Ushiromiya family resort... I guess you could say.,
+123,戦人,"なんだ、そういうことだったのか。
+こんな地方の村だから知らないのは無理もないんだが
+そのデザイン、祖父さまから許可出ないと思うぜ。","Oh, so that's what it was. I figured no one would know much about that design in this rural village, though. I don't think Grandfather permits it off the island.",
+125,戦人,"……あ！　別に#p雛見沢#sひなみざわ#rが辺鄙な片田舎だとか
+そういう意味で言ったわけじゃなくて、
+たとえと言うか……。","...Ah! It's not like I'm saying Hinamizawa is in a hard to reach, remote countryside! It was just an example...",
+130,Miyuki (Casual),"いやいや、わかってますって。……というか、
+そういう言い訳くさいことをあえて口にするほうが
+かえって失礼だと思いますよ。","No, no, I get it. ...But I feel like purposefully uttering an excuse like that is much more rude.",
+132,戦人,"……あー、確かに。余計な一言を悪かったな。
+無神経なことを言うつもりはなかったんだ、
+謝るよ。","...Ah-, true. I messed up and said something unwarranted. I didn't mean to be insensitive. I apologize.",
+135,Miyuki (Casual),"あははは、大丈夫ですよ。
+戦人さんがいい人だってことは、会った時から
+よくわかってますしね。","Ahahaha, it's fine! Battler-san, you're a great guy. I knew that very well even at the time we met.",
+137,Miyuki (Casual),"それより、お二人はどうして診療所に？
+昨夜の騒ぎで、どこか怪我でもしたんですか？","But anyway, why are you two at the clinic? Did you get hurt amidst the chaos last night?",
+139,戦人,"いやいや、それは大丈夫だ。
+特にどこも痛めていないし、今日も朝から
+健康そのものだったぜ。","No, no, nothing like that. Nothing in particular is in pain, and I've been healthy all morning.",
+143,朱志香,"いやさ……ここの先生には昨夜も温泉街への送迎を
+してもらったし、他にも色々とお世話になってるのに
+お礼もまともに言えてないままだったからさ。","No, like... we had the doctor driving us back and forth all night to the hot spring district, and he helped us with a bunch of other stuff, but we never got to thank him up front for all of it.",
+145,朱志香,"で、改めてお礼とご挨拶に来たってわけさ。
+先生は今、どこにいるか知ってるか？","So, we came to formally thank him and say hello, y'know? Do you guys know where he is now?",
+150,Kazuho (Casual),"あ、入江先生だったら私たちの朝食を
+買ってくる、って言って#p興宮#sおきのみや#rまで出てますよ。
+もうまもなく帰ってくると思いますけど……。","Ah, if it's Dr. Irie, he's out buying breakfast for us in Okinomiya. I think he should be back any time now, though...",
+154,戦人,"そりゃあ残念。
+タイミングを読み違っちまったようだ。",That's a shame. Guess we didn't consider the time all too much.,
+157,縁寿,…………。,............,
+159,戦人,"ん、ぼさっとして
+そんなに腕章がショックだったのかぁ。","Huh, you're spacing out. Did the armband talk shock you that much?",
+162,縁寿,なっ……そんなことっ！,N-... No!,
+166,朱志香,"あー、ごめんな。ウチの祖父さまって言ったけど
+この紋章は家紋だから気軽に許可が出せなくてさ。","Ah-, sorry. Our grandfather said that crest is a family symbol, so he doesn't allow it being worn out casually, y'know?",
+168,戦人,"それにしても、右代宮の家紋なんか使わねぇで
+雛見沢の名物で良いと思うぜ。
+温泉ができるのは、雛見沢なんだしよ。","Regardless, I think it'd be nice for Hinamizawa to have some sort of famous product like the Ushiromiya family crest. The hot spring can sport it too.",
+170,戦人,"でも、その指輪…右代宮家当主の証を
+はめてるからかもしれないけどよ……
+あんた、どっかで見たことある気がするんだよな。",But that ring... might be the same one that designates the head of the Ushiromiya family... and I feel like I've seen you somewhere before.,
+172,戦人,とりあえず、名前を聞いてもいいか？,Could I get your name in the meantime?,
+175,朱志香,"おい戦人ぁ。私の前で古臭ぇナンパの常套句を
+出すとか、いい度胸だなぁ。
+叔父さんに言いつけてもいいんだぜぇ。","Battleeeeer, you've got some nerve spouting some old ass cliche pickup line in front of me like that. I'm telling on you to your dad.",
+178,戦人,"……お、おいおい朱志香。クソ親父に言うだぁ？！
+別にナンパとかじゃねーからな！
+ただ見覚えがある気がしたんだよ！","...W-Wait, wait, Jessica. You're gonna tell that old geezer?! I wasn't flirting with her either! I just felt like I remembered her from somewhere!",
+186,縁寿,…………。,............,she big mad
+188,縁寿,ごめんなさいね。失礼するわ。,I'm sorry. I will be leaving.,
+193,Miyuki (Casual),あっ、ちょっと……って、出て行っちゃった。,"Ah, wait... wh-, she left.",
+196,Nao (Casual),……戦人さん、最低です。,"...Battler-san, you're the worst.",
+198,Miyuki (Casual),うん……今のは、酷いね。,Yeah... you're awful today.,
+203,戦人,"…………ぅお…お…！
+おいおいおい、誤解だぁああぁぁああぁ！","......H-...Hey...! Hey, hey, hey, it was a misunderstandiiiiiiiiiiiinggggggg!!!",
+207,朱志香,"うるせーぜ、戦人！
+ここが病院だって忘れるんじゃねぇー！！","Shut up, Battler! Did you forget you're at the doctor's office?",
+209,朱志香,"……にしても戦人、お前ナンパじゃねぇなら
+マジで見たことあるのか？","...Anyways, Battler, if you actually weren't trying to flirt, then you really have seen her before?",
+211,戦人,"いや、まさかな。あいつはまだ６歳のはずだから、
+見覚えっていうか似てるって感じただけだ。","No, that's impossible. She should still be 6 years old, it was just a feeling I had because of the similarity.",
+213,戦人,"でもよ、あの子最後すげぇ悲しそうな顔をしてたけど
+大丈夫か？そのまま見送っちまったけどよ。","But damn, that girl had a crazy sad look on her face towards the end. Is she okay? We just let her go.",
+218,Kazuho (Casual),…………。,............,
+220,Kazuho (Casual),"あの、私……ちょっと行ってきます。
+戦人さんたちは、あとから来てください。","Um, I'll... be going. Battler-san and Jessica-san, please wait here and catch up with me a bit afterwards.",
+225,Nao (Casual),って、一穂……？,"Wh-, Kazuho...?",

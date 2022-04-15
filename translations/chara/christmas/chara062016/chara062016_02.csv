@@ -1,0 +1,184 @@
+chara062016_02.bytes,chara,jp,en,Notes TL,Notes QC
+28,Satoko (高校生),"おいしい……。
+こういうスーパーで売っているような
+お菓子は久しぶりに食べましたわ。","Yum...
+This takes me back to the candies that I would eat from the supermarket.",,
+32,？？？？,"たまに食べると、おいしさも
+ひとしおですよね……ですがあなた、
+よく迷いもなく口にできましたね？","It's especially delicious when eaten on occasion... but you actually put that in your mouth with no hesitation, huh?","<- would change the first part to ""When you only eat it once in a while, it seems even more delicious, huh..."" (this change? i originally took tamani as taking bites every now and then aa)",
+35,Satoko (高校生),あら、それが何か？,"My, what do you mean?",,
+39,？？？？,"怖くないですか？　見知らぬ他人……
+しかも自分を脅迫してきた人間から
+渡されたお菓子なんて。","You aren't afraid? This candy is from an unfamiliar person... and on top of that, it's from the same person that just blackmailed you.","<- ""it's the same person that blackmailed you that handed you some candy"" maybe add an 'that' there? (oh oops i added an its there without realizing i had to change the rest of the sentence erhgkergj)",
+42,Satoko (高校生),"お菓子は個別包装されていましたもの。
+……それに、あなたに悪意がないことは
+とっくにお見通しですわ。","The candy was wrapped individually.
+...And besides, I've already realized you have no malicious intent.","<- ""The candy was individually wrapped.""",
+46,？？？？,ほう……なぜ悪意がないと？,Hoh... and what makes you say I have no malicious intent?,,
+49,Satoko (高校生),"もしあなたがその気なら、忠告なんてせず
+黙って写真を先生に渡せば終わりですし……
+その方が確実で、安全ですわ。","If you were that way, you would have just handed the photo over to the teachers without letting me know...
+That would have been a much safer bet for you.","""I feel positive that I'm safe from that scenario"" - she's talking about the president and not herself, would change to -> ""That's a much safer and reliable way to go about it."" (this change?)",
+51,Satoko (高校生),"なんせ私は、あなたの顔も確認できていません。
+事実を訴えても、架空の存在に罪を
+押しつけようとしていると思われるだけ。","Anyhow, I haven't been able to get a good look at your face. Even if the truth did surface, it would seem like I was trying to shift the blame onto a fictitious being.",would change to 'it would seem like I'm trying to shift the blame onto a fictitious being.',
+53,Satoko (高校生),"私は即退学、ジ・エンド……真実は闇へ。
+そうしないのは、その結末が不本意だからでしょう？","Then I'd instantly get expelled... and ""The End"", the truth fades into the darkness. So, I assume you not doing that would be because you're unwilling to have things end that way?",,
+57,？？？？,"……驚いた。
+今のやりとりで、そこまで見抜きましたか。",...Amazing. You dove that deeply into our exchange?,,
+60,？？？？,"いや、それだけじゃない。観察眼もなかなかです。
+私の侵入者対策を破ってきたのは、あなたが初めてです。","And not just that, your observation skills are quite good.
+You're the first one to break through my anti-intruder measures.",,
+63,？？？？,"おかげで私も不本意ながら、奥の手を
+使わざるをえなくなってしまいました。
+……このポラロイドカメラのフィルム、高いんですよ？","And although I was reluctant to, I had no choice but to use my more extreme methods thanks to that. ...This Polaroid camera's film isn't cheap, you know?",order,
+66,Satoko (高校生),"でも、私も勘が鈍りましたわ……
+あっさりと死角に回り込まれた上に、
+決定的な弱みを握られてしまうとは。","Still, my intuition has gotten rusty...
+Not only have you snuck around a blind spot of mine, but you got me at one of my sore points.",editz,
+68,Satoko (高校生),"この体たらくでは、トラップマスターの称号を
+返上しないといけませんわね。","After this sloppy job, I might have to hand the title of Trapmaster to you.",,
+72,？？？？,"ふむ……トラップマスター……。
+ということはあなたには、サバイバルか
+それに類する心得があるということですか？","Hmm... Trapmaster...
+Could that mean that you have knowledge on survival in the wild and the like?",editz,
+75,Satoko (高校生),"えぇ、もちろん。以前は特殊部隊を相手にして
+村の裏山で大立ち回りを演じてやりましたわ。","Yes, of course. I played a big part in a fight against a special assault team in the back of a mountain before.",,
+79,？？？？,"ぷっ……あはは、あははははっ！
+面白いっ、この学園に入ってから
+一番愉快な冗談を聞かせてもらいましたよ！","Pff... ahaha, ahahahaha! That's hilarious. That must be the most entertaining joke I've heard since coming to this school.",editz,
+82,Satoko (高校生),"別に、冗談などではなくて
+本当のことですけど……わっ？！","I'm not actually joking, though... wah?!",shortened,
+90,？？？？,"着地成功……失礼。
+そろそろ近くであなたの顔を見たくなりまして。",A successful landing... do excuse me. I started feeling like seeing your face up close.,editz,
+93,Satoko (高校生),"人が空から降ってくるなんて
+現実でもありますのね……あなた、お名前は？",So it {i}is{/i} possible for someone to fall from the sky like this in reality... What's your name?,,
+97,？？？？,"答えてもいいですけど、名前を聞いたのは
+一応こちらが先なので。まずはあなたから
+名乗っていただけるとありがたいです。","I {i}can{/i} answer, but I'm the one who asked your name first. I'd be thankful if you gave your introduction before me.",editz,
+100,Satoko (高校生),"それもそうですわね……
+私は北条沙都子、高等部の１年ですわ。","Oh yeah, you're right...
+I'm Satoko Houjou, a first year in the high school section.",editz,
+104,？？？？,"ふむ。……ということは私の１年後輩だね。
+よろしく、北条さん。","Hmm. ...That means you're my underclassman, a year under me.
+Nice to meet ya, Houjou-san.",,
+107,Satoko (高校生),（いきなりタメ口になりましたわね……）,(She switched to casual speech...),,
+111,？？？？,で、私の名前だけど――。,And about my name--,I HATE THEM FOR THIS,
+120,Rika (高校生クリスマス),……それが、沙都子と新生徒会長との出会い？,...And that's how you met the student council president?,,
+122,Satoko (高校生クリスマス),"えぇ。あの頃は、数週間後に行われる
+生徒会選挙で会長への立候補を予定している
+噂の才媛が、こんな人だと知って驚きましたわ。","Yes. I was surprised to find out that she was rumored to be a genius, and that she planned on entering the student council election a few weeks later.",order,
+124,Rika (高校生クリスマス),"才媛というより……厄災って呼ばれてなかった？
+成績は常にトップ。その一方で普段から何かと
+奇行が目立ち、教師陣からの評価は最悪……。","Rather than a genius... wasn't she often called a disaster?
+She may have the highest grades here, but her reputation among teachers is the worst due to her eccentric and antisocial attidude...",editz,
+126,Rika (高校生クリスマス),"とはいえ、全国模試でもベスト１０に入る生徒を
+罰して退学にさせるわけにもいかず、
+仕方なく勝手な振る舞いを黙認している……。","Despite that, they couldn't just make a student like that drop out after placing among the top ten in the national mock exams, so they had no choice but to tolerate her selfish behavior...",,
+128,Rika (高校生クリスマス),なんて、噂だけでもボロクソだったわ。,The rumors about her were all messed up like that.,,
+130,Satoko (高校生クリスマス),"それって、クラスでお聞きしたお話でしょう？
+私、他の生徒とはあまり話しませんから……
+そんな噂は知りませんでしたわ。","That's information you got in class, right? I don't really talk to other students... so I didn't even know about those rumors.",,
+132,Satoko (高校生クリスマス),"……でもまさか、あの人が生徒会長になって
+私が学園を抜け出した事実を隠匿してもらう
+なんて状況がくるとは、思いもよりませんでしたわ。","...I would've never expected that she'd soon become the student council president back then, as well as the person who would eventually help me cover up the fact I escaped the academy.",editz,
+134,Satoko (高校生クリスマス),"それ以上に、脱走の代償として生徒会の
+クリスマスパーティーの会場準備を任されるとも
+思いませんでしたけど。","Moreover, I never imagined she'd make us prepare the venue for the student council's Christmas party as repayment.",,
+136,Rika (高校生クリスマス),そうね……しかも、こんな格好をさせられて……。,"Right... and plus, making us wear these outfits...",,
+138,Satoko (高校生クリスマス),ご、ごめんなさい……梨花。,I-I'm sorry... Rika.,,
+140,Satoko (高校生クリスマス),"クリスマスプレゼントを買ったら、
+すぐに戻ってくるつもりでしたのよ。
+まさか、梨花を巻き込むことになるなんて……。","I was planning on returning as soon as I bought the Christmas present.
+I didn't think you'd get involved in this too...",order,
+142,Rika (高校生クリスマス),"それはもういいのよ……それで、その後は？
+生徒会長と何を話したの？","It was no big deal... anyway, what happened after that?
+What did you talk about with the president?",,
+144,Satoko (高校生クリスマス),あぁ、確か……。,"Ahh, if I recall...",,
+154,？？？？,"あ、飲み物もあるよ。
+お茶会で使うような高そうな茶器はないから、
+水筒と紙コップだけどね。","Oh, we have drinks too. There aren't any fancy tea cups that you'd have at a tea party, though, so you'll have to use these paper cups.",,
+157,Satoko (高校生),……いただきますわ。,...I'll have a bit.,,
+159,Satoko (高校生),"（ずいぶんと馴れ馴れしい方ですわね。
+最初は冷たい感じがして、少し身構えて
+しまいましたけど……）","(She's the overly-familiar type, huh? She gave off a cold impression at first, so I was a bit on guard...)",,
+162,？？？？,"しかし、私のトラップを見破るとはね……。
+鳴子に引っかかった子は３人、落とし穴は２人。
+お化けが出た、と叫びながら逃げ帰った子が１人。","But for you to see through my traps...
+The alarm has been tripped by three girls; the pitfall, two girls; and one girl even thought a ghost came out and ran screaming.",,
+164,？？？？,"最後の子は本気で怖がってたな……。
+幽霊を見た、と主張しても
+誰にも信じてもらえなくて、可哀想だった。","The last girl was seriously mortified...
+No one would believe her even though she asserted she saw a ghost.
+It was pitiful.",,
+166,？？？？,"かといって、私がやったとも言えず
+申し訳なかったよ……。
+案の定、ルチーア七不思議が増えてしまった。","On the other hand, it was regrettable that I never said anything...
+Sure enough, this ended up adding to the seven wonders of Lucia.",,
+168,？？？？,"あの七不思議、いくつあるんだろうね？
+私が確認した限り１２個はあったから、
+あれを加えると１３……かな？","I wonder how many of the seven wonders there are now? Last I checked, I counted up to twelve, so this one would make thirteen... I assume?",,
+171,Satoko (高校生),"ずいぶんとイタズラ好きな方ですのね。
+ルチーアきっての才媛がこんな方だと聞いたら、
+他の生徒が驚きましてよ。",You're quite the type to like traps. Any other student would be shocked to hear that Lucia's greatest and most talented student was like this.,this first sentence................,
+174,？？？？,"驚かないよ。私はみんなから嫌われているからね。
+最底辺なんだから、評価もこれより下がりようがない。","Not really. I'm hated by everyone after all. My reputation's already the worst it could possibly be, so it can't get any lower.",,
+177,Satoko (高校生),"……とか言いつつ、楽しそうですわね。
+やはり勉強ができれば、何でも許されるんですの？","...Contrary to what you say you seem to be having fun.
+So they really do allow you to do anything as long as you study?",edit,
+179,Satoko (高校生),"はぁ……自己主張や自由を満喫できるのは、
+勝者の特権というやつですわね。
+私から見れば、羨ましい限りですわ。","*sigh*... It's the privilege of the victor to fully enjoy freedom and self-assertion, huh? From my perspective, it's enviable, even.",,
+182,？？？？,"あははっ……その勝者の作った渾身のトラップを
+いとも容易く突破してきた君の台詞がそれかい？
+嫌味にしか聞こえないんだけどさ。",Ahaha... {i}That's{/i} the line that comes out of your mouth as the one who treaded around my victoriously-made traps like they were nothing? That can't be anything but sarcastic.,,
+184,？？？？,"あれでも私にとっては、いろんな本を読み漁って
+完全無欠に仕上げた自信作のつもりだったんだよ。
+それを、見事なまでに破ってみせるなんて……。","Regardless, that was my magnum opus as a culmination of the various selections of books that I've read from front to back. To think that you would go so far as to try and splendidly rip that all apart...",,
+186,？？？？,"北条さんはすごいな、天才だ。
+悔しいけど、本物の実力の持ち主と会えて光栄だよ。","You're incredible, Houjou-san. A genius. It's frustrating, but it's an honor to meet someone with genuine abilities like you.",,
+190,Satoko (高校生),……っ……！！,...ah-...!!,,
+192,Satoko (高校生),（あれ……あれ、あれっ……？！）,"(Huh... Huh, huh...?!)",,
+194,Satoko (高校生),"（なんとか補習組行きを免れて、
+梨花に褒められたことはありました……
+良かった、頑張ったねって）","(Rika praised me after I was able to get out of remedial classes... with an ""I'm so glad, you gave it your all"".)",,
+196,Satoko (高校生),"（でも、……こんなふうに
+他人からすごいって言われたのは、
+何年ぶりかしら……っ？）","(But... how many years has it been since anyone ever told me I'm ""incredible""...?)",OHHH GOD SHE GETS IT........... SHE JUST GETS IT,
+198,Satoko (高校生),……ぅ、……っ……。,...Uugh... uu...,,
+201,？？？？,えっ……？　ど、どうしたの北条さんっ？,"Eh...? W-What's wrong, Houjou-san?",,
+205,Satoko (高校生),"な、なんでもありませんわ！
+ちょっと目にゴミが入っただけでしてよ！",I-It's nothing! Something just got in my eye is all!,,
+207,Satoko (高校生),"それはともかくとして、
+あちらにある試作中だという、滑車を使った
+ネットのトラップ……。","That aside, your prototype net trap over there that used the pulley...",,
+209,Satoko (高校生),"あんな脆弱な形状では、人ひとりを
+つるし上げることはできませんわ。",A fragile set-up like that wouldn't even be able to lift a single person.,"If it's fragile like that, it won't be able to hold up one person.",
+211,Satoko (高校生),"もし仕上げるなら、強度を高めないと
+トラップにかかった人が中途半端に落下して
+怪我をしてしまいましてよ。","To polish it more, you'd need to increase its strength. Otherwise, the trap might half-assedly catch the victim, potentially even causing them harm.","If you were to polish it, you'd need more strength put on it or else the person who falls for the trap will be half-assedly caught and it could potentially hurt them.",
+214,？？？？,"なるほど、確かにそうだね……。
+私も正直、効果的だとは思いつつも
+リスクを加味して導入を迷っていたんだ。","I see. That definitely is true...
+I honestly thought it would be effective too, but I was hesitant in installing it originally due to the risks involved.",,
+216,？？？？,"だとしたら、各部品の強度を
+さらに上げたほうがいいね。
+……どのあたりが、一番気になる？","I'd better start improving the strength on each component then. 
+...Which part concerns you the most?",,
+219,Satoko (高校生),"ここのポイントですわね。
+ここに足を入れて作動したとすれば、
+重心はここになりそうなので……。","This point here. Supposing someone placed their foot in and it worked, their center of gravity would shift to around here...",,
+223,？？？？,"ふむ……となると角度と位置はこれくらいだから、
+ここにつけるロープの長さは……。","Mhm... So with the angle and position like this, the length of this rope placed here is...",,
+227,Satoko (高校生),"な……なんですの、その電卓は？
+ものすごい数のボタンがありますけど。",W-...What is that calculator? It has a ridiculous amount of buttons on it.,,
+230,？？？？,"ん？　関数電卓ってやつだよ。
+これを使うと、角度と位置さえ決まっていれば
+必要な部品の強度と長さの目途がつけやすいんだ。","Mm? It's a scientific calculator. Using this, you only need to know the angle and the position to easily compute the length and the strength of the parts necessary.",,
+233,Satoko (高校生),"関数って……数学の？
+あの小難しい呪文みたいなものに、
+そんな使い方があるんですの？","Scientific... like the mathematic kind?
+That troublesome, magical-looking device has uses like that?",,
+236,？？？？,"うん。他にも、化学公式とかを覚えれば
+色んな薬剤を作ってトラップに変化を
+加えることができるしね。それに……。","Yep. Other things include being able to create various medicinal drugs should you remember the scientific formulas for them, and you can factor in changes to your traps too. Also...",M-MAYBE WE SHOULD CHANGE IT TO MEDICINE..,

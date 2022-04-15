@@ -1,0 +1,61 @@
+chara042001_01.bytes,chara,jp,en,Notes TL,Notes QC
+33,Nao,一穂、新しい#p雛見沢#sひなみざわ#rの資料、何か見つけた？,"Kazuho, have you found any new documents on Hinamizawa?",,
+36,Kazuho,"うん。一応、地域研究って本があったけど……
+ざっと見る限り、あんまり参考にはならないかな。","Yeah. For now, there's a book called Regional Studies... but taking a quick look, I don't know if it'd make a good reference.",,
+38,Nao,"とりあえず、借りていきましょう。
+参考になるかならないかは、情報を精査してから
+判断すればいいだけよ。","Let's check it out in the meantime.
+We can just examine it and decide if it'll be useful or not.",,
+40,Nao,"今のあたしたちには、何の情報が
+役に立つかわからないんだから。","Right now, we don't know which documents will be helpful to us at all.",,
+43,Kazuho,そうだね。……そういえば美雪ちゃんは？,"I agree. ...By the way, where's Miyuki-chan?",,
+49,Miyuki,あっ、こっちこっち。おーい！,"Ah, over here! Heeeeey!",,
+55,Nao,"図書館では静かにしなさいよ。
+……で、何か見つけたの？","Pipe down when you're in the library.
+...Anyway, what did you find?",,
+57,Miyuki,うん！　このチラシ見てよ！,Right! Look at these leaflets!,,
+62,Kazuho,『#p興宮#sおきのみや#r図書館前・子ども縁日』のお知らせ？,"An announcement for the ""Children's Fair to be held in front of Okinomiya Library""?",,
+64,Miyuki,"さっき、司書さんに教えてもらってたんだー。
+週末、ここの図書館の駐車場で
+興宮の子ども会が縁日をやるんだって。","The librarian told me about it just now.
+Every weekend, there's a fair held for Okinomiya children in the library parking lot.",,
+66,Miyuki,"もちろん#p綿流#sわたなが#rしよりは小規模だけど、
+それなりに人が集まるそうだし……
+参加してみようよ。","Of course, it's on a smaller scale than the Watanagashi, but I hear it attracts a lot of people... We should try going.",,
+68,Kazuho,えっと……息抜きってこと？,Um... so we're taking a break?,,
+72,Nao,違うわよ。情報収集……でしょう？,This is different. It's more like... we're collecting information?,,
+75,Miyuki,"そうそう！
+私たちって、詩音と前原くんくらいしか
+興宮の知り合いがいないでしょ？","Yeah, yeah! Shion and Maebara-kun are the only people we know in Okinomiya, right?",,
+77,Miyuki,"人が集まれば、情報も集まる……。それに、
+小規模でもお祭りだったら、私たちみたいな
+見慣れない人間がいても目立つことがないしね。","Where people gather, information follows... 
+And plus, if it's a small-scale festival, unfamiliar people like us won't stand out.",,
+81,Kazuho,"……そうだね。図書館での情報収集も、
+ちょっと行き詰まり気味だし……。",...True. I feel like we've hit a dead end when it comes to gathering info at the library...,,
+86,圭一,"おっ……？
+なんだ、お前らも縁日に参加するのか？","Oh...? So, you guys going to the fair?",,
+90,Kazuho,"あ、こんにちは。
+前原くんも、この図書館に来てたんだね。","Oh, hello.
+I didn't know you also came to this library, Maebara-kun.",,
+93,圭一,"あぁ。ちょいと塾の予習と、今日の授業の
+復習をな。
+お前たちこそ、図書館に何の用だったんだ？",Yeah. I'm doing a little cram school prep and reviewing some of the stuff they taught today. What are you gonna do at the fair?,,
+95,Kazuho,え、えっと……。,U-Um...,,
+99,Nao,"前原さんと同じ、学校の課題よ。
+自由研究ってところかしら。",We're doing homework too. It's an independent research project.,,
+103,Kazuho,"そ、そうなんだよ。
+……ところで前原くんも、お祭りに参加するの？","Y-Yeah.
+...By the way, Maebara-kun, would you like to go with us?",,
+105,圭一,"俺か？　あー……塾が終わってから、
+時間があれば行くかもな。
+……ただ、縁日に行くなら気をつけろよ。","Me? Well... maybe if I have time after cram school.
+...Just be careful if you go to the fair.",,
+109,Miyuki,"あー、スリとかカツアゲとか？
+興宮って治安結構いいって聞いてたけど、
+そういうのってやっぱ出るんだね。","What, are we gonna get pickpocketed or extorted from or something? I heard Okinomiya was safe, but I guess that kind of thing does happen.",,
+111,圭一,まぁ、人が集まるとどうしてもな。,"Well, anything happens when a bunch of people get together.",,
+113,圭一,"普段だと図書館には寄り付きもしないヤツらも、
+縁日の客を目当てに来るかもしれないぜ。",Some people who don't even go to the library regularly might try to go for the fairgoers.,,
+118,Kazuho,"うん、ありがとう。
+巻き込まれないように注意しておくね。","Okay, thanks for the heads up. We'll be sure to be careful.",,

@@ -1,0 +1,189 @@
+chara452001_03.bytes,,beanbug,Lloro - QC/TL,,,,,,,
+index,chara,jp,en,,,,,,,
+26,,――数日後。,Several days later...,,,,,,,
+28,Nao (Casual),ありがとうございましたーっ！,Thank you very much--!,,,,,,,
+31,Nao (Casual),"……まさか、こんなに早く
+手に入れられるとは思わなかったわ。
+魅音さんには今度お礼をしなきゃ。",...I didn't think I would get my hands on that this soon. I need to thank Mion-san next time I see her.,,,,,,,
+33,Nao (Casual),"とりあえず目的の品は揃ったから、
+あとはどうやって連絡を取るのかって
+ことだけど……。","Now that I have what I wanted to get, the next step is getting in touch with them...",,,,,,,
+35,Nao (Casual),"……。あたし、あの人と
+どこでどうやって会ってたんだっけ？",...How and where did I meet that person?,,,,,,,
+37,Nao (Casual),"思い出せない……ってことは、
+向こうに呼ばれてたってことかしら。",I can't remember... I wonder if it's when I was invited over there.,this is summoned/invited (referring to Beatrice) not called,,,,,,
+39,Nao (Casual),"……気長に待つしかないようね。
+さて、それじゃ家に戻って――。","...It appears I'll just have to be patient. Well then, back to the house--",,,,,,,
+45,Nao (Casual),えっ？,Huh?,,,,,,,
+47,Nao (Casual),"ここって、あの……！
+ということは……？",This place...! So that means...?,,,,,,,
+53,ベアトリーチェ,くっくっくっく……！　久しぶりよの。,*cackle*cackle*...! It's been a while.,,,,,,,
+55,Nao (Casual),ベアトリーチェ……！,Beatrice...!,,,,,,,
+57,ベアトリーチェ,"元気であったか？
+妾と会いたいと呼んだだろう。",Have you been well? It seems you desired a meeting and called for me.,,not quite sure if it is beato or nao calling for a meeting in this line.,,,,"""Have you been well?""","She's referring to how Nao did it, the darou makes it like, ""I suppose you wanted to meet (with me) and called for me."""
+59,ベアトリーチェ,"ちょうど暇を持て余していたのでな、ここに招待したのだ。
+感謝しても良いぞ？　くっくっくっく！","I had a bit of free time, so I called you here. Mind thanking me? *cackle*cackle*cackle*!",,,,,,,
+61,Nao (Casual),"ありがとう、ベアトリーチェ。
+どうやって連絡を取ればいいか
+わからなかったから、助かったわ。","Thank you, Beatrice. I didn't know how I could get a hold of you, so this helped.",,,,,,,
+63,ベアトリーチェ,"む、むぅ……そんなにストレートに
+感謝されるとは思わなかったぞ。","Oh, mm... I didn't think you'd be so straightforward about being grateful.",,,,,,,
+65,ベアトリーチェ,"ん……？
+そなたが抱えている、その袋はなんだ？
+何やらいい香りがするぞ。",Hm...? What's that bag that you're carrying? Something inside smells nice.,,,,,,,
+67,Nao (Casual),"あ、わかった……？
+これ、ちょっと変わったハーブティーなの。
+よかったら一緒に飲もうと思って。","Ah, you saw...? Here, it's some slightly unusual herbal tea. If you'd like, I thought we could drink it together.",,,,,,,she could also be talking about the rarity of the tea here like she is later?
+70,ベアトリーチェ,"ほう、魔女に土産とな？
+ハーブティーと言ったな、
+どれどれ、いったいどんな茶葉を……。","Hoh, a souvenir for the witch? Since you said it was a herbal tea, I wonder what kind of plant it's from...",,,,,,"""Hoh, a souvenir...""",
+73,ベアトリーチェ,"……おぉっ？
+なんと、バタフライピーではないか。",...Oooh? If it isn't butterfly pea flower tea.,,,,,,,
+75,Nao (Casual),"昔、外国に行った時に飲んだのが
+とってもおいしかったから……
+ベアトリーチェもどうかな、ってね。","I really enjoyed drinking it when I was in a foreign country a long time ago, and thought you would like it too.",,,,,,,
+77,Nao (Casual),"#p興宮#sおきのみや#rのお店だと取り扱ってなかったから、
+友達のつてで手に入れてもらったの。
+これ、あたしからのプレゼントよ。","Since the store in Okinomiya didn't have it, I was able to get it through a friend. So, this is my gift to you.",,weird furigana for okonomiya,,Okinomiya with an i,,,
+79,ベアトリーチェ,"くっくっくっ……それは良い心がけであるぞ。
+しかし、妾のご機嫌伺いに茶葉を持参するとは……
+やはりそなたは面白い。",*cackle*... How thoughtful. But to bring tea for a courtesy visit... you truly are interesting.,,,,,,"""But to bring...""",
+81,Nao (Casual),"別に、機嫌をどうこうしたいって
+思ったわけじゃないんだけど……。",It's not like I wanted to do it out of courtesy or anything...,,,,,,,
+83,Nao (Casual),"ちなみにベアトリーチェは、
+ハーブティーってどうかしら？
+苦手だったら申し訳ないんだけど。","By the way, Beatrice, what do you think of the tea? I apologize if I chose something you don't like.",,,,,,"""I apologize if I chose...""",
+85,ベアトリーチェ,"古今のありとあらゆる銘茶を楽しみ
+千年、紅茶を嗜んだ
+黄金の魔女、ベアトリーチェであるぞ。","I am the Golden Witch, Beatrice, who has enjoyed all kinds of teas both ancient and modern for one thousand years, black tea becoming my favorite.",,,,,,,"Beatrice is a black tea stan so here she's like, ""I am the golden witch Beatrice, who has enjoyed all kinds of teas both ancient and modern for one thousand years, black tea becoming my favorite."""
+87,ベアトリーチェ,"メジャーな銘柄からニッチな逸品まで、
+美味な茶は大歓迎だ。
+いわんや、ハーブティーもな。","I welcome all delicious tea, from the name brands to the hidden gems. Naturally, that includes herbal tea as well.",,,,,,,
+89,Nao (Casual),"ふふっ、それならよかった。
+じゃあこれ、気が向いた時にでも飲んでみてね。",*giggle*. Thank goodness. Then try this whenever you feel like it.,,,,,,,
+91,ベアトリーチェ,"何を申すか。
+妾が招待したのだ、土産を渡して帰るとは、
+あまりに無粋ではないか。","What do you mean? Isn't answering my invitation, giving me a gift, and then leaving tremendously inelegant?",,,,,,,
+93,ベアトリーチェ,"せっかくだ。
+この茶を淹れて、茶会としようではないか。
+しばしの間、妾に付き合うが良い。","Since you are here, let's brew this and have a tea party. We can hang out for a short while.",,,,,,,
+95,Nao (Casual),"ありがとう。……じゃあ、ご馳走になろうかしら。
+あ、でもティーカップとかはどこに……？","Thank you. ...I believe I'll accept your treat then. Ah, but where are the teacups...?",,,,,,,
+97,ベアトリーチェ,…なに、用意はできている。,"...Hah, preparations are being made now.",,,,,,,
+107,Nao (Casual),"ほわっ……す、すごい……！
+一瞬でティーカップとお茶菓子が、
+テーブルの上に……？！","Wow... a-amazing...! In a single instant, teacups and tea cakes appeared on the table...?!",,,,,,,
+114,ベアトリーチェ,くっくっくっ……この程度の魔法、造作もないわ。,*cackle*cackle*... This level of magic is simple for me.,,,,,,,
+116,ベアトリーチェ,"まあ、茶の腕前で言ったら、
+我が家具のロノウェほどではないがな、
+ここは女同士の語らい、妾がもてなすのが道理よ。","Well, if we're talking about skill in teamaking, I'm not as talented as my furniture, Ronove, but between you and me, it's only right that I be your host.",,,,,,,
+118,ベアトリーチェ,"ふぅむ……相変わらず面白い茶よの。
+レモンを入れると、鮮やかな青から赤に変わる。
+まさしく魔法の紅茶である。","Hmm... this tea is as fascinating as ever. When you add lemon, it turns from a vivid blue into a red color. It certainly is a magical tea.",,,,,,,
+123,Nao (Casual),"といっても、リトマス液みたいな
+化学反応でこうなってるらしいけどね。","You say that, but I heard that it's caused by a chemical reaction called a Litmus solution.",,,,,misspelling of solution,,
+125,ベアトリーチェ,"化学も、立派な魔法であるぞ。
+ただ、その構造を説明する文言が
+数字に代わったに過ぎぬ。",Chemistry is also a form of magic. The difference is that numbers have replaced the words explaining how it works.,,,,,,,
+127,ベアトリーチェ,"だが、その化学はやがて反魔法の毒素へと
+変貌した……大本は同じなはずが、
+どこで枝分かれしたのやら。","Nonetheless, chemistry eventually morphed into anti-magic toxin... Their roots are the same, but I don't know where the two diverged.",,,,,,,
+129,Nao (Casual),"そういえば、昔は化学を含めた科学と魔法は
+同じような研究をしていた、って聞いたことが
+あったわ。","Now that you mention it, I've heard that magic and science, including chemistry, used to be studied in similar ways.",,,,,,,
+132,ベアトリーチェ,"よく理解しておる。実際、ほんの数百年ほど前は
+錬金術は科学と魔法、両方に通じる学問として
+知識人たちがその習得と研鑽に励んでいたものよ。","I have a deep understanding of this. In fact, a few hundred years ago, alchemy, a branch of study that bridged the gap between magic and science, was something that many intellectuals would devote themselves to acquiring knowledge in.",,,,,,,
+134,ベアトリーチェ,"しかし、魔法は脆い。
+誰にでも使えるわけではないのだ…","However, magic is delicate, and not everyone can use it...",,,,,,,
+136,ベアトリーチェ,"科学は物と手順さえ揃えば誰にでもたやすいという。
+科学と魔法は相反するもの。魔力は弱まり力は失う――","On the other hand, they say that science can be easy for anybody to do, so long as they have the proper equipment and procedures. This is because science and magic are polar opposites. Magic loses its power from--",,,,,,,
+138,Nao (Casual),"でも……魔法はある。
+少なくとも、私を助けてくれたわ。
+黄金の魔女、ベアトリーチェがね。","But... magic does exist. At the very least, the Golden Witch, Beatrice, was able to help me.",,,,,,,
+141,ベアトリーチェ,…………。,............,,,,,,,
+144,ベアトリーチェ,ひとつ、そなたに尋ねよう。,I would like to ask you something.,,,,,,,
+150,ベアトリーチェ,"以前、絶望に瀕したはずのそなたは
+「世界」を超えることで
+そこに希望を見出したと申していたな。","Previously, you said you were on the brink of despair, but you were able to find hope after crossing over to that ""World"".",,,,,,,
+151,ベアトリーチェ,"だが、結果としてそなたはさらなる悲劇を
+目の当たりにした……。ひょっとすると、
+進む先には地獄しかないやもしれぬ。","However, as a result of that, you've experienced an even greater level of tragedy... Perhaps at this point, the only way forward is straight into hell.",,,,,,,experienced
+152,ベアトリーチェ,"それでも、そなたは前に行くのか？
+最初の絶望で終わっていた方が
+安らかな終焉を迎えていたとしても……？","And even so, you continue to push forward? Wouldn't it have been more peaceful to have met your demise with that initial despair...?",,,,,,,
+153,Nao (Casual),"……えぇ、行くわ。
+ここまで来たんだから、中途半端に
+引き返すことなんてできない。","...No, I have to keep going. After coming this far, I can't quit halfway through.",,,,,,,
+154,Nao (Casual),"それに……どんな形でも「変わる」結果が
+見つかったんだから、うまくいけば
+いい方向に進むことだってあるかもしれない。","Besides... thanks to all of the ""different"" results that I've come upon, I understand that there is a possibility I can reach one where things went well by continuing to the end.",,,,,,,
+155,Nao (Casual),"その「可能性」の存在を、あたしは
+まだまだ無視したくない。
+……絶望は、いつだってできるわ。","I will not disregard the existence of that ""possibility"". 
+...I can't ever despair.",,,,,,,
+162,Nao (Casual),それに、友達ができちゃったから。,"And aside from that, I've made friends.",,,,,,,
+164,ベアトリーチェ,友達？,Friends?,,,,,,,
+167,Nao (Casual),"えぇ。年上だけど、あの子たちって
+ちょっと頼りないのよ。
+あたしがついててあげなきゃダメね。","Yeah. They're older, but since they're a little unreliable, I need to be there for them.",,not sure on this one,,this is good!,,,
+169,Nao (Casual),"だから……あの子たちを置いて
+絶望なんてできないわ。",Because... even they couldn't despair.,,,,,,,
+171,ベアトリーチェ,…………。,............,,,,,,,
+173,ベアトリーチェ,"やはり、そなたには感謝しなければなるまいな。
+迷い子……いや、「鳳谷菜央」よ。","I really do still need to thank you, lost child...... no, ""Nao Houtani"".",,,,,,,
+176,Nao (Casual),えっ？,Huh?,,,,,,,
+178,ベアトリーチェ,"くっくっくっ……実に面白き奇縁であったわ。
+いずれまたそなたの村に顔を出すつもりゆえ、
+その時はよろしく頼むぞ。","*cackle*cackle*... this truly was a pleasantly strange coincidence. I plan to show my face in your village in the future, so I hope you receive me well then.",,not sure on wording of the 'receive me then'--could probably reword,,,,sounds good to me,
+180,Nao (Casual),"えぇ、もちろん……って、#p雛見沢#sひなみざわ#rに来るの？
+魔女のあなたが？　どうやって？","Yes, of course... but wait, you're going to Hinamizawa? As a witch? How?",,,,,,,
+182,ベアトリーチェ,"そこはほれ、魔法でな。
+……ただ、そこでそなたは妾のことを
+覚えているやもしれぬし、忘れているやもしれぬ。","That would be through magic, of course... but I do not know if you will remember me or have forgotten about me at that point.",,,,,,,
+184,Nao (Casual),"忘れたくはないけど、
+それはあたしの力じゃどうこうできなさそうね。","I don't want to forget about you, but I don't think there's anything I can do about it.",,,,,,,
+186,Nao (Casual),"だとしたら、その時は
+「初めまして」からやり直しをさせてくれる？","If it does happen, could we start over with a ""Nice to meet you""?",,,,,,,
+188,ベアトリーチェ,…………。,............,,,,,,,
+190,Nao (Casual),"あ、ダメ？　でもその場合、「初めまして」から
+やり直す以外に選択肢ってあるかしら。","Ah, it's impossible, huh? But in that case, I wonder if there are options other than starting over with ""Nice to meet you"".",,,,,,,
+192,ベアトリーチェ,"いや、ダメではない……そうだな。
+その時は妾も「初めまして」から
+やり直すことにしよう。","No, it's not impossible... I get it. When that time comes, let's start over with a ""Nice to meet you"".",,,,,,,
+194,ベアトリーチェ,……では、また会おう。鳳谷菜央よ――。,"...Then, until we meet again, Nao Houtani.",,,,,,,
+196,Nao (Casual),えぇ……えっ、あっ……わっ！,"Yeah... ah, wo-... woah!",,,,,,,
+208,Miyuki (Casual),……ぉ、……菜央、ちょっと菜央！,"...Uh...... Nao. Hey, Nao!",,,,,,,
+216,Nao (Casual),……えっ？,...Huh?,,,,,,,
+221,Kazuho (Casual),どうしたの？　大丈夫？！,What is it? Are you okay?,,,,,,,
+223,Nao (Casual),"美雪……一穂？
+大声を上げて、何かあったの？",Miyuki... Kazuho? You're shouting; what happened?,,,,,,,
+226,Kazuho (Casual),な、何かあったって……こっちの台詞だよ！,H-Hey... that's my line!,,,,,,,
+230,Miyuki (Casual),"私と一穂がリビングに戻ったら、
+出かけたはずの菜央が台所で
+ぼーっとお茶を飲んでるから、驚いて……！","When me and Kazuho got back to the living room, we were surprised to see you, who was supposed to be out of the house, absentmindedly drinking tea in the kitchen...!",,,,,,,
+232,Nao (Casual),えっ……あ、そうだったの。,Ah... I see.,,,,,,,
+234,Nao (Casual),（あたし、いつの間に帰ってきたのかしら……）,(When did I come back here...),,,,,,,
+238,Kazuho (Casual),菜央ちゃん……出かけた先で何かあったの？,Nao-chan... did something happen when you were out?,,,,,,,
+240,Nao (Casual),"……ううん。なんでもないわ。
+ちょっとぼーっとしてたら、
+いつの間にか日が落ちてただけよ。","...No, it's nothing. I just spaced out, and before I realized it, the sun had set.",,,,,,,
+244,Miyuki (Casual),"目が悪くなるから、電気ぐらいつけなよ……
+って、あれ？　このティーカップって誰の？","I can't see well since the lights are off... 
+Wh-what? Whose teacup is that?",,,,,,,
+248,Kazuho (Casual),もしかしてお客さんが来てたの？,Did you have a visitor by any chance?,,,,,,,
+253,Nao (Casual),……ううん、来てないわ。,"...No, no one came.",,,,,,,
+255,Nao (Casual),（そう、そのはず……たぶん……）,"(Yeah, that's... probably it...)",,,,,,,
+257,Nao (Casual),"そうだ、魅音さんから珍しいお茶をもらったのよ。
+２人も飲んでみる？","Oh, right, I got this rare tea from Mion-san. Do you two want to try drinking it?",,,,,,,
+259,Nao (Casual),"あたし、淹れてあげるわ。
+お菓子はないけど、勘弁してね。",I'll brew you some. Please pardon the lack of sweets.,,,,"""I'll brew you some.""",,lack of sweets?,
+270,ベアトリーチェ,"しかし、魔女をもてなそうとは変わった娘よ。
+くっくっくっ！","But what a strange girl, looking like she's hosting for a witch. *cackle*cackle*cackle*!",,,,,,,
+272,ベアトリーチェ,"……もし妾が島の外に出ていたら、
+あのような娘と会えたのだろうか。","...If I had left the island, I wonder if I could have met a girl like that.",,,,,,,
+274,ベアトリーチェ,ふっ。考えても仕方のないことよ。,Hm. It's no use thinking about it too much.,,,,,,,
+276,ベアトリーチェ,"……そなたに感謝を。
+短い時間であったが、楽しかったぞ。","....Nao, you have my thanks. The time we spent together was short, but it was incredibly fun.",,,,,,,
+278,ベアトリーチェ,"そなた越しに見た島外の景色は、
+なかなかに見物であった……。",The scenery outside the island that I saw through your eyes was quite beautiful...,,,,,,,

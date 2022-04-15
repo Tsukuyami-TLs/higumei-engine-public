@@ -1,0 +1,355 @@
+event01_34_00.bytes,,Pteryon - TL,,
+index,chara,jp,en,
+26,,"ここに到着した時……いや、正確には
+車の中で目的地を聞かされた時からずっと、
+私は不機嫌が頂点に達していた。","It was from the moment we arrived here... no, to be exact, it was ever since I learned of our destination that I've been at the {i}height{/i} of displeasure.",editz
+31,？？？？,"いやー、噂には聞いてましたが
+なかなかの絶景ですぜ。
+澄み渡る湖面を眺めて、心が洗われるってもんです。","Gotta say, I've heard the rumors, but this scenery sure is great.
+Looking at those serene waters soothes your soul.",
+32,縁寿,…………。,............,
+34,？？？？,"おや。　どうしました、お嬢？
+さっきからずっと黙ってるじゃないですか、
+どこか体調でも悪いんですかい？","Oh? Is something wrong, Lady?
+You've been all quiet since a while ago; not feeling so good?",
+36,縁寿,"っ、わかってるくせに……！
+脳天に杭を打ち込んで、その腐った中身を
+目の前の湖にぶちまけられたいのっ？","I-If you get it, then...!
+Do you want me to drive a stake through your head and empty out all your rotten insides into that lake in front of us?",editz
+37,,"拳銃を持っていないのが、本当に残念だ……
+あればきっと、問答無用で射殺している。","It really is a shame I don't have a handgun with me...
+If I did, I'd shoot him dead no questions asked.",
+38,,"だけど、そんな私に「おぉ、怖い怖い」と
+降参のポーズを取ってみせながら、その男は
+飄々とした態度のままへらへら笑っていった。","But that man only responded to my threat with an, ""Ooh, so scary."", and posed as if surrendering, laughing frivolously with a nonchalant attitude.",reworded into eng slightly
+40,？？？？,"まぁ、そんなに怒らンでくださいよ。
+最近のお嬢はお疲れのように見えましてね。","Well, no need to get that mad. You've just looked tired lately.",
+42,？？？？,"こういう時は綺麗な景色でも眺めて、
+気分をリフレッシュするもんですぜ。","At times like this, it's good to admire a lovely view and refresh yourself.",
+48,縁寿,"……護衛の仕事にメンタルケアがあるなんて、
+初耳だわ。うちのどこかの会社の産業医に
+なったほうが、よっぽど儲かるんじゃない？",...I haven't heard of mental care being part of a bodyguard's job before. Wouldn't it be much more profitable to become an occupational physician at some company back home?,
+51,？？？？,"ひゃっははは、産業医なんて傭兵には
+一番遠い職業ですぜ。俺にはお嬢の護衛くらいが
+ちょうどいいってもんです。","Hyahhahaha, something like an occupational physician is the farthest job from being a mercenary. Being your bodyguard is just about right for me.",
+54,縁寿,"……で？　学園へ戻る前の寄り道とはいえ
+わざわざここを休憩場所に選んだのは、
+いったいどういう理由なの？","...So? Taking a detour before returning to the academy is one thing, but why would you ever go out of your way to choose this place as a rest stop?",
+57,？？？？,"やれやれ。お嬢がお疲れのようだから
+のんびりできそうな場所をと思って
+目に付いたところにきたんですけどねぇ。",Good grief. And to think I tried to find a good spot for you to relax since you seemed tired...,slightly reworded from jp not bc it was wrong
+60,縁寿,"………ふざけないで。
+あんただけここに置いて行って
+全裸で向こう岸まで湖を泳がせたっていいのよ。","......Don't play dumb with me.
+I should just leave you back here and make you swim to the other side of the lake naked.",
+63,？？？？,"またご冗談を。
+俺がいないと困るのはお嬢ですぜ。","Again with the jokes.
+You're the one who'd be in trouble if I wasn't here.",
+66,縁寿,"冗談じゃないんだけど。
+……確かこの、ダム湖の底に沈んだ場所に
+小さな村があったのよね。","I'm not joking though.
+...If I remember correctly, there was a small village in the area submerged by this reservoir.",
+68,縁寿,名前は、そう……『雛見沢村』だったかしら。,"Its name was... that's right, it was {b}Hinamizawa Village{/b}, wasn't it?",
+71,？？？？,"おや、よくご存じで。
+ダムの建設計画が発表された頃は、村をあげた
+激しい反対運動があったようですよ。","Oh, so you're pretty familiar with it.
+When the dam construction project was first announced, the village led a violent movement of sorts in opposition towards it.",
+73,？？？？,"ダム計画も一時は中止になったらしく、
+余勢をかって村おこしで周辺から観光客を
+呼び込もう、って動きもあったみたいですが……","There also seemed to be a village renewal movement at some point, which served to halt the advancement of the dam and attract tourists to the area, but...",
+76,縁寿,"……でも、結局村は水の底に消えた。
+無駄なあがきだったってわけね。","...But it all still ended up disappearing underwater.
+Looks like it was a hopeless attempt.",
+78,,"私は軽く聞き流しながら、
+はるか彼方にまで湖水を湛える眼前の景色を
+無感動に見つめる。","Barely listening in to this story, I stare out into the vast lake horizon laid out before me, uninterested.",
+79,,"国家という巨大な権威を前にして、
+人の意思などはあまりにも無力でぜい弱だ。",The will of the people is much too helpless and weak in the face of the authority of governmental figures.,
+80,,"村人たちも、自分たちの故郷を守るため
+必死に抵抗したのだろうが……
+結果が伴わなければ、ただの徒労でしかなかった。","The villagers may have also put their lives on the line to protect their homeland... but since the final product was already out of their control, it all wound up futile in the end.",
+82,？？？？,"まぁ、村おこしの大プロジェクトとして
+温泉街の建設がうまくいっていれば、
+まだ延命の可能性はあったと思いますがね。","Well, if the hot spring district they plotted as a village renewal project did go well, I feel that they still might have been going strong today.",
+84,？？？？,"右代宮グループもリゾート化に向けた
+開発投資をしてたっていうじゃないですか。
+……残念な事です。",Didn't Ushiromiya Group also put in an investment towards the development? ...A shame things went this way.,
+87,縁寿,……右代宮家が、関わってたの？　この村に？,The Ushiromiya family was involved with this village?,
+89,,"少しの驚きを込めながら、
+私は後ろを振り返って訊き返す。","A bit taken aback, I turn behind me to inquire further about it.",
+90,,"右代宮家が、金を出した……？
+それもリゾート関係となれば、手を伸ばしたのは
+長男の蔵臼伯父さんあたりだろうか。","The Ushiromiya family gave out money...? And if it's about a resort, I wonder if the one who have handed it out was the eldest son, Uncle Krauss-san?",
+92,？？？？,"おや、知りませんでしたか？
+結構有名な話ですぜ。てっきりボスから
+お嬢も聞いてるもンだと思ったんですがね。","Oh, you didn't know? It's a pretty well-known story.
+I figured even you would've heard all about it from the boss by now, Lady.",
+94,？？？？,"とにかく、温泉街建設が途中で頓挫したことで
+村おこしは失敗……その後はなんやかんやで
+ダム計画が再開、廃村になったってわけです。","In any event, the village renewal failed as a result of the hot spring district development ending up at a standstill midway... and one thing after another, the plans to build the dam started up again, turning it into a ghost town.",
+97,縁寿,…………。,............,
+100,？？？？,"ちなみに、このダム湖には幽霊が出るようですぜ。
+村人たちの無念や名残ってやつですかね。ヒャッハ！","Speaking of, it feels like a ghost is gonna pop out at this reservoir, what with all those villagers' sorrows and regrets. Hyahhaa!",
+103,縁寿,"いい加減にして。
+さすがに付き合ってられないわ。",Give me a break. We’re just not on the same wavelength.,
+107,,"そう言って私は呆れ気分で踵を返し、
+その男を置いてすたすたと歩き出す。","Done with him, I turn and walk off. The pitter-patter of that man's footsteps resound as he follows suit.",
+108,,"与太話に付き合うのが面倒になった、
+というのも確かにあったのだけど……
+なんとなく少し、ひとりになりたかったのだ。",Going along with that idle gossip would have genuinely been bothersome... but I actually started wanting to be alone as well.,
+115,縁寿,神社の本殿は、原形を留めたまま……か。,The main shrine gate held up after all this time... huh?,
+117,,"１０年も経っていないのだからそれも当然か、と
+私は見上げながら独り言を呟く。","""It hasn't even been 10 years since then, so obviously."", I mumble to myself as I look up at it.","weird, so I wonder how old she is here?? like when did they submerge the village? //i found out shes about 13 aaaaa"
+118,,"とはいえ、人に管理されなくなった家屋は
+あっという間に老朽化していくものらしい。
+……この建物も、あとどれくらいもつのだろう。","Regardless, it looks like the houses have worn down after not being maintained by their owners. ...I wonder how long this one has left.","i tl'ed tatemono as ""one"" here"
+121,縁寿,…………。,............,
+123,,"鳥居の下に続く、石段……の途中には、
+穏やかに波打つ湖面が見える。","Continuing under the shrine gate, and then partway up the stone steps... I can see the peaceful waves of the lake surface.",
+124,,"さらに下の方には、村から神社へと向かう
+参道があったのだろうが……
+軽くのぞき込んでも、全く様子はわからなかった。","And down underneath, there's probably what would have been the road leading to the shrine from the village...
+But even peering in slightly, I still couldn't make it out for sure.",
+127,縁寿,幽霊……ね……バカバカしい。,"Ghosts, huh...... as if.",
+129,,"ふん、と鼻で笑いながらも……
+言葉とは裏腹にちら、と別の想いが
+胸の片隅に浮かんでくる。",I snort at the thought... but it doesn't stop another feeling from fluttering in my chest.,
+132,縁寿,"（もし、本当に幽霊が出るというのなら……
+お父さんやお母さん、お兄ちゃんのことを
+知っている人がいたりするのかな……？）","(If ghosts really did come out... then would there be people who knew my father, my mother, or even my big brother...?)",
+134,,"ありえないとは重々わかっているつもりだが、
+そんなセンチメンタルに心が向きかけるのは
+やはり疲れているせいか、と思った次の瞬間――。","I kept telling myself over and over that that couldn't be true, but as soon as I concluded that my exhaustion was why I was feeling so sentimental--",
+142,縁寿,えっ……？！,Ah...?!,
+147,,"石段でずるっ、と足元の滑る感覚がして、
+私の身体は宙に舞う。","I slip on the step below me, which causes me to lose my footing, rendering me airborne.",
+149,,"そして次の瞬間、実に間抜けな音がして
+視界が濁ったものへと……変化した。","Another second later, I heard a truly silly noise as my view ahead of me dulled out... and transformed.",
+150,縁寿,っ、……っ……？！,Nnh... ngh...?!,
+151,,"身体が動かない。意識がどんどん遠くなる。
+やがて、視界が真っ暗に染まり……。","My body won't move. My consciousness is getting farther away.
+Before long, my field of view dyes itself in complete darkness...",
+152,縁寿,（おにい……ちゃん……）,(Onii...chan...),
+154,,"ぷつん、と頭の奥で何かが切れる音を
+感じてから……私は、気を失った。","{i}Snip{/i}, I felt the sound of something snapping in the back of my head... and so, I lost consciousness.",
+168,戦人,"いやぁ～、いろいろ昔話をしてたら、
+あっという間に着いたぜ！
+まさに、時間が経つのを忘れるってやつだな！","Maaan~, to think we could reminisce about all of that in a blink of an eye! Time really does fly when you're having fun!",
+170,戦人,"冷静に考えれば、朱志香とは６年も
+会ってないんだもんな。
+そりゃ話す内容が尽きないはずだぜ！","Come to think of it, Jessica, the last time we met was 6 years ago, huh? So of course the stuff we can talk about is endless!",
+173,朱志香,"あははは、確かに！　先週電話で相談した時も、
+戦人とは結構長い時間話し込んだはずなのになー。","Ahahaha, for real! You and I were on the phone for a super long time last week too.",
+175,朱志香,"にしても、電話口じゃ少し声が低くなったぐらいで
+戦人は全然変わってない、って思ってたけどよー……。","But still, even though I thought about how deep your voice got over the phone, I was like, ""Battler hasn't changed at all!""...",
+177,朱志香,"なんだよ、そのでけー図体は！
+最初全然気づかなくて、待ち合わせ場所で
+うっかり目の前を通り過ぎちまったぜ！",But what the hell is that huge body frame?! I was sitting here waiting and waiting at the meeting spot and it turns out we didn't even realize we passed each other on the way!,
+179,戦人,"朱志香だって中身は昔と変わってねぇのに、
+乳がこんなに「成長」してるじゃねぇか！","You've grown a bunch too since back then, but damn, those milkers grew {i}that{/i} much already?!",
+184,戦人,いっひっひ、揉ませろ揉ませろ～ぃ！,"Ihihihi, they look like they need someone to hold them~!",changed this a lil bc it was dumb sounding in eng
+187,朱志香,"ふざけやがれ！
+てめぇに揉ませる乳なんざあるもんかっての！",Piss ooooffff!! As if I'd let your sorry ass grab my boobs!,
+189,朱志香,"図体だけ大人になりやがって！
+ちっとはデリカシーって言葉を覚えやがれ！",I'm just growing into an adult! Have some delicacy with your words next time!,
+194,戦人,"いっひっひっひっ！
+悪ぃ悪ぃ、冗談だって！","Ihihihihi! My bad, my bad, just a joooke!",
+196,戦人,"けど……なぁ朱志香、
+俺なんかが言える立場じゃねぇのは
+わかった上で、言わせてもらうんだがよ……。","But... hey, Jessica, I know it might not be my position to say this, but hear me out...",
+198,戦人,"このあたりの駅前……大丈夫なのかよ。
+なんか、ありきたりな地方の町って感じで
+とても温泉街には見えねぇぞ。","Are we okay... coming off at this station?
+This area just has your everyday town feel, nothing like a hot spring district.",
+200,朱志香,"あー、違う違う！
+ここは興宮って町で、目的地はもっと奥の方に
+あるんだよ。雛見沢っていう、小さな村でさ。","Aah, no, no! This is Okinomiya City. Our destination is more out back. It's a small village called Hinamizawa.",
+202,戦人,"ここよりも奥ってことは、
+もっと寂れてる可能性が高いんじゃねぇか。
+なんか今から、不安になってきたぜ。","If it's more out back than {i}this{/i}, wouldn't the possibility of it being deserted get much higher? I'm kinda getting worried.",
+204,朱志香,"……まぁ、言いたいことはわかるけどな。
+とりあえず行ってみようぜ。
+えーっと、路線バス乗り場は……。","...Well, I do know what you mean. Let's just go in the meantime.
+ Uhhh, the boarding area for the transit bus is at...",
+212,戦人,"……お、おいおい。それって、あそこに見える
+ヤバそうなバス停のことか？",...H-Hey. Could that dangerous looking place over there be our bus stop?,
+214,戦人,"俺の見間違いじゃなければ……
+「運行廃止」ってボロい張り紙が見えるぞ。","If I'm not mistaken... there's a worn out poster taped up saying, ""Out of service"".",
+222,朱志香,"……本当だ、これは想定外だぜ。
+資料には路線バスがあるって書いてあったのに、
+どうやら情報が古かったみたいだな。","...Ah shoot, that's unexpected. The form said there was a transit bus, but it looks like that's outdated information.",
+224,戦人,"……朱志香。
+お前の親父さん……蔵臼伯父さんのことを
+疑うようで悪いけどよ。","...Jessica.
+Sorry for doubting your dad Uncle Krauss-san, but...",
+226,戦人,"ここに来るまでの電車、
+乗客は俺とお前だけだったよな？",Wasn't it just you and I on the train coming here?,
+228,戦人,"こんなに寂れた場所を大勢の観光客が
+押し寄せるリゾート地にする……なんて、
+さすがに無茶だと思うぞ。",Guess it really was excessive to expect that this desolate place would... have crowds of tourists pouring out left and right.,
+230,朱志香,"……んなことわかってるっつーの。
+だから母さんが、私に現地がどうなってるか
+確かめに行ってくれ、って頼んできたんだよ。",...I feel you on that. That's why my mom asked me to check this place out for myself in person.,
+232,戦人,"んで、俺が第三者的なオブザーバーというか……
+エスコート兼護衛役ってことで同行することに
+なったってわけか。","Well, uh, from a third person's perspective, I'd say you'd need bodyguards to help escort you around here.",
+235,朱志香,そういうこと。戦人が来てくれて助かったぜ。,"Yup, exactly. Thanks for coming here, Battler.",
+237,朱志香,"最初は休暇中の紗音を誘おうと思ってたんだけど、
+「女だけだと危険」って母さんがうるさくて。
+他の使用人もそれぞれ仕事があるからさ…。","At first I was thinking about inviting Shannon since she was on break, but my mom wouldn't shut up about, ""Going there as women alone is dangerous!"". And all the other servants had their own chores to take care of, so...",
+239,戦人,"……そんなやり取りがあって、
+従兄弟の俺がギリギリ合格ラインだったってわけか。","...With a conversation like that, I guess I barely pass as a male cousin of yours.",
+242,朱志香,"そういうこと。まぁ別々に部屋を取る、
+お互いの部屋に出入りしない、とか
+色々約束させられてかなり面倒だったけどな。","Yup. Well, it was pretty annoying because she made me promise that we use separate rooms and not go into each other's, though.",
+244,戦人,"まぁ俺も、朱志香から相談したいことがあるって
+電話があった時は、正直驚いたけどさ。","Well, honestly, when I heard that you called and wanted to talk to me, I was shocked.",
+246,戦人,"ちょうど暇してたところだし、
+温泉も嫌いじゃないから大歓迎だぜ。","This was right on schedule with my free time, so I'm not opposed at all to going to a hot spring.",
+248,朱志香,へへっ。サンキューな、戦人。,"Heheh, thank you, Battler.",
+250,戦人,"にしても……あの厳しい夏妃伯母さんが
+子どもだけの旅行なんて、よく許可したよな。","But still... that lonely Aunt Natsuhi-san really just gave permission for us kids to go on a trip, huh?",
+252,戦人,"伯母さんとはしばらく会ってないから、
+俺の記憶が間違ってるのかもしれないんだけどよ。","It's been a minute since I've seen your mom, so maybe my idea of her is wrong, though?",
+254,朱志香,"普段だったら絶対許さないと思うぜ。
+……戦人だから正直に言うけどよ、
+うちの母さん、今若干情緒が不安定になってるんだよ。","In any normal situation, she'd absolutely be against this.
+...To be real, Battler, she's getting more and more unstable lately.",GIRL DAMN
+256,朱志香,"なにしろ、父さんの投資事業がハズレ続きでさ。
+景気のいい流れに乗ってた時はマシだったんだけど、
+最近はその、まぁ……。","Anyways, my dad's investment projects keep failing. It was better to do it when the economy was up, but lately it's, uhhh, well...",
+258,戦人,"あぁ……話しにくいことなら、別にいいって。
+俺たちだけの間ならともかく、
+クソ親父たちの耳に入ったら面倒になるからな。","Yeah... if there's anything you need off your chest, it's cool by me.
+It's just you and I here, so whatever you say won't be an issue since it can't reach that geezer's ears.",
+260,戦人,"んで、その蔵臼伯父さんが出資したっていう
+このリゾート施設が本当に客を呼んで、
+投資分を回収できるものかどうかを判断する……か。","But really, assuming this resort facility Uncle Krauss-san invested in actually did bring in customers, how would he judge whether he's able to collect a portion of that investment back...?",
+262,戦人,目的を再確認すると、結構荷が重い役回りだぜ。,"Taking another look at his goal, he has a pretty heavy weight on his shoulders.",
+264,朱志香,"そんなに堅苦しく考えなくていいって。
+戦人は、客観的に客としてまた来たい温泉地か
+どうかを判断してくれれば十分だからさ！",You don't have to think about it that stiffly. It's fine just giving your opinion on whether or not you'd want to come back to the hot spring as a guest!,
+266,朱志香,"あ、そういえば……母さん、建設先の土地権利者が
+父さんを騙してるんじゃないか、って少し疑っててさ。
+そのあたりも探ってくれると、助かるんだけど……。","Ah, by the way... my mom said that she doubted the previous beneficiary of the settlement a bit, saying that he's pulling one over on my dad. Helping me investigate that portion of it would be a huge help...",
+268,戦人,"騙してるって、あれか？　地主に嘘をつかれて
+二束三文の安い土地か、問題のある場所を
+高値で売りつけられた……てな感じか？","Pulling one over, like that kind? So, like, the landowner hid the fact it was a plot of land that he got for a steal since it had a bunch of problems, and then scammed him with a high price... something like that?",
+271,朱志香,"……うん。父さんに聞いても、
+「ビジネスに口を出すな」って言って
+まともに答えてくれないみたいで。","...Yeah. Even if I asked Dad about it, he'd say, ""Stay out of my business."", so it looks like he won't give straight answers himself.",
+273,朱志香,"とにかく、自分で行ってもない土地を
+他人の話だけで判断して、出資したことに
+母さんは不安に思ってるんだよ。","Anyways, I think judging a place based on someone else's words without going there ourselves is what my mom has anxiety about.",
+275,戦人,まぁ、不安に思う気持ちはわからなくもないな……。,"Well, it's not like I can't understand that anxiety...",
+277,朱志香,"あ！　今言ったことだけど
+留弗夫叔父さんには、内緒だぜ。","Ah! We just said this earlier, but keep this a secret from Uncle Rudolf-san.",
+280,戦人,"安心しろって！　吐けと言われても黙秘を貫いてやるよ。
+長いこと商売をしてたら、そんなことがあっても
+別におかしくないと思うしな。","No worries, for real! I won't even utter a peep about it.
+I feel like anyone who's been in business for a while wouldn't necessarily be surprised at stuff like that happening anyways.",
+282,戦人,"要するに、夏妃伯母さんを安心させられる場所か
+どうかを見て、俺がうまく口添えすればいいんだよな？","So to make a long story short, Aunt Natsuhi-san gets put at ease by seeing the place or whatever, and it'll be fine if I just put in a good word for this place?",
+284,朱志香,"理解が早くて助かるぜ！
+とにかく頼んだぜ！　戦人。","You catch on quick! I'm counting on you, Battler!",
+286,朱志香,"母さん……もし父さんが騙されてたとしたらなんとしても
+出資を止めさせる、それが無理なら父さんの息の根を止めて
+自分も死ぬって言ってるんだぜー。","Yeah, no, my mom's like... if Dad really did get tricked, he has to pull out of the investment at all costs, and if that can't happen, she'd 
+""snuff his life out"" and then off herself.",homegirl is not ok
+289,戦人,"あっははははっ！　さすが夏妃伯母さんだぜ。
+息の根を止めるか！　家庭内殺人事件勃発なんて、
+２時間ドラマじゃねぇか！",Ahhahahahaha! That's Aunt Natsuhi-san for ya. Snuff his life out! An outbreak of murder incidents in the family is what you'd see on TV at 2PM!,oh it was bad for him
+298,朱志香,……笑い話にできるんなら、いいんだけどさ。,...It's good that you can laugh about it at least.,
+306,戦人,"な、なんだよその顔は。
+まさか……マジで伯母さんが伯父さんを
+どうこうする、って話になってるってのかよ？",W-What's with that face? Don't tell me she was being serious when she said that?!,
+309,朱志香,私の見立てだと、かなりの瀬戸際だと思う。,"In my eyes, I think she's on the edge.",
+311,朱志香,"父さんの投資の話は、母さんの愚痴から始まって
+教えてもらったんだよ。
+普段はそういうこと、絶対口にしないはずなのに。","Dad's investment conversation started with my mom bickering at him. And again, I absolutely expect you to keep what I'm about to say a secret.",
+313,戦人,"まぁ、親の仕事のトラブルなんて
+聞かせたくないだろうしな……で？","Well, maybe she doesn't wanna have to hear about his business troubles all the time... And so?",
+315,朱志香,"母さん、その話をしてる間、ずっと手元で
+祖父さまが持ってるウィンチェスター銃を
+磨き続けていたんだぜ。","While they were having that conversation, Mom kept polishing the Winchester gun that Grandfather's always had.",
+317,朱志香,"「あの人を、これ以上苦しめるくらいなら……」
+とかなんとか、ぶつぶつ呟きながら。","And she kept muttering, ""If that person has to suffer any longer..."", and stuff.",
+319,戦人,…………。,............,
+321,朱志香,「いっそ私が……」とかも言ってさ。,"Stuff like, ""I'd rather just..."", y'know?",
+323,戦人,"それは……確かにヤバいな……。
+夏妃伯母さん、心配しすぎて病気に
+なりかけてねぇか？","That's... definitely freaky...
+She get sick worrying too much or something?",
+326,朱志香,"だから私が現地調査をしてくる、って
+提案したんだぜ。
+母さんを早まらせないためにな。","So, I proposed that I go out on a field study... so that Mom wouldn't get so hasty.",
+328,戦人,"そうでもしないと、
+早まりそうだったってわけか……。","If you didn't, who knows what decisions she'd have rushed to...",
+330,朱志香,"正直、投資価値云々とかは分からないけど、
+観光客がたくさん来る場所かどうかくらいなら
+私でも、分かると思うしさ。","To be honest, I don't know much about all that investy, costy stuff, but if it's something like seeing if there are a bunch of tourists at some place or not, I can understand that much.",
+333,戦人,"ま……まぁとりあえず、現地に行ってみようぜ！
+今はプレオープン中で、お前が行くって話は
+向こうにも通ってるんだろ？","W-... Well, anyways, let's try heading to that place for now!
+You were talking about how it's in a pre-opening phase back there, right?",
+335,朱志香,"あ、あぁ……ただ、電車の中でも言ったけど
+父さんに内緒の視察だからさ。
+なるべく目立たないように頼むぜ。","Y-Yeah... It's just, I said this in the car too, but we're keeping this inspection secret from my dad. I'm relying on you not to stand out too much.",
+338,戦人,あぁ、わかってる。任せておけって。,"Yup, got it. Leave it to me!",
+340,戦人,"あー、でも温泉ってのも楽しみだな！
+もしかしたら人がわんさか集まる
+すげぇ場所になってるかもしれねぇし！","Aah, but I'm looking forward to the hot spring itself too!
+If there are swarms of people gathering there, it might turn out to be pretty sick!",
+342,朱志香,"……そうだよな、ここでグズグズしてても
+仕方ない。とりあえず温泉施設に行こうぜ！",...You're right. No sense grumbling about it. Let's go to that hot spring facility!,
+345,戦人,そうそう、その調子だ！,"Yep, yep, that's the spirit!",
+347,朱志香,"そういや、どうやって行けばいいんだ？
+さっきから見てるけど、
+タクシー１台も見当たらないし……。","Oh, right, how should we get there? I was looking earlier, but I didn't catch glimpse of any taxies or anything...",
+349,戦人,……最悪、徒歩で行くしかねぇんじゃねーか。,"...Worst case, we have no choice but to walk there, huh?",
+352,朱志香,マジかよ？！　この荷物持ってはキツイぜ？！,For real?! But this suitcase is heavy as hell?!,
+354,戦人,"むしろその荷物の量はなんなんだよ？
+１泊２日でそんなに必要ねぇだろ？！",Shouldn't there basically be nothing in it? How much do you need for a one night stay?!,
+356,朱志香,"これでも年頃乙女なんだぜ！
+むしろ乙女の旅行の荷物にしては、少ない方だぜ？",I'm at that age for a young lady! Don't you know this is light compared to other girls out on a trip?,
+358,戦人,"マジかよ……女の子のバッグには
+いったい何が入ってるってんだ？",Seriously... what the hell do you girls even put in those bags?,
+362,入江 (野球服),あのー、どうかしましたか？,Excuse me... is everything alright?,
+365,戦人,えっ……？,Huh...?,
+369,入江 (野球服),"車の窓越しからすみません。
+荷物を抱えてお困りのようでしたので……。",I apologize for speaking from my window. If you have issues with luggage...,
+372,入江 (野球服),"もしかして、ご旅行ですか？
+どちらに行かれる予定かうかがっても？",Could you perhaps be travelling? May I ask where you would be planning to leave to?,
+374,戦人,えっと……あの……？,Uhhh... um...?,
+377,入江 (野球服),"あぁ、すみません。
+私はこの先の村で診療所をやっている、
+入江と申します。","Ah, forgive me. I lead the clinic in the village, where I just came from. My name is Irie.",
+381,朱志香,"診療所ってことは、お医者さんですか？
+でも、その格好は……。","A clinic, so you're a doctor? But that outfit is...",
+386,詩音 (Casual),"この人、趣味で少年野球チームの監督を
+やっているんですよ。
+ちなみに私は、マネージャーの園崎詩音です。","This guy coaches for a boys baseball team as a hobby. Speaking of, I'm their manager, Shion Sonozaki.",
+392,戦人,朱志香……なんかいい人たちじゃねぇか？,"Jessica... these people are pretty nice, huh?",
+395,朱志香,あ、あぁ。地獄に仏とは、このことだぜ。,Y-Yeah. To think lost souls getting sent off to hell would be like this.,
+400,入江 (野球服),"……？　もしご迷惑でしたら
+これで失礼しますが……。","...? If I'm causing a nuisance, I'll part ways here, though...",
+406,朱志香,"あぁ、待って待って！
+実は私たち、すごく困ってまして！","Aah, wait, wait! We're actually in a super tight spot right now!",
+408,戦人,"俺たち、雛見沢ってところに行きたいんですけど……
+どこかで乗り物の手配って、できないっすかね？",We're looking to get to some place called Hinamizawa... but is it possible to get an arrangement for a ride somewhere?,
+418,縁寿,…………。,............,
+420,縁寿,"これって、どういうこと……？
+なんでお兄ちゃんと朱志香お姉ちゃんが、
+こんなところに……？",What is this...? Why are Onii-chan and Jessica Onee-chan here...?,
+422,縁寿,"というか私、ダム湖に落ちたはずよね。
+なのにどうして、目を覚ますなり
+こんな見たこともない町にいるの……？","I say that, but I should have fallen at the dam reservoir. So why did I wake up in this city I've never seen before...?",
+424,縁寿,ひょっとしてここは、死者の町？……いえ。,Could this be the city of the dead? ...No way.,
+426,縁寿,"偽書ではないけど、何かの力が働いて
+私はここに来た……。","This isn't a forgery, but I came here through the work of some sort of power...",she's so woke ugh
+428,縁寿,"……。とりあえず、あの２人を追いましょう。
+といっても車を徒歩で追うのは、……うん？","...Let's follow those two for now. Wait, but following a car on foot is... hm?",
+431,縁寿,自転車……うまい具合に、鍵も外れてる……。,A bike... talk about lucky. And it's unlocked too...,
+433,縁寿,"……ごめんなさい。
+あとで必ず、元の場所に返すから……！","...I'm sorry.
+I'll absolutely bring it back later...!",

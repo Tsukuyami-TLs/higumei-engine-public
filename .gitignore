@@ -26,3 +26,11 @@ service-token.json
 game/gui/slider/horizontal_idle_thumb - Copy.png
 game/gui/bar/right - Copy.png
 game/gui/bar/top - Copy.png
+*.png
+*.png
+game/gui/button/BtnGeneric.png
+game/gui/button/BtnGenericOn.png
+*.png
+game/gui/button/BtnGeneric.png
+game/gui/button/BtnGenericOn.png
+*.psd

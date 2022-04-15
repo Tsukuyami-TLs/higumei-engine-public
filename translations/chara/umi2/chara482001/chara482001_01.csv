@@ -1,0 +1,213 @@
+chara482001_01.bytes,,battler part 1. feel free to take over my tls or whatever. ,Lloro - QC/TL,Naegles- QC,
+index,chara,jp,en,,
+43,朱志香,"おぉっ……！
+夜景もよかったけど、昼の眺めもなかなかだな！
+空気が澄んでるせいか、遠くまで見えるぜ。","Oooh...! The night sky was great, but so is the view by daylight! Not sure if it's because the air is so clean, but I can see really far.","from ""Because the air is so clear,",
+46,戦人,"あぁ、まったくだぜ！
+とりあえずこの後は、また例の温泉施設で
+身体を休ませてもらうとして……。","Yeah, you said it! After this, I'm going back over to that hot spring to relax...","from ""Ah, exactly!",
+48,戦人,"……問題は、その後だ。
+朱志香、お前手持ちはどれだけ残ってる？","...But the problem is what we do after that.
+Jessica, how much you have on hand?",,
+50,朱志香,"えっ……？
+ひょっとして戦人、お前も結構厳しいのか？","Huh...? Wait, Battler, you're tight on cash too?",,
+55,Kazuho (Casual),"あの……どうしたんですか？
+お二人とも、なんだか青い顔をしてますけど。",Um... what's the matter? The two of you look like you've seen a ghost.,,
+60,戦人,"いや……まさか宿泊施設が燃えちまうとは
+さすがに思ってなかったからさ。
+朱志香を探しに行く時に、小銭入れを……その。","Well... we couldn't imagine the lodging facility'd get burnt down like that, y'know? While we were looking for Jessica, my wallet, uh... yeah.",,
+62,朱志香,"わ、私も知らない土地で財布を落としちゃ
+マズいと思って……荷物と一緒に……。",I-I thought it would be bad if I lost my wallet in a place I wasn't familiar with... so I put it in with my luggage...,,
+67,Nao (Casual),"……つまり、宿に置いたままにして
+燃えちゃったから、お二人は一文無しなんですね。","...In other words, you left them behind at the inn that burnt down, so you're both penniless.",,
+75,戦人,"い、一文無しじゃねぇよ！
+ほれっ、この何枚ものキャッシュカードを見ろ！
+出かける時は忘れずに、だっ！","I-I'm not broke! Here, look at all these credit cards! I didn't forget them when I headed out today! ",,
+83,Mion (Casual),"……あの、すみません戦人さん。
+雛見沢だと、郵便局以外に銀行はないんです。
+それに、今日は日曜日なんで……。","...Uh, sorry, Battler-san. Hinamizawa's only banking institution is the post office. And today is Sunday...",,
+86,戦人,"ま、マジかよぉ……！
+ということは今夜の宿、どうしたらいいってんだ？",Y-You're joking...! Where are we gonna stay tonight then?,,
+90,朱志香,"うーん……こうなったら、タクシーを呼んで
+穀倉まで運んでもらうしかねぇな。
+あれだけの町なら、銀行の自動窓口もあるだろうし。",Mmm... we'd need to hail a taxi to take us to Gogura if it comes down to it. That kind of town will probably have an ATM too. ,,
+92,朱志香,"いやしかし、そうすると雛見沢に
+また戻るのが、面倒だってんだ。","Nah, but then it would be a pain to get back to Hinamizawa.","from ""But after I did that,",
+98,Miyuki (Casual),"……。ねぇ、前原くん。
+ちょっと、相談があるんだけどさ。","...Hey, Maebara-kun, could I ask for your opinion on something?",,
+100,圭一 (Casual),"おっ……ひょっとして美雪ちゃんも
+同じことを考えたのか？
+だったら頼む手間が省けて、助かるぜ。","Oh... Miyuki-chan, were you maybe thinking the same thing I was? You saved me the effort of asking you about it if so.",if that's the case -> if so,
+104,戦人,"？　どうした圭一、美雪ちゃん。
+２人で何を話し合ってるんだ？","...? What's up, Keiichi and Miyuki-chan? What are you talking about?",,
+106,Miyuki (Casual),"いや、ね。そういうことだったら、
+２人に提案があるんだけど……。","Well, actually, I have a suggestion here for the two of you.",e,
+116,戦人,圭一の家で、ホームステイ……？,Keiichi's house is a homestay...?,,
+123,圭一 (Casual),"あぁ。俺たち一家は今、ちょっと事情があって
+#p興宮#sおきのみや#rの別宅に住んでいてさ。
+んで、雛見沢にある自宅は、ここにいる３人……。","Yeah. My family's currently living at their second house in Okinomiya for a bit due to some stuff. So, at our house in Hinamizawa, I have these three here...",removed for some reason / another -> their second / added for a bit,
+125,圭一 (Casual),"一穂ちゃんと美雪ちゃん、菜央ちゃんが
+寝泊まり……というか、暮らしているんだよ。","...Kazuho-chan, Miyuki-chan, and Nao-chan all sleeping over... I say that, but it's more like they dorm there.","""Kazuho, Miyuki, and Nao all sleep here....in other words, they live here.",
+130,朱志香,"ってことは……君。
+家が、２つもあるってことなのかよ？","So, what you're saying is... two more people can stay there?","from ""So, according to that.......there are just two other people in your house?",
+132,朱志香,"ウチもゲストハウスはあるけど
+同じ島の中だし、島の外の別宅で
+独り暮らしとかをしてみたいぜ。","We have a guesthouse too, but it's on the same island as the main one. I'd love to have a place away from the island all to myself.",,
+136,戦人,"……あんなバカでっかいお屋敷に住んでて、
+まだ家が欲しいってのかよ？
+さすがに贅沢が過ぎると思うぜ。",...You live in that stupid big mansion and still want a house? I think that's a bit excessive.,,
+139,朱志香,"う、うるせーぜ！　いくら広くたって、
+こちとら気難しい祖父さまやお小言ばかりの
+母さんがいるんだぜ。毎日息が詰まるぜ。",S-Shut up! The size of the place doesn't matter when you have Gramps being moody and Mom giving her constant lectures. Every day there feels suffocating.,,
+141,朱志香,"多少狭くてもいいから、私だってたまには
+羽を伸ばした生活を送ってみたいよ。","Even if it's cramped, I still want to try living a life where I can stretch my wings every so often.",,
+143,戦人,"んー、まぁ……別々に離れて暮らすってのも、
+場合によりけりだと俺は思うけどなー。
+使用人がいない生活、想像できるのかぁ？","Mmm, well... I think that you living on your own depends on the situation, though. Could you imagine life without the servants?","from ""I think that living on your own is something that depends on the person.",
+146,朱志香,"マジでうぜーぜ！
+……でも、お前に当てつけるつもりで
+そう言ったわけじゃないからな。","Shut up, for real! ...If I wanted to get back at you, I could have said the same thing about you.",,
+150,戦人,"いっひっひっひっ、わかってるって。
+俺は気にしてねぇし、どうしてもってんなら
+その胸を揉ませてくれりゃ許してやるぜ？","Ihihihihi~, okaay, okay. I didn't mean it, so why don't you let me rub those boobs of yours as an apology?",,
+153,朱志香,ちょ、調子に乗るんじゃねぇ！,"Hey, don't get cocky!",,
+158,Kazuho (Casual),"（……。戦人さん、大金持ちの出身って
+言ってたけど、何か家庭で嫌なことでも
+あったのかな……？）","(...Battler-san said he was born to a rich family, but I wonder if something bad happened at home...?)",,
+163,戦人,"ということは、俺と朱志香は
+雛見沢に滞在中は圭一の家に住んでる、
+この３人のお世話になるってわけか……？","So that means that me and Jessica will be staying at Keiichi's house while we're in Hinamizawa, and we'll get looked after by these three...?",,
+166,Kazuho (Casual),"あ……は、はいっ。前原くんの代わりに、
+頑張っておもてなしをさせてもらいます！",Ah... y-yes. I'll do my best to be hospitable in place of Maebara-kun!,,
+168,戦人,"こっちが泊めてもらうんだ、そこまで
+気を遣わなくてもいいって。朱志香だけなら
+まだしも、俺まで一緒にありがとうな！","You're already accommodating for me, so you don't have to fuss about it that much. As long as Jessica's with me, that's all I can ask for! ",I HATE HIM,
+174,Nao (Casual),"じゃあ、朱志香さんはあたしたちと２階、
+戦人さんは１階で寝泊まりするってことで
+いいかしら？",Would it be ok if Jessica-san stays upstairs with us while Battler-san stays on the first floor then?,order change,
+177,朱志香,"もちろん！
+へへっ、修学旅行みたいで楽しそうだなー！","Of course! Hehe, it'll be just like a school trip!",,
+182,Rena (Casual),"はぅ～、それじゃレナも夕食のお手伝いを
+させてもらおうかな、かなっ！
+おいしい料理、いっぱい作るからね！","Hau~, then maybe Rena will help out with dinner, with dinner!
+I'll make a ton of tasty food!",god how do i add rena's speech quirk into this sentance,i deed it
+191,Nao (Casual),"ほ、ほわっ……レナちゃんの手料理……！
+今からすっごく楽しみかも……かもっ……！",W-Waah... Rena-chan's home cooking...! Now I might have a bunch of fun... maybe...!,nao editz,
+199,Mion (Casual),"あ、でも滞在して大丈夫なんですか？
+用事が済んだ以上は、すぐに戻らないと
+まずかったりするんじゃ……。","Ah, is staying here alright, though? If you go back after we finish work rather than go now, wouldn't it be bad for you...?","from ""If you come back before we're done, it might be a little messy...",
+201,朱志香,"あぁ、その点なら大丈夫だぜ。
+どうやら今回の件は、父さんの手配した業者が
+経費削減で手抜きしてたことが原因らしくてさ。","Nah, I'm fine with that. Apparently, the root of our current situation is because the contractor my dad hired's been cutting corners to pocket more cash. ",,
+203,朱志香,"……こういう言い方はなんだけど、そのせいで
+家の中がてんやわんやになってて……
+今帰ると逆に、面倒なだけなんだよ。","...Saying this sucks, but the house is getting chaotic thanks to that... so if we go back now, it'll just be a massive pain.","from ""but if we change course now,",
+207,Kazuho (Casual),"そうなんだ。だったら、時間が許す限り
+のんびり過ごしてくださいね。","I see. In that case, please take it easy here as long as you're able to.","from ""we should take it easy as long as we're able to",
+213,Nao (Casual),"ちなみに、あたしたちが寝てる間に
+こっそり２階に上がって……なんて考えてるなら、
+やめた方がいいわよ。","By the way, if you're considering sneaking up to the second floor while we're sleeping... don't.",,
+216,Miyuki (Casual),"うんうん。
+一穂が速攻で反応して、迎撃するだろうからね。","Yup, yup. Kazuho would kick your ass instinctively.",intercept can be written as coutner-attack,"from ""Kazuho's reflexes will immidiately intercept you."
+221,戦人,"いやいや、さすがに親切にしてもらってるのに
+非常識な事をする気はねぇって。","No, no, I'm not planning on doing anything as thoughtless as that when you're being so generous to me.",,
+223,戦人,"……ってか一穂ちゃんって、この子だよな？
+こんな大人しそうで、可愛い子が迎撃……？","...I mean, this one is Kazuho-chan, right? This cute, well-behaved looking girl would do that...?","from ""...I mean, this girl is Kazuho-chan, right? This quiet, cute kid would intercept me...?",
+228,Rena (Casual),"はぅ……戦人さん、一穂ちゃんは強いですよ。
+かぁいくて、とっても頼りになるんです♪","Hau... Battler-san, Kazuho-chan is pretty strong. She's kyute and super reliable too♪",,
+230,Kazuho (Casual),"わ、私はレナさんの方が、
+はるかに強いと思うんだけど……。","C-Compared to me, Rena is way stronger, though...",,
+235,圭一 (Casual),……俺からすれば、どっちも強いんだがなぁ。,"...From my point of view, you're both pretty powerful.",,
+240,Satoko (Casual),完全に意味のない譲り合いになっておりますわね。,That would become quite the meaningless battle.,,
+242,Hanyuu (Casual),"あぅあぅ。レナはとても強いですが、
+腹をくくった一穂も相当の実力なのですのよー。","Au au. Rena is super powerful, but when Kazuho gets prepared for the worst, their power is neck to neck!",,
+246,Rika (Casual),"みー。どんな相手も、ばったばったと
+蹴散らしていくのです。",Meep. It doesn't matter who they're facing; they'll mow the enemy down. ,rika uses otomotopeia here. ,
+250,Mion (Casual),"腹をくくると強いのは、公由の血だろうね。
+そういうところ、公由のおじいちゃんと似ているよ。",The strength to face anything runs in the Kimiyoshi blood. That reminds me; that's just like Grandpa Kimiyoshi. ,prepare yourself for anything' may be more apt,took out down
+255,Kazuho (Casual),そ、そうかな……？,R-Really...?,,
+257,Kazuho (Casual),"（ど、どうしよう……
+お爺ちゃんのこと、全然覚えてないよ）",(W-What should I do... I don't remember anything about my grandpa!),,
+262,戦人,"へぇ、一穂ちゃんは祖父さまに似てるのか。
+俺も祖父さまに似てるって言われたことがあるし、
+なんか親近感がわくぜ。","Heh, so Kazuho-chan takes after her grandpa? People tell me I take after my grandfather too. We might be kindred spirits.",,
+264,朱志香,"祖父さまって……うちにいるあの人か？
+そいつは初耳だが、誰に言われたんだ？",By grandfather... you mean {i}our{/i} grandfather? Never heard that before. Who told you that?,,
+266,戦人,"……覚えてねぇけどよ？
+でも、そんな記憶があるぜ。",...Not sure? But I do remember it happened at some point.,,
+268,朱志香,"冗談じゃねぇぜ……！　もしそうなら、
+戦人も将来はあの祖父さまみたいに
+なるってことだぜ。","This isn't a joke...! If that's true, you're gonna be just like Grandfather in the future.",,
+270,朱志香,"部屋に閉じこもって、謎の薬品をぶちまけて
+錬金術だの、黒魔術に夢中になるようなのは
+祖父さまだけで十分だっての。",He's the only person who'd be so preoccupied with studying black magic and alchemy that he'd seclude himself in the study spraying mysterious chemicals everywhere.,i changed this back bc it was fine as is,
+272,戦人,いや、俺もそっち方面に、興味は全然……。,"Nah, I don't think I'd go {i}that{/i} far...",,
+276,Miyuki (Casual),"錬金術……確か、科学のもとになった学問だよね。
+最終目的は、黄金を作るんだっけ？",Alchemy... I think that was the foundation that modern science is based on. Wasn't its ultimate goal to create gold?,,
+278,朱志香,おっ、よく知ってるね。えっと……。,"Oh, you're familiar with it. Um...",,
+280,Miyuki (Casual),"美雪でいいよ。
+錬金術のことは昔、何かの本で読んで
+たまたま覚えてたんだ。",You can call me Miyuki. I remember reading about alchemy in some sort of book a while back.,,
+284,Satoko (Casual),"でも……なんだか、面白そうなお祖父さまですわね。
+一度お会いしてみたいですわ～！",But... he sounds like an interesting grandfather. I'd love to meet him sometime~!,just once -> sometime,
+287,朱志香,"いや……たぶん、実際に目にしたらそんなこと
+言えないんじゃないかな……。孫の私ですら、
+何を考えてるのかわからないところがあるし。",Nah... You probably wouldn't be saying that if you actually saw him... Like I don't know what he's thinking even as his grandkid.,,
+293,Mion (Casual),"もしかしたら、朱志香さんのお祖父さん……
+うちの婆っちゃと似たタイプかもね。",Maybe Jessica-san's granddad is the same type of person as Granny?,,
+295,詩音 (Casual),"うちの鬼婆なら、気に入るかもしれませんね。
+……戦人さんと、会わせてみます？","That hag would probably take a liking to him.
+...You wanna try introducing her to Battler-san?",,
+297,Mion (Casual),"会わせてみたいけど、例の大騒動の後始末で
+うちの家もドタバタだからなぁ……。","I'd love to, but it's been pretty chaotic at the house since we've been dealing with the aftermath too...",,
+303,Rika (Casual),"みー。戦人が将来どうなるのか、
+楽しみなのですよ。
+みんなで賭けてみますですか？",Meep. I'm excited to see what the future holds for Battler. Does anybody want to place bets on it?,,
+305,戦人,"おいおい、他人の人生でトトカルチョとは……
+雛見沢の連中ってのは、なかなか遠慮がねぇな。","Hey, hey, starting a betting pool based on somebody else's life... the people of Hinamizawa really don't hold back, do they?",,
+309,圭一 (Casual),"うちの部活メンバーは特別だぞ……って、
+仲間に加わっている俺が言っても
+説得力がねぇよなぁ……。","Our club members are something special... 
+But... when that's coming from someone already in the group, it probably doesn't hold much weight, does it...?",,
+314,Kazuho (Casual),あ、あははは……。,A-Ahahaha......,,
+319,朱志香,"ちなみにみんなの部活って、
+いろんなゲームで遊ぶサークル活動……だっけ？","By the way, you play a bunch of different games with each other in your club activities, right...?",this sentance is pretty clunky,"from ""By the way, are the club activities you mentioned where you play different games with each other as a group...?"
+321,戦人,"話を聞いてるだけだと面白そうだけど、
+このメンツが揃うとクセが強そうだな。","Just going off of what I've heard, it seems interesting.
+Given this cast of characters, though, it definitely gets weird.",,
+327,圭一 (Casual),"……っと、話が脱線したな。
+んじゃ宿の問題が片づいたところで、
+俺たちで２人を観光案内するとすっか。","...This is getting off topic. Well, since we solved the problem of where you're going to stay, why don't we take you two around Hinamizawa?",,
+330,Rena (Casual),"うんうん、レナは異議なーし、だよ♪
+２人は、どこか行きたいところとかありますか？","Yeah, yeah, Rena has nooo objections♪ Where do you two want to go?",,
+335,戦人,そうだな、とりあえず……。,"Oh, yeah, for the meantime...",,
+339,戦人,……。腹減った。,...I'm hungry.,,
+344,朱志香,"お前っ……それ言うか？　今言うか？！
+さっきレナちゃんにおにぎりを山ほど
+差し入れしてもらっただろうが！",You're... really saying that? And saying it now?! It was only a little while ago that Rena-chan brought us a mountain of onigiri!,,
+346,戦人,"あぁ、あれは美味かった！
+気がついたら一瞬で山が消えてたくらいに！","Yeah, and that was delicious! The entire mountain was gone before I realized it!",not very sure on this line.,order change
+351,Rena (Casual),はぅ……ごめんなさい、足りなかったですか？,"Hau... I'm sorry, was it not enough?","from ""do you need more?",
+356,朱志香,"こいつが馬鹿みたいに食べるからだろ……
+燃費悪すぎだぜ。その図体を保つのに、
+どれだけのカロリーが必要なんだ？",This one eats like a pig... like he takes up {i}way{/i} too much fuel. How many calories do you even need to support that body of yours?,,
+359,戦人,う、うるせぇ！　成長期なんだよ！,S-Shut up! It's a growth spurt!,,
+364,詩音 (Casual),"って、まだ伸びるつもりなんですか……
+末恐ろしいですね。","If that's true, it means you're still growing... that's scary.",,
+369,Miyuki (Casual),"んー、おにぎりに背を伸ばす効果があるなら、
+一穂も背が伸びようとしてるってこと？","Mmm, if eating lots of onigiri is supposed to make you taller, does that mean Kazuho is trying to get taller?",,
+371,Kazuho (Casual),そ、そうなのかな……？,W-Who knows...?,,
+375,Nao (Casual),この子はただの食いしん坊よ。,This girl's just a glutton.,,
+378,Kazuho (Casual),うっ？！,Gh?!,,
+386,圭一 (Casual),"つまりうまいものが食いたいってことだな！
+なら、いい場所があるぜ。",So the move is getting some tasty food then? I know a good place if so!,"from ""That was delicious! Now, I know a good place.",
+389,圭一 (Casual),"というか、戦人をあそこに連れて行かないなんて
+絶対にありえねぇぜ！",Which means there's absolutely no chance we're {i}not{/i} bringing Battler over there!,"from ""I mean, there's zero chance we're not bringing those two over there!",
+396,戦人,な、なんだか自信満々だな……。,Y-You sound pretty confident...,"from ""I-Isn't that a little arrogant...?",
+401,Rika (Casual),"みー。圭一がどこに連れて行こうとしているのか
+わかったのです。",Meep. I know where Keiichi wants to go.,,
+403,Miyuki (Casual),うん、私も。,"Yeah, me too.",,
+407,Mion (Casual),あそこしかないだろうねぇ。,Can't think of anywhere else.,,
+413,朱志香,"お、なんだなんだ、みんなは予想がついてるのか？
+ってことは、よっぽどいいところなんだな。","Woah, wait, wait, all of you can already tell? This place has to be the best in town, huh?",wording on first sentance could be better.,"from """"W-wha-what, were all of you expecting this? If that's the case, that place has to be the best in Hinamizawa."
+415,戦人,いや～、楽しみだぜっ！！,"Ah~, I'm looking forward to it!!","from ""Yeah~ It sounds fun!",

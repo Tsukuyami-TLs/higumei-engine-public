@@ -1,0 +1,272 @@
+event01_16_99.bytes,chara,jp,en,Notes TL,Notes QC
+39,Hanyuu (巫女),"さあ、特Ａ級犯罪人ケーイチ！
+おとなしく武器を捨てて、投降するのですよ！","Class-A Criminal K-1!
+Peacefully lay your weapons down and surrender now!",,
+43,圭一 (アンドロイド),"く……くそっ、捕まってたまるかってんだ！
+おいレディ・ミー、早くあいつを何とかしろ！","D-...dammit, I'm not getting caught now!
+Oy, Lady Meep, do something about her, quickly!",,
+48,Rika (アンドロイド),"みー。ごめんなさいなのです、
+損傷レベルが大きすぎて、
+リカバリ機能が作動しないのです……。",Meep. I am very SORRY. Damage LEVELS exceeding functionable THRESHOLD; RECOVERY function REBOOT FAILED...,added flavur,
+51,Rika (アンドロイド),"オペレーティングシステム、
+シャットダウンなのです……
+おやすみなさいなのですよ……がくっ。","OPERATING SYSTEM, SHUTTING DOWN...
+GOOD... NIGHT... *gachunk*.",,
+57,圭一 (アンドロイド),"お、おい、お前は俺を守るための
+アンドロイドだろうが！
+くそ、目を覚ませってんだ！","H-Hey, you're the android that's supposed to protect me!
+Wake up, dammit!",,
+60,Hanyuu (巫女),"これでもう、あなたは丸裸同然なのです……。
+年貢の納め時なのですよ！","Now you're as good as naked...
+Time to face the consequences!",,
+63,圭一 (アンドロイド),ちっ、こうなったら……！,"Tch, looks like I have no choice...!",,
+66,,"もはや進退窮まったと悟ったのか……
+ケーイチは銃を構えると、羽入ちゃんに向けて
+狙いを定める。",Realizing that he's backed into a corner... K-1 readies his gun and aims it at Hanyuu-chan.,,
+67,,"その目はぎらり、と凶気の輝きが宿り……
+殺意に満ちたその眼光に、私はぞっと怖気が
+こみ上げてくるのを感じた。","His eyes glinted with malice...
+That murderous intent reflected in his gaze caused fear to well up within me.","comment / from ""I could see that his eyes shined with malice...That murderous intent reflected in his eyes caused dread to well up within me.""",
+70,Kazuho (Casual),"羽入ちゃん……気をつけて！
+あの人、本気で撃つつもりだよッ！","Hanyuu-chan... be careful!
+That guy really plans on shooting you!",,
+73,Hanyuu (巫女),"……はい？
+あの、どうしてあなたは僕の名前を……？",...Huh? How do you know my name...?,,
+82,圭一 (アンドロイド),おらあっ！,Oraah!,,
+89,,"不思議そうに羽入ちゃんがこちらへ振り返ろうとした
+その時、ケーイチの持つ銃が轟音を立てて
+青白い電光がこちらに向かって放たれる。","When Hanyuu-chan curiously turns her head towards me, K-1's gun roars to life, and a pale light shoots towards us.",,
+90,,"……が、それを見た彼女は無造作に剣を一閃して
+断ち切り、一瞬で距離を詰めてケーイチの喉笛に
+剣先をあてがってみせた。","...However, she noticed it and effortlessly sliced it apart with a single strike of her sword, then quickly closed the distance between her and K-1, and aimed the tip of her sword at his throat.",,
+96,圭一 (アンドロイド),な、なっ……？！,Wh-wha...?!,,
+98,Hanyuu (巫女),"……発砲しましたね。
+ならば、こちらも容赦はしないのですッ！！","...Fired your gun, did you?
+I won't spare you any mercy either then!",,
+103,圭一 (アンドロイド),ぐはっ……？！,Gagh..?!,,
+108,,"剣の柄でみぞおちを殴打され、ケーイチは
+苦悶の声とともにその場へ崩れ落ち……
+そのまま動かなくなってしまった。","Struck in the stomach with the hilt of her sword, K-1 collapsed to the ground with a cry of anguish... and remained motionless.",,
+112,Hanyuu (巫女),"……命は奪わないのです。法の裁きを受けて、
+しっかり罪を償ってくださいなのですよ。","...I will not take your life.
+In turn, please accept the verdict of the law and atone for your crimes.",,
+116,Kazuho (Casual),…………。,............,,
+120,Hanyuu (巫女),"ご無事でしたか？
+あなたひとりだけでも、助けられてよかった……。","Are you okay?
+I'm glad I could rescue someone, even if it was just one person...",,
+123,Kazuho (Casual),"う……うん。ありがとう、羽入ちゃん。
+間一髪のタイミングだったよ……。","Y-...yeah. Thank you, Hanyuu-chan. You saved me by a hair's breadth.",,
+125,Kazuho (Casual),"あ……でも、ごめんなさい。
+あなたは、私の知ってる羽入ちゃんとは
+別人なんです……よね？","Ah... but I'm also sorry.
+You aren't the same Hanyuu-chan that I'm familiar with... are you?",,
+127,Hanyuu (巫女),"……。仔細については、これからの事情聴取で
+明らかにさせてもらうことになるでしょう。
+ただ……。","...I will clarify some of those details for you very soon.
+That said...",shortened,
+129,Hanyuu (巫女),"あなたのことは、今回の捜査データでのみ
+把握しております。
+……会って話すのは、初めてです。",We only know about you through the data from this recent investigation. ...I believe this is the first time we've met face to face.,"comment / from ""We only know about you through the data from this investigation...I believe this is the first time we've met.""",
+131,Kazuho (Casual),……っ……。,............,,
+133,Hanyuu (巫女),"とりあえず、お話を聞かせてもらえますか？
+経緯についてはある程度把握しておりますが、
+あなたからも直接状況をお伺いできれば――。","In the meantime, do you mind informing me of what happened?
+I have some knowledge of your circumstances, but I would like to hear about it directly from you, if at all possible...",,
+135,Kazuho (Casual),っ、そ、その前に……っ……！,"Um, b-before that... uh...!",,
+138,,"これだけは、聞いておかなければいけない。
+そう思って私は、気持ちを奮い立たせると
+羽入ちゃんに向き直っていった。","There was only one thing I wanted to ask. With that in mind, I felt encouraged enough to turn towards Hanyuu-chan.",,
+141,Kazuho (Casual),"ケーイチと、レディ・ミーが言ってたけど……
+１０００年前に地球が……私たちの世界が
+ウィルスで滅んだってのは、本当のことなの？","About what K-1 and Lady Meep told me... 
+Was our world really destroyed by a virus a thousand years ago?",,
+144,Hanyuu (巫女),…………。,............,,
+153,Hanyuu (巫女),"本当です。
+あと、この空間は一時的に復元したものなので……
+残り１０時間ほどで、跡形もなく消え去るでしょう。","It was.
+Also, since this space is just a temporary construct... it will disappear in ten hours without a trace.",,
+158,Kazuho (Casual),……っ……。,...nnh...,,
+163,,"感情を押し殺すように、淡々とした口調で
+告げられたその内容に……私はがっくりと肩を落とす。","She delivers that message in an indifferent tone, as if stepping all over my emotions... I was so heartbroken from it that my shoulders sink.",,
+164,,"……正直言って、否定してほしかった。
+ケーイチたちが話していた内容が全部嘘だと、
+彼女に断言してもらいたかった。","...Honestly, I wanted to deny it.
+I wanted her to reassure me that everything K-1's group said was a lie.",,
+165,,"だけど……これで、確定だ。
+もはや私は、今のこの状況を事実として
+受け止めるしかなかった……。","But... that was the truth.
+I had no choice but to accept my current situation...",,
+168,Hanyuu (巫女),"……。事情聴取を行います。
+あと……あの方々にも、「手当て」を……。","...Allow me to conduct an inquiry.
+So... as for the ""medical treatment"" for those people...","comment / from ""...We'll perform an investigation. Also...we'll get treatment for those people..."" ",
+176,Hanyuu (巫女),"……なるほど。つまりあなたが、この銀河内で
+猛威を振るっている殺人ウィルスの抗体を持つ
+稀有な人……ということなのですね。","...I see. In other words, you're a rare human carrying antibodies to the killer virus raging across the galaxy.",,
+180,Kazuho (Casual),"……うん。
+ケーイチは、そう言ってたと思う……。",...Yeah. I think that's what K-1 said...,,
+182,Hanyuu (巫女),"そうですか……。僕には医療系の技術が
+ありませんので、本星に戻ってから詳しい分析を
+行うことになりますが……。","Interesting... I don't have any medical tech, so I'll have to do a detailed analysis when we return to my home planet... ",,
+184,Hanyuu (巫女),"……公由一穂さん。
+これは、あくまで私個人の考えとして……
+聞いてください。","...Kazuho Kimiyoshi-san, this is just my personal opinion, but please listen...",,
+186,Hanyuu (巫女),"もし、その話が事実だとしたら……あなたのＤＮＡは
+この大銀河星団を苦しめているウィルスを
+撲滅するための、大いなる武器となるでしょう。",Assuming that this is all true... your DNA may become a great weapon in eradicating the virus plaguing the Great Galactic Cluster.,,
+188,Hanyuu (巫女),"ただ、僕にはあなたにそうしろと命じる権限は
+ありません……だから、お願いします。
+ぜひ、僕たちに協力してほしいのですよ。","However, I don't have the authority to force you to do it... so I will ask.
+Please, we implore you to cooperate with us.",,
+190,Kazuho (Casual),"……別に、権限なんか必要ないよ。
+好きにすれば、いい。",...You don't really need my permission. Just... do as you like.,,
+193,,"半ば自棄になった気分で、
+私はそう吐き捨てる。","I spit that out, feeling half-desperate.",,
+194,,"私はもう、とっくの昔に死んでいる身だ。
+他のみんなだって、もういない……。","I'm a walking corpse who died long ago.
+And everyone else is already... gone...","comment / from ""I'm a person who already died a long time ago. Along with everybody else...""",
+195,,"今さら、守りたいものなんてない……
+これ以上生き続けたい希望も、何も……っ。","There is nothing for me to protect anymore...
+I had no hopes... no will to live... nothing...",,
+199,Kazuho (Casual),"なんだったらもう、殺してよ……っ！
+もう私、これ以上何も知りたくないし、
+感じたくもない……だからっ……！","Whatever it is, just... kill me...!
+I don't want to know anything else, I don't want to feel anything else... so just...!","comment / from ""If you really feel like it, then kill me! I don't want to know anything else, I don't want to FEEL anything else...So just...!"" ",
+202,Hanyuu (巫女),"……。せっかく安らかな眠りについていたのに、
+僕たちの都合で一方的に起こしてしまったこと、
+本当に申し訳ないのです……。",...I sincerely apologize that you were woken up from your precious slumber for our own one-sided desires...,,
+204,Hanyuu (巫女),"目の前であんな凄惨な光景を見せてしまった……。
+あなたには辛すぎる１日だったと思います。
+癒せるどころか、到底償えるものはないのですよ。","You witnessed such a gruesome sight unfold before your eyes...
+I believe this day was far too horrible for you. There is nothing that can be done to atone for this tragedy, let alone heal you from it.",,
+206,Kazuho (Casual),……っ……。,...nnh...,,
+215,Hanyuu (巫女),"では……公由一穂。
+あなたは、どちらを夢にしたいですか？","Now... Kazuho Kimiyoshi-san.
+Which would you rather dream about?",,
+219,Kazuho (Casual),どちらを、夢に……？,Dream... about...?,,
+226,,"突然、私たちを取り巻いている景色が変わる。
+さっきまでいた#p雛見沢#sひなみざわ#rでも、宇宙とも違う空間だ。","The scenery around us suddenly changes.
+This space around us is different from Hinamizawa, and even different from outer space.",,
+229,Kazuho (Casual),こ……ここは……？,Th-...this is...?,,
+232,Hanyuu (巫女),"安心してください。
+私の持つ権限で、さっきまでいた「世界」と
+あなたを結んでいた『因果律』を切断しました。","Please be at ease. Using the power vested in me, I have broken the {b}Karmic Law{/b} binding you to the ""World"" you were just in.",,
+234,Hanyuu (巫女),"星団捜査官とは、私のかりそめの姿……
+本来は平行世界の矛盾と齟齬を補修することを
+使命とする『管理者』……。","My being a Star Cluster Investigator was just a temporary form...
+In actuality, I am an {b}Overseer{/b}, with the mission of repairing irregularities and contradictions in parallel worlds...",,
+243,Hanyuu (巫女),"そう……あなたがた人間が言うところの、
+『神』なる存在なのです……。",Indeed... I am an existence that you humans might refer to as a {b}god{/b}.,,
+250,Kazuho (Casual),…………。,............,,
+253,Hanyuu (巫女),"あの犯罪者たちの行いはともかくとして……
+この銀河では、病気に苦しんでいる人がいます。
+それこそ何十億、何百億という数で。",The deeds of those criminals aside... there are people suffering from disease all throughout the galaxy. Tens or hundreds of billions of them.,"comment / from ""Aside from the deeds of those criminals...there are people suffering from disease all throughout the galaxy. Billions and billions of them.""",
+255,Hanyuu (巫女),"だからもし、あなたの遺伝子情報の提供があれば
+その多くが命を救われ、死から逃れられるでしょう。
+……あなたひとりを、犠牲にすることで。","Thus, if you supply us with your genetic information, we may be able to save these many lives from death. ...However, it requires your sacrifice.",,
+257,Hanyuu (巫女),"ですが、それをあなたに強いるのは
+酷というものです。
+だから……選んでもらいたいのです。","Nonetheless, forcing you into doing such a thing would be cruel. 
+So... I would like for you to make a decision.",,
+259,Hanyuu (巫女),"この世界を「夢」にして、生きる道を選ぶか。
+それとも、これを「現実」として、
+救世主となることを受け入れるか……。","Will you choose for this world to be merely a ""Dream""?
+Or will you accept reality and become a saviour...?",comment / good!,
+261,Hanyuu (巫女),"そのどちらでも、私たちは受け入れます。
+あなたの御心次第です。","Whichever one you choose, we will accept it. It is up to your will.",,
+263,Kazuho (Casual),…………。,............,,
+266,,……選択が究極すぎて、すぐに答えが出てこない。,"...These options are too extreme, so I can't bring myself to answer right away.",,
+267,,"私の選びたいものは、決まっている。
+……だけどそれは、他の人から見れば
+ひどくわがままな、勝手すぎるものだろう。","What I want is obvious.
+...But others would see it as incredibly egotistical and selfish.",,
+268,,"だけど……やっぱり私は、
+誰になんと言われても……。",Even so... no matter what anyone says... I'll...,,
+271,Hanyuu (巫女),"……公由一穂。
+あなたの選択を、教えてもらえますか？",...Kazuho Kimiyoshi. Will you tell me your choice?,,
+278,Kazuho (Casual),"…………。
+私、は――",............I...will...,,
+290,Miyuki,……ょっと、一穂！　一穂ってば！,"...ey, Kazuho! Kazuhooooo!",,
+295,Kazuho,"――はっ？！
+あ、あれっ？　こ、ここはどこ……？",—Huh?! Wh-what? Wh-where am I?,,
+299,Nao,"もう、何を寝ぼけてるのよ。
+見ればわかるでしょ。","Jeez, are you still half-asleep? Just look around you.",comment / good!,
+302,,"そう言って呆れる菜央ちゃんに促されて、
+私は周囲に目を向ける。","At Nao's insistence, I check my surroundings.","i just removed the amazed part, its hard to fit in/assumable",
+303,,"……間違えるはずもなく、分校の教室だ。
+そして私のすぐそばでは、レナさんたちが
+不思議そうに顔を向けているのが見えた。","...This was without a doubt the classroom at the branch school.
+And right next to me, Rena-san and the others were looking at me in wonder.",,
+306,Kazuho,"そ、それじゃ……さっきまで私が
+体験してたことって――。",Th-then... what I was experiencing just now was...,,
+309,Mion,"いや、体験って……
+あんたさっきから、ずっとここにいたでしょ。
+ひょっとして、寝ぼけてんの？","Uh, experiencing...?
+You've been here the whole time. You're seriously still half-asleep, huh?","comment / from ""Uh, what did you do...? You've been sitting here for a while. Could it be you're still half-asleep?""",
+311,Kazuho,ず……ずっとここに、いた……？,I... I was here the whole time?,,
+313,Mion,"ったくもう……大事な話し合いの途中で、
+居眠りなんかしないでよね。
+今度の劇の配役を決めているんだからさー。",Honestly... you can't doze off while we're in the middle of an important discussion. We're trying to decide the cast for this play—,,
+315,Kazuho,"ご、ごめんなさい……って、劇？
+あの、それは……？","I-I'm sorry! ...Wait, a play? Wh-what do you mean...?",,
+319,圭一,"おいおい、一穂ちゃん。今度はテレビでやってた
+ヒーローショーみたいな劇をやろうって
+みんなで盛り上がったの、もう忘れたのかよ？","Oy, oy, Kazuho-chan. Did you forget how fired up everyone was to make a play like that show with the superhero we saw earlier?",,
+323,詩音,"そのために、私と圭ちゃんをここに呼んだって
+聞いたんですけど……何か間違っていますか？",I heard that's why Kei-chan and I were called here... but am I wrong?,,
+325,Kazuho,劇……？　お芝居……？,Play...? A stage play...?,,
+330,Rena,うん、そうだよ。はい、これ。,"Yes, that's right. Here, look.",,
+333,,"混乱して戸惑う私の様子を見て、レナさんが
+１冊の台本を差し出してくれた。
+とりあえず、ページをめくって中身を確かめる。","Seeing my confusion and bewilderment, Rena-san handed me a copy of a script. I check the content by skimming through the pages.",,
+337,Kazuho,（な、何これ……！）,(Wh-...what is this..?!),,
+339,,"中を見て、さらに驚く。
+これは、さっきまで私が体験したことと
+ほとんど同じ筋書き……っ？","I become even more confused as I look through.
+Is this plot exactly like what I went through just now......?",,
+342,圭一,"しっかし、この悪役キャラはひでぇよなぁ。
+こんなやつが本当にいたら、俺がその場で
+ぶった切ってやりたいくらいだぜ。","I gotta say, this villain character sucks.
+If this guy were real, I'd beat his ass right then and there.",,
+345,詩音,"まったくですねー。ＳＦを扱った演劇台本集から
+引っ張ってきたお話だそうですが、読んでみて
+結構、腹が立っちゃいましたよ。","I know, right? This story was pulled from a collection of sci-fi theater scripts, but when I read it I got pretty pissed.",,
+349,Mion,"まー、圭ちゃんだったらここまで冷徹には
+なれないと思うけどねぇ。むしろドジって、
+逆に利用されるのが関の山かも……くっくっくっ！","Well, if this guy were Kei-chan, he definitely couldn't be that cold-hearted. He'd be all clumsy and get taken advantage of at the very most... *cackle*cackle*!","please do not remove the ""at"" here. ""at the very most"" is its own phrase / from ""Well, I don't think Kei-chan would be so cold-hearted. Rather, I think he'd mess up and be exploited as much as possible...*cackle*!""",
+351,圭一,"なんだよ、そりゃあ？……へへっ、だったら
+お芝居の中だけでも超クールな俺様キャラを
+披露してやるぜぇぇ！","The hell are you saying? ...Heheh, if it's gonna be that way, I'll show you I'm an ultra-cool character, even if it's just for a play!",,
+355,Miyuki,"はいはい、期待してるよ～。
+それじゃ気を取り直して、軽く本読みから
+始めよっか！","Yeah, yeaaah, we're looking forward to it~.
+Welp, guys, let's pull ourselves together and do some script reading!",,
+359,Rika,"みー。今日はいいお天気ですし、
+お外で読み合わせるのがいいと思うのですよ。",Meep. It's a beautiful day; I think we should read together outside.,,
+363,Satoko,"それはいい考えですわねぇ！
+どうかしら、皆さん？","That sounds like a splendid idea!
+What does everyone else think?",,
+367,詩音,"くすくす……それも楽しそうです。
+では、行きましょうか。","*giggle*... that sounds fun.
+Shall we go then?",,
+371,圭一,"おぅ！　ついでに殺陣の稽古も
+一緒にやってみるか。
+確か木刀は、校舎裏の倉庫に――。","Yeah! While we're at it, why don't we practice swordfighting together? There should be wooden swords in the storehouse behind the school!",,
+375,,"みんな賛成の言葉を口にし、台本を持って
+廊下へ移動を始める。","Everyone voices words of approval and heads into the hallway, scripts in hand.",,
+376,,"それをぼんやりと見つめていると、
+軽く背中をつつかれる感触。
+……振り返るとそこには、菜央ちゃんが立っていた。","As I stare at them absentmindedly, I feel a light poke at my back. 
+...When I turned my head, Nao-chan was standing there.",,
+379,Nao,"ほら一穂、何をグズグズしているのよ。
+みんなを待たせちゃ悪いから、早く行きましょ。","Come on, Kazuho, what are you hesitating for?
+We don't want to keep everyone waiting, so let's get going.",,
+382,Kazuho,"あ……ご、ごめんね。
+すぐに、準備するから……！","Ah... s-sorry.
+I'll start getting ready right away...!",,
+385,,"そう答えて私もみんなを追い、
+駆け足で教室の戸口へ向かった……。","I answered her with that and chased after everyone, quickly running through the classroom door...",,
+386,,…………。,............,,
+392,Hanyuu,"一穂は結局、どちらを選択したのか……。
+それはみなさんのご想像にお任せするのですよ、
+あぅあぅ。","So, what was Kazuho's choice in the end...?
+I'll leave that up to your imagination. Au au.",,

@@ -1,0 +1,206 @@
+event01_16_04.bytes,chara,jp,en,Notes TL,Notes QC
+27,,"銃口をこれ見よがしに構えつつ、
+ケーイチは私との距離を徐々に詰めてくる。",K-1 gradually closes the distance between us while ostentatiously holding his gun up in the air.,"comment / from ""K-1 gradually closed the distance between us while holding his gun up in the air.""",
+28,,"彼が、レナさんを撃って助けてくれた……？
+でも、だとしたらどうして私を威嚇する必要が
+あるのか、全く理解できない。","Did he help me by shooting Rena-san...?
+But if that's the case, I don't understand at all why he thought it was necessary to intimidate me.",,
+31,Kazuho (Casual),"ま……前原くん、私を助けてくれたのは
+あなた……なの……？","M-...Maebara-kun, was it... you who saved me...?",,
+35,圭一 (アンドロイド),――――。,............,,
+37,Kazuho (Casual),"わ……私は何もしてないよっ？
+みんなが急におかしくなって、
+暴れ始めて……お互いに……っ！","I... I didn't do anything, okay?
+Everyone started acting weird and turned violent... with each other... uh!",,
+39,Kazuho (Casual),"だ……だから私は、何もやってない！
+お願い……信じて、前原くんっ！","So... so I didn't do anything! Please... believe me, Maebara-kun!",,
+42,圭一 (アンドロイド),"あのな……前にも言ったが、俺はケーイチだ。
+あと、結果的に助けてやったのは事実だが……
+ここに来たのは、別の目的があるのさ。","You know... I told you this before, but my name is K-1. And while it's true I did help you... I came here for a different reason.",,
+45,Kazuho (Casual),っ？　ど、どういうこと……？！,Ah? Wh-what do you mean...?!,,
+50,Rika (アンドロイド),"みー、確認したのです。この場で生きてるのは、
+この『公由一穂』だけなのですよ。","Meep, confirmed. The only one alive in this location is this {b}Kazuho Kimiyoshi{/b}.",,
+55,圭一 (アンドロイド),"おう、つまりこいつがウィルスの『抗体』を持つ
+キャリアってわけか。
+へへっ、まさかこうまでうまくいくとはなぁ……。","Wow, so you {i}are{/i} a ""Carrier"" of the virus' antibodies.
+Heheh, I didn't think it'd turn out as good as this...",,
+57,Kazuho (Casual),ウィルスの、抗体……っ？,Virus antibodies...?,,
+60,,"にやにやと笑うケーイチとレディ・ミーの
+表情に、私はぞっとした怖気を覚える。",K-1 and Lady Meep's laughs and smirks make me shudder in fear.,,
+61,,"もしかして……この人たちは、
+こうなることを……知っていた……？！",Did they maybe... know... that this would happen all along...?!,,
+64,Kazuho (Casual),"あ……あなたたちは、言ってたよね……？
+私たちを復元した#p雛見沢#sひなみざわ#rで１日過ごさせて、
+データを採るって……っ……。","Y-...you said it yourselves, didn't you?!
+That you resurrected us and let us spend a day in Hinamizawa... just to collect... data...","comment / from ""Wh...what are you all saying?! You resurrected us and let us spend a day in Hinamizawa...just to collect data...""",
+68,圭一 (アンドロイド),"ああ、その通りだ。
+話した内容に、嘘偽りはねぇ。","Yup, pretty much. None of that stuff we talked about was a lie.",,
+71,圭一 (アンドロイド),ただ……肝心なことを話してなかっただけさ。,But... I left out all of the important points.,,
+73,Kazuho (Casual),か、肝心なこと……？,Im-...important points...?,,
+78,圭一 (アンドロイド),"謎の自然災害ってのは、ガス災害なんかじゃねぇ。
+実際のところ、お前ら旧人類は……
+ウィルスの感染爆発で壊滅状態に陥ったのさ。",The mysterious natural disaster that happened wasn't the spread of noxious gas. What really destroyed humanity was... a virus outbreak.,,
+80,Kazuho (Casual),う、ウィルス……？！,A-A virus...?!,,
+83,圭一 (アンドロイド),"そうだ。そのウィルスに感染すると、
+あっという間に理性が崩壊して……
+破壊衝動に身を委ねるようになっちまう。",Yup. Those infected with the virus would have their sense of reason collapse in the blink of an eye... to the point they would awaken to violent impulses.,,
+86,圭一 (アンドロイド),"自分以外の人間全ての息の根を止めない限り、
+その衝動が収まることはねぇ。
+そして最後は、自分さえも攻撃対象になる――。","Until you squeeze the life out of every person besides yourself, those impulses won't go away. And at the very end, you yourself will become your own target...",,
+90,圭一 (アンドロイド),"……なんて、特殊なウィルスだ。
+そんなのが蔓延すれば、星ひとつが滅んでも
+おかしくねぇよな～。","...It's a peculiar virus. If something like that were to spread, it wouldn't be surprising if an entire planet died, right~?",,
+95,Rika (アンドロイド),"一穂は身をもって経験したので、そのあたりは
+よく理解してもらえたと思うのですよ。にぱー。","You experienced it firsthand, so I believe you were given the chance to understand that aspect. Nipah~",,
+97,Kazuho (Casual),……っ……。,...gh...!,,
+102,圭一 (アンドロイド),"そして、お前らには話してなかったんだが……
+今、銀河の全域にそのウィルスが再流行してる。
+だが、古すぎてほとんど誰も抗体を持ってねぇ。","Oh, and I haven't mentioned this to you guys... but right now, that same virus is re-emerging all throughout the galaxy. Only thing is, it's so old that almost nobody has the antibodies.",,
+105,圭一 (アンドロイド),"特効薬もワクチンも、開発段階でお手上げ状態だ。
+だからみんな、毎日ビクビクして暮らしてんだよ。","Neither a vaccine nor a cure are being developed.
+That's why we all live in fear every day.",,
+108,圭一 (アンドロイド),"だから、俺は考えた……。
+そのウィルスが発祥したところまで足を延ばせば、
+抗体のサンプルが採れるかもしれない……ってな。","But so, I thought about it...
+If I went to the place where the virus originated and collected antibody samples... get where I'm going with this?",,
+111,圭一 (アンドロイド),"で、ウィルスが生み出された可能性の高い
+この土地を割り出して、ＤＮＡを拾い集めてから
+宇宙船へ持ち帰り、クローンを作った……。","I figured out the location where the virus likely originated, collected DNA, brought it to my spaceship, and made clones...",,
+114,圭一 (アンドロイド),――それが、お前らってわけだ。,—That's what you guys are.,,
+116,Kazuho (Casual),"……。そして、私たちを言いくるめて雛見沢へ
+送り込み、経過を観察してたってこと……？","...And then you lied to us, sent us to Hinamizawa, and observed us...?",,
+120,圭一 (アンドロイド),"おう。思ったよりずっと早くウィルス感染が
+始まっちまったが、逆に結果オーライだ。","Yup. The virus outbreak happened much earlier than I thought, but it turned out alright in the end.",,
+123,圭一 (アンドロイド),"正直、神頼みにも近い可能性だったが
+めでたく抗体のキャリアが発見できた……。
+いやいや、ありがたくて涙が出そうだぜ～！","Honestly, it was a miracle of God that we fortunately found an antibody carrier... no, really, I was so grateful I wanted to cry~!",,
+126,Kazuho (Casual),っ……そう、だったんだ……。,...O-Oh...,"comment / from ""...And, that is...""",
+132,,"あぁ……そうか。
+やっと私、この人たちに対して嫌悪感を
+抱いていた理由が、よくわかった。","Ah... I see now.
+I finally understand why I harbored such dislike towards these people.",,
+133,,"彼らは最初から、私たちのことを
+自分と同じ「人間」だと思っていなかったんだ。","They didn't think of us as ""humans"" like themselves from the start.",,
+134,,"絶滅動物扱いどころか、むしろ……
+ウィルスの抗体を採取するだけのサンプル、
+モルモットみたいに……思って……っ。",And instead of seeing us as extinct animals... they thought they could treat us like guinea pigs just to collect... virus antibody samples...,,
+135,Kazuho (Casual),……っ……。,...gh...,,
+136,,"……悔しい。悲しい。そしてなにより、
+私の見知った顔をした人にだまされていたという
+事実が……余計に腹立たしくて、仕方がない。","...I was frustrated. Sad. And above all else, the fact that I was deceived by people whose faces I knew all too well... helplessly made me even more angry.",,
+141,Kazuho (Casual),（……。だけど……）,(...But...),,
+143,,"本当に、この「世界」で困っている人たちが
+それで救われるというなら……
+受け止めることもひとつの選択だろう。","If that's what it actually takes to rescue the troubled people in this ""World""... then acceptance was my only option.",,
+144,,"私はそう考えることで、自分の胸の内に渦巻く
+黒い感情を何とか押さえ込もうと、
+何度も大きく息をつき……顔をあげていった。","I tried to suppress the dark thoughts swirling around in my chest through that mindframe, and took several deep breaths... then I finally raised my head.",,
+148,Kazuho (Casual),"……よく、わかったよ。
+そういうことなら、協力させてもらうね。
+でも……。","...I understand now. I'll cooperate if what you said is true.
+But...",,
+150,Kazuho (Casual),"どうして、最初からそう言ってくれなかったの？
+この「世界」のみんなを救うためだって知ってたら、
+私だって……こんな……！","Why didn't you say so from the beginning?
+If I knew this was to save everyone in this world... something like this wouldn't have...!","comment / from ""Why didn't you say so from the beginning? If I knew it was to save everyone in this world, then...I would've...!""",
+155,圭一 (アンドロイド),"あぁ？　みんなを助けようってつもりはねぇよ。
+ちゃんと対価を払って、自分の命の「代償」を
+俺たちに還元してくれるやつらが限定だからな。","Wha? I'm not trying to save everyone. This is limited to those who compensate us appropriately for the ""cost"" of their lives.","comment / from ""Huh? I'm not trying to save everyone. This is limited to those who pay us appropriate compensation for the ""cost"" of their lives.""",
+158,Kazuho (Casual),"えっ……な、なんで……っ？
+あなたはこの「世界」を救うために、
+私たちを利用したんじゃなかったの？！","Eh... wh-...why...? Weren't you going to use us to save this ""World""?!",,
+161,圭一 (アンドロイド),"はぁ？　おいおい、何を言ってんだよ。
+お前らを蘇生するためにどれだけ金と手間を
+つぎ込んだのか、わかってんのか？","Huh? Oy oy, what are you talking about? Do you know how much time and money we poured into resurrecting you guys?",,
+171,圭一 (アンドロイド),"お前を切り刻んで、抗体の因子をいただき……
+ワクチンや治療薬を大量に作って、高値で
+銀河中に売りさばく――それが、今回の目的だ。","I'll cut you up and collect the antibodies alone... I'll create vaccines and cures in high quantities, and then I'll sell them all across the galaxy for a high price ― that's my plan.",,
+174,圭一 (アンドロイド),"そして俺は、銀河一の富と財産を手に入れるのさ！
+こんな安月給の環境保護官なんて、そうなれば
+とっととおさらば御免ってやつだぜ～！","And then, I'll be the richest man in the galaxy!
+It's my one-way ticket to getting out of this low-paying Environment Protection Coalition job!","comment / from ""And then, I'll be the richest man in the galaxy! I can quickly say farewell to my low-paying Environmental Protection Coalition salary and to all those bastards!"" ",
+181,Kazuho (Casual),"そ、それじゃあなたは……私利私欲のために、
+私たちを犠牲にするっていうの……？！",Th-then... you're telling me that you intend to sacrifice us all purely out of self-interest...?!,"comment / from ""T-then...Y-you're telling me that to satisfy your own selfish desires, you sacrificed all of us..?!""",
+183,Kazuho (Casual),"考古学とか、環境保護だとか、
+もっともらしいことを言っておきながら
+結局……っ！","So all that stuff you kept saying about the archaeology and the environmental protection... in the end, all of that is...!","comment / from ""But the archaeology, and the environmental protection, and the other believable things you said...in the end, those are...!""",
+187,圭一 (アンドロイド),"へっ……あんなのを真に受けるほうが
+間抜けだっての！",Heh... you really {i}are{/i} an idiot to believe all of that!,,
+190,圭一 (アンドロイド),"他の連中がどうなろうと、知ったことか！
+俺は俺の人生を謳歌する、それだけだぜ！
+あーっひゃっひゃっっひゃっ……！！","I don't care what happens to anyone else!
+I'm gonna celebrate my life to the fullest! Hyaaaahhahahahahaha...!!",,
+194,Kazuho (Casual),っ、……せ、ない……！,...-ivable...!,,
+197,,許せない、許せない、許せない……！,"Unforgivable, unforgivable, unforgivable...!",,
+198,,絶対に……許せないッッ！！,Absolutely... UNFORGIVABLE!!,,
+205,Kazuho (Casual),"人の命を……みんなの想いを踏みにじって、
+よくも……よくもッッ！！",How... dare you trample on people's lives and everyone's feelings... how dare you!!!,,
+210,,"胸の内から吹き上がる怒りと悔しさ、
+そして憎悪に耐え切れなくなった私は……
+思い余って、ケーイチに向かって飛びかかる。","I'm so overcome with all of the anger, frustration, and hatred rising up from the bottom of my heart...  that I leap towards K-1 in a fit of rage.",,
+211,,"だけど、……振り上げたこぶしは彼の目前で
+不自然なほどぴたり、と止まり……。",However... the fist that I raised up in front of him suddenly stops...,,
+213,,"次の瞬間、隣にいたレディ・ミーによって
+地面に組み伏せられてしまった。","And in the next moment, I get wrestled onto the ground by Lady Meep, who was standing right by him.","comment / from ""In the next moment, I was suddenly wrestled to the ground by Lady Meep.""",
+217,圭一 (アンドロイド),"……言っただろ？
+俺たちに逆らうことはできないって。","...Didn't I tell you?
+You can't possibly go up against us.",,
+221,Rika (アンドロイド),"にぱー、悪く思わないでほしいのです。
+主人の命令は、絶対なのですよ。","Nipah, please don't think poorly of me.
+My master's orders are absolute.",,
+230,Rika (アンドロイド),"……なんて、命令がなくても関係ないけどね。
+私はアンドロイドだから、自分さえよければ
+あんたがどうなろうと別に興味はないのよ。","...Well, it doesn't matter if I receive orders or not. I'm an android, so I wouldn't particularly be interested in your welfare if it were my say anyway!",bern voice here down,
+240,Kazuho (Casual),ぐっ……ぅ、うぅっ……！,Gh...rrrrghhh...!,,
+243,Rika (アンドロイド),"個体名、『公由一穂』。あんたは大銀河星団の
+救世主として全身を管で繋がれ、
+培養ポッドの中で生き続けることになるのよ。","Specimen name: Kazuho Kimiyoshi. You will become the savior of the Great Galactic Cluster and live on inside a cultivation pod, where your body will be connected to tubes.",,
+246,Rika (アンドロイド),"まぁ、わかりやすく言えば……
+治療薬を生み出す土壌として、未来永劫
+死ぬこともできなくなるってことかしら……？","Or, well, to put it simply... I do wonder if this means you will forever lose your ability to die, so long as you are a seedbed for the creation of cures...?",,
+249,Kazuho (Casual),っ、……やだ、嫌だ……！！,"Nn-...no, stop...!!",,
+252,Rika (アンドロイド),"最初に言ったわよね？　あんたに拒否権はないの。
+せいぜい、愚かな人間のための道具になりなさい。
+くふふふふ……あははははは……！","I said it earlier, hadn't I? You have no right to complain. Do your best in becoming a tool to use for the sake of foolish humans. Kuhuhuhuhu... ahahahahahaha...!",,
+255,,"そう言ってレディ・ミーは私をねじ伏せたまま、
+注射器を取り出してみせる。","Lady Meep says that while holding me down and taking out a syringe, waving it in front of me.",,
+256,,"ピストンが押し込まれて……
+針の先に浮かび上がる、小さな滴。",She pushes down on the plunger... and a tiny drop lifts out from the tip of the needle.,,
+257,,"そして、尖端が私の腕に近づいてくるのが
+視界に映り、絶望から思わず目を閉じかけた――。","Then, as I saw the pointed end coming towards my arm, I instinctively close my eyes in despair...","comment / from ""Then I saw the pointed end coming towards my arm from my field of vision, and I instinctively closed my eyes in despair..."" ",
+258,,と、その時だった。,But just then.,,
+260,Hanyuu (巫女),――悪者ども、おとなしくするのです！,"Surrender, evildoers!",,
+263,Kazuho (Casual),っ……？　その声は、まさか――。,"Huh...? That voice, it couldn't be―",,
+269,圭一 (アンドロイド),げっ！　お、お前は……！,Geh! Y-You're...!,,
+272,,"なんと、その場に姿を見せたのは、
+巫女服……らしき衣装に身を包んだ
+あの羽入ちゃんだった。",Who appeared was someone in a miko uniform... an outfit just like what Hanyuu-chan would wear.,,
+275,Hanyuu (巫女),っ、はぁぁぁあぁっっ！！,Haaaaaah!!,,
+281,Rika (アンドロイド),……なっ……？！,...Wha-...?!,,
+284,,"蒼白い波動をまとわせた剣を振りかざし、
+羽入ちゃんはこちらへ斬り込んでくる。","Hanyuu-chan brandishes a sword swirling with a pale blue energy, and then slashes at us.","from  ""Hanyuu-chan brandished a sword clad in pale blue energy, and slashed at us.""",
+286,,"それを見たレディ・ミーは、とっさに
+大きく飛び退いて私から離れた。","When Lady Meep noticed that, she immediately jumped backwards a long distance, separating herself from me.",,
+289,Hanyuu (巫女),――もらったッッ！！,—You're mine!!,,
+291,,"間髪入れず、踏み込んだ羽入ちゃんの斬撃が
+２度、３度と繰り出されて……横一文字の剣光が
+レディ・ミーの胴体を薙ぎ払う。","Without a moment's delay, Hanyuu-chan steps forward and delivers two, then three slashes; both vertical and horizontal beams of light mow Lady Meep's body down instantaneously.","removed elips / comment / from  ""Without a moment's delay, Hanyuu-chan stepped forward and delivered two, then three slashes...horizontal lines of light emanated from Lady Meep's body as she fell down."" ",
+297,Rika (アンドロイド),っ、……ぐ、ぅっ……？！,...G-Guh...?!,,
+302,,"その攻撃をもろに受けたをレディ・ミーは
+低いうめき声をあげ……苦悶の表情を浮かべながら
+その場に片膝をついた。",Lady Meep groans in a low voice after taking the full-blown attack. She fell to one knee while wearing an anguished expression.,same here,
+306,Rika (アンドロイド),"ふ、不覚を……取ったのです。
+損傷レベル、甚大……なのですよ……。","I have f-...failed.
+Damage LEVEL... CRITICAL...",,
+309,Hanyuu (巫女),さぁ、今のうちにこっちへ！,"Now, come to me before it's too late!",,
+314,Kazuho (Casual),う……うんっ……！,O-...Okay...!,,
+317,,"私はもつれそうになる両足を叱咤し、
+羽入ちゃんの背後へと駆け込んだ。","I attempted to regain my balance, awkwardly getting my feet tangled up as I sprinted to get behind Hanyuu-chan.","comment / from  ""I was about to trip over my own feet as I ran behind Hanyuu-chan's back.""",
+321,圭一 (アンドロイド),"くっ……聞いてねぇぞ！
+星団捜査官がこんなところに現れるなんて……！","Tch... I heard about you!
+To think a Star Cluster Investigator would show up...!",,
+324,Hanyuu (巫女),"あなたたちの企みは、全て調べさせて
+いただいたのです。",We have looked into all of your plans.,,
+333,Hanyuu (巫女),"全銀河を苦しめるウィルスを悪用して
+私腹を肥やすなんて……この僕たちが
+決して許さないのですよっ！！",For you to take advantage of a virus terrorizing the entire galaxy solely to line your own pockets... we will absolutely never allow this!!,"comment / from ""I can't believe you would take advantage of a virus terrorizing the entire galaxy to line your own pockets...We will not allow this!""",

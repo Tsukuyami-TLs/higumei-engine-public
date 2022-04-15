@@ -1,0 +1,235 @@
+event01_34_03.bytes,,i'm just tling whatever. feel free to grab ownership or what have you,Llo - QC/TL,
+index,chara,jp,en,
+38,Nao (Casual),ちょっと美雪、一穂……って、えぇっ？,"Wait, Miyuki, Kazuho... wh-, huh?",
+43,,"背後から追いかけてきた菜央ちゃんが、
+私たちと向き合う人の顔を見てあっ、と
+立ち止まる。","Nao-chan, who had been trailing us, stopped when she saw the face of the person opposite us.",
+46,Miyuki (Casual),…………。,............,
+48,,"美雪ちゃんは驚きすぎて声も出ないのか……
+呆然と立ちすくんでいた。","Miyuki-chan was so surprised, she couldn't even let out a sound... 
+She just stood there, dumbfounded.",
+53,赤坂,やぁ、久しぶりだね。元気だったかい？,"Yo, it's been a while. Are you doing well?",
+55,Nao (Casual),"は、はい……
+でも赤坂さん、どうしてここに……？","Y-Yes... but why are you here, Akasaka-san...?",
+57,赤坂,い、いやぁ……。,"A-Ah, well...",
+60,,"美雪ちゃんに代わって菜央ちゃんが問いかけると、
+赤坂さんは照れくさそうに頭をかく。",Akasaka-san scratched his head in embarrassment when Nao-chan asked that question instead of Miyuki-chan.,
+61,,"そして肩を不器用にすくめながら、
+笑顔を浮かべていった。","Then, with an awkward shrug, he smiled.",
+64,赤坂,"実はこの前、大石さんから
+#p雛見沢#sひなみざわ#rに新しく温泉街ができると聞いてね。
+ぜひ、どんなところか見ておきたいと思って。","To tell the truth, Ooishi-san told me that there was a new hot spring in Hinamizawa, and I thought I'd go see what it was like.",wanted to -> thought I'd go
+66,赤坂,"で、たまたまこの近くに出張する用事が
+できたから、ふらっと立ち寄ってみたんだよ。","I was in the area on official business, so I decided to drop by for a visit.",
+68,赤坂,"次は家族を連れてくるつもりだから、
+その下見も兼ねてというわけさ。","I planned to take my family along the next time I visited, so I wanted to scout it out first.",
+73,Kazuho (Casual),あ、そういうことだったんですか……。,"Ah, so it was like that...",
+75,赤坂,"……そう言えば、君たち。
+さっきここでもめていたようだけど、
+何があったんだい？","...By the way, you two.
+You were arguing or something a bit ago, so did something happen?",
+79,Nao (Casual),あ、実は……。,"Ah, the truth is...",
+87,圭一 (Casual),……あれ、赤坂さん？,"...Huh, Akasaka-san?",
+92,,"前原くんの声に振り返ると、
+怪訝そうな顔でみんながこちらを見ていた。
+どうやら話をしている間に追いついたらしい。","At the sound of Maebara-kun's voice, I turned around to see everybody giving off puzzled looks. It seems like they'd found us while we were talking.",doubtful -> puzzled
+96,赤坂,"やぁ、久しぶりだね。
+見覚えのない子もいるようだけど……
+新しいお友達かな？","Yo, it's been a while. I don't recognize some of you kids... 
+Are they new friends?",
+98,戦人,あ、いや俺はそうじゃなくて……。,"Ah, no, not me anyway...",
+102,Rika (Casual),"みー、赤坂。
+実はとても、困ったことが起きているのですよ。","Meep, Akasaka. To tell the truth, there's been some big trouble going on.",
+104,赤坂,ふむ、困ったこと……？,"Hm, some trouble...?",
+114,Mion (Casual),……ってなことに、なっていまして。,...That's what happened.,
+116,戦人,"正直、朱志香に見つかると困るんですよ……
+いろんな意味で。","To be honest, I don't want Jessica to be troubled by it... in various senses of the word.",
+121,赤坂,"なるほど……確かに話を聞く限り、
+早急に対応が必要みたいだね。","I see... if I understand correctly, it's looking like we'll need to respond immediately.",
+123,,"私たちの説明に、赤坂さんは頷きながら
+居心地悪そうにしている戦人さんに目を向ける。","After our explanation, Akasaka-san nodded in understanding while uncomfortably shifting his attention to Battler-san.",
+124,,"それを受けて彼は、やや迷った表情を
+浮かべてからおそるおそる、といった感じに
+尋ねていった。","Seeing that, a slightly lost expression rose to his face, and with a timid voice, he asked:",
+128,戦人,"参考までに、聞かせてほしいんすけど……
+大人の目で見て今回の問題、どう思うっすか？","I'd like to ask for reference... but from an adult's point of view, what do you make of this problem?",
+130,赤坂,"うーん……事故に繋がりかねない情報を
+わざと秘匿していたのだとしたら、
+確かに契約違反の恐れが出るだろうね。","Mmm... if we purposefully conceal information that could lead to an accident, we'll most definitely risk a contract breach.",i changed this to present tense
+132,赤坂,"あと、その要因のせいで客足に影響が出ると
+判断されたら、賠償請求はほぼ確定だろう。","Also, if that was determined to have an impact on the customers, there would almost certainly be an indemnity claim.","from ""Also, if it is determined that high customer traffic was the cause, there would almost certainly be a claim for damages."
+136,Mion (Casual),やっぱりそうなりますか……参ったなぁ。,It's as I thought... Damn it.,
+138,赤坂,…………。,............,
+141,,"頭を抱える魅音さんをじっと見つめて、
+赤坂さんは何かを考えるように口元へ手を当てる。","As he fixed his gaze on Mion-san, who was clutching her head, Akasaka-san touched his mouth as if pondering something.",
+142,,"そして、軽く頷いてから私たち全員に
+目を向けていった。","Then, after a light nod, he turned to all of us.",
+145,赤坂,"個人的に、気になることは色々あるけど……
+どう対処するにしても時間が必要だろうね。
+一時的にでも駆除できれば、越したことはない。","Personally, there are various things about this that have my interest... but I need some time to figure out how to approach it. Even if we could thin them out temporarily, the issue wouldn't get resolved.",
+147,赤坂,"よかったら、私も手伝うよ。
+温泉に入る前に軽く運動をして、
+汗を流しておくのも悪くないだろうしね。","If you like, I can lend you all a hand. Working up a sweat before relaxing in the hot springs doesn't sound bad.",
+152,Rena (Casual),えっ……い、いいんですか？,Huh... i-is that really okay?,
+155,赤坂,"ははっ、もちろんだよ。
+それに市民の安全を守るのは、
+警察官としての義務だからね。","Haha, of course. After all, it's my duty as a police officer to uphold public safety.",
+161,Miyuki (Casual),"ですよねっ！
+それじゃ私がサポートしますから、
+しっかりついてきてください！","For sure! 
+I'll be here to support you, so please come this way!",
+169,Nao (Casual),……ぁいっ？,......-eh?,
+176,Miyuki (Casual),"あ、赤坂さん。『ツクヤミ』相手に
+素手だと効果がありませんから、
+この『ロールカード』使ってくださいね♪","A-Akasaka-san. Using your bare hands won't be effective against {b}Tsukuyami{/b}, so please use this {b}Role Card{/b}♪",
+179,,"そう言って美雪ちゃんは、嬉々とした表情で
+『ロールカード』を赤坂さんに渡す。","After saying that, Miyuki-chan handed Akasaka-san a {b}Role Card{/b} with a cheerful expression on her face.",
+180,,"……えっと、この変わりようはなに？
+さっきまでの消極的な感じが、
+嘘みたいにキラキラしているんだけど……？","...Umm, what's up with that sudden change?
+She was all down in the dumps a second ago, but now she's glowing as if that was all a lie...?",
+183,圭一 (Casual),"あの……美雪ちゃん。
+確かさっき、頭痛いから帰るって……ふごっ？！","Uh, Miyuki-chan, didn't you say earlier that you were going to leave because of a headache... mmph?!",
+185,,"美雪ちゃんは軽いステップで
+前原くんの背後に回り、その口をさっと抑える。",Miyuki-chan nimbly took a step to get behind Maebara-kun and quickly covered his mouth.,
+186,,"……その表情は、まるで暗殺者が背後から
+標的の喉をかき切るように見えて、
+思わずぞっ、と背筋に冷たいものを感じた……。","...The look on her face was exactly as if she was an assassin, slitting her target's throat from behind them. I unconciously felt a chill run down my spine...",
+192,Miyuki (Casual),"忙しい刑事さんの、楽しく心安らぐ癒し……
+そして誰かのために働く時間を邪魔する輩は、
+たとえ何者であってもこの私が許さないよー。",The busy detective {i}will{/i} heal himself through fun and relaxation... and I will {i}not{/i} forgive anyone who tries to disturb him as he's taking this time away from that to help someone else.,
+194,Miyuki (Casual),……余計なこと言わないで。おーけー？,...So don't say anything unnecessary. OK?,
+197,圭一 (Casual),んー！　んー！,Mmmph! Mmmph!,
+200,,"低く低く、獣が唸るような声で放たれた恫喝に
+前原くんが涙目でこくこくと頷く。","With every few words, Maebara-kun would fearfully respond with a nod and a groan as if he were a convulsing, teary-eyed animal.",
+201,,"……泣き出しそうになるくらいの、大迫力。
+一瞬同じことを言いそうになった私は、
+寸前で思いとどまったことに心底安堵していた。","...She was so forceful with him, it looked like he was about to cry.
+I was incredibly relieved that I had stopped myself from saying that a split second before he did.",
+205,Miyuki (Casual),"よーし、いい子だね前原くん。
+……あ、さっき買った温泉まんじゅう食べる？","That's a good boy, Maebara-kun.
+...Ah, do you wanna eat the manjuu you bought earlier at the hot spring?",did you -> do you wanna
+208,圭一 (Casual),お、おぉ……おぉお……。,O-Oooh... ooooohhh......,
+213,Kazuho (Casual),"（前原くん……全体的にぷるぷるしてる……？
+ぷるぷる震えてる……ッ！）",(Is Maebara-kun... trembling all over...? He is...!),"from ""(Maebara-kun......is wobbling all over.....? No, it's not wobbling, it's shivering....!)"
+215,,"……そうだった。
+美雪ちゃんはお父さんが絡むと、
+いつもこんな感じだ。",...Oh yeah. Miyuki-chan always gets like this whenever her father is involved.,that's right -> oh yeah
+216,,"他のみんなも、それを察してか……
+余計な口を挟む気配は一切なかった。",Everyone else sensing this... gave the impression they were absolutely not going to speak out of turn.,
+221,戦人,な、なぁ……お嬢ちゃんたち……？,H-Hey... you girls...?,
+223,Satoko (Casual),あら、なんですの？,"My, what is it?",
+226,戦人,"教えてくれ……この村がおかしいのか？
+それとも俺の常識が、そもそも最初から
+狂ってたのか？",Tell me... is there something going on in this village? Or maybe I've just completely lost all traces of common sense?,
+232,Hanyuu (Casual),あぅあぅ、顔が真っ青なのです……。,"Au au, your face is pale...",
+234,Rika (Casual),みー、大丈夫なのですか？,"Meep, are you okay?",
+239,戦人,"じ、実はよ……さっきまでは俺の方が
+絶対に正しいと思ってたんだ。","Th-the truth is... up until a bit before, I thought I was absolutely right in the head.",
+241,戦人,"さっきのは夢の中の話で、俺は#p興宮#sおきのみや#r行きの
+電車の中で居眠りをこいててよ……。","I had the idea what happened earlier was all a dream, and I was actually just nodding off while on a train to Okinomiya...",
+243,戦人,"そして、朱志香に叩き起こされて
+現実に戻る……なんてことを心の底から
+期待していたんだが……！",I was hoping from the bottom of my heart that Jessica would wake me up in the midst of it... so she could bring me back to reality...!,
+246,戦人,"けど、この人って東京の刑事さん？
+警察の人だって言ったよな？","But now there's this detective from Tokyo?
+Even a policeman is confirming it now?",
+248,戦人,"そんな人が当たり前みたいに
+『ツクヤミ』なんてワケわからねぇ存在を
+受け入れてるんだろ……？！",There's no way a person like that would just accept the existence of something as out of this world as {b}Tsukuyami{/b}...?!,
+251,戦人,"……あー、わけがわからねぇ！
+夢にしても整合性ってモンがあるだろ！","...Aaah, I just don't get it! Even if it is a dream, a bunch of things are consistent!",
+253,戦人,"やっぱりこっちが現実か？！
+おかしいのは俺か？！　俺の方なのか？！",Is this place actually reality?! Am I going crazy?! Is it just me?!,
+257,戦人,ぐぅあぁあああぁああぁああああああ！！！,GWAAAAHHHHHHHHHHH!!!!,
+264,Rika (Casual),"……みー、文字通り頭を抱えて
+うずくまってしまったのですよ。",...Meep. He's literally cowering with his face in his hands.,
+269,Nao (Casual),"……安心してください。
+戦人さんは、絶対におかしくないですよ。","...Please rest assured.
+Battler-san, you're certainly not crazy.",
+271,戦人,っ、……ほ、本当か？,H-... R-Really?,
+273,Nao (Casual),"はい。とりあえず、全部が全部現実だと
+受け止める必要はないと思います。","Yes. And besides, there's no need to consider every little thing as real.",
+275,Nao (Casual),"……だから、とりあえず見た目がダメなら
+相手を熊とかイノシシとか、
+そういう存在だと思うのはどうです？","...For now, if your eyes can't handle it, why not think of them as something like a boar or a bear?","from ""if their appearance is a non-starter"
+277,戦人,"……発表会とかみたいに、
+観客席に並んでるのは
+カボチャだと思え、ってやつか？",...Like when you're on stage and picture everybody in the audience as pumpkins?,
+283,Rika (Casual),"みー。菜央が言いたいことは
+そういうことだと思うのですよ。",Meep. I think that's what Nao was saying.,
+285,Satoko (Casual),"よりにもよってカボチャにたとえるという
+ごまかし方が気に入りませんけど……。","Of all things he could have used as an example, though, pumpkins are comparitively the worst...",
+287,Satoko (Casual),"郷に従えとも言いますし、
+一時的なことだと自分に言い聞かせて
+受け入れるのはいかがかしら？","I've heard of the phrase ""When in Rome, do as the Romans do."". Why not tell yourself that this situation is only temporary to help you come to terms with it all?",
+291,戦人,一時的に……。,...Temporary......,
+295,Hanyuu (Casual),"あぅ……新しく出会ったものが
+自分の理解の範囲外だと、
+すぐに受け入れにくいというのはわかるのです。",Au... it can be hard to accept new things when they're outside the limits of what you understand.,
+297,Hanyuu (Casual),"でも、否定すると逆に苦しくなるのですよ。
+自分は理解できなくても、そういうものがある……
+くらいにとらえておけばいいと思うのです。","But trying to reject them can also be painful. 
+Even if you can't understand these things yourself... I think telling yourself that they exist tackles that issue well alone.",
+299,Hanyuu (Casual),"いつか、何かのささやかなきっかけで……
+これはそういうものか、と理解できる日が
+来るかもしれないのですよ。","Perhaps someday, a single small occasion will help you understand.",
+302,戦人,そ、そうか……それもそうか……。,O-Okay... That's pretty true...,
+306,,"戦人さんは自分を取り囲む女の子たちの顔を
+１つ１つ確認すると、大きく息を吐く。
+……そしてばしんっ、と頬を叩いた。","One by one, Battler-san checked the faces of the girls surrounding him, and then let out a heavy sigh. Then, he slapped his cheeks.",
+309,戦人,"あ～……真里亞と同い年くらいの
+小さい子に諭されるなんて情けねぇぜ。
+くよくよと頭を悩ませてるのも、俺らしくねぇ。","Aah~... It's kinda pathetic being lectured by kids the same age as Maria. 
+Letting stuff like that get to my head isn't like me.",
+312,戦人,よし……ここは頭を切り替えていくぜ！,Alright... time to screw my head on straight!,
+314,戦人,"今は俺も状況が分かってねぇ。
+いろいろ調べたらチェス盤をひっくり返すことが
+出来るかもしれねぇからな！","I still don't get the situation at all.
+If I look into it enough, maybe I'll be able to spin the chessboard around!",
+319,Rika (Casual),みー。その意気なのですよ、にぱー。,"Meep. That's the spirit, nipah~.",
+321,戦人,"そうと決まれば、俺も行かせてくれ。
+『ロールカード』ってのは、俺にも使えるのか？
+できるなら手伝いたいんだけどよ。","Now that that's settled, let me go with you. Am I able to use these {b}Role Card{/b} things too? I'd like to help if possible.",
+323,Rika (Casual),たぶん、大丈夫だと思うのです。,I think that you would probably be fine using them.,
+327,Hanyuu (Casual),あぅあぅ、予備のカードをあげるのですよー。,"Au au, let me give you a spare card.",
+331,,"そして戦人さんは、羽入ちゃんから
+「カード」を受け取り……高らかに宣言していった。","With that, Battler-san took a card from Hanyuu-chan... and issued a loud declaration.",
+337,戦人,"この視察の間に打開策を見つけてやらぁ！
+朱志香の……朱志香んとこの家庭平和のために！","I'm gonna find the solution during this inspection!
+For Jessica's... For Jessica and a sense of familial peace!",
+342,,"美雪ちゃんの嫌な予感は気になるし、
+この人が無自覚にトラブルを呼び寄せる体質かも
+しれないという、疑惑はあるけれど……。","I'm interested in Miyuki-chan's feeling that this person might unknowingly bring trouble wherever he goes. I have my doubts about it, though...",
+345,Kazuho (Casual),"（いい人には間違いないんだから……
+とりあえず、無事に帰ってもらえるように
+私も頑張ろう……！）","(He's undeniably a good person...
+Anyways, let's do our best to return home safely...!)",
+350,圭一 (Casual),おぉ、頼もしい仲間が増えたな！,Yeah! We got another reliable friend!,
+352,Satoko (Casual),"最初は『ツクヤミ』を見て、
+あんなにも狼狽えておられましたのに……。
+柔軟と申しますか、肝の太い方ですわね。","Still, he saw the {b}Tsukuyami{/b} and was as flustered as can be at first... so calling him flexible wouldn't cut it. He's more plucky than anything.",
+356,Rika (Casual),"みー。彼も十分、「変人」の
+資質を持った仲間なのですよー。",Meep. He's a friend with a plenty {i}eccentric{/i} personality.,
+365,縁寿,"はぁ……お兄ちゃん、
+なんで受け入れちゃうのよ……？","*sigh*... Onii-chan, why are you accepting this...?",
+367,縁寿,"あんなバケモノや、
+『ロールカード』なんてものは
+どの偽書にも書いてなかったでしょ？","None of the forgeries had anything about these monsters or {b}Role Cards{/b}, did they?",
+369,縁寿,"……。それとも、何かがあるの？
+受け入れなくちゃいけないという
+理由みたいなものが……？","...Or is there something? 
+Could I even find something that would give a reason for needing to accept it...?",
+377,,――一方、温泉施設。,"--Meanwhile, at the hot spring resort.",
+380,朱志香,"……あー、いい湯だったぜ！
+温泉の質も設備も悪くなかったし、
+問題は交通の便ってとこかなぁ？","...Ah, what a nice place! Both the hot spring and its facilities were great, but getting here sure was a problem, huh?",the water feels great -> what a nice place
+382,朱志香,"まぁ、本格的に営業が始まったら
+最寄り駅から送迎バスを出すって言ってたし……
+こりゃ、母さんの心配は杞憂ってヤツだぜ！","Well, they said they'd have a shuttle bus from the nearest station once it opened up for business... so Mom doesn't really need to worry!",
+384,朱志香,"……にしても、戦人はどこ行ったんだ？
+宿の部屋にもいなかったし、
+あいつも風呂に行ってんのか？","...Even so, where did Battler run off to? He wasn't in his room, so maybe he went in one of the springs too?",
+386,朱志香,"戦人のヤツ、今夜の約束のこと
+ちゃんと覚えているのかよ……。","That Battler...
+Will he remember the promise we made for tonight...?",

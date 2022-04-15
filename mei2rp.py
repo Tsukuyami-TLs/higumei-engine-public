@@ -4,8 +4,10 @@ import csv
 import json
 import wave
 
-OUTFIT_MAPS = 'mappings/outfits/'
+sys.tracebacklimit = 1
 
+#Variables for the Mappings
+OUTFIT_MAPS = 'mappings/outfits/'
 JP2ID = {}
 ID2NAME = {}
 OUTFITS = {}
@@ -14,12 +16,14 @@ BGM = {}
 SFX = {}
 SHAKEMAP = {}
 
+# Variables for cover backgrounds
 COLORS = {
     '黒': "black_cover",
     '白': "white_cover",
     '赤': "red_cover", # TODO tune the red
 }
 
+# Open all the mapping files/import the mappings
 with open('mappings/charnames.csv', 'r', encoding='utf8') as cnames:
     reader = csv.reader(cnames)
     for line in reader:
@@ -62,6 +66,7 @@ for outfit in os.listdir(OUTFIT_MAPS):
             if len(line) < 2: continue
             OUTFITS[name][line[0]] = line[1]
 
+# Simple Getter functions
 def get_outfit(jp):
     if jp == '：': return None
     jp = jp.split('：')
@@ -80,15 +85,6 @@ def get_outfit(jp):
 
     return f'{cid}_{oid}'
 
-def get_id(jp):
-    if jp == '：': return None
-    jp = jp.split('：')
-    if jp[0] not in JP2ID: return None
-    return JP2ID[jp[0]]
-
-def strip_furigana(t):
-    return t.split('#s')[0].lstrip('#p')
-
 def get_name(jp, local=None):
     if jp == '：': return None
     jp = jp.split('：')[0]
@@ -98,9 +94,6 @@ def get_name(jp, local=None):
     cid = JP2ID[jp]
     return ID2NAME[cid]
 
-def indent(text, n):
-    return '\n'.join(map(lambda line: n*' ' + line, text.split('\n')))
-
 def get_cmd(command):
     if 'cmd1' in command: return 1, command['cmd1']
     else: return 0, command['cmd0']
@@ -109,37 +102,68 @@ def get_pos(p):
     if p == '左': return 'mei_left'
     elif p == '右': return 'mei_right'
     elif p == '中': return 'mei_center'
+    elif p == '左外': return 'mei_outerleft'
+    elif p == '右外': return 'mei_outerright'
     else: return None
 
 def get_ypos(p):
     if p == '下外': return -1080
     else: return int(p)
 
+def get_id(jp, local=None):
+    if local is not None and jp in local:
+        jp = strip_furigana(local[jp])
+        
+    if jp == '：': return None
+    jp = jp.split('：')
+    if jp[0] not in JP2ID: return None
+    return JP2ID[jp[0]]
+
+    
+# Helper Functions
+def strip_furigana(t):
+    return t.split('#s')[0].lstrip('#p')
+
+def indent(text, n):
+    return '\n'.join(map(lambda line: n*' ' + line, text.split('\n')))
+
+# Functions to Show a character
 class ShowChara:
-    def __init__(self, outfit, expression="normal"):
+    def __init__(self, order, outfit, expression="normal"):
         self.outfit = outfit
         self.expression = expression
         self.transforms = []
-        self.transition = None
+        self.move_transform = ""
+        self.transition = 0
         self.atl = None
+        self.move_end = None
         self.wait = 0
+        self.order = order
 
     def construct(self):
         s = ""
         if not self.transforms:
             s =  f'show {self.outfit} {self.expression}'
         else:
-            s = f'show {self.outfit} {self.expression} at {",".join(self.transforms)}'
+            for trans in self.transforms[:-1]:
+                    s += f'show {self.outfit} {self.expression} at {trans}\n'
+            s += f'show {self.outfit} {self.expression} at {self.transforms[-1]}'
 
-        if self.atl: 
-            s += f'\nshow {self.outfit} {self.expression}:\n{indent(self.atl,1)}'
+        if self.atl:
+            if self.move_transform == "":
+                s += f'\nshow {self.outfit} {self.expression}:\n{indent(self.atl,1)}'
+            else:
+                s += f'\nshow {self.outfit} {self.expression} at {self.move_transform}:\n{indent(self.atl, 1)}'  
+                
+            if self.move_end:
+                self.move_end = f'show {self.outfit} {self.expression}:\n{indent(self.move_end,1)}'                
         return s
 
 class CameraTransform:
     def __init__(self):
         self.time = 0
 
-
+# Main Compiler
 class Compiler:
     def __init__(self, commands, translation, forcelines={}):
         self.bgm = self.bgm2
@@ -158,41 +182,48 @@ class Compiler:
             '右外': 1920+480,
             '左外': -480,
         }
-
         self.background = None
         self.cam_extras = ""
+        self.save_shake = ""
 
     def talk(self, n, line, cmd):
+        name = ''
+        nameid = get_id(cmd, self.local)
         cid = get_id(cmd)
-        if cid is None and cmd in self.local:
-            name = get_name(cmd, self.local)
-            cid = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
+        if cmd in self.local:
+            name = get_name(self.local[cmd])
+            speaker = f'Character({repr(name)},ctc="ctcArrow", ctc_position="fixed")'
+        else:
+            if cid is not None: 
+                speaker = f'Character({repr(ID2NAME[cid])},ctc="ctcArrow", ctc_position="fixed")'
+            else:
+                speaker = None
     
         text = self.translation.get(n, line['arg1']).replace('%', '%%').replace('[', '[[')
         for c, o in self.to_show.items():
-            if c == cid: continue
-            o.transforms.append('inactive')
-
+            if c == cid or (c in str(nameid) and '_' in str(nameid)):
+                self.to_show[c].transforms.insert(0,'active')
+            else:
+                o.transforms.insert(0,'inactive')
+               
         for c, o in self.shown.items():
-            if c == cid: continue
             if c not in self.to_show:
-                self.to_show[c] = ShowChara(o[0], o[1])
-            self.to_show[c].transforms.append('inactive')
-
-            
-        if cid in self.shown or cid in self.to_show:
-            if c not in self.to_show:
-                o = self.to_show[cid]
-                self.to_show[cid] = ShowChara(o[0], o[1])
-            self.to_show[cid].transforms.append('active')
-    
-        if cid is None:
+                self.to_show[c] = ShowChara(len(self.to_show), o[0], o[1])
+                if c == cid or (c in str(nameid) and '_' in str(nameid)):
+                    self.to_show[c].transforms.insert(0,'active') 
+                else:
+                    self.to_show[c].transforms.insert(0,'inactive')
+           
+        if speaker is None:
             return f'narrator {repr(text)}'
         else:
-            return f'{cid} {repr(text)}'
+            return f'{speaker} {repr(text)}'
 
     def setdispname(self, typ, line, cmd):
         self.local[line['arg0']] = line['arg1']
+
+    def removedispname(self, typ, line, cmd):
+        del self.local[line['arg0']]
             
     def serifclose(self, typ, line, cmd):
         self.outlines.append('window hide None')
@@ -202,18 +233,22 @@ class Compiler:
         expr = line['arg1'].replace('目閉じ', 'close')
         pos = get_pos(line['arg2'])
        
-        showchara = ShowChara(outfit, expr)
+        showchara = ShowChara(len(self.to_show), outfit, expr)
         if pos is not None:
             showchara.transforms.append(pos)
         else:
             # NOTE. be CAREFUL Untested. rare codepath
             xpos = self.variables[line['arg2']]
             ypos = 1200
-            showchara.atl = f"pos ({xpos}, 1200)"
-
+            showchara.atl = f"yanchor 1.0\npos ({xpos}, 1200)"
+            
         if typ == 0 and 'arg4' in line:
             time = int(line["arg4"]) / 60
-            showchara.transition = f'Dissolve({time})'
+            showchara.transition = time
+        elif showchara not in self.shown:
+            showchara.transition = 0.5
+            
+        
 
         self.to_show[get_id(line['arg0'])] = showchara
 
@@ -257,11 +292,15 @@ camera:
     def shakechara(self, typ, line, cmd):
         oid = get_id(line['arg0'])
         anim = line['arg1']
-        if oid not in self.shown: return
+        if oid not in self.shown:
+            self.save_shake = SHAKEMAP[anim]
+            return
         if oid not in self.to_show:
             o = self.shown[oid]
-            self.to_show[oid] = ShowChara(o[0], o[1])
-        self.to_show[oid].transforms.append(SHAKEMAP[anim])
+            self.to_show[oid] = ShowChara(len(self.to_show), o[0], o[1])
+        self.to_show[oid].transforms.append(SHAKEMAP[anim])       
+        if(SHAKEMAP[anim] not in {'active', 'inactive'}):
+            self.save_shake = SHAKEMAP[anim]
 
     def shakedisp(self, typ, line, cmd):
         anim = SHAKEMAP[line['arg0']]
@@ -272,8 +311,8 @@ camera:
         if oid not in self.shown: return
         if oid not in self.to_show:
             o = self.shown[oid]
-            self.to_show[oid] = ShowChara(o[0], o[1])
-        
+            self.to_show[oid] = ShowChara(len(self.to_show), o[0], o[1])
+       
         self.to_show[oid].expression = line['arg1']
 
     def hide(self, typ, line, cmd):
@@ -294,8 +333,10 @@ camera:
     def 背景(self, typ, line, cmd):
         bgname = line["arg0"]
         #self.shown.clear()
-        if bgname == "暗幕":
+        if bgname == "暗幕" or bgname == "暗転":
             self.outlines.append(f'show black_cover as bg')
+        elif bgname == "暗背景":
+            self.outlines.append(f'show white_cover as bg')
         else:
             bgname = BACKGROUND[bgname]
             bgname = f"images/{bgname}.png"
@@ -307,7 +348,7 @@ camera:
         self.outlines.append(f'hide fade onlayer curtain')
         
         for showchara in self.to_show.values():
-            showchara.transition = None
+            showchara.transition = 0
         self.output_shows()
 
         self.outlines.append(f'with Dissolve({time})')
@@ -346,13 +387,16 @@ camera:
         xpos = self.variables[line['arg1']]
         ypos = 1200 - get_ypos(line['arg2'])
         time = int(line['arg3'])/60
-        outfit, expression = self.shown[cid]
-        
-        if cid not in self.to_show:
-            self.to_show[cid] = ShowChara(outfit, expression)
-        
-        self.to_show[cid].atl = f"linear {time} pos ({xpos},{ypos})"
-        self.to_show[cid].wait = max(self.to_show[cid].wait, time)
+        if cid not in self.to_show and cid in self.shown:
+            outfit, expression = self.shown[cid]
+            self.to_show[cid] = ShowChara(len(self.to_show), outfit, expression)         
+        if cid not in self.shown:
+            self.to_show[cid].transition = 0.5    
+            
+        self.to_show[cid].move_transform = self.save_shake
+        self.to_show[cid].atl = f'yanchor 1.0\nlinear {time} pos ({xpos},{ypos})'
+        self.to_show[cid].move_end = f'yanchor 1.0\npos ({xpos},{ypos})'
+        self.to_show[cid].wait = max(self.to_show[cid].wait, time)     
 
     def shader(self, typ, line, cmd):
         if line['arg0'] == 'セピア':
@@ -382,24 +426,32 @@ camera:
         self.outlines.append(f'pause {int(line["arg0"])/60}')
 
     def output_shows(self):
-        transition = None
+        transition = 0
         wait = 0
-        for cid, showchara in self.to_show.items():
+        for cid, showchara in sorted(self.to_show.items(), key=lambda x:-x[1].order):
             self.shown[cid] = showchara.outfit, showchara.expression
-            if showchara.transition is not None:
+            if showchara.transition != 0:
                 transition = showchara.transition
            
             self.outlines.append(showchara.construct())
             wait = max(wait, showchara.wait)
-
+            transition = max(transition, showchara.transition)
+                    
+        if wait and transition:
+            wait = wait - transition
         if transition:
-            self.outlines.append(f'with {transition}')
+            self.outlines.append(f'with Dissolve({transition})')
         if wait:
-            self.outlines.append(f'pause {wait}')
+            self.outlines.append(f'pause {(wait)}')
+            
+        for cid, showchara in sorted(self.to_show.items(), key=lambda x:-x[1].order):
+            if(showchara.move_end):
+                self.outlines.append(showchara.move_end)
+                       
         self.to_show.clear()
 
     def compile_commands(self): 
-        self.outlines.append('camera:\n anchor (0.5, 0.5)\n pos (960, 540)\n matrixcolor IdentityMatrix()')
+        self.outlines.append('camera:\n anchor (0.5, 0.5)\n pos (960, 540)\n zoom 1.0\n matrixcolor IdentityMatrix()\npause 0.0')
         self.outlines.append('scene')
         self.outlines.append('stop music')
         for n, line in enumerate(self.commands): 
@@ -407,6 +459,9 @@ camera:
             is_talk = 'arg0' not in line and 'arg1' in line
             text_out = ""
 
+            if(cmd != "move" and cmd != "bgm2" and cmd != "se2" and cmd != "audio"):
+                self.save_shake = ''
+                
             if n in self.forcelines:
                 self.outlines.append(self.forcelines[n])
 
@@ -424,9 +479,10 @@ camera:
                 self.output_shows()
             if is_talk:
                 self.outlines.append(text_out)
-    
+
         return "\n".join(self.outlines)
 
+# Setting up the compiler
 def compile_script(folder, fname):
     ssrname, num = fname.split('_')
     header = f'''label {fname}:
@@ -460,7 +516,7 @@ def compile_script(folder, fname):
     with open(f'game/scripts/{folder}/{fname}.rpy', 'w', encoding='utf8') as outfile:
         outfile.write(header + '\n' + indent(compiled, 1) + '\n call chapter_end\n ' + end)
 
-
+# Start
 if __name__ == '__main__':
     folder = sys.argv[1]
     fname = sys.argv[2]

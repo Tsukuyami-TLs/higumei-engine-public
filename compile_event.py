@@ -42,10 +42,12 @@ def main():
         scriptnames.append(scriptname)
         chapter_jump.append((get_chname(scriptname), scriptname))
 
-    if scriptnames[0].startswith('event'):
+    if scriptnames[0].startswith('event') and not scriptnames[0].startswith('non_event'):
         script_type = "event"
     elif scriptnames[0].startswith('chara'):
         script_type = "chara"
+    elif scriptnames[0].startswith('main'):
+        script_type = "main"
 
     for n, script, trans in zip(range(len(scripts)), scripts, translations):
         scriptname = scriptnames[n]
@@ -77,7 +79,7 @@ def main():
         compiled = Compiler(og_script, tl_dict, greendict).compile_commands()
 
         if n == len(scripts)-1:
-            end = 'return'
+            end = f'\n $ persistent.{event_name}_done = True\n return'
         else:
             end = f'jump {scriptnames[n+1]}'
 

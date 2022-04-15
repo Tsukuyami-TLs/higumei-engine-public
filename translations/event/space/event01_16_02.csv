@@ -1,0 +1,179 @@
+event01_16_02.bytes,chara,jp,en,Notes TL,Notes QC
+31,Rika (アンドロイド),"……着きましたのです。
+さぁ、起きてくださいなのですよ。","...We have arrived. Now, please wake up.",,
+38,Kazuho (Casual),……えっ……？　こ、ここは……？,...Eh...? Wh-where is this...?,,
+40,,"視界に広がる景色に、私たちはあんぐりと
+口を開けて立ち尽くす。",We stand in place with our mouths agape at the view in front of us.,,
+41,,"さっきまでいた宇宙船の室内の様子や
+宇宙の光景は、もうどこにもない。
+その代わりに――。",The interior of the spaceship as well as the view of space from earlier were now nowhere to be seen. In its place—,,
+44,Rena (Casual),"はぅぅっ……レナたち、#p雛見沢#sひなみざわ#rに
+戻ってきちゃっているよぉ～！
+なにがどうなったのかな、かな？","Hauuu... we're back in Hinamizawa~!
+I wonder how this happened, this happened?",,
+46,,"全員が戸惑って、しきりに周囲へ目を向けながら
+軽いパニックに陥ってしまっている。","All of us are bewildered, looking at our surroundings up and down in a light panic.",,
+47,,"懐かしい光景……には違いない。
+だけど、ケーイチたちから告げられた話が
+事実だとしたら、この村は……っ。","This nostalgic environment... there was no mistaking it.
+But if the story told by K-1's group was true, then this village was...",,
+50,Satoko (Casual),"を……をーっほっほっほ！
+なるほど、そういうことですのねっ？","O-...ohohoho! I see, so it's like that, huh?",,
+54,Kazuho (Casual),"ど……どうしたの沙都子ちゃん？
+何かわかったの？","Wh-what do you mean, Satoko-chan? What do you understand?",,
+56,Satoko (Casual),"えぇ、もちろん！
+結局のところ、地球は滅んでなど
+おりませんでしたのよ！",But of course! It just turns out the Earth wasn't really destroyed after all!,,
+58,Satoko (Casual),"私たちを蘇生したというのも、ただの嘘！
+すなわち、これは茶番！
+いわゆるドッキリだったのですわ～！","All of that revival stuff was just a lie!
+This was a total facade! One of those so-called practical jokes~!",,
+60,Kazuho (Casual),…………。,............,,
+63,,"沙都子ちゃんはそう言い放って、高らかに
+笑ってみせるけれど……
+私たちはなんとも言えない思いで、顔を見合わせる。","Satoko-chan declares that with a hearty laugh, but...
+We all exchange glances with indescribable thoughts.",,
+64,,"正直、まだ疑わしいところは多々あった。
+だけど少なくとも、「事実」として受け止めなければ
+いけないことは確かに存在していた……。","Honestly, there was still a lot to doubt.
+But at the very least, there were certain things we couldn't ignore and had to accept as ""fact""...","comment / from ""Honestly, there was still a lot of doubt. But at the very least, there were certain things we couldn't ignore and had to accept as fact...""",
+67,Mion (Casual),"あのさ……沙都子。これがドッキリだったら、
+さっき私に電撃を浴びせて気絶させたのは
+なんだったのよ、って話になるんだけど……。","Ummm... Satoko. If this really all was a practical joke, how do you think I got knocked out after getting zapped earlier?","comment / from ""Ummm...Satoko. If it really were a prank, how do you think I fell unconscious after getting zapped earlier?""",
+70,詩音 (Casual),"えぇ……私もそう思います。
+それに、沙都子だって見たでしょう？
+美雪さんと菜央さんが、その……。","Yeah... I agree. Besides, didn't you see what happened, Satoko?
+Miyuki-san and Nao-san just started to...",,
+75,Satoko (Casual),っ、そ……それは……！,Th-th-...that's...!,,
+81,？？？？,…………。,............,,
+87,圭一 (アンドロイド),"残念だが、これはドッキリでもなんでもねぇ。
+唯一で、そして確実な事実だ。","Unfortunately, this is anything but a practical joke.
+That is the one and only certain truth.",,
+90,圭一 (アンドロイド),"お前らのＤＮＡは、この集落から採取した。
+そして自然災害も、ここから始まったと
+記録に残ってる。","Your DNA was collected from this village.
+Also, there are records saying a bunch of natural disasters originated here.",,
+93,圭一 (アンドロイド),"その火山性の有毒ガス……？　がどうやって
+世界に広まったのかは、不明だがな。
+まぁ以降の調査次第で明らかになるだろう。","That volcanic toxic gas...? How it spread across the Earth remains unknown. But well, all of it will likely be made clear after our investigation.",,
+97,Kazuho (Casual),"でも……地球はわずかな生存者を除いて
+滅んでしまった、って言ってなかった？",But... didn't you say the Earth was destroyed and only few survived?,,
+99,Kazuho (Casual),"そのわりに、この雛見沢って
+私たちの記憶の中にあるものと
+ほとんど同じなんだけど……。","With that in mind, this Hinamizawa is practically identical to the one we remember...",,
+102,圭一 (アンドロイド),"だから、言っただろ？　俺たち環境保護官は
+自然を復元して、滅んだ生物を復活させるのが
+仕事だってな。","I told you, didn't I? Our job at the Environment Protection Coalition is to restore nature and resurrect extinct species.",,
+105,圭一 (アンドロイド),"……もっとも、現状で復旧できたのは
+このエリアだけだ。この土地から１歩でも
+外に出れば水もないし、酸素もない。","...However, this was the only area that could be restored at present.
+If you take even one step away from this area, there would be no water or oxygen there for you.",,
+108,圭一 (アンドロイド),"砂塵が吹き巻く灼熱の大地が広がってて、
+お前らだったら１分も生きてられねぇと思うぜ。","The vast outer majority is scorching hot and has raging sandstorms, and I don't think you'd last a minute in conditions like that.","from ""The land outside is scorhing hot with sandstorms blowing, and I don't think you'd last a minute there.""",
+112,Miyuki (Casual),"……信じられないよ。
+目の前に広がるこの雛見沢の光景が、ぜーんぶ
+人工的に再現されたものだなんて……。",...Incredible. To think that this Hinamizawa scenery laid out before me was {i}aaall{/i} recreated artifically...,"comment / from ""...Incredible. I can't believe that this Hinamizawa scenery laid out before me was aaaaaall recreated artifically.""",
+115,,"美雪ちゃんのその感想は、私も同じだけど……
+だからといって真偽を確かめる気にもなれない。",I feel the same way as Miyuki-chan... but I don't have the heart to confirm how true it is.,,
+116,,"それに、もしケーイチの話が本当だったとしたら
+身体にのしかかるこの絶望感は、きっとさらに
+重くて苦しいものになるだろう……。","Besides, if K-1 really was telling the truth, then this hopeless feeling weighing down my body would surely become even heavier and more painful...",,
+119,Nao (Casual),"……それで、あたしたちは何をすればいいのよ。
+今度は虫か何かの鳴き真似でもしろっての？","...So, what are we supposed to do?
+Are you going to make us imitate bug noises or something this time?",LMFAO,
+123,圭一 (アンドロイド),"ははっ、別に難しいことを頼むつもりはねぇよ。
+ここで丸１日、普通に暮らしてくれればいい。","Hahah, I'm not necessarily going to ask you to do anything difficult.
+You can just live as you do normally for one whole day.",,
+126,圭一 (アンドロイド),"そして、集めた環境とお前らのデータをもとに
+自然をどこまで、どういう工程で復元するかを
+検討することになる。","Then after collecting data on both you guys and the environment, we're going to determine how much nature we want to restore and by what process.","comment / from ""And then, after collecting data on the environment and you guys, we're going to determine how much nature we want to restore and by what process.""",
+129,圭一 (アンドロイド),"もちろん、それが終わればお前たちを
+俺たちの住む星に移送して……最低限の生活が
+できるよう、取り計らうつもりだぜ。","Of course, once that's done, you'll be transported back to our home planet... where we'll arrange for you to be given minimum living accommodations.",,
+134,Kazuho (Casual),……っ……！,...*gasp*...!,,
+137,,"ケーイチの言葉に反応して、私たちは
+はっ、と息をのんで目を大きく見開く。",We collectively gasp at what K-1 says to us and stare at him wide-eyed.,,
+138,,"彼は今、「移送」という言葉を使った。
+つまりそれは、私たちを……？","He just used the word ""transported "".
+So that means we'll...?",,
+142,Rena (Casual),はぅ……この雛見沢には、もう住めないの？,Hau... we won't be able to live here in Hinamizawa anymore?,,
+146,Rika (アンドロイド),"みー。この地球を元通りにするには、
+それこそ長い期間と莫大な費用がかかります。",Meep. It would take a lot of time and resources to restore the entire Earth into the form it was in previously.,,
+149,Rika (アンドロイド),"気持ちは理解できますが、つかの間の夢を
+楽しむと思ってもらいたいのですよ。","We understand how you feel, but we hope you will enjoy yourselves in this brief period.","comment / from ""We understand how you feel, but we hope you will enjoy yourselves like it were a fleeting dream.""",
+153,Kazuho (Casual),…………。,............,,
+158,圭一 (アンドロイド),"まぁ、その代わり……ここで過ごす内容は
+お前らの自由だ。この土地で作る最後の思い出を
+せいぜい楽しんでくれ。","So... feel free to enjoy your time here instead of feeling bad.
+Please enjoy the last memories you'll make in this land to the fullest.","from ""Or, instead...you can spend your time here as freely as you want. Enjoy to the fullest the last memories you'll make in this land."" ",
+161,圭一 (アンドロイド),"ついでに食糧と、念のために護身用の武器も
+渡しておくぜ。……んじゃ、また明日な。","I'll also give you some food and weapons for self-defense, just to be safe. ...Well, see you tomorrow.",,
+165,,"そう言ってどこから取り出したのか、
+ナップザックのような鞄を地面に置いた次の瞬間……
+２人の姿は光の粒子と化して、跡形もなく消え去った。","Right as he said that, he somehow produced a knapsack-looking bag and set it on the ground... then the two of them transformed into light particles and vanished without a trace.",,
+168,Miyuki (Casual),"消えたね……。まぁ大方、私たちの知らない
+超科学の技術か力を使ったりして、
+宇宙船までテレポートでもしたんだろうけどさ。","They disappeared, huh...? Well, they probably used some superscience technology or power we don't understand to teleport back to the spaceship.",,
+171,Satoko (Casual),"……善意はあるのかもしれませんが、
+なんとなく上から目線の態度が気に入りませんわ。","...They might have good intentions, but I can't say I appreciate their condescending attitude.",,
+173,Satoko (Casual),"顔かたちが似ているだけで、
+圭一さんや梨花とは雲泥の違いですわね。","Their faces alone look similar, but there's a great difference between them and our Keiichi-san and Rika.","comment / from ""Despite their similar features, there's a great difference between them, Keiichi-san, and Rika."" ",
+176,,"沙都子ちゃんの感想に、私たちはそれぞれの表情で
+「確かに」と頷き合う。
+……どうやらみんな、不快に感じていたようだ。",We all nod at each other in agreement in response to Satoko-chan's take on the situation. ...It was apparent that everyone felt uncomfortable.,"i just simplified this honestly / comment / from ""At Satoko-chan's thoughts, we all nodded at each other, our facial expressions seemingly saying ""I agree""...Seems that everyone felt uncomfortable.""",
+179,Nao (Casual),"……。この雛見沢で過ごす時間が、
+あと１日だけだなんて……。",...To think we only have one day to spend here in Hinamizawa...,,
+182,Kazuho (Casual),…………。,............,,
+185,,"無力すぎる自分への怒り、悔しさ、悲哀。
+整理できない様々な感情を持て余して……
+私はため息をつきながら、何度も首を振る。","I feel angry, bitter, and sad at our powerlessness.
+There are far too many emotions to be able to sort through... so I just sigh and shake my head over and over.",,
+186,,"いきなり、これが最後の１日といわれても
+納得なんかできない……できるわけがない。",I can't accept that this is my final day here... there's no way I could with that information just laid on me suddenly.,"comment / from ""Suddenly being told that this was my final day, I couldn't accept it...I just couldn't.""",
+187,,"そんな、暗い気持ちで視線を落としながら
+こみ上がってくる嗚咽を漏らしそうになった……
+その時だった。","Those gloomy feelings caused my gaze to fall, and I was on the verge of sobbing... but at that moment...","comment / from ""These gloomy feelings caused my gaze to fall, and I was on the verge of tears...But at that moment...""",
+194,Mion (Casual),"まぁ……こうなったら、気持ちを切り替えてさ。
+せっかくだしみんな、昨夜……じゃない、
+１０００年前の続きで天体観測でもしにいこうっ！","Well... in times like these, you just need to change your state of mind. Alright everyone, let's get back to the stargazing we did last night... no, a thousand years ago, tonight!",,
+201,詩音 (Casual),えっ……？,Eh...?,,
+204,Rena (Casual),魅ぃちゃん……？,Mii-chan...?,,
+207,,"明るくそう言い放つ魅音さんに、
+私たちは一斉に顔を向けて怪訝な思いを抱く。",We all simultaneously look at Mion-san with puzzled thoughts after her cheerful declaration.,,
+208,,"すると彼女は、苦笑まじりに肩をすくめながら……
+私たちを元気づけるように声を張り上げていった。",Then she shrugged her shoulders with a wry smile... and raised her voice to cheer us up.,,
+211,Mion (Casual),"悲しんでばかりいたって、何も始まらないって！
+だったら、最後でも楽しい思い出を残したほうが
+なんぼかマシ！――でしょ？","Moping around won't get anything done!
+It's much better for our last memory here to be a happy one! ―Right?","comment / from ""Moping around won't get anything done! That's why it's better for our last memory to be a happy one, right?!""",
+213,Mion (Casual),"明日になったら、どこの星に連行されるのかは
+私もわかんないよ。……けど、今日みんなと過ごした
+思い出は大切に覚えていたいんだ……ねっ？","Tomorrow, we'll be taken away to some world we know nothing about. ...But today, we can create special memories together to be able to look back on them fondly... y'know?",,
+215,？？？？,……っ……！,...ah...,,
+219,詩音 (Casual),"くっくっくっ、そうですね……。
+色々考えて落ち込むより、ここはひとつ
+明るく気分を入れ替えるとしますか。","*cackle*, I see...
+We need to try replacing all of our sad thoughts with happier ones instead of sitting on them, right?",,
+222,Rena (Casual),"あははは、さすが魅ぃちゃん！
+レナは異議なーし、だよっ♪","Ahahaha, that's the Mii-chan we know!
+Rena has no objections♪",,
+226,Miyuki (Casual),"んー、まぁ勝手に生き返らせておいて
+ずいぶん扱いが雑だなー、ってムカッ腹は
+あるけどねー。","Mmm, well, it is pretty aggravating being brought back to life against our will. Like talk about sucky treatment...","comment / from ""Mmm, well, after being brought back to life on a whim and being treated so poorly, I'd expect to feel a little angrier..."" ",
+229,Miyuki (Casual),っと、今のって聞こえてない……よね？,"...Wait, they didn't hear that... right?","comment / from ""...Is anybody listening right now?""",
+232,,"美雪ちゃんは慌てて口を押さえる。
+私たちも思わず身構えた……けれど、何もないことを
+確かめてからはクスッ、と笑いあった。","Miyuki-chan panics and suddenly covers her mouth.
+We also instinctively braced ourselves... but after seeing that nothing was wrong, {i}pffft{/i}, we all started laughing.","comment / from ""Miyuki-chan suddenly covered her mouth. We also instinctively braced ourselves...but after seeing that nothing was wrong, we all laughed.""",
+235,Nao (Casual),"言葉が変になるくらい、別にいいわよ。
+……ちょっとびっくりしたけどね。
+どう美雪、何か異変とかはない？","It seems fine to say bad stuff. ...I was a little scared, though. How are you, Miyuki? Anything strange happening to you?","comment / from ""I'm not particularly surprised that you said something weird....But I was a little surprised. What strange thing did you see, Miyuki?""",
+238,Miyuki (Casual),……うん。問題はない、かな……？,"...No. I'm okay, I guess...?","from ""...Yeah. That won't be a problem, will it...?""",
+241,Miyuki (Casual),"――っていうか、ぜんぜん大丈夫！
+この通り、ピンピンしてるもん！","—You know what, actually, I'm totally fine!
+I'm super lively, as you can see!",,
+245,Mion (Casual),よしっ……んじゃみんな、行きますか！,"Alright! C'mon, everyone, let's go!",,
+249,Satoko (Casual),をっほっほっほっ、燃えてきましたわ！,Ohohohohoho! Now I'm all fired up!,,
+253,Rena (Casual),あははは、レナも頑張っちゃうよ～！,"Ahahaha, Rena will keep at it too~!",,
+256,,"こうして気持ちを切り替えた私たちは、
+古手神社へと向かって歩き出した。","Our moods in much better shape, we all walked towards the Furude Shrine.","comment / from ""With our moods changed, we walked towards the Furude Shrine.""",

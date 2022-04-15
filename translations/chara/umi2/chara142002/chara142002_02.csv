@@ -1,0 +1,113 @@
+chara142002_02.bytes,,Llo - TL,Naegles- QC
+index,chara,jp,en
+27,赤坂,"やぁすまない、梨花ちゃん。
+一足先に来る予定だったんだが、
+少し遅くなってしまったね。","Hey, sorry, Rika-chan. We made plans ahead of time, but I made it here a little late."
+32,Rika (Casual),"みー、大丈夫なのです。ボクが約束の時間よりも
+早く来すぎてしまっただけなのですよ。",Meep. It's okay. I was the one who came earlier than we promised.
+34,赤坂,"ははっ、そうかい。……それじゃ、長居するのも
+申し訳ないから、手短に話をさせてもらうとしよう。","Haha, is that right? ...Also, I can't stay for too long, so let's try to make this brief."
+37,赤坂,まずは、梨花ちゃん。これを見てくれ。,"Firstly, Rika-chan, look at this."
+39,Rika (Casual),"これは……
+ひょっとして『ロールカード』なのですか？","This is...
+Could this be a {b}Role Card{/b}?"
+41,赤坂,"ふむ……確かに君たちは、
+この「カード」のことをそう呼んでいたね。
+その名前をつけたのは、誰なんだい？","Hm... So, you kids have been calling them ""Cards"". Who gave it that name?"
+43,Rika (Casual),"みー、美雪なのです。
+あと『ロールカード・エスカレーション！』という
+掛け声も、あの子が最初に唱えてみせたのですよ。","Meep. Miyuki did. Also, she was the first one to try shouting the phrase, ""{b}Role Card Escalation!{/b}""."
+45,赤坂,"……そうか。
+彼女にもあとで、話を聞いてみたいところだな。",...I see. Seems like I'm also going to have to hear what she has to say afterwards.
+47,Rika (Casual),"それはともかく、赤坂。あなたはこの「カード」を
+どこで、いつ手に入れたのですか？","Anyway, Akasaka, where and when did you get your hands on this ""Card""?"
+49,赤坂,"#p雛見沢#sひなみざわ#rから離れた、県境の山中だ。
+そして発見したのは、今から４年前……。","Far off from Hinamizawa, on the prefectural border in the mountains. I discovered it about 4 years ago."
+51,赤坂,"ダム建設の現場監督が殺されて、
+その遺体をバラバラにされた……
+『１年目の#p祟#sたた#rり』が起きた直後だよ。",This was directly after the dam site foreman was killed and dismembered in the {b}first year of the curse{/b}.
+60,Rika (Casual),"っ……？！
+赤坂、あなたは『オヤシロさまの祟り』の事件に
+関わっているのですか？","Ah...?! Akasaka, you've been involved with the {b}Oyashiro-sama's curse{/b} incidents?"
+62,Rika (Casual),"で、でも……確かあなたは東京の刑事で、
+それに……？！","B-But... you're definitely a detective from Tokyo, and...?!"
+70,赤坂,"あぁ。本来、公安として携わるものとしては
+明らかに毛色が違う。だから私としても、
+最初は大石さんたちの職分を侵すまいと思っていた。","Yeah. Normally, working in public safety versus out in the field are two separate worlds. So, for my part, I thought I shouldn't intrude on Ooishi-san's group's duty at first."
+72,赤坂,"だが、この数ヶ月の間に状況が変わってきたんだ。
+……この「カード」、もう一度見てくれるかい？","But over these past few months, the situation has changed.
+...Can you look at this ""Card"" one more time?"
+76,Rika (Casual),"……ずいぶんと黒くなっているのです。
+まるで、火に炙って焦げてしまったようなのですよ。",...It's blackening a lot. It's almost like it's been scorched in a fire.
+79,赤坂,"その通りだ。しかもこれは科捜研の鑑識の結果、
+この世界に存在するどの物質にも合致しない、
+未知の素材でできていることが判明した。","Exactly. What's more, I sent it in to be appraised by a forensic research team, and the result confirmed that, through means unknown, it was made from a material that cannot be found in this world."
+81,赤坂,"もちろんそれだけだったら、警察の出番ではない。
+まして公安である私が、首を突っ込む理由もね。","Of course, if that is the case, then the police have their hands tied. Even more of a reason for me as public safety to poke my nose in it."
+83,赤坂,"しかし……最近これと同じものが首都圏で、
+おまけに事件現場に落ちていたとなれば、話は別だ。
+何らかの陰謀が動いている可能性が高いだろう。","But... if the same recent events happened in the capital, or worse, if it led to there being a crime scene, that would be a different story. I assume there's a high possibility some sort of conspiracy is in the works."
+86,Rika (Casual),"『ロールカード』が、東京でも……？
+それはいったい、どういうことなのですか？",So even Tokyo has {b}Role Cards{/b}...? How could that possibly be?
+88,赤坂,"その前に……梨花ちゃん。
+君は、私たち家族にとって大切な命の恩人だ。
+少なくとも私は、君に救われたと思っている。","Well, before I explain that... Rika-chan, my family owes you their lives. At the very least, I believe that you saved us."
+90,Rika (Casual),みー……？,Meep...?
+92,赤坂,"５年前、君は私に「東京へ帰れ」と言ってくれた。
+それが何を意味したものなのか、聞いた時はすぐに
+理解できなかったけれど……。","5 years ago, you told me to, ""Go back to Tokyo."". At the time, I couldn't understand the meaning behind it, but..."
+94,赤坂,"なんとなく胸騒ぎがして、職務放棄を覚悟の上で
+妻が入院していた東京の病院に戻った翌日……
+屋上へと向かう階段で、転落事故が起きたんだ。","For some reason, I got uneasy, and decided to abandon my duties the next day so that I could return to my wife admitted in a hospital in Tokyo... That's when an accident on the stairs leading to rooftop happened."
+96,Rika (Casual),…………。,............
+104,赤坂,"それを知った時……全身に戦慄が走ったよ。
+その階段は毎日、妻が私の早い帰還と無事を願って
+屋上へ出る時に使っていたものだった。","When I learned about that... my body shook with fear. Every day, my wife would take those stairs to get to the rooftop, where she would wish for my safety and swift return."
+106,赤坂,"しかも人為的な細工か、単なる経年劣化なのかは
+ともかく……滑り止めのタイルの接着が緩んで、
+うっかり足を載せると踏み外す仕様になっていた。","And then, whether it was done by human hands or whether it was simply by natural degradation, I have no idea... but the none-slip adhesive for the tiles wore off, and someone thoughtlessly stepped on them, losing their balance."
+108,赤坂,"事故で大怪我をした人には申し訳ないが……
+もし、その階段を使っていたのが私の妻だったら
+取り返しのつかないことが起きていたかもしれない。","I feel horrible for the person who was gravely injured in the accident... but if it was my wife who used those stairs, I don't know if she would have been able to recover from that."
+110,赤坂,"妻と、お腹の中にいた娘が無事だったのは
+梨花ちゃん……君のおかげだ。
+だから私は、君に心からの恩を感じているんだ。","The fact that my wife and my daughter in her belly were safe... is all thanks to you, Rika-chan. That's why, from the bottom of my heart, I feel as though I'm indebted to you."
+118,Rika (Casual),赤坂……。,Akasaka...
+120,赤坂,"それを踏まえた上で、聞いてほしい。
+……私は、君に伝えられる限りの真実を話す。
+どうか、聞いてもらいたい。","With that in mind, I want you to hear me out. ...As long as it's with you, I'll convey the full truth. So, please, I want you to hear me out on this."
+122,赤坂,"その上で、私に力を貸してもいいかどうかを
+判断して……答えを聞かせてくれ。","And in return, please judge whether or not I'll be able to lend you my aid... as you listen to my answer."
+131,Rika (Casual),…………。,............
+134,Rika (Casual),"わかりましたのです、赤坂。
+あなたのこと、ボクもちゃんと信じるのですよ。","Understood, Akasaka. I believe in you too."
+142,赤坂,……ありがとう、梨花ちゃん。,"...Thank you, Rika-chan."
+144,赤坂,"っと……前置きが長くなってしまったね。
+詳細については後日として、これだけは
+君に伝えておくよ。","Ah... The introduction ended up being pretty long. I'll have to share the details with you another day, but I'll convey just this to you for now."
+146,赤坂,"この雛見沢に出没している、異形の生物……
+君たちが『ツクヤミ』と呼んで戦っている、
+例の「あれ」のことだ。","The grotesque lifeforms that are showing up in Hinamizawa... you kids call them {b}Tsukuyami{/b} and fight them. ""They"" were involved with the earlier case."
+148,赤坂,"あの存在については実のところ、
+政府の一部機関で明らかに把握しているふしがある。
+……君たちの持つ、『ロールカード』についてもね。",Some government agencies are clearly aware of their existence. ...Just like they are about the {b}Role Cards{/b} you kids have too.
+150,赤坂,"その上で連中は、何かを企んでいる……。
+それを突き止めるべく私は、上層部の命を受けて
+この村に派遣されてきたんだ。","On top of that, those people are planning something... I've been dispatched to this village by my higher ups to determine exactly what."
+153,Rika (Casual),"なっ……？　そ、それはつまり『東京』の組織が
+入江機関を通じて、この雛見沢に何らかの影響を
+及ぼそうとしているということなのですか？！","Wha-...? Th-that would mean via the Irie Institute, the {b}Tokyo{/b} organization is doing something that's impacting Hinamizawa?!"
+155,赤坂,"……なるほど。やはり君も、『東京』のことを
+知っていたようだね。そしてあの入江診療所の、
+裏に隠された本当の姿を……。","...I see. So, you really do know about {b}Tokyo{/b}, then? As well as the Irie Clinic's true form hidden underneath..."
+157,Rika (Casual),"はいなのです。もしあなたが聞きたいのであれば
+ボクが入江機関にどういう協力をしているのか、
+あなたに全部教えてもいいのですよ。","Yes, of course. If what you want to hear is how I'm cooperating with the Irie Institute, then I'll tell you everything I know."
+159,赤坂,"あぁ、そうしてくれると本当にありがたい。
+君と入江氏、鷹野氏との関係は正直言って
+掴みかねているところが多かったからね。","Yeah, I would be insanely grateful if you did that. Putting it frankly, there were a bunch of factors that I was having difficulty comprehending regarding the relationship between you, Mr. Irie, and Mrs. Takano."
+161,赤坂,"ただ……今回の陰謀は、それと全く別系統で
+動いている。だからこそ、こうして公安が
+重い腰を上げることになったわけなんだが……。","The only thing is... the conspiracy this time is stirring much differently from the way these people move. That's why public security has been letting up on them for the time being, but..."
+163,Rika (Casual),……。その組織とは、何ですか？,...What would this other organization be called?
+172,赤坂,それは、――。,That would be __ __.

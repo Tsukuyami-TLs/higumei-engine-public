@@ -1,0 +1,552 @@
+event01_33_99.bytes,Character Names,Japanese Text,Translation,Notes TL,Notes QC
+24,,――昭和６２年１２月某日――,-On a certain day in December 1987-,,
+28,Satoko (高校生クリスマス),"この飾りつけ、こんな感じでどうかしら……
+梨花、そちらの準備は進んでおりまして？","I wonder if I should put the decoration up like this...
+Rika, how are preparations going on your end?",editz,
+29,Rika (高校生クリスマス),"あ……うん。ここまで揃えばすぐにでも、
+パーティー会場に出向いて飾りつけができるわ。","Ah... good. Now that we've got everything set up, we can go to the party venue and start decorating right away.",,
+30,Satoko (高校生クリスマス),"をーっほっほっほっ、それは重畳ですわぁ。
+さてと、お次は……。","Ohohoho! That's excellent. Well then, what's next...",,
+31,Rika (高校生クリスマス),……。ねぇ、沙都子……？,"...Hey, Satoko...?",,
+32,Satoko (高校生クリスマス),なんですの？,What is it?,,
+33,Rika (高校生クリスマス),"先日の脱走の後始末をした代わりに、
+生徒会のクリスマスパーティーの準備を手伝え……
+って、生徒会長が要求したのはまだわかるわ。","In exchange for helping us after we snuck out the other day, the president asked us to help out with preparations for the student council Christmas party... that much I understand.",,
+34,Rika (高校生クリスマス),"ギリギリだけど、理解できるわ。
+でも……でもねっ……。","Just barely anyway.
+But... but, you know...",editz,
+41,Rika (高校生クリスマス),"どうしてよりにもよって、こんな格好で
+やらなきゃならないのよーっ？！","Of all things, why do we have to do it in these outfits?!",order,
+49,Satoko (高校生クリスマス),"またその話ですの……？
+いい加減、諦めたほうがよろしいと思いますわ。",That again...? I think you're better off just accepting it already.,editz,
+51,Rika (高校生クリスマス),"そんなこと言ったって、
+こんな恥ずかしい格好をするなんて
+全然聞かされていなかったわ！","You say that, but no one told me we'd have to wear such embarrassing outfits!",,
+53,Satoko (高校生クリスマス),"何を言っているんのですの、梨花。
+昔の罰ゲーム衣装の方が色々と過激でしたのに。","What are you saying, Rika? The outfits we had to wear for our punishment games in the past were much wilder than these.",,
+56,Rika (高校生クリスマス),それは、そうかもしれないけど……！,"That's true, but...!",,
+59,,"どうして沙都子は平然と現状を受け入れて、
+粛々とパーティーの準備を進めているのかが
+よくわからない。",I really don't get why Satoko accepted this situation so quietly and is just going along with setting things up for the party.,,
+60,,"というか……あの我の強い沙都子が、
+こんなにも素直に生徒会長の命令に
+従っている理由が全く理解できなかった……！",What's more... I couldn't come up with a reason why the strong-willed Satoko would so honestly obey the student council president's orders...!,,
+63,Rika (高校生クリスマス),（それも、これも……っ……！）,(All of this... it's all her fau-...!),,
+68,？？？？,やぁ、準備は進んでいるようだね。,"Hey, seems like preparations are going smoothly.",,
+72,Rika (高校生クリスマス),あっ……？！,Ah...?!,,
+74,,"背後からの声に振り返ると、
+ちょうど思い浮かべた人物が段ボール箱を抱えて
+扉の前で佇んでいる姿が、視界に飛び込んできた。","As soon as I turn towards the voice behind me, the person I was just thinking of popped into my field of vision, carrying a cardboard box.",editz,
+77,Rika (高校生クリスマス),生徒会長……！,President...!,editz,
+80,？？？？,"うん、やっぱりその衣装は似合っているよ。
+私と北条さんの見立て、間違っていなかったね。","Yep, that outfit does suit you. Guess Houjou-san and I chose well after all.",,
+83,Rika (高校生クリスマス),生徒会長……どうして黙っていたんですか？,President... why did you keep quiet about this?,editz,
+86,？？？？,ん？　なんのこと？,Mm? About what?,,
+89,Rika (高校生クリスマス),"あなたが、沙都子と知り合い……
+いえ、それどころか沙都子に勉強を教えるほど
+仲が良かったなんて、初耳だったわっ！","That you're acquainted with Satoko...
+No, if anything, the fact that you two are so close that you've helped Satoko study is news to me!",editz,
+92,？？？？,"ふむ……聞かれなかったから、
+私も答えなかっただけだよ。
+まぁ、北条さんに口止めはしていたけどね。","Hmm... you never asked, so I never gave an answer.
+Well, I did forbid Houjou-san from saying anything about it, though.",editz,
+99,Rika (高校生クリスマス),それを「黙っていた」って言いますよねッ！,That just means you kept quiet about it!,,
+104,,"憤懣やるかたなく、私は普段の振る舞いを
+まとめてゴミ箱に叩き込む勢いで怒声をぶつける。",I toss the entirety of my usual demeanor in the trash with a forceful and indignant bellow.,editz,
+105,,"そんな私を苦笑まじりに「まぁまぁ……」と
+なだめながら、沙都子はよりにもよって
+生徒会長を「擁護」するように口を開いていった。","Satoko awkwardly smiled and said, ""Now, now..."", and of all things she could do, she opened her mouth to {i}defend{/i} the student council president.",,
+108,Satoko (高校生クリスマス),"だから梨花、何度も申し上げましたわよね？
+生徒会長が黙っていたのは、私のためですわ。","Rika, I've told you many times already, haven't I? The president kept quiet about it for my sake.",,
+110,Satoko (高校生クリスマス),"「悪名高い自分とつるんでいると
+周囲に知られたら、教師陣から今以上に
+目をつけられかねない」……と。","She told me that... ""If people knew that you were hanging out with someone as infamous as me, the teachers would keep an eye on you even more than before"", you see.",editz,
+113,？？？？,"古手さんも、私の悪評は知っていたよね？
+大事な人に悪人が近づいたら、不安になる……
+それはごく自然な感情だ。","Furude-san, you're aware of my bad reputation too, aren't you?
+If a bad person approaches someone important to you, you'd feel anxious... It's a very natural feeling to have.",,
+115,？？？？,"ただ、ありがたいことに私は生徒会長という
+絶対権力を手に入れた……。だからこれからは
+大手を振って親睦を深めることができるわけさ。","But, thankfully, I have absolute authority as student council president now... so from here on out, I can use that triumph to deepen our friendship, y'know?",editz,
+116,,"部屋の隅に置いた段ボールにアゴをのせて、
+生徒会長はにんまりと笑う。","The president rests her chin on the cardboard boxes left in the corner of the room, grinning.",,
+117,,"言いたいことはある……それこそ、山のように。
+だけど、何よりも気になるのは……。","There's a lot I want to say... a mountain at that.
+But, what bothers me now is...",,
+120,Rika (高校生クリスマス),"その口調……どうしたんですか。
+今まで、そんな感じに話していませんでしたよね？",What's with... that manner of speech? Have you ever spoken like this up until now?,editz,
+123,？？？？,"普段は訛りをごまかせるよう、至極丁寧に
+喋っているけどね。
+実は、こちらの方が素なんだよ。","I usually chat in an uber polite manner so that people won’t catch onto my accent. In truth, this is my natural speech pattern.",editz,
+126,Rika (高校生クリスマス),"……どう聞いても、私が知っている標準語にしか
+聞こえませんけど。どちらの訛りなんですか？","...No matter how hard I listen, I hear nothing other than the standard dialect. What kind of accent is it?",editz,
+129,？？？？,"知りたい？　当ててみなよ。
+もし正解の時は、毎日缶コーヒーを
+１本おごってあげる。","Wanna know? Try to guess then. Get it right, and I'll buy you a can of coffee everyday.",editz,
+130,,……いらない。それに、知りたくもない。,...I don't need that. And I don't even care.,,
+132,？？？？,"あと、この口調だと上から目線だと言われてね。
+私としては、特にその意識はないんだけど……
+改善しようと努力している最中だ。","Also, people often tell me I sound condescending when talking like this. It's not necessarily my intention... but I'm trying to fix that.",,
+134,？？？？,"まぁ、有象無象の連中になんて思われようと
+別に気にもならないんだけどねー？","Well, not like I care about how people perceive me though, y'know?",,
+137,Satoko (高校生クリスマス),"……最初からそういう態度で人と接するのが、
+良くないのではありませんこと？",...Haven't you ever thought that approaching people with that behavior is a bad idea?,editz,
+140,？？？？,"なるほど。第一印象が悪い人が何をしても
+善人とは思ってもらえないように、ってこと？
+ふむ、初頭効果とはよく言ったものだね。","I see. You mean that no matter what I do, if people have a bad first impression of me, they'll see me as a bad person? 
+Mhm... good on you for bringing up the primacy effect.",editz,
+143,Rika (高校生クリスマス),"話を逸らさないでください……！
+そもそも、生徒会長は知っていたんですよねっ？","Let's not get off topic...! You knew it all to begin with, didn't you?",editz,
+146,？？？？,だから、何を？,Knew what?,,
+150,Rika (高校生クリスマス),"沙都子が、外出しようとしていたこと……
+もし知っていたなら、沙都子を止めることも
+できたはずでしょう？","That Satoko was trying to sneak out...
+If you knew, then couldn't you have been able to stop her?",,
+153,？？？？,"ふむ。もしそうなら、北条さんの脱走に
+私が加担したようなものでは……とでも
+言いたいのかな？","Hmm. So assuming I did know, I guess that means you want to say that I facilitated Houjou-san's escape... or something like that?",editz,
+157,Rika (高校生クリスマス),"違いますか？　もしそれが事実だったら、
+私がこんな恥ずかしい衣装で罰を受けなきゃ
+いけない理由がわかりません……！","Is that wrong? If there was a potential for that happening, I don't see why I have to wear such an embarrassing outfit as punishment...!",editz,
+160,？？？？,"ま、理由はどうであれ、古手さん。
+君が勝手に学園を出たことは、確かな事実。
+それは揺るがない真実だよね？","Oh, who cares about the reason, Furude-san? It's an undeniable fact that you left the academy without permission, right?",editz,
+164,Rika (高校生クリスマス),で……でも、それは生徒会長が行けって――。,Bu-... But that's because you told me to go-,,
+167,？？？？,"別に私は強制したわけではないよ。
+君にだって拒否する権利はあったはずだ。",It's not like I pressured you to. You did have the option to refuse to go.,editz,
+172,Rika (高校生クリスマス),それは……そうかも、しれませんが……！,That... may be so; however...!,editz,
+175,？？？？,"あと……その罰衣装は、
+あくまでも私への見返りみたいなものだ。",Also... that punishment outfit is your repayment to me.,,
+177,？？？？,"北条さんが脱走の際に壊した、柵の修理代。
+新幹線のチケット代。
+その他例の業者を含めた、関係各所への根回し……。",The cost of fixing the fence Houjou-san broke when escaping. The price of the bullet train ticket. The supplier that got involved as well as all of my other connections...,,
+179,？？？？,"いやぁ、なかなかの出費だった。
+就任早々いろんな辛い仕事を片付けた私を、
+誰か慰めてくれないかなぁ……？","Man, it was quite expensive. Can't someone comfort me after properly taking care of all that hard work...?",,
+181,？？？？,"そう思っていたところに、君たちが
+率先して「癒し」係を引き受けてくれたわけだ。
+いやいや、ありがたい限りで感謝、感謝だよ。","Just as I thought that, I went and decided to put you two in charge of my ""healing"". No, really, you're too kind to me; I'm just so grateful!",,
+184,Rika (高校生クリスマス),……っ……？！,...gh...?!,,
+186,,"こんなにも爽やかに脅迫してくる人が、
+本当に生徒会長でいいんだろうか……？",Should someone who threatens people this easily really be the student council president...?,,
+189,Rika (高校生クリスマス),"（これだったら、生徒会に誘われるほうが
+いくらかマシ……いやいやっ！　その言質を
+引き出すことこそが本来の目的っ……？）","(If this is how she's going to be, her attempts at inviting me into the student council might be more tolerable... no, no! Isn't getting me to pledge to her her true goal...?)",editz,
+191,,"なんにせよ、迂闊な発言をしては
+逆手に取られる恐れがありすぎる。
+……黙って従ったほうが安全だろう。","All in all, I risk being taken advantage of by making a careless remark like that... It's safer just being quiet and obeying her orders.",,
+194,Satoko (高校生クリスマス),あの柵の穴って、もう塞いでしまったんですの？,Did you close off the hole in that fence?,,
+197,？？？？,"うん。存在を知る人も出てきたみたいだし、
+私の目が及ばないところで悪用されるのは
+不本意だからね。自前で直させてもらったよ。","Yeah. It seems people found out about it, so I was afraid it would be put to misuse while I'm not looking. So I went and fixed it myself.",editz,
+200,Rika (高校生クリスマス),"柵の修理なら、学園に頼めばいいじゃないですか。
+会長が手ずから直すなんて誰も頼んで――、っ？",You could've just asked the director to fix the fence. Everyone asks for the director's help when it comes to fixing-... ah?,,
+202,,そう口にしかけて、はっ、と気がつく。,I gasp in realization.,editz,
+203,,"あの柵の壊れた痕跡は、
+真新しいものではなかったけど……
+そこまで古いものでもなかった。",The traces of the fence being broken weren't new... but they weren't that old either.,,
+204,,"おそらく細工をしたのは、沙都子ではない。
+当然、私でもない。","Which probably means the one who did the deed wasn't Satoko. Of course, it wasn't me either.",,
+205,,だとしたら、壊したのは……？,"Which means, the one who broke it was...?",,
+208,Rika (高校生クリスマス),"生徒会長……あの柵を壊したのって、
+実は昔のあなたじゃないんですか？","President... the one who broke that fence... wasn't actually you back in the day, was it?",editz,
+211,？？？？,"さぁ？　だとしても、修理しておくに
+越したことはないと思うよ。","Who knows? Whoever it was, I believe fixing it was for the best.",editz,
+213,？？？？,"あの穴がなくなれば、
+北条さんが脱走したかも、と古手さんが
+心配する必要も減るだろうしね。","With that hole gone, your worries over any possibility of Houjou-san escaping will lessen.",,
+216,Rika (高校生クリスマス),…………。,............,,
+218,,"あまりにもな言い分に、言葉を失う。
+開いた口が塞がらないとはこのことか。",I lost my words since she had a point. Is this what it feels like to be utterly perplexed?,,
+221,Satoko (高校生クリスマス),"というより、生徒会長は以前に聞いた
+部活や罰ゲームの話を参考に、こういう衣装を
+私たちに着せてみたくなったのでは……？","More importantly, you've used my stories about club activities and punishment games as reference to make us wear outfits like these...?",,
+224,？？？？,うん。そこは否定しない。,Yeah. I won't deny that.,,
+227,Satoko (高校生クリスマス),そこは否定してほしかったですわ……。,"I wanted you to deny it, though...",,
+229,,そう言って沙都子は、がっくりとうなだれる。,"After saying that, Satoko droops over.",,
+230,,"呆れている……けど、呆れながらも
+同時にある程度受け入れてもいるようだ。","She's fed up... but even so, she seems to be receptive towards it too.",editz,
+236,Rika (高校生クリスマス),"で、でもっ！　こんな格好……
+そもそも、こんな私的なパーティーを
+行うことが先生方に知られては――。",B-But! These outfits... if the teachers find out you're holding a private party like this they'll-,,
+242,？？？？,"先生方はとっくにご存じだよ。
+と言っても一部の、と頭につくけどさ。","The teachers are already aware of it. Well, some of them, that is.",,
+246,Rika (高校生クリスマス),えっ？！　そ、そんな……。,Eh?! N-No way...,,
+248,,"まさか、そんなはずがない。
+だって、こんな破廉恥な服を着た会合を
+ルチーアの厳しい先生たちが許すとは……っ？","No way. That can't be possible. After all, there's no way Lucia's strict teachers would allow an event with such shameless outfits... nn-?",,
+250,？？？？,"いいかい、古手さん。
+重要なのは、情報だ。","Listen up, Furude-san. Information is important.",,
+252,？？？？,"交渉する相手側の中心になる人物の情報を
+徹底的に入手すれば、いくらでも効果的な
+手段を打つことができる。","As long as you thoroughly acquire intel towards key individuals of the opposite party you're dealing with, there will be multitudinous effective means at your disposal to achieve what you want.",editz,
+254,？？？？,"特に、権力にとりつかれた連中は
+誰しも自分のことが最優先で可愛い……
+となれば、どこかに弱みがあるものさ。","Those who are obsessed with power especially prioritize themselves, and it's adorable... In these situations, this gives them a blind spot.",editz,
+256,？？？？,"そして、こちらが捨て身で共倒れ覚悟と
+わかった瞬間、相手は怯む。
+……そうなればもう、こっちの主導権だよ。","And so, the very moment my opponent becomes aware of how I'm prepared for mutual destruction, they flinch. 
+...With that, my side would have already gained the lead.",editz,
+259,Rika (高校生クリスマス),なっ……？！,Wha-...?!,,
+261,,"じゃ、邪悪だ……！
+笑顔で「闇」を語れるところは
+まるで「彼女」のようだ……！",Sh-she's evil...! The part of her that can speak with such a {i}shady{/i} smile is just like {i}her{/i}...!,.editz // EUA?!$!?!,
+263,？？？？,"あと……弱みが見つからない場合は、
+こちらから作ってやるのもひとつの手だ。","Also... when you're unable to find their weaknesses, all you have to do is to make some yourself in one simple move.",,
+265,？？？？,"例えば、禁止されている無断外出を唆す……
+と言うようにね？","For example, tempting one to leave without permission... right?",editz,
+268,Rika (高校生クリスマス),……っ……。,...ngh...,,
+270,,ふらり、と眩暈を覚えて身体が傾く。,"My body gets whiplash remembering that prospect, staggering me...",editz,
+274,Rika (高校生クリスマス),"（はめられた、と薄々気づいていたけれど、
+こうもあっさり種明かしをされるなんて……！）","(I was vaguely aware that I was set up, but for her to reveal her tricks this easily...!)",editz,
+281,Satoko (高校生クリスマス),はぁ……。,*sigh*...,,
+286,,"そんな私の意識を引き戻したのは、
+沙都子のため息だった。",Satoko's sigh brought me back to reality.,editz,
+289,Satoko (高校生クリスマス),"生徒会長……
+そうやって自分を悪者に見せかけるやり方は、
+あまり感心できませんわ。",President... I don't appreciate the way you make yourself seem like the bad one here.,editz,
+291,Satoko (高校生クリスマス),"あなたが噂ほど悪い人でないことくらいは私も、
+それに梨花も薄々承知しておりましてよ。
+誤解を招く道化は、ほどほどになさって下さいませ。","I'm aware that you're not as bad as the rumors say, and I'm sure Rika knows as well. Just please keep your misinterpretable antics to a moderate level.",editz,
+294,？？？？,"いいんだよ、私自身が納得してるんだから。
+……にしたって、北条さんも水臭いね。","It's okay, I'm already convinced of it myself.
+...Still, you're wishy-washy too, Houjou-san.",editz,
+296,？？？？,"事前に相談してくれれば、一緒に抜け出して
+もっと安全にマフラーを買いに行く計画とかを
+提案してあげられたのに。","If you had informed me of it in advance, we could've snuck out together, and I could've come up with a safer plan to buy the scarf.",,
+299,Satoko (高校生クリスマス),"それが万一失敗したら、生徒会長も
+責任を問われるではありませんの。
+人を巻き込むような真似はできませんわ。","If by any chance that ended in failure, you'd be held responsible for it too. I can't get people involved like that.",,
+302,？？？？,"そんなヘマはしないって。私が授業にいなくても、
+またどこかの学習塾の集中講義に行っている、と
+思われるだけだしね。","I wouldn't commit such a blunder. Even if I'm not at class, they'd just assume I was doing intensive courses at some cram school.",editz,
+304,？？？？,"ルチーアも、所詮は教育機関だ。
+入試のための勉強をしたいと申請があれば、
+どんなに腹立たしい生徒だろうと許可を出す。","Lucia is an educational institution after all. No matter how annoying a student, they'll approve a request to leave as long as you say it's to study for entrance exams.",editz,
+306,？？？？,"君たちの場合は幸い、使わなくてすんだけど……
+まぁこれも対処策のひとつとして覚えておけば、
+いざという時にきっと役に立つと思うよ。","Fortunately, you two didn't have to resort to this to leave... but well, as long as you remember that this can be used as one of your countermeasures, I'm sure it'll be useful sometime.",,
+309,Satoko (高校生クリスマス),"その最後の実力テストで、それなりの点を
+取らなければいけないってことですわよね？
+……難易度が高すぎますわ。","That means I'd have to get a good grade on my final though, right? ...That's far too difficult.",editz,
+312,,"沙都子は肩をすくめて、生徒会長が持ってきた
+段ボール箱に手をかける。
+箱の横には『飾りつけモール』と記されていた。","Satoko shrugs and takes the cardboard box the president brought.
+On the side of the box, ""Decoration tinsel"" was written.",editz,
+318,Satoko (高校生クリスマス),"……って、生徒会長！　なんですのこれは！
+箱の中で飾りつけ用のモールが
+ぐっちゃぐちゃに絡まっておりましてよ？！","...Wait, President! What in the world is this!
+The tinsel inside of the box is all tangled up?!",,
+324,？？？？,"おぉ、蛇のような絡みようだ。
+誰がやった知らないが……どうしよう、これ。","Ohh, it's all tangled up like a snake. I don't know who could've done such a thing... Now what should we do about this?",,
+327,Satoko (高校生クリスマス),"どうしようこれ、ではありませんわ！
+あぁもう、パーティーの開始まで
+時間がありませんのに……！","Don't say ""What should we do""! Ahh, jeez, we don't have that much time before the party starts...!",,
+329,,"沙都子の手元をのぞき込むと、
+モールはかなり複雑に絡まっている。
+……ほどくには相当の根気が必要だろう。","As I peek at Satoko's hands, I see the tinsel is pretty jumbled up.
+...Surely it will take a lot of patience to untangle it.",,
+333,Rika (高校生クリスマス),私がやりましょうか？,Should I do it?,,
+335,Satoko (高校生クリスマス),い……いえ、大丈夫ですわ！,"N-... No, it's okay!",,
+339,,"そう宣言すると沙都子は箱から
+のたうつモールを取り出して、
+地味だけど大変な格闘を始めていった。","As she stated that, Satoko pulled the entire tinsel out and began her subdued yet painstaking struggle.",editz,
+345,Satoko (高校生クリスマス),む、むむむっ……！,Nghhhyrrghghhh...!,editz,
+352,Rika (高校生クリスマス),…………。,............,,
+354,,"難しそうな顔で、モールとにらみ合う沙都子。
+やっぱり私も手伝う、と言いかけたその時、
+肩をぽん、と叩かれた。","Satoko glares at the tinsel with a frustrated look on her face.
+I was about to say, ""I'll help you"", when I felt someone tap my shoulder.",,
+356,？？？？,"まぁ、成り行きを見守ろうよ。
+それとも、私とお喋りは嫌かな？","Now, why not enjoy the show with me? Or do you not feel like chatting?",editz,
+359,Rika (高校生クリスマス),……いえ。,...It's not that.,,
+361,,"はい、なんて言えるはずもなく
+生徒会長に促され、私は椅子に腰掛ける。","I couldn't just say yes, so I sit in a chair as prompted by the student council president.",,
+362,,"そんな私に腰を落として目線を合わせると、
+彼女は小さな声で囁くようにしていった。","She lowered down to look at me in the eyes and said something with a low voice, almost at a whisper.",,
+365,？？？？,寂しいかい……？　親友を取られたようで。,Do you feel lonely...? After having your best friend stolen?,editz,
+369,Rika (高校生クリスマス),……何の話ですか？,...What are you talking about?,,
+371,,"生徒会長は、優雅な仕草でポケットから
+缶コーヒーを取り出すと、プルタブを開ける。",The president gracefully takes a can of coffee out from her pocket and lifts the pull tab.,,
+378,Satoko (高校生クリスマス),くっ、このっ……！,Th-thiiiis...!,,
+383,,"そして、モールと格闘する沙都子を
+微笑ましそうに眺めながら、
+おもむろに缶を口に運んでいった。",She brought the coffee to her mouth as she fondly watched Satoko wrestle with the tinsel.,THIS IS EUA AAAAHHH,
+385,？？？？,"北条さんの成績が向上したのは、
+彼女自身の努力の結果だよ。
+……私は特に、何もしていない。","Houjou-san's grades improved thanks to her own efforts.
+...I didn't really do anything.",,
+387,？？？？,"しいてあげるなら、彼女が興味を持っている
+トラップをもとにして、数学や物理、化学。","If anything, I only used the traps she loves so much to explain Mathemathics, Physics, Chemistry.",editz,
+389,？？？？,"そして、面白そうなアニメや映画をもとに
+英語や国語、社会の教材を勧めたくらいだ。",And I even recommended her some interesting anime and manga for English and Social Studies.,editz,
+392,Rika (高校生クリスマス),"でも……生徒会長に勉強を見てもらったおかげで
+成績があがったって、沙都子が……。",But... Satoko said that her grades went up thanks to you assisting with her studies...,,
+395,？？？？,"彼女に足りなかったのは、学力じゃない。
+ほんの小さな手ごたえと、自信だ。",What she lacked wasn't academic skill. She just needed a bit of feedback and confidence.,editz,
+398,Rika (高校生クリスマス),…………。,............,,
+401,？？？？,"無限に走り続けろと言われても、
+どんな人でも走り続けることは難しい。","Even if someone tells you to keep running, it's difficult to keep running, no matter who you are.",,
+403,？？？？,"だから、小さな目標を立ててそれに向かって走り、
+ゴールし、また新たな目標に向かって走る……。","So, you must set a smaller goal to strive towards and reach, then start towards a brand new goal...",editz,
+405,？？？？,その繰り返しで得るものを、君は何と呼ぶ？,What would you call the reward that comes from this cycle?,editz,
+406,,"生徒会長の問いかけに、少し考える。
+……答えは、すぐに出てきた。","I think about how to answer the president's question for a moment.
+...Then it hit me right away.",editz,
+409,Rika (高校生クリスマス),達成感……でしょうか。,A sense of accomplishment... maybe?,editz,
+412,？？？？,"うん。結局のところ、できるできないの差は
+そこにあるんだと私は思うんだ。","Yes. At the end of the day, I believe that's the difference between being able to and not being able to succeed.",editz,
+413,,"生徒会長は反対のポケットからもう一本
+缶コーヒーを取り出すと、私に投げ渡してきた。",The student council president pulled another can of coffee out from her pocket and threw it to me.,,
+415,？？？？,"喧嘩した友達を、仲直りさせることができた。
+料理を上手に作れた。難しい本を読み終えた。
+知恵の輪がほどけた……。",I was able to make amends with friends I've fought with. I was able to make good food. I was able to finish reading a complicated book. The circle of wisdom has since been unraveled...,,
+417,？？？？,"他人から見ればささやかな出来事でも
+達成感が自信に繋がり、人を強くする。
+そして自信が、次の一歩へ踏み出す勇気になる。","It may seem like a small victory to others, but that sense of accomplishment leads to self-confidence, which makes people stronger. That self-confidence gives us strength to take the next step forward.",,
+419,？？？？,"達成感とは、積み重ねてこそ意味がある……。
+だけど、私と知り合った時点の北条さんは
+その達成すべき目標を見失いつつあった。","The more you accumulate a sense of accomplishment, the more it will be worth... but by the time I met Houjou-san, she had lost sight of the goal she was trying to accomplish.",order,
+422,Rika (高校生クリスマス),…………。,............,,
+425,？？？？,"この学校は、達成感を積み重ねる機会が
+本当に少ないというより……システムが悪い。
+実に前時代的で、方針が体育会系寄りだ。",It's not that that this school has little opportunity to gain a sense of accomplishment... it's more that the system is bad. It's truly outdated and feels more like a marathon.,AND SNAPPED!!!!,
+427,？？？？,"書き取りや問題集を何冊こなしたところで、
+できないことは覚えない。理解できない。
+そして努力が無意味に思えて、楽しさを失う。","No matter how many problem-solving books you complete, you won't remember the problems you can't do. You won't be able to understand them. Then you'll feel like your efforts were for nothing, and it ends up not being fun.",editz,
+429,？？？？,"楽しさを見いだせない努力は、ただの拷問だ。
+その結果、努力そのものに嫌悪感を覚えていく……。","Effort that ends in unhappiness is just torture.
+So as a result, you start to feel disgust at the act of putting any effort in.",,
+431,？？？？,"勉強ができるかできないかの違いなんて、
+努力を好きのままでいられるか……それだけだよ。
+君にも、その心当たりはあるよね？","Whether someone is capable or incapable of studying all lies on whether they can keep enjoying their efforts... that's all there is to it.
+But you've already been aware of that, haven't you?",editz,
+435,Rika (高校生クリスマス),……。はい。,...Yes.,,
+438,？？？？,"だから私は、彼女が達成感を得ることで
+自信をつけられるよう、自分で小さなゴールを
+作る方法を教えただけだ。","So for her to build that confidence, I simply taught her how to set small goals for herself so she could start accumulating her own accomplishments.",,
+440,？？？？,"まぁ、自信を取り戻したからこそ
+クリスマスプレゼントをどうしようと
+迷う余裕が生まれて……。","And well, because she regained that confidence, she found room to worry about what Christmas present to give you...",editz,
+442,？？？？,"結果的に脱走に繋がったと糾弾されれば、
+私は申し訳ないと謝るしかないけどね？","If that's what led to her escape, then I believe I have no choice but to apologize, right?",,
+445,Rika (高校生クリスマス),…………。,............,,
+447,,"生徒会長の言葉を、私はコーヒーの缶を
+手にしたまま黙って聞いていた。","I silently listened to the president's words, holding the canned coffee.",,
+448,,"彼女の言っていることは……よくわかる。
+ずっと、沙都子に伝えたかった想い……
+それを見事に言語化してくれていた。",I... understand what she's saying. The feelings I always wanted to convey to Satoko... she perfectly verbalized them.,,
+449,,"だから、ありがたいという気持ちは確かにある。
+沙都子を救ってくれて……だけど……。",So I definitely feel grateful that she saved Satoko... but...,,
+452,？？？？,……不満そうだね？,...Well don't you look dissatisfied?,editz,
+456,Rika (高校生クリスマス),それは、……。,That's...,,
+458,Rika (高校生クリスマス),"私は、沙都子の側にいただけで……
+何も手伝えなかった。
+結局、助けられなかった……から……。","That's because I couldn't help Satoko at all... just by being by her side.
+I couldn't save her in the end......",,
+460,,そう、ずっと側にいたのに……「いた」だけだ。,"Yes, even though I was by her side... I was only ""there"".",,
+461,,"沙都子が自信を失っていることは、気づいていた。
+でも、それを取り戻す方法がわからなかった。",I knew Satoko was losing her confidence... but I couldn't think of a way to retrieve it.,,
+462,,"生徒会長は、沙都子とどれだけの時間を
+過ごしたのか……私にはわからない。",I don't know... how much time the student council president spent with Satoko.,,
+463,,"でもその時間は、私と沙都子が過ごした
+時間には遠く及ばないはずだ。",But it's definitely far less than the time I spent with her.,,
+466,Rika (高校生クリスマス),"（なのに……この人は、
+あっさりと沙都子を救ってしまった）",(And yet... this person was able to save Satoko this easily.),,
+468,,"これが圭一だったら、私は素直に感謝できた。
+レナでも、魅音でも、詩音でも……。","Had it been Keiichi, I could've honestly felt grateful.
+If it was Rena, Mion, or even Shion...",,
+469,,"でもこの生徒会長には、尊敬はできても
+素直に感謝する以上に、筋違いの腹立たしさを
+覚えてしまうというか……。","But even if I was able to respect the president, I somehow still wouldn't be able to feel grateful in an honest way, and I would only acquire a distorted feeling of anger...",editz,
+471,？？？？,……灯台下暗し、とはこのことだね。,"...The phrase ""It's hard to see what's right under your nose"" must be referring to moments like this.",editz,
+474,Rika (高校生クリスマス),えっ……？,Huh...?,,
+477,？？？？,"毒は、時に薬になる……逆もしかりだけどね。
+北条さんが陥った病には、私という少量の毒が
+有効だったという話だ。","Sometimes, poison can be a medicine... and the other way around as well. And for the disease that had fallen upon Houjou-san, the poison that was effective for her was me myself.",editz,
+479,？？？？,"……でも、死体に薬を投与しても死体は死体だ。
+彼女の心が死ななかったのは、古手さん。
+君が側で北条さんを支えていたからじゃないかな。","...But even if you pour medicine over a corpse, it will stay a corpse. The reason her heart didn't die out in the first place was you, Furude-san.
+I believe it was you being by her side that kept her propped up.",added in the last sentence,
+482,Rika (高校生クリスマス),…………。,............,,
+484,,"褒められている……のだろうか。
+だけど、素直に褒め言葉として
+受け取ることができない。","I wonder if she's... complimenting me?
+However, I can't receive it as a honest compliment.",,
+485,,"だから「ありがとう」の代わりに、
+憎まれ口を叩きたくなってしまった。","So instead of thanking her, I just felt like throwing words of hatred at her.",,
+488,Rika (高校生クリスマス),……自分のこと、毒だと思っているんですか？,...So you think you're poison?,,
+491,？？？？,そりゃ、私は自分がそうだと思っているからね。,"Well, that's what I think.",,
+493,？？？？,"自分は無害な存在です、なんて主張したら
+四方八方から石が飛んでくるに決まってるよ！
+あっはっはっはっは！",I can affirm that I'm harmless all I want; I'm sure people would still lug rocks at me from all over! Ahahahaha!,,
+496,Rika (高校生クリスマス),…………。,............,,
+498,,"否定されるとは思わなかったけど、
+笑顔で肯定されると思わなかった……。","I didn't think she'd deny it, but I also didn't think she'd say that with a smile.",,
+501,Rika (高校生クリスマス),（なんだか、頭が痛くなってきたわ……でも）,(My head started hurting a little... but...),,
+503,,"その一方で、私は今回の選挙で
+気づいたこと……いや、この学園の生徒のことを
+過小評価していたことに気づかされていた。","On the other hand, there was something I noticed with this election... no, I realized I was underestimating the students at this academy.",order,
+506,Rika (高校生クリスマス),"……どうしてあなたが生徒会長になれたのか、
+今でも正直言って、嘘みたいな気がしています。","...To be honest, it still feels like a lie that you became the student council president.",,
+509,？？？？,"私も意外だったよ。
+この学園に変化の兆しを少しでも加えたくて、
+徒手空拳で玉砕するつもりだったからさ。","I was surprised too.
+I was fighting empty-handed, ready for a merciless death despite wishing to add some signs of change to this academy.",editz,
+511,？？？？,"手は打ったと言ったけど、どれだけ負け戦を
+善戦に近づけられるか……それくらいの期待しか
+していなかったからね。","I mentioned how I tried a few things, but I still viewed it like...
+""It doesn't matter how close the battle gets if I'm on the losing side"".",editz,
+514,Rika (高校生クリスマス),"……でも、驚くほど票が集まった。
+実はみんな、このままじゃいけないって言葉には
+出せなくても、内心で思っていたのかもしれない。","...But, you surprisingly accumulated a high number of votes. Even though they weren't outwardly saying things couldn't continue the way they were, they still may have felt that in their hearts.",editz,
+516,Rika (高校生クリスマス),"変わりたい、良くなりたいって思いは
+隠れていただけでみんな、同じように持っていた。
+だから……会長に票を投じたんです。私も……。","""I want to change and I want to better myself"". Everyone had those feelings hidden inside of them just like you did. So... they voted for you. Just as... I did...",editz,
+518,,"……何度も迷った。たかだか１票を加えても
+焼け石に水だし、全く無意味だと思っていた。","...I hesitated many times. I figured that one single vote wouldn't matter much at all, and that it would be a complete waste of time.",,
+519,,"でも、……私は見たかった。
+この学園に、ほんの少しでも変わる余地が
+あるかもしれないという、希望の姿を。","But... I wanted to see it.
+Whether it was possible for there to be any room for change at this academy. That hopeful image.",editz,
+520,,"そして、何より……起こる可能性が
+限りなく低いとわかっていても……。","And, above all... even if I knew the possibility of such a thing was infinitely low...",,
+521,,"数えきれないほど繰り返してきた悪夢が終わり、
+やっと前に進むことができると実感した時に見た
+「奇跡」の美しさと素晴らしさを、もう一度……。","I wanted to see the beauty of a ""miracle"" once again, the kind I've seen after my countless repeated nightmares were over and I was finally able to move forward.",,
+523,？？？？,"……そっか、ありがとう。
+やっぱり民主主義って、捨てたもんじゃないね。","...I see, thank you. I guess democracy hasn't been abandoned.",,
+526,Rika (高校生クリスマス),"……。でも、あなたは１年後には卒業します。
+そうなった後は、結局……。","...But you'll graduate in 1 year. Once that happens, it's back to...",,
+529,？？？？,"そうだね。私がどれだけ苦心して
+ルールや常識を変えても、卒業した途端に
+元へ戻されるかもしれない。","You're right. No matter how hard I work to change the school's rules and social etiquette, once I graduate, it might all go back to square one.",,
+531,？？？？,"私という生徒会長が存在した記録すら、
+抹消されるかもね。でも……。",The fact a president like me ever existed may disappear from everyone's memories. But...,,
+533,？？？？,"一度起きたことは、誰かの記憶に残る。
+それがほんの小さな、大人になって振り返ると
+実につまらない些細な出来事だったとしても……。","Once an event occurs, the memory of it will remain somewhere.
+Even when we become adults, when we look back and it seems like a trivial memory...",editz,
+535,？？？？,"どこかに必ず、痕跡が残って種子ができる。
+それをいつか誰かが見つけて、
+また芽吹かせてくれるかもしれない……だろう？","A trace of it will be left somewhere, and that'll turn into a seed. Someday, someone will find it, and it might sprout once again... right?",,
+538,Rika (高校生クリスマス),"……見つけられなかった時は？
+誰の目にも留まることがなかったら、
+そういうこともあると思いますが。",...And what if no one finds it at all? I think that possibility also exists.,editz,
+541,？？？？,うん、人間は見ていないかもしれないね。,"Yes, perhaps a human may not see it.",,
+543,？？？？,"だけど……神様は見てくれている。
+私はそう、信じているんだよ。",However... God will see it. That's what I believe.,,
+549,Rika (高校生クリスマス),――っ……！,--ah...!,,
+559,Hanyuu (巫女),……梨花。,...Rika.,,
+566,,"懐かしい姿が一瞬脳裏に裏に浮かんで、
+一瞬……胸が詰まりそうになる。","A nostalgic figure comes to the back of my mind... and for a moment, I felt a weight press onto my heart.",,
+567,,"そんな私を見て、生徒会長は何を思ったのか
+取り繕うように言葉を続けていった。","Seeing my reaction to that, the president continued to speak as if glossing over whatever my thoughts were.",,
+570,？？？？,"それに……今週送る手紙のネタ程度にはなる。
+私への報酬は、それで十分だよ。",And with that... that's just about the right number of topics for the letter I'll send this week. That's enough of a reward to me.,TO EUA HOMEGIRL?!$?!$,
+573,Rika (高校生クリスマス),……手紙？,...Letter?,,
+575,,それは誰への、と尋ねかけて――。,"Just as I was about to ask, ""A letter to who?""--",TO EUAAAAAAAAAAA,
+583,Satoko (高校生クリスマス),とけた……とけたーっ！　ほどけましたわぁ！,I did it... I untangled it~! It's finally undone!,,
+588,,沙都子があげた歓声に、私の声はかき消された。,My voice was drowned out by Satoko's cheering.,,
+591,Satoko (高校生クリスマス),"梨花ぁー！　生徒会長ー！
+モールがほどけましたわよー！",Rikaa~! President~! The tinsel is finally untangled~!,,
+594,？？？？,"おぉ、すばらしいね。
+さて、そんな素晴らしい北条さんに提案だ。","Ooh, how wonderful. I have a proposal for such a wonderful Houjou-san.",,
+596,？？？？,"生徒会に入るという私の誘い……
+改めて考えてくれたかな？",My invitation to the student council... won't you think it over again?,,
+599,Satoko (高校生クリスマス),"ま、また急に勧誘してきますわね……
+何度もお断りしておりますが、
+今の私にそんな余裕はありませんの。",Y-You're trying to persuade me again all of a sudden... I've already refused it over and over; I don't have any time for that at the moment.,,
+601,Satoko (高校生クリスマス),"せっかく上がりかけたテストの点が下がったら、
+何を言われるかわかったものではありませんわ！","If my grades I finally managed to raise lowered again, I don't even want to think of what they'd say to me!",,
+604,？？？？,"そうか。
+まぁ気が変わったら、いつでも来るといい。
+古手さんも一緒にね。","I see. Well, if you change your mind, you can always come to me. Together with Furude-san.",,
+607,Satoko (高校生クリスマス),"私を引き込むことができれば、
+梨花も引き込めるという算段ですの？","You believe that if you manage to lure me in, Rika will join too?",,
+610,？？？？,"私は北条さんと古手さん、どちらも欲しいよ。
+それぞれ違った魅力と能力があるからね……
+生徒会を楽しい場所にしたいんだ。","I want both of you, Houjou-san and Furude-san. You have different charms and abilities, after all... and I want to make the student council livelier.",,
+613,Satoko (高校生クリスマス),"……本気で？
+そんなことが、できますの？",...In all seriousness? You can do such a thing?,,
+616,？？？？,"するんだよ。
+少なくとも私は、そう心に決めた。",I will do it. I have decided it in my heart.,,
+618,？？？？,"だから手始めに、気に入った生徒には
+愉快な格好でパーティーに
+出席してもらおうとしている……なんてね？","And as a first step in that process, I invite students I like to my party and make them wear entertaining outfits...... just kidding!",,
+622,Rika (高校生クリスマス),――ッ……！,--kh...!,,
+624,Satoko (高校生クリスマス),……考えておきますわ。,...I'll think about it.,,
+628,？？？？,"おぉ、初めて前向きな返事をもらえたよ。
+実に嬉しいね……ゆぷぃ。","Ooh, this is the first time I got a positive response. I truly am happy...
+Yippie!",I HATE HERRRRHR,
+631,Rika (高校生クリスマス),（……ゆぷぃ？）,(...Yippie?),,
+634,？？？？,"あぁ、無理に生徒会への勧誘はしないから、
+パーティーには君たちも参加してくれ。","Ahh, I won't be forcing you two to join the student council, so just join us at the party.",,
+636,？？？？,"缶コーヒーをはじめとした、
+学校ではなかなか手に入らない嗜好品も
+たくさん用意するつもりだからね。","On top of canned coffee, I'll have many more luxurious things there that you wouldn't be able to find anywhere else at school.",editz,
+638,？？？？,"それじゃ、もうすぐ会場が使用できるから
+時間になったら、飾りつけは任せたよ。
+ははははは……！","Well then, the venue will be open soon, so I hope you guys have the decorations ready by then. Hahahahaha...!","edited this, removed the 'for everyone' bc this is a secret party for the student council members only",
+639,,"楽しそうに笑いながら、生徒会長は去ってゆく。
+……その姿が見えなくなると、
+どっと疲れが押し寄せてきた。","The student council president walks away, laughing happily.
+...As soon as I couldn't see her any longer, I felt a rush of exhaustion.",,
+642,Rika (高校生クリスマス),（ダメ……私、やっぱりあの人苦手だわ……）,(I can't do it... I really just don't like that person...),,
+644,,"本人が言うほど、悪人ではないと思う。
+ただ、同じように口は上手くても……
+たとえば圭一とはかなり方向性が違う。","I don't think she's as bad as she says. But, even if she's good at persuading... she's the direct opposite of Keiichi, for example.",editz,
+647,Rika (高校生クリスマス),"（どちらかと言えば、……誰だろう。
+しいてあげるとしたら、詩音くらいだろうか）","(If I had to liken her to someone... who would it be?
+I guess if I had to pick, it'd probably be Shion.)",OH LORD THIS IS MEANINGFUL TO ME // editz,
+654,Satoko (高校生クリスマス),…………。,............,,
+659,,はぁ、と沙都子が息を吐く。,Satoko lets out a deep sigh.,,
+660,,"今日の彼女は、ため息が多い……
+けど、そのどれもに楽しげな色を含んでいた。","She's been sighing a lot today...
+Despite that, all of her sighs sounded coloured with fun.",,
+664,Satoko (高校生クリスマス),"まったく、あの人にはいつも驚かされますが……
+魅音さんには、それ以上に驚かされましたわ。",Oh brother; that person indeed always surprises me... but Mion-san was the one who surprised me the most.,,
+666,Rika (高校生クリスマス),え……？,Eh...?,,
+668,Satoko (高校生クリスマス),"魅音さんが、銀座で梨花と一緒に現れて……
+あの時は心臓が止まるかと思いましたわ。","For Mion-san to appear together with you at Ginza...
+My heart nearly stopped back then, Rika.",,
+670,Rika (高校生クリスマス),あ、あぁ……。,O-Oh...,,
+673,,"確かに沙都子にとっては、
+一番予想外の展開だったのかもしれない。","For Satoko, that definitely must've been the most unexpected development to happen.",,
+677,Rika (高校生クリスマス),"魅音と同じ新幹線に乗るなんて……
+偶然にしては、できすぎている気がしたわね。","Who would've thought I was riding the same train as Mion...
+Sure it was a coincidence, but it felt way too surreal.",,
+679,Satoko (高校生クリスマス),偶然ではなくて、奇跡ではありませんの？,"Maybe it's not a coincidence, but a miracle?",,
+681,Rika (高校生クリスマス),奇跡……？,A miracle...?,,
+683,Satoko (高校生クリスマス),"だって、もうすぐクリスマスですわ！
+奇跡の１つや２つ、起きたとしても
+おかしくありませんわ～！","It's almost Christmas, after all!
+It wouldn't be weird for one or two miracles to happen~!",,
+685,Rika (高校生クリスマス),……奇跡。,...Miracles.,,
+688,,"奇跡……奇跡。
+確かに、そうかもしれない。",Miracle... a miracle. Maybe that was it.,editz,
+689,,"魅音がいなければ、
+私と沙都子はすれ違っていた。","If Mion wasn't there, Satoko and I would have went our separate ways.",,
+690,,"そもそも、詩音が偶然送ってきた雑誌がなければ
+マフラーの再販を沙都子が知ることもなかった。","If Shion hadn't happened to send the magazine with that ad in the first place, Satoko wouldn't have even known about the scarf being on resale.",order,
+693,Rika (高校生クリスマス),（奇跡を手にして……その後は？）,(After getting this miracle... what now?),,
+695,,"今はまだ、沙都子の寮の部屋にあるマフラー。
+彼女はそれを、クリスマスにくれると言った。","The scarf is still at Satoko's dorm.
+She said she'd give me it on Christmas.",,
+698,Rika (高校生クリスマス),"（あの生徒会長に頼むのは、
+少し納得がいかないけれど……）","(It's a little bit frustrating to ask for that student council president's help, but...)",,
+703,Rika (高校生クリスマス),"ねぇ、沙都子。
+クリスマス、あの会長に頼んで２人一緒に
+外へお出かけしない？","Hey, Satoko. On Christmas, why don't we ask the president for help so the two of us can go out together?",SQUEAL,
+705,Satoko (高校生クリスマス),お出かけ……ですの？　どちらに？,Go out... you said? Go out where?,,
+707,Rika (高校生クリスマス),"どこでもいいわ。近くを散歩するだけでもいい。
+お揃いのマフラーを巻いて、出かけたいの。","Anywhere. Even if it's just taking a stroll nearby.
+I want to go somewhere with you wearing our matching scarves.",STOPPPPPPPP,
+710,Satoko (高校生クリスマス),……えぇ！　もちろん喜んで、ですわ～！,"......Okay! And gladly, of course~!",,
+717,,"さて……クリスマスの少し前に起きた
+奇跡のお話は、これでおしまい。",Now... the story that happened a little before Christmas ends here.,,
+718,,"クリスマスが終わった後、どうなるか？
+……それこそ、本人たち次第というものでしょう。","What might happen after Christmas is over?
+...It certainly all depends on those two.",,
+720,,"メリークリスマス。
+どうか、よき聖夜が過ごせますように。",Happy Holidays. And may you have a pleasant Christmas Eve.,editz,

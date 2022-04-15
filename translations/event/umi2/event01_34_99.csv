@@ -1,0 +1,420 @@
+event01_34_99.bytes,,Llo,,
+index,chara,jp,en,
+41,Kazuho (Casual),っ、たぁっ！！！,"Hnn, taaaahhhh!!!",
+47,,最後の一体は、あっけないほど簡単に終わった。,We finished them off so easily that it was uneventful.,
+48,,"そもそもこちらには人数が揃っている。
+負けるなんてとてもじゃないけど考えられなかった。","With the bunch of us already here in the first place, losing wasn't even a thought that crossed our minds.",
+51,Kazuho (Casual),（それより、問題は……）,"(But rather than that, the problem now is...)",
+56,朱志香,…………。,............,
+58,,驚いたように固まっている朱志香さんだ。,Jessica-san was frozen like she was astonished.,
+59,,彼女自身は無傷のようだ。そこはよかったけど……。,"Physically, she was unhurt, so that was a relief, but...",
+63,Kazuho (Casual),（……空気が！　空気が重い！）,(...The air! It's so heavy!),
+65,,"あれだけ戦人さんから『ツクヤミ』の
+存在を朱志香さんに知られないよう
+注意されたけど、もう遅い。","Battler-san went through all those lengths to keep Jessica-san from finding out about the {b}Tsukuyami{/b}, but now it was too late.",
+66,,"出現から消失まで、
+しっかりばっちり見られてしまった。","She took in the entire scene, from their arrival to their disappearance.",
+71,Mion (Casual),終わった……#p雛見沢#sひなみざわ#r、終わった……。,Finished... Hinamizawa... is finished...,
+73,Rena (Casual),み……魅ぃちゃん、しっかり！,"Mi-Mii-chan, pull yourself together!",
+76,,"ふらりと傾いた魅音さんの身体を
+レナさんが慌てて支える。","Rena-san ran over to support Mion-san, who was now lurched over with her hands on her head.",
+80,圭一 (Casual),"相撲に勝って、勝負に負けるとは
+このことか……。",So this is what it means when winning a match feels like a loss...,
+82,Rika (Casual),みー……。,Meep...,
+86,Hanyuu (Casual),あ、あぅあぅ。,A-Au au.,
+90,Satoko (Casual),ど、どうすれば……。,W-What should we do...?,
+94,Nao (Casual),……もう、どうしようもないわ。,...There's... nothing we can do.,
+98,Miyuki (Casual),これはさすがに、言い訳のしようが……ね。,There's no way to worm ourselves out of this... huh?,
+101,,"部活メンバーの間に重苦しい空気が流れる中、
+事情を知らない詩音さんだけが不思議そうにしている。","Amidst the suffocating atmosphere the club members were enshrouded in, Shion-san alone felt weirded out as she didn't have a grasp on the situation.",
+104,詩音 (Casual),えっと……皆さん、どうしたんですか？,"Um... guys, what's going on?",
+107,,"と、そんな中……私たちを庇うように、
+戦人さんが凛とした表情で前に進み出た。",With that... Battler-san put on a resolute face and stepped forward as if to cover for us.,
+113,戦人,"……大丈夫だ。助けてもらった恩は返す。
+俺がなんとかしてやるよ。",...It's alright. I'll pay you back my debt for saving me. I'll handle it.,
+120,Kazuho (Casual),えっ？,Huh?,
+122,,"そう言って朱志香さんに向き合い、
+気持ちを落ち着けるようにすぅっ、と
+大きく息を吐いてから言葉を繋いでいった。","In saying that, he faced Jessica-san, calmly let out a huge breath, and followed up with what he wanted to say.",
+126,戦人,"え、えっと朱志香……
+これははやむにやまれぬ事情というか、
+深いわけがあってだな……。","U-Uh, Jessica... I have a long explanation for all the uncontrollable events tonight...",
+128,戦人,"みんなに、悪気はなかったんだ。
+ただ、当たり前になりすぎてて知らせる必要性に
+気づかなかっただけで……その……。","No one here had bad intentions. 
+We obviously just didn't realize how necessary it was to inform you since it was so... uh...",
+131,朱志香,……？　何の話だ、戦人？,"...? What are you talking about, Battler?",
+133,戦人,は……？　何の話って……どういうことだ？,Huh...? What am I talking about... What are {i}you{/i} talking about?,
+140,Rika (Casual),"みー……なんだか、朱志香は
+あまり驚いていないように見えるのですよ。",Meep... Jessica doesn't look very surprised.,
+142,Nao (Casual),"まさか……朱志香さんはとっくに
+『ツクヤミ』のことを知ってた……？",Don't tell me... Jessica-san was already long aware of the {b}Tsukuyami{/b}?,
+146,朱志香,"今のやつらのことか？
+あぁ、もちろん報告書にあったからな。","Those dudes just earlier?
+Yeah, of course, since there was a report about them.",
+150,Kazuho (Casual),へっ……？！,A what...?!,
+152,朱志香,"ただ、『ツクヤミ』って名前については
+今ここで初めて知ったけどさ。","But this is the first time I've heard them being given a name like {b}Tsukuyami{/b}, y'know?",
+154,朱志香,"へー、そうか。
+アレが噂の、ね……本当にいたんだな。
+やっぱり父さんは、騙されてなかったんだ！","Damn, okay. 
+So, the rumor was about {i}those{/i}... huh? They really did exist.
+So Dad wasn't actually trying to mess with me!",
+158,Mion (Casual),えっ？　えっ……？,Huh? Huh...?,
+162,Rena (Casual),は、はぅ……あの、どういうことですか？,"H-Hau... um, what do you mean?",
+167,朱志香,"いや、うちの父さんが出資した開発計画には
+コンセプトがあってな。","Well, it's been a concept for the development project my dad invested in.",
+171,朱志香,"その名も、
+『百鬼夜行が跋扈する、バケモノ温泉』だ！","They called it...
+ ""The Demon Parade Runs Rampant: Monster Hot Spring""!",
+180,Kazuho (Casual),……っ……？！,...wh-......?!,
+185,戦人,"つまり、こいつらが出ることは知ってて……
+むしろ出ないほうが騙されてるって話だったのか？","So essentially, you were told they did exist... but you thought they actually didn't and that he was pulling your leg?",
+188,朱志香,"あぁ。戦人に言ったらどう思われるか
+わからねぇし、黙ってたんだよ。
+お前って昔から、結構怖がりだからさ。","Yeah. I didn't know what you'd think if I mentioned it, so I kept quiet.
+'Cuz back in the day you were a big scaredy cat, y'know?",
+190,朱志香,"まぁ、父さんは百鬼夜行が一番のウリだとか
+なんとか言ってたけど、それを抜いたとしても
+普通にいい温泉だったから、さらにプラスだぜ。","Well, Dad was saying that the Demon Parade was its best selling point. If you took that out, it would just be your everyday nice hot spring, so it's a plus for it.",
+193,戦人,"おいぃぃ！　百鬼夜行って、ウリなのか？！
+それで客が呼び込めると思ってんのかぁぁ？！","Nahhh, the Demon Parade being a selling point?!
+He thought that would bring in customeeeeeeeerrsss?!",
+195,朱志香,"父さん、もうすぐホラーブームが来る、って
+踏んでるんだよ。座敷童が住んでる宿みたいに
+何かご利益とかがあるんじゃないか、ってさ！","Dad is predicting that there's gonna be a horror boom coming soon. 
+""I could receive blessings if I visit an inn with a {note_green}Zashiki-warushi{/note_green} in it!"", that sort of idea!","Zashiki-warushi: protective household deity in Tōhoku, appearing as a red-faced child spirit with bobbed hair​. They are said to be yokai that live in parlors or storage rooms, and that perform pranks, and that people who see one would be visited with good fortune. There are also legends of how they would bring fortune to families."
+201,Nao (Casual),"……座敷童は福の神みたいな存在だけど、
+この雛見沢の『オヤシロさま』って確か
+#p祟#sたた#rりが前提の『#p禍神#sまがつかみ#r』だったんじゃ……？","...Zashiki-warushi are like gods of fortune, but doesn't Hinamizawa's {b}Oyashiro-sama{/b} go against that premise as a {b}god of disaster{/b} that curses people...?",reworded this a bit
+203,Rika (Casual),菜央、お口チャックなのです。,"Nao, your mouth zipper is undone.","I wanted to put ""Zip your mouth, Nao."" so bad"
+211,朱志香,"かなり面白かったぜ！
+母さんも半信半疑だったけど、これで胸張って
+「オバケが出る」って報告できるぜ！","That was pretty sick! Mom was skeptical about them too, but now I can puff out my chest and report back to her with, ""The monsters do exist.""!",
+218,圭一 (Casual),い、いいのか……それで……。,I-Is that... actually okay...?,
+223,朱志香,"まぁ、襲われた時は驚いたけどな。
+怪我する前に駆除してくれたのは確かだし、
+別にいいと思うぜ。","Well, I was surprised when we were getting attacked.
+But the fact that you were able to defeat all of them without getting hurt made it even more cool.",
+225,朱志香,あれだ、イノシシみたいなものだろ！,Those things just look like boars!,
+227,朱志香,"うちの島でもたまに見るし、
+近づいたら危険だけど……
+駆除できるなら問題ないだろ？","I see them on my island from time to time. If you get close to them, it could get dangerous... but if you kill them it's no issue, right?",
+229,戦人,えっ、あの島って、イノシシも出るのか？！,Huh? Boars are on that island too?!,
+232,戦人,"いいのか？！
+アレがイノシシと同じ扱いでいいのか？！","Is that okay?!
+Is it really okay to handle those things just like boars?!",
+238,Satoko (Casual),え、えっと……。,U-Um...,
+240,Hanyuu (Casual),"あぅあぅ、これはどういうことに
+なるのでしょうか……？","Au au, where is this situation going...?",
+244,Kazuho (Casual),わ、私にもよくわからないけど……。,"I-I don't know at all either, but...",
+248,赤坂,"元々知ってた上で出資していたなら、
+契約違反問題は発生しないと思うよ。",I don't think there would be a breach of contract issue if they knew what they were getting into.,
+250,Kazuho (Casual),"いや、赤坂さん。
+今は契約の話は、どうでもいいので……。","Well, Akasaka-san...
+The contract issue has been long over by now......","(this is fine as is, it doesnt need to be edited)"
+254,Rena (Casual),"つまり……最初からあの連中を
+朱志香さんに見られたとしても、特に問題は
+なかった……ってことなのかな？　かな？","So then... if Jessica-san had already known about them from the beginning, does that maybe mean there was never really a problem... a problem?","again, please dont edit this"
+262,圭一 (Casual),な、なっ……。,Wh-wha-...,
+266,圭一 (Casual),なんじゃそりゃーっ！,What in the hell?!,
+273,詩音 (Casual),"あら、コントみたいに
+みんなが一斉に転んじゃいましたよ。","My, you all fell over simultaneously like you were in a skit.",
+278,朱志香,"あはははっ！
+詩音さんの言うとおり、面白い村だぜ！","Ahahaha! Just like Shion-san said, this village is hilarious!",
+281,戦人,ぐ、ぐぅっ……。,G-Grrrrr...,
+284,,"まだ地面に転がる皆をよそに、
+戦人さんが真っ先によろよろと立ち上がる。","While everyone was still carelessly rolling around on the ground, with a stagger, Battler-san was the very first one to stand back up.",
+287,戦人,"蔵臼伯父さんも、すげぇセンスの持ち主だと
+前々から思っていたけどよぉ……。","I thought Uncle Krauss was the king of crazy tastes for a long while now, but...",
+289,戦人,"お前と夏妃伯母さんも、
+似た者同士ってことか……。",...to think you and Aunt Natsuhi are no different...,
+294,Miyuki (Casual),"そう？　妖怪旅館とか、結構目のつけどころが
+シャープだと思うけどなぁ。","Really? I think haunted inns as an idea is a pretty sharp move, though.",
+296,Nao (Casual),……美雪、今は昭和よ。,"...Miyuki, we're in the Showa era.",
+300,Kazuho (Casual),"昭和だね……でも……よかった。
+何も問題はなかったんだね。","Showa, huh... but... thank goodness. Nothing was actually wrong.",
+304,Miyuki (Casual),"だね……私の勘も鈍ったかな。
+嫌な予感、完全に杞憂だったみたい。","Right? ...I guess my senses have gotten dull.
+My bad feeling earlier really was completely baseless after all.",
+307,,"そう言いながら、美雪ちゃんが申し訳なさげに
+はぁ、とため息をつく。と、そんな彼女を
+励ますように赤坂さんがぽん、と肩を叩いていった。","As she said that, Miyuki-chan sighed apologetically. And in attempt to encourage her, {i}pat{/i}, Akasaka-san tapped her shoulder.",
+311,赤坂,"警察の職分は、最悪の事態を回避することだ。
+杞憂でも空振りでも何事もなかったことを喜んで、
+誇りに思うべきだと私は思うよ。","An officer's duty is to prevent a worst case scenario.
+Whether it was needless worry or a fruitless effort, I believe that we should take pleasure in the fact that nothing went wrong.",
+313,Miyuki (Casual),"……そうですね。
+赤坂さんのように、そう考えることにします。","...You're right. I'll think of it the way you do, Akasaka-san.",
+319,詩音 (Casual),"あ、そうだ。せっかく集まったんですし、
+みんなで夜景を見ましょうよ。","Oh, yeah. Now that we're all gathered here, let's view the nightscape together.","nightscape is a word, it doesnt need to be edited"
+321,Rika (Casual),高台からの景色は、とっても綺麗なのですよ。,The scenery from the shrine grounds is very lovely.,
+326,戦人,じゃあ、ちょっとだけ……。,"Then, I'll just...",
+331,戦人,お……おぉーっ！,W-...Woaaaah!,
+332,,"歓声をあげる戦人さんの背後から、
+私たちも顔を出して雛見沢を見下ろす。","As Battler-san yelled out in amazement, we all walked up from behind him and looked down on Hinamizawa.",
+333,赤坂,"都会みたいな明かりはないけど……
+でも、だからこそ月が大きく綺麗に見えるんだね。","The lights aren't as bright as the ones in the city... but thanks to that, the moon is so big and beautiful looking.",
+334,Rika (Casual),みー。雛見沢自慢の夜景なのですよ。,Meep. This is Hinamizawa's prided night view.,
+335,朱志香,なかなか、山は山で風情があっていいもんだぜ。,The mountains give it an awesome touch too.,
+336,戦人,あぁ……いいな、たまにはこういうのも。,"Yeah... Man, sometimes stuff like this is great.",
+337,詩音 (Casual),"こういう景色って、好きな男の子と見るのが
+一番綺麗に見えると思いますけどね～。",Although I think this scenery would be the utmost perfect sight to see with that one boy~.,
+338,朱志香,……うん。いつか連れて来てあげたいな。,...Yeah. I'd love to bring him here one day.,
+339,Rena (Casual),"はぅ……朱志香さんって、
+好きな人がいるんですか？","Hau... Jessica-san, do you have someone you like?",
+340,朱志香,"いい、いやそのっ…………えっとぉ。
+向こうはなんとも思ってないかも
+しれないけど……まぁ、うん。","Nnnn-nono, um... uhhhh, I probably wasn't thinking about what I said very well... uh... yeah.",
+341,Satoko (Casual),あら、そんなことおっしゃっていいんですの？,"My, is it okay to chat about such a thing?",
+342,Hanyuu (Casual),"あぅあぅ！　ではあとで、拝んでいくのです。
+この雛見沢には縁結びの神様がいるのですよ～！",Au au! We'll pray for you afterwards! Hinamizawa has a god of marriage anyway~!,
+343,赤坂,"えっ……？　ここの神様って
+縁結びの神様だったのかい？",Huh...? The god here is the type of god to hitch people together?,
+344,Rika (Casual),……赤坂、あとで罰ゲームなのです。,"...Akasaka, your punishment game will be later.",
+345,赤坂,ええっ？！,Whaaaa-?!,
+346,戦人,"はっはははっ！　静かで綺麗な夜景でも、
+こう人数が多いとにぎやかなもんだぜ。","Hahahahaha! Even though this beautiful night scene is so peaceful, it's bound to be lively with this many people.",
+347,Nao (Casual),にぎやかなのは、お嫌いですか？,Do you not like it when it's lively?,
+348,戦人,"いや、大好きだぜ！　やっぱり旅行ってのは、
+大人数でワイワイが一番だよな！","Nah, I love it! A bunch of people getting together having a blast on a trip is the best!",
+349,Miyuki (Casual),そうそう、楽しいのがいいよね！,"Yep, yep, it's great to have fun!",
+350,戦人,"おっと、意見が合ったな。
+えっと確か美雪ちゃんだっけ……んん？","Ooo, we see eye to eye. I think your name was Miyuki-chan, right? ...Uh?",
+352,Kazuho (Casual),どうしました？,What's the matter?,
+354,戦人,あそこ……光ってるけど、何があるんだ？,"That... glowing over there, what is that?",
+359,,"戦人さんが指さしたのは、
+雛見沢からさらに奥の方向。",Battler-san pointed out in a direction behind Hinamizawa.,
+360,,確かにそこでは、何か大きなものが光っていた。,There was clearly something huge shining over there.,
+363,戦人,"ありゃ、なんだ？
+何かイベントでもやってるってのか？","Huh, what's going on? Are they doing an event or something?",
+367,葛西,イベントなんて予定は、聞いておりませんが……。,"I haven't heard of any plans for anything like that, though...",
+375,Mion (Casual),うん、私も……って、わぁあああぁあああっ？！,"Yeah, I haven't eith-... AAAAAAAAAAAAAAHHHH?!",
+383,赤坂,"ど……どうしたんだい、魅音さん。
+血相を変えて、何か見えたのかい？","W-What's wrong, Mion-san? Your expression changed. What is it?",
+385,Mion (Casual),あ、あれって火事じゃない？！,"Th-, isn't that a fire?!",
+389,圭一 (Casual),"えっ……あっ、本当だ！
+赤い火みたいなのがチラチラしてやがる！！","Huh... ah, it is! Red flames are dancing back and forth!!",
+393,戦人,しかもあっちは、温泉街のある方角っ？！,"And plus, isn't that in the direction of the hot spring district?!",
+397,Rena (Casual),えっ、つまり燃えているのって……。,"Huh, so what's burning is...",
+405,Kazuho (Casual),お……温泉街っ？！,Th-... the hot spring district?!,
+414,,そして、翌朝――。,"And so, the next morning--",
+422,戦人,"はぁ……一晩であんなことに
+なっちまうなんてな……。","*sigh*... So all of that happened overnight, huh...?",
+424,Kazuho (Casual),…………。,............,
+427,,"私たちは、黒いすすや焦げに覆われた……
+温泉街「だった」場所を悄然と眺めていた。","Dejected... we looked over the ash and debris that the ""hot spring district"" now was.",
+430,圭一 (Casual),"あんなに色々とあったのに、
+全部灰になっちまったのか……？","After all that's happened, it just goes up in flames...?",
+435,朱志香,し、信じらんねぇぜ……ゲホッ、ゲホゲホッ！！,"I-I can't believe it...*cough*, *cough*cough*!!",
+437,Rena (Casual),"はぅ……煙を吸い込んじゃったのかもですね。
+少し、現場から離れた方がいいと思います。",Hau... you might be inhaling smoke. I think it'd be better if we get away from the scene for a bit.,
+439,朱志香,ご、ごめん……ゲホッ。,S-Sorry... *cough*.,
+442,,咳き込む朱志香さんの背中を、レナさんがさする。,Rena-san pats Jessica-san's back as she has a coughing fit.,
+443,,"……一晩中燃え盛った炎により、
+あっという間に温泉街は焼失。","...Because of the raging flames overnight, the hot spring district was wiped out in the blink of an eye.",
+444,,"この付近一帯が立入禁止になっているので
+詳細は不明だが、宿などは半焼で済んだらしい。","Since the surrounding area was blocked by ""No Trespassing"" tape, we didn't know the details, but it looks like the inn is partially gone.",
+445,,"……とはいえ、とてもじゃないけれど
+営業はできない有様とのことだった。","...This might be disdainful to say, but business couldn't be done in those conditions.",
+449,Mion (Casual),……火、って怖いね。,"...Fire is... scary, huh?",
+451,詩音 (Casual),本当ですね……。,You said it...,
+455,Rika (Casual),みー……どうすればいいのでしょうか？,Meep... What should we do now?,
+459,Satoko (Casual),"どうするもこうするも
+もう手遅れではありませんこと……？","No matter what we do, isn't it already too late...?",
+463,Hanyuu (Casual),あぅあぅ、こればかりは……。,"Au au, this is so...",
+466,,"みんなが口々に囁き合っていると、
+私の隣で美雪ちゃんがぼそりと呟いた。","While everyone was whispering to each other separately, Miyuki-chan next to me was murmuring to herself.",
+470,Miyuki (Casual),私の嫌な予感って、まさかこれのこと……？,"My bad feeling wasn't actually... this, was it...?",
+472,Nao (Casual),"……いい勘してるわね。
+本当にこの火事のことを予想できてたんなら、
+刑事じゃなく占い師にでもなるべきじゃない？","...Nice intuition. If you were actually capable of predicting this fire, shouldn't you become a soothsayer instead of a detective?",
+474,Miyuki (Casual),"私に、ノストラダムスにでもなれって？
+あの人、占い師の前に医者じゃなかったっけ。","Are you saying I can become Nostradamus?
+Wasn't he a doctor before a soothsayer, though?",
+476,Nao (Casual),どうでもいいわよ、そんなこと……。,That has nothing to do with what I said...,
+479,,"と、そんな中バリケードテープの向こう側から
+こっちへ向かって歩いてくる人影を見つけて、
+私たちは大きく手を上げた。","Right then, we saw a figure coming towards us from the tape barricade, and we all waved at him.",
+482,Kazuho (Casual),あ……赤坂さん！,A-...Akasaka-san!,
+486,赤坂,やぁ、みんな来ていたんだね。,"Hey, everyone's here, huh?",
+489,戦人,消防署の人、なんて言ってました？,"So, what did the firemen say?",
+491,赤坂,"管轄外だから詳しくは聞けなかったし、
+まだはっきりと断言はできないそうだけど……
+どうやら火元は分電盤らしい。","This is outside of my jurisdiction so I didn't hear the details, but while it's still being confirmed... the cause is likely to have been a circuit breaker failure.",
+493,赤坂,"初期消火が間に合わなくて、
+温泉設備に引火したようだよ。","The firefighters didn't make it in time for the early stages, so it appears the hot spring equipment caught fire.",
+495,戦人,分電盤……ってことは、電気火災か。,"So, with the circuit breaker... it was an electric fire?",
+499,Kazuho (Casual),電気なのに……火？,Even though it's electricity... it turned into a fire?,
+503,Satoko (Casual),"一穂さん、電気を侮ってはいけませんわ。
+やつら、下手な火よりも恐ろしいんですのよ。","Kazuho-san, don't make light of electricity. It can make a regular fire look pathetic.",
+507,圭一 (Casual),"でも、この温泉施設ってできたばかりだろ？！
+なのになんで、そんなことに……？",But wasn't this hot spring facility just finished?! How could this happen...?,
+513,詩音 (Casual),"経年劣化……はありえませんし
+施工業者のミスでしょうか。",It couldn't have been from degradation or anything... so it must have been an error on the contractor's end?,
+516,Mion (Casual),"……つまり、手抜き工事ってこと？！
+そんな事で温泉街が台無しに……
+施工業者の奴ら、訴えてやる！！",...So you're saying they did half-ass work?! All of that for the hot spring district to go to waste... I'm gonna make these contractors pay!!,
+518,詩音 (Casual),"ちょ、ちょっと、お姉！
+早まりすぎです。落ち着いてください！","H-Hold on, Sis! We're jumping to conclusions. Please calm down!",
+520,Mion (Casual),"だって詩音！
+せっかくの温泉街が……
+村の発展につながる一大事業が……！！","But Shion!
+All that hard work with the hot spring district... and it was meant to be the one huge project to develop the village for-...!!",
+526,Satoko (Casual),……魅音さん。,...Mion-san.,
+528,Rika (Casual),魅ぃ……。,Mii...,
+533,赤坂,"……すみません。今のは私が悪いですね……
+園崎さんもみんなも落ち着いてください。
+まだ調査中の内容を、安易に口にするべきではなかった。","...I'm sorry. It's my fault for mentioning that...
+Everyone, please calm down. I shouldn't have been so irresponsible as to mention the details of an investigation still in progress.",
+535,赤坂,"火事の原因については、まだ消防が調査中です。
+分電盤が正確な火元かどうかも、まだわかっていません。
+なので現状では、施工業者のミスと断じる事はできない。","The source of the fire is still being investigated by the firefighters. We still don't know whether or not the circuit breaker is what actually caused it. As it is currently, we can't judge it as a mistake on the contractor's part.",
+540,圭一 (Casual),"そうだな……そこに過失があると、勝手に思い込むのも
+良くないな。もしかしたら、本当にただ不幸が重なった
+事故なのかもしれない。","Yeah... making their construction work out to be faulty on your own isn't that great, especially when it could be multiple unfortunate accidents comboed into one.",
+542,詩音 (Casual),"……でも、仮に業者側に悪意がなかったとしても、
+人災であることは事実ですよね？","...But even if we consider that the contractors didn't do this out of ill will, isn't it the truth that this was a man-caused accident?",
+547,赤坂,"それも偏見ですよ、園崎さん。
+相手に悪意がある前提で考えると
+事実が見えなくなることが往々にしてある。","That's bias speaking, Sonozaki-san. Assuming that there was ill will on the other end can muddle out the truth.",
+549,赤坂,"若い君たちには、できるだけ偏見を持たずに
+物事を判断してほしいな。","As youth, I want you kids to see this situation in an unbiased light, at the very least.",
+554,戦人,"確かに……断片的な情報だけを頼りに
+一方的な見方をしてちゃ、
+事実なんて、簡単に見えなくなっちまうもんな。","For sure... by seeing it from a one-sided viewpoint while depending on incomplete information, the truth gets that much harder to see.",
+557,朱志香,"怪物も怖いけど、人間の偏見も怖いってことか。
+……いやでも、怪物も怖いけど、母さんもこええ……
+どうしよう、戦人～。","Monsters are scary, but human bias is just as bad.
+...But seriously, never mind monsters, Mom is gonna be {i}terrifying{/i}...
+What should I do, Battler~?",
+564,Rena (Casual),"はぅ……でも、人は死ななかったんですよね？
+あと、怪我をした人とかはいましたか？","Hau... but no one died, right? And no one was injured?",
+566,赤坂,"え？　あ、いや……現時点で聞いた限りだと、
+数人が転んだりして軽傷を負ったそうだけど……
+大きな怪我をした人は、いなかったらしい。","Huh? Ah, well... this is all I've heard at present, but a few people fell and sustained minor injuries... but it seems like none are gravely wounded.",
+568,赤坂,"しっかりと訓練や非常時のマニュアルが
+できていたおかげか、避難誘導が的確だったみたいでね。
+消防の人たちも、素晴らしいと褒めていたよ。","We were able to guide the evacuees to safety, seemingly thanks to our training and knowledge of emergency procedures. Even the firemen were commending us for how well it went.",
+570,Rena (Casual),"そうですか……よかった。
+だったら、万々歳ってことでいいと思います。","Oh, wow... thank goodness. I think a big congratulations is in order, then!",
+575,Kazuho (Casual),レナさん……。,Rena-san...,
+581,Nao (Casual),"そうね。慰めにはならないかもしれないけど、
+火災のは保険金とかである程度保証はできる。
+完全に大損とはいかないと思うわ。","She's right. There's always the bright side, like how a fire can guarantee an insurance payout. We can't think of it as a complete loss.",changed the first part for less awkward wording
+583,Rika (Casual),"みー、人の命はお金には代えられないのです。
+不幸中の幸いと呼ぶには損害が大きすぎるかも
+しれませんですが……。","Meep. You can't substitute human lives with money. 
+The damage might be too great to say there's a silver lining, though...",
+589,戦人,……そうだな、命あっての物種って言うからな。,"...True. They say, ""While there's life, there's hope."".",
+591,朱志香,"確かにな。
+人が死んで賠償問題とかになることを考えたら、
+それよりはずっとマシなもんだぜ。","For sure. Considering the issues that would arise if people did die, this outcome is {i}miles{/i} better.",
+596,Kazuho (Casual),朱志香さん……。,Jessica-san...,
+598,,笑うその顔の奥には、強がりが見える。,"Behind that laughing face, a show of courage appeared.",
+599,,"でも私たちを不安にさせまいとする
+その態度は……失礼かもしれないけど、
+とてもかっこいいと思った。","But in this time of us trying to quell our anxiousness... while it might be rude, I thought that was very admirable of her.",
+600,,"そんな朱志香さんを育てた人だ。
+彼女のお父さんとお母さんも、
+きっと素敵な人なんだろう……。",That Jessica-san is well brought up. I'm sure her mother and father are both wonderful people too...,
+603,朱志香,"まぁ、施工業者はともかく
+雛見沢はいい村だってわかったしな。
+住人も優しいし、面白いし。","Well, setting the contractor issue aside, I now know that Hinamizawa is a great village. The people here are loveable, it's fun here; {i}so{/i} much to like.",
+605,朱志香,"もう一度ここに温泉街を作るって
+話が出て、母さんが不安がったとしても
+次は私が胸を張って説得してやるぜ！","If the conversation about whether they'll rebuild the hot spring district comes up and my mom gets worried, I'll pump my chest out and persuade the hell out of her!",
+609,Mion (Casual),"嫌な思い出作っちゃって、ごめんね。
+……よかったら今度、普通に遊びに来てよ。","Sorry for giving you unpleasant memories.
+...If you'd like, next time you come we can play around like normal.",
+612,戦人,"お、そりゃあいいな！
+今度はうちの妹を連れてきてもいいか？","Oh, hell yeah! Can I bring my little sister too next time?",
+616,Rena (Casual),はぅ～、戦人さんって妹さんがいるんですか？,"Hau~, Battler-san has a little sister?",
+619,戦人,"あぁ。年が離れてるから、まだ小さいけどよ。
+よかったら仲良くしてやってくれ！","Yup. She's far from us in age though, so she's still tiny.
+I'll get her to get along with you guys if you want!",
+628,Rena (Casual),小さな妹さん……はぅぅっ……！,A tiny little sister... Hauuuu...!,
+636,詩音 (Casual),……レナさん、ヨダレヨダレ。,"...Rena-san, you're drooling.",
+639,Nao (Casual),あ、あたしも可愛がってあげるわ！,I-I'd love to baby her too!,
+643,Rika (Casual),みー、ぜひぜひ連れてきて欲しいのですよ。,"Meep, please do bring her at all costs.",
+645,Rika (Casual),"嫌な思い出ができてしまった場所には、
+誰しも寄りつきたくなくなるものですが……
+それだけで終わるのは、とても寂しいのです。",No one will want to deal with a place that they can make unpleasant memories... but just ending it with that is really lonely.,
+649,赤坂,うん。梨花ちゃんの言う通りだね。,"Yeah, just like Rika-chan says.",
+651,赤坂,"嫌な思い出に引きずられて、
+いい思い出を作る機会まで捨てるのは
+もったいないと思うよ。","Trying to avoid unpleasant memories is such a waste, in my opinion, because then you miss out on the pleasant ones too.",i reworded this too
+653,Rika (Casual),赤坂は、雛見沢にいい思い出がありますか？,Does Akasaka have any good memories of Hinamizawa?,
+656,赤坂,"もちろん、たくさんあるよ……
+梨花ちゃんたちが、優しくしてくれたからね。","Of course, I have a bunch...
+It's all because Rika-chan and everyone have been so sweet to me.",
+658,赤坂,"次は、うちの娘を連れてくるよ。
+きっとあの子も、ここを気に入ってくれるはずだ。",I'll bring my daughter next time. I anticipate she'll really love it here too.,
+663,Miyuki (Casual),…………。,............,
+667,戦人,"よし……刑事さんがそこまで言うなら、
+是が非でも妹を連れて来ないとな！","Alright... if the detective is gonna say all that, now I gotta do everything in my power to come here with my lil' sis!",
+672,Hanyuu (Casual),あぅあぅ、みーんな大歓迎なのです！,"Au au, everyone will welcome her with open arms!",
+674,Satoko (Casual),"お待ちしておりますわ！
+全力で可愛がって差し上げますことよ～！",I'll be waiting patiently! I'm going to offer her the pampering of a lifetime~!,
+678,圭一 (Casual),……沙都子が言うと、なんだか不安だな。,"...When Satoko says it, it makes me kind of worried.",
+681,Satoko (Casual),"圭一さん？！
+今勝手に悪意を見いだすなっていう話を
+されたばかりでしてよっ！！",Keiichi-san?! We just had a conversation earlier about not jumping to biased conclusions!!,
+685,Kazuho (Casual),あ、あははは……。,A-Ahahaha...,
+690,縁寿,…………。,............,
+691,,"物陰からそっとうかがう私の視界には、
+声を上げて笑い合うお兄ちゃんたちの姿が
+はっきりと見える。","As I stealthily eavesdrop on them, I have clear vision of Onii-chan raising his voice and laughing.",
+692,,これは……夢なんだろうか、それとも幻……？,Is this... a dream... or an illusion...?,
+693,,"過去の世界にあったかもしれない兄たちの
+楽しげで幸せそうな光景を目の当たりにして、
+思わず私は、彼らのいるところへ駆け出し――。","In this past world that may or may not have ever existed, the scene of Onii-chan and his friends seemingly having a great time together plays out right before my eyes. Without thinking, I start running towards--",
+694,,…………。,............,
+699,？？？？,……じょぉ、お嬢……。,"...Lady, hey, Lady...",
+700,縁寿,…………。,............,
+702,？？？？,しっかりして下さい、お嬢……！,"Get a grip, Lady...!",
+704,縁寿,……っ、ぅ……。,......nn... uh...,
+710,？？？？,"あぁ、気がつきましたか！
+石段のところでぐったり倒れてたのを見た時は、
+さすがに肝を冷やしましたぜ……！","Ah, you came to! When I saw you slumped over on these stone steps, I thought I was gonna have a heart attack...!",
+713,縁寿,ここ……どこ……？,Where... am I...?,
+716,？？？？,"どこ、って……頭でも打ったんです？
+雛見沢が沈んだダム湖ですよ、よく見て下さい。","Where? ...Did you hit your head? We're at the dam, where Hinamizawa was flooded. Look for yourself.",
+719,縁寿,…………。,............,
+721,,"見下ろすと石段が途中で途切れ、ダム湖が
+遠くの山にまで続いて……広がっている。","Looking down, I saw we had stopped midway going up some stone steps. They continue much farther up the mountain... stretching all the way to the dam.",
+722,,"高台から見下ろした時に視界に映った
+あの村の風景は、どこにもない。
+……まるで幻のように、消え去っていた。",The landscape that used to be visible from the high ground was nowhere to be seen... vanishing as though all it had ever been was a mirage.,
+724,？？？？,"どうしました、お嬢？
+ひょっとして、夢でも見てたんですかい？","What's the matter, Lady? You dream about something by chance?",
+727,縁寿,"夢……か。
+そうね、きっと夢なんでしょうけど……。","A dream...
+Yeah, surely that was a dream...",
+729,,"何もかもが自分の思い描いた妄想、と呼ぶには
+あまりにもリアルすぎて、納得するのは難しい。","But to brush it off as all a wild fantasy is difficult, given how vivid it was.",
+732,縁寿,（……。それに……）,(...And plus......),
+734,,"わずかに覚えのあるお兄ちゃん、
+朱志香お姉ちゃんはともかくとして……
+村にいた女の子たちの顔は全く見覚えがなかった。",While I barely remembered Onii-chan and Jessica Onee-chan... I was completely unable to recognize the faces of the village girls.,
+735,,"空想の中の真里亞お姉ちゃんや七杭たちとは
+明らかに違うというか、別種の存在だ。
+いや、想像上の人物というよりも、これは……。","Their existence clearly differs from the kind in my imagination, like Maria Onee-chan and the Seven Stakes. No, rather than them being imaginary, it was more like...",
+738,縁寿,……幽霊に、会ったのかもね。,...I may have come into contact with ghosts.,
+741,？？？？,"はぁ？　すんませんお嬢、なんて言ったんです？
+ちょいと聞き逃しまして、もう一度……。","Huh? Sorry, Lady, you wanna say that again? I missed what you said. Just one more time...",
+744,縁寿,"何でもないわ。……早く、車に戻りましょう。
+さっさとホテルに入って、ひと眠りしたいわ。",Ignore it. ...Let's head back to the car right away. I want to go to the hotel and sleep.,
+747,？？？？,おっと、縁寿さん……？,"Uhh, Ange-san...?",
+748,,"護衛はまだ未練が残るようなことをぼやきながらも、
+職務には忠実らしく私のすぐ後ろをついてくる。","While complaining about still having leftover regrets or something, my escort faithfully attended to his duty and followed behind me.",
+749,,"そんな彼を肩越しに見やってくすっ、と
+笑ってから、私はなぜかすっきりした気分で
+車の駐めた場所へ向かって歩き続けた。","Looking back at him over my shoulder, I let out a stifled laugh. For some reason, I felt refreshed as we continued walking to where the car was parked.",
+753,縁寿,雛見沢……ね……。,Hinamizawa... huh...?,
+754,,"東京に帰ったら今度、資料を探してみよう。
+今、私が求めてるものとは方向性が違うだろうけど、
+気晴らし程度にはなるはずだ。","I'll try to find some primary sources the next time I'm back in Tokyo. This might not exactly be what I'm looking for right now, but it should be a good distraction.",i changed this back to primary sources from materials
+755,,そんなことを考えながら、私は天を仰ぐ。,"As I think that, I look up at the sky.",
+757,,"周囲から聞こえるひぐらしの鳴き声が、
+やけに甲高く感じられていた――。",The surrounding noise of the Higurashi chirping felt incredibly shrill--,

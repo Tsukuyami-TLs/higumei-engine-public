@@ -1,0 +1,147 @@
+chara072008_03.bytes,chara,jp,en,
+41,Rika,…………。,............,
+43,Hanyuu,"あの……梨花。もうすぐ日が暮れるので、
+お家に戻りませんか？",Um... Rika. The day is almost over. Shouldn't we head home?,
+46,Rika,……っ……。,...ngh...,
+48,Hanyuu,"……。用があったら、いつでも呼んでください。
+すぐに駆けつけますので……。","...If you need me, please call me whenever.
+I'll come rushing over to you right away...",
+54,Rika,…………。,............,
+61,Rika,"……。ちゃんと、説明すればよかったのにね。
+別に悪いことを企んでいたわけじゃないのに……。",...I should have explained properly. I really wasn't planning on doing anything mean...,
+64,Rika,"沙都子の、バカ……。
+でも私は、もっとバカ……っ……。","Satoko's an idiot...
+But I'm the bigger one... gh...",
+67,Nao,"……そうね。
+せっかくのサプライズがこんな形になったんじゃ、
+そんなふうに落ち込んでも当然よね。","...True.
+It's obvious that someone would get down in the dumps after messing up a big surprise like that.",
+69,Rika,えっ……？,Eh...?,
+82,Nao,"店頭に置いてたチラシ、もらってきたの。
+梨花……あんたがツルイのお醤油を買ったのは、
+これが目当てだったのね？","I grabbed this leaflet they had set up at the storefront.
+Rika... so this was your goal when you bought the Anfeya soy sauce?",pamphlet?
+84,Rika,っ、菜央……？！,"Ah-, Nao...?!",
+89,Rena,"お箸とお椀、お皿……お揃いの食卓セット。
+それに……はぅ～、この絵柄のクマさんって
+とってもかぁいいよ～♪","Chopsticks, bowls and plates... a full matching dinner set.
+And plus... hau~, this Mr. Beary print is soo kyuute~♪",added 'matching'
+93,Kazuho,"キャンペーン期間中の、特別プレゼント。
+梨花ちゃんは、これに応募しようと思ってたんだね。","The special prize during their promotions.
+You were thinking to enter the raffle with this, weren't you, Rika-chan?",
+96,Rika,"……。はいなのです。
+もし当たったら、沙都子が喜んでくれるかと
+思ったのですよ。","...Yes, I was.
+I thought Satoko would have been happy if I won.",
+100,Miyuki,"だったら、正直に言えばよかったのにさ。
+もったいぶって変に勘繰られたんじゃ、
+割に合わないでしょうに。","You should have been upfront then.
+Acting all weird and making people suspicious doesn't make it worth it.",
+102,Rika,"抽選だったので、期待させて外れたら沙都子を
+かえってがっかりさせると思ったのですよ。
+だけど……。","Since it was a raffle, I thought Satoko would be disappointed if I got her hopes up and I ended up losing, but...",
+104,Rika,"売り言葉に、買い言葉が続いているうちに
+なんでボクのことをわかってくれないんだろう、
+こんなにも長く、一緒に暮らしているのに……。","During that heated exchange, I started thinking, ""Why can't she understand me even though we've lived together for so long?""...",
+106,Rika,"なんて考えていたら、つい腹が立って
+喧嘩になってしまったのですよ……。","And I accidentally got really angry because of it, so it turned into a fight...",
+110,Rena,でも……今は後悔しているんだよね、梨花ちゃん。,"But... you regret it now, right, Rika-chan?",
+113,Rika,"はいなのです。……でも、あんなにも沙都子を
+怒らせたことは、本当に久しぶりだったので……。","Yes, I do. ...But since it's been so long since I've made Satoko that mad...",
+115,Rika,"どう謝ったらいいのかわからなくて、
+こんな感じになってしまったのですよ……。","I didn't know how to apologize to her, and then it ended up like this...",
+119,Kazuho,"心配しなくてもいいと思うよ、梨花ちゃん。
+気心が知れた仲だからこそ、あれこれ考えすぎて
+謝りづらくなってるのかもだけど……。","I don't think you have to worry, Rika-chan.
+The fact that you're so close to each other might have made you overthink, so it became difficult to apologize...",
+121,Kazuho,"悪かったことはごめん、って言葉で伝えて
+しっかり話をする……
+それだけであなたたちは十分じゃないかな？","But when you feel sorry for what you did, you should convey that to each other properly... so isn't that about enough for you two?",If you think you did something wrong then apologize and properly talk to each other with words... isn't that enough for you two?' change to this
+123,Kazuho,そうでしょ？　沙都子ちゃん。,"Don't you agree, Satoko-chan?",
+127,Satoko,…………。,............,
+129,Rika,みみっ？　さ、沙都子……っ？,M-Meep? S-Satoko...?,
+131,Satoko,"……ごめんなさいですわ、梨花。
+そんなお心遣いをしてくださっていたなんて、
+私は昨夜気づけなくて……。","...I'm so sorry, Rika.
+I never realized last night how much thought you put in for me...",
+133,Satoko,"よくよく考えてみれば、梨花が特に理由もなく
+お醤油を変えることなんて、ありませんものね。
+そこに至らなかった自分が、恥ずかしいですわ……。","If you really, really think about it, there's no way Rika could have bought a different soy sauce for no reason. It's embarrassing for me not to have come to that realization...",
+135,Rika,"みー、そんなことはないのです。
+ボクも沙都子を驚かせたいと思いすぎて、
+変なふうに隠しごとをしてしまいました。",Meep. That's not true at all. I thought too hard about wanting to surprise you and ended up acting weird and secretive.,
+137,Rika,"おまけに、腹が立ったとしてもあなたに
+言わなくてもいいことを言ってしまって……
+謝らなければいけないのは、ボクの方なのですよ。","What's more, I got angry and said some things that shouldn't have been said... so the one who should apologize here is me.",
+140,Satoko,"いいえ、私の方がごめんなさいですわ。
+言うに事欠いて、あんな言い方をして……。","No, I'm more sorry. It goes without saying that the way I spoke... was...",
+143,Rika,みー、ボクだって……。,"Meep, even mine was...",
+146,Satoko,…………。,............,
+149,Rika,…………。,............,
+151,Satoko,……ふふっ。,......*chuckle*.,
+153,Rika,あははっ……。,Ahaha...,
+159,Mion,"うんうん、これにて一件落着っ。
+んじゃ沙都子、今日の夕食は梨花ちゃんと
+一緒ってことでいいね？","Yep, yep, now this settles it.
+So, Satoko, why don't you and Rika make today's dinner together?",
+164,Satoko,"えぇ、もちろんですわ。
+お願いしてもよろしいかしら、梨花？","Yes, of course. May I ask the same of you, Rika?",
+166,Rika,"はいなのです。
+腕によりをかけておいしいご飯を
+作るのですよ、にぱー★","Yes, I would like to. I'll put all of my effort in to make us a super delicious meal. Nipah★",
+177,Satoko (高校生夏服),"……結局、あの懸賞は当たりませんでしたわね。
+でも私、全く残念には思いませんでしたの。",...We never got that prize in the end. But I didn't think of it as a complete loss.,
+179,Satoko (高校生夏服),"だって、あの時の梨花のお気持ち……
+とっても嬉しかったんですからね。",Because the feelings that you shared with me then... made me incredibly happy.,
+181,Rika (高校生),沙都子……。,Satoko...,
+183,Satoko (高校生夏服),"あ……あれっ？　なんで私、
+こんな話をしてしまったんですの？",Uh... huh? What made me bring this topic up again?,
+185,Satoko (高校生夏服),"確か、私……梨花が隠しごとを時々していることを
+非難するつもりでしたのに……あれれっ……？","If I remember correctly, I was... blaming you for hiding stuff from me at times, but... huhhh...?",
+187,Rika (高校生),"……ごめんなさい、沙都子。
+伝わって当然だと思っていることを伝えずに
+黙っているのは、私の悪いくせね。","...I'm sorry, Satoko.
+It's a bad habit of mine to assume things are already clear, so I don't feel the need to convey them.",I have the bad habit of keeping quiet about the things I assume they've been conveyed already.'
+189,Rika (高校生),"だから、ちゃんと話す。
+そしてあなたのことも、ちゃんと信じ続けるわ。
+今も……そしてこれからも、ね。","I'll be more open now. And I'll continue trusting in you too.
+Now and... forever more.",
+191,Satoko (高校生夏服),"……。戻りましょう、梨花。
+遅いと、寮の門限を過ぎてしまいますわよ。","......Let's head back, Rika. We'll miss the dorm curfew if we stay too late.",
+194,Rika (高校生),……えぇ、そうね。行きましょう、一緒に。,"...Yeah, you're right. Let's go, together.",
+202,Rika (高校生),"さて……これで髪のセットはおしまい。
+教科書とノートは昨夜準備したから、あとは……。","Okay... my hair is set, my textbooks and notebooks have been ready since last night, and now...",
+203,Rika (高校生),"あっ、もうこんな時間。
+早く起きたつもりなのに、気がついたら
+結構いい時間になってしまったわ。","Ah, look at the time.
+I planned to get up extra early today, but it ended up being pretty nice timing before I realized it.",
+204,Rika (高校生),"そう言えば沙都子、昨日も遅刻ギリギリで
+危なかったって言っていたわね……。
+ちょっと見に行ってあげようかしら。","By the way, Satoko did say that she was dangerously close to being late yesterday... I'll go check on her.",did say she was dangerously close...' ((idk why there was a comma here skjsk
+210,Rika (高校生),"……やっぱり、まだ寝ているのね。
+沙都子、そろそろ起きないと遅刻するわよ。","...Just as I thought, she's still asleep.
+Satoko, if you don’t get up, we'll be late.",
+211,Satoko (高校生夏服),"ふにゅぅ……梨花、あと少し……
+あと１分……いえ３分、……３０分……。","Hmmnhhnn... Rika, just a bit longer...
+1 minute... no, 3 minutes... 30...",
+212,Rika (高校生),"どんどん増えているじゃない、もうっ。
+そのまま寝続けて遅刻して、
+また放課後に補習が入ってもいいの？","Oh, c'moonn, you just keep adding on more tiiime...
+If you stay asleep like that, you'll be late. Do you want to get stuck in supplementary class again after school?",
+213,Satoko (高校生夏服),わ、わかりましたわ……はふぅ……。,"O-Okay, I got it... hnmmnn...",
+214,Satoko (高校生夏服),"……って、梨花？
+どうしてあなたが、私の部屋に？","...Wait, Rika? Why are you in my dorm?",AHHHBGGHHH I KNEW IT
+215,Rika (高校生),"くす……おはよう、沙都子。
+あなたのことが心配だったから、
+起こしに来てあげたのよ。","*giggle*... good morning, Satoko.
+ I was worried about you, so I came to wake you up.",
+216,Rika (高校生),"早く顔を洗ってらっしゃい。
+髪のセット、手伝ってあげるから。",Hurry up and wash your face. I'll help fix your hair for you.,
+217,Satoko (高校生夏服),"は……はぁ……了解ですわ。
+ちょっとだけ、待っていてくださいませ。",U-... uh-huh... I'm alright with that. Please wait for a few minutes.,
+218,,…………。,............,
+221,Satoko (高校生夏服),"（……変な夢を見たような気がしますけど、
+まるで思い出せませんわ。ただ……）","(...I feel like I was having a weird dream, but I've forgotten most of it. It's just...)",NOOOOO
+223,Satoko (高校生夏服),"（あともう少しだけ、梨花のことを
+信じてみたい……そんな気分でしてよ……）","(I want to try putting more trust in Rika now...
+That's how I feel...)",
